@@ -1,0 +1,5 @@
+Pakkes ut til ..administrator/components/com_virtuemart/language/
+
+
+2006.12.20 Filen har fått seg en rask språkvask, men en del gjennstår - innsendt av Knut Carlsen
+2006.06.02 Dobbeloppføring av "var $_PHPSHOP_ISSHIP_FORM_LEAD_LBL = 'Ledetid';" fjernet av Hans Petter
