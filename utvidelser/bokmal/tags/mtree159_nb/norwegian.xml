@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mtreeinstall version="1.0" type="language">
+	<name>Norwegian</name>
+	<version>1.59</version>
+	<creationDate>May 2006</creationDate>
+	<author>Joomla! i Norge</author>
+	<authorUrl>http://www.joomlainorge.no/</authorUrl>
+	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+	<files>
+		<filename>norwegian.php</filename>
+	</files>
+</mtreeinstall>

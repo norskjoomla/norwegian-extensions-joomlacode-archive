@@ -1,0 +1,12 @@
+
+Norsk språkfil for mTree oversatt av Robert Wessel (joombie)
+http://filer.joomlainorge.no
+
+
+norwegian.php og norwegian.xml plasseres i ../components/com_mtree/language/
+
+
+
+* Endringslogg
+---------------
+4.9.2006 Språkvasket og oppdatert til v1.59 - Rune Rasmussen
