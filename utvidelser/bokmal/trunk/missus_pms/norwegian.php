@@ -1,6 +1,6 @@
 <?php
 /**
-* $id$
+* Version $Id$
 * Missus - Private Messages for Joomla
 * Version: 1.1
 * Author: Bárbara Irene Meclazcke (aclaina@yahoo.com.ar) <ewriting.com.ar>
