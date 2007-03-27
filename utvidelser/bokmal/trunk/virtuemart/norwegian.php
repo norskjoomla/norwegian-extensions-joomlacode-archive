@@ -41,7 +41,7 @@ class vmLanguage extends vmAbstractLanguage {
 	var $_PHPSHOP_LOGOUT_TITLE = 'Logg ut';
 	var $_PHPSHOP_BROWSE_TITLE = 'Bla gjennom';
 	var $_PHPSHOP_SEARCH_TITLE = 'Søk';
-	var $_PHPSHOP_ACCOUNT_TITLE = 'Vedlikehold av konto';
+	var $_PHPSHOP_ACCOUNT_TITLE = 'Din konto';
 	var $_PHPSHOP_NAVIGATION_TITLE = 'Navigasjon';
 	var $_PHPSHOP_DEPARTMENT_TITLE = 'Avdeling';
 	var $_PHPSHOP_INFO = 'Informasjon';
@@ -209,7 +209,7 @@ class vmLanguage extends vmAbstractLanguage {
 	var $_PHPSHOP_ORDER_LIST_STATUS = 'Status';
 	var $_PHPSHOP_ORDER_LIST_TOTAL = 'Sum';
 	var $_PHPSHOP_ORDER_ITEM = 'Ordreartikler';
-	var $_PHPSHOP_ORDER_PRINT_PO_LBL = 'Ordre';
+	var $_PHPSHOP_ORDER_PRINT_PO_LBL = 'Betal nå';
 	var $_PHPSHOP_ORDER_PRINT_PO_NUMBER = 'Ordrenummer';
 	var $_PHPSHOP_ORDER_PRINT_PO_DATE = 'Ordredato';
 	var $_PHPSHOP_ORDER_PRINT_PO_STATUS = 'Ordrestatus';
