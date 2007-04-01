@@ -1,7 +1,7 @@
 <?php
 /**
 * Joomla Community Builder
-* @version $Id: norwegian.php 71 2007-03-14 11:55:55Z rued $
+* @version $Id$
 * @package Community Builder
 * @subpackage Norwegian Language file
 * @author Bjorn A. Solstad and Tor Otto Tollefsen
