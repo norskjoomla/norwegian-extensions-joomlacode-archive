@@ -547,7 +547,7 @@ DEFINE('_UE_CONNECTIONREMOVED_MSG','%s har fjernet deg som venn!');
 DEFINE('_UE_CONNECTIONACCEPTED_SUB','Søknad godkjent!');
 DEFINE('_UE_CONNECTIONACCEPTED_MSG','Din søknad om å bli lagt til som venn hos %s ble godkjent!');
 DEFINE('_UE_CONNECTIONDENYSUCCESSFULL','Søknad avvist!');
-DEFINE('_UE_TOC_LINK','Godta %sbetingelsene%s');	// to link only the "Terms and Conditions", first %s will be replaced by <a.. and second %s by </a>.
+DEFINE('_UE_TOC_LINK','Jeg bekrefter herved at jeg har lest og akseptert %sbetingelsene%s!');	// to link only the "Terms and Conditions", first %s will be replaced by <a.. and second %s by </a>.
 // RC2 Newsletters Support
 DEFINE('_UE_NEWSLETTER_HEADER','Nyhetsbrev');
 DEFINE('_UE_NEWSLETTER','Abonnementer nyhetsbrev ');
