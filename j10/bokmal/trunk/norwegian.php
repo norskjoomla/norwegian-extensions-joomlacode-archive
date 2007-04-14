@@ -129,7 +129,7 @@ DEFINE('_PASSWORD','Passord');
 DEFINE('_BUTTON_LOGIN','Logg inn');
 DEFINE('_BUTTON_LOGOUT','Logg ut');
 DEFINE('_NO_ACCOUNT','Ingen konto ennå?');
-DEFINE('_CREATE_ACCOUNT','Opprett en');
+DEFINE('_CREATE_ACCOUNT','Registrer deg!');
 DEFINE('_VOTE_POOR','Dårlig');
 DEFINE('_VOTE_BEST','Best');
 DEFINE('_USER_RATING','Brukerrangering');
