@@ -87,6 +87,7 @@
         <filename>nb-NO.plg_user_joomla.ini</filename>
         <filename>nb-NO.plg_xmlrpc_blogger.ini</filename>
         <filename>nb-NO.plg_xmlrpc_joomla.ini</filename>
+        <filename>nb-NO.tpl_beez.ini</filename>
         <filename>nb-NO.tpl_rhuk_milkyway.ini</filename>
         <filename file="meta">nb-NO.xml</filename>
     </files>
