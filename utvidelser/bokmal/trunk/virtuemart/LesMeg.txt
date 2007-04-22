@@ -1,6 +1,7 @@
-Pakkes ut til ..administrator/components/com_virtuemart/language/
+norwegian.php pakkes ut/kopieres til ..administrator/components/com_virtuemart/language/
+email_norwegian.html pakkes ut/kopieres til ..administrator/components/com_virtuemart/html/templates/order_emails/
 
-
+2007.04.22 Generell språkvask og forbedring - Rune Rasmussen
 2007.03.16 	Rettet opp i feil i alt som er oversatt. Noe er enda ikke på norsk, men er kanskje heller ikke nødvendig. 
 		Språkfilen bør testes mer for å se alle oversettelser i rett sammenheng, spesielt med tanke
 		på bruk av store og små bokstaver. -Innsendt av Thor Andre Gretland
