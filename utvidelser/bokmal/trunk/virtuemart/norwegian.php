@@ -809,7 +809,7 @@ class vmLanguage extends vmAbstractLanguage {
 	var $_PHPSHOP_AVAILABILITY = 'Tilgjengelighet';
 	var $_PHPSHOP_CURRENTLY_NOT_AVAILABLE = 'Dette produktet er for tiden ikke tilgjengelig';
 	var $_PHPSHOP_PRODUCT_AVAILABLE_AGAIN = 'Vil bli tilgjengelig igjen den: ';
-	var $_PHPSHOP_STATISTIC_SUMMARY = 'Oppsummering';
+	var $_PHPSHOP_STATISTIC_SUMMARY = 'Kontrollpanel';
 	var $_PHPSHOP_STATISTIC_STATISTICS = 'Statistikk';
 	var $_PHPSHOP_STATISTIC_CUSTOMERS = 'Kunder';
 	var $_PHPSHOP_STATISTIC_ACTIVE_PRODUCTS = 'Aktive produkter';
