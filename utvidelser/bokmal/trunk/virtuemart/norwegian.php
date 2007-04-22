@@ -219,7 +219,7 @@ class vmLanguage extends vmAbstractLanguage {
 	var $_PHPSHOP_ORDER_PRINT_BILL_TO_LBL = 'Faktureres';
 	var $_PHPSHOP_ORDER_PRINT_SHIP_TO_LBL = 'Leveres';
 	var $_PHPSHOP_ORDER_PRINT_NAME = 'Navn';
-	var $_PHPSHOP_ORDER_PRINT_COMPANY = 'Selskap';
+	var $_PHPSHOP_ORDER_PRINT_COMPANY = 'Firmanavn';
 	var $_PHPSHOP_ORDER_PRINT_ADDRESS_1 = 'Adresse 1';
 	var $_PHPSHOP_ORDER_PRINT_ADDRESS_2 = 'Adresse 2';
 	var $_PHPSHOP_ORDER_PRINT_CITY = 'Poststed';
