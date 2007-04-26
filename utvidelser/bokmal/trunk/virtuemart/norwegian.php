@@ -208,8 +208,8 @@ class vmLanguage extends vmAbstractLanguage {
 	var $_PHPSHOP_ORDER_LIST_MDATE = 'Sist endret';
 	var $_PHPSHOP_ORDER_LIST_STATUS = 'Status';
 	var $_PHPSHOP_ORDER_LIST_TOTAL = 'Sum';
-	var $_PHPSHOP_ORDER_ITEM = 'Ordreartikler';
-	var $_PHPSHOP_ORDER_PRINT_PO_LBL = 'Ordre';
+	var $_PHPSHOP_ORDER_ITEM = 'Artikler';
+	var $_PHPSHOP_ORDER_PRINT_PO_LBL = 'Ordredetaljer';
 	var $_PHPSHOP_ORDER_PRINT_PO_NUMBER = 'Ordrenummer';
 	var $_PHPSHOP_ORDER_PRINT_PO_DATE = 'Ordredato';
 	var $_PHPSHOP_ORDER_PRINT_PO_STATUS = 'Ordrestatus';
@@ -635,7 +635,7 @@ class vmLanguage extends vmAbstractLanguage {
 	var $_PHPSHOP_RETURN_LOGIN = 'Eksisterende kunder: Vennligst logg inn';
 	var $_PHPSHOP_NEW_CUSTOMER = 'Ny kunde? Vennligst registrer fakturainformasjon';
 	var $_PHPSHOP_ACC_CUSTOMER_ACCOUNT = 'Kundekonto:';
-	var $_PHPSHOP_ACC_ORDER_INFO = 'Ordreinformasjon';
+	var $_PHPSHOP_ACC_ORDER_INFO = 'Ordreoversikt';
 	var $_PHPSHOP_ACC_UPD_BILL = 'Her kan du oppdatere din fakturainformasjon.';
 	var $_PHPSHOP_ACC_UPD_SHIP = 'Her kan du legge til og endre dine leveringsadresser.';
 	var $_PHPSHOP_ACC_ACCOUNT_INFO = 'Kontoinformasjon';
