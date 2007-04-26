@@ -196,7 +196,7 @@ class vmLanguage extends vmAbstractLanguage {
 	var $_PHPSHOP_ISSHIP_FORM_CHARGE_P_LBL = 'prosent';
 	var $_PHPSHOP_ISSHIP_FORM_DAYS_LBL = 'dager';
 	var $_PHPSHOP_ISSHIP_FORM_HEAVY_LBL = 'Tung frakt';
-	var $_PHPSHOP_ORDER_MOD = 'Ordre';
+	var $_PHPSHOP_ORDER_MOD = 'Ordredetaljer';
 	var $_PHPSHOP_ORDER_CONFIRM_MNU = 'Bekreft ordre';
 	var $_PHPSHOP_ORDER_CANCEL_MNU = 'Avbryt ordre';
 	var $_PHPSHOP_ORDER_PRINT_MNU = 'Skriv ut ordre';
