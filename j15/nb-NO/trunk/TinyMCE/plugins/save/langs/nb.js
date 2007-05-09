@@ -4,5 +4,6 @@
 // license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 
 tinyMCE.addToLang('save',{
-save_desc : 'Lagre'
+save_desc : 'Lagre',
+cancel_desc : 'Avbryt uten å lagre'
 });
