@@ -87,10 +87,12 @@ toolbar_focus : 'Hopp til verktøylinje - Alt+Q, hopp til tekstbehandler - Alt-Z
 more_colors : 'Flere farger',
 color_picker_tab : 'Samler',
 color_picker : 'Fargesamler',
-web_colors_tab : 'Nettleser-sikre',
-web_colors : 'Nettleser-sikre farger',
+web_colors_tab : 'Palett',
+web_colors : 'Palettfarger',
 named_colors_tab : 'Navngitte',
 named_colors : 'Navngitte farger',
 color : 'Farge:',
-color_name : 'Navn:'
+color_name : 'Navn:',
+is_email : 'Nettadressen du skrev inn ser ut til å være en e-postadreese, vil du legg til nødvendig mailto: prefiks?',
+is_external : 'Nettadressen du skrev inn ser ut til å være en til en ekster side, vil du legge til nødvendig http:// prefiks?'
 });
