@@ -1,4 +1,4 @@
-// UK lang variables
+// Norwegian lang variables
 
 tinyMCE.addToLang('imgmanager_ext',{
 desc : 'Sett inn/endre bilde',
