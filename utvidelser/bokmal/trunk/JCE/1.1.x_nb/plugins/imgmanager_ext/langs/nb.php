@@ -1,5 +1,5 @@
 <?php
-// en lang variables
+// norwegian lang variables
 //Names
 $pl['title'] = 'Utvidet bildebehandler';
 $pl['desc'] = 'Sett inn/Endre bilde';
