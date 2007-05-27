@@ -25,6 +25,8 @@
 		<filename>themes/advanced/images/italic_nb.gif</filename>
 		<filename>plugins/advlink/langs/nb.js</filename>
 		<filename>plugins/advlink/langs/nb.php</filename>
+		<filename>plugins/advlink_ext/langs/nb.js</filename>
+		<filename>plugins/advlink_ext/langs/nb.php</filename>
 		<filename>plugins/attributes/langs/nb.js</filename>
 		<filename>plugins/audioplayer/langs/nb.js</filename>
 		<filename>plugins/caption/langs/nb.js</filename>
@@ -41,10 +43,14 @@
         <filename>plugins/iframe/langs/nb.js</filename>
         <filename>plugins/imgmanager/langs/nb.js</filename>
         <filename>plugins/imgmanager/langs/nb.php</filename>
+		<filename>plugins/imgmanager_ext/langs/nb.js</filename>
+        <filename>plugins/imgmanager_ext/langs/nb.php</filename>
         <filename>plugins/joomla/langs/nb.js</filename>
         <filename>plugins/joomlaboard/langs/nb.js</filename>
         <filename>plugins/joomlaboard/langs/nb.php</filename>
         <filename>plugins/layer/langs/nb.js</filename>
+		<filename>plugins/mediamanager/langs/nb.js</filename>
+        <filename>plugins/mediamanager/langs/nb.php</filename>
         <filename>plugins/nonbreaking/langs/nb.js</filename>
         <filename>plugins/paste/langs/nb.js</filename>
         <filename>plugins/preview/langs/nb.js</filename>
