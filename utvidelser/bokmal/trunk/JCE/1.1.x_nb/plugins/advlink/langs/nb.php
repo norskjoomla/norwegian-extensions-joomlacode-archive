@@ -20,7 +20,7 @@ $pl['select_article'] = 'Velg artikkel';
 $pl['select_section'] = 'Velg seksjon';
 $pl['select_category'] = 'Velg kategori';
 $pl['select_static'] = 'Velg statisk innhold';
-$pl['select_contact'] = 'Velg kontakter';
+$pl['select_contact'] = 'Velg kontakt';
 
 $pl['search'] = 'Søk';
 $pl['order'] = 'Rekkefølge';
