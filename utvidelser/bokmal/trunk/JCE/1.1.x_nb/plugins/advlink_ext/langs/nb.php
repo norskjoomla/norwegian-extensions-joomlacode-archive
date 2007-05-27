@@ -1,5 +1,5 @@
 <?php
-//English Language variables
+//Norwegian Language variables
 $pl['title'] = 'Avansert link SE';
 $pl['desc'] = 'Sett inn/Endre lenke';
 $pl['content'] = 'Joomla! innholdslenker';

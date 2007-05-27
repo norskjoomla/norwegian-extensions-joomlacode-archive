@@ -1,4 +1,4 @@
-// UK lang variables
+// Norwegian lang variables
 
 tinyMCE.addToLang('advlink_ext',{
 desc : 'Sett inn/Rediger lenke',
