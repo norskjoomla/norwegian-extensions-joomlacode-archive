@@ -67,7 +67,7 @@ DEFINE('_UE_DELETE_AVATAR',' Fjern profilbilde');
 DEFINE('_UE_USERPROFILE','Brukerprofil');
 DEFINE('_UE_USERLIST','Brukerliste');
 DEFINE('_UE_AVATARS','Bilder');
-DEFINE('_UE_REGISTRATION','Registrerng');
+DEFINE('_UE_REGISTRATION','Registrering');
 DEFINE('_UE_SUBSCRIPTION','Abonnement');
 DEFINE('_UE_INTEGRATION','Integrasjon');
 
@@ -78,7 +78,7 @@ DEFINE('_UE_FIELD_EXPLAINATION','Skal dette feltet være obligatorisk og kunne se
 DEFINE('_UE_CONFIG','Konfigurasjon');
 DEFINE('_UE_CONFIG_DESC','Endre konfigurasjonen');
 DEFINE('_UE_VERSION','Din versjon er ');
-DEFINE('_UE_BY','En Mambo / Joomla Custom Component av');
+DEFINE('_UE_BY','En Mambo / Joomla! -tilpasset komponent av');
 DEFINE('_UE_CURRENT_SETTINGS','Eksisterende innstillinger');
 DEFINE('_UE_A_EXPLANATION','Beskrivelse');
 DEFINE('_UE_DISPLAY','Vis?');
@@ -116,13 +116,13 @@ DEFINE('_UE_ALLOW_IM','Direktemeldingslenker');
 DEFINE('_UE_ALLOW_IM_DESC','Tillat direktemeldingslenker');
 DEFINE('_UE_ALLOW_ONLINESTATUS','Status');
 DEFINE('_UE_ALLOW_ONLINESTATUS_DESC','Vis status');
-DEFINE('_UE_ALLOW_EMAIL_DISPLAY_DESC','JA, vil vise e-postaddresser alle steder i denne komponenten. NEI, vil skjule e-post-adressene.');
+DEFINE('_UE_ALLOW_EMAIL_DISPLAY_DESC','JA, vil vise e-postadresser alle steder i denne komponenten. NEI, vil skjule e-post-adressene.');
 DEFINE('_UE_ALLOW_EMAIL_REPLYTO','E-post avsender ("From:")');
-DEFINE('_UE_ALLOW_EMAIL_REPLYTO_DESC','Innstilling for avsender-addresse når skjemadata sendes til brukere. Mulige valg:<ol>'
-		.'<li>"From:" Brukerens e-postaddresse (og ingen "Reply-To:"-felt).<br/>Brukeren mottar selv alle svar og feilmeldinger, for økt personvern)</li>'
-		.'<li>"From:" Administrators e-postaddresse, med "Reply-To" satt til brukerens e-postaddresse.<br/>Dette kan unngå problemer med søppelpost-filtre, men administrator kan motta feilmeldinger og feilsendte e-poster</li></ol>');
-DEFINE('_UE_A_FROM_USER', 'Brukerens e-postaddresse');
-DEFINE('_UE_A_FROM_ADMIN', 'Administrator, med "Reply-To" til brukeren');
+DEFINE('_UE_ALLOW_EMAIL_REPLYTO_DESC','Innstilling for avsender-adresse når skjemadata sendes til brukere. Mulige valg:<ol>'
+		.'<li>"From:" Brukerens e-postadresse (og ingen "Svar til:"-felt).<br/>Brukeren mottar selv alle svar og feilmeldinger, for økt personvern)</li>'
+		.'<li>"From:" Administrators e-postadresse, med "Svar til" satt til brukerens e-postadresse.<br/>Dette kan unngå problemer med søppelpost-filtre, men administrator kan motta feilmeldinger og feilsendte e-poster</li></ol>');
+DEFINE('_UE_A_FROM_USER', 'Brukerens e-postadresse');
+DEFINE('_UE_A_FROM_ADMIN', 'Administrator, med "Svar til" til brukeren');
 
 //Admin Moderate Tab labels
 DEFINE('_UE_MODERATE','administrator');
@@ -138,9 +138,9 @@ DEFINE ('_UE_ALLOWUSERPROFILEBANNING','Tillat låsing av profiler');
 //Admin Registration tab labels
 DEFINE('_UE_NAME_FORMAT','Navneformat');
 DEFINE('_UE_DATE_FORMAT','Datoformat');
-DEFINE('_UE_NAME_FORMAT_DESC','Velg standardformat for Navn/BrukerID.');
+DEFINE('_UE_NAME_FORMAT_DESC','Velg standardformat for Navn/Bruker-ID.');
 DEFINE('_UE_DATE_FORMAT_DESC','Velg datoformat for datofelter.');
-DEFINE ('_UE_REG_CONFIRMATION_DESC','Sett feltet til JA for å sende en e-post til en bruker når de har registreret seg, med en lenke for bekreftelse av registreringen.');
+DEFINE ('_UE_REG_CONFIRMATION_DESC','Sett feltet til JA for å sende en e-post til en bruker når de har registrert seg, med en lenke for bekreftelse av registreringen.');
 DEFINE ('_UE_REG_CONFIRMATION','Krev e-post bekreftelse');
 DEFINE ('_UE_REG_ADMIN_APPROVAL','Krev Admin-godkjenning');
 DEFINE ('_UE_REG_ADMIN_APPROVAL_DESC','Krev alle brukerregistreringer godkjent av en administrator');
@@ -148,7 +148,7 @@ DEFINE ('_UE_REG_EMAIL_NAME','Registreringens e-postnavn');
 DEFINE ('_UE_REG_EMAIL_NAME_DESC','Tast inn det navnet som skal benyttes når du sender e-post');
 DEFINE ('_UE_REG_EMAIL_FROM','Registreringens e-postadresse');
 DEFINE ('_UE_REG_EMAIL_FROM_DESC','E-postadressen du vil benytte når du sender post til brukere som har registrert seg');
-DEFINE ('_UE_REG_EMAIL_REPLYTO','E-post svar-adresse når du sender e-post til registranter');
+DEFINE ('_UE_REG_EMAIL_REPLYTO','E-post svar-adresse når du sender e-post til nyregistrerte');
 DEFINE ('_UE_REG_EMAIL_REPLYTO_DESC','E-postadresse du vil bruke som svar-til adresse');
 DEFINE ('_UE_REG_PEND_APPR_MSG','Venter på e-post for godkjenning');
 DEFINE ('_UE_REG_WELCOME_MSG','Velkommen e-post');
@@ -228,7 +228,7 @@ DEFINE('_UE_INFO','Info');
 DEFINE('_UE_PROFILE','Profil');
 DEFINE('_UE_PRIVATE_MESSAGE','Privat melding');
 DEFINE('_UE_ADDITIONAL','Tilleggsinformasjon');
-DEFINE('_UE_NO_DATA','Ikke angittt');
+DEFINE('_UE_NO_DATA','Ikke angitt');
 DEFINE('_UE_CLICKTOVIEW','Klikk for');
 DEFINE('_UE_CLICKTOSORTBY','Klikk for sortering av %s');
 DEFINE('_UE_UL_USERNAME_NAME','Brukernavn(Navn)');
@@ -239,9 +239,9 @@ DEFINE('_UE_CREATE_ACCOUNT','Bli medlem her');
 DEFINE('_UE_REGISTER','Registrer deg');
 DEFINE('_UE_FORGOT_PASSWORD','Glemt passord?');
 DEFINE('_LOGIN_NOT_CONFIRMED','Innmeldingingen din er ikke bekreftet! Sjekk e-posten din for mer info som akkurat har blitt sendt til deg. Hvis du ikke finner e-posten, sjekk søppelpost-mappen. Sørg for at søppelpost-mappen ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
-DEFINE('_LOGIN_NOT_APPROVED','Din brukerid er ikke fortsatt ikke godkjent!');
-DEFINE('_UE_USER_CONFIRMED','Din brukerid er godkjent og du kan logge inn.');
-DEFINE('_UE_USER_NOTCONFIRMED','Din brukerid er fortsatt ikke aktiv.  Sjekk e-posten din for mer info om hvordan du bekrefter innmeldingen. Hvis du ikke finner e-posten, sjekk søppelpost-mappen. Sørg for at søppelpost-mappen ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
+DEFINE('_LOGIN_NOT_APPROVED','Din bruker-id er ikke fortsatt ikke godkjent!');
+DEFINE('_UE_USER_CONFIRMED','Din bruker-id er godkjent og du kan logge inn.');
+DEFINE('_UE_USER_NOTCONFIRMED','Din bruker-id er fortsatt ikke aktiv.  Sjekk e-posten din for mer info om hvordan du bekrefter innmeldingen. Hvis du ikke finner e-posten, sjekk søppelpost-mappen. Sørg for at søppelpost-mappen ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
 
 
 //Avatar
@@ -278,7 +278,7 @@ DEFINE('_UE_USERREASON','Årsak til rapportering av bruker');
 DEFINE('_UE_BANREASON','Årsak for låsing');
 DEFINE('_UE_SUBMITFORM','Send');
 DEFINE('_UE_NOUNBANREQUESTS','Ingen forespørsler om oppheving av låsing');
-DEFINE('_UE_IMAGE_MODERATE','Administrer bilder');
+DEFINE('_UE_IMAGE_MODERATE','Administrere bilder');
 DEFINE('_UE_APPROVE_IMAGE','Godkjenn bilde');
 DEFINE('_UE_REJECT_IMAGE','Avvis bilde');
 DEFINE('_UE_MODERATE_TITLE','administrator');
@@ -297,7 +297,7 @@ DEFINE('_UE_USERBAN_SUCCESSFUL','Brukerprofil er låst.');
 DEFINE('_UE_FUNCTIONALITY_DISABLED','Denne funksjonen er midlertidig ikke tilgjengelig.');
 DEFINE('_UE_UPLOAD_PEND_APPROVAL','Bildet ditt venter på godkjenning av en administrator.');
 DEFINE('_UE_UPLOAD_SUCCESSFUL','Bildet ditt er lastet opp.');
-DEFINE('_UE_UNBANREQUEST','Søknad om opphvelse av låsing');
+DEFINE('_UE_UNBANREQUEST','Søknad om opphevelse av låsing');
 DEFINE('_UE_USERUNBANREQUEST_SUCCESSFUL','Din søknad om opphevelse av låsing er sendt.');
 DEFINE('_UE_USERREPORT','Brukerrapport');
 DEFINE('_UE_VIEWUSERREPORTS','Vis brukerrapport');
@@ -355,23 +355,23 @@ DEFINE('_UE_UPDATE','Oppdater');
 DEFINE('_UE_FIELDONPROFILE','Dette feltet er synlig i profilen');
 DEFINE('_UE_FIELDNOPROFILE','Dette feltet er IKKE synlig i profilen');
 DEFINE('_UE_FIELDREQUIRED','Dette feltet skal fylles ut');
-DEFINE('_UE_NOT_AUTHORIZED','Du er ikke autoriseret til å se denne siden!');
+DEFINE('_UE_NOT_AUTHORIZED','Du er ikke autorisert til å se denne siden!');
 DEFINE('_UE_ALLOW_LISTVIEWBY','Tillat adgang til:');
 DEFINE('_UE_ALLOW_LISTVIEWBY_DESC','Velg den gruppen som kan se listen.  Alle brukere på dette nivået og over vil kunne se listen.');
 DEFINE('_UE_ALLOW_PROFILEVIEWBY','Tillat adgang til:');
 DEFINE('_UE_ALLOW_PROFILEVIEWBY_DESC','Velg den gruppen som kan se profilene.  Alle brukere på dette nivået og over vil kunne se profilene.');
 
 //Beta 3 Build
-DEFINE('_UE_NOLISTFOUND','Finner ingen publisterte brukerlister!');
+DEFINE('_UE_NOLISTFOUND','Finner ingen publiserte brukerlister!');
 DEFINE('_UE_ALLOW_PROFILELINK','Tillat lenke til profil');
 DEFINE('_UE_ALLOW_PROFILELINK_DESC','Velg  .Ja . for å la hver rad lenke til den tilhørende profilen og  .Nei . for å unngå dette.');
 DEFINE('_UE_REGISTERFORPROFILE','Du må logge inn for å se/endre din profil.');
-DEFINE('_UE_UPLOAD_ERROR_GDNOTINSTALLED','GD2 Image Library er ikke innstallert eller ikke kompilert med PHP!  Be systemadministratoren å slå "Auto Image Resize"-funksjonen av.');
+DEFINE('_UE_UPLOAD_ERROR_GDNOTINSTALLED','GD2 Image Library er ikke installert eller ikke kompilert med PHP!  Be systemadministratoren å slå "Auto Image Resize"-funksjonen av.');
 DEFINE('_UE_UPLOAD_ERROR_UPLOADFAILED','Det skjedde en feil i forbindelse med opplasting eller behandling av bildet');
 DEFINE('_UE_TOC','Jeg har lest og akseptert betingelser og personvernerklæring');
 DEFINE('_UE_TOC_REQUIRED','Du må bekrefte at du aksepterer betingelsene før du kan registrere deg som bruker!');
 DEFINE('_UE_REG_TOC_MSG','Slå på  .Betingelser for bruk .');
-DEFINE('_UE_REG_TOC_DESC','Ved "Ja" skal brukere godkjenne  .Betingelser for bruk . før registering!');
+DEFINE('_UE_REG_TOC_DESC','Ved "Ja" skal brukere godkjenne  .Betingelser for bruk . før registrering!');
 DEFINE('_UE_REG_TOC_URL_MSG','URL til  .Betingelser for bruk . ');
 DEFINE('_UE_REG_TOC_URL_DESC','Angi URL til dine  .Betingelser for bruk .. Denne skal være relativ i forhold til roten for ditt nettsted.');
 DEFINE('_UE_LASTUPDATEDON','Sist oppdatert');
@@ -387,15 +387,15 @@ DEFINE('_UE_EMAILFORMMESSAGE','E-post:');
 DEFINE('_UE_EMAILFORMTITLE','Send en e-post til %s');
 DEFINE('_UE_GENERAL','Generelt');
 DEFINE('_UE_SENDEMAILNOTICE',"------ MERK:  ------\r\n\r\nDette er en melding fra %s , %s ( %s ).\r\n\r\nBrukeren kunne ikke se din e-postadresse, men hvis du svarer vil adressen bli synlig for mottakeren.");
-DEFINE('_UE_SENDEMAILNOTICE_REPLYTO',"\r\n\r\nNår du svarer, sjekk nøye at e-postaddressen til %s er %s.");
-DEFINE('_UE_SENDEMAILNOTICE_DISCLAIMER',"\r\n\r\n%s ansvarlige kan ikke ta ansvar for innholdet i eposten og brukerens e-postaddresse.");
+DEFINE('_UE_SENDEMAILNOTICE_REPLYTO',"\r\n\r\nNår du svarer, sjekk nøye at e-postadressen til %s er %s.");
+DEFINE('_UE_SENDEMAILNOTICE_DISCLAIMER',"\r\n\r\n%s ansvarlige kan ikke ta ansvar for innholdet i e-posten og brukerens e-postadresse.");
 DEFINE('_UE_SENDEMAILNOTICE_MESSAGEHEADER',"\r\n\r\n\r\n------ Melding fra %s til deg: ------\r\n\r\n");
-DEFINE('_UE_SENDPMSNOTICE','MÆRK: Dette er en automatisk melding fra vennesystemet. Vennens adresse er inkludert slik at du kan svare direkte på melding.');
+DEFINE('_UE_SENDPMSNOTICE','MERK: Dette er en automatisk melding fra vennesystemet. Vennens adresse er inkludert slik at du kan svare direkte på melding.');
 DEFINE('_UE_SENDEMAIL','Send e-post');
 DEFINE('_UE_SENTEMAILSUCCESS','Din e-post ble sendt!');
 DEFINE('_UE_SENTEMAILFAILED','Din e-post ble IKKE sendt. Prøv igjen.');
-DEFINE('_UE_ALLOW_EMAIL_DISPLAY','Email');
-DEFINE('_UE_REGISTERDATE','Registreret dato');
+DEFINE('_UE_ALLOW_EMAIL_DISPLAY','E-post');
+DEFINE('_UE_REGISTERDATE','Registrert dato');
 DEFINE('_UE_ACTION','Handling');
 DEFINE('_UE_USER','Bruker');
 DEFINE('_UE_USERAPPROVAL_MODERATE','Brukergodkjenning/avvisning');
@@ -445,13 +445,13 @@ DEFINE('_UE_TEMPLATEDIR','Community Builder mal');
 DEFINE('_UE_TEMPLATEDIR_DESC','Velg en mal som skal gjelde for alle faneark, hjelpetekster, paneler og menyer i Community Builder.'
 .' Du kan legge til dine egne eller andres vha Community Builders Plug-in system.');
 DEFINE('_UE_MINHITSINTV','Minste visningsintervall (minutter)');
-DEFINE('_UE_MINHITSINTV_DESC','Sett et minimum intervall mellom visninger, så antallet visninger ikke blir kunstigt høyt. Standard er 60 minutter (en time).');
+DEFINE('_UE_MINHITSINTV_DESC','Sett et minimum intervall mellom visninger, så antallet visninger ikke blir kunstig høyt. Standard er 60 minutter (en time).');
 DEFINE('_UE_XHTMLCOMPLY','W3C XHTML 1.0 Trans. kompatibilitet');
 DEFINE('_UE_XHTMLCOMPLY_DESC','Da enkelte Joomla/Mambo maler ikke inneholder den nødvendige koden ( &lt;?php mosShowHead(); ?&gt; ),'
 .' Denne innstillingen er frivillig. Du kan se din index.php fil i din mal, eller bare slå denne på, og se om profilfanearkene blir vist.'
 .' I den eksisterende utgaven har vi forberedt W3C XHTML støtte, men bare noen få sider har full støtte ennå.'
 .' Du må også bruke en kompatibel Joomla/Mambo mal for å ha full støtte.');
-DEFINE('_UE_MAMBLOGNOTINSTALLED','Mamblog blogg-komponenten er ikke innstallert. Kontakt din systemadministrator.');
+DEFINE('_UE_MAMBLOGNOTINSTALLED','Mamblog blogg-komponenten er ikke installert. Kontakt din systemadministrator.');
 DEFINE('_UE_BLOGDATE','Dato');
 DEFINE('_UE_BLOGTITLE','Tittel');
 DEFINE('_UE_BLOGHITS','Visninger');
@@ -462,14 +462,14 @@ DEFINE('_UE_IMPATH_DESC','Sti til ImageMagick');
 DEFINE('_UE_NETPBMPATH','Sti til NetPBM');
 DEFINE('_UE_NETPBMPATH_DESC','Sti til NetPBM');
 DEFINE('_UE_AUTODET','Autokonfigurert');
-DEFINE('_UE_ERROR_NOTINSTALLED','Ikke innstallert');
+DEFINE('_UE_ERROR_NOTINSTALLED','Ikke installert');
 DEFINE('_UE_CONVERSIONTYPE','Billed Software');
 DEFINE('_UE_NEWPASS_FAILED','Nullstilling av passord mislyktes!');
 DEFINE('_UE_USER_SUBSCRIPTIONS','Dine abonnementer');
-DEFINE('_UE_THREAD_UNSUBSCRIBE',':: Avbestill abonnement ::');
+DEFINE('_UE_THREAD_UNSUBSCRIBE',':: Stopp abonnement ::');
 DEFINE('_UE_USER_NOSUBSCRIPTIONS','Ingen abonnementer funnet');
 DEFINE('_UE_GEN_BY','av');
-DEFINE('_UE_USER_UNSUBSCRIBE_ALL','Avbestill alle abonnementer');
+DEFINE('_UE_USER_UNSUBSCRIBE_ALL','Stopp alle abonnementer');
 DEFINE('_UE_USERREPORTMODERATED_SUCCESSFUL','Brukerrapport vellykket moderert.');
 DEFINE('_UE_USERIMAGEMODERATED_SUCCESSFUL','Profilbilde vellykket moderert!');
 DEFINE('_UE_NOREPORTSTOPROCESS','Ingen brukerrapporter');
@@ -492,7 +492,7 @@ DEFINE('_UE_REG_CONCLUSION_DESC','Tast inn tekst/html som skal vises i bunnen av
 .'Dette feltet kan inneholde en takk og/eller spesielle instruksjoner. '
 .'La feltet være tomt for ikke å vise noen melding.');
 DEFINE('_UE_USER_NOT_APPROVED','Denne brukeren er ennå ikke godkjent av en administrator.');
-DEFINE('_UE_USER_NOT_CONFIRMED','Denne brukeren har ennå ikke bekreftet sin e-postaddresse.');
+DEFINE('_UE_USER_NOT_CONFIRMED','Denne brukeren har ennå ikke bekreftet sin e-postadresse.');
 //Connections
 DEFINE('_UE_ADDCONNECTION','Legg til venn');
 DEFINE('_UE_REMOVECONNECTION','Fjern venn');
@@ -526,7 +526,7 @@ DEFINE('_UE_ALLOWCONNECTIONS_DESC','Ved å slå denne funksjonen på tillater du br
 DEFINE('_UE_USEMUTUALCONNECTIONACCEPTANCE','Gjensidig godkjenning');
 DEFINE('_UE_USEMUTUALCONNECTIONACCEPTANCE_DESC','Ved å slå denne funksjonen på skal begge brukere godkjenne venne-statusen for at den skal bli aktivert.');
 DEFINE('_UE_CONNECTOINNOTIFYTYPE','Kontakt &amp; Kontaktform');
-DEFINE('_UE_CONNECTOINNOTIFYTYPE_DESC','Velg om du vil tillate beskjeder ved ændringer og hvilken form som skal benyttes.');
+DEFINE('_UE_CONNECTOINNOTIFYTYPE_DESC','Velg om du vil tillate beskjeder ved endringer og hvilken form som skal benyttes.');
 DEFINE('_UE_AUTOADDCONNECTIONS','Kryssforbindelser');
 DEFINE('_UE_AUTOADDCONNECTIONS_DESC','Ved å slå denne funksjonen på, vil du etablere vennestatus for begge brukere i stedet for bare den ene.');
 DEFINE('_UE_CONNECTIONCATEGORIES','Type venner');
@@ -570,10 +570,10 @@ DEFINE('_UE_NEWSLETTER_TEXT','som e-post med ren tekst');
 DEFINE('_UE_NEWSLETTER_DESC','Sett til "Nei" hvis du ikke har en nyhetsbrev-komponent installert. Eller velg hvilken versjon du vil integrere.');
 DEFINE('_UE_NEWSLETTER_DESC2','Pt. er kun YaNC 1.4 støttet og vil foreslå abonnementer til offentlige nyhetsbrev ved avslutningen av registreringssiden.');
 DEFINE('_UE_NEWSLETTERSREGLIST','Forslag nyhetsbrev.');
-DEFINE('_UE_NEWSLETTERSREGLIST_DESC','Lister som vil bli foreslått på registreringssiden (hvis nyhetsbrevsintegrasjonen er satt på). Hvis nyhetsbrevsintegrasjonen er valgt og ingen nyhetsbrev er valgt vil alle tilgjengelige nyhetsbrev bli foreslått. Benytt CTRL (Mac: COMMAND) for å velge flere, eller klikk på valgte for å fjerne en eller flere valgte.');
+DEFINE('_UE_NEWSLETTERSREGLIST_DESC','Lister som vil bli foreslått på registreringssiden (hvis nyhetsbrev-integrasjonen er satt på). Hvis nyhetsbrevsintegrasjonen er valgt og ingen nyhetsbrev er valgt vil alle tilgjengelige nyhetsbrev bli foreslått. Benytt CTRL (Mac: COMMAND) for å velge flere, eller klikk på valgte for å fjerne en eller flere valgte.');
 DEFINE('_UE_NEWSLETTERSREGLIST_DESC2','Velg flere nyhetsbrev med ctrl(PC)+klikk eller command(Mac)+klikk.');
 DEFINE('_UE_NEWSLETTER_SUBSCRIBE','Abonner på:');
-DEFINE('_UE_NEWSLETTERNOTINSTALLED','Nyhetsbrev er ikke innstallert. Kontakt  systemadministrator.');
+DEFINE('_UE_NEWSLETTERNOTINSTALLED','Nyhetsbrev er ikke installert. Kontakt  systemadministrator.');
 DEFINE('_UE_NONEWSLETTERS','Ingen nyhetsbrev man kan abonnere på.');
 DEFINE('_UE_PUBLIC','Synlig');
 DEFINE('_UE_PRIVATE','Usynlig');
@@ -593,11 +593,11 @@ DEFINE('_UE_CANCELCONNECTIONREQUEST','Avbryt');
 DEFINE('_UE_CONFIRMREMOVECONNECTION','Er du sikker på du vil fjerne denne vennen?');
 DEFINE('_UE_CONNECTIONREQUIREACTION','Vennesøknad(er)');
 DEFINE('_UE_NOZOOMIMGS','Denne brukeren har ingen bilder!');
-DEFINE('_UE_ZOOMNOTINSTALLED','Zoom galleri komponent er ikke innstallert. Kontakt systemadministrator.');
+DEFINE('_UE_ZOOMNOTINSTALLED','Zoom galleri komponent er ikke installert. Kontakt systemadministrator.');
 DEFINE('_UE_ZOOMGALLERY','Se Galleri');
 DEFINE('_UE_ZOOMTABTITLE','Bildegalleri');
 DEFINE('_UE_FORUM_FORUMRANKING','Forumstatus');
-DEFINE('_UE_FORUM_TOTALPOSTS','Total antal innlegg');
+DEFINE('_UE_FORUM_TOTALPOSTS','Total antall innlegg');
 DEFINE('_UE_FORUM_KARMA','Karma');
 DEFINE('_UE_NEWSLETTER_NOT_CONFIRMED','Ikke bekreftet');
 DEFINE('_UE_NOTIFICATIONSAT','Merknad om');
@@ -609,13 +609,13 @@ DEFINE('_UE_CONNECT_ACTIONREQUIRED','Under ser du brukere som søker tilknytning 
 .'Hold musen over bildene og ikonene for å se en kort beskrivelse av detaljer og hva de betyr.');
 DEFINE('_UE_CONNECT_MANAGECONNECTIONS','Under ser du brukere hvor du er direkte tilknyttet. '
 .'Du kan legge til en kommentar og velge flere vennetyper fra listen ved å holde CTRL (PC) eller CMD (Mac) nede mens du klikker. '
-.'Klikk derettter på OPPDATER-knappen '
+.'Klikk deretter på OPPDATER-knappen '
 .'Hold musen over ikonene for å se en kort beskrivelse av detaljer, og over bildene for at se detaljer om brukerne.');
 
 // PMS:
 //administrator Integration Tab
 DEFINE('_UE_PMSTAB','Lynmelding');
-DEFINE('_UE_PMS_NOTINSTALLED','Det valgte meldingsystemet er ikke innstallert.');
+DEFINE('_UE_PMS_NOTINSTALLED','Det valgte meldingsystemet er ikke installert.');
 // PMS integration definitions
 DEFINE('_UE_PM_SENTSUCCESS','Meldingen din ble sendt!');
 DEFINE('_UE_PM_NOTSENT','Meldingen din kunne ikke sendes!');
