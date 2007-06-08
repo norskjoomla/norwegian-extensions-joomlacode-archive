@@ -13,7 +13,7 @@ DEFINE('_JCE_PUBLISHED', 'Publisert');
 
 //Layout Editor
 DEFINE('_JCE_LAYOUT_MSG','Bare knapper tilhørende kommandoer og programtillegg som er publisert vil vises her. Dra og slipp knapper fra en rad til en annen, eller innen samme rad for å justere layouten. Det grå området representerer tekstbehandlere. Knappene må passe inn i dette området. De blå rektanglene indikerer grensene for radene.');
-DEFINE('_JCE_LAYOUT_PLUGINS', 'Bildebehandlerene The Image Manager og Image Manager SE er vist med kun et bildeikon og nettlenkebehandlerene AdvLink og AdvLink SE er vist med kun et lenkeikon. Dette fordi bare en behandlerene kan være aktive om gangen.');
+DEFINE('_JCE_LAYOUT_PLUGINS', 'Bildebehandlerene Image Manager og Image Manager SE er vist med kun et bildeikon og nettlenkebehandlerene AdvLink og AdvLink SE er vist med kun et lenkeikon. Dette fordi bare en behandlerene kan være aktive om gangen.');
 DEFINE('_JCE_LAYOUT_HEADING', 'JCE-layoutbehandler');
 //
 

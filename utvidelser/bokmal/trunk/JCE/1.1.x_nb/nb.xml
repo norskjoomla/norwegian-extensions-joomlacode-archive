@@ -59,6 +59,8 @@
         <filename>plugins/spellchecker/langs/nb.js</filename>
         <filename>plugins/style/langs/nb.js</filename>
         <filename>plugins/table/langs/nb.js</filename>
+		<filename>plugins/templatemanager/langs/nb.js</filename>
+        <filename>plugins/templatemanager/langs/nb.php</filename>
         <filename>plugins/visualchars/langs/nb.js</filename>
         <filename>plugins/xhtmlxtras/langs/nb.js</filename>
 	</files>
