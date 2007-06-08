@@ -1,4 +1,4 @@
-// DK lang variables - Transl.:Ronny Buelund - Corr.:
+// NO-NB lang variables - Transl.:Ronny Buelund - Corr.:
 
 tinyMCE.addToLang('caption',{
 desc : 'Sett inn/Rediger bildetekst',
