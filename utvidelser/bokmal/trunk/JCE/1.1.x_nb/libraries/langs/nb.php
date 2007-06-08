@@ -1,6 +1,10 @@
 <?php
 // Ferdig oversatt, 25. mai 2007
 // nb lang variables
+
+//CharSet
+$cl['iso'] = 'iso-8859-1';
+
 //Labels
 $cl['help'] = 'Hjelp';
 $cl['index'] = 'Indeks';
@@ -28,7 +32,6 @@ $cl['lang_code'] = 'Språkkode';
 $cl['id'] = 'Id';
 $cl['ltr'] = 'Venstre mot høyre';
 $cl['rtl'] = 'Høyre mot venstre';
-
 $cl['paste'] = 'Lim inn';
 $cl['copy'] = 'Kopier';
 $cl['cut'] = 'Klipp ut';
@@ -46,8 +49,8 @@ $cl['ok'] = 'OK';
 $cl['cancel'] = 'Avbryt';
 $cl['del_folder'] = 'Slett mappe';
 $cl['del_file'] = 'Slett fil(er)';
-
 $cl['target'] = 'Mål';
+
 $cl['self'] = 'Åpne i dette vinduet/ramme';
 $cl['parent'] = 'Åpne i opphavelig vindu/-ramme';
 $cl['top'] = 'Åpne i øverste ramme (erstatter alle rammer)';
