@@ -2,10 +2,8 @@
 // nb = Norwegian (bokmål) lang variables by Lars Bjarte Myren
 // Bygger på tidligere arbeid av Knut B. Jacobsen og Jens-Christian Skibakk
 
-// Ferdig oversatt, 25. mai 2007
+// Ferdig oversatt, 8. juni 2007
 
-//CharSet
-$pl['iso'] = 'iso-8859-1';
 
 //Names
 $pl['title'] = 'Bildetekst';
@@ -26,6 +24,9 @@ $pl['cancel'] = 'Avbryt';
 $pl['width'] = 'Bredde';
 $pl['right'] = 'Høyre';
 $pl['left'] = 'Venstre';
+
+//CharSet
+$pl['iso'] = 'iso-8859-1';
 
 $ph['about'] = 'Om';
 $ph['interface'] = 'Grensesnitt;';
