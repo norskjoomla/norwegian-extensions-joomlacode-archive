@@ -67,11 +67,11 @@ $pl['advanced_tabindex'] = 'Tabulatorindeks';
 $pl['advanced_accesskey'] = 'Adgangsnøkkel';
 
 //Help Index and Titles
-$ph['about'] = 'Om';
-$ph['interface'] = 'Grensesnitt';
+$ph['about'] = 'Hva er Advlink';
+$ph['interface'] = 'Advlink grensesnitt';
 $ph['events'] = 'Hendelse';
-$ph['advanced'] = 'Avansert';
+$ph['advanced'] = 'Avanserte instillinger';
 $ph['joomla'] = 'Joomla innholdslenker';
-$ph['insert'] = 'Sett inn/Oppdater';
-$ph['email'] = 'E-post';
+$ph['insert'] = 'Setter inn/Oppdaterer';
+$ph['email'] = 'Setter inn en e-postadresse';
 ?>
