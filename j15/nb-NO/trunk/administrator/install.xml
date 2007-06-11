@@ -13,11 +13,13 @@
     <files>
         <filename>nb-NO.com_admin.ini</filename>
         <filename>nb-NO.com_banners.ini</filename>
+        <filename>nb-NO.com_banners.menu.ini</filename>
         <filename>nb-NO.com_cache.ini</filename>
         <filename>nb-NO.com_categories.ini</filename>
         <filename>nb-NO.com_checkin.ini</filename>
         <filename>nb-NO.com_config.ini</filename>
         <filename>nb-NO.com_contact.ini</filename>
+        <filename>nb-NO.com_contact.menu.ini</filename>
         <filename>nb-NO.com_content.ini</filename>
         <filename>nb-NO.com_frontpage.ini</filename>
         <filename>nb-NO.com_installer.ini</filename>
@@ -29,9 +31,12 @@
         <filename>nb-NO.com_messages.ini</filename>
         <filename>nb-NO.com_modules.ini</filename>
         <filename>nb-NO.com_newsfeeds.ini</filename>
+        <filename>nb-NO.com_newsfeeds.menu.ini</filename>
         <filename>nb-NO.com_plugins.ini</filename>
         <filename>nb-NO.com_poll.ini</filename>
+        <filename>nb-NO.com_poll.menu.ini</filename>
         <filename>nb-NO.com_search.ini</filename>
+        <filename>nb-NO.com_search.menu.ini</filename>
         <filename>nb-NO.com_sections.ini</filename>
         <filename>nb-NO.com_statistics.ini</filename>
         <filename>nb-NO.com_templates.ini</filename>
@@ -39,6 +44,7 @@
         <filename>nb-NO.com_typedcontent.ini</filename>
         <filename>nb-NO.com_users.ini</filename>
         <filename>nb-NO.com_weblinks.ini</filename>
+        <filename>nb-NO.com_weblinks.menu.ini</filename>
         <filename>nb-NO.com_wrapper.ini</filename>
         <filename>nb-NO.ini</filename>
         <filename>nb-NO.mod_components.ini</filename>
