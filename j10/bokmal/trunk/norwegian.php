@@ -98,7 +98,7 @@ DEFINE('_CMN_IFRAMES', 'Denne funksjonen vil ikke fungere skikkelig. Din nettles
 
 DEFINE('_INSTALL_3PD_WARN','Advarsel: Installasjon av 3parts-tillegg kan gjøre serveren mindre sikker. Oppdatering av Joomla! vil ikke oppdatere installerte 3parts-tillegg.<br />For mer informasjon om hvordan holde siden din sikker, besøk <a href="http://forum.joomla.org/index.php/board,267.0.html" target="_blank" style="color: blue; text-decoration: underline;">Joomla!-sikkerhetsforum</a>.');
 DEFINE('_INSTALL_WARN','Av sikkerhetsårsaker så må du slette hele innstallasjonsmappen med alle filer og undermapper - så kan du oppdatere denne siden');
-DEFINE('_TEMPLATE_WARN','<font color=\"red\"><b>Malfilen ble ikke funnet!</b></font><br />Har du nylig forsøkt en oppgradering?<br />Hvis ja, så <b>MÅ</b> du også oppgradere din database<br />Logg inb til Administrator og velg Upgrade Database fra menyen');
+DEFINE('_TEMPLATE_WARN','<font color=\"red\"><b>Malfilen ble ikke funnet! Leter etter malen </b></font>');
 DEFINE('_NO_PARAMS','Ingen parametere for denne modulen');
 DEFINE('_HANDLER','Behandler for denne typen er ikke definert');
 
