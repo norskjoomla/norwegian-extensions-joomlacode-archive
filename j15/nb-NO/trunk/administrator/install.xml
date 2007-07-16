@@ -68,6 +68,7 @@
         <filename>nb-NO.plg_authentication_gmail.ini</filename>
         <filename>nb-NO.plg_authentication_joomla.ini</filename>
         <filename>nb-NO.plg_authentication_ldap.ini</filename>
+        <filename>nb-NO.plg_authentication_openid.ini</filename>
         <filename>nb-NO.plg_content_code.ini</filename>
         <filename>nb-NO.plg_content_emailcloak.ini</filename>
         <filename>nb-NO.plg_content_geshi.ini</filename>
@@ -89,7 +90,9 @@
         <filename>nb-NO.plg_search_newsfeeds.ini</filename>
         <filename>nb-NO.plg_search_sections.ini</filename>
         <filename>nb-NO.plg_search_weblinks.ini</filename>
+        <filename>nb-NO.plg_system_cache.ini</filename>
         <filename>nb-NO.plg_system_debug.ini</filename>
+        <filename>nb-NO.plg_system_legacy.ini</filename>
         <filename>nb-NO.plg_user_joomla.ini</filename>
         <filename>nb-NO.plg_xmlrpc_blogger.ini</filename>
         <filename>nb-NO.plg_xmlrpc_joomla.ini</filename>
