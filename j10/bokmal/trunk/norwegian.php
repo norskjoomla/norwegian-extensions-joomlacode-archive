@@ -97,7 +97,7 @@ DEFINE('_MESSAGE_FAILED','Brukeren har låst sin postkasse. Meldingen kom ikke fr
 DEFINE('_CMN_IFRAMES', 'Denne funksjonen vil ikke fungere skikkelig. Din nettleser støtter ikke integrerte rammer');
 
 DEFINE('_INSTALL_3PD_WARN','Advarsel: Installasjon av 3parts-tillegg kan gjøre serveren mindre sikker. Oppdatering av Joomla! vil ikke oppdatere installerte 3parts-tillegg.<br />For mer informasjon om hvordan holde siden din sikker, besøk <a href="http://forum.joomla.org/index.php/board,267.0.html" target="_blank" style="color: blue; text-decoration: underline;">Joomla!-sikkerhetsforum</a>.');
-DEFINE('_INSTALL_WARN','Av sikkerhetsårsaker så må du slette hele innstallasjonsmappen med alle filer og undermapper - så kan du oppdatere denne siden');
+DEFINE('_INSTALL_WARN','Av sikkerhetsårsaker må du slette hele installasjonsmappen med alle filer og undermapper, deretter kan du oppdatere denne siden i nettleser.');
 DEFINE('_TEMPLATE_WARN','<font color=\"red\"><b>Malfilen ble ikke funnet! Leter etter malen </b></font>');
 DEFINE('_NO_PARAMS','Ingen parametere for denne modulen');
 DEFINE('_HANDLER','Behandler for denne typen er ikke definert');
@@ -279,7 +279,7 @@ DEFINE('_KEY_NOT_FOUND','Kunne ikke finne nøkkelreferanse');
 DEFINE('_SECTION_ARCHIVE_EMPTY','Det er for tiden ingen arkiverte artikler for denne seksjonen, kom tilbake senere');
 DEFINE('_CATEGORY_ARCHIVE_EMPTY','Det er for tiden ingen arkiverte artikler for denne kategorien, kom tilbake senere');
 DEFINE('_HEADER_SECTION_ARCHIVE','Seksjonarkiv');
-DEFINE('_HEADER_CATEGORY_ARCHIVE','Kategoriakriv');
+DEFINE('_HEADER_CATEGORY_ARCHIVE','Kategoriarkiv');
 DEFINE('_ARCHIVE_SEARCH_FAILURE','Det er ingen arkiverte artikler for %s %s');	// values are month then year
 DEFINE('_ARCHIVE_SEARCH_SUCCESS','Her er de arkiverte artiklene for %s %s');	// values are month then year
 DEFINE('_FILTER','Filter');
@@ -314,7 +314,7 @@ DEFINE('_OCT','Oktober');
 DEFINE('_NOV','November');
 DEFINE('_DEC','Desember');
 DEFINE('_POLL_TITLE','Spørreundersøkelse - Resultater');
-DEFINE('_SURVEY_TITLE','Spørreundersøkelsestittel:');
+DEFINE('_SURVEY_TITLE','Tittel på spørreundersøkelse:');
 DEFINE('_NUM_VOTERS','Antall stemmer');
 DEFINE('_FIRST_VOTE','Første stemme');
 DEFINE('_LAST_VOTE','Siste stemme');
