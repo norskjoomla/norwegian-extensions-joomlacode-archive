@@ -46,12 +46,14 @@
         <filename>nb-NO.mod_syndicate.ini</filename>
         <filename>nb-NO.mod_whosonline.ini</filename>
         <filename>nb-NO.mod_wrapper.ini</filename>
+        <filename>nb-NO.plg_content_vote.ini</filename>
         <filename>nb-NO.plg_search_categories.ini</filename>
         <filename>nb-NO.plg_search_contacts.ini</filename>
         <filename>nb-NO.plg_search_content.ini</filename>
         <filename>nb-NO.plg_search_newsfeeds.ini</filename>
         <filename>nb-NO.plg_search_sections.ini</filename>
         <filename>nb-NO.plg_search_weblinks.ini</filename>
+        <filename>nb-NO.plg_system_debug.ini</filename>
         <filename file="meta">nb-NO.xml</filename>
     </files>
   <params />
