@@ -455,8 +455,8 @@ DEFINE('_UE_MAMBLOGNOTINSTALLED','Mamblog blogg-komponenten er ikke installert. 
 DEFINE('_UE_BLOGDATE','Dato');
 DEFINE('_UE_BLOGTITLE','Tittel');
 DEFINE('_UE_BLOGHITS','Visninger');
-DEFINE('_UE_NOBLOGS','Denne brukeren har ingen utgitte blogginnlegg.');
-DEFINE('_UE_NOARTICLES','Denne brukeren har ingen utgitte artikler.');
+DEFINE('_UE_NOBLOGS','Denne brukeren har ingen publiserte blogginnlegg.');
+DEFINE('_UE_NOARTICLES','Denne brukeren har ingen publiserte artikler.');
 DEFINE('_UE_IMPATH','Sti til ImageMagick');
 DEFINE('_UE_IMPATH_DESC','Sti til ImageMagick');
 DEFINE('_UE_NETPBMPATH','Sti til NetPBM');
