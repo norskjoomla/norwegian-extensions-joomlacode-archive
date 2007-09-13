@@ -1,20 +1,23 @@
 <?php
-/*
-* DOCMan 1.3.0 default template
-* @version $Id: norwegian.php 47 2006-10-24 13:05:30Z rued $
-* @package DOCMan_1.3.0
-* @copyright (C) 2003 - 2005 The DOCMan Development Team
-* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
-* Oficial website: http://www.mambodocman.com/
-* -------------------------------------------
-* Norwegian language file
-* Translator: Rune Rasmussen - http://www.syntaxerror.no/
-* Email: nospam@syntaxerror.no
-* Revision: 1.0
-* Date: December 2005
-*/
-// ensure this file is being included by a parent file */
-defined("_VALID_MOS") or die("Direct Access to this location is not allowed.");
+/**
+ * DOCman 1.4.x - Joomla! Document Manager
+ * @version $Id$
+ * @package DOCman_1.4
+ * @copyright (C) 2003-2007 The DOCman Development Team
+ * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+ * @link http://www.joomlatools.org/ Official website
+ **/
+defined('_VALID_MOS') or die('Restricted access');
+
+/**
+ * Default Norwegian language file
+ *
+ * Creator:  Rune Rasmussen
+ * Website:  http://www.syntaxerror.no/
+ * Email:    nospam@syntaxerror.no
+ * Revision: 1.4
+ * Date:     September 2007
+ **/
 
 DEFINE ('_DML_TPL_DATEFORMAT_LONG','%d.%m.%Y %H:%M');
 DEFINE ('_DML_TPL_DATEFORMAT_SHORT','%d.%m.%Y');
@@ -42,6 +45,7 @@ DEFINE("_DML_TPL_TITLE_UPLOAD"  , "Legg til fil");
 DEFINE("_DML_TPL_HITS" 			, "Treff");
 DEFINE("_DML_TPL_DATEADDED" 	, "Dato lagt til");
 DEFINE("_DML_TPL_HOMEPAGE" 		, "Hjemmeside");
+define('_DML_TPL_NO_DOCS', "Det finnes ingen filer i denne kategorien");
 
 //Document search
 DEFINE ("_DML_TPL_ORDER_BY" 	, "Sorter etter");
@@ -50,6 +54,7 @@ DEFINE ("_DML_TPL_ORDER_DATE" 	, "dato");
 DEFINE ("_DML_TPL_ORDER_HITS" 	, "treff");
 DEFINE ("_DML_TPL_ORDER_ASCENT" , "stigende");
 DEFINE ("_DML_TPL_ORDER_DESCENT", "synkende");
+define('_DML_TPL_NO_ITEMS_FOUND', "Ingen oppføringer ble funnet");
 
 //Document edit
 
