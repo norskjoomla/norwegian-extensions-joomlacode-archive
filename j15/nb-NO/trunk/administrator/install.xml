@@ -29,6 +29,7 @@
         <filename>nb-NO.com_massmail.ini</filename>
         <filename>nb-NO.com_media.ini</filename>
         <filename>nb-NO.com_menus.ini</filename>
+        <filename>nb-NO.com_menus.menu.ini</filename>
         <filename>nb-NO.com_messages.ini</filename>
         <filename>nb-NO.com_modules.ini</filename>
         <filename>nb-NO.com_newsfeeds.ini</filename>
@@ -89,6 +90,7 @@
         <filename>nb-NO.plg_search_newsfeeds.ini</filename>
         <filename>nb-NO.plg_search_sections.ini</filename>
         <filename>nb-NO.plg_search_weblinks.ini</filename>
+        <filename>nb-NO.plg_system_backlink.ini</filename>
         <filename>nb-NO.plg_system_cache.ini</filename>
         <filename>nb-NO.plg_system_debug.ini</filename>
         <filename>nb-NO.plg_system_legacy.ini</filename>
