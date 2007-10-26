@@ -145,7 +145,7 @@ DEFINE ('_UE_REG_CONFIRMATION','Krev e-post bekreftelse');
 DEFINE ('_UE_REG_ADMIN_APPROVAL','Krev Admingodkjenning');
 DEFINE ('_UE_REG_ADMIN_APPROVAL_DESC','Krev alle brukerregistreringer godkjent av en administrator');
 DEFINE ('_UE_REG_EMAIL_NAME','Registreringens e-postnavn');
-DEFINE ('_UE_REG_EMAIL_NAME_DESC','Tast inn det navnet som skal benyttes når du sender e-post');
+DEFINE ('_UE_REG_EMAIL_NAME_DESC','Skriv inn det navnet som skal benyttes når du sender e-post');
 DEFINE ('_UE_REG_EMAIL_FROM','Registreringens e-postadresse');
 DEFINE ('_UE_REG_EMAIL_FROM_DESC','E-postadressen du vil benytte når du sender post til brukere som har registrert seg');
 DEFINE ('_UE_REG_EMAIL_REPLYTO','E-postens svaradresse når du sender e-post til nyregistrerte');
@@ -176,7 +176,7 @@ DEFINE ('_UE_REG_ADMIN_MSG','En ny bruker har registrert seg på  [SITEURL].\n'
 DEFINE('_UE_REG_EMAIL_TAGS','[NAME] - Brukerens navn<br />'
 .'[USERNAME] - Brukerens brukernavn<br />'
 .'[DETAILS] - Brukerens detaljer: E-postadresse og Brukernavn<br />'
-.'[PASSWORD] - Brukerens passord. (Kun tilgjengelig i den første e-posten som sendes etter brukeren har trykket "Registrer")<br />'
+.'[PASSWORD] - Brukerens passord. (Kun tilgjengelig i den første e-posten som sendes når brukeren har trykket "Registrer")<br />'
 .'[CONFIRM] - Sett inn bekreftelseslenke i e-posten, hvis denne funksjonen er aktiv<br />'
 .'[FIELDNAME] - Setter inn verdi tilhørende brukeren e-posten sendes til. Bare skriv inn databasens feltnavn du vil bruke mellom []<br />'
 );
@@ -205,7 +205,7 @@ DEFINE ('_UE_HAS','har');
 DEFINE ('_UE_USERS','registrerte brukere');
 DEFINE ('_UE_SEARCH_ALERT','Tast inn søkeord!');
 DEFINE ('_UE_SEARCH','Finn bruker');
-DEFINE ('_UE_ENTER_EMAIL','Tast inn brukers e-post, navn eller brukernavn');
+DEFINE ('_UE_ENTER_EMAIL','Tast inn brukerens e-post, navn eller brukernavn');
 DEFINE ('_UE_SEARCH_BUTTON','Søk');
 DEFINE ('_UE_SHOW_ALL','Vis alle brukere');
 DEFINE ('_UE_NAME','Navn');
@@ -238,10 +238,10 @@ DEFINE('_UE_NO_ACCOUNT','Ikke medlem ennå?');
 DEFINE('_UE_CREATE_ACCOUNT','Bli medlem her');
 DEFINE('_UE_REGISTER','Registrer deg');
 DEFINE('_UE_FORGOT_PASSWORD','Glemt passord?');
-DEFINE('_LOGIN_NOT_CONFIRMED','Innmeldingen din er ikke bekreftet! Sjekk e-posten din for mer info som akkurat har blitt sendt til deg. Hvis du ikke finner e-posten, sjekk søppelpostmappen. Sørg for at søppelpostmappen ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
+DEFINE('_LOGIN_NOT_CONFIRMED','Innmeldingen din er ikke bekreftet! Sjekk e-posten din for mer info som akkurat har blitt sendt til deg. Hvis du ikke finner e-posten, sjekk søppelposten. Sørg for at søppelposten ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
 DEFINE('_LOGIN_NOT_APPROVED','Din bruker-id er fortsatt ikke godkjent!');
 DEFINE('_UE_USER_CONFIRMED','Din bruker-id er godkjent og du kan logge inn.');
-DEFINE('_UE_USER_NOTCONFIRMED','Din bruker-id er fortsatt ikke aktiv.  Sjekk e-posten din for mer info om hvordan du bekrefter innmeldingen. Hvis du ikke finner e-posten, sjekk søppelpostmappen. Sørg for at søppelpostmappen ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
+DEFINE('_UE_USER_NOTCONFIRMED','Din bruker-id er fortsatt ikke aktiv.  Sjekk e-posten din for mer info om hvordan du bekrefter innmeldingen. Hvis du ikke finner e-posten, sjekk søppelposten. Sørg for at søppelposten ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
 
 
 //Avatar
@@ -254,7 +254,7 @@ DEFINE('_UE_UPLOAD_ERROR_EMPTY','Velg fil før opplasting');
 DEFINE('_UE_UPLOAD_ERROR_NAME','Navnet på bildefilen skal kun inneholde bokstaver eller tall, og ingen blanke tegn.');
 DEFINE('_UE_UPLOAD_ERROR_SIZE','Bildefilen er for stor.');
 DEFINE('_UE_UPLOAD_ERROR_WIDTHHEIGHT','Bildehøyde eller -bredde overskrider de angitte grenseverdiene.');
-DEFINE('_UE_UPLOAD_ERROR_WIDTH','Bildebredde er for stor.');
+DEFINE('_UE_UPLOAD_ERROR_WIDTH','Bildebredden er for stor.');
 DEFINE('_UE_UPLOAD_ERROR_HEIGHT','Bildehøyde er for stor.');
 DEFINE('_UE_UPLOAD_ERROR_CHOOSE',"Du valgte ikke et bilde fra galleriet..");
 DEFINE('_UE_UPLOAD_UPLOADED','Bildet ditt er lastet opp.');
@@ -414,7 +414,7 @@ DEFINE('_UE_MODERATORUSERAPPOVAL','Moderator kan godkjenne brukere');
 DEFINE('_UE_MODERATORUSERAPPOVAL_DESC','Denne konfigurasjonen tillater moderatorer å godkjenne brukere som søker godkjenning via nettstedet.');
 DEFINE('_UE_REG_COMPLETE_NOAPPR_CONF','<span class="componentheading">Innmelding ferdig!</span><br />&nbsp;&nbsp;'
 .'Din innmelding forutsetter godkjenning og e-postbekreftelse. Følg veiledningen sendt i e-post til den oppgitte e-postadressen. Når en moderator har godkjent innmeldingen vil du motta en ny mail.<br />&nbsp;&nbsp;'
-.'Når du har mottatt godkjenningssmailen kan du logge inn.');
+.'Når du har mottatt godkjenningsmailen kan du logge inn.');
 DEFINE('_UE_REG_COMPLETE_NOPASS_NOAPPR_CONF','<span class="componentheading">Innmelding ferdig.</span><br />&nbsp;&nbsp;'
 .'Din innmelding krever godkjenning og e-postbekreftelse. Følg veiledningen sendt i e-post til den oppgitte e-postadressen.<br />&nbsp;&nbsp;'
 .'Når du er godkjent blir passordet sendt til deg i e-post, og du kan logge inn på nettstedet.');
@@ -476,7 +476,7 @@ DEFINE('_UE_NOREPORTSTOPROCESS','Ingen brukerrapporter');
 DEFINE('_UE_NOUSERSPENDING','Ingen brukere avventer godkjenning');
 DEFINE('_UE_BLANK','');
 DEFINE('_UE_REG_FIRST_VISIT_URL_MSG','Sti til første innlogging');
-DEFINE('_UE_REG_FIRST_VISIT_URL_DESC','Tast inn nettadressen som skal vises ved første innlogging etter registrering. Denne siden kan inneholde din velkomsthilsen til nye brukere og/eller spesielle instruksjoner, eller send brukeren til profilen for umiddelbar oppdatering.
+DEFINE('_UE_REG_FIRST_VISIT_URL_DESC','Skriv inn nettadressen som skal vises ved første innlogging etter registrering. Denne siden kan inneholde din velkomsthilsen til nye brukere og/eller spesielle instruksjoner, eller send brukeren til profilen for umiddelbar oppdatering.
 La feltet være blankt dersom første innlogging ikke skal være spesiell.');
 DEFINE('_UE_NOSUCHPROFILE','Profilen eksisterer ikke, eller er ikke lenger tilgjengelig');
 
@@ -532,7 +532,7 @@ DEFINE('_UE_AUTOADDCONNECTIONS_DESC','Ved å slå denne funksjonen på, vil du etab
 DEFINE('_UE_CONNECTIONCATEGORIES','Type venner');
 DEFINE('_UE_CONNECTIONCATEGORIES_DESC','Lag en liste over typer du tillater dine brukere å kategorisere sine venner i.  Trykk enter etter hver type.');
 DEFINE('_UE_CONNECTIONMADESUB','%s er lagt til som venn!');
-DEFINE('_UE_CONNECTIONMADEMSG','%s har lagt til deg som venn.');
+DEFINE('_UE_CONNECTIONMADEMSG','%s har lagt deg til som venn.');
 DEFINE('_UE_CONNECTIONMSGPREFIX',"  %s skrev følgende melding:\n\n%s");
 DEFINE('_UE_CONNECTIONMESSAGE',"Melding inkludert");
 DEFINE('_UE_CONNECTIONPENDSUB','Du har en ventende venn, %s!');
@@ -904,7 +904,7 @@ DEFINE('_UE_CALENDAR_TYPE_DESC','Velg hvilken type kalender du vil bruke for dat
 DEFINE('_UE_CALENDAR_TYPE_DROPDOWN_POPUP','Nedtrekks (+sprettopp) kalender');
 DEFINE('_UE_CALENDAR_TYPE_POPUP','Sprettopp kalender (foreldet)');
 DEFINE('_UE_REG_USERNAMECHECKER','Sjekker brukernavn med Ajax');
-DEFINE('_UE_REG_USERNAMECHECKER_DESC','Gir tilgang til å sjekke om brukernavn er ledig i registreringsprossessen. Vær OBS. Denne funksjonen er beskytte men vil under noen omstendigheter kunne bli brukt for å sjekke brukernavn. Dette kan gjøre passordgjetting letter. Denne funksjonen er på eksperimentstadiet, den er ikke optimalisert for store sider: test først !');
+DEFINE('_UE_REG_USERNAMECHECKER_DESC','Gir tilgang til å sjekke om brukernavn er ledig i registreringsprossessen. Vær OBS. Denne funksjonen er beskyttet men vil under noen omstendigheter kunne bli brukt for å sjekke brukernavn. Dette kan gjøre passordgjetting letter. Denne funksjonen er på eksperimentstadiet, den er ikke optimalisert for store sider: test først !');
 // 1.1: frontend:
 DEFINE('_UE_BUTTON_LOGIN','Logg inn');
 DEFINE('_UE_BUTTON_LOGOUT','Logg ut');
