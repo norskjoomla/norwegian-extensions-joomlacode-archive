@@ -1155,7 +1155,7 @@ class vmLanguage extends vmAbstractLanguage {
 	var $_PHPSHOP_COUPON_CONFIRM_DELETE = 'Er du sikker på at du vil slette denne rabatt/gavekortkoden?';
 	var $_PHPSHOP_COUPON_COMPLETE_ALL_FIELDS = 'Vennligst fullfør alle felt.';
 	var $_PHPSHOP_COUPON_VALUE_NOT_NUMBER = 'Rabattverdi må være ett tall ';
-	var $_PHPSHOP_COUPON_NEW_HEADER = 'Ny rabatt/gavekort';
+	var $_PHPSHOP_COUPON_NEW_HEADER = 'Ny rabatt/nytt gavekort';
 	var $_PHPSHOP_COUPON_COUPON_HEADER = 'Rabatt/gavekortkode';
 	var $_PHPSHOP_COUPON_PERCENT = 'Prosent';
 	var $_PHPSHOP_COUPON_TOTAL = 'Totalt';
