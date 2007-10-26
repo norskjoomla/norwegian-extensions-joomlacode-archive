@@ -4,7 +4,7 @@
 * @version $Id$
 * @package Community Builder
 * @subpackage Norwegian Language file
-* @author Bjorn A. Solstad and Tor Otto Tollefsen
+* @author Bjorn A. Solstad and Tor Otto Tollefsen, uppdated and improved by Rune Rasmussen and Karl Gustav Freding @copyright (C) Norwegian Translation Project http://oversettelser.joomlainorge.no/
 * @copyright (C) Norwegian Translation Project http://oversettelser.joomlainorge.no/
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
 */
@@ -37,13 +37,13 @@ DEFINE('_UE_VPASS','Gjenta passord');
 DEFINE('_UE_SUBMIT_SUCCESS','Oppretting OK!');
 DEFINE('_UE_SUBMIT_SUCCESS_DESC','Bidraget ditt er arkivert og vil bli sett over av en administrator før publisering.');
 DEFINE('_UE_WELCOME','Velkommen!');
-DEFINE('_UE_WELCOME_DESC','Velkommen til brukerdelen av denne nettstedet');
+DEFINE('_UE_WELCOME_DESC','Velkommen til brukerdelen av dette nettstedet');
 DEFINE('_UE_CONF_CHECKED_IN','Utsjekket bidrag er sjekket inn');
 DEFINE('_UE_CHECK_TABLE','Sjekktabell');
 DEFINE('_UE_CHECKED_IN','Sjekket inn ');
 DEFINE('_UE_CHECKED_IN_ITEMS',' bidrag');
 DEFINE('_UE_PASS_MATCH','Passord samsvarer ikke');
-DEFINE('_UE_USERNAME_DESC','Sett feltet til &quot;Ja&quot; for å tillate endring av brukernavn. Sett feltet til &quot;Nej&quot; for å hindre endring av brukernavn etter registrering.');
+DEFINE('_UE_USERNAME_DESC','Sett feltet til &quot;Ja&quot; for å tillate endring av brukernavn. Sett feltet til &quot;Nei&quot; for å hindre endring av brukernavn etter registrering.');
 DEFINE('_UE_ALLOW_EMAIL_USERCONTR','Skjul brukers e-postadresse');
 DEFINE('_UE_ALLOW_EMAIL_USERCONTR_DESC','JA skjuler brukernes e-post-adresser for andre enn registrerte brukere.. MERK: Denne innstillingen gjelder kun for denne komponenten');
 DEFINE('_UE_USERAPPROVAL_SUCCESSFUL','Bruker(e) ble godkjent!');
@@ -87,7 +87,7 @@ DEFINE('_UE_YES','Ja');
 DEFINE('_UE_NO','Nei');
 
 //Admin Avatar Tab Labels
-DEFINE('_UE_AVATAR_DESC','Sett feltet til &quot;Ja&quot; hvis du vil tillate at brukeren laster inn avatar-bilde (administreres gjennom brukerprofil)');
+DEFINE('_UE_AVATAR_DESC','Sett feltet til &quot;Ja&quot; hvis du vil tillate at brukeren laster inn profilbilde (administreres gjennom brukerprofil)');
 DEFINE('_UE_AVHEIGHT','Maks bildehøyde');
 DEFINE('_UE_AVWIDTH','Maks bildebredde');
 DEFINE('_UE_AVSIZE','Maks størrelse for bildefil<br/><em>i Kilobyte</em>');
@@ -110,17 +110,17 @@ DEFINE('_UE_VIEW_TYPE','Listetype');
 DEFINE('_UE_VIEW_TYPE_DESC','Listetype');
 DEFINE('_UE_ALLOW_EMAIL','E-postlenker');
 DEFINE('_UE_ALLOW_EMAIL_DESC','Tillat e-postlenker');
-DEFINE('_UE_ALLOW_WEBSITE','Nettsted-lenker');
-DEFINE('_UE_ALLOW_WEBSITE_DESC','Tillat nettsted-lenker');
+DEFINE('_UE_ALLOW_WEBSITE','Nettstedslenker');
+DEFINE('_UE_ALLOW_WEBSITE_DESC','Tillat nettstedslenker');
 DEFINE('_UE_ALLOW_IM','Direktemeldingslenker');
 DEFINE('_UE_ALLOW_IM_DESC','Tillat direktemeldingslenker');
 DEFINE('_UE_ALLOW_ONLINESTATUS','Status');
 DEFINE('_UE_ALLOW_ONLINESTATUS_DESC','Vis status');
 DEFINE('_UE_ALLOW_EMAIL_DISPLAY_DESC','JA, vil vise e-postadresser alle steder i denne komponenten. NEI, vil skjule e-post-adressene.');
 DEFINE('_UE_ALLOW_EMAIL_REPLYTO','E-post avsender ("From:")');
-DEFINE('_UE_ALLOW_EMAIL_REPLYTO_DESC','Innstilling for avsender-adresse når skjemadata sendes til brukere. Mulige valg:<ol>'
+DEFINE('_UE_ALLOW_EMAIL_REPLYTO_DESC','Innstilling for avsenderadresse når skjemadata sendes til brukere. Mulige valg:<ol>'
 		.'<li>"From:" Brukerens e-postadresse (og ingen "Svar til:"-felt).<br/>Brukeren mottar selv alle svar og feilmeldinger, for økt personvern)</li>'
-		.'<li>"From:" Administrators e-postadresse, med "Svar til" satt til brukerens e-postadresse.<br/>Dette kan unngå problemer med søppelpost-filtre, men administrator kan motta feilmeldinger og feilsendte e-poster</li></ol>');
+		.'<li>"From:" Administrators e-postadresse, med "Svar til" satt til brukerens e-postadresse.<br/>Dette kan unngå problemer med søppelpostfiltre, men administrator kan motta feilmeldinger og feilsendte e-poster</li></ol>');
 DEFINE('_UE_A_FROM_USER', 'Brukerens e-postadresse');
 DEFINE('_UE_A_FROM_ADMIN', 'Administrator, med "Svar til" til brukeren');
 
@@ -130,8 +130,8 @@ DEFINE('_UE_AVATARUPLOADAPPROVALGROUP','Administratorgrupper');
 DEFINE('_UE_AVATARUPLOADAPPROVALGROUP_DESC','Alle valgte brukere i denne gruppe samt grupper over blir administrator.');
 DEFINE('_UE_ALLOWUSERREPORTS','Tillat brukerrapportering');
 DEFINE ('_UE_ALLOWUSERREPORTS_DESC','Tillat at brukere sender melding om uønsket adferd fra andre brukere til moderatorer.');
-DEFINE ('_UE_AVATARUPLOADAPPROVAL','Opplastede bilder må godkjennes');
-DEFINE ('_UE_AVATARUPLOADAPPROVAL_DESC','Krev at alle bilder opplastet av brukere skal godkjennes av en moderator før de vises.');
+DEFINE ('_UE_AVATARUPLOADAPPROVAL','Opplastede profilbilder må godkjennes');
+DEFINE ('_UE_AVATARUPLOADAPPROVAL_DESC','Krev at alle profilbilder opplastet av brukere skal godkjennes av en moderator før de vises.');
 DEFINE ('_UE_ALLOWUSERPROFILEBANNING_DESC','Tillat administrator å låse en brukers profil, slik at den ikke kan ses av andre.');
 DEFINE ('_UE_ALLOWUSERPROFILEBANNING','Tillat låsing av profiler');
 
@@ -142,13 +142,13 @@ DEFINE('_UE_NAME_FORMAT_DESC','Velg standardformat for Navn/Bruker-ID.');
 DEFINE('_UE_DATE_FORMAT_DESC','Velg datoformat for datofelter.');
 DEFINE ('_UE_REG_CONFIRMATION_DESC','Sett feltet til JA for å sende en e-post til en bruker når de har registrert seg, med en lenke for bekreftelse av registreringen.');
 DEFINE ('_UE_REG_CONFIRMATION','Krev e-post bekreftelse');
-DEFINE ('_UE_REG_ADMIN_APPROVAL','Krev Admin-godkjenning');
+DEFINE ('_UE_REG_ADMIN_APPROVAL','Krev Admingodkjenning');
 DEFINE ('_UE_REG_ADMIN_APPROVAL_DESC','Krev alle brukerregistreringer godkjent av en administrator');
 DEFINE ('_UE_REG_EMAIL_NAME','Registreringens e-postnavn');
 DEFINE ('_UE_REG_EMAIL_NAME_DESC','Tast inn det navnet som skal benyttes når du sender e-post');
 DEFINE ('_UE_REG_EMAIL_FROM','Registreringens e-postadresse');
 DEFINE ('_UE_REG_EMAIL_FROM_DESC','E-postadressen du vil benytte når du sender post til brukere som har registrert seg');
-DEFINE ('_UE_REG_EMAIL_REPLYTO','E-post svar-adresse når du sender e-post til nyregistrerte');
+DEFINE ('_UE_REG_EMAIL_REPLYTO','E-postens svaradresse når du sender e-post til nyregistrerte');
 DEFINE ('_UE_REG_EMAIL_REPLYTO_DESC','E-postadresse du vil bruke som svar-til adresse');
 DEFINE ('_UE_REG_PEND_APPR_MSG','Venter på e-post for godkjenning');
 DEFINE ('_UE_REG_WELCOME_MSG','Velkommen e-post');
@@ -238,10 +238,10 @@ DEFINE('_UE_NO_ACCOUNT','Ikke medlem ennå?');
 DEFINE('_UE_CREATE_ACCOUNT','Bli medlem her');
 DEFINE('_UE_REGISTER','Registrer deg');
 DEFINE('_UE_FORGOT_PASSWORD','Glemt passord?');
-DEFINE('_LOGIN_NOT_CONFIRMED','Innmeldingingen din er ikke bekreftet! Sjekk e-posten din for mer info som akkurat har blitt sendt til deg. Hvis du ikke finner e-posten, sjekk søppelpost-mappen. Sørg for at søppelpost-mappen ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
-DEFINE('_LOGIN_NOT_APPROVED','Din bruker-id er ikke fortsatt ikke godkjent!');
+DEFINE('_LOGIN_NOT_CONFIRMED','Innmeldingen din er ikke bekreftet! Sjekk e-posten din for mer info som akkurat har blitt sendt til deg. Hvis du ikke finner e-posten, sjekk søppelpostmappen. Sørg for at søppelpostmappen ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
+DEFINE('_LOGIN_NOT_APPROVED','Din bruker-id er fortsatt ikke godkjent!');
 DEFINE('_UE_USER_CONFIRMED','Din bruker-id er godkjent og du kan logge inn.');
-DEFINE('_UE_USER_NOTCONFIRMED','Din bruker-id er fortsatt ikke aktiv.  Sjekk e-posten din for mer info om hvordan du bekrefter innmeldingen. Hvis du ikke finner e-posten, sjekk søppelpost-mappen. Sørg for at søppelpost-mappen ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
+DEFINE('_UE_USER_NOTCONFIRMED','Din bruker-id er fortsatt ikke aktiv.  Sjekk e-posten din for mer info om hvordan du bekrefter innmeldingen. Hvis du ikke finner e-posten, sjekk søppelpostmappen. Sørg for at søppelpostmappen ikke tømmes automatisk. Hvis e-posten er slettet, prøv å logg inn igjen, for å få tilsendt ny e-post med instruksjoner.');
 
 
 //Avatar
@@ -249,7 +249,7 @@ DEFINE('_UE_UPLOAD_UPLOAD','Last opp');
 DEFINE('_UE_UPLOAD_DIMENSIONS','Din bildefil må maks være (bredde x høyde - størrelse)');
 DEFINE('_UE_UPLOAD_SUBMIT','Klargjør et nytt bilde for opplasting');
 DEFINE('_UE_UPLOAD_SELECT_FILE','Velg fil');
-DEFINE('_UE_UPLOAD_ERROR_TYPE','Bruk kun jpeg, jpg eler png');
+DEFINE('_UE_UPLOAD_ERROR_TYPE','Bruk kun jpeg, jpg eller png');
 DEFINE('_UE_UPLOAD_ERROR_EMPTY','Velg fil før opplasting');
 DEFINE('_UE_UPLOAD_ERROR_NAME','Navnet på bildefilen skal kun inneholde bokstaver eller tall, og ingen blanke tegn.');
 DEFINE('_UE_UPLOAD_ERROR_SIZE','Bildefilen er for stor.');
@@ -338,7 +338,7 @@ DEFINE('_UE_UNBANUSERREQUEST_MSG','En bruker har sendt en søknad om å få oppheve
 
 //Alpha 3 Build
 DEFINE('_UE_IMAGE','Miniatyrbilde');
-DEFINE('_UE_FORMATNAME','Formattert navn');
+DEFINE('_UE_FORMATNAME','Formatert navn');
 
 //Alpha 4 Build
 DEFINE('_UE_ADMINREQUIREDFIELDS','Obligatoriske felter i admin');
@@ -366,7 +366,7 @@ DEFINE('_UE_NOLISTFOUND','Finner ingen publiserte brukerlister!');
 DEFINE('_UE_ALLOW_PROFILELINK','Tillat lenke til profil');
 DEFINE('_UE_ALLOW_PROFILELINK_DESC','Velg  .Ja . for å la hver rad lenke til den tilhørende profilen og  .Nei . for å unngå dette.');
 DEFINE('_UE_REGISTERFORPROFILE','Du må logge inn for å se/endre din profil.');
-DEFINE('_UE_UPLOAD_ERROR_GDNOTINSTALLED','GD2 Image Library er ikke installert eller ikke kompilert med PHP!  Be systemadministratoren å slå "Auto Image Resize"-funksjonen av.');
+DEFINE('_UE_UPLOAD_ERROR_GDNOTINSTALLED','GD2 Image Library er ikke installert eller ikke kompilert med PHP!  Be systemadministratoren å slå funksjonen "Auto Image Resize" av.');
 DEFINE('_UE_UPLOAD_ERROR_UPLOADFAILED','Det skjedde en feil i forbindelse med opplasting eller behandling av bildet');
 DEFINE('_UE_TOC','Jeg har lest og akseptert betingelser og personvernerklæring');
 DEFINE('_UE_TOC_REQUIRED','Du må bekrefte at du aksepterer betingelsene før du kan registrere deg som bruker!');
@@ -379,8 +379,8 @@ DEFINE('_UE_LASTUPDATEDON','Sist oppdatert');
 //Beta 4 Build
 DEFINE('_UE_EMAILFORMWARNING','VIKTIG:<ol>'
 			.'<li>E-postadressen til din profil er: <strong>%s</strong>.</li>'
-			.'<li>Sørg for at dette er korrekt, og sjekk innstillingene for søppelpost-filteret ditt, fordi mottakerenes svar vil bli sendt til denne adressen.</li>'
-			.'<li>Vær oppmerksom på at e-post ikke nødvendigvis kommer frem til mottaker, avhengig av deres innstillinger og søppelpost-filtre.</li>'
+			.'<li>Sørg for at dette er korrekt, og sjekk innstillingene til søppelpostfilteret, fordi mottakerenes svar vil bli sendt til denne adressen.</li>'
+			.'<li>Vær oppmerksom på at e-post ikke nødvendigvis kommer frem til mottaker, avhengig av deres innstillinger og søppelpostfiltre.</li>'
 			.'</ol>');
 DEFINE('_UE_EMAILFORMSUBJECT','Emne:');
 DEFINE('_UE_EMAILFORMMESSAGE','E-post:');
@@ -416,7 +416,7 @@ DEFINE('_UE_REG_COMPLETE_NOAPPR_CONF','<span class="componentheading">Innmelding
 .'Din innmelding forutsetter godkjenning og e-postbekreftelse. Følg veiledningen sendt i e-post til den oppgitte e-postadressen. Når en moderator har godkjent innmeldingen vil du motta en ny mail.<br />&nbsp;&nbsp;'
 .'Når du har mottatt godkjenningssmailen kan du logge inn.');
 DEFINE('_UE_REG_COMPLETE_NOPASS_NOAPPR_CONF','<span class="componentheading">Innmelding ferdig.</span><br />&nbsp;&nbsp;'
-.'Din innmelding kræver godkjenning og e-postbekreftelse. Følg veiledningen sendt i e-post til den oppgitte e-postadressen.<br />&nbsp;&nbsp;'
+.'Din innmelding krever godkjenning og e-postbekreftelse. Følg veiledningen sendt i e-post til den oppgitte e-postadressen.<br />&nbsp;&nbsp;'
 .'Når du er godkjent blir passordet sendt til deg i e-post, og du kan logge inn på nettstedet.');
 DEFINE('_UE_NAME_STYLE','Navnestil');
 DEFINE('_UE_NAME_STYLE_DESC','Navnestilen viser hvordan navnefeltet ser ut i Mambo /Joomla.');
@@ -436,22 +436,22 @@ DEFINE('_UE_ARTICLETITLE','Tittel');
 DEFINE('_UE_ARTICLERATING','Vurdering');
 DEFINE('_UE_ARTICLEHITS','Visninger');
 DEFINE('_UE_NESTTABS','Indre faneark');
-DEFINE('_UE_NESTTABS_DESC','Legg alle faneark under en enkelt profil-fane.  Dette er smart hvis det er mange faneark.');
+DEFINE('_UE_NESTTABS_DESC','Legg alle faneark under en enkel profil-fane.  Dette er smart hvis det er mange faneark.');
 DEFINE('_UE_MENUFORMATBAR','Menyfelt');
 DEFINE('_UE_MENUFORMATLIST','Menyliste');
 DEFINE('_UE_MENUFORMAT','Menypresentasjon');
 DEFINE('_UE_MENUFORMAT_DESC','Velg måten menyene skal vises på i hele Community Builder.');
 DEFINE('_UE_TEMPLATEDIR','Community Builder mal');
 DEFINE('_UE_TEMPLATEDIR_DESC','Velg en mal som skal gjelde for alle faneark, hjelpetekster, paneler og menyer i Community Builder.'
-.' Du kan legge til dine egne eller andres vha Community Builders Plug-in system.');
+.' Du kan legge til dine egne eller andres via Community Builders Plug-in system.');
 DEFINE('_UE_MINHITSINTV','Minste visningsintervall (minutter)');
-DEFINE('_UE_MINHITSINTV_DESC','Sett et minimum intervall mellom visninger, så antallet visninger ikke blir kunstig høyt. Standard er 60 minutter (en time).');
+DEFINE('_UE_MINHITSINTV_DESC','Sett et minimums intervall mellom visninger, så antallet visninger ikke blir kunstig høyt. Standard er 60 minutter (en time).');
 DEFINE('_UE_XHTMLCOMPLY','W3C XHTML 1.0 Trans. kompatibilitet');
 DEFINE('_UE_XHTMLCOMPLY_DESC','Da enkelte Joomla/Mambo maler ikke inneholder den nødvendige koden ( &lt;?php mosShowHead(); ?&gt; ),'
 .' Denne innstillingen er frivillig. Du kan se din index.php fil i din mal, eller bare slå denne på, og se om profilfanearkene blir vist.'
-.' I den eksisterende utgaven har vi forberedt W3C XHTML støtte, men bare noen få sider har full støtte ennå.'
+.' I den eksisterende utgaven har vi forbedret W3C XHTML støtte, men bare noen få sider har full støtte ennå.'
 .' Du må også bruke en kompatibel Joomla/Mambo mal for å ha full støtte.');
-DEFINE('_UE_MAMBLOGNOTINSTALLED','Mamblog blogg-komponenten er ikke installert. Kontakt din systemadministrator.');
+DEFINE('_UE_MAMBLOGNOTINSTALLED','Komponenten Mamblog er ikke installert. Kontakt din systemadministrator.');
 DEFINE('_UE_BLOGDATE','Dato');
 DEFINE('_UE_BLOGTITLE','Tittel');
 DEFINE('_UE_BLOGHITS','Visninger');
@@ -463,7 +463,7 @@ DEFINE('_UE_NETPBMPATH','Sti til NetPBM');
 DEFINE('_UE_NETPBMPATH_DESC','Sti til NetPBM');
 DEFINE('_UE_AUTODET','Autokonfigurert');
 DEFINE('_UE_ERROR_NOTINSTALLED','Ikke installert');
-DEFINE('_UE_CONVERSIONTYPE','Billed Software');
+DEFINE('_UE_CONVERSIONTYPE','Program for bildebehandling');
 DEFINE('_UE_NEWPASS_FAILED','Nullstilling av passord mislyktes!');
 DEFINE('_UE_USER_SUBSCRIPTIONS','Dine abonnementer');
 DEFINE('_UE_THREAD_UNSUBSCRIBE',':: Stopp abonnement ::');
@@ -522,9 +522,9 @@ DEFINE('_UE_MANAGECONNECTIONS','Administrer venner');
 DEFINE('_UE_MANAGEACTIONS','Administrer handlinger');
 DEFINE('_UE_CONNECTIONACTIONSSUCCESSFULL','Vennehandlinger vellykket utført.');
 DEFINE('_UE_ALLOWCONNECTIONS','Tillat venner');
-DEFINE('_UE_ALLOWCONNECTIONS_DESC','Ved å slå denne funksjonen på tillater du brukerne å knytte seg opp mot venner. Dette blir også kalt buddy-systemer.');
+DEFINE('_UE_ALLOWCONNECTIONS_DESC','Ved å slå denne funksjonen på tillater du brukere å knytte seg opp mot venner. Dette blir også kalt buddy-systemer.');
 DEFINE('_UE_USEMUTUALCONNECTIONACCEPTANCE','Gjensidig godkjenning');
-DEFINE('_UE_USEMUTUALCONNECTIONACCEPTANCE_DESC','Ved å slå denne funksjonen på skal begge brukere godkjenne venne-statusen for at den skal bli aktivert.');
+DEFINE('_UE_USEMUTUALCONNECTIONACCEPTANCE_DESC','Ved å slå denne funksjonen på skal begge brukere godkjenne vennestatusen for at den skal bli aktivert.');
 DEFINE('_UE_CONNECTOINNOTIFYTYPE','Kontakt &amp; Kontaktform');
 DEFINE('_UE_CONNECTOINNOTIFYTYPE_DESC','Velg om du vil tillate beskjeder ved endringer og hvilken form som skal benyttes.');
 DEFINE('_UE_AUTOADDCONNECTIONS','Kryssforbindelser');
@@ -567,10 +567,10 @@ DEFINE('_UE_NEWSLETTER_FORMAT_TITLE','Velg format for nyhetsbrev');
 DEFINE('_UE_NEWSLETTER_FORMAT_FIELD','Motta nyhetsbrev:');
 DEFINE('_UE_NEWSLETTER_HTML','som e-post med HTML');
 DEFINE('_UE_NEWSLETTER_TEXT','som e-post med ren tekst');
-DEFINE('_UE_NEWSLETTER_DESC','Sett til "Nei" hvis du ikke har en nyhetsbrev-komponent installert. Eller velg hvilken versjon du vil integrere.');
-DEFINE('_UE_NEWSLETTER_DESC2','Pt. er kun YaNC 1.4 støttet og vil foreslå abonnementer til offentlige nyhetsbrev ved avslutningen av registreringssiden.');
+DEFINE('_UE_NEWSLETTER_DESC','Sett til "Nei" hvis du ikke har en komponent for nyhetsbrev installert. Eller velg hvilken versjon du vil integrere.');
+DEFINE('_UE_NEWSLETTER_DESC2','For tiden er kun YaNC 1.4 støttet og vil foreslå abonnementer til offentlige nyhetsbrev ved avslutningen av registreringssiden.');
 DEFINE('_UE_NEWSLETTERSREGLIST','Forslag nyhetsbrev.');
-DEFINE('_UE_NEWSLETTERSREGLIST_DESC','Lister som vil bli foreslått på registreringssiden (hvis nyhetsbrev-integrasjonen er satt på). Hvis nyhetsbrevsintegrasjonen er valgt og ingen nyhetsbrev er valgt vil alle tilgjengelige nyhetsbrev bli foreslått. Benytt CTRL (Mac: COMMAND) for å velge flere, eller klikk på valgte for å fjerne en eller flere valgte.');
+DEFINE('_UE_NEWSLETTERSREGLIST_DESC','Lister som vil bli foreslått på registreringssiden (hvis nyhetsbrevintegrasjonen er satt på). Hvis nyhetsbrevsintegrasjonen er valgt og ingen nyhetsbrev er valgt vil alle tilgjengelige nyhetsbrev bli foreslått. Benytt CTRL (Mac: COMMAND) for å velge flere, eller klikk på valgte for å fjerne en eller flere valgte.');
 DEFINE('_UE_NEWSLETTERSREGLIST_DESC2','Velg flere nyhetsbrev med ctrl(PC)+klikk eller command(Mac)+klikk.');
 DEFINE('_UE_NEWSLETTER_SUBSCRIBE','Abonner på:');
 DEFINE('_UE_NEWSLETTERNOTINSTALLED','Nyhetsbrev er ikke installert. Kontakt  systemadministrator.');
@@ -582,7 +582,7 @@ DEFINE('_UE_CONNECTIONDISPLAY_DESC','Velg om du vil gjøre hver brukers venner sy
 DEFINE('_UE_CONNECTIONPATH','Vis vennestruktur');
 DEFINE('_UE_CONNECTIONPATH_DESC','Velg om du vil vise forbindelsen mellom en bruker og den profilen han/hun besøker');
 DEFINE('_UE_DIRECTCONNECTION','Du er direkte tilknyttet ');
-DEFINE('_UE_NOESTABLISHEDCONNECTION','Det er ingen kobling mellem deg og ');
+DEFINE('_UE_NOESTABLISHEDCONNECTION','Det er ingen kobling mellom deg og ');
 DEFINE('_UE_CONNECTIONPATH1','Din kobling til ');
 DEFINE('_UE_CONNECTIONPATH2',' grader ):<br />');
 DEFINE('_UE_DETAILSABOUT',' Detaljer om ');
@@ -590,7 +590,7 @@ DEFINE('_UE_CONNECTIONINVITATIONMSG','Legg til en melding i søknaden din.');
 DEFINE('_UE_MESSAGE','Melding:');
 DEFINE('_UE_SENDCONNECTIONREQUEST','Send');
 DEFINE('_UE_CANCELCONNECTIONREQUEST','Avbryt');
-DEFINE('_UE_CONFIRMREMOVECONNECTION','Er du sikker på du vil fjerne denne vennen?');
+DEFINE('_UE_CONFIRMREMOVECONNECTION','Er du sikker på at du vil fjerne denne vennen?');
 DEFINE('_UE_CONNECTIONREQUIREACTION','Vennesøknad(er)');
 DEFINE('_UE_NOZOOMIMGS','Denne brukeren har ingen bilder!');
 DEFINE('_UE_ZOOMNOTINSTALLED','Zoom galleri komponent er ikke installert. Kontakt systemadministrator.');
@@ -605,12 +605,12 @@ DEFINE('_UE_YOUR_VERSION','Din versjon');
 DEFINE('_UE_LATEST_VERSION','Siste versjon');
 DEFINE('_UE_ACTIONSMENU','Handlingsmeny');
 DEFINE('_UE_CONNECT_ACTIONREQUIRED','Under ser du brukere som søker tilknytning som venn. Du har valget mellom å godkjenne eller avvise. '
-.'Velg den grønne knappen for at godkjenne, eller det røde krysset for å avvise. Trykk deretter på OPPDATER-knappen. '
+.'Velg den grønne knappen for å godkjenne, eller det røde krysset for å avvise. Trykk deretter på knappen OPPDATER. '
 .'Hold musen over bildene og ikonene for å se en kort beskrivelse av detaljer og hva de betyr.');
 DEFINE('_UE_CONNECT_MANAGECONNECTIONS','Under ser du brukere hvor du er direkte tilknyttet. '
 .'Du kan legge til en kommentar og velge flere vennetyper fra listen ved å holde CTRL (PC) eller CMD (Mac) nede mens du klikker. '
-.'Klikk deretter på OPPDATER-knappen '
-.'Hold musen over ikonene for å se en kort beskrivelse av detaljer, og over bildene for at se detaljer om brukerne.');
+.'Klikk deretter på knappen OPPDATER. '
+.'Hold musen over ikonene for å se en kort beskrivelse av detaljer, og over bildene for å se detaljer om brukere.');
 
 // PMS:
 //administrator Integration Tab
@@ -674,13 +674,13 @@ DEFINE('_UE_MENU_MANAGEMYCONNECTIONS','Administrer dine venner');
 DEFINE('_UE_MENU_MANAGEMYCONNECTIONS_DESC','Administrer dine eksisterende venner og ventende søknader');
 
 DEFINE('_UE_MENU_MODERATE', 'Moderer');
-//DEFINE('_UE_MENU_REQUESTUNBANPROFILE','Send søknad om ophævelse av ban');
-DEFINE('_UE_MENU_REQUESTUNBANPROFILE_DESC', 'Send en søknad om at få opphevet låsingen av din profil til en administrator');
-//DEFINE('_UE_MENU_BANPROFILE','Ban Profil');
-DEFINE('_UE_MENU_BANPROFILE_DESC', 'Som moderator: Ved å blokkere denne profilen vil den ikke være synlig for andre brukere');
-//DEFINE('_UE_MENU_UNBANPROFILE','Opphev ban');
+//DEFINE('_UE_MENU_REQUESTUNBANPROFILE','Send søknad om opphevelse av låsing');
+DEFINE('_UE_MENU_REQUESTUNBANPROFILE_DESC', 'Send en søknad om å få opphevet låsingen av din profil til en administrator');
+//DEFINE('_UE_MENU_BANPROFILE','Lås Profil');
+DEFINE('_UE_MENU_BANPROFILE_DESC', 'Som moderator: Ved å låse denne profilen vil den ikke være synlig for andre brukere');
+//DEFINE('_UE_MENU_UNBANPROFILE','Opphev lås');
 DEFINE('_UE_MENU_UNBANPROFILE_DESC', 'Som moderator: Opphev låsingen av denne profilen, gjør den synlig for andre brukere igjen');
-//DEFINE('_UE_MENU_REPORTUSER','Indrapporter bruker');
+//DEFINE('_UE_MENU_REPORTUSER','Innrapporter bruker');
 DEFINE('_UE_MENU_REPORTUSER_DESC', 'Rapporter denne brukeren til en administrator for vurdering');
 //DEFINE('_UE_MENU_VIEWUSERREPORTS','Se brukerrapporter');
 DEFINE('_UE_MENU_VIEWUSERREPORTS_DESC','Som moderator: Se brukerrapporter for denne brukeren');
@@ -715,7 +715,7 @@ DEFINE('_UE_POS_CB_BOTTOM','Bunnen (under hovedområdet)');
 
 DEFINE('_UE_DISPLAY_TAB','Faneark');
 DEFINE('_UE_DISPLAY_DIV','Div med tittel');
-DEFINE('_UE_DISPLAY_HTML','Bar visning, uten tittel');
+DEFINE('_UE_DISPLAY_HTML','Visning uten tittel');
 DEFINE('_UE_DISPLAY_OVERLIB','Overlegg ved å flytte musen');
 DEFINE('_UE_DISPLAY_OVERLIBFIX','Overleggstørrelse lukker ved mouseout');
 DEFINE('_UE_DISPLAY_OVERLIBSTICKY','Knapp med fast overlegg');
@@ -732,7 +732,7 @@ DEFINE('_UE_SB_ORDERING_OLDEST','Eldste innlegg først');
 DEFINE('_UE_SB_ORDERING_LATEST','Nyeste innlegg først');
 DEFINE('_UE_SB_SIGNATURE','Signatur');
 //added for SB 1.5 during 1.0 RC 1
-DEFINE('_UE_SB_POSTSPERPAGE','Innlegg per side');
+DEFINE('_UE_SB_POSTSPERPAGE','Innlegg pr. side');
 DEFINE('_UE_SB_USERTIMEOFFSET','Tidsinnstilling i forhold til server');
 DEFINE('_UE_SB_CONFIRMUNSUBSCRIBEALL','Er du sikker på at du vil avslutte alle dine abonnementer i forumet?');
 DEFINE('_UE_FORUMDATE','Dato');
@@ -747,11 +747,11 @@ if (!defined('_RANK_MODERATOR')) DEFINE('_RANK_MODERATOR','Moderator');
 if (!defined('_RANK_ADMINISTRATOR')) DEFINE('_RANK_ADMINISTRATOR','administrator');
 DEFINE('_UE_SBNOTINSTALLED','Joomlaboard forum er ikke installert. Kontakt  systemadministrator.');
 DEFINE('_UE_NOFORUMPOSTS','Denne brukeren har ingen innlegg i forumet.');
-DEFINE("_UE_USERPARAMS","Bruker-innstillinger");
+DEFINE("_UE_USERPARAMS","Brukerinnstillinger");
 //Mamblog search:
-DEFINE('_UE_BLOG_LASTENTRIES','Siste %d blogg-innlegg');
-DEFINE('_UE_BLOG_FOUNDENTRIES','Fant %d blogg-innlegg');
-DEFINE('_UE_BLOG_ENTRIES','Blogg-innlegg');
+DEFINE('_UE_BLOG_LASTENTRIES','Siste %d blogginnlegg');
+DEFINE('_UE_BLOG_FOUNDENTRIES','Fant %d blogginnlegg');
+DEFINE('_UE_BLOG_ENTRIES','Blogginnlegg');
 
 // 1.0 stable:
 DEFINE('_UE_NO_USERS_IN_LIST','Ingen brukere i denne listen');
@@ -760,7 +760,7 @@ DEFINE('_UE_VISIBLE_ONLY_MODERATOR','Denne er kun synlig for moderatorer');
 DEFINE('_UE_AUTOMATIC','Automatisk');
 DEFINE('_UE_MANUAL','Manuell');
 DEFINE('_UE_NOVERSIONCHECK','Versjonskontroll ved konfigurering');
-DEFINE('_UE_NOVERSIONCHECK_DESC','Velg om du vil at det sjekkes at du bruker nyeste versjon automatisk hver gang du går til generelt oppsett av Community Builder (anbefales, slik at du øyeblikkelig får melding hvis det har kommet en kritisk sikkerhetsoppdatering) eller manuelt, når du klikker på linken (ikke anbefalt). Din versjon av Community Builder gir ikke fra seg informasjon ved en slik versjonskontroll (med unntak av nåværende versjon og standard http parametre). Det finnes ingen automatisk oppdaterings-tjeneste.');
+DEFINE('_UE_NOVERSIONCHECK_DESC','Velg om du vil at det sjekkes at du bruker nyeste versjon automatisk hver gang du går til generelt oppsett av Community Builder (anbefales, slik at du øyeblikkelig får melding hvis det har kommet en kritisk sikkerhetsoppdatering) eller manuelt, når du klikker på linken (ikke anbefalt). Din versjon av Community Builder gir ikke fra seg informasjon ved en slik versjonskontroll (med unntak av nåværende versjon og standard http parametre). Det finnes ingen automatisk oppdateringstjeneste.');
 // 1.0 stable cblogin module:
 DEFINE('_UE_SHOW_POFILE_OF','Vis profilen til ');
 
@@ -769,51 +769,168 @@ DEFINE('_UE_IMG_NOIMG','Ingen bilde');
 DEFINE('_UE_IMG_PENDIMG','Venter på godkjenning');
 
 // CB 1.0.2 optional string:
-DEFINE('_UE_MAXEMAILSLIMIT','You exceeded the maximum limit of %d emails per %d hours. Please try again later.');
-DEFINE('_UE_INPUT_VALUE_NOT_ALLOWED','This input value is not authorized.');
+DEFINE('_UE_MAXEMAILSLIMIT','Du har overskredet maks antall %d e-poster pr. %d time. Prøv igjen senere.');
+DEFINE('_UE_INPUT_VALUE_NOT_ALLOWED','Denne verdien er ikke gyldig.');
 
 //Needed for Joomla 1.5 and Mambo 4.6 language independance: Translators: please take strings from joomla 1.0.11's language file
 /** registration.php */
-if (!defined('_ERROR_PASS'))		DEFINE('_ERROR_PASS','Sorry, no corresponding user was found');
-if (!defined('_NEWPASS_MSG'))		DEFINE('_NEWPASS_MSG','The user account $checkusername has this email associated with it.\n'
-.'A web user from $mosConfig_live_site has just requested that a new password be sent.\n\n'
-.' Your New Password is: $newpass\n\nIf you didn\'t ask for this, don\'t worry.'
-.' You are seeing this message, not them. If this was an error just login with your'
-.' new password and then change your password to what you would like it to be.');
-if (!defined('_NEWPASS_SUB'))		DEFINE('_NEWPASS_SUB','$_sitename :: New password for - $checkusername');
-if (!defined('_NEWPASS_SENT'))		DEFINE('_NEWPASS_SENT','New User Password created and sent!');
-if (!defined('_REGWARN_NAME'))		DEFINE('_REGWARN_NAME','Please enter your name.');
-if (!defined('_REGWARN_UNAME'))		DEFINE('_REGWARN_UNAME','Please enter a user name.');
-if (!defined('_REGWARN_MAIL'))		DEFINE('_REGWARN_MAIL','Please enter a valid e-mail address.');
-if (!defined('_REGWARN_VPASS2'))	DEFINE('_REGWARN_VPASS2','Password and verification do not match, please try again.');
-if (!defined('_REGWARN_INUSE'))		DEFINE('_REGWARN_INUSE','This username/password already in use. Please try another.');
-if (!defined('_REGWARN_EMAIL_INUSE')) DEFINE('_REGWARN_EMAIL_INUSE', 'This e-mail is already registered. If you forgot the password click on "Lost your Password" and new password will be sent to you.');
-if (!defined('_VALID_AZ09'))		DEFINE('_VALID_AZ09',"Please enter a valid %s.  No spaces, more than %d characters and contain 0-9,a-z,A-Z");
+if (!defined('_ERROR_PASS'))		DEFINE('_ERROR_PASS','Beklager, ingen bruker ble funnet');
+if (!defined('_NEWPASS_MSG'))		DEFINE('_NEWPASS_MSG','Brukerkontoen $checkusername er tilknyttet denne e-postadressen.\n'
+.'En bruker fra $mosConfig_live_site har bedt om å få tilsendt et nytt passord.\n\n'
+.' Ditt nye passord er: $newpass\n\nHvis du ikke ba om dette, så ikke bekymre deg.'
+.' Du fikk denne e-posten, ikke noen andre. Hvis dette var en feil så kan du bare logge inn med ditt'
+.' nye passord og så endre passordet til hva du vil det skal være.');
+if (!defined('_NEWPASS_SUB'))		DEFINE('_NEWPASS_SUB','$_sitename :: Nytt passord for - $checkusername');
+if (!defined('_NEWPASS_SENT'))		DEFINE('_NEWPASS_SENT','Nytt passord opprettet og sendt!');
+if (!defined('_REGWARN_NAME'))		DEFINE('_REGWARN_NAME','Skriv navnet ditt.');
+if (!defined('_REGWARN_UNAME'))		DEFINE('_REGWARN_UNAME','Skriv ett brukernavn.');
+if (!defined('_REGWARN_MAIL'))		DEFINE('_REGWARN_MAIL','Skriv en gyldig e-postadresse.');
+if (!defined('_REGWARN_VPASS2'))	DEFINE('_REGWARN_VPASS2','Passordet og gjentagelsen er ikke like, prøv igjen.');
+if (!defined('_REGWARN_INUSE'))		DEFINE('_REGWARN_INUSE','Dette brukernavnet/passordet er allerede i bruk. Prøv et annet.');
+if (!defined('_REGWARN_EMAIL_INUSE')) DEFINE('_REGWARN_EMAIL_INUSE', 'Denne e-posten er allerede registrert. Hvis du har glemt passordet, klikk på "Glemt passordet?" og et nytt passord vil bli sendt til deg.');
+if (!defined('_VALID_AZ09'))		DEFINE('_VALID_AZ09',"Skriv inn et gyldig %s.  Ingen mellomrom, mer enn %d tegn og bare tegnene 0-9,a-z,A-Z");
 /** classes/html/registration.php */
-if (!defined('_PROMPT_PASSWORD'))	DEFINE('_PROMPT_PASSWORD','Lost your Password?');
-if (!defined('_NEW_PASS_DESC'))		DEFINE('_NEW_PASS_DESC','Please enter your Username and e-mail address then click on the Send Password button.<br />'
-.'You will receive a new password shortly.  Use this new password to access the site.');
-if (!defined('_PROMPT_UNAME'))		DEFINE('_PROMPT_UNAME','Username:');
-if (!defined('_PROMPT_EMAIL'))		DEFINE('_PROMPT_EMAIL','E-mail Address:');
-if (!defined('_BUTTON_SEND_PASS'))	DEFINE('_BUTTON_SEND_PASS','Send Password');
-if (!defined('_REGISTER_TITLE'))	DEFINE('_REGISTER_TITLE','Registration');
-if (!defined('_REGISTER_NAME'))		DEFINE('_REGISTER_NAME','Name:');
-if (!defined('_REGISTER_UNAME'))	DEFINE('_REGISTER_UNAME','Username:');
-if (!defined('_REGISTER_EMAIL'))	DEFINE('_REGISTER_EMAIL','E-mail:');
-if (!defined('_REGISTER_PASS'))		DEFINE('_REGISTER_PASS','Password:');
-if (!defined('_REGISTER_VPASS'))	DEFINE('_REGISTER_VPASS','Verify Password:');
-if (!defined('_BUTTON_SEND_REG'))	DEFINE('_BUTTON_SEND_REG','Send Registration');
-if (!defined('_SENDING_PASSWORD'))	DEFINE('_SENDING_PASSWORD','Your password will be sent to the above e-mail address.<br />Once you have received your'
-.' new password you can login in and change it.');
-if (!defined('_LOGIN_SUCCESS'))		DEFINE('_LOGIN_SUCCESS','You have successfully Logged In');
-if (!defined('_LOGOUT_SUCCESS'))	DEFINE('_LOGOUT_SUCCESS','You have successfully Logged Out');
-if (!defined('_LOGIN_BLOCKED'))		DEFINE('_LOGIN_BLOCKED','Your login has been blocked. Please contact the administrator.');
-if (!defined('_CMN_YES'))			DEFINE('_CMN_YES','Yes');
-if (!defined('_CMN_NO'))			DEFINE('_CMN_NO','No');
-if (!defined('_CMN_SHOW'))			DEFINE('_CMN_SHOW','Show');
-if (!defined('_CMN_HIDE'))			DEFINE('_CMN_HIDE','Hide');
-if (!defined('_LOGIN_INCOMPLETE'))	DEFINE('_LOGIN_INCOMPLETE','Please complete the username and password fields.');
-if (!defined('_LOGIN_BLOCKED'))		DEFINE('_LOGIN_BLOCKED','Your login has been blocked. Please contact the administrator.');
-if (!defined('_LOGIN_INCORRECT'))	DEFINE('_LOGIN_INCORRECT','Incorrect username or password. Please try again.');
-if (!defined('_USER_DETAILS_SAVE'))	DEFINE('_USER_DETAILS_SAVE','Your settings have been saved.');
-?>
+if (!defined('_PROMPT_PASSWORD'))	DEFINE('_PROMPT_PASSWORD','Glemt passordet?');
+if (!defined('_NEW_PASS_DESC'))		DEFINE('_NEW_PASS_DESC','Oppgi ditt brukernavn og e-postadresse og klikk på knappen Send passord.<br />'
+.'Du vil snart motta ett nytt passord. Bruk dette passordet for å logge inn.');
+if (!defined('_PROMPT_UNAME'))		DEFINE('_PROMPT_UNAME','Brukernavn:');
+if (!defined('_PROMPT_EMAIL'))		DEFINE('_PROMPT_EMAIL','E-postadresse:');
+if (!defined('_BUTTON_SEND_PASS'))	DEFINE('_BUTTON_SEND_PASS','Send passord');
+if (!defined('_REGISTER_TITLE'))	DEFINE('_REGISTER_TITLE','Registrering');
+if (!defined('_REGISTER_NAME'))		DEFINE('_REGISTER_NAME','Navn:');
+if (!defined('_REGISTER_UNAME'))	DEFINE('_REGISTER_UNAME','Brukernavn:');
+if (!defined('_REGISTER_EMAIL'))	DEFINE('_REGISTER_EMAIL','E-post:');
+if (!defined('_REGISTER_PASS'))		DEFINE('_REGISTER_PASS','Passord:');
+if (!defined('_REGISTER_VPASS'))	DEFINE('_REGISTER_VPASS','Gjenta passord:');
+if (!defined('_BUTTON_SEND_REG'))	DEFINE('_BUTTON_SEND_REG','Send registrering');
+if (!defined('_SENDING_PASSWORD'))	DEFINE('_SENDING_PASSWORD','Ditt passord vil bli sendt til overstående e-postadresse.<br />Når du har mottatt ditt'
+.' nye passord kan du logge inn og endre det.');
+if (!defined('_LOGIN_SUCCESS'))		DEFINE('_LOGIN_SUCCESS','Du er nå logget inn');
+if (!defined('_LOGOUT_SUCCESS'))	DEFINE('_LOGOUT_SUCCESS','Du er nå logget ut');
+if (!defined('_LOGIN_BLOCKED'))		DEFINE('_LOGIN_BLOCKED','Du har blitt blokkert fra å logge inn. Kontakt administratoren.');
+if (!defined('_CMN_YES'))			DEFINE('_CMN_YES','Ja');
+if (!defined('_CMN_NO'))			DEFINE('_CMN_NO','Nei');
+if (!defined('_CMN_SHOW'))			DEFINE('_CMN_SHOW','Vis');
+if (!defined('_CMN_HIDE'))			DEFINE('_CMN_HIDE','Skjul');
+if (!defined('_LOGIN_INCOMPLETE'))	DEFINE('_LOGIN_INCOMPLETE','Fyll ut brukernavn og passord.');
+if (!defined('_LOGIN_INCORRECT'))	DEFINE('_LOGIN_INCORRECT','Ugyldig brukernavn eller passord. Prøv igjen.');
+if (!defined('_USER_DETAILS_SAVE'))	DEFINE('_USER_DETAILS_SAVE','Dine innstillinger har blitt lagret.');
+
+// 1.1:
+DEFINE('_UE_MENU_STATUS', 'Status');
+DEFINE('_UE_YOURCONNECTIONS','Dine venner');
+DEFINE('_UE_USERSNCONNECTIONS','%s\s venner');
+DEFINE('_UE_SEEALLNCONNECTIONS','Se alle vennene til %s');
+DEFINE('_UE_SEEALLOFUSERSNCONNECTIONS','Se alle vennene til %s\s %s venner');
+DEFINE('_UE_YOU_ARE_ALREADY_REGISTERED','Du er allerede registrert med dette brukernavnet og passordet.');
+DEFINE('_UE_SESSION_EXPIRED','Økten din er utgått og/eller informasjonskapsler er ikke på i nettleseren.');
+DEFINE('_UE_PLEASE_REFRESH','Oppdater siden før du prøver igjen.');
+DEFINE('_UE_REGISTERFORPROFILEVIEW','Logg inn eller registrer deg for å se brukerprofiler.');
+DEFINE('_UE_INFORMATION_FOR_FIELD','Informasjonen til: %s : %s');
+DEFINE('_UE_ALLOWMODERATORSUSEREDIT_DESC','Gir moderatorer adgang til å endre en brukers profil og å legge til, endre eller slette brukers profilbilde. Moderatorene kan ikke endre en moderator på samme eller høyere nivå');
+DEFINE('_UE_ALLOWMODERATORSUSEREDIT','Gir moderatorene adgang til å endre en brukers profil');
+DEFINE('_UE_USERPROFILEBLOCKED','Denne profilen er ikke lenger tilgjengelig.');
+DEFINE('_UE_EDIT_OTHER_USER_TITLE','Endre %s\s detaljer');
+DEFINE('_UE_MOD_MENU_UPDATEPROFILE', 'Oppdater brukerprofil');
+DEFINE('_UE_MOD_MENU_UPDATEPROFILE_DESC', 'Endre innstillinger til brukerprofilen');
+DEFINE('_UE_MOD_MENU_UPDATEAVATAR', 'Oppdater profilbilde');
+DEFINE('_UE_MOD_MENU_UPDATEAVATAR_DESC', 'Velg profilbilde til brukerprofilen');
+DEFINE('_UE_MOD_MENU_DELETE_AVATAR', 'Fjern profilbilde');
+DEFINE('_UE_MOD_MENU_DELETE_AVATAR_DESC', 'Fjerner profilbilde fra brukerprofil');
+DEFINE('_UE_MOD_MENU_VIEWOLDUSERREPORTS','Se brukerrapporter som er behandlet');
+DEFINE('_UE_MOD_MENU_VIEWOLDUSERREPORTS_DESC','Som moderator: Se brukerrapporter som er behandlet');
+DEFINE('_UE_REPORTSTATUS','Rapportstatus');
+DEFINE('_UE_REPORTSTATUS_OPEN','Åpne');
+DEFINE('_UE_REPORTSTATUS_PROCESSED','Behandlet');
+DEFINE('_UE_UNBANUSER','Brukerprofil åpnet');
+DEFINE('_UE_UNBANNEDON','Dato åpnet');
+DEFINE('_UE_UNBANNEDBY','Åpnet av');
+DEFINE('_UE_MENU_BANPROFILE_HISTORY','Låsehistorie');
+DEFINE('_UE_MENU_BANPROFILE_HISTORY_DESC', 'Som moderator: Se låsehistorien til denne profilen');
+DEFINE('_UE_BANSTATUS','Låsestatus');
+DEFINE('_UE_BANSTATUS_BANNED','Låst');
+DEFINE('_UE_BANSTATUS_UNBAN_REQUEST_PENDING','Behandler åpningsforespørsel');
+DEFINE('_UE_BANSTATUS_PROCESSED','Behandlet');
+DEFINE('_UE_UNNAMED_USER','Bruker uten navn');
+DEFINE('_UE_REG_CB_ALLOW','Tillate brukerregistrering');
+DEFINE('_UE_REG_CB_ALLOW_DESC','Om brukerregistrering er Globalt konfigurert, eller gjennom CB.<br />Anbefalt: bare gjennom CB : sett : `Ja` for CB og `Nei` for globalt.');
+DEFINE('_UE_REG_PROFILE_2COLS','2 kolonners oppsett: bredde:');
+DEFINE('_UE_REG_PROFILE_2COLS_RIGHT_REST','Høyre: resten!');
+DEFINE('_UE_REG_PROFILE_2COLS_DESC','Bredde i % for 2 kolonners profiloppsett');
+DEFINE('_UE_REG_PROFILE_3COLS','3 kolonners oppsett: bredde:');
+DEFINE('_UE_REG_PROFILE_3COLS_RIGHT_REST','Høyre: resten!');
+DEFINE('_UE_REG_PROFILE_3COLS_DESC','Bredde i % for 3 kolonners profiloppsett. Midterste kolonne: resten!');
+DEFINE('_UE_REG_FILTER_ALLOWED_TAGS','Ikke filtrer følgende tagger i redigeringens områdefelt:');
+DEFINE('_UE_REG_FILTER_ALLOWED_TAGS_DESC','Skriv inn tagger som du ikke vil filtreres, mellomrom etter hver tagg, f.eks.: `applet body bgsound embed`.<br />ADVARSEL: dette på eget ansvar, brukere kan sette inn ett skadelig program. Standardfiltreringen forhindrer dette: følgende tagger filtreres automatisk og kan fjernes fra filteringen ved å skrive de inn:');
+DEFINE('_UE_REG_FURTHER_SETTINGS','Flere innstillinger:');
+DEFINE('_UE_REG_FURTHER_SETTINGS_MORE','se parameter til tillegg og felt.');
+DEFINE('_UE_REG_FURTHER_SETTINGS_DESC','Flere parametere er tilgjengelig i meny: Components / Community Builder / Plugin Management and / Tab Management. Hvert tillegg og felt kan redigeres med egne parametere. Tillegg og felter må publiseres før de blir aktive.');
+// 1.1: backend global config:
+DEFINE('_UE_REG_CONFIGURATION_MANAGER','Oppsett');
+DEFINE('_UE_REG_ALLOWREG_SAME_AS_GLOBAL','Innstilling som global `allow registration`.');
+DEFINE('_UE_REG_ALLOWREG_YES','Ja, uavhengig av globale innstillinger');
+DEFINE('_UE_NONE','Ingen');
+DEFINE('_UE_REG_NAMEFORMAT_NAME_ONLY','Bare navn');
+DEFINE('_UE_REG_NAMEFORMAT_NAME_USERNAME','Navn (brukernavn)');
+DEFINE('_UE_REG_NAMEFORMAT_USERNAME_ONLY','Bare brukernavn');
+DEFINE('_UE_REG_NAMEFORMAT_USERNAME_NAME','Brukernavn (Navn)');
+DEFINE('_UE_REG_NAMEFORMAT_SINGLE_FIELD','Enkelt navnefelt');
+DEFINE('_UE_REG_NAMEFORMAT_TWO_FIELDS','Felt for For- og Etternavn');
+DEFINE('_UE_REG_NAMEFORMAT_THREE_FIELDS','Felt for For-, Mellom- og Etternavn');
+DEFINE('_UE_REG_EMAILDISPLAY_EMAIL_ONLY','Bare vis e-post');
+DEFINE('_UE_REG_EMAILDISPLAY_EMAIL_W_MAILTO','Vis e-post med Post til lenke');
+DEFINE('_UE_REG_EMAILDISPLAY_EMAIL_W_FORM','Vis lenke til e-postskjema');
+DEFINE('_UE_REG_EMAILDISPLAY_EMAIL_NO','Ikke vis e-post');
+DEFINE('_UE_GROUPS_EVERYBODY','Alle');
+DEFINE('_UE_GROUPS_ALL_REG_USERS','Alle registrerte brukere');
+DEFINE('_UE_WARNING','Advarsel');
+DEFINE('_UE_YOUR_CONFIG_FILE','Din oppsettsfil');
+DEFINE('_UE_IS_NOT_WRITABLE','er ikke overskrivbar');
+DEFINE('_UE_NEED_TO_CHMOD_CONFIG','Du trenger å forandre rettighetene til 766 på konfigurasjonsfilen for å få oppdatert');
+DEFINE('_UE_FILE_UNWRITABLE','');
+DEFINE('_UE_LEFT','Venstre');
+DEFINE('_UE_RIGHT','Høyre');
+DEFINE('_UE_CENTER','Senter');
+DEFINE('_UE_UP','Opp');
+DEFINE('_UE_DOWN','Ned');
+DEFINE('_UE_TOP','Toppen');
+DEFINE('_UE_BOTTOM','Bunnen');
+DEFINE('_UE_MODERATORS_AND_ABOVE','CB moderatorer og nivåer over');
+DEFINE('_UE_SUPERADMINS_ONLY','Bare super-administrator');
+DEFINE('_UE_ADMINS_AND_SUPERADMINS_ONLY','Bare administratorer og super-administratorer');
+DEFINE('_UE_NO_PARAMS','Det er ingen parametere for dette elementet');
+DEFINE('_UE_CALENDAR_TYPE','Type kalender');
+DEFINE('_UE_CALENDAR_TYPE_DESC','Velg hvilken type kalender du vil bruke for datovalg.');
+DEFINE('_UE_CALENDAR_TYPE_DROPDOWN_POPUP','Nedtrekks (+sprettopp) kalender');
+DEFINE('_UE_CALENDAR_TYPE_POPUP','Sprettopp kalender (foreldet)');
+DEFINE('_UE_REG_USERNAMECHECKER','Sjekker brukernavn med Ajax');
+DEFINE('_UE_REG_USERNAMECHECKER_DESC','Gir tilgang til å sjekke om brukernavn er ledig i registreringsprossessen. Vær OBS. Denne funksjonen er beskytte men vil under noen omstendigheter kunne bli brukt for å sjekke brukernavn. Dette kan gjøre passordgjetting letter. Denne funksjonen er på eksperimentstadiet, den er ikke optimalisert for store sider: test først !');
+// 1.1: frontend:
+DEFINE('_UE_BUTTON_LOGIN','Logg inn');
+DEFINE('_UE_BUTTON_LOGOUT','Logg ut');
+DEFINE('_UE_DO_LOGIN','Du må logge inn.');
+DEFINE('_UE_DO_LOGOUT','Du må logge ut.');
+define('_UE_CHECK_USERNAME_AVAILABILITY',"Sjekk om brukernavn er ledig");
+define('_UE_USERNAME_ALREADY_EXISTS',"Brukernavnet '%s' er brukt: velg et annet.");
+define('_UE_USERNAME_DOESNT_EXISTS',"Brukernavnet '%s' er ledig: du kan fortsette.");
+define('_UE_CHECKING',"Sjekker...");
+define('_UE_SORRY_CANT_CHECK',"Beklager, kan ikke sjekke.");
+DEFINE('_UE_PLEAE_CHECK_PROFILE','Sjekk din profil');
+DEFINE('_UE_BANNED_CHANGE_PROFILE','Din profil er låst. Bare du og moderatorer kan se profilen din.<br />Følg instruksene fra moderatoren, velg moderator / opphev for å sende en forespørsel om å oppheve låsingen av din profil.');
+DEFINE('_UE_WARNING_EDIT_OTHER_USER_PROFILE','ADVARSEL: Dette er ikke din profil. Som moderator endrer du profilen til bruker: %s.');
+DEFINE('_UE_BACK_TO_YOUR_PROFILE','Tilbake til profilen');
+// CB captcha plugin strings in core cb 1.1:
+DEFINE('_UE_CAPTCHA_Label','Sikkerhetskode');
+DEFINE('_UE_CAPTCHA_Enter_Label','Skriv sikkerhetskode');
+DEFINE('_UE_CAPTCHA_Desc','Skriv sikkerhetskoden på bildet');
+DEFINE('_UE_CAPTCHA_NOT_VALID','Ugyldig sikkerhetskode');
+DEFINE('_UE_CAPTCHA_ALT_IMAGE','Bilde med innebygd sikkerhetskode');
+DEFINE('_UE_CAPTCHA_AUDIO','klikk her for å få sikkerhetskoden opplest');
+DEFINE('_UE_CAPTCHA_AUDIO_POPUP_TITLE','Sikkerhetskoden blir opplest');
+DEFINE('_UE_CAPTCHA_AUDIO_POPUP_DESCRIPTION','Lytt på sikkerhetskoden til bildet');
+DEFINE('_UE_CAPTCHA_AUDIO_DOWNLOAD','Trykk for å laste ned lydfilen for å høre sikkerhetskoden ett annet sted');
+DEFINE('_UE_CAPTCHA_AUDIO_CLICK2DOWNLOAD','(trykk høyre museknapp eller ctrl)');
+DEFINE('_UE_CAPTCHA_AUDIO_POPUP_CLOSEWINDOW','Trykk for å stenge vinduet');
+
+// Watchout to NOT add any line or space or anything after the "?" and the ">" if you decide to add these at the end of the file !!!
+// As they are not needed, we removed them to avoid page errors because of that. :-)
