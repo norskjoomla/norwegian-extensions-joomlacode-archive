@@ -17,7 +17,7 @@
 		<locale>no_NO.utf-8, nb_NO.utf-8, no, nb, nob-NO, no_NO, nb_NO, Norwegian_Bokmal, nor, norwegian, bokmal, bokmål</locale>
 		<wincodepage>iso-8859-1</wincodepage>
 		<backwardlang>norwegian</backwardlang>
-		<pdffontname>vera</pdffontname>
+		<pdffontname>freesans</pdffontname>
 	</metadata>
 	<params></params>
 </metafile>
