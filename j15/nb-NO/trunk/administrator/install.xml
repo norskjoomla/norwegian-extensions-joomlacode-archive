@@ -77,7 +77,6 @@
         <filename>nb-NO.plg_content_loadmodule.ini</filename>
         <filename>nb-NO.plg_content_pagebreak.ini</filename>
         <filename>nb-NO.plg_content_pagenavigation.ini</filename>
-        <filename>nb-NO.plg_content_sef.ini</filename>
         <filename>nb-NO.plg_content_vote.ini</filename>
         <filename>nb-NO.plg_editors_none.ini</filename>
         <filename>nb-NO.plg_editors_tinymce.ini</filename>
@@ -95,6 +94,7 @@
         <filename>nb-NO.plg_system_cache.ini</filename>
         <filename>nb-NO.plg_system_debug.ini</filename>
         <filename>nb-NO.plg_system_legacy.ini</filename>
+        <filename>nb-NO.plg_system_sef.ini</filename>
         <filename>nb-NO.plg_user_joomla.ini</filename>
         <filename>nb-NO.plg_xmlrpc_blogger.ini</filename>
         <filename>nb-NO.plg_xmlrpc_joomla.ini</filename>
