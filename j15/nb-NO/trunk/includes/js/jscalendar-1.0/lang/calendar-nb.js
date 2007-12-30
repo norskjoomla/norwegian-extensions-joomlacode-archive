@@ -121,7 +121,7 @@ Calendar._TT["TIME_PART"] = "(Shift-)Klikk eller dra for å endre verdi";
 
 // date formats
 Calendar._TT["DEF_DATE_FORMAT"] = "%d-%m-%Y";
-Calendar._TT["TT_DATE_FORMAT"] = "%a, %b %e";
+Calendar._TT["TT_DATE_FORMAT"] = "%a, %e %b";
 
 Calendar._TT["WK"] = "Uke";
 Calendar._TT["TIME"] = "Tid:";
