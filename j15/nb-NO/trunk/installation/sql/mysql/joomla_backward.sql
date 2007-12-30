@@ -1,4 +1,4 @@
-# $Id: joomla_backward.sql 5456 2006-10-12 11:59:09Z Laurens $
+# $Id: joomla_backward.sql 9728 2007-12-22 10:26:36Z eddieajau $
 
 # --------------------------------------------------------
 
@@ -11,6 +11,7 @@ CREATE TABLE `#__banner` (
   `cid` int(11) NOT NULL default '0',
   `type` varchar(90) NOT NULL default 'banner',
   `name` TEXT NOT NULL default '',
+  `alias` varchar(255) NOT NULL default '',
   `imptotal` int(11) NOT NULL default '0',
   `impmade` int(11) NOT NULL default '0',
   `clicks` int(11) NOT NULL default '0',
@@ -76,6 +77,7 @@ CREATE TABLE `#__categories` (
   `parent_id` int(11) NOT NULL default 0,
   `title` TEXT NOT NULL default '',
   `name` TEXT NOT NULL default '',
+  `alias` varchar(255) NOT NULL default '',
   `image` varchar(255) NOT NULL default '',
   `section` varchar(150) NOT NULL default '',
   `image_position` varchar(90) NOT NULL default '',
@@ -90,7 +92,6 @@ CREATE TABLE `#__categories` (
   `params` text NOT NULL,
   PRIMARY KEY  (`id`),
   KEY `cat_idx` (`section`,`published`,`access`),
-  KEY `idx_section` (`section`),
   KEY `idx_access` (`access`),
   KEY `idx_checkout` (`checked_out`)
 ) TYPE=MyISAM ;
@@ -115,46 +116,46 @@ CREATE TABLE `#__components` (
   `iscore` tinyint(4) NOT NULL default '0',
   `params` text NOT NULL,
   `enabled` tinyint(4) NOT NULL default '1',
-  PRIMARY KEY  (`id`)
+  PRIMARY KEY  (`id`),
+  KEY `parent_option` (`parent`, `option`(32))
 ) TYPE=MyISAM;
 
 #
 # Dumping data for table `#__components`
 #
 
-INSERT INTO `#__components` VALUES (1, 'Banners', '', 0, 0, '', 'Banner Management', 'com_banners', 0, 'js/ThemeOffice/component.png', 0, '', 1);
+INSERT INTO `#__components` VALUES (1, 'Banners', '', 0, 0, '', 'Banner Management', 'com_banners', 0, 'js/ThemeOffice/component.png', 0, 'track_impressions=0\ntrack_clicks=0\ntag_prefix=\n\n', 1);
 INSERT INTO `#__components` VALUES (2, 'Banners', '', 0, 1, 'option=com_banners', 'Active Banners', 'com_banners', 1, 'js/ThemeOffice/edit.png', 0, '', 1);
-INSERT INTO `#__components` VALUES (3, 'Clients', '', 0, 1, 'option=com_banners&task=listclients', 'Manage Clients', 'com_banners', 2, 'js/ThemeOffice/categories.png', 0, '', 1);
-INSERT INTO `#__components` VALUES (4, 'Web Links', 'option=com_weblinks', 0, 0, '', 'Manage Weblinks', 'com_weblinks', 0, 'js/ThemeOffice/component.png', 0, '', 1);
+INSERT INTO `#__components` VALUES (3, 'Clients', '', 0, 1, 'option=com_banners&c=client', 'Manage Clients', 'com_banners', 2, 'js/ThemeOffice/categories.png', 0, '', 1);
+INSERT INTO `#__components` VALUES (4, 'Web Links', 'option=com_weblinks', 0, 0, '', 'Manage Weblinks', 'com_weblinks', 0, 'js/ThemeOffice/component.png', 0, 'show_comp_description=1\ncomp_description=\nshow_link_hits=1\nshow_link_description=1\nshow_other_cats=1\nshow_headings=1\nshow_page_title=1\nlink_target=0\nlink_icons=\n\n', 1);
 INSERT INTO `#__components` VALUES (5, 'Links', '', 0, 4, 'option=com_weblinks', 'View existing weblinks', 'com_weblinks', 1, 'js/ThemeOffice/edit.png', 0, '', 1);
 INSERT INTO `#__components` VALUES (6, 'Categories', '', 0, 4, 'option=com_categories&section=com_weblinks', 'Manage weblink categories', '', 2, 'js/ThemeOffice/categories.png', 0, '', 1);
-INSERT INTO `#__components` VALUES (7, 'Contacts', 'option=com_contact', 0, 0, '', 'Edit contact details', 'com_contact', 0, 'js/ThemeOffice/component.png', 1, '', 1);
+INSERT INTO `#__components` VALUES (7, 'Contacts', 'option=com_contact', 0, 0, '', 'Edit contact details', 'com_contact', 0, 'js/ThemeOffice/component.png', 1, 'contact_icons=0\nicon_address=\nicon_email=\nicon_telephone=\nicon_fax=\nicon_misc=\nshow_headings=1\nshow_position=1\nshow_email=0\nshow_telephone=1\nshow_mobile=1\nshow_fax=1\nbannedEmail=\nbannedSubject=\nbannedText=\nsession=1\ncustomReply=0\n\n', 1);
 INSERT INTO `#__components` VALUES (8, 'Contacts', '', 0, 7, 'option=com_contact', 'Edit contact details', 'com_contact', 0, 'js/ThemeOffice/edit.png', 1, '', 1);
 INSERT INTO `#__components` VALUES (9, 'Categories', '', 0, 7, 'option=com_categories&section=com_contact_details', 'Manage contact categories', '', 2, 'js/ThemeOffice/categories.png', 1, '', 1);
 INSERT INTO `#__components` VALUES (10, 'Polls', 'option=com_poll', 0, 0, 'option=com_poll', 'Manage Polls', 'com_poll', 0, 'js/ThemeOffice/component.png', 0, '', 1);
 INSERT INTO `#__components` VALUES (11, 'News Feeds', 'option=com_newsfeeds', 0, 0, '', 'News Feeds Management', 'com_newsfeeds', 0, 'js/ThemeOffice/component.png', 0, '', 1);
 INSERT INTO `#__components` VALUES (12, 'Feeds', '', 0, 11, 'option=com_newsfeeds', 'Manage News Feeds', 'com_newsfeeds', 1, 'js/ThemeOffice/edit.png', 0, '', 1);
 INSERT INTO `#__components` VALUES (13, 'Categories', '', 0, 11, 'option=com_categories&section=com_newsfeeds', 'Manage Categories', '', 2, 'js/ThemeOffice/categories.png', 0, '', 1);
-INSERT INTO `#__components` VALUES (14, 'Login', 'option=com_login', 0, 0, '', '', 'com_login', 0, '', 1, '', 1);
-INSERT INTO `#__components` VALUES (15, 'Search', 'option=com_search', 0, 0, '', '', 'com_search', 0, '', 1, '', 1);
-INSERT INTO `#__components` VALUES (16, 'Categories','',0,1,'option=com_categories&section=com_banner', 'Categories','',3,'',1,'',1);
-INSERT INTO `#__components` VALUES (17,'Wrapper','option=com_wrapper',0,0,'','Wrapper','com_wrapper',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (18,'Mail To','',0,0,'','','com_mailto',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (19,'Media Manager','',0,0,'option=com_media','Media Manager','com_media',0,'',1,'upload_extensions=jpg,png,gif,png\r\nupload_maxsize=1000000\r\n\r\n',1);
-INSERT INTO `#__components` VALUES (20,'Articles','option=com_content',0,0,'','','com_content',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (21,'Configuration Manager','',0,0,'','Configuration','com_config',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (22,'Installation Manager','',0,0,'','Installer','com_installer',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (23,'Lanuage Manager','',0,0,'','Lanaguages','com_languages',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (24,'Mass mail','',0,0,'','Mass Mail','com_massmail',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (25,'Menu Editor','',0,0,'','Menu Editor','com_menus',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (26,'Menu Manager','',0,0,'','Menu Manager','com_menumanager',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (27,'Messaging','',0,0,'','Messages','com_messages',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (28,'Modules Manager','',0,0,'','Modules','com_modules',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (29,'Plugin Manager','',0,0,'','Plugins','com_plugins',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (30,'Statistics','',0,0,'','Statistics','com_statistics',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (31,'Template Manager','',0,0,'','Templates','com_templates',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (32,'User Manager','',0,0,'','Users','com_users',0,'',1,'',1);
-INSERT INTO `#__components` VALUES (33,'Cache Manager','',0,0,'','Cache','com_cache',0,'',1,'',1);
+INSERT INTO `#__components` VALUES (14, 'User', 'option=com_user', 0, 0, '', '', 'com_user', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (15, 'Search', 'option=com_search', 0, 0, 'option=com_search', 'Search Statistics', 'com_search', 0, 'js/ThemeOffice/component.png', 1, 'enabled=0\n\n', 1);
+INSERT INTO `#__components` VALUES (16, 'Categories', '', 0, 1, 'option=com_categories&section=com_banner', 'Categories', '', 3, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (17, 'Wrapper', 'option=com_wrapper', 0, 0, '', 'Wrapper', 'com_wrapper', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (18, 'Mail To', '', 0, 0, '', '', 'com_mailto', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (19, 'Media Manager', '', 0, 0, 'option=com_media', 'Media Manager', 'com_media', 0, '', 1, 'upload_extensions=bmp,csv,doc,epg,gif,ico,jpg,odg,odp,ods,odt,pdf,png,ppt,swf,txt,xcf,xls,BMP,CSV,DOC,EPG,GIF,ICO,JPG,ODG,ODP,ODS,ODT,PDF,PNG,PPT,SWF,TXT,XCF,XLS\nupload_maxsize=10000000\nfile_path=images\nimage_path=images/stories\nrestrict_uploads=1\ncheck_mime=1\nimage_extensions=bmp,gif,jpg,png\nignore_extensions=\nupload_mime=image/jpeg,image/gif,image/png,image/bmp,application/x-shockwave-flash,application/msword,application/excel,application/pdf,application/powerpoint,text/plain,application/x-zip\nupload_mime_illegal=text/html', 1);
+INSERT INTO `#__components` VALUES (20, 'Articles', 'option=com_content', 0, 0, '', '', 'com_content', 0, '', 1, 'show_noauth=0\nshow_title=1\nlink_titles=0\nshow_intro=1\nshow_section=0\nlink_section=0\nshow_category=0\nlink_category=0\nshow_author=1\nshow_create_date=1\nshow_modify_date=1\nshow_item_navigation=0\nshow_readmore=1\nshow_vote=0\nshow_icons=1\nshow_pdf_icon=1\nshow_print_icon=1\nshow_email_icon=1\nshow_hits=1\nfeed_summary=0\n\n', 1);
+INSERT INTO `#__components` VALUES (21, 'Configuration Manager', '', 0, 0, '', 'Configuration', 'com_config', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (22, 'Installation Manager', '', 0, 0, '', 'Installer', 'com_installer', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (23, 'Language Manager', '', 0, 0, '', 'Languages', 'com_languages', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (24, 'Mass mail', '', 0, 0, '', 'Mass Mail', 'com_massmail', 0, '', 1, 'mailSubjectPrefix=\nmailBodySuffix=\n\n', 1);
+INSERT INTO `#__components` VALUES (25, 'Menu Editor', '', 0, 0, '', 'Menu Editor', 'com_menus', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (27, 'Messaging', '', 0, 0, '', 'Messages', 'com_messages', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (28, 'Modules Manager', '', 0, 0, '', 'Modules', 'com_modules', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (29, 'Plugin Manager', '', 0, 0, '', 'Plugins', 'com_plugins', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (30, 'Template Manager', '', 0, 0, '', 'Templates', 'com_templates', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (31, 'User Manager', '', 0, 0, '', 'Users', 'com_users', 0, '', 1, 'allowUserRegistration=1\nnew_usertype=Registered\nuseractivation=1\nfrontend_userparams=1\n\n', 1);
+INSERT INTO `#__components` VALUES (32, 'Cache Manager', '', 0, 0, '', 'Cache', 'com_cache', 0, '', 1, '', 1);
+INSERT INTO `#__components` VALUES (33, 'Control Panel', '', 0, 0, '', 'Control Panel', 'com_cpanel', 0, '', 1, '', 1);
 
 # --------------------------------------------------------
 
@@ -165,6 +166,7 @@ INSERT INTO `#__components` VALUES (33,'Cache Manager','',0,0,'','Cache','com_ca
 CREATE TABLE `#__contact_details` (
   `id` int(11) NOT NULL auto_increment,
   `name` TEXT NOT NULL default '',
+  `alias` varchar(255) NOT NULL default '',
   `con_position` TEXT default NULL,
   `address` text,
   `suburb` TEXT default NULL,
@@ -188,7 +190,8 @@ CREATE TABLE `#__contact_details` (
   `access` tinyint(3) unsigned NOT NULL default '0',
   `mobile` varchar(255) NOT NULL default '',
   `webpage` varchar(255) NOT NULL default '',
-  PRIMARY KEY  (`id`)
+  PRIMARY KEY  (`id`),
+  KEY `catid` (`catid`)
 ) TYPE=MyISAM;
 
 # --------------------------------------------------------
@@ -200,6 +203,7 @@ CREATE TABLE `#__contact_details` (
 CREATE TABLE `#__content` (
   `id` int(11) unsigned NOT NULL auto_increment,
   `title` TEXT NOT NULL default '',
+  `alias` varchar(255) NOT NULL default '',
   `title_alias` TEXT NOT NULL default '',
   `introtext` mediumtext NOT NULL,
   `fulltext` mediumtext NOT NULL,
@@ -233,7 +237,7 @@ CREATE TABLE `#__content` (
   KEY `idx_checkout` (`checked_out`),
   KEY `idx_state` (`state`),
   KEY `idx_catid` (`catid`),
-  KEY `idx_mask` (`mask`)
+  KEY `idx_createdby` (`created_by`)
 ) TYPE=MyISAM;
 
 # --------------------------------------------------------
@@ -265,8 +269,6 @@ CREATE TABLE `#__content_rating` (
 # --------------------------------------------------------
 
 # Table structure for table `#__core_log_items`
-#
-# To be implemented in Version 4.6
 
 CREATE TABLE `#__core_log_items` (
   `time_stamp` date NOT NULL default '0000-00-00',
@@ -278,8 +280,6 @@ CREATE TABLE `#__core_log_items` (
 # --------------------------------------------------------
 
 # Table structure for table `#__core_log_searches`
-#
-# To be implemented in Version 4.6
 
 CREATE TABLE `#__core_log_searches` (
   `search_term` TEXT NOT NULL default '',
@@ -329,35 +329,38 @@ CREATE TABLE `#__plugins` (
   KEY `idx_folder` (`published`,`client_id`,`access`,`folder`)
 ) TYPE=MyISAM;
 
-INSERT INTO `#__plugins` VALUES (1, 'Content - Image','image','content',0,-10000,1,1,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (2, 'Content - Pagebreak','pagebreak','content',0,10000,1,1,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (4, 'Content - SEF','sef','content',0,3,1,0,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (5, 'Content - Rating','vote','content',0,4,1,1,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (6, 'Search - Content','content','search',0,1,1,1,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (7, 'Search - Weblinks','weblinks','search',0,2,1,1,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (8, 'Content - Code Highlighter (Joomla)','code','content',0,2,0,0,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (9, 'Editor - No Editor','none','editors',0,0,1,1,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (10,'Editor - TinyMCE 2.0','tinymce','editors',0,0,1,1,0,0,'0000-00-00 00:00:00','theme=advanced\r\ncleanup=1\r\ncompressed=0\r\ntext_direction=ltr\r\ninvalid_elements=applet\r\ncontent_css=1\r\ncontent_css_custom=\r\nnewlines=0\r\ntoolbar=top\r\nsmilies=1\r\ntable=1\r\nflash=1\r\nhr=1\r\nfullscreen=1\r\nhtml_height=550\r\nhtml_width=750\r\npreview=1\r\npreview_height=550\r\npreview_width=750\r\nsearchreplace=1\r\ninsertdate=1\r\nformat_date=%Y-%m-%d\r\ninserttime=1\r\nformat_time=%H:%M:%S');
-INSERT INTO `#__plugins` VALUES (11, 'Editor Button - Image','image','editors-xtd',0,0,1,0,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (12, 'Editor Button - Pagebreak','pagebreak','editors-xtd',0,0,1,0,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (13, 'Search - Contacts','contacts','search',0,3,1,1,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (14, 'Search - Categories', 'categories', 'search', 0, 4, 1, 0, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (15, 'Search - Sections', 'sections', 'search', 0, 5, 1, 0, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (16, 'Content - Email Cloaking', 'emailcloak', 'content', 0, 5, 1, 0, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (17, 'Content - Code Hightlighter (GeSHi)', 'geshi', 'content', 0, 5, 0, 0, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (18, 'Search - Newsfeeds', 'newsfeeds', 'search', 0, 6, 1, 0, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (19, 'Content - Load Module', 'loadmodule', 'content', 0, 6, 1, 0, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (20, 'Authentication - Joomla', 'joomla', 'authentication', 0, 1, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (21, 'Authentication - LDAP', 'ldap', 'authentication', 0, 2, 0, 1, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (22, 'Authentication - GMail', 'gmail', 'authentication', 0, 0, 0, 0, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (23, 'Joomla SEF URLs', 'sefurl', 'system', 0, 2, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (24, 'Visitor Statistics', 'joomla.visitorbot', 'system', 0, 3, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (25, 'Content - Page Navigation','pagenavigation','content',0,2,1,1,0,0,'0000-00-00 00:00:00','');
-INSERT INTO `#__plugins` VALUES (26, 'Editor - XStandard Lite 1.7', 'xstandard', 'editors', 0, 0, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (27, 'XML-RPC - Joomla', 'joomla', 'xmlrpc', 0, 7, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (28, 'XML-RPC - Blogger API', 'blogger', 'xmlrpc', 0, 7, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
-#INSERT INTO `#__plugins` VALUES (29, 'XML-RPC - MetaWeblog API', 'metaweblog', 'xmlrpc', 0, 7, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
-INSERT INTO `#__plugins` VALUES (30, 'Editor Button - Readmore','readmore','editors-xtd',0,0,1,0,0,0,'0000-00-00 00:00:00','');
+INSERT INTO `#__plugins` VALUES (1, 'Autentisering - Joomla', 'joomla', 'authentication', 0, 1, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
+INSERT INTO `#__plugins` VALUES (2, 'Autentisering - LDAP', 'ldap', 'authentication', 0, 2, 0, 1, 0, 0, '0000-00-00 00:00:00', 'host=\nport=389\nuse_ldapV3=0\nnegotiate_tls=0\nno_referrals=0\nauth_method=bind\nbase_dn=\nsearch_string=\nusers_dn=\nusername=\npassword=\nldap_fullname=fullName\nldap_email=mail\nldap_uid=uid\n\n');
+INSERT INTO `#__plugins` VALUES (3, 'Autentisering - GMail', 'gmail', 'authentication', 0, 4, 0, 0, 0, 0, '0000-00-00 00:00:00', '');
+INSERT INTO `#__plugins` VALUES (4, 'Autentisering - OpenID', 'openid', 'authentication', 0, 3, 0, 0, 0, 0, '0000-00-00 00:00:00', '');
+INSERT INTO `#__plugins` VALUES (5, 'Bruker - Joomla!', 'joomla', 'user', 0, 0, 1, 0, 0, 0, '0000-00-00 00:00:00', 'autoregister=1\n\n');
+INSERT INTO `#__plugins` VALUES (6, 'Søk - Innhold','content','search',0,1,1,1,0,0,'0000-00-00 00:00:00','search_limit=50\nsearch_content=1\nsearch_uncategorised=1\nsearch_archived=1\n\n');
+INSERT INTO `#__plugins` VALUES (7, 'Søk - Kontakter','contacts','search',0,3,1,1,0,0,'0000-00-00 00:00:00','search_limit=50\n\n');
+INSERT INTO `#__plugins` VALUES (8, 'Søk - Kategorier', 'categories', 'search', 0, 4, 1, 0, 0, 0, '0000-00-00 00:00:00', 'search_limit=50\n\n');
+INSERT INTO `#__plugins` VALUES (9, 'Søk - Seksjoner', 'sections', 'search', 0, 5, 1, 0, 0, 0, '0000-00-00 00:00:00', 'search_limit=50\n\n');
+INSERT INTO `#__plugins` VALUES (10, 'Søk - Nyhetsmatinger', 'newsfeeds', 'search', 0, 6, 1, 0, 0, 0, '0000-00-00 00:00:00', 'search_limit=50\n\n');
+INSERT INTO `#__plugins` VALUES (11, 'Søk - Nettlenker','weblinks','search',0,2,1,1,0,0,'0000-00-00 00:00:00','search_limit=50\n\n');
+INSERT INTO `#__plugins` VALUES (12, 'Innhold - Sideskift','pagebreak','content',0,10000,1,1,0,0,'0000-00-00 00:00:00','enabled=1\ntitle=1\nmultipage_toc=1\nshowall=1\n\n');
+INSERT INTO `#__plugins` VALUES(13, 'Innhold - SEF', 'sef', 'content',0,1,1,0,0,0,'0000-00-00 00:00:00','');
+INSERT INTO `#__plugins` VALUES (14, 'Innhold - Vurdering','vote','content',0,4,1,1,0,0,'0000-00-00 00:00:00','');
+INSERT INTO `#__plugins` VALUES (15, 'Innhold - E-postmaskering', 'emailcloak', 'content', 0, 5, 1, 0, 0, 0, '0000-00-00 00:00:00', 'mode=1\n\n');
+INSERT INTO `#__plugins` VALUES (16, 'Innhold - Code Hightlighter (GeSHi)', 'geshi', 'content', 0, 5, 0, 0, 0, 0, '0000-00-00 00:00:00', '');
+INSERT INTO `#__plugins` VALUES (17, 'Innhold - Last modul', 'loadmodule', 'content', 0, 6, 1, 0, 0, 0, '0000-00-00 00:00:00', 'enabled=1\nstyle=0\n\n');
+INSERT INTO `#__plugins` VALUES (18, 'Innhold - Sidenavigering','pagenavigation','content',0,2,1,1,0,0,'0000-00-00 00:00:00','position=1\n\n');
+INSERT INTO `#__plugins` VALUES (19, 'Tekstbehandler - Ingen tekstbehandler','none','editors',0,0,1,1,0,0,'0000-00-00 00:00:00','');
+INSERT INTO `#__plugins` VALUES (20, 'Tekstbehandler - TinyMCE 2.0', 'tinymce', 'editors', 0, 0, 1, 1, 0, 0, '0000-00-00 00:00:00', 'theme=advanced\ncleanup=1\ncleanup_startup=0\nautosave=0\ncompressed=0\nrelative_urls=1\ntext_direction=ltr\nlang_mode=0\nlang_code=en\ninvalid_elements=applet\ncontent_css=1\ncontent_css_custom=\nnewlines=0\ntoolbar=top\nhr=1\nsmilies=1\ntable=1\nstyle=1\nlayer=1\nxhtmlxtras=0\ntemplate=0\ndirectionality=1\nfullscreen=1\nhtml_height=550\nhtml_width=750\npreview=1\ninsertdate=1\nformat_date=%Y-%m-%d\ninserttime=1\nformat_time=%H:%M:%S\n\n');
+INSERT INTO `#__plugins` VALUES (21, 'Tekstbehandler - XStandard Lite 2.0', 'xstandard', 'editors', 0, 0, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
+INSERT INTO `#__plugins` VALUES (22, 'Tekstbehandlerknapp - Bilde','image','editors-xtd',0,0,1,0,0,0,'0000-00-00 00:00:00','');
+INSERT INTO `#__plugins` VALUES (23, 'Tekstbehandlerknapp - Sideskift','pagebreak','editors-xtd',0,0,1,0,0,0,'0000-00-00 00:00:00','');
+INSERT INTO `#__plugins` VALUES (24, 'Tekstbehandlerknapp - Les mer','readmore','editors-xtd',0,0,1,0,0,0,'0000-00-00 00:00:00','');
+INSERT INTO `#__plugins` VALUES (25, 'XML-RPC - Joomla', 'joomla', 'xmlrpc', 0, 7, 0, 1, 0, 0, '0000-00-00 00:00:00', '');
+INSERT INTO `#__plugins` VALUES (26, 'XML-RPC - Blogger API', 'blogger', 'xmlrpc', 0, 7, 0, 1, 0, 0, '0000-00-00 00:00:00', 'catid=1\nsectionid=0\n\n');
+INSERT INTO `#__plugins` VALUES (28, 'System - Feilsøk', 'debug', 'system', 0, 2, 1, 0, 0, 0, '0000-00-00 00:00:00', 'queries=1\nmemory=1\nlangauge=1\n\n');
+INSERT INTO `#__plugins` VALUES (29, 'System - Kompatibilitet', 'legacy', 'system', 0, 3, 0, 1, 0, 0, '0000-00-00 00:00:00', 'route=0\n\n');
+INSERT INTO `#__plugins` VALUES (30, 'System - Mellomlager', 'cache', 'system', 0, 4, 0, 1, 0, 0, '0000-00-00 00:00:00', 'browsercache=0\ncachetime=15\n\n');
+INSERT INTO `#__plugins` VALUES (31, 'System - Logg', 'log', 'system', 0, 5, 0, 1, 0, 0, '0000-00-00 00:00:00', '');
+INSERT INTO `#__plugins` VALUES (32, 'System - Husk meg', 'remember', 'system', 0, 6, 1, 1, 0, 0, '0000-00-00 00:00:00', '');
+INSERT INTO `#__plugins` VALUES (33, 'System - Backlink', 'backlink', 'system', 0, 7, 0, 1, 0, 0, '0000-00-00 00:00:00', '');
 
 # --------------------------------------------------------
 
@@ -369,6 +372,7 @@ CREATE TABLE `#__menu` (
   `id` int(11) NOT NULL auto_increment,
   `menutype` varchar(225) default NULL,
   `name` TEXT default NULL,
+  `alias` varchar(255) NOT NULL default '',
   `link` text,
   `type` varchar(150) NOT NULL default '',
   `published` tinyint(1) NOT NULL default 0,
@@ -383,7 +387,6 @@ CREATE TABLE `#__menu` (
   `access` tinyint(3) unsigned NOT NULL default 0,
   `utaccess` tinyint(3) unsigned NOT NULL default 0,
   `params` text NOT NULL,
-  `control` TEXT NOT NULL default '',
   `lft` int(11) unsigned NOT NULL default 0,
   `rgt` int(11) unsigned NOT NULL default 0,
   `home` INTEGER(1) UNSIGNED NOT NULL DEFAULT 0,
@@ -392,7 +395,7 @@ CREATE TABLE `#__menu` (
   KEY `menutype` (`menutype`)
 ) TYPE=MyISAM;
 
-INSERT INTO `#__menu` VALUES (1, 'mainmenu', 'Hjem', 'index.php?option=com_content&view=frontpage', 'component', 1, 0, 20, 0, 1, 0, '0000-00-00 00:00:00', 0, 0, 0, 3, 'leading=1\r\nintro=2\r\nlink=1\r\nimage=1\r\npage_title=0\r\nheader=Velkommen til forsiden\r\norderby_sec=front\r\nprint=0\r\npdf=0\r\nemail=0\r\nback_button=0', 'view_name=', 0, 0, 1);
+INSERT INTO `#__menu` VALUES (1, 'mainmenu', 'Hjem', 'hjem', 'index.php?option=com_content&view=frontpage', 'component', 1, 0, 20, 0, 1, 0, '0000-00-00 00:00:00', 0, 0, 0, 3, 'show_page_title=1\npage_title=Velkommen til forsiden\nshow_description=0\nshow_description_image=0\nnum_leading_articles=1\nnum_intro_articles=4\nnum_columns=2\nnum_links=4\nshow_title=1\npageclass_sfx=\nmenu_image=-1\nsecure=0\norderby_pri=\norderby_sec=front\nshow_pagination=2\nshow_pagination_results=1\nshow_noauth=0\nlink_titles=0\nshow_intro=1\nshow_section=0\nlink_section=0\nshow_category=0\nlink_category=0\nshow_author=1\nshow_create_date=1\nshow_modify_date=1\nshow_item_navigation=0\nshow_readmore=1\nshow_vote=0\nshow_icons=1\nshow_pdf_icon=1\nshow_print_icon=1\nshow_email_icon=1\nshow_hits=1\n\n', 0, 0, 1);
 
 # --------------------------------------------------------
 
@@ -409,7 +412,7 @@ CREATE TABLE `#__menu_types` (
   UNIQUE `menutype`(`menutype`)
 ) TYPE=MyISAM;
 
-INSERT INTO `#__menu_types` VALUES (1, 'mainmenu', 'Hovedmeny', 'Hovedmenyen for siden');
+INSERT INTO `#__menu_types` VALUES (1, 'mainmenu', 'Main Menu', 'The main menu for the site');
 
 # --------------------------------------------------------
 
@@ -427,7 +430,8 @@ CREATE TABLE `#__messages` (
   `priority` int(1) unsigned NOT NULL default '0',
   `subject` text NOT NULL default '',
   `message` text NOT NULL,
-  PRIMARY KEY  (`message_id`)
+  PRIMARY KEY  (`message_id`),
+  KEY `useridto_state` (`user_id_to`, `state`)
 ) TYPE=MyISAM;
 # --------------------------------------------------------
 
@@ -469,47 +473,21 @@ CREATE TABLE `#__modules` (
   KEY `newsfeeds` (`module`,`published`)
 ) TYPE=MyISAM;
 
-#
-# Dumping data for table `#__modules`
-#
-
-INSERT INTO `#__modules` VALUES (1, 'Avstemninger', '', 1, 'right', 0, '0000-00-00 00:00:00', 1, 'mod_poll', 0, 0, 1, '', 0, 0, '');
-INSERT INTO `#__modules` VALUES (2, 'Brukermeny', '', 2, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_mainmenu', 0, 1, 1, 'menutype=usermenu\nmoduleclass_sfx=_menu\n', 1, 0, '');
-INSERT INTO `#__modules` VALUES (3, 'Hovedmeny', '', 1, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_mainmenu', 0, 0, 1, 'menutype=mainmenu\nmoduleclass_sfx=_menu\n', 1, 0, '');
-INSERT INTO `#__modules` VALUES (4, 'Innlogging', '', 6, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_login', 0, 0, 1, 'greeting=1\nname=0', 1, 0, '');
-INSERT INTO `#__modules` VALUES (5, 'Siste nytt', '', 4, 'user1', 0, '0000-00-00 00:00:00', 1, 'mod_latestnews', 0, 0, 1, '', 1, 0, '');
-INSERT INTO `#__modules` VALUES (6, 'Statistikker', '', 4, 'left', 0, '0000-00-00 00:00:00', 0, 'mod_stats', 0, 0, 1, 'serverinfo=1\nsiteinfo=1\ncounter=1\nincrease=0\nmoduleclass_sfx=', 0, 0, '');
-INSERT INTO `#__modules` VALUES (7, 'Besøkende', '', 1, 'right', 0, '0000-00-00 00:00:00', 1, 'mod_whosonline', 0, 0, 1, 'online=1\nusers=1\nmoduleclass_sfx=', 0, 0, '');
-INSERT INTO `#__modules` VALUES (8, 'Mest lest', '', 6, 'user2', 0, '0000-00-00 00:00:00', 1, 'mod_mostread', 0, 0, 1, '', 0, 0, '');
-INSERT INTO `#__modules` VALUES (9, 'Innlogging', '', 1, 'login', 0, '0000-00-00 00:00:00', 1, 'mod_login', 0, 0, 1, '', 1, 1, '');
-INSERT INTO `#__modules` VALUES (10, 'Arkiv', '', 7, 'left', 0, '0000-00-00 00:00:00', 0, 'mod_archive', 0, 0, 1, '', 1, 0, '');
-INSERT INTO `#__modules` VALUES (11, 'Seksjoner', '', 8, 'left', 0, '0000-00-00 00:00:00', 0, 'mod_sections', 0, 0, 1, '', 1, 0, '');
-INSERT INTO `#__modules` VALUES (12, 'Notiser', '', 1, 'top', 0, '0000-00-00 00:00:00', 1, 'mod_newsflash', 0, 0, 1, 'catid=3\r\nstyle=random\r\nitems=\r\nmoduleclass_sfx=', 0, 0, '');
-INSERT INTO `#__modules` VALUES (13, 'Relaterte artikler', '', 9, 'left', 0, '0000-00-00 00:00:00', 0, 'mod_related_items', 0, 0, 1, '', 0, 0, '');
-INSERT INTO `#__modules` VALUES (14, 'Søk', '', 1, 'user4', 0, '0000-00-00 00:00:00', 1, 'mod_search', 0, 0, 0, '', 0, 0, '');
-INSERT INTO `#__modules` VALUES (15, 'Tilfeldig bilde', '', 9, 'right', 0, '0000-00-00 00:00:00', 1, 'mod_random_image', 0, 0, 1, '', 0, 0, '');
-INSERT INTO `#__modules` VALUES (16, 'Toppmeny', '', 1, 'user3', 0, '0000-00-00 00:00:00', 1, 'mod_mainmenu', 0, 0, 0, 'menutype=topmenu\nmenu_style=list_flat\nmenu_images=n\nmenu_images_align=left\nexpand_menu=n\nclass_sfx=-nav\nmoduleclass_sfx=\nindent_image1=0\nindent_image2=0\nindent_image3=0\nindent_image4=0\nindent_image5=0\nindent_image6=0', 1, 0, '');
-INSERT INTO `#__modules` VALUES (17, 'Bannere', '', 1, 'banner', 0, '0000-00-00 00:00:00', 1, 'mod_banners', 0, 0, 0, 'banner_cids=\nmoduleclass_sfx=\n', 1, 0, '');
-INSERT INTO `#__modules` VALUES (19, 'Mest lest','',3,'cpanel',0,'0000-00-00 00:00:00',1,'mod_popular',0,23,1,'',0, 1, '');
-INSERT INTO `#__modules` VALUES (20, 'Siste nytt','',4,'cpanel',0,'0000-00-00 00:00:00',1,'mod_latest',0,23,1,'',0, 1, '');
-INSERT INTO `#__modules` VALUES (21, 'Menystatstikk','',5,'cpanel',0,'0000-00-00 00:00:00',1,'mod_stats',0,23,1,'',0, 1, '');
-INSERT INTO `#__modules` VALUES (22, 'Uleste meldinger','',1,'header',0,'0000-00-00 00:00:00',1,'mod_unread',0,23,1,'',1, 1, '');
-INSERT INTO `#__modules` VALUES (23, 'Besøkende','',2,'header',0,'0000-00-00 00:00:00',1,'mod_online',0,23,1,'',1, 1, '');
-INSERT INTO `#__modules` VALUES (25, 'Verktøylinje','',1,'toolbar',0,'0000-00-00 00:00:00',1,'mod_toolbar',0,23,1,'',1, 1, '');
-INSERT INTO `#__modules` VALUES (26, 'Hurtigkanpper','',1,'icon',0,'0000-00-00 00:00:00',1,'mod_quickicon',0,23,1,'',1,1, '');
-INSERT INTO `#__modules` VALUES (27, 'Annen meny', '', 2, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_mainmenu', 0, 0, 0, 'menutype=othermenu\nmenu_style=vert_indent\ncache=0\nmenu_images=0\nmenu_images_align=0\nexpand_menu=0\nclass_sfx=\nmoduleclass_sfx=\nindent_image=0\nindent_image1=\nindent_image2=\nindent_image3=\nindent_image4=\nindent_image5=\nindent_image6=\nmoduleclass_sfx=_menu\n', 0, 0, '');
-INSERT INTO `#__modules` VALUES (28, 'Innpakking','',10,'left',0,'0000-00-00 00:00:00',0,'mod_wrapper',0,0,1,'',0, 0, '');
-INSERT INTO `#__modules` VALUES (29, 'Innloggede bruker','',0,'cpanel',0,'0000-00-00 00:00:00',1,'mod_logged',0,23,1,'',0,1, '');
-INSERT INTO `#__modules` VALUES (30, 'Bunntekst', '', 1, 'footer', 0, '0000-00-00 00:00:00', 1, 'mod_footer', 0, 0, 1, '', 1, 0, '');
-INSERT INTO `#__modules` VALUES (31, 'Bunntekst', '', 0, 'footer', 0, '0000-00-00 00:00:00', 1, 'mod_footer', 0, 0, 1, '', 1, 1, '');
-INSERT INTO `#__modules` VALUES (32, 'Nyhetsmating', '', 11, 'left', 0, '0000-00-00 00:00:00', 0, 'mod_feed', 0, 0, 1, '', 1, 0, '');
-INSERT INTO `#__modules` VALUES (33, 'Direktelenker', '', 1, 'breadcrumb', 0, '0000-00-00 00:00:00', 1, 'mod_breadcrumbs', 0, 0, 1, '', 1, 0, '');
-INSERT INTO `#__modules` VALUES (34, 'Syndikat', '', 3, 'syndicate', 0, '0000-00-00 00:00:00', 1, 'mod_syndicate', 0, 0, 0, '', 1, 0, '');
-INSERT INTO `#__modules` VALUES (35, 'Administratormeny','', 1,'menu', 0,'0000-00-00 00:00:00', 1,'mod_menu', 0, 23, 1, '', 0, 1, '');
-INSERT INTO `#__modules` VALUES (36, 'Administratorundermeny','', 1,'submenu', 0,'0000-00-00 00:00:00', 1,'mod_submenu', 0, 23, 1, '', 0, 1, '');
-INSERT INTO `#__modules` VALUES (37, 'Brukerstatus','', 1,'status', 0,'0000-00-00 00:00:00', 1,'mod_status', 0, 23, 1, '', 0, 1, '');
-INSERT INTO `#__modules` VALUES (38, 'Tittel','', 1,'title', 0,'0000-00-00 00:00:00', 1,'mod_title', 0, 23, 1, '', 0, 1, '');
-INSERT INTO `#__modules` VALUES (40, 'Kontrollpanelskall', '', 1, 'cp_shell', 0, '0000-00-00 00:00:00', 1, 'mod_cpanel', 0, 23, 1, '', 1, 1, '');
+INSERT INTO `#__modules` VALUES (1, 'Hovedmeny', '', 1, 'left', 0, '0000-00-00 00:00:00', 1, 'mod_mainmenu', 0, 0, 1, 'menutype=mainmenu\nmoduleclass_sfx=_menu\n', 1, 0, '');
+INSERT INTO `#__modules` VALUES (2, 'Innlogging', '', 1, 'login', 0, '0000-00-00 00:00:00', 1, 'mod_login', 0, 0, 1, '', 1, 1, '');
+INSERT INTO `#__modules` VALUES (3, 'Mest lest','',3,'cpanel',0,'0000-00-00 00:00:00',1,'mod_popular',0,2,1,'',0, 1, '');
+INSERT INTO `#__modules` VALUES (4, 'Nyeste artikler','',4,'cpanel',0,'0000-00-00 00:00:00',1,'mod_latest',0,2,1,'ordering=c_dsc\nuser_id=0\ncache=0\n\n',0, 1, '');
+INSERT INTO `#__modules` VALUES (5, 'Menystatistikker','',5,'cpanel',0,'0000-00-00 00:00:00',1,'mod_stats',0,2,1,'',0, 1, '');
+INSERT INTO `#__modules` VALUES (6, 'Uleste meldinger','',1,'header',0,'0000-00-00 00:00:00',1,'mod_unread',0,2,1,'',1, 1, '');
+INSERT INTO `#__modules` VALUES (7, 'Besøkende','',2,'header',0,'0000-00-00 00:00:00',1,'mod_online',0,2,1,'',1, 1, '');
+INSERT INTO `#__modules` VALUES (8, 'Verktøylinje','',1,'toolbar',0,'0000-00-00 00:00:00',1,'mod_toolbar',0,2,1,'',1, 1, '');
+INSERT INTO `#__modules` VALUES (9, 'Hurtigikoner','',1,'icon',0,'0000-00-00 00:00:00',1,'mod_quickicon',0,2,1,'',1,1, '');
+INSERT INTO `#__modules` VALUES (10, 'Påloggede brukere','',2,'cpanel',0,'0000-00-00 00:00:00',1,'mod_logged',0,2,1,'',0,1, '');
+INSERT INTO `#__modules` VALUES (11, 'Bunntekst', '', 0, 'footer', 0, '0000-00-00 00:00:00', 1, 'mod_footer', 0, 0, 1, '', 1, 1, '');
+INSERT INTO `#__modules` VALUES (12, 'Admin-meny','', 1,'menu', 0,'0000-00-00 00:00:00', 1,'mod_menu', 0, 2, 1, '', 0, 1, '');
+INSERT INTO `#__modules` VALUES (13, 'Admin-undermeny','', 1,'submenu', 0,'0000-00-00 00:00:00', 1,'mod_submenu', 0, 2, 1, '', 0, 1, '');
+INSERT INTO `#__modules` VALUES (14, 'Brukerstatus','', 1,'status', 0,'0000-00-00 00:00:00', 1,'mod_status', 0, 2, 1, '', 0, 1, '');
+INSERT INTO `#__modules` VALUES (15, 'Tittel','', 1,'title', 0,'0000-00-00 00:00:00', 1,'mod_title', 0, 2, 1, '', 0, 1, '');
 
 # --------------------------------------------------------
 
@@ -527,31 +505,7 @@ CREATE TABLE `#__modules_menu` (
 # Dumping data for table `#__modules_menu`
 #
 
-INSERT INTO `#__modules_menu` VALUES (1,1);
-INSERT INTO `#__modules_menu` VALUES (2,0);
-INSERT INTO `#__modules_menu` VALUES (3,0);
-INSERT INTO `#__modules_menu` VALUES (4,1);
-INSERT INTO `#__modules_menu` VALUES (5,1);
-INSERT INTO `#__modules_menu` VALUES (5,2);
-INSERT INTO `#__modules_menu` VALUES (5,4);
-INSERT INTO `#__modules_menu` VALUES (5,27);
-INSERT INTO `#__modules_menu` VALUES (5,36);
-INSERT INTO `#__modules_menu` VALUES (7,1);
-INSERT INTO `#__modules_menu` VALUES (8,1);
-INSERT INTO `#__modules_menu` VALUES (8,2);
-INSERT INTO `#__modules_menu` VALUES (8,4);
-INSERT INTO `#__modules_menu` VALUES (8,27);
-INSERT INTO `#__modules_menu` VALUES (8,36);
-INSERT INTO `#__modules_menu` VALUES (12,0);
-INSERT INTO `#__modules_menu` VALUES (14,0);
-INSERT INTO `#__modules_menu` VALUES (16,0);
-INSERT INTO `#__modules_menu` VALUES (17,0);
-INSERT INTO `#__modules_menu` VALUES (27,1);
-INSERT INTO `#__modules_menu` VALUES (28,0);
-INSERT INTO `#__modules_menu` VALUES (31,0);
-INSERT INTO `#__modules_menu` VALUES (32,0);
-INSERT INTO `#__modules_menu` VALUES (33,0);
-INSERT INTO `#__modules_menu` VALUES (34,0);
+INSERT INTO `#__modules_menu` VALUES (1,0);
 
 # --------------------------------------------------------
 
@@ -563,6 +517,7 @@ CREATE TABLE `#__newsfeeds` (
   `catid` int(11) NOT NULL default '0',
   `id` int(11) NOT NULL auto_increment,
   `name` text NOT NULL,
+  `alias` varchar(255) NOT NULL default '',
   `link` text NOT NULL,
   `filename` varchar(200) default NULL,
   `published` tinyint(1) NOT NULL default '0',
@@ -573,7 +528,8 @@ CREATE TABLE `#__newsfeeds` (
   `ordering` int(11) NOT NULL default '0',
   `rtl` tinyint(4) NOT NULL default '0',
   PRIMARY KEY  (`id`),
-  KEY `published` (`published`)
+  KEY `published` (`published`),
+  KEY `catid` (`catid`)
 ) TYPE=MyISAM;
 
 # --------------------------------------------------------
@@ -615,6 +571,7 @@ CREATE TABLE `#__poll_date` (
 CREATE TABLE `#__polls` (
   `id` int(11) unsigned NOT NULL auto_increment,
   `title` TEXT NOT NULL default '',
+  `alias` varchar(255) NOT NULL default '',
   `voters` int(9) NOT NULL default '0',
   `checked_out` int(11) NOT NULL default '0',
   `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
@@ -628,6 +585,7 @@ CREATE TABLE `#__polls` (
 
 #
 # Table structure for table `#__poll_menu`
+# !!!DEPRECATED!!!
 #
 
 CREATE TABLE `#__poll_menu` (
@@ -646,6 +604,7 @@ CREATE TABLE `#__sections` (
   `id` int(11) NOT NULL auto_increment,
   `title` TEXT NOT NULL default '',
   `name` TEXT NOT NULL default '',
+  `alias` varchar(255) NOT NULL default '',
   `image` TEXT NOT NULL default '',
   `scope` varchar(50) NOT NULL default '',
   `image_position` varchar(90) NOT NULL default '',
@@ -676,8 +635,11 @@ CREATE TABLE `#__session` (
   `usertype` varchar(150) default '',
   `gid` tinyint(3) unsigned NOT NULL default '0',
   `client_id` tinyint(3) unsigned NOT NULL default '0',
-  PRIMARY KEY  (`session_id`),
-  KEY `whosonline` (`guest`,`usertype`)
+  `data` longtext,
+  PRIMARY KEY  (`session_id`(64)),
+  KEY `whosonline` (`guest`,`usertype`),
+  KEY `userid` (`userid`),
+  KEY `time` (`time`)
 ) TYPE=MyISAM;
 
 # --------------------------------------------------------
@@ -702,7 +664,7 @@ CREATE TABLE `#__templates_menu` (
   `template` TEXT NOT NULL default '',
   `menuid` int(11) NOT NULL default '0',
   `client_id` tinyint(4) NOT NULL default '0',
-  PRIMARY KEY  (`template`(255),`menuid`)
+  PRIMARY KEY (`menuid`, `client_id`, `template`(255))
 ) TYPE=MyISAM;
 
 # Dumping data for table `#__templates_menu`
@@ -713,65 +675,13 @@ INSERT INTO `#__templates_menu` VALUES ('khepri', '0', '1');
 # --------------------------------------------------------
 
 #
-# Table structure for table `#__template_positions`
-#
-
-CREATE TABLE `#__template_positions` (
-  `id` int(11) NOT NULL auto_increment,
-  `position` varchar(150) NOT NULL default '',
-  `description` TEXT NOT NULL default '',
-  PRIMARY KEY  (`id`)
-) TYPE=MyISAM;
-
-#
-# Dumping data for table `#__template_positions`
-#
-
-INSERT INTO `#__template_positions` VALUES (0, 'left', '');
-INSERT INTO `#__template_positions` VALUES (0, 'right', '');
-INSERT INTO `#__template_positions` VALUES (0, 'top', '');
-INSERT INTO `#__template_positions` VALUES (0, 'bottom', '');
-INSERT INTO `#__template_positions` VALUES (0, 'inset', '');
-INSERT INTO `#__template_positions` VALUES (0, 'banner', '');
-INSERT INTO `#__template_positions` VALUES (0, 'header', '');
-INSERT INTO `#__template_positions` VALUES (0, 'footer', '');
-INSERT INTO `#__template_positions` VALUES (0, 'newsflash', '');
-INSERT INTO `#__template_positions` VALUES (0, 'legals', '');
-INSERT INTO `#__template_positions` VALUES (0, 'pathway', '');
-INSERT INTO `#__template_positions` VALUES (0, 'breadcrumb', '');
-INSERT INTO `#__template_positions` VALUES (0, 'toolbar', '');
-INSERT INTO `#__template_positions` VALUES (0, 'menu', '');
-INSERT INTO `#__template_positions` VALUES (0, 'cpanel', '');
-INSERT INTO `#__template_positions` VALUES (0, 'user1', '');
-INSERT INTO `#__template_positions` VALUES (0, 'user2', '');
-INSERT INTO `#__template_positions` VALUES (0, 'user3', '');
-INSERT INTO `#__template_positions` VALUES (0, 'user4', '');
-INSERT INTO `#__template_positions` VALUES (0, 'user5', '');
-INSERT INTO `#__template_positions` VALUES (0, 'user6', '');
-INSERT INTO `#__template_positions` VALUES (0, 'user7', '');
-INSERT INTO `#__template_positions` VALUES (0, 'user8', '');
-INSERT INTO `#__template_positions` VALUES (0, 'user9', '');
-INSERT INTO `#__template_positions` VALUES (0, 'advert1', '');
-INSERT INTO `#__template_positions` VALUES (0, 'advert2', '');
-INSERT INTO `#__template_positions` VALUES (0, 'advert3', '');
-INSERT INTO `#__template_positions` VALUES (0, 'icon', '');
-INSERT INTO `#__template_positions` VALUES (0, 'debug', '');
-INSERT INTO `#__template_positions` VALUES (0, 'submenu', '');
-INSERT INTO `#__template_positions` VALUES (0, 'status', '');
-INSERT INTO `#__template_positions` VALUES (0, 'title', '');
-INSERT INTO `#__template_positions` VALUES (0, 'syndicate', '');
-INSERT INTO `#__template_positions` VALUES (0, 'cp_shell', '');
-
-# --------------------------------------------------------
-
-#
 # Table structure for table `#__users`
 #
 
 CREATE TABLE `#__users` (
   `id` int(11) NOT NULL auto_increment,
   `name` TEXT NOT NULL default '',
-  `username` varchar(225) NOT NULL default '',
+  `username` varchar(150) NOT NULL default '',
   `email` varchar(100) NOT NULL default '',
   `password` varchar(100) NOT NULL default '',
   `usertype` varchar(75) NOT NULL default '',
@@ -784,7 +694,10 @@ CREATE TABLE `#__users` (
   `params` text NOT NULL,
   PRIMARY KEY  (`id`),
   KEY `usertype` (`usertype`),
-  KEY `idx_name` (`name`(255))
+  KEY `idx_name` (`name`(255)),
+  KEY `gid_block` (`gid`, `block`),
+  KEY `username` (`username`),
+  KEY `email` (`email`)
 ) TYPE=MyISAM;
 
 # --------------------------------------------------------
@@ -798,6 +711,7 @@ CREATE TABLE `#__weblinks` (
   `catid` int(11) NOT NULL default '0',
   `sid` int(11) NOT NULL default '0',
   `title` TEXT NOT NULL default '',
+  `alias` varchar(255) NOT NULL default '',
   `url` varchar(250) NOT NULL default '',
   `description` text NOT NULL default '',
   `date` datetime NOT NULL default '0000-00-00 00:00:00',
@@ -830,6 +744,19 @@ CREATE TABLE `#__core_acl_aro` (
   UNIQUE KEY `__section_value_value_aro` (`section_value`(100),`value`(100)),
   KEY `#__gacl_hidden_aro` (`hidden`)
 ) TYPE=MyISAM;
+
+# --------------------------------------------------------
+
+#
+# Table structure for table `#__core_acl_aro_map`
+#
+
+CREATE TABLE  `#__core_acl_aro_map` (
+  `acl_id` int(11) NOT NULL default '0',
+  `section_value` varchar(230) NOT NULL default '0',
+  `value` varchar(100) NOT NULL,
+  PRIMARY KEY  (`acl_id`,`section_value`,`value`)
+) TYPE=MyISAM ;
 
 # --------------------------------------------------------
 
@@ -888,12 +815,24 @@ CREATE TABLE `#__core_acl_aro_sections` (
   `name` varchar(230) NOT NULL default '',
   `hidden` int(11) NOT NULL default '0',
   PRIMARY KEY  (`section_id`),
-  UNIQUE KEY `value_aro_sections` (`value`),
   UNIQUE KEY `#__gacl_value_aro_sections` (`value`),
-  KEY `hidden_aro_sections` (`hidden`),
   KEY `#__gacl_hidden_aro_sections` (`hidden`)
 ) TYPE=MyISAM ;
 
 INSERT INTO `#__core_acl_aro_sections` VALUES (10,'users',1,'Users',0);
+
+# --------------------------------------------------------
+
+#
+# Table structure for table `#__migration_backlinks`
+#
+CREATE TABLE #__migration_backlinks (
+	`itemid` INT(11) NOT NULL,
+	`name` VARCHAR(100) NOT NULL,
+	`url` TEXT NOT NULL,
+	`sefurl` TEXT NOT NULL,
+	`newurl` TEXT NOT NULL,
+	PRIMARY KEY(`itemid`)
+) TYPE=MyISAM ;
 
 # --------------------------------------------------------
