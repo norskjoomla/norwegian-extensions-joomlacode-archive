@@ -81,7 +81,7 @@ tinyMCE.addToLang('fullpage',{
 	charset : 'Karaktersett',
 	defer : 'Utsett',
 	media : 'Media',
-	properties : 'Instillinger',
+	properties : 'Innstillinger',
 	name : 'Navn',
 	value : 'Verdi',
 	content : 'Innhold',
