@@ -5,8 +5,8 @@ class mtLanguage {
 	var $CATEGORY = "Kategori";
 	var $CATEGORIES = "Kategorier";
 	var $FEATURED_CATEGORIES = "Utvalgte kategorier";
-	var $LISTINGS = "OppfÃ¸ringer";
-	var $LISTING = "OppfÃ¸ring";
+	var $LISTINGS = "Oppføringer";
+	var $LISTING = "Oppføring";
 	var $ERROR = "Feil";
 	var $REVIEWS = "Omtaler";
 	var $REVIEW = "Omtale";
@@ -15,7 +15,7 @@ class mtLanguage {
 	var $MAP = "Vis kart";
 	var $CANCEL = "Avbryt";
 	var $APPROVED = "Godkjent";
-	var $EMPTY_CATEGORY = "<br /><center>Det er ingen oppfÃ¸ring i denne kategorien.</center>";
+	var $EMPTY_CATEGORY = "<br /><center>Det er ingen oppføring i denne kategorien.</center>";
 	var $ROOT = "Rot";
 	var $ARROW = " > ";
 	var $DELETE = "Slett";
@@ -32,7 +32,7 @@ class mtLanguage {
 	var $VOTES = "Stemmer";
 	var $VOTE = "Stem";
 	var $VISIT = "Vis nettside";
-	var $VISITED = "Ant. besÃ¸k til side";
+	var $VISITED = "Ant. besøk til side";
 	var $FAVOURED = "Favoured";
 	var $ADDED = "Lagt til";
 	var $MODIFIED = "Sist oppdatert";
@@ -50,7 +50,7 @@ class mtLanguage {
 	var $EMAIL = "E-post";
 	var $WEBSITE = "Vis nettside";
 	var $REVIEW_TITLE = "Omtaletittel";
-	var $SEARCH = "SÃ¸k";
+	var $SEARCH = "Søk";
 	var $RESET = "Nullstill";
 	var $NUMBER = "antall";
 	var $YES = "Ja";
@@ -60,7 +60,7 @@ class mtLanguage {
 	var $NUMBER_OF_RATINGS = "Antall vurderinger";
 	var $OUT_OF_FIVE = "av 5";
 	var $PRINT = "Skriv ut";
-	var $BACK_TO_LISTING = "Tilbake til oppfÃ¸ring";
+	var $BACK_TO_LISTING = "Tilbake til oppføring";
 
 	var $NON_REGISTERED_USER = "Ikke-registrert bruker";
 	var $NOT_SPECIFIED = "Ikke angitt";
@@ -76,42 +76,42 @@ class mtLanguage {
 	var $SELECT_CATEGORY = "Velg kategori";
 	var $ALL_CATEGORIES = "Alle kategorier";
 	var $MORE_CATEGORIES = "Flere kategorier: ";
-	var $THERE_ARE_NO_CAT_OR_LISTINGS = "Det er ingen kategorier eller oppfÃ¸ringer som starter med <b>%s</b>";
+	var $THERE_ARE_NO_CAT_OR_LISTINGS = "Det er ingen kategorier eller oppføringer som starter med <b>%s</b>";
 	var $RELATED_CATEGORIES = "Beslektede kategorier";
 	var $RELATED_CATEGORIES2 = "Beslektede kategorier";
 
 	/* Listing - General */
 	var $LINK_NEW = "Ny!";
-	var $LINK_POPULAR = "PopulÃ¦r!";
+	var $LINK_POPULAR = "Populær!";
 	var $LINK_FEATURED = "Utvalgt!";
-	var $FEATURED_LISTING = "Utvalgte oppfÃ¸ringer";
-	var $FEATURED_LISTING2 = "Utvalgte oppfÃ¸ringer: ";
-	var $THERE_ARE_X_LISTING = "Det finnes %s oppfÃ¸ringer i denne kategorien.";
-	var $LISTING_INFORMATION = "Informasjon om oppfÃ¸ringen";
+	var $FEATURED_LISTING = "Utvalgte oppføringer";
+	var $FEATURED_LISTING2 = "Utvalgte oppføringer: ";
+	var $THERE_ARE_X_LISTING = "Det finnes %s oppføringer i denne kategorien.";
+	var $LISTING_INFORMATION = "Informasjon om oppføringen";
 	var $GALLERY2 = "Gallery: %s";
 	var $BACK_TO_GALLERY = 'Back to gallery';
 	var $VIEW_GALLERY = 'View gallery';
 	var $NEXT_IMAGE = 'Next &gt;';
 	var $PREVIOUS_IMAGE = '&lt; Previous';
-	
+
 	/* Modules */
-	var $EDIT_LISTING = "Endre oppfÃ¸ring";
+	var $EDIT_LISTING = "Endre oppføring";
 	var $SUBMIT_LISTING = "Legg til";
-	var $POPULAR_LISTING = "PopulÃ¦re oppfÃ¸ringer";
-	var $POPULAR_LISTING2 = "PopulÃ¦re oppfÃ¸ringer: ";
-	var $NEW_LISTING = "Nye oppfÃ¸ringer";
-	var $NEW_LISTING2 = "Siste oppfÃ¸ringer: ";
+	var $POPULAR_LISTING = "Populære oppføringer";
+	var $POPULAR_LISTING2 = "Populære oppføringer: ";
+	var $NEW_LISTING = "Nye oppføringer";
+	var $NEW_LISTING2 = "Siste oppføringer: ";
 	var $MOST_FAVOURED_LISTINGS = "Most Favoured Listings";
 	var $MOST_FAVOURED_LISTINGS2 = "Most Favoured Listings:";
 	var $RECENTLY_UPDATED_LISTING = "Recently Updated Listings";
 	var $RECENTLY_UPDATED_LISTING2 = "Recently Updated Listings: ";
 	var $MOST_RATED_LISTING = "Mest vurdert";
-	var $MOST_RATED_LISTING2 = "Mest vurderte oppfÃ¸ringer: ";
+	var $MOST_RATED_LISTING2 = "Mest vurderte oppføringer: ";
 	var $TOP_RATED_LISTING = "Topp vurdert";
-	var $TOP_RATED_LISTING2 = "Topp vurderte oppfÃ¸ringer: ";
+	var $TOP_RATED_LISTING2 = "Topp vurderte oppføringer: ";
 	var $MOST_REVIEWED_LISTING = "Mest omtalt";
-	var $MOST_REVIEWED_LISTING2 = "Mest omtalte oppfÃ¸ringer: ";
-	var $LIST_ALPHA_BY_LISTINGS_AND_CATS = "List kategorier og oppfÃ¸ringer etter %s: %s";
+	var $MOST_REVIEWED_LISTING2 = "Mest omtalte oppføringer: ";
+	var $LIST_ALPHA_BY_LISTINGS_AND_CATS = "List kategorier og oppføringer etter %s: %s";
 	var $IN = "i";
 
 	/* Contact Owner */
@@ -121,9 +121,9 @@ class mtLanguage {
 	var $CONTACT_MESSAGE = "This is a message sent by %s <%s> from a listing named - %s. The listing URL is:\n%s\n\n%s";
 	var $CONTACT_EMAIL_HAVE_BEEN_SENT = "Din e-post er sendt til eier";
 	var $PLEASE_LOGIN_BEFORE_CONTACT = "You need to login first before you can contact the owner.";
-	
+
 	/* All Owner's Listing */
-	var $ALL_OWNERS_LISTING = "Alle eiers oppfÃ¸ringer";
+	var $ALL_OWNERS_LISTING = "Alle eiers oppføringer";
 	var $THIS_USER_DO_NOT_HAVE_ANY_LISTINGS = "This user do not have any listings.";
 
 	var $OWNERS_LISTING = "Owner's Listing";
@@ -133,14 +133,14 @@ class mtLanguage {
 	var $REPORT = "Rapporter feil";
 	var $REPORTS = "Rapporter";
 	var $REPORT2 = "Rapport: ";
-	var $REPORT_LISTING = "Rapporter oppfÃ¸ring";
+	var $REPORT_LISTING = "Rapporter oppføring";
 	var $REPORT_PROBLEM = "Rapporter problem";
 	var $REPORT_PROBLEM_1 = "Denne nettsiden finnes ikke";
-	var $REPORT_PROBLEM_2 = "Denne oppfÃ¸ringen er i feil kategori";
-	var $REPORT_PROBLEM_3 = "UnÃ¸yaktig beskrivelse";
+	var $REPORT_PROBLEM_2 = "Denne oppføringen er i feil kategori";
+	var $REPORT_PROBLEM_3 = "Unøyaktig beskrivelse";
 	var $REPORT_PROBLEM_4 = "Annet (Vennligst spesifiser under)";
-	var $REPORT_HAVE_BEEN_SENT = "Takk for din rapport. Vi vil se pÃ¥ problemet sÃ¥ snart som mulig.";
-	var $REPORT_EMAIL = "Det er en rapport fra en bruker. Vennligst sjekk oppfÃ¸ring. Du kan se oppfÃ¸ringen pÃ¥:\n\n%s\n\n------------------------------\nOppfÃ¸ringsdetaljer:\n------------------------------\n\nNavn: %s\nProblem: %s\nOppfÃ¸ringens ID: %s\nKommentar:\n\n%s";
+	var $REPORT_HAVE_BEEN_SENT = "Takk for din rapport. Vi vil se på problemet så snart som mulig.";
+	var $REPORT_EMAIL = "Det er en rapport fra en bruker. Vennligst sjekk oppføring. Du kan se oppføringen på:\n\n%s\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nNavn: %s\nProblem: %s\nOppføringens ID: %s\nKommentar:\n\n%s";
 
 	/* Report Review */
 	var $PLEASE_LOGIN_BEFORE_REPORT = "You need to login first before you can report an listing.";
@@ -148,35 +148,35 @@ class mtLanguage {
 	var $PLEASE_FILL_IN_REPLY = "Please enter your reply before submitting";
 
 	/* Claim Listing */
-	var $CLAIM = "GjÃ¸r krav pÃ¥";
+	var $CLAIM = "Gjør krav på";
 	var $CLAIMS = "Krever";
-	var $CLAIM_LISTING = "Krevde oppfÃ¸ringer";
-	var $PLEASE_LOGIN_BEFORE_CLAIM = "Du mÃ¥ logge inn fÃ¸r du kan gjÃ¸re krav pÃ¥ en oppfÃ¸ring";
-	var $CLAIM_EMAIL = "Det er et krav fra en bruker. Vennligst sjekk oppfÃ¸ringen. Du kan se oppfÃ¸ringen pÃ¥:\n\n%s\n\n------------------------------\nOppfÃ¸ringsdetaljer:\n------------------------------\n\nNavn: %s\nOppfÃ¸ringens ID: %s\nKommentar:\n\n%s";
-	var $CLAIM_HAVE_BEEN_SENT = "Takk. Vi vil se pÃ¥ ditt krav sÃ¥ snart som mulig.";
+	var $CLAIM_LISTING = "Krevde oppføringer";
+	var $PLEASE_LOGIN_BEFORE_CLAIM = "Du må logge inn før du kan gjøre krav på en oppføring";
+	var $CLAIM_EMAIL = "Det er et krav fra en bruker. Vennligst sjekk oppføringen. Du kan se oppføringen på:\n\n%s\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nNavn: %s\nOppføringens ID: %s\nKommentar:\n\n%s";
+	var $CLAIM_HAVE_BEEN_SENT = "Takk. Vi vil se på ditt krav så snart som mulig.";
 
 	/* Reviews */
 	var $REVIEWED_BY = "Omtalt av";
 	var $REVIEWS_BY = "Reviews by %s";
 	var $WRITE_REVIEW = "Skriv omtale";
-	var $PLEASE_LOGIN_BEFORE_REVIEW = "Du mÃ¥ logge inn fÃ¸r du kan skrive noen omtaler";
+	var $PLEASE_LOGIN_BEFORE_REVIEW = "Du må logge inn før du kan skrive noen omtaler";
 	var $YOU_RE_NOT_ALLOWED_TO_REVIEW_OWN_LISTING = "You're not allowed to review own listing.";
-	var $YOU_CAN_ONLY_REVIEW_ONCE = "Du kan bare skrive omtale en gang per oppfÃ¸ring";
+	var $YOU_CAN_ONLY_REVIEW_ONCE = "Du kan bare skrive omtale en gang per oppføring";
 	var $YOU_ARE_NOT_ALLOWED_TO_REVIEW = "You are not allowed to review.";
-	var $PLEASE_FILL_IN_REVIEW = "Vennligst fyll inn din omtale fÃ¸r du sender";
-	var $PLEASE_FILL_IN_TITLE = "Vennligst fyll inn en tittel fÃ¸r du sender";
+	var $PLEASE_FILL_IN_REVIEW = "Vennligst fyll inn din omtale før du sender";
+	var $PLEASE_FILL_IN_TITLE = "Vennligst fyll inn en tittel før du sender";
 	var $PLEASE_FILL_IN_RATING = "Please enter the rating.";
 	var $ADD_REVIEW = "Legg inn omtale";
 	var $REVIEW_HAVE_BEEN_SUCCESSFULLY_ADDED = "Din omtale er lagt til";
-	var $BE_THE_FIRST_TO_REVIEW = "VÃ¦r den fÃ¸rste til Ã¥ omtale denne oppfÃ¸ringen!";
-	var $REVIEW_WILL_BE_REVIEWED = "Takk for ditt bidrag. Din omtale vil kontrolleres av en administrator og legges til sÃ¥ snart den er godkjent.";
+	var $BE_THE_FIRST_TO_REVIEW = "Vær den første til å omtale denne oppføringen!";
+	var $REVIEW_WILL_BE_REVIEWED = "Takk for ditt bidrag. Din omtale vil kontrolleres av en administrator og legges til så snart den er godkjent.";
 	var $PEOPLE_FIND_THIS_REVIEW_HELPFUL = "%s of %s people found this review helpful";
 	var $THIS_USER_DO_NOT_HAVE_ANY_REVIEWS = "This user do not have any reviews.";
 
 	/* Ratings */
 	var $SELECT_YOUR_RATING = "Velg din vurdering";
-	var $YOU_CAN_ONLY_RATE_ONCE = "Du kan bare legge inn en vurdering per oppfÃ¸ring";
-	var $PLEASE_LOGIN_BEFORE_RATE = "Du mÃ¥ logge inn fÃ¸r du kan legge inn vurdering";
+	var $YOU_CAN_ONLY_RATE_ONCE = "Du kan bare legge inn en vurdering per oppføring";
+	var $PLEASE_LOGIN_BEFORE_RATE = "Du må logge inn før du kan legge inn vurdering";
 	var $YOU_ARE_NOT_ALLOWED_TO_RATE = "You are not allowed to rate.";
 	var $YOU_RE_NOT_ALLOWED_TO_RATE_OWN_LISTING = "You're not allowed to rate own listing.";
 	var $PLEASE_SELECT_A_RATING = "Vennligst velg en vurdering";
@@ -189,8 +189,8 @@ class mtLanguage {
 	var $RATING_4 = "Bra";
 	var $RATING_3 = "Middels";
 	var $RATING_2 = "Brukbar";
-	var $RATING_1 = "DÃ¥rlig";
-	
+	var $RATING_1 = "Dårlig";
+
 	/* Favourites */
 	var $FAVOURITES_BY = "Favourites by %s";
 	var $ADDED_AS_FAVOURITE = "Added as Favourite!";
@@ -199,7 +199,7 @@ class mtLanguage {
 	var $THIS_USER_DO_NOT_HAVE_ANY_FAVOURITES = "This user do not have any favourite listings.";
 	var $REMOVE_FAVOURITE = 'Remove Favourite';
 	var $ADD_AS_FAVOURITE = 'Add as Favourite';
-	
+
 	/* Review voting */
 	var $YOU_CAN_ONLY_RATE_ONCE_FOR_EVERY_REVIEW = "You have already vote for this review.";
 	var $REVIEW_RATING_HAVE_BEEN_SUCCESSFULLY_ADDED = "Thank you for your vote. Your vote has been successfully added to the review.";
@@ -223,14 +223,14 @@ class mtLanguage {
 	var $REPLY_REVIEW_HAVE_BEEN_SENT = "Thank you for your report. We will attend to the problem as soon as possible.";
 
 	/* Recommend to friends */
-	var $RECOMMEND_LISTING_TO_FRIEND = "Anbefal denne oppfÃ¸ringen til en venn";
-	var $RECOMMEND_MSG = "FÃ¸lgende side fra \"%s\" nettsiden er sendt til deg fra %s (%s).\n\nDu kan se den pÃ¥ fÃ¸lgende nettadresse:\n\n%s";
-	var $YOU_MUST_ENTER_VALID_EMAIL = "Du mÃ¥ skrive inn din gyldige e-postadresse og en gyldig e-postadresse Ã¥ sende til.";
-	var $RECOMMEND_SUBJECT = "OppfÃ¸ring anbefalt av %s";
-	var $RECOMMEND_EMAIL_HAVE_BEEN_SENT = "Din anbefaling av oppfÃ¸ringen er sendt til %s";
+	var $RECOMMEND_LISTING_TO_FRIEND = "Anbefal denne oppføringen til en venn";
+	var $RECOMMEND_MSG = "Følgende side fra \"%s\" nettsiden er sendt til deg fra %s (%s).\n\nDu kan se den på følgende nettadresse:\n\n%s";
+	var $YOU_MUST_ENTER_VALID_EMAIL = "Du må skrive inn din gyldige e-postadresse og en gyldig e-postadresse å sende til.";
+	var $RECOMMEND_SUBJECT = "Oppføring anbefalt av %s";
+	var $RECOMMEND_EMAIL_HAVE_BEEN_SENT = "Din anbefaling av oppføringen er sendt til %s";
 	var $SEND = "Send";
-	var $PLEASE_FILL_IN_THE_FORM = "Vennligst fyll inn skjema fÃ¸r du sender";
-	var $PLEASE_LOGIN_BEFORE_RECOMMEND = "Du mÃ¥ logge inn fÃ¸r du kan anbefale denne oppfÃ¸ringen til en venn";
+	var $PLEASE_FILL_IN_THE_FORM = "Vennligst fyll inn skjema før du sender";
+	var $PLEASE_LOGIN_BEFORE_RECOMMEND = "Du må logge inn før du kan anbefale denne oppføringen til en venn";
 	var $FROM = "Fra";
 	var $YOUR_NAME = "Ditt navn";
 	var $YOUR_EMAIL = "Din e-postadresse";
@@ -240,24 +240,24 @@ class mtLanguage {
 	var $MESSAGE = "Melding";
 
 	/* Add Listing */
-	var $PLEASE_LOGIN_BEFORE_ADDLISTING = "Du mÃ¥ logge inn fÃ¸r du kan legge inn en oppfÃ¸ring";
-	var $PLEASE_FILL_IN_LINK_NAME = "Vennligst gi oppfÃ¸ringen et navn fÃ¸r du legger den til";
-	var $LISTING_WILL_BE_REVIEWED = "Takk for ditt bidrag. Din oppfÃ¸ring vil bli kontrollert av en administrator og lagt til sÃ¥ snart den er godkjent.";
-	var $LISTING_HAVE_BEEN_ADDED = "Takk for ditt bidrag. Din oppfÃ¸ring er lagt til i vÃ¥rt register.";
-	var $LISTING_MODIFICATION_WILL_BE_REVIEWED = "Takk for ditt bidrag. Din endring vil bli sendt til en administrator og lagt til sÃ¥ snart den er godkjent.";
-	var $LISTING_HAVE_BEEN_UPDATED = "Din oppfÃ¸ring er oppdatert.";
-	var $ADD_YOUR_LISTING_HERE = "Legg til din oppfÃ¸ring her";
-	var $CATS_IN_BRACKETS_DOES_NOT_ACCEPT_NEW_LISTINGS = "* Kategorier i parentes godtar ikke nye oppfÃ¸ringer.";
+	var $PLEASE_LOGIN_BEFORE_ADDLISTING = "Du må logge inn før du kan legge inn en oppføring";
+	var $PLEASE_FILL_IN_LINK_NAME = "Vennligst gi oppføringen et navn før du legger den til";
+	var $LISTING_WILL_BE_REVIEWED = "Takk for ditt bidrag. Din oppføring vil bli kontrollert av en administrator og lagt til så snart den er godkjent.";
+	var $LISTING_HAVE_BEEN_ADDED = "Takk for ditt bidrag. Din oppføring er lagt til i vårt register.";
+	var $LISTING_MODIFICATION_WILL_BE_REVIEWED = "Takk for ditt bidrag. Din endring vil bli sendt til en administrator og lagt til så snart den er godkjent.";
+	var $LISTING_HAVE_BEEN_UPDATED = "Din oppføring er oppdatert.";
+	var $ADD_YOUR_LISTING_HERE = "Legg til din oppføring her";
+	var $CATS_IN_BRACKETS_DOES_NOT_ACCEPT_NEW_LISTINGS = "* Kategorier i parentes godtar ikke nye oppføringer.";
 	var $PLEASE_COMPLETE_THIS_FIELD = 'Please complete this field: ';
 	var $IMAGE_DIRECTORIES_NOT_WRITABLE = 'One of the image directories is not writable. No image(s) is saved or removed.';
-	
+
 	/* Add Category */
-	var $ADD_CATEGORY = "ForeslÃ¥ ny kategori";
+	var $ADD_CATEGORY = "Foreslå ny kategori";
 	var $PARENT_CATEGORY  = "Overordnet kategori";
-	var $PLEASE_LOGIN_BEFORE_ADDCATEGORY = "Du mÃ¥ logge inn fÃ¸r du kan legge til en kategori";
-	var $PLEASE_FILL_IN_CATEGORY_NAME = "Vennligst gi kategorien et navn fÃ¸r du legger den til";
-	var $CATEGORY_WILL_BE_REVIEWED = "Takk for ditt bidrag. Din kategori blir kontrollert av en administrator og lagt til sÃ¥ snart den er godkjent.";
-	var $CATEGORY_HAVE_BEEN_ADDED = "Takk for ditt bidrag. Din kategori er lagt til i vÃ¥r liste.";
+	var $PLEASE_LOGIN_BEFORE_ADDCATEGORY = "Du må logge inn før du kan legge til en kategori";
+	var $PLEASE_FILL_IN_CATEGORY_NAME = "Vennligst gi kategorien et navn før du legger den til";
+	var $CATEGORY_WILL_BE_REVIEWED = "Takk for ditt bidrag. Din kategori blir kontrollert av en administrator og lagt til så snart den er godkjent.";
+	var $CATEGORY_HAVE_BEEN_ADDED = "Takk for ditt bidrag. Din kategori er lagt til i vår liste.";
 
 	var $CURRENT_CATEGORY = "Gjeldende kategori";
 	var $CHANGE_CATEGORY = "Endre kategori";
@@ -274,10 +274,10 @@ class mtLanguage {
 
 	// Search Result
 	var $YOUR_SEARCH_FOR_X_DOES_NOT_RETURN_ANY_RESULT = "Your search for <strong>%s</strong> does not return any result. <a href=\"javascript:window.history.go(-1)\">Please try again</a>.";
-	var $YOUR_SEARCH_DOES_NOT_RETURN_ANY_RESULT = "Ditt sÃ¸k ga ingen resultater. <a href=\"javascript:window.history.go(-1)\">PleVennligst prÃ¸v igjen</a>.";
+	var $YOUR_SEARCH_DOES_NOT_RETURN_ANY_RESULT = "Ditt søk ga ingen resultater. <a href=\"javascript:window.history.go(-1)\">PleVennligst prøv igjen</a>.";
 	var $SEARCH_FOR = "etter";
 	var $FOUND_CATEGORIES = "Funnet <b>%d</b> kategorier for <b>%s</b>";
-	var $ADVANCED_SEARCH_REDIRECT1 = "Ditt sÃ¸k pÃ¥gÃ¥r. Du blir vidresendt til resultatsiden om et Ã¸yeblikk. Takk for din tÃ¥lmodighet.";
+	var $ADVANCED_SEARCH_REDIRECT1 = "Ditt søk pågår. Du blir vidresendt til resultatsiden om et øyeblikk. Takk for din tålmodighet.";
 	var $ADVANCED_SEARCH_REDIRECT2 = "Klikk her hvis din nettleser ikke vidresender deg til resultatsiden automatisk.";
 
 	/* E-mail Notification */
@@ -287,49 +287,49 @@ class mtLanguage {
 	var $NEW_REVIEW_EMAIL_SUBJECT_APPROVED = "Ny omtale - %s";
 
 	var $ADMIN_NEW_REVIEW_MSG_WAITING_APPROVAL = "\nEn omtale av \"%s\" har blitt lagt til av en bruker. Vennligst gjennomse for godkjenning.\n\n------------------------------\nOmtaledetaljer:\n------------------------------\n\nTittel: %s\nSkribent: %s (%s)\nE-post: %s\n\n%s";
-	var $ADMIN_NEW_REVIEW_MSG_APPROVED = "\nEn omtale av \"%s\" har blitt lagt til pÃ¥ din nettside.\n\nDu kan se omtalen pÃ¥ denne oppfÃ¸ringen:\n\n%s\n\n------------------------------\nOmtaledetaljer:\n------------------------------\n\nTittel: %s\nSkribent: %s (%s)\nE-post: %s\n\n%s";
+	var $ADMIN_NEW_REVIEW_MSG_APPROVED = "\nEn omtale av \"%s\" har blitt lagt til på din nettside.\n\nDu kan se omtalen på denne oppføringen:\n\n%s\n\n------------------------------\nOmtaledetaljer:\n------------------------------\n\nTittel: %s\nSkribent: %s (%s)\nE-post: %s\n\n%s";
 
 	// New Listing
-	var $NEW_LISTING_EMAIL_SUBJECT_WAITING_APPROVAL = "Nye oppfÃ¸ringer (venter pÃ¥ godkjenning) - %s";
-	var $NEW_LISTING_EMAIL_SUBJECT_APPROVED = "Ny oppfÃ¸ring lagt til - %s";
+	var $NEW_LISTING_EMAIL_SUBJECT_WAITING_APPROVAL = "Nye oppføringer (venter på godkjenning) - %s";
+	var $NEW_LISTING_EMAIL_SUBJECT_APPROVED = "Ny oppføring lagt til - %s";
 
-	var $NEW_LISTING_EMAIL_MSG_WAITING_APPROVAL = "\nTakk for ditt bidrag. Din oppfÃ¸ring vil bli sendt til en administrator og lagt til etter at den er godkjent.\n\nDu vil bli varslet pÃ¥ e-post nÃ¥r oppfÃ¸ringen er godkjent.";
-	var $NEW_LISTING_EMAIL_MSG_APPROVED = "\nTakk for ditt bidrag. Din oppfÃ¸ring er lagt til i vÃ¥r liste.\n\nDu kan se oppfÃ¸ringen pÃ¥:\n\n%s\n%s\n\n\nTakk,\n%s";
+	var $NEW_LISTING_EMAIL_MSG_WAITING_APPROVAL = "\nTakk for ditt bidrag. Din oppføring vil bli sendt til en administrator og lagt til etter at den er godkjent.\n\nDu vil bli varslet på e-post når oppføringen er godkjent.";
+	var $NEW_LISTING_EMAIL_MSG_APPROVED = "\nTakk for ditt bidrag. Din oppføring er lagt til i vår liste.\n\nDu kan se oppføringen på:\n\n%s\n%s\n\n\nTakk,\n%s";
 
-	var $ADMIN_NEW_LISTING_MSG_WAITING_APPROVAL = "\nEn oppfÃ¸ring med navn \"%s\" er lagt til av en bruker. Vennligst kontroller oppfÃ¸ringen for godkjenning.\n\n------------------------------\nOppfÃ¸ringsdetaljer:\n------------------------------\n\nOppfÃ¸ringens navn: %s\nOppfÃ¸ringens ID: %s\nBrukernavn: %s\nE-post: %s";
-	var $ADMIN_NEW_LISTING_MSG_APPROVED = "\nEn oppfÃ¸ring med navn \"%s\" er lagt til av en bruker.\n\nDu kan se oppfÃ¸ring pÃ¥:\n\n%s\n\n------------------------------\nOppfÃ¸ringsdetaljer:\n------------------------------\n\nOppfÃ¸ringens navn: %s\nOppfÃ¸ringens ID: %s\nBrukernavn: %s\nE-post: %s";
+	var $ADMIN_NEW_LISTING_MSG_WAITING_APPROVAL = "\nEn oppføring med navn \"%s\" er lagt til av en bruker. Vennligst kontroller oppføringen for godkjenning.\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nOppføringens navn: %s\nOppføringens ID: %s\nBrukernavn: %s\nE-post: %s";
+	var $ADMIN_NEW_LISTING_MSG_APPROVED = "\nEn oppføring med navn \"%s\" er lagt til av en bruker.\n\nDu kan se oppføring på:\n\n%s\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nOppføringens navn: %s\nOppføringens ID: %s\nBrukernavn: %s\nE-post: %s";
 
 	// Modify Listing
-	var $MODIFY_LISTING_EMAIL_SUBJECT_WAITING_APPROVAL = "Endret oppfÃ¸ring (venter pÃ¥ godkjenningl) - %s";
-	var $MODIFY_LISTING_EMAIL_SUBJECT_APPROVED = "OppfÃ¸ring endret til nettside - %s";
-	
-	var $MODIFY_LISTING_EMAIL_MSG_WAITING_APPROVAL = "Takk for ditt bidrag. Din endring blir kontrollert av en administrator og oppdateringen blir lagt til nÃ¥r den er godkjent.\n\nDu kan se den gjeldende oppfÃ¸ringen pÃ¥:\n\n%s\n%s";
-	var $MODIFY_LISTING_EMAIL_MSG_APPROVED = "Takk for ditt bidrag. Din oppfÃ¸ring er lagt til i vÃ¥rt register.\n\nDu kan se oppfÃ¸ringen pÃ¥:\n\n%s\n%s\n\n\nTakk,\n%s";
+	var $MODIFY_LISTING_EMAIL_SUBJECT_WAITING_APPROVAL = "Endret oppføring (venter på godkjenningl) - %s";
+	var $MODIFY_LISTING_EMAIL_SUBJECT_APPROVED = "Oppføring endret til nettside - %s";
 
-	var $ADMIN_MODIFY_LISTING_MSG_WAITING_APPROVAL = "En oppfÃ¸ring med navn \"%s\" er lagt til av en bruker. Vennligst kontroller oppfÃ¸ringen for godkjenning. \n\nDu kan se den gjeldende oppfÃ¸ringen pÃ¥:\n\n%s\n\n------------------------------\nOppfÃ¸ringsdetaljer:\n------------------------------\n\nOppfÃ¸ringens navn: %s\nOppfÃ¸ringens ID: %s\nBrukernavn: %s\nE-post: %s\nOpprettet: %s\nSist endret: %s";
-	var $ADMIN_MODIFY_LISTING_MSG_APPROVED = "En oppfÃ¸ring med navn \"%s\" er oppdatert pÃ¥ nettsiden.\n\nDu kan se oppfÃ¸ring pÃ¥:
+	var $MODIFY_LISTING_EMAIL_MSG_WAITING_APPROVAL = "Takk for ditt bidrag. Din endring blir kontrollert av en administrator og oppdateringen blir lagt til når den er godkjent.\n\nDu kan se den gjeldende oppføringen på:\n\n%s\n%s";
+	var $MODIFY_LISTING_EMAIL_MSG_APPROVED = "Takk for ditt bidrag. Din oppføring er lagt til i vårt register.\n\nDu kan se oppføringen på:\n\n%s\n%s\n\n\nTakk,\n%s";
+
+	var $ADMIN_MODIFY_LISTING_MSG_WAITING_APPROVAL = "En oppføring med navn \"%s\" er lagt til av en bruker. Vennligst kontroller oppføringen for godkjenning. \n\nDu kan se den gjeldende oppføringen på:\n\n%s\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nOppføringens navn: %s\nOppføringens ID: %s\nBrukernavn: %s\nE-post: %s\nOpprettet: %s\nSist endret: %s";
+	var $ADMIN_MODIFY_LISTING_MSG_APPROVED = "En oppføring med navn \"%s\" er oppdatert på nettsiden.\n\nDu kan se oppføring på:
 ---------------------
-OppfÃ¸ringsdetaljer:
-------------------------------\n\nOppfÃ¸ringens navn: %s\nOppfÃ¸ringens ID: %s\nBrukernavn: %s\nE-post: %s\nOpprettet: %s\nSist Endret: %s";
+Oppføringsdetaljer:
+------------------------------\n\nOppføringens navn: %s\nOppføringens ID: %s\nBrukernavn: %s\nE-post: %s\nOpprettet: %s\nSist Endret: %s";
 	// Listing approved
-	var $NEW_LISTING_APPROVED_SUBJECT = "Din oppfÃ¸ring er godkjent";
-	var $NEW_LISTING_APPROVED_MSG = "Din oppfÃ¸ring med navn \"%s\" er godkjent!";
+	var $NEW_LISTING_APPROVED_SUBJECT = "Din oppføring er godkjent";
+	var $NEW_LISTING_APPROVED_MSG = "Din oppføring med navn \"%s\" er godkjent!";
 
-	var $UPDATE_LISTING_APPROVED_SUBJECT = "Din endring av oppfÃ¸ring er godkjent";
-	var $UPDATE_LISTING_APPROVED_MSG = "Din oppfÃ¸ring med navn \"%s\" er oppdatert!";
+	var $UPDATE_LISTING_APPROVED_SUBJECT = "Din endring av oppføring er godkjent";
+	var $UPDATE_LISTING_APPROVED_MSG = "Din oppføring med navn \"%s\" er oppdatert!";
 
 	// Reviews Approved
 	var $REVIEW_APPROVED_SUBJECT = "Din omtale er godkjent";
-	var $REVIEW_APPROVED_MSG = "Din omtale av denne oppfÃ¸ringen:\n\n %s \n\ner godkjent";
+	var $REVIEW_APPROVED_MSG = "Din omtale av denne oppføringen:\n\n %s \n\ner godkjent";
 
 	// Notify Admin on user initiated delete
-	var $ADMIN_NOTIFY_DELETE_SUBJECT = "OppfÃ¸ring slettet av bruker";
-	var $ADMIN_NOTIFY_DELETE_MSG = "En oppfÃ¸ring med navn \"%s\" er fjernet av eieren.\n\n------------------------------\nOppfÃ¸ringsdetaljer:\n------------------------------\n\nOppfÃ¸ringens navn: %s\nOppfÃ¸ringens ID: %s\nBrukernavn: %s\nE-post: %s\nOpprettet: %s";
+	var $ADMIN_NOTIFY_DELETE_SUBJECT = "Oppføring slettet av bruker";
+	var $ADMIN_NOTIFY_DELETE_MSG = "En oppføring med navn \"%s\" er fjernet av eieren.\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nOppføringens navn: %s\nOppføringens ID: %s\nBrukernavn: %s\nE-post: %s\nOpprettet: %s";
 
 	// Claims Approved
 	var $CLAIM_APPROVED_SUBJECT = "Ditt krav er godkjent";
-	var $CLAIM_APPROVED_MSG = "Ditt krav til denne oppfÃ¸ringen:\n\n %s\n%s \n\ner godkjent";
-	
+	var $CLAIM_APPROVED_MSG = "Ditt krav til denne oppføringen:\n\n %s\n%s \n\ner godkjent";
+
 	// Rejected/Approved review
 	var $REJECTED_APPROVED_REVIEW_SUBJECT = "Your review: %s";
 
@@ -342,7 +342,7 @@ OppfÃ¸ringsdetaljer:
 	var $MANAGE = 'Manage category';
 	var $REMOVE = 'remove';
 	var $IGNORE = "Ignorer";
-	var $RESOLVED = "LÃ¸st";
+	var $RESOLVED = "Løst";
 	var $APPROVE = "Godkjenn";
 	var $REJECT = "Avvis";
 	var $REJECT_AND_REMOVE_VOTE = "Reject &amp; remove vote";
@@ -358,20 +358,20 @@ OppfÃ¸ringsdetaljer:
 	var $FEATURED = "Utvalgte";
 	var $PUBLISHED = "Publiserte";
 	var $UNPUBLISHED = "Avpubliserte";
-	var $EXPIRED = "UtgÃ¥tt";
+	var $EXPIRED = "Utgått";
 	var $PENDING = "Ventende";
-	var $ORDERING = "RekkefÃ¸lge";
+	var $ORDERING = "Rekkefølge";
 	var $PUBLISH = "Publiser";
 	var $UNPUBLISH = "Avpubliser";
-	var $META_KEYWORDS = "META nÃ¸kkelord";
+	var $META_KEYWORDS = "META nøkkelord";
 	var $META_DESCRIPTION = "META beskrivelse";
 	var $MAIN = "Hjem";
 	var $PUBLISHING = "Publiserer";
 	var $OPERATIONS = "Funksjoner";
-	var $MOVE_LINK = "Flytt oppfÃ¸ring";
+	var $MOVE_LINK = "Flytt oppføring";
 	var $MOVE_CATEGORY = "Flytt kategori";
 	var $MOVE_TO = 'Move To';
-	var $COPY_LINK = "Kopier oppfÃ¸ring";
+	var $COPY_LINK = "Kopier oppføring";
 	var $COPY_CATEGORY = "Kopier kategori";
 	var $COPY_TO = "Copy To";
 	var $NUMBER_OF_ITEMS = "Antall elementer";
@@ -385,13 +385,13 @@ OppfÃ¸ringsdetaljer:
 	var $USER = "Bruker";
 	var $OPTIONS = "Valg";
 	var $REVIEW_TEXT = "Omtaletekst";
-	var $SEARCH_RESULTS = "SÃ¸keresultater";
-	var $ADVANCED_SEARCH_RESULTS = "Avanserte sÃ¸keresultater";
+	var $SEARCH_RESULTS = "Søkeresultater";
+	var $ADVANCED_SEARCH_RESULTS = "Avanserte søkeresultater";
 	var $PARAMETERS = "Parametere";
-	var $LISTING_PARAMETERS = "Parametere for oppfÃ¸ring";
+	var $LISTING_PARAMETERS = "Parametere for oppføring";
 	var $NAVIGATE_TREE = "Naviger i listen";
 	var $AWAITING_APPROVAL = "Venter godkjenning";
-	var $PENDING_LISTING = "Ventende oppfÃ¸ring";
+	var $PENDING_LISTING = "Ventende oppføring";
 	var $PENDING_CATEGORIES = "Ventende kategorier";
 	var $PENDING_REVIEWS = "Ventende omtaler";
 	var $PENDING_REVIEWS_REPORTS = "Pending Reviews' Reports";
@@ -404,12 +404,12 @@ OppfÃ¸ringsdetaljer:
 	var $NO_REVIEW_FOUND = "Ingen omtaler funnet.";
 	var $THIS_CATEGORY = "Denne kategori";
 	var $CATEGORY_DETAILS = "Kategoridetaljer";
-	var $THIS_LISTING = "Denne oppfÃ¸ringen";
+	var $THIS_LISTING = "Denne oppføringen";
 	var $MORE = "Mer...";
-	var $RECOUNT_CATEGORIES_LISTINGS = "Ant. oppfÃ¸r./kateg.";
+	var $RECOUNT_CATEGORIES_LISTINGS = "Ant. oppfør./kateg.";
 	var $ABOUT_MOSETS_TREE = "Om Mosets Tree";
 	/*
-	var $ALSO_APPEAR_IN_THESE_CATEGORIES = "Vises ogsÃ¥ i disse kategoriene";
+	var $ALSO_APPEAR_IN_THESE_CATEGORIES = "Vises også i disse kategoriene";
 	var $REMOVE_RELATED_CATEGORY = "Fjern beslektet kategori";
 	var $REMOVE_CATEGORY = "Fjern kategori";
 	*/
@@ -420,17 +420,17 @@ OppfÃ¸ringsdetaljer:
 	var $TEMPLATE = "Mal";
 	var $REMOVE_THIS_IMAGE = "Fjern dette bildet";
 	var $IMAGE_REMOVED = "Bilde fjernet";
-	var $PREVIEW_IMAGE = "ForhÃ¥ndsvis bilde";
+	var $PREVIEW_IMAGE = "Forhåndsvis bilde";
 	var $ADD_AN_IMAGE = 'Add an image';
-	var $ADD_LISTING = "Legg til oppfÃ¸ring";
-	var $ADD_LISTING2 = "Legg til oppfÃ¸ring i %s";
+	var $ADD_LISTING = "Legg til oppføring";
+	var $ADD_LISTING2 = "Legg til oppføring i %s";
 	var $ADD_CAT = "Legg til kategori";
 	var $ADD_CAT2 = "Legg til kategori i %s";
 	var $CUSTOM_FIELDS = "Egendefinerte felt";
 	var $CUSTOM_FIELD = "Egendefinert felt";
 	var $EXPLORER = "Utforsker";
-	var $ALLOW_SUBMISSION = "Tillat nye oppfÃ¸ringer";
-	var $SHOW_LISTINGS = "Vis oppfÃ¸ringer";
+	var $ALLOW_SUBMISSION = "Tillat nye oppføringer";
+	var $SHOW_LISTINGS = "Vis oppføringer";
 	var $EDIT_REVIEW = "Edit Review";
 	var $OF = "of";
 	var $HELPFULS = "Helpfuls";
@@ -438,16 +438,16 @@ OppfÃ¸ringsdetaljer:
 	var $TOTAL_VOTES = "Total votes";
 	var $TOTAL_HELPFUL_VOTES = "Total helpful votes";
 
-	var $RECOUNT_CATS_AND_LINKS = "Tell opp kategorier og oppfÃ¸ringer";
-	var $FULL_RECOUNT = "Tving opptelling av kategorier og oppfÃ¸ringer";
-	var $FULL_RECOUNT_EXPLAIN = "Full opptelling vil tvinge listen til Ã¥ telle opp alle underkategorier av denne kategorien. Hvis du har en stor kategori, vil denne metoden vÃ¦re veldig treg og det kan fÃ¸re til tidsutlÃ¸p pÃ¥ PHP-kjÃ¸ringen. Dette er likevell den mest riktige metoden.";
-	var $FAST_RECOUNT_EXPLAIN = "Rask opptelling vil bare telle opp denne aktive kategoriens oppfÃ¸ringer og legge til alle underkategori oppfÃ¸ringer (hvis tilgjengelig) basert pÃ¥ totalen lagret i databasen. Dette er en raskere metode men vil ikke vÃ¦re nÃ¸yaktig hvis underkategorienes total ikke er riktig.";
-	var $FAST_RECOUNT = "Full opptelling av kategorier og oppfÃ¸ringer";
+	var $RECOUNT_CATS_AND_LINKS = "Tell opp kategorier og oppføringer";
+	var $FULL_RECOUNT = "Tving opptelling av kategorier og oppføringer";
+	var $FULL_RECOUNT_EXPLAIN = "Full opptelling vil tvinge listen til å telle opp alle underkategorier av denne kategorien. Hvis du har en stor kategori, vil denne metoden være veldig treg og det kan føre til tidsutløp på PHP-kjøringen. Dette er likevell den mest riktige metoden.";
+	var $FAST_RECOUNT_EXPLAIN = "Rask opptelling vil bare telle opp denne aktive kategoriens oppføringer og legge til alle underkategori oppføringer (hvis tilgjengelig) basert på totalen lagret i databasen. Dette er en raskere metode men vil ikke være nøyaktig hvis underkategorienes total ikke er riktig.";
+	var $FAST_RECOUNT = "Full opptelling av kategorier og oppføringer";
 	var $CLOSE_THIS_WINDOW = "Lukk dette vinduet";
-	var $PLEASE_WAIT_RECOUNT_IN_PROGRESS = "Vennligst vent. Opptelling pÃ¥gÃ¥r...";
+	var $PLEASE_WAIT_RECOUNT_IN_PROGRESS = "Vennligst vent. Opptelling pågår...";
 	var $DONE = "Ferdig!";
-	var $PERFORM_FULL_RECOUNT = "UtfÃ¸r full opptelling";
-	var $PERFORM_FAST_RECOUNT = "UtfÃ¸r rask opptelling";
+	var $PERFORM_FULL_RECOUNT = "Utfør full opptelling";
+	var $PERFORM_FAST_RECOUNT = "Utfør rask opptelling";
 
 	var $NOTES = "Notater";
 	var $INTERNAL_NOTES = "Interne notater";
@@ -455,20 +455,20 @@ OppfÃ¸ringsdetaljer:
 	var $IMPORT_EXPORT = "Import/Eksport";
 	var $EXPORT = "Eksport";
 	var $FIELDS = "Felter";
-	var $LISTING_ID = "OppfÃ¸ringens ID";
+	var $LISTING_ID = "Oppføringens ID";
 	var $CAT_ID = "Kategoriens ID";
 	var $SELECT_ALL = "Velg ALLE";
 	var $UNSELECT_ALL = "Fjern valg fra ALLE";
 	var $PLEASE_SELECT_AT_LEAST_ONE_FIELD = "Vennligst velg minst et felt.";
 
-	var $ADVANCED_SEARCH = "Avansert sÃ¸k";
-	var $ADVANCED_SEARCH_REDIRECT = "Avansert sÃ¸k - omdiriger";
+	var $ADVANCED_SEARCH = "Avansert søk";
+	var $ADVANCED_SEARCH_REDIRECT = "Avansert søk - omdiriger";
 	var $ADVANCED_SEARCH_SHORT = "mer...";
-	var $SEARCH_LISTINGS = "SÃ¸k i oppfÃ¸ringer";
-	var $SEARCH_CATEGORIES = "SÃ¸k i kategorier";
+	var $SEARCH_LISTINGS = "Søk i oppføringer";
+	var $SEARCH_CATEGORIES = "Søk i kategorier";
 	var $HAS_IMAGE = "Har bilde";
 	var $NO_IMAGE = "Ingen bilde";
-	var $EXACTLY = "NÃ¸yaktig";
+	var $EXACTLY = "Nøyaktig";
 	var $AFTER = "After";
 	var $BEFORE = "Before";
 	var $MORE_THAN = "Mer enn";
@@ -477,51 +477,51 @@ OppfÃ¸ringsdetaljer:
 
 	var $TEMPLATES = "Maler";
 	var $TREE_TEMPLATES = "Listemaler";
-	var $SELECT_TEMPLATE_FILE_TO_EDIT = "Velg en malside Ã¥ redigere";
+	var $SELECT_TEMPLATE_FILE_TO_EDIT = "Velg en malside å redigere";
 	var $TOP_LISTINGS = "Top Listings (Most Rated, Most Reviewed, Most Favoured, Top Rated, New, Featured & Popular)";
 	var $TEMPLATE_PAGE_EDITOR = "Malsideredigering";
 	var $INDEX = "Indeks";
 	var $MISC = "Div.";
 	var $TEM_CONFIRM_DELETE = "Bekreft sletting";
-	var $TEM_LISTING_ERROR = "OppfÃ¸ringsfeil";
+	var $TEM_LISTING_ERROR = "Oppføringsfeil";
 	var $TEM_LISTALPHA = "Alfa";
-	var $TEM_VIEW_LISTING = "Vis oppfÃ¸ring";
-	var $TEM_AZ = "A-Ã…";
+	var $TEM_VIEW_LISTING = "Vis oppføring";
+	var $TEM_AZ = "A-Å";
 	var $TEM_RECOMMEND_FORM = "Anbefalingsskjema";
-	var $TEM_LISTING_DETAILS = "OppfÃ¸ringsdetaljer";
-	var $TEM_LISTING_SUMMARY = "Oppsummering av oppfÃ¸ring";
+	var $TEM_LISTING_DETAILS = "Oppføringsdetaljer";
+	var $TEM_LISTING_SUMMARY = "Oppsummering av oppføring";
 	var $TEM_SUBCATS = "Underkategorier";
 	var $TEM_USERS_FAVOURITES = "User's Favourites";
 	var $TEM_USERS_REVIEWS = "User's Reviews";
 	var $UPLOAD_NEW_TEMPLATE = 'Upload new template';
 	var $TEMPLATE_INSTALLATION_SUCCESS = 'Template installation successful.';
 	var $TEMPLATE_INSTALLATION_FAILED = 'Template installation failed.';
-	
+
 	var $WRITEABLE = "Skrivbar";
 	var $UNWRITEABLE = "Ikke skrivbar";
 
 	var $COPY_RELCATS = "Kopier beslektede kategorier";
 	var $COPY_SUBCATS = "Kopier underkategorier";
-	var $COPY_LISTINGS = "Kopier oppfÃ¸ringer";
+	var $COPY_LISTINGS = "Kopier oppføringer";
 	var $COPY_REVIEWS = "Kopier omtaler";
 	var $COPY_SECONDARY_CATEGORIES = "Copy Secondary Categories";
 
 	var $RESET_HITS = "Nullstill treff";
 	var $RESET_RATINGS_AND_VOTES = "Nullstill stemmer og vurderinger";
 
-	var $SELECT_AN_ITEM_TO = "Velg et element Ã¥ %s";
+	var $SELECT_AN_ITEM_TO = "Velg et element å %s";
 
-	var $SELECT_AN_ITEM_TO_APPROVE = "Velg et element Ã¥ godkjenne";
-	var $SELECT_AN_ITEM_TO_DELETE = "Velg et element Ã¥ slette";
-	var $SELECT_AN_ITEM_TO_MOVE = "Velg et element Ã¥ flytte";
-	var $SELECT_AN_ITEM_TO_COPY = "Velg et element Ã¥ kopiere";
+	var $SELECT_AN_ITEM_TO_APPROVE = "Velg et element å godkjenne";
+	var $SELECT_AN_ITEM_TO_DELETE = "Velg et element å slette";
+	var $SELECT_AN_ITEM_TO_MOVE = "Velg et element å flytte";
+	var $SELECT_AN_ITEM_TO_COPY = "Velg et element å kopiere";
 
 	var $INVALID_OWNER_SELECT_AGAIN = "Ugyldig eier. Venligst bruk et gyldig brukernavn";
 
 	var $GO = 'Go';
 
 	var $ENTER_ONE_CAT_NAME_PERLINE = "Enter one category name per line";
-	
+
 	// Spider
 	var $SPIDER = "Edderkopp";
 	var $SPIDER_HAS_BEEN_UPDATED = "%s er oppdatert";
@@ -533,46 +533,46 @@ OppfÃ¸ringsdetaljer:
 	var $CATS_HAVE_BEEN_APRROVED = "%d kategorier er godkjent";
 	var $REVIEWS_HAVE_BEEN_APRROVED = "%d omtaler er godkjent";
 	var $LINKS_HAVE_BEEN_DELETED = "%d linker er slettet";
-	var $LISTING_MUST_HAVE_NAME = "Du mÃ¥ fylle inn et navn for oppfÃ¸ringen";
-	var $CATEGORY_MUST_HAVE_NAME = "Du mÃ¥ fylle inn et navn for kategorien";
+	var $LISTING_MUST_HAVE_NAME = "Du må fylle inn et navn for oppføringen";
+	var $CATEGORY_MUST_HAVE_NAME = "Du må fylle inn et navn for kategorien";
 	var $NO_CATEGORY_ASSIGNED = "Det er ingen kategorier tildelt";
 	var $PLEASE_ENTER_REVIEW_TEXT = "Vennligst fyll inn omtaletekst";
 	var $THIS_IS_NOT_A_REGISTERED_USER = "Dette er ikke en registrert bruker";
 	var $OVERRIDE_CREATED_DATE= "Overstyr opprettelsesdato";
-	var $CHANGE_ALL_SUBCATS_TO_THIS_TEMPLATE = "Endre alle underkategorier til Ã¥ bruke denne malen";
+	var $CHANGE_ALL_SUBCATS_TO_THIS_TEMPLATE = "Endre alle underkategorier til å bruke denne malen";
 	var $USE_MAIN_INDEX_TEMPLATE_PAGE = "Bruk hovedsidemalen for denne kategorien";
-	var $THERE_IS_ALREADY_A_PENDING_APPROVAL_FOR_MODIFICATION = "<b>* Denne oppfÃ¸ringen venter allerede pÃ¥ godkjenning av en endring. Hvis du vil legge inn en ny endring vil forrige endring bli fjernet.</b>";
-	var $CONFIRM_DELETE = "Er du sikker pÃ¥ at du vil slette denne oppfÃ¸ringen? Sletting av en oppfÃ¸ring vil fjerne all informasjonen inkludert omtaler og vurderinger.";
-	var $CONFIRM_DELETE_CATS = "Er du sikker pÃ¥ at du vil slette disse kategoriene? Sletting av en kategori vil fjerne alle underkategorier, oppfÃ¸ringer og omtaler i de valgte kategoriene. Dette handlingen kan ikke angres.";
-	var $LISTING_HAVE_BEEN_DELETED = "Sletting av oppfÃ¸ring er vellykket.";
-	
-	var $NOT_ALLOWED_TO_ADD_OWN_CAT_AS_RELCAT = "Det er ikke mulig Ã¥ legge til egen kategori som beslektet kategori";
-	var $NOT_ALLOWED_TO_ADD_OWN_CAT_AS_OTHERCAT = "Du har ikke lov til Ã¥ legge til denne kategorien";
+	var $THERE_IS_ALREADY_A_PENDING_APPROVAL_FOR_MODIFICATION = "<b>* Denne oppføringen venter allerede på godkjenning av en endring. Hvis du vil legge inn en ny endring vil forrige endring bli fjernet.</b>";
+	var $CONFIRM_DELETE = "Er du sikker på at du vil slette denne oppføringen? Sletting av en oppføring vil fjerne all informasjonen inkludert omtaler og vurderinger.";
+	var $CONFIRM_DELETE_CATS = "Er du sikker på at du vil slette disse kategoriene? Sletting av en kategori vil fjerne alle underkategorier, oppføringer og omtaler i de valgte kategoriene. Dette handlingen kan ikke angres.";
+	var $LISTING_HAVE_BEEN_DELETED = "Sletting av oppføring er vellykket.";
+
+	var $NOT_ALLOWED_TO_ADD_OWN_CAT_AS_RELCAT = "Det er ikke mulig å legge til egen kategori som beslektet kategori";
+	var $NOT_ALLOWED_TO_ADD_OWN_CAT_AS_OTHERCAT = "Du har ikke lov til å legge til denne kategorien";
 	var $YOU_HAVE_ALREADY_ADD_THIS_RELCAT = "Du har allerede lagt til denne kategorien som beslektet kategori";
 	var $YOU_HAVE_ALREADY_ADD_THIS_CAT = "Du har allerede lagt til denne kategorien";
-	var $CHOOSE_A_CAT_BEFORE_ADDING = "Vennligst velg en kategori fÃ¸r du legger til";
+	var $CHOOSE_A_CAT_BEFORE_ADDING = "Vennligst velg en kategori før du legger til";
 
-	var $IMAGE_DIR_NOT_WRITABLE = "Bildemappen har ikke skriverettigheter. Vennligst endre rettigheter pÃ¥ (chmod) denne mappen til 777 fÃ¸r opplasting av nye bilder: %s";
-	var $IMAGE_NOT_SPECIFIED = "Vennligst spesifiser et bilde fÃ¸r opplasting.";
-	var $IMAGE_NOT_VALID = "Vennligst spesifiser et gyldig bilde fÃ¸r opplasting.";
-	var $DUPLICATE_IMAGE = "En fil finnes allerede med samme navn. Vennligst endre navn og last opp pÃ¥ nytt.";
+	var $IMAGE_DIR_NOT_WRITABLE = "Bildemappen har ikke skriverettigheter. Vennligst endre rettigheter på (chmod) denne mappen til 777 før opplasting av nye bilder: %s";
+	var $IMAGE_NOT_SPECIFIED = "Vennligst spesifiser et bilde før opplasting.";
+	var $IMAGE_NOT_VALID = "Vennligst spesifiser et gyldig bilde før opplasting.";
+	var $DUPLICATE_IMAGE = "En fil finnes allerede med samme navn. Vennligst endre navn og last opp på nytt.";
 	var $ERROR_DELETING_OLD_IMAGE = "Feil ved sletting av gammelt bilde.";
 	var $PLEASE_SELECT_A_JPG_PNG_OR_GIF_FILE_FOR_THE_IMAGES = 'Please select a jpg, png or gif file for the image(s).';
 
-	var $CAT_AND_LISTING_COUNT_UPDATED = "Kategori- og oppfÃ¸ringstelling er blitt oppdatert.";
+	var $CAT_AND_LISTING_COUNT_UPDATED = "Kategori- og oppføringstelling er blitt oppdatert.";
 
-	var $CANNOT_OPEN_FILE = "Operasjonen feilet: Kunne ikke Ã¥pne %s";
+	var $CANNOT_OPEN_FILE = "Operasjonen feilet: Kunne ikke åpne %s";
 	var $FILE_NOT_WRITEABLE = "Operasjonen feilet: %s har ikke skrivbar.";
 	var $TEMPLATE_PAGE_SAVED = "Lagring av malside er vellykket";
 	var $COPY_PAGE_TO_CLIPBOARD = "Kopier malside til utklippstavle";
 
 	/* Configuration */
 	var $CONFIGURATION = "Konfigurasjon";
-	var $LANGUAGE = "SprÃ¥k";
+	var $LANGUAGE = "Språk";
 	var $IMAGES = "Bilder";
 	var $FEATURES = "Funksjoner";
 	var $NOTIFY = "Varsling";
-	var $LANGUAGES = "SprÃ¥k";
+	var $LANGUAGES = "Språk";
 	var $ADMIN = "Admin";
 	var $RSS = "RSS";
 	var $RATINGREVIEW = "Rate & Rev.";
@@ -620,7 +620,7 @@ OppfÃ¸ringsdetaljer:
 	var $CONFIGNAME_ALLOW_USER_ASSIGN_MORE_THAN_ONE_CATEGORY = 'Allow user to assign more than one category to listing';
 	var $CONFIGDESC_DISPLAY_ALPHA_INDEX = 'Alpha index shows the complete list of alphabets to allow visitors to browse the directory by letters. This also includes number (0-9)';
 	var $CONFIGNAME_ALPHA_INDEX_ADDITIONAL_CHARS = 'Additional characters for Alpha Index';
-	var $CONFIGDESC_ALPHA_INDEX_ADDITIONAL_CHARS = 'You can enter additional characters to the end of the alpha list. Enter the characters one after another. ie: ï¿½&#8230;ï¿½&#8222;ï¿½&#8211;';
+	var $CONFIGDESC_ALPHA_INDEX_ADDITIONAL_CHARS = 'You can enter additional characters to the end of the alpha list. Enter the characters one after another. ie: ?&#8230;?&#8222;?&#8211;';
 	var $CONFIGNAME_ALLOW_LISTINGS_SUBMISSION_IN_ROOT = 'Allow listings submission in root';
 	var $CONFIGNAME_ALLOW_CHANGING_CATS_IN_ADDLISTING = 'Allow changing of category in Add Listing';
 	var $CONFIGNAME_DISPLAY_LISTINGS_IN_ROOT = 'Display listings in root';
@@ -634,7 +634,7 @@ OppfÃ¸ringsdetaljer:
 	var $CONFIGNOTE_OPTIONAL_EMAIL_SENT_TO_REVIEWER = 'An optional e-mail can be sent to reviewer after an approval or rejection of a review. Please enter the name and e-mail address to appear in the e-mail. You can also optionally send a blank carbon copy to an e-mail address.';
 	var $CONFIGNAME_PREDEFINED_REPLY_FROM_NAME = 'From Name';
 	var $CONFIGNAME_PREDEFINED_REPLY_FROM_EMAIL = 'From E-mail';
-	var $CONFIGNAME_PREDEFINED_REPLY_BCC = 'BCC E-mail';	
+	var $CONFIGNAME_PREDEFINED_REPLY_BCC = 'BCC E-mail';
 	var $CONFIGNOTE_PREDEFINED_REPLY_FOR_APPROVED_OR_REJECTED_REVIEW = 'You can enter up to 5 pre-defined e-mail replies below (title of the reply/reply message).';
 	var $CONFIGNAME_PREDEFINED_REPLY_1_TITLE = 'Pre-defined reply #1';
 	var $CONFIGNAME_PREDEFINED_REPLY_2_TITLE = 'Pre-defined reply #2';
@@ -726,11 +726,11 @@ OppfÃ¸ringsdetaljer:
 	var $CONFIGNAME_RSS_METADESC = 'META Description';
 	var $CONFIGNAME_RSS_CUSTOM_FIELDS = 'Custom Fields';
 	var $CONFIGDESC_RSS_CUSTOM_FIELDS = 'Enter the IDs of the custom fields seperated by comma. e.g: <i>17,2,29,31</i>';
-	
+
 	var $CONFIGNAME_ADMIN_USE_EXPLORER = 'Use Explorer';
 	var $CONFIGNAME_EXPLORER_TREE_LEVEL = 'Explorer\'s Tree Level';
 	var $CONFIGNAME_USE_WYSIWYG_EDITOR_IN_ADMIN = 'Use WYSIWYG Editor description field in back-end';
-	
+
 	/* Spy Directory */
 	var $SPY_DIRECTORY = "Spy Directory";
 	var $IP_ADDRESS = 'IP Address';
@@ -788,7 +788,7 @@ OppfÃ¸ringsdetaljer:
 	var $MOST_HELPFULS = 'Most Helpfuls';
 	var $MOST_LISTINGS = 'Most Listings';
 	var $RECENTLY_LOGIN = 'Recently Login';
-	
+
 	/* Link Checker */
 	var $LINK_CHECKER = 'Link Checker';
 	var $LINKS_REMAINING = ' links remaining';
@@ -800,7 +800,7 @@ OppfÃ¸ringsdetaljer:
 	var $CHECK_X_LINKS_EVERY_Y_SECONDS = 'Check %s links every %s seconds';
 	var $STATUS_CODE_AND_REASON = 'Status Code &amp; Reason';
 	var $ACTION = 'Action';
-	
+
 	/* Custom Fields */
 	var $ID = 'ID';
 	var $CAPTION = 'Caption';
@@ -870,7 +870,7 @@ OppfÃ¸ringsdetaljer:
 	var $CONTAINS_FILE = 'Contains file';
 	var $DETAILS_VIEW = 'Details view';
 	var $SUMMARY_VIEW = 'Summary view';
-	
+
 	/* Toolbars */
 	var $EDIT_CATEGORY = "Edit Category";
 	var $DELETE_CATEGORIES = "Delete Categories";
@@ -889,14 +889,14 @@ OppfÃ¸ringsdetaljer:
 	var $BACK = "Back";
 	var $NEW = "New";
 	var $UNINSTALL = "Uninstall";
-	
+
 	/* About Mosets Tree */
 	var $VERSION = "Versjon";
 	var $AUTHOR = "Utvikler";
 	var $LICENSE = "Lisens";
 	var $DATE = "Dato";
 	var $LICENSE_AGREEMENT = "Lisensavtale";
-	var $COPYRIGHT_TEXT = "<center>Mosets Consulting &copy; 2005 Alle rettigheter reservert. Mosets Tree er proprietÃ¦r programvare.<br />Vennligst les <a href=\"index2.php?option=com_mtree&task=license\">lisensavtalen</a> fÃ¸r bruk av dette produktet</center>";
+	var $COPYRIGHT_TEXT = "<center>Mosets Consulting &copy; 2005 Alle rettigheter reservert. Mosets Tree er proprietær programvare.<br />Vennligst les <a href=\"index2.php?option=com_mtree&task=license\">lisensavtalen</a> før bruk av dette produktet</center>";
 }
 global $_MT_LANG;
 $_MT_LANG = new mtLanguage();
