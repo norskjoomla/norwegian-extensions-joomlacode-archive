@@ -42,7 +42,7 @@ $lang_info = array (
 	,'author' => 'Jeanette'
 	,'author_email' => 'jeanette@bewebbed.no'
 	,'author_url' => 'http://www.bewebbed.no'
-	,'transdate' => '12/19/2006'
+	,'transdate' => '06.01.2008'
 );
 
 $lang_general = array (
@@ -116,7 +116,7 @@ $lang_system = array (
   ,'config_string' => 'Du bruker for øyeblikket \'%s\' som kjører på %s, %s och %s.'
   ,'no_table' => '\'%s\' tabellen finnes ikke !'
   ,'no_anonymous_group' => '%s tabellen inneholder ikke gruppen \'Anonymous\' !'
-  ,'calendar_locked' => 'Tjenesten er nede for service og oppgradering. Vi beklager detta !'
+  ,'calendar_locked' => 'Tjenesten er nede for service og oppgradering. Vi beklager dette !'
 	,'new_upgrade' => 'Systemet har funnet en ny version. Det anbefales å oppgradere nå. Klikk "Fortsett" for å starte oppgraderingen.'
 	,'no_profile' => 'Det oppstod en feil ved henting av din profil.'
 	,'unknown_component' => 'Ukjent komponent'
@@ -144,7 +144,7 @@ at lenken skal virke.)
 
 Med hilsen
 
-Administratorene for {CALENDAR_NAME}
+Administratorene ved {CALENDAR_NAME}
 
 EOT;
 
@@ -230,15 +230,15 @@ $lang_add_event_view = array(
 	,'no_desc' => 'Du må legge inn en beskrivelse for denne aktiviteten !'
 	,'no_cat' => 'Du må velge en kategori fra nedtrekksmenyen !'
 	,'date_invalid' => 'Du må angi en gyldig dato for denne aktiviteten !'
-	,'end_days_invalid' => 'The value entered in the \'Days\' field is not valid !'
-	,'end_hours_invalid' => 'The value entered in the \'Hours\' field is not valid !'
-	,'end_minutes_invalid' => 'The value entered in the \'Minutes\' field is not valid !'
-	,'move_image_failed' => 'The system failed to properly upload the image. Please make sure it is the proper type and not too large, or notify the site administrator.'
+	,'end_days_invalid' => 'Verdien registrert i \'Days\' feltet er ikke gyldig.'
+	,'end_hours_invalid' => 'Verdien registrert i \'Hours\' feltet er ikke gyldig.'
+	,'end_minutes_invalid' => 'Verdien registrert i \'Minutes\' feltet er ikke gyldig.'
+	,'move_image_failed' => 'System feilet ved opplasting av bildet. Forsikre deg om at dette er riktig type og ikke for stort, eller kontakt systemansvarlig.'
 	,'non_valid_dimensions' => 'The picture width or height is larger than %s pixels !'
 
-	,'recur_val_1_invalid' => 'The value entered as \'repeat interval\' is not valid. This value must be a number greater than \'0\' !'
-	,'recur_end_count_invalid' => 'The value entered as \'number of occurrences\' is not valid. This value must be a number greater than \'0\' !'
-	,'recur_end_until_invalid' => 'The \'repeat until\' date must be greater than the event start date !'
+	,'recur_val_1_invalid' => 'Verdien registrert for \'repeat interval\' feltet er ikke gyldig. Verdien må være et tall større enn \'0\' !'
+	,'recur_end_count_invalid' => 'Verdien registrert for \'number of occurrences\' feltet er ikke gyldig. Verdien må være et tall større enn \'0\' !'
+	,'recur_end_until_invalid' => '\'repeat until\' dato må være høyere enn aktivitetens startdato.'
 // Misc. messages
 	,'submit_event_pending' => 'Din aktivitet er sendt. Den vil ikke kunne ses i kalenderen før den er godkjent av en administrator. Takk for ditt bidrag!'
 	,'submit_event_approved' => 'Din aktivitet er automatisk godkjent. Takk for ditt bidrag!'
@@ -382,7 +382,7 @@ $lang_user_profile_data = array(
 	'user_name' => 'Brukernavn',
 	'user_pass' => 'Passord',
 	'user_pass_confirm' => 'Bekreft passord',
-	'user_email' => 'E-mail-adresse',
+	'user_email' => 'E-postadresse',
 	'group_label' => 'Gruppemedlemsskap',
 // Andre Oplysninger
 	'other_details_label' => 'Andre detaljer',
@@ -394,8 +394,8 @@ $lang_user_profile_data = array(
 	'user_occupation' => 'Yrke',
 // Misc.
 	'select_language' => 'Velg språk',
-	'edit_profile_success' => 'Din profil er oppdateret',
-	'update_pass_info' => 'La passordfeltene være tomme, hvis du ikke vil endre ditt nåværende passord',
+	'edit_profile_success' => 'Profil din ble oppdatert',
+	'update_pass_info' => 'Ved å la passordfeltene stå tomme vil ikke ditt nåværende passord endres.',
 // Error messages
 	'invalid_password' => 'Registrer et passord som består av bare bokstaver eller tall, mellom 4 og 16 karakterer langt!',
 	'password_is_username' => 'Passordet må være forskjellig fra brukernavnet!',
@@ -461,25 +461,25 @@ $lang_user_registration_data = array(
 	'no_users' => 'Det er ingen brukerprofiler!',
 	'already_logged' => 'Du er allerede logget inn som medlem!',
 	'registration_not_allowed' => 'Brukerregistrering er ikke aktiv!',
-	'reg_email_failed' => 'Der skjedde en feil under avsendelse af aktiveringsmail!',
-	'reg_activation_failed' => 'Der skjedde en feil under godkjennelsen av aktiveringen'
+	'reg_email_failed' => 'Det skjedde en feil ved avsendelse af aktiveringsmail!',
+	'reg_activation_failed' => 'Det skjedde en feil under godkjennelsen av aktiveringen'
 
 );
 // Message body for email activation
 $lang_user_registration_data['reg_confirm_body'] = <<<EOT
-Takk fordi du registrerte deg i {CALENDAR_NAME}
+Takk fordi du registrerte deg ved {CALENDAR_NAME}
 
 Ditt brukernavn er: "{USERNAME}"
 Ditt passord er: "{PASSWORD}"
 
-For at aktivere din profil skal du klikke på linket herunder
-eller kopiere det til din webbrowser
+For at aktivere din profil skal du klikke på lenken under
+eller kopiere den til din nettleser.
 
 {REG_LINK}
 
 Vennlig hilsen
 
-Administratoren i {CALENDAR_NAME}
+Administratoren ved {CALENDAR_NAME}
 
 EOT;
 
@@ -508,32 +508,32 @@ EOT;
 if (defined('ADMIN_EVENTS_PHP')) 
 
 $lang_event_admin_data = array(
-	'section_title' => 'Event Administration',
-	'events_to_approve' => 'Event Administration: Events to Approve',
-	'upcoming_events' => 'Event Administration: Upcoming Events',
-	'past_events' => 'Event Administration: Past Events',
-	'add_event' => 'Add New Event',
-	'edit_event' => 'Edit Event',
-	'view_event' => 'View Event',
-	'approve_event' => 'Approve Event',
-	'update_event' => 'Update Event Info',
-	'delete_event' => 'Delete Event',
-	'events_label' => 'Events',
-	'auto_approve' => 'Auto Approve',
-	'calendar_label' => 'Calendar',
-	'date_label' => 'Date',
-	'actions_label' => 'Actions',
-	'events_filter_label' => 'Filter Events',
-	'events_filter_options' => array('Show all events','Show unapproved events only','Show upcoming events only','Show past events only'),
-	'picture_attached' => 'Picture attached',
+	'section_title' => 'Aktivitetsadministrasjon',
+	'events_to_approve' => 'Aktivitetsadministrasjon: Aktiviteter som må godkjennes',
+	'upcoming_events' => 'Aktivitetsadministrasjon: Kommende aktiviteter',
+	'past_events' => 'Aktivitetsadministrasjon: Foregående aktiviteter',
+	'add_event' => 'Opprett ny aktivitet',
+	'edit_event' => 'Rediger aktivitet',
+	'view_event' => 'Vis aktivitet',
+	'approve_event' => 'Godkjenn aktivitet',
+	'update_event' => 'Oppdater aktivitetsinfo.',
+	'delete_event' => 'Slett aktivitet',
+	'events_label' => 'Aktiviteter',
+	'auto_approve' => 'Godkjenn automatisk',
+	'calendar_label' => 'Kalender',
+	'date_label' => 'Dato',
+	'actions_label' => 'Handlinger',
+	'events_filter_label' => 'Filtrer aktiviteter',
+	'events_filter_options' => array('Vis alle aktiviteter','Vis bare ikke godkjente','Vis bare kommende','Vis bare foregående'),
+	'picture_attached' => 'Bilde tilknyttet',
 // View Event
-	'view_event_name' => 'Event: \'%s\'',
-	'in_calendar' => 'in calendar \'%s\'',
-	'event_start_date' => 'Date',
-	'event_end_date' => 'Until',
-	'event_duration' => 'Duration',
-	'contact_info' => 'Contact Info',
-	'contact_email' => 'Email',
+	'view_event_name' => 'Aktivitet: \'%s\'',
+	'in_calendar' => 'i kalender \'%s\'',
+	'event_start_date' => 'Dato',
+	'event_end_date' => 'Inntil',
+	'event_duration' => 'Varighet',
+	'contact_info' => 'Kontaktinfo.',
+	'contact_email' => 'E-post',
 	'contact_url' => 'URL',
 // General Info
 	'edit_event_title' => 'Aktivitet: \'%s\'',
@@ -541,12 +541,12 @@ $lang_event_admin_data = array(
 	'event_start_date' => 'Dato',
 	'event_end_date' => 'Inntil',
 	'contact_info' => 'Kontaktinformasjon',
-	'contact_email' => 'E-mail',
-	'contact_url' => 'Webside',
+	'contact_email' => 'E-post',
+	'contact_url' => 'Nettside',
 	'no_event' => 'Det finnes ingen aktiviteter',
 	'stats_string' => '<strong>%d</strong> Aktiviteter ialt',
 // Stats
-	'stats_string1' => '<strong>%d</strong> Begivenhet(er)',
+	'stats_string1' => '<strong>%d</strong> Aktivitet(er)',
 	'stats_string2' => 'Total: <strong>%d</strong> Aktiviteter på <strong>%d</strong> side(r)',
 // Misc.
 	'add_event_success' => 'Ny aktivitet lagt til',
@@ -557,14 +557,14 @@ $lang_event_admin_data = array(
 	'active_label' => 'Aktiv',
 	'not_active_label' => 'Inaktiv',
 // Error messages
-	'no_event_name' => 'You must provide a name for this event !',
-	'no_event_desc' => 'You must provide a description for this event !',
-	'no_cal' => 'You must select a calendar for this event !',
-	'no_cat' => 'You must select a category for this event !',
-	'no_day' => 'You must select a day !',
-	'no_month' => 'You must select a month !',
-	'no_year' => 'You must select a year !',
-	'non_valid_date' => 'Please enter a valid date !',
+	'no_event_name' => 'Du må angi et navn for denne aktiviteten.',
+	'no_event_desc' => 'Du må angi en beskrivelse for denne aktiviteten.',
+	'no_cal' => 'Du må velge en kalender for denne aktiviteten.',
+	'no_cat' => 'Du må velge en kategori for denne aktiviteten.',
+	'no_day' => 'Du må velge en dato.',
+	'no_month' => 'Du må velge en måned.',
+	'no_year' => 'Du må velge et år.',
+	'non_valid_date' => 'Registrer en gyldig dato.',
 	'end_days_invalid' => 'Please make sure the \'Days\' field under \'Duration\' consists of numbers only !',
 	'end_hours_invalid' => 'Please make sure the \'Hours\' field under \'Duration\' consists of numbers only !',
 	'end_minutes_invalid' => 'Please make sure the \'Minutes\' field under \'Duration\' consists of numbers only !',
