@@ -1,6 +1,6 @@
 <?php
 /**
-* @version $Id: norwegian.php 311 2007-09-03 13:30:42Z danialt $
+* @version $Id$
 * FireBoard Component
 * @package FireBoard
 * @Copyright (C) 2006 - 2007 Best Of Joomla All rights reserved
