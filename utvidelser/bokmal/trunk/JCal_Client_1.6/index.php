@@ -164,11 +164,11 @@ $lang_admin_menu = array (
 // Main menu entries
 $lang_main_menu = array (
 	'add_event' => 'Legg till aktivitet'
-	,'cal_view' => 'Månedsformat'
-	,'year_view' => 'Årsformat'
-  ,'flat_view' => 'Listeformat'
-  ,'weekly_view' => 'Ukeformat'
-  ,'daily_view' => 'Dagformat'
+	,'cal_view' => 'Månedsvisning'
+	,'year_view' => 'Årsvisning'
+  ,'flat_view' => 'Listevisning'
+  ,'weekly_view' => 'Ukesvisning'
+  ,'daily_view' => 'Dagvisning'
   ,'categories_view' => 'Kategorier'
   ,'search_view' => 'Søk'
 );
