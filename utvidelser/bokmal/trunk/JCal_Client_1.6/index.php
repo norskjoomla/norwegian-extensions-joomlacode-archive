@@ -580,25 +580,25 @@ $lang_event_admin_data = array(
 //Multiple calendars
 if (defined('ADMIN_CALENDARS_PHP')) 
 $lang_calendar_admin_data = array(
-	'section_title' => 'Calendar Administration',
-	'add_calendar' => 'Add New Calendar',
-	'edit_calendar' => 'Edit Calendar',
-	'update_calendar' => 'Update Calendar Info',
-	'delete_calendar' => 'Delete Calendar',
-	'events_label' => 'Events',
-	'visibility' => 'Visibility',
-	'actions_label' => 'Actions',
-	'users_label' => 'Users',
-	'admins_label' => 'Admins',
+	'section_title' => 'Kalenderadministrasjon',
+	'add_calendar' => 'Opprett ny kalender',
+	'edit_calendar' => 'Rediger kalender',
+	'update_calendar' => 'Oppdater kalenderinfo.',
+	'delete_calendar' => 'Slett kalender',
+	'events_label' => 'Aktiviteter',
+	'visibility' => 'Synbarhet',
+	'actions_label' => 'Handlinger',
+	'users_label' => 'Brukere',
+	'admins_label' => 'Administratorer',
 // General Info
-	'general_info_label' => 'General Information',
-	'cal_name' => 'Calendar Name',
-	'cal_desc' => 'Calendar Description',
+	'general_info_label' => 'Generell informasjon',
+	'cal_name' => 'Kalendernavn',
+	'cal_desc' => 'Kalenderbeskrivelse',
 	'status_label' => 'Status',
-	'calendar_label' => 'Calendar permissions',
+	'calendar_label' => 'Kalendertillatelser',
 // Stats
-	'stats_string1' => '<strong>%d</strong> calendars',
-	'stats_string2' => 'Active: <strong>%d</strong>&nbsp;&nbsp;&nbsp;Total: <strong>%d</strong>&nbsp;&nbsp;&nbsp;on <strong>%d</strong> page(s)',
+	'stats_string1' => '<strong>%d</strong> kalendere',
+	'stats_string2' => 'Aktive: <strong>%d</strong>&nbsp;&nbsp;&nbsp;Total: <strong>%d</strong>&nbsp;&nbsp;&nbsp;av <strong>%d</strong> side(r)',
 // Misc.
 	'add_calendar_success' => 'New calendar added succesfully',
 	'edit_calendar_success' => 'Calendar updated succesfully',
@@ -622,10 +622,10 @@ $lang_calendar_admin_data = array(
 if (defined('ADMIN_CATS_PHP')) 
 
 $lang_cat_admin_data = array(
-	'section_title' => 'Kategori-administrasjon',
+	'section_title' => 'Kategoriadministrasjon',
 	'add_cat' => 'Legg til ny kategori',
 	'edit_cat' => 'Endre kategori',
-	'update_cat' => 'Oppdater kategori-info',
+	'update_cat' => 'Oppdater kategoriinfo',
 	'delete_cat' => 'Slett kategori',
 	'events_label' => 'Aktiviteter',
 	'visibility' => 'Offentliggjort',
@@ -639,7 +639,7 @@ $lang_cat_admin_data = array(
 	'cat_color' => 'Farve',
 	'pick_color' => 'Velg en farve!',
 	'status_label' => 'Status',
-	'category_label' => 'Category permissions',
+	'category_label' => 'Kategoritillatelser',
 // Stats
 	'stats_string1' => '<strong>%d</strong> kategorier',
 	'stats_string2' => 'Aktiv: <strong>%d</strong>&nbsp;&nbsp;&nbsp;Total: <strong>%d</strong>&nbsp;&nbsp;&nbsp;på <strong>%d</strong> side(r)',
