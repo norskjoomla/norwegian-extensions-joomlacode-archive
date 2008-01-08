@@ -37,16 +37,16 @@ DEFINE('_FB_POST_DEL_ERR_TXT', 'Could not delete the texts of the post(s). Updat
 DEFINE('_FB_POST_DEL_ERR_USR', 'Everything deleted, but failed to update user post stats!');
 DEFINE('_FB_POST_MOV_ERR_DB', "Severe database error. Update your database manually so the replies to the topic are matched to the new forum as well");
 DEFINE('_FB_UNIST_SUCCESS', "FireBoard component was successfully uninstalled!");
-DEFINE('_FB_PDF_VERSION', 'FireBoard Forum Component version: %version%');
-DEFINE('_FB_PDF_DATE', 'Generated: %date%');
+DEFINE('_FB_PDF_VERSION', 'FireBoard Forum Component versjon: %version%');
+DEFINE('_FB_PDF_DATE', 'Generert: %date%');
 DEFINE('_FB_SEARCH_NOFORUM', 'No forums to search in.');
 
 DEFINE('_FB_ERRORADDUSERS', 'Error adding users:');
 DEFINE('_FB_USERSSYNCDELETED', 'Users syncronized; Deleted:');
-DEFINE('_FB_USERSSYNCADD', ', add:');
-DEFINE('_FB_SYNCUSERPROFILES', 'user profiles.');
+DEFINE('_FB_USERSSYNCADD', ', opprett:');
+DEFINE('_FB_SYNCUSERPROFILES', 'brukerprofiler.');
 DEFINE('_FB_NOPROFILESFORSYNC', 'No profiles found eligible for syncronizing.');
-DEFINE('_FB_SYNC_USERS', 'Syncronize Users');
+DEFINE('_FB_SYNC_USERS', 'Synkroniser brukere');
 DEFINE('_FB_SYNC_USERS_DESC', 'Sync FireBoard user table with Joomla! user table');
 DEFINE('_FB_A_MAIL_ADMIN', 'Email Administrators');
 DEFINE('_FB_A_MAIL_ADMIN_DESC',
@@ -91,7 +91,7 @@ DEFINE('_FB_DT_MON_JUN', 'Jun');
 DEFINE('_FB_DT_MON_JUL', 'Jul');
 DEFINE('_FB_DT_MON_AUG', 'Aug');
 DEFINE('_FB_DT_MON_SEP', 'Sep');
-DEFINE('_FB_DT_MON_OCT', 'Oct');
+DEFINE('_FB_DT_MON_OCT', 'Okt');
 DEFINE('_FB_DT_MON_NOV', 'Nov');
 DEFINE('_FB_DT_MON_DEV', 'Des');
 DEFINE('_FB_CHILD_BOARD', 'Underforum');
