@@ -158,7 +158,7 @@ $lang_admin_menu = array (
   ,'admin_categories' => 'Kategorier'
   ,'admin_groups' => 'Grupper'
   ,'admin_users' => 'Brukere'
-  ,'admin_settings' => 'Instillinger'
+  ,'admin_settings' => 'Innstillinger'
 );
 
 // Main menu entries
