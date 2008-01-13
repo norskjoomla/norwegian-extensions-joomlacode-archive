@@ -100,17 +100,17 @@ class mtLanguage {
 	var $POPULAR_LISTING = "Populære oppføringer";
 	var $POPULAR_LISTING2 = "Populære oppføringer: ";
 	var $NEW_LISTING = "Nye oppføringer";
-	var $NEW_LISTING2 = "Siste oppføringer: ";
-	var $MOST_FAVOURED_LISTINGS = "Most Favoured Listings";
-	var $MOST_FAVOURED_LISTINGS2 = "Most Favoured Listings:";
-	var $RECENTLY_UPDATED_LISTING = "Recently Updated Listings";
-	var $RECENTLY_UPDATED_LISTING2 = "Recently Updated Listings: ";
+	var $NEW_LISTING2 = "De nyeste oppføringene: ";
+	var $MOST_FAVOURED_LISTINGS = "Mest favoriserte oppføringer";
+	var $MOST_FAVOURED_LISTINGS2 = "De mest favoriserte oppføringene:";
+	var $RECENTLY_UPDATED_LISTING = "Sist oppdaterte oppføringer";
+	var $RECENTLY_UPDATED_LISTING2 = "De siste oppdaterte oppføringene: ";
 	var $MOST_RATED_LISTING = "Mest vurdert";
-	var $MOST_RATED_LISTING2 = "Mest vurderte oppføringer: ";
-	var $TOP_RATED_LISTING = "Topp vurdert";
-	var $TOP_RATED_LISTING2 = "Topp vurderte oppføringer: ";
+	var $MOST_RATED_LISTING2 = "De mest vurderte oppføringene: ";
+	var $TOP_RATED_LISTING = "Mest likt";
+	var $TOP_RATED_LISTING2 = "De mest likte oppføringene: ";
 	var $MOST_REVIEWED_LISTING = "Mest omtalt";
-	var $MOST_REVIEWED_LISTING2 = "Mest omtalte oppføringer: ";
+	var $MOST_REVIEWED_LISTING2 = "De mest omtalte oppføringene: ";
 	var $LIST_ALPHA_BY_LISTINGS_AND_CATS = "List kategorier og oppføringer etter %s: %s";
 	var $IN = "i";
 
@@ -118,16 +118,16 @@ class mtLanguage {
 	var $CONTACT2 = "Kontakt: ";
 	var $CONTACT_OWNER = "Kontakt eier";
 	var $CONTACT_SUBJECT = "Krav fra %s";
-	var $CONTACT_MESSAGE = "This is a message sent by %s <%s> from a listing named - %s. The listing URL is:\n%s\n\n%s";
+	var $CONTACT_MESSAGE = "Dette er en melding sent av %s <%s> fra en oppføring med navn - %s. Nettadressen til oppføringen er:\n%s\n\n%s";
 	var $CONTACT_EMAIL_HAVE_BEEN_SENT = "Din e-post er sendt til eier";
-	var $PLEASE_LOGIN_BEFORE_CONTACT = "You need to login first before you can contact the owner.";
+	var $PLEASE_LOGIN_BEFORE_CONTACT = "Du må logge inn før du kan kontakte eier.";
 
 	/* All Owner's Listing */
 	var $ALL_OWNERS_LISTING = "Alle eiers oppføringer";
-	var $THIS_USER_DO_NOT_HAVE_ANY_LISTINGS = "This user do not have any listings.";
+	var $THIS_USER_DO_NOT_HAVE_ANY_LISTINGS = "Denne brukeren har ingen oppføringer.";
 
-	var $OWNERS_LISTING = "Owner's Listing";
-	var $LISTING_BY = "Listings by %s";
+	var $OWNERS_LISTING = "Eiers oppføringer";
+	var $LISTING_BY = "Oppføringer tilhørende %s";
 
 	/* Report Listing */
 	var $REPORT = "Rapporter feil";
@@ -143,7 +143,7 @@ class mtLanguage {
 	var $REPORT_EMAIL = "Det er en rapport fra en bruker. Vennligst sjekk oppføring. Du kan se oppføringen på:\n\n%s\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nNavn: %s\nProblem: %s\nOppføringens ID: %s\nKommentar:\n\n%s";
 
 	/* Report Review */
-	var $PLEASE_LOGIN_BEFORE_REPORT = "You need to login first before you can report an listing.";
+	var $PLEASE_LOGIN_BEFORE_REPORT = "Du må logge inn før du kan rapportere en oppføring.";
 	var $REPORT_REVIEW_EMAIL = "There is a report from a user on a review. You can view this listing and review at:\n\n%s\n\n------------------------------\nReport Message:\n------------------------------\nSubmitter: %s\n\n%s\n\n------------------------------\nReview Details:\n------------------------------\nTitle: %s\nListing Name: %s\n\n%s";
 	var $PLEASE_FILL_IN_REPLY = "Please enter your reply before submitting";
 
@@ -153,11 +153,11 @@ class mtLanguage {
 	var $CLAIM_LISTING = "Krevde oppføringer";
 	var $PLEASE_LOGIN_BEFORE_CLAIM = "Du må logge inn før du kan gjøre krav på en oppføring";
 	var $CLAIM_EMAIL = "Det er et krav fra en bruker. Vennligst sjekk oppføringen. Du kan se oppføringen på:\n\n%s\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nNavn: %s\nOppføringens ID: %s\nKommentar:\n\n%s";
-	var $CLAIM_HAVE_BEEN_SENT = "Takk. Vi vil se på ditt krav så snart som mulig.";
+	var $CLAIM_HAVE_BEEN_SENT = "Takk, vi vil se på ditt krav så snart som mulig.";
 
 	/* Reviews */
 	var $REVIEWED_BY = "Omtalt av";
-	var $REVIEWS_BY = "Reviews by %s";
+	var $REVIEWS_BY = "Omtaler av %s";
 	var $WRITE_REVIEW = "Skriv omtale";
 	var $PLEASE_LOGIN_BEFORE_REVIEW = "Du må logge inn før du kan skrive noen omtaler";
 	var $YOU_RE_NOT_ALLOWED_TO_REVIEW_OWN_LISTING = "You're not allowed to review own listing.";
