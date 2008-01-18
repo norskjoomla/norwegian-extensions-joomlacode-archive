@@ -790,9 +790,9 @@ $lang_settings_data = array(
 	,'calendar_name' => 'Kalendernavn'
 	,'calendar_description' => 'Kalenderbeskrivelse'
 	,'calendar_admin_email' => 'Kalenderadministrators e-post'
-	,'cookie_name' => 'Navn på cookie brukt af komponenten'
-	,'cookie_path' => 'Sti på cookie brukt af komponenten'
-	,'debug_mode' => 'Aktiver debug mode'
+	,'cookie_name' => 'Navn på cookie brukt av komponenten'
+	,'cookie_path' => 'Sti på cookie brukt av komponenten'
+	,'debug_mode' => 'Aktiver feilsøkingsmodus'
 // Environment Settings
 	,'env_settings_label' => 'Miljøinnstillinger'
 	,'lang' => 'Språk'
@@ -831,8 +831,8 @@ $lang_settings_data = array(
 		,'multi_day_events_bounds' => 'Vis kun start og sluttdatoer'
 		,'multi_day_events_start' => 'Vis kun startdato'
 	// User Settings
-	,'user_settings_label' => 'User Settings'
-	,'allow_user_registration' => 'Allow user registrations'
+	,'user_settings_label' => 'Brukerinnstillinger'
+	,'allow_user_registration' => 'Tillat brukerregistreringer'
 	,'reg_duplicate_emails' => 'Allow duplicate emails'
 	,'reg_email_verify' => 'Enable account activation through email'
 // Event View
@@ -841,17 +841,17 @@ $lang_settings_data = array(
 	,'popup_event_width' => 'Width of the Pop-up window'
 	,'popup_event_height' => 'Height of the Pop-up window'
 // Add Event View
-	,'add_event_view_label' => 'Add Event'
-	,'add_event_view' => 'Enabled'
-	,'addevent_allow_html' => 'Allow <b>HTML</b> in the description'
+	,'add_event_view_label' => 'Opprett aktivitet'
+	,'add_event_view' => 'Aktivert'
+	,'addevent_allow_html' => 'Tillat <b>HTML</b> i beskrivelsen'
 	,'addevent_allow_contact' => 'Allow Contact'
 	,'addevent_allow_email' => 'Allow Email'
 	,'addevent_allow_url' => 'Allow URL'
-	,'addevent_allow_picture' => 'Allow Pictures'
+	,'addevent_allow_picture' => 'Tillat bilder'
 	,'new_post_notification' => 'Email Me When Events Need Approval'
 	// Year View
-	,'year_view_label' => 'Year View'
-	,'year_view' => 'Enabled'
+	,'year_view_label' => 'Årlig visning'
+	,'year_view' => 'Aktivert'
 // Calendar View
 	,'calendar_view_label' => 'Vis kalender (månedlig)'
 	,'monthly_view' => 'Aktivert'
@@ -880,12 +880,12 @@ $lang_settings_data = array(
 	,'mini_cal_display_picture' => 'Vis bilde'
 	,'mini_cal_diplay_options' => array('Intet','Standardbilde', 'Daglig bilde','Ukentligt bilde','Tilfeldig bilde')
 // Mail Settings
-	,'mail_settings_label' => 'Mail Settings'
-	,'mail_method' => 'Method to Send Mail'
-	,'mail_smtp_host' => 'SMTP Hosts (separated by a semicolon ;)'
-	,'mail_smtp_auth' => ' SMTP Authentication'
-	,'mail_smtp_username' => 'SMTP Username'
-	,'mail_smtp_password' => 'SMTP Password'
+	,'mail_settings_label' => 'E-postinstillinger'
+	,'mail_method' => 'Metode for å sende e-post'
+	,'mail_smtp_host' => 'SMTP-tjener(e) (adskilt med semicolon ;)'
+	,'mail_smtp_auth' => ' SMTP-autentisering'
+	,'mail_smtp_username' => 'SMTP-brukernavn'
+	,'mail_smtp_password' => 'SMTP-passord'
 // Remote Settings
 	,'remote_settings_label' => 'Remote'
 	,'remote_enable' => 'Remote Events Enabled'
@@ -893,8 +893,8 @@ $lang_settings_data = array(
 	,'remote_auth' => 'Server Key (must match event server)'
 	,'remote_pass' => 'Server Password (must match event server)'
 	,'remote_cat' => 'Remote Category (name or id)'
-	,'remote_localcal' => 'Local Calendar'
-	,'remote_localcat' => 'Local Category'
+	,'remote_localcal' => 'Lokal kalender'
+	,'remote_localcat' => 'Lokal kategori'
 	,'remote_cache' => 'Cache Life (seconds)'
 
 // Form Buttons
@@ -1001,7 +1001,7 @@ $lang_login_data = array(
 
 if (!defined('_EXTCAL_THEMES_INSTALL_HEADING'))
 {
-	DEFINE('_EXTCAL_THEMES_INSTALL_HEADING', 'JCal Client Themes Manager');
+	DEFINE('_EXTCAL_THEMES_INSTALL_HEADING', 'JCal Client Malbehandler');
 	
 	//Common
 	DEFINE('_EXTCAL_VERSION', 'Versjon');
@@ -1012,24 +1012,24 @@ if (!defined('_EXTCAL_THEMES_INSTALL_HEADING'))
 	DEFINE('_EXTCAL_PUBLISHED', 'Publisert');
 	
 	//Plugins
-	DEFINE('_EXTCAL_THEME_PLUGIN', 'Theme');
-	DEFINE('_EXTCAL_THEME_PLUGCOM', 'Theme/Command');
-	DEFINE('_EXTCAL_THEME_NAME', 'Name');
-	DEFINE('_EXTCAL_THEME_HEADING', 'JCal Client Themes Manager');
+	DEFINE('_EXTCAL_THEME_PLUGIN', 'Mal');
+	DEFINE('_EXTCAL_THEME_PLUGCOM', 'Mal/kommando');
+	DEFINE('_EXTCAL_THEME_NAME', 'Navn');
+	DEFINE('_EXTCAL_THEME_HEADING', 'JCal Client Malbehandler');
 	DEFINE('_EXTCAL_THEME_FILTER', 'Filter');
-	DEFINE('_EXTCAL_THEME_ACCESS_LIST', 'Access List');
-	DEFINE('_EXTCAL_THEME_ACCESS_LVL', 'Access Level');
-	DEFINE('_EXTCAL_THEME_CORE', 'Core');
+	DEFINE('_EXTCAL_THEME_ACCESS_LIST', 'Adgangsliste');
+	DEFINE('_EXTCAL_THEME_ACCESS_LVL', 'Adgangsnivå');
+	DEFINE('_EXTCAL_THEME_CORE', 'Kjernen');
 	DEFINE('_EXTCAL_THEME_DEFAULT', 'Standard');
 	DEFINE('_EXTCAL_THEME_ORDER', 'Sortering');
 	DEFINE('_EXTCAL_THEME_ROW', 'Linje');
 	DEFINE('_EXTCAL_THEME_TYPE', 'Type');
 	DEFINE('_EXTCAL_THEME_ICON', 'Ikon');
-	DEFINE('_EXTCAL_THEME_LAYOUT_ICON', 'Layout Icon');
+	DEFINE('_EXTCAL_THEME_LAYOUT_ICON', 'Utseendeikon');
 	DEFINE('_EXTCAL_THEME_DESC', 'Beskrivelse');
 	DEFINE('_EXTCAL_THEME_EDIT', 'Rediger');
 	DEFINE('_EXTCAL_THEME_NEW', 'Ny');
-	DEFINE('_EXTCAL_THEME_DETAILS', 'Plugin Details');
+	DEFINE('_EXTCAL_THEME_DETAILS', 'Programtilleggsinformasjon');
 	DEFINE('_EXTCAL_THEME_PARAMS', 'Parametre');
 	DEFINE('_EXTCAL_THEME_ELMS', 'Elementer');
 	//Plugin Installer
@@ -1037,12 +1037,12 @@ if (!defined('_EXTCAL_THEMES_INSTALL_HEADING'))
 	DEFINE('_EXTCAL_THEME_NONE', 'There are no non-core themes installed');
 	
 	//Language Manager
-	DEFINE('_EXTCAL_LANG_HEADING', 'EXTCAL Language Manager');
+	DEFINE('_EXTCAL_LANG_HEADING', 'EXTCAL Språkbehandler');
 	DEFINE('_EXTCAL_LANG_LANG', 'Språk');
 	
 	//Language Installer
 	DEFINE('_EXTCAL_LANG_HEADING_INSTALL', 'Installer nytt EXTCAL-språk');
-	DEFINE('_EXTCAL_LANG_BACK', 'Back to Language Manager');
+	DEFINE('_EXTCAL_LANG_BACK', 'Tilbake til språkbehandler');
 	//
 	
 	//Global Installer
