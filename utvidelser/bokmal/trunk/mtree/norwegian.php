@@ -88,18 +88,18 @@ class mtLanguage {
 	var $FEATURED_LISTING2 = "Utvalgte oppføringer: ";
 	var $THERE_ARE_X_LISTING = "Det finnes %s oppføringer i denne kategorien.";
 	var $LISTING_INFORMATION = "Informasjon om oppføringen";
-	var $GALLERY2 = "Gallery: %s";
-	var $BACK_TO_GALLERY = 'Back to gallery';
-	var $VIEW_GALLERY = 'View gallery';
-	var $NEXT_IMAGE = 'Next &gt;';
-	var $PREVIOUS_IMAGE = '&lt; Previous';
+	var $GALLERY2 = "Galleri: %s";
+	var $BACK_TO_GALLERY = 'Tilbake til galleri';
+	var $VIEW_GALLERY = 'Vis galleri';
+	var $NEXT_IMAGE = 'Neste &gt;';
+	var $PREVIOUS_IMAGE = '&lt; Forrige';
 
 	/* Modules */
 	var $EDIT_LISTING = "Endre oppføring";
 	var $SUBMIT_LISTING = "Legg til";
 	var $POPULAR_LISTING = "Populære oppføringer";
 	var $POPULAR_LISTING2 = "Populære oppføringer: ";
-	var $NEW_LISTING = "Nye oppføringer";
+	var $NEW_LISTING = "Nyeste oppføringer";
 	var $NEW_LISTING2 = "De nyeste oppføringene: ";
 	var $MOST_FAVOURED_LISTINGS = "Mest favoriserte oppføringer";
 	var $MOST_FAVOURED_LISTINGS2 = "De mest favoriserte oppføringene:";
