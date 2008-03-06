@@ -58,7 +58,7 @@ class mtLanguage {
 
 	var $AVERAGE_VISITOR_RATING = "Gjennomsnittlig vurdering";
 	var $NUMBER_OF_RATINGS = "Antall vurderinger";
-	var $OUT_OF_FIVE = "av fem";
+	var $OUT_OF_FIVE = "av 5";
 	var $PRINT = "Skriv ut";
 	var $BACK_TO_LISTING = "Tilbake til oppføring";
 
@@ -140,11 +140,11 @@ class mtLanguage {
 	var $REPORT_PROBLEM_3 = "Unøyaktig beskrivelse";
 	var $REPORT_PROBLEM_4 = "Annet (Vennligst spesifiser under)";
 	var $REPORT_HAVE_BEEN_SENT = "Takk for din rapport. Vi vil se på problemet så snart som mulig.";
-	var $REPORT_EMAIL = "Det foreligger en rapport fra en bruker. Vennligst sjekk oppføringen. Du kan se oppføringen på:\n\n%s\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nNavn: %s\nProblem: %s\nOppføringens ID: %s\nKommentar:\n\n%s";
+	var $REPORT_EMAIL = "Det er mottatt en rapport fra en bruker. Vennligst sjekk oppføringen, som du kan se på:\n\n%s\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nNavn: %s\nProblem: %s\nOppføringens ID: %s\nKommentar:\n\n%s";
 
 	/* Report Review */
 	var $PLEASE_LOGIN_BEFORE_REPORT = "Du må logge inn før du kan rapportere en oppføring.";
-	var $REPORT_REVIEW_EMAIL = "Det foreligger en rapport fra en bruker angående en omtale. Du kan se denne oppføringen og omtale den på:\n\n%s\n\n------------------------------\nRapportmelding:\n------------------------------\nForelegger: %s\n\n%s\n\n------------------------------\nInspiser detaljer:\n------------------------------\nTittel: %s\nOppføringsnavn: %s\n\n%s";
+	var $REPORT_REVIEW_EMAIL = "Det er mottatt en rapport fra en bruker angående en omtale. Du kan se denne oppføringen, og omtalen av den den på:\n\n%s\n\n------------------------------\nRapportmelding:\n------------------------------\nForelegger: %s\n\n%s\n\n------------------------------\nInspiser detaljer:\n------------------------------\nTittel: %s\nOppføringsnavn: %s\n\n%s";
 	var $PLEASE_FILL_IN_REPLY = "Vennligst skriv inn ditt svar før du sender";
 
 	/* Claim Listing */
@@ -157,7 +157,7 @@ class mtLanguage {
 
 	/* Reviews */
 	var $REVIEWED_BY = "Omtalt av";
-	var $REVIEWS_BY = "Omtales av %s";
+	var $REVIEWS_BY = "Omtaler av %s";
 	var $WRITE_REVIEW = "Skriv omtale";
 	var $PLEASE_LOGIN_BEFORE_REVIEW = "Du må logge inn før du kan skrive omtaler";
 	var $YOU_RE_NOT_ALLOWED_TO_REVIEW_OWN_LISTING = "Du kan ikke omtale egne oppføringer";
@@ -193,10 +193,10 @@ class mtLanguage {
 
 	/* Favourites */
 	var $FAVOURITES_BY = "Favorisert av %s";
-	var $ADDED_AS_FAVOURITE = "Lagt til som favoritt!";
+	var $ADDED_AS_FAVOURITE = "Lagt til som favoritt.";
 	var $FAVOURITE_REMOVED = "Fjernet favoritt";
 	var $FAVOURITES = "Favoritter";
-	var $THIS_USER_DO_NOT_HAVE_ANY_FAVOURITES = "Denne brukeren har ingen favoriserte oppføringer.";
+	var $THIS_USER_DO_NOT_HAVE_ANY_FAVOURITES = "Denne brukeren har ingen favorittoppføringer.";
 	var $REMOVE_FAVOURITE = 'Fjern som favoritt';
 	var $ADD_AS_FAVOURITE = 'Legg til som favoritt';
 
@@ -225,7 +225,7 @@ class mtLanguage {
 	/* Recommend to friends */
 	var $RECOMMEND_LISTING_TO_FRIEND = "Anbefal denne oppføringen for en venn";
 	var $RECOMMEND_MSG = "Følgende side fra \"%s\" nettsiden er sendt til deg fra %s (%s).\n\nDu kan se den på følgende nettadresse:\n\n%s";
-	var $YOU_MUST_ENTER_VALID_EMAIL = "Du må skrive inn din gyldige e-postadresse og den gyldig e-postadressen beskjeden skal sendes til.";
+	var $YOU_MUST_ENTER_VALID_EMAIL = "Du må skrive inn din gyldige e-postadresse og den gyldig e-postadressen meldingen skal sendes til.";
 	var $RECOMMEND_SUBJECT = "Oppføring anbefalt av %s";
 	var $RECOMMEND_EMAIL_HAVE_BEEN_SENT = "Din anbefaling av oppføringen er sendt til %s";
 	var $SEND = "Send";
@@ -313,10 +313,10 @@ Oppføringsdetaljer:
 ------------------------------\n\nOppføringens navn: %s\nOppføringens ID: %s\nBrukernavn: %s\nE-post: %s\nOpprettet: %s\nSist Endret: %s";
 	// Listing approved
 	var $NEW_LISTING_APPROVED_SUBJECT = "Din oppføring er godkjent";
-	var $NEW_LISTING_APPROVED_MSG = "Din oppføring ved navn \"%s\" er godkjent!";
+	var $NEW_LISTING_APPROVED_MSG = "Din oppføring med navn \"%s\" er godkjent!";
 
 	var $UPDATE_LISTING_APPROVED_SUBJECT = "Din endring av oppføring er godkjent";
-	var $UPDATE_LISTING_APPROVED_MSG = "Din oppføring ved navn \"%s\" er oppdatert!";
+	var $UPDATE_LISTING_APPROVED_MSG = "Din oppføring med navn \"%s\" er oppdatert!";
 
 	// Reviews Approved
 	var $REVIEW_APPROVED_SUBJECT = "Din omtale er godkjent";
@@ -324,7 +324,7 @@ Oppføringsdetaljer:
 
 	// Notify Admin on user initiated delete
 	var $ADMIN_NOTIFY_DELETE_SUBJECT = "Oppføring slettet av bruker";
-	var $ADMIN_NOTIFY_DELETE_MSG = "En oppføring ved navn \"%s\" er fjernet av eier.\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nOppføringens navn: %s\nOppførings-ID: %s\nBrukernavn: %s\nE-post: %s\nOpprettet: %s";
+	var $ADMIN_NOTIFY_DELETE_MSG = "En oppføring med navn \"%s\" er fjernet av eier.\n\n------------------------------\nOppføringsdetaljer:\n------------------------------\n\nOppføringens navn: %s\nOppførings-ID: %s\nBrukernavn: %s\nE-post: %s\nOpprettet: %s";
 
 	// Claims Approved
 	var $CLAIM_APPROVED_SUBJECT = "Ditt krav er godkjent";
@@ -394,8 +394,8 @@ Oppføringsdetaljer:
 	var $PENDING_LISTING = "Ventende oppføring";
 	var $PENDING_CATEGORIES = "Ventende kategorier";
 	var $PENDING_REVIEWS = "Ventende omtaler";
-	var $PENDING_REVIEWS_REPORTS = "Omtaler under påvente' Rapporter";
-	var $PENDING_REVIEWS_REPLIES = "Eiere under påvente' Svar";
+	var $PENDING_REVIEWS_REPORTS = "Ventende omtaler' Rapporter";
+	var $PENDING_REVIEWS_REPLIES = "Ventende eiere' Svar";
 	var $PENDING_REPORTS = "Ventende rapporter";
 	var $NO_REPORT_FOUND = "Ingen rapport funnet.";
 	var $NO_REPLY_FOUND = "Intet svar funnet.";
@@ -478,7 +478,7 @@ Oppføringsdetaljer:
 	var $TEMPLATES = "Maler";
 	var $TREE_TEMPLATES = "Listemaler";
 	var $SELECT_TEMPLATE_FILE_TO_EDIT = "Velg en malside å redigere";
-	var $TOP_LISTINGS = "Øverste oppføringer (Mest vurdert, mest omtalt, mest favorisert, høyest vurdert, ny, fremhevet & populær)";
+	var $TOP_LISTINGS = "Topp-oppføringer (Mest vurdert, mest omtalt, mest favorisert, høyest vurdert, ny, fremhevet & populær)";
 	var $TEMPLATE_PAGE_EDITOR = "Malsideredigering";
 	var $INDEX = "Indeks";
 	var $MISC = "Div.";
@@ -561,13 +561,13 @@ Oppføringsdetaljer:
 
 	var $CAT_AND_LISTING_COUNT_UPDATED = "Kategori- og oppføringstelling er blitt oppdatert.";
 
-	var $CANNOT_OPEN_FILE = "Operasjon mislykket: Kunne ikke åpne %s";
-	var $FILE_NOT_WRITEABLE = "Operasjon mislykket: %s er ikke skrivbar.";
+	var $CANNOT_OPEN_FILE = "Operasjonen feilet: Kunne ikke åpne %s";
+	var $FILE_NOT_WRITEABLE = "Operasjonen feilet: %s er ikke skrivbar.";
 	var $TEMPLATE_PAGE_SAVED = "Lagring av malside er vellykket";
 	var $COPY_PAGE_TO_CLIPBOARD = "Kopier malside til utklippstavle";
 
 	/* Configuration */
-	var $CONFIGURATION = "Innstillinger";
+	var $CONFIGURATION = "Konfigurasjon";
 	var $LANGUAGE = "Språk";
 	var $IMAGES = "Bilder";
 	var $FEATURE = "Funksjoner";
@@ -581,7 +581,7 @@ Oppføringsdetaljer:
 	var $REGISTERED_ONLY = "Registrert bruker";
 	var $PUBLIC = "Offentlig";
 	var $NONE = "Ingen";
-	var $ASCENDING = "Oppadstigende";
+	var $ASCENDING = "Stigende";
 	var $DESCENDING = "Synkende";
 	var $CONFIGNAME_TEMPLATE = 'Mal';
 	var $CONFIGNAME_LANGUAGE = 'Språk';
@@ -595,32 +595,32 @@ Oppføringsdetaljer:
 	var $CONFIGNAME_RESIZE_METHOD = 'Størrelsesinnstillingsmetode';
 	var $CONFIGNAME_RESIZE_QUALITY = 'Bildekvalitet';
 	var $CONFIGDESC_RESIZE_QUALITY = 'Skriv inn en verdi mellom 0–100. 100 er beste kvalitet.';
-	var $CONFIGNAME_RESIZE_LISTING_SIZE = 'Small/Miniatyrbildes bildestørrelse';
+	var $CONFIGNAME_RESIZE_LISTING_SIZE = 'Miniatyrbildes størrelse';
 	var $CONFIGDESC_RESIZE_LISTING_SIZE = 'Dette er maksimumsbredden og -høyden for et miniatyrbilde.';
 	var $CONFIGNAME_SQUARED_THUMBNAIL = 'Kvadratisk miniatyrbilde';
 	var $CONFIGDESC_SQUARED_THUMBNAIL = 'Settes denne til ja vil det genereres miniatyrbilder med kvadratiske dimensjoner. Dette vil gi et konsekvent sett av miniatyrbilder med like dimensjoner i katalogen. Imidlertid kan siden av miniatyrbildet bli kuttet av på noen bilder for at de skal passe inn i et kvadrat.';
-	var $CONFIGNAME_RESIZE_MEDIUM_LISTING_SIZE = 'Mediums bildestørrelse';
+	var $CONFIGNAME_RESIZE_MEDIUM_LISTING_SIZE = 'Medium bildestørrelse';
 	var $CONFIGDESC_RESIZE_MEDIUM_LISTING_SIZE = 'Dette er maksimumsbredden og -høyden til et medium stort bilde.';
 	var $CONFIGNAME_IMG_IMPATH = 'Bildesti';
 	var $CONFIGNAME_IMG_NETPBMPATH = 'NetPBM-sti';
 	var $CONFIGNAME_RESIZE_CAT_SIZE = 'Kategoris bildestørrelse';
 	var $CONFIGDESC_RESIZE_CAT_SIZE = 'Dette er maksimumsbredden og -høyden til et kategoribilde.';
-	var $CONFIGNAME_FIRST_CAT_ORDER1 = 'Hovedsakelig anordning';
-	var $CONFIGNAME_SECOND_CAT_ORDER1 = 'Sekundær anordning';
-	var $CONFIGNAME_FIRST_LISTING_ORDER1 = 'Hovedsakelig anordning';
-	var $CONFIGNAME_SECOND_LISTING_ORDER1 = 'Sekundær anordning';
+	var $CONFIGNAME_FIRST_CAT_ORDER1 = 'Foretrukket sortering';
+	var $CONFIGNAME_SECOND_CAT_ORDER1 = 'Sekundær sortering';
+	var $CONFIGNAME_FIRST_LISTING_ORDER1 = 'Foretrukket sortering';
+	var $CONFIGNAME_SECOND_LISTING_ORDER1 = 'Sekundær sortering';
 	// var $CONFIGNAME_FULLTEXT_SEARCH = 'Fulltekstsøk';
 	// var $CONFIGDESC_FULLTEXT_SEARCH = 'Dette valget gir deg muligheten til å bruke MySQL-fulltekstsøkefunksjonen for å gi mer presise søkeresultat gjennom den enkle søkemodulen. Hvis du\ benytter fulltekstsøk, vennligst forsikre deg om at *kun* \'Navn-\' og \'beskrivelses-\'feltet er satt på ja under.';
-	var $CONFIGNAME_FIRST_REVIEW_ORDER1 = 'Hovedsakelig anordning';
-	var $CONFIGNAME_SECOND_REVIEW_ORDER1 = 'Sekundær anordning';
-	var $CONFIGNAME_THIRD_REVIEW_ORDER1 = 'Tertiær anordning';
-	var $CONFIGNAME_FIRST_SEARCH_ORDER1 = 'Hovedsakelig anordning';
-	var $CONFIGNAME_SECOND_SEARCH_ORDER1 = 'Sekundær anordning';
+	var $CONFIGNAME_FIRST_REVIEW_ORDER1 = 'Foretrukket sortering';
+	var $CONFIGNAME_SECOND_REVIEW_ORDER1 = 'Sekundær sortering';
+	var $CONFIGNAME_THIRD_REVIEW_ORDER1 = 'Tertiær sortering';
+	var $CONFIGNAME_FIRST_SEARCH_ORDER1 = 'Foretrukket sortering';
+	var $CONFIGNAME_SECOND_SEARCH_ORDER1 = 'Sekundær sortering';
 	var $CONFIGNAME_DISPLAY_EMPTY_CAT = 'Vis tom kategori';
 	var $CONFIGNAME_ALLOW_USER_ASSIGN_MORE_THAN_ONE_CATEGORY = 'Tillat bruker å angi mer enn én kategori for oppføring';
-	var $CONFIGDESC_DISPLAY_ALPHA_INDEX = 'Alfaindeks viser den komplette listen over alfabeter som gir besøkende mulighet til å se gjennom katalogen ved bokstaver. Dette inkluderer også nummer (0–9)';
+	var $CONFIGDESC_DISPLAY_ALPHA_INDEX = 'Alfaindeks viser den komplette listen over alfabeter som gir besøkende mulighet til å se gjennom katalogen ved bokstaver. Dette inkluderer også nummer (0-9)';
 	var $CONFIGNAME_ALPHA_INDEX_ADDITIONAL_CHARS = 'Ytterligere bokstaver for alfaindeks';
-	var $CONFIGDESC_ALPHA_INDEX_ADDITIONAL_CHARS = 'Du kan føre opp ytterligere bokstaver ved enden av alfalisten. Før opp bokstavene etter hverandre. Dvs.: ?&#8230;?&#8222;?&#8211;';
+	var $CONFIGDESC_ALPHA_INDEX_ADDITIONAL_CHARS = 'Du kan føre opp ytterligere bokstaver ved enden av alfalisten. Før opp bokstavene etter hverandre. Dvs.: ?&nr. 8230;?&nr. 8222;?&nr. 8211;';
 	var $CONFIGNAME_ALLOW_LISTINGS_SUBMISSION_IN_ROOT = 'Tillat oppførselsanførsel i roten';
 	var $CONFIGNAME_ALLOW_CHANGING_CATS_IN_ADDLISTING = 'Tillat endring av kategori i legg til oppføringer';
 	var $CONFIGNAME_DISPLAY_LISTINGS_IN_ROOT = 'Vis oppføringer i rot';
@@ -634,13 +634,13 @@ Oppføringsdetaljer:
 	var $CONFIGNOTE_OPTIONAL_EMAIL_SENT_TO_REVIEWER = 'En valgfri e-post kan sendes anmelder etter godkjennelse eller avvisning av en omtale. Vennligst skriv inn navn og e-postadresse som skal vises i e-posten. Det er også valgfritt om du ønsker å sende en blank karbonkopi til en e-postadresse.';
 	var $CONFIGNAME_PREDEFINED_REPLY_FROM_NAME = 'Fra navn';
 	var $CONFIGNAME_PREDEFINED_REPLY_FROM_EMAIL = 'Fra e-post';
-	var $CONFIGNAME_PREDEFINED_REPLY_BCC = 'E-post BCC';
+	var $CONFIGNAME_PREDEFINED_REPLY_BCC = 'E-post-blindkopi';
 	var $CONFIGNOTE_PREDEFINED_REPLY_FOR_APPROVED_OR_REJECTED_REVIEW = 'Du kan skrive inn opptil fem forhåndsdefinerte e-postsvar nedenfor (Tittel på svar/svarmelding).';
-	var $CONFIGNAME_PREDEFINED_REPLY_1_TITLE = 'Forhåndsdefinert svar #1';
-	var $CONFIGNAME_PREDEFINED_REPLY_2_TITLE = 'Forhåndsdefinert svar #2';
-	var $CONFIGNAME_PREDEFINED_REPLY_3_TITLE = 'Forhåndsdefinert svar #3';
-	var $CONFIGNAME_PREDEFINED_REPLY_4_TITLE = 'Forhåndsdefinert svar #4';
-	var $CONFIGNAME_PREDEFINED_REPLY_5_TITLE = 'Forhåndsdefinert svar #5';
+	var $CONFIGNAME_PREDEFINED_REPLY_1_TITLE = 'Forhåndsdefinert svar nr. 1';
+	var $CONFIGNAME_PREDEFINED_REPLY_2_TITLE = 'Forhåndsdefinert svar nr. 2';
+	var $CONFIGNAME_PREDEFINED_REPLY_3_TITLE = 'Forhåndsdefinert svar nr. 3';
+	var $CONFIGNAME_PREDEFINED_REPLY_4_TITLE = 'Forhåndsdefinert svar nr. 4';
+	var $CONFIGNAME_PREDEFINED_REPLY_5_TITLE = 'Forhåndsdefinert svar nr. 5';
 	var $CONFIGNOTE_NOTE_RATING = '<b>Vurdering</b>';
 	var $CONFIGNAME_SHOW_REVIEW = 'Vis omtale';
 	var $CONFIGNAME_ALLOW_RATING_DURING_REVIEW = 'Tillat vurdering under omtale';
@@ -882,9 +882,9 @@ Oppføringsdetaljer:
 	var $MOVE_LISTINGS_MSG = "Vennligst gjør et utvalg fra listen for å flytte oppføring(er)";
 	var $COPY_LISTINGS_MSG = "Vennligst gjør et utvalg fra listen for å kopiere oppføring(er)";
 	var $SAVE_CHANGES = "Lagre endringer";
-	var $APPROVE_AND_PUBLISH_LISTING = "Godkjenn &amp; Publiser oppføring";
+	var $APPROVE_AND_PUBLISH_LISTING = "Godkjenn og publiser oppføring";
 	var $APPROVE_AND_PUBLISH_LISTING_MSG = "Vennligst gjør et utvalg fra listen for å godkjenne &amp; publisere oppføring(er)";
-	var $APPROVE_AND_PUBLISH = "Godkjenn &amp; Publiser";
+	var $APPROVE_AND_PUBLISH = "Godkjenn og publiser";
 	var $APPROVE_CATEGORIES = "Godkjenn kategorier";
 	var $BACK = "Tilbake";
 	var $NEW = "Ny";
