@@ -1,7 +1,7 @@
 <?php
 
 class mtLanguage {
-	var $TITLE = "Katalog";
+	var $TITLE = "";
 	var $CATEGORY = "Kategori";
 	var $CATEGORIES = "Kategorier";
 	var $FEATURED_CATEGORIES = "Utvalgte kategorier";
@@ -405,8 +405,8 @@ Oppføringsdetaljer:
 	var $THIS_CATEGORY = "Denne kategorien";
 	var $CATEGORY_DETAILS = "Kategoridetaljer";
 	var $THIS_LISTING = "Denne oppføringen";
-	var $MORE = "Mer …";
-	var $RECOUNT_CATEGORIES_LISTINGS = "Ant. oppfør./kateg.";
+	var $MORE = "Mer ...";
+	var $RECOUNT_CATEGORIES_LISTINGS = "Tell opp ant.";
 	var $ABOUT_MOSETS_TREE = "Om Mosets Tree";
 	/*
 	var $ALSO_APPEAR_IN_THESE_CATEGORIES = "Vises også i disse kategoriene";
@@ -463,7 +463,7 @@ Oppføringsdetaljer:
 
 	var $ADVANCED_SEARCH = "Avansert søk";
 	var $ADVANCED_SEARCH_REDIRECT = "Avansert søk - omdiriger";
-	var $ADVANCED_SEARCH_SHORT = "mer …";
+	var $ADVANCED_SEARCH_SHORT = "mer ...";
 	var $SEARCH_LISTINGS = "Søk i oppføringer";
 	var $SEARCH_CATEGORIES = "Søk i kategorier";
 	var $HAS_IMAGE = "Har bilde";
@@ -674,14 +674,14 @@ Oppføringsdetaljer:
 	var $CONFIGNAME_USER_VOTE_REVIEW = 'Tillat registrerte brukere å stemme på nyttige omtaler';
 	var $CONFIGNAME_ALLOW_OWNER_REVIEW_OWN_LISTING = 'Tillat alle brukere å omtale egen oppføring';
 	var $CONFIGNAME_OWNER_REPLY_REVIEW = 'Tillat eiere å svare på omtaler';
-	var $CONFIGNAME_USER_REPORT_REVIEW = 'hvem kan rapportere omtale';
-	var $CONFIGNAME_USER_CONTACT = 'hvem kan kontakte oppføringseier';
-	var $CONFIGNAME_USER_RATING = 'hvem kan gi vurderinger';
-	var $CONFIGNAME_USER_REVIEW = 'hvem kan avgi en omtale';
-	var $CONFIGNAME_USER_REPORT = 'hvem kan rapportere en oppføring';
-	var $CONFIGNAME_USER_RECOMMEND = 'hvem kan anbefale en oppføring';
-	var $CONFIGNAME_USER_ADDLISTING = 'hvem kan foreslå oppføring';
-	var $CONFIGNAME_USER_ADDCATEGORY = 'hvem kan foreslå kategori';
+	var $CONFIGNAME_USER_REPORT_REVIEW = 'Hvem kan rapportere omtale';
+	var $CONFIGNAME_USER_CONTACT = 'Hvem kan kontakte oppføringseier';
+	var $CONFIGNAME_USER_RATING = 'Hvem kan gi vurderinger';
+	var $CONFIGNAME_USER_REVIEW = 'Hvem kan avgi en omtale';
+	var $CONFIGNAME_USER_REPORT = 'Hvem kan rapportere en oppføring';
+	var $CONFIGNAME_USER_RECOMMEND = 'Hvem kan anbefale en oppføring';
+	var $CONFIGNAME_USER_ADDLISTING = 'Hvem kan foreslå oppføring';
+	var $CONFIGNAME_USER_ADDCATEGORY = 'Hvem kan foreslå kategori';
 	var $CONFIGNAME_USER_ALLOWMODIFY = 'Tillat eier å modifisere oppføring';
 	var $CONFIGNAME_USER_ALLOWDELETE = 'Tillat bruker å slette oppføring';
 	var $CONFIGNAME_NEEDAPPROVAL_ADDLISTING = 'Legge til ny oppføring krever godkjennelse';
@@ -711,7 +711,7 @@ Oppføringsdetaljer:
 	var $CONFIGNOTE_NOTE_RSS_CUSTOM_FIELDS = 'Valgmulighetene nedenfor gir deg mulighet til å velge Mosets Tree-felt for å lage ytterligere elementer til RSS-tilførsel. Det ytterligere elementet vil se slik ut: &lt;mtree:<b>cust_1</b>&gt;<b>value</b>&lt;/mtree&gt;, hvor <b>cust_1</b> vil bli byttet ut med kundefeltnavnet og <b>value</b> er feltverdien til en oppføring.';
 	var $CONFIGNAME_RSS_CAT_NAME = 'Kategorinavn';
 	var $CONFIGNAME_RSS_CAT_URL = 'Kategori-URL';
-	var $CONFIGNAME_RSS_LINK_VOTES = 'stemmer';
+	var $CONFIGNAME_RSS_LINK_VOTES = 'Stemmer';
 	var $CONFIGNAME_RSS_LINK_RATING = 'Vurdering';
 	var $CONFIGNAME_RSS_ADDRESS = 'Adresse';
 	var $CONFIGNAME_RSS_CITY = 'By';
