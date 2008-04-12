@@ -20,19 +20,19 @@ global $VM_LANG;
 $langvars = array (
 	'CHARSET' => 'ISO-8859-1',
 	'PHPSHOP_ZONE_ASSIGN_COUNTRY_LBL' => 'Land',
-	'PHPSHOP_ZONE_ASSIGN_ASSIGN_LBL' => 'Knytt til sone',
+	'PHPSHOP_ZONE_ASSIGN_ASSIGN_LBL' => 'Tilknytt sone',
 	'PHPSHOP_ASSIGN_ZONE_PG_LBL' => 'Knytt sammen soner',
 	'PHPSHOP_ZONE_FORM_NAME_LBL' => 'Sonenavn',
-	'PHPSHOP_ZONE_FORM_DESC_LBL' => 'Sone beskrivelse',
-	'PHPSHOP_ZONE_FORM_COST_PER_LBL' => 'Sonekost pr. artikkel',
-	'PHPSHOP_ZONE_FORM_COST_LIMIT_LBL' => 'Sone kostnadsgrense',
+	'PHPSHOP_ZONE_FORM_DESC_LBL' => 'Sonebeskrivelse',
+	'PHPSHOP_ZONE_FORM_COST_PER_LBL' => 'Sonekostnad per vare',
+	'PHPSHOP_ZONE_FORM_COST_LIMIT_LBL' => 'Kostnadsgrense for sone',
 	'PHPSHOP_ZONE_LIST_LBL' => 'Soner',
-	'PHPSHOP_ZONE_LIST_NAME_LBL' => 'Sone navn',
-	'PHPSHOP_ZONE_LIST_DESC_LBL' => 'Sone beskrivelse',
-	'PHPSHOP_ZONE_LIST_COST_PER_LBL' => 'Sonekostnad per artikkel',
-	'PHPSHOP_ZONE_LIST_COST_LIMIT_LBL' => 'Sone kostnadsgrense',
-	'VM_ZONE_ASSIGN_PERITEM' => 'Per Item',
-	'VM_ZONE_ASSIGN_LIMIT' => 'Limit',
-	'VM_ZONE_EDITZONE' => 'Edit This Zone'
+	'PHPSHOP_ZONE_LIST_NAME_LBL' => 'Sonenavn',
+	'PHPSHOP_ZONE_LIST_DESC_LBL' => 'Sonebeskrivelse',
+	'PHPSHOP_ZONE_LIST_COST_PER_LBL' => 'Sonekostnad per vare',
+	'PHPSHOP_ZONE_LIST_COST_LIMIT_LBL' => 'Kostnadsgrense for sone',
+	'VM_ZONE_ASSIGN_PERITEM' => 'Per vare',
+	'VM_ZONE_ASSIGN_LIMIT' => 'Grense',
+	'VM_ZONE_EDITZONE' => 'Rediger sone'
 ); $VM_LANG->initModule( 'zone', $langvars );
 ?>
