@@ -19,14 +19,14 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 global $VM_LANG;
 $langvars = array (
 	'CHARSET' => 'ISO-8859-1',
-	'PHPSHOP_CARRIER_LIST_LBL' => 'Liste befraktere',
-	'PHPSHOP_RATE_LIST_LBL' => 'Liste over fraktrater',
+	'PHPSHOP_CARRIER_LIST_LBL' => 'Transportørliste',
+	'PHPSHOP_RATE_LIST_LBL' => 'Liste over fraktsatser',
 	'PHPSHOP_CARRIER_LIST_NAME_LBL' => 'Navn',
 	'PHPSHOP_CARRIER_LIST_ORDER_LBL' => 'Sortering',
-	'PHPSHOP_CARRIER_FORM_LBL' => 'Befrakter endre / legg til',
+	'PHPSHOP_CARRIER_FORM_LBL' => 'Opprette / Endre transportør',
 	'PHPSHOP_RATE_FORM_LBL' => 'Fraktsats endre / legg til',
-	'PHPSHOP_RATE_FORM_NAME' => 'Fraktrate beskrivelse',
-	'PHPSHOP_RATE_FORM_CARRIER' => 'Befrakter',
+	'PHPSHOP_RATE_FORM_NAME' => 'Beskrivelse av transportørsats',
+	'PHPSHOP_RATE_FORM_CARRIER' => 'Transportør',
 	'PHPSHOP_RATE_FORM_COUNTRY' => 'Land',
 	'PHPSHOP_RATE_FORM_ZIP_START' => 'Poststed start',
 	'PHPSHOP_RATE_FORM_ZIP_END' => 'Poststed slutt',
@@ -35,11 +35,11 @@ $langvars = array (
 	'PHPSHOP_RATE_FORM_PACKAGE_FEE' => 'Ditt pakkegebyr',
 	'PHPSHOP_RATE_FORM_CURRENCY' => 'Valuta',
 	'PHPSHOP_RATE_FORM_LIST_ORDER' => 'Rekkefølge',
-	'PHPSHOP_SHIPPING_RATE_LIST_CARRIER_LBL' => 'Befrakter',
-	'PHPSHOP_SHIPPING_RATE_LIST_RATE_NAME' => 'Befraktersats beskrivelse',
+	'PHPSHOP_SHIPPING_RATE_LIST_CARRIER_LBL' => 'Transportør',
+	'PHPSHOP_SHIPPING_RATE_LIST_RATE_NAME' => 'Beskrivelse av transportørsats',
 	'PHPSHOP_SHIPPING_RATE_LIST_RATE_WSTART' => 'Vekt fra ...',
 	'PHPSHOP_SHIPPING_RATE_LIST_RATE_WEND' => '... til',
-	'PHPSHOP_CARRIER_FORM_NAME' => 'Befrakter firma',
+	'PHPSHOP_CARRIER_FORM_NAME' => 'Transportørfirma',
 	'PHPSHOP_CARRIER_FORM_LIST_ORDER' => 'Rekkefølge'
 ); $VM_LANG->initModule( 'shipping', $langvars );
 ?>
