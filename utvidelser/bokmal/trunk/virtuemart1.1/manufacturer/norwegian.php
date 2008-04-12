@@ -19,18 +19,18 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 global $VM_LANG;
 $langvars = array (
 	'CHARSET' => 'ISO-8859-1',
-	'PHPSHOP_MANUFACTURER_LIST_LBL' => 'Produsent liste',
-	'PHPSHOP_MANUFACTURER_LIST_MANUFACTURER_NAME' => 'Produsent navn',
-	'PHPSHOP_MANUFACTURER_FORM_LBL' => 'Legg til Informasjon',
-	'PHPSHOP_MANUFACTURER_FORM_CATEGORY' => 'Produsent Kategori',
-	'PHPSHOP_MANUFACTURER_FORM_EMAIL' => 'Epost',
-	'PHPSHOP_MANUFACTURER_CAT_LIST_LBL' => 'Produsent Kategoriliste',
-	'PHPSHOP_MANUFACTURER_CAT_NAME' => 'Kategori Navn',
-	'PHPSHOP_MANUFACTURER_CAT_DESCRIPTION' => 'Kategori Beskrivelse',
+	'PHPSHOP_MANUFACTURER_LIST_LBL' => 'Produsentliste',
+	'PHPSHOP_MANUFACTURER_LIST_MANUFACTURER_NAME' => 'Produsentnavn',
+	'PHPSHOP_MANUFACTURER_FORM_LBL' => 'Legg til informasjon',
+	'PHPSHOP_MANUFACTURER_FORM_CATEGORY' => 'Produsentkategori',
+	'PHPSHOP_MANUFACTURER_FORM_EMAIL' => 'E-post',
+	'PHPSHOP_MANUFACTURER_CAT_LIST_LBL' => 'Produsentkategorier',
+	'PHPSHOP_MANUFACTURER_CAT_NAME' => 'Kategorinavn',
+	'PHPSHOP_MANUFACTURER_CAT_DESCRIPTION' => 'Kategoribeskrivelse',
 	'PHPSHOP_MANUFACTURER_CAT_MANUFACTURERS' => 'Produsenter',
-	'PHPSHOP_MANUFACTURER_CAT_FORM_LBL' => 'Produsent Kategori Formular',
-	'PHPSHOP_MANUFACTURER_CAT_FORM_INFO_LBL' => 'Kategori Informasjon',
-	'PHPSHOP_MANUFACTURER_CAT_FORM_NAME' => 'Kategori Navn',
-	'PHPSHOP_MANUFACTURER_CAT_FORM_DESCRIPTION' => 'Kategori Beskrivelse'
+	'PHPSHOP_MANUFACTURER_CAT_FORM_LBL' => 'Skjema for ny produsentkategori',
+	'PHPSHOP_MANUFACTURER_CAT_FORM_INFO_LBL' => 'Informasjon om kategorien',
+	'PHPSHOP_MANUFACTURER_CAT_FORM_NAME' => 'Kategorinavn',
+	'PHPSHOP_MANUFACTURER_CAT_FORM_DESCRIPTION' => 'Kategoribeskrivelse'
 ); $VM_LANG->initModule( 'manufacturer', $langvars );
 ?>
