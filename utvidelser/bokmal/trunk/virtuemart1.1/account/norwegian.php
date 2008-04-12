@@ -20,9 +20,9 @@ global $VM_LANG;
 $langvars = array (
 	'CHARSET' => 'ISO-8859-1',
 	'PHPSHOP_ACC_CUSTOMER_ACCOUNT' => 'Kundekonto:',
-	'PHPSHOP_ACC_UPD_BILL' => 'Her kan du oppdatere din faktura informasjon.',
+	'PHPSHOP_ACC_UPD_BILL' => 'Her kan du oppdatere din fakturainformasjon.',
 	'PHPSHOP_ACC_UPD_SHIP' => 'Her kan du legge til og endre dine leveringsadresser.',
-	'PHPSHOP_ACC_ACCOUNT_INFO' => 'Konto informasjon',
+	'PHPSHOP_ACC_ACCOUNT_INFO' => 'Kontoinformasjon',
 	'PHPSHOP_ACC_SHIP_INFO' => 'Leveringsinformasjon',
 	'PHPSHOP_DOWNLOADS_CLICK' => 'Click on Product Name to Download File(s).',
 	'PHPSHOP_DOWNLOADS_EXPIRED' => 'You have already downloaded the file(s) the maximum number of times, or the download period has expired.'
