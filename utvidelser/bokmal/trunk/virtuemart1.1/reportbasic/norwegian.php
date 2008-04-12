@@ -19,7 +19,7 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 global $VM_LANG;
 $langvars = array (
 	'CHARSET' => 'ISO-8859-1',
-	'PHPSHOP_RB_INDIVIDUAL' => 'Individuell produkt opplising',
+	'PHPSHOP_RB_INDIVIDUAL' => 'Spesifisert produktliste',
 	'PHPSHOP_RB_SALE_TITLE' => 'Rapportering salg',
 	'PHPSHOP_RB_SALES_PAGE_TITLE' => 'Oversikt over salgsaktivitet',
 	'PHPSHOP_RB_INTERVAL_TITLE' => 'Velg intervall',
@@ -38,6 +38,6 @@ $langvars = array (
 	'PHPSHOP_RB_ORDERS' => 'Bestillinger',
 	'PHPSHOP_RB_TOTAL_ITEMS' => 'Totalt artikler solgt',
 	'PHPSHOP_RB_REVENUE' => 'Omsetning',
-	'PHPSHOP_RB_PRODLIST' => 'Produkt liste'
+	'PHPSHOP_RB_PRODLIST' => 'Produktliste'
 ); $VM_LANG->initModule( 'reportbasic', $langvars );
 ?>
