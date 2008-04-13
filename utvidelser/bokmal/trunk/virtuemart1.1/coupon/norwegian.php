@@ -18,12 +18,12 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 */
 global $VM_LANG;
 $langvars = array (
-	'CHARSET' => 'ISO-8859-1',
+	'CHARSET' => 'UTF-8',
 	'PHPSHOP_COUPON_EDIT_HEADER' => 'Oppdater rabatt/gavekort',
 	'PHPSHOP_COUPON_CODE_HEADER' => 'Kode',
 	'PHPSHOP_COUPON_PERCENT_TOTAL' => 'Prosent eller totalt',
 	'PHPSHOP_COUPON_TYPE' => 'Rabattype',
-	'PHPSHOP_COUPON_TYPE_TOOLTIP' => 'En gaverabatt slettes når den er brukt på en ordre. En permanent rabatt kan brukes flere ganger.',
+	'PHPSHOP_COUPON_TYPE_TOOLTIP' => 'En gaverabatt slettes nÃ¥r den er brukt pÃ¥ en ordre. En permanent rabatt kan brukes flere ganger.',
 	'PHPSHOP_COUPON_TYPE_GIFT' => 'Gaverabatt',
 	'PHPSHOP_COUPON_TYPE_PERMANENT' => 'Permanent rabatt',
 	'PHPSHOP_COUPON_VALUE_HEADER' => 'Verdi',

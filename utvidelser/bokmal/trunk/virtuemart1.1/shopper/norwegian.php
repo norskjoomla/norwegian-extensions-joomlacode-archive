@@ -18,7 +18,7 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 */
 global $VM_LANG;
 $langvars = array (
-	'CHARSET' => 'ISO-8859-1',
+	'CHARSET' => 'UTF-8',
 	'PHPSHOP_ADMIN_CFG_PRICES_INCLUDE_TAX' => 'Vis pris inkl mva?',
 	'PHPSHOP_ADMIN_CFG_PRICES_INCLUDE_TAX_EXPLAIN' => 'Angir om kunden ser prisene med eller uten mva.',
 	'PHPSHOP_SHOPPER_FORM_ADDRESS_LABEL' => 'Adressealias',
@@ -29,6 +29,6 @@ $langvars = array (
 	'PHPSHOP_SHOPPER_GROUP_FORM_NAME' => 'Gruppenavn',
 	'PHPSHOP_SHOPPER_GROUP_FORM_DESC' => 'Gruppebeskrivelse',
 	'PHPSHOP_SHOPPER_GROUP_FORM_DISCOUNT' => 'Rabatt for standard kundgruppe (i %)',
-	'PHPSHOP_SHOPPER_GROUP_FORM_DISCOUNT_TIP' => 'En positiv pris X betyr: Dersom kundegruppen ikke har en pris for dette produktet vil standardpris være beregningsgrunnlaget X %. En negativ pris har motsatt effekt'
+	'PHPSHOP_SHOPPER_GROUP_FORM_DISCOUNT_TIP' => 'En positiv pris X betyr: Dersom kundegruppen ikke har en pris for dette produktet vil standardpris vÃ¦re beregningsgrunnlaget X %. En negativ pris har motsatt effekt'
 ); $VM_LANG->initModule( 'shopper', $langvars );
 ?>

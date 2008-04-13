@@ -18,7 +18,7 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 */
 global $VM_LANG;
 $langvars = array (
-	'CHARSET' => 'ISO-8859-1',
+	'CHARSET' => 'UTF-8',
 	'PHPSHOP_ORDER_PRINT_PAYMENT_LOG_LBL' => 'Betalingslogg',
 	'PHPSHOP_ORDER_PRINT_SHIPPING_PRICE_LBL' => 'Fraktpris',
 	'PHPSHOP_ORDER_STATUS_LIST_CODE' => 'Ordrestatuskode',
@@ -29,7 +29,7 @@ $langvars = array (
 	'PHPSHOP_ORDER_STATUS_FORM_LIST_ORDER' => 'Opplisting ordre',
 	'PHPSHOP_COMMENT' => 'Kommentar',
 	'PHPSHOP_ORDER_LIST_NOTIFY' => 'Gi kunden beskjed?',
-	'PHPSHOP_ORDER_LIST_NOTIFY_ERR' => 'Vennligst endre ordrestatus først!',
+	'PHPSHOP_ORDER_LIST_NOTIFY_ERR' => 'Vennligst endre ordrestatus fÃ¸rst!',
 	'PHPSHOP_ORDER_HISTORY_INCLUDE_COMMENT' => 'Inkluder denne kommentaren?',
 	'PHPSHOP_ORDER_HISTORY_DATE_ADDED' => 'Dato lagt til',
 	'PHPSHOP_ORDER_HISTORY_CUSTOMER_NOTIFIED' => 'Beskjed til kunde?',
