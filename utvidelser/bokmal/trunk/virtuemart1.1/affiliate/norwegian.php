@@ -18,7 +18,7 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 */
 global $VM_LANG;
 $langvars = array (
-	'CHARSET' => 'ISO-8859-1',
+	'CHARSET' => 'UTF-8',
 	'PHPSHOP_USER_FORM_EMAIL' => 'E-post',
 	'PHPSHOP_SHOPPER_LIST_LBL' => 'Kundeliste',
 	'PHPSHOP_SHOPPER_FORM_BILLTO_LBL' => 'Fakturainformasjon',
@@ -28,8 +28,8 @@ $langvars = array (
 	'PHPSHOP_AFFILIATE_LIST_AFFILIATE_NAME' => 'Statistikknavn',
 	'PHPSHOP_AFFILIATE_LIST_AFFILIATE_ACTIVE' => 'Aktiv',
 	'PHPSHOP_AFFILIATE_LIST_RATE' => 'Sats',
-	'PHPSHOP_AFFILIATE_LIST_MONTH_TOTAL' => 'Månedstotal',
-	'PHPSHOP_AFFILIATE_LIST_MONTH_COMMISSION' => 'Månedsprovisjon',
+	'PHPSHOP_AFFILIATE_LIST_MONTH_TOTAL' => 'MÃ¥nedstotal',
+	'PHPSHOP_AFFILIATE_LIST_MONTH_COMMISSION' => 'MÃ¥nedsprovisjon',
 	'PHPSHOP_AFFILIATE_LIST_ORDERS' => 'Vis ordrer',
 	'PHPSHOP_AFFILIATE_EMAIL_WHO' => 'Send e-post til hvem(* = ALLE)',
 	'PHPSHOP_AFFILIATE_EMAIL_CONTENT' => 'Din e-post',

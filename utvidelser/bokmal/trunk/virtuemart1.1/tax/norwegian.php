@@ -18,7 +18,7 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 */
 global $VM_LANG;
 $langvars = array (
-	'CHARSET' => 'ISO-8859-1',
+	'CHARSET' => 'UTF-8',
 	'PHPSHOP_TAX_LIST_LBL' => 'Liste over mva-verdier',
 	'PHPSHOP_TAX_LIST_STATE' => 'Mva-region',
 	'PHPSHOP_TAX_LIST_COUNTRY' => 'Mva-land',

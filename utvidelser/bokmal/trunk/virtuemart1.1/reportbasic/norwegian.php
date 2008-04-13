@@ -18,12 +18,12 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 */
 global $VM_LANG;
 $langvars = array (
-	'CHARSET' => 'ISO-8859-1',
+	'CHARSET' => 'UTF-8',
 	'PHPSHOP_RB_INDIVIDUAL' => 'Spesifisert produktliste',
 	'PHPSHOP_RB_SALE_TITLE' => 'Rapportering salg',
 	'PHPSHOP_RB_SALES_PAGE_TITLE' => 'Oversikt over salgsaktivitet',
 	'PHPSHOP_RB_INTERVAL_TITLE' => 'Velg intervall',
-	'PHPSHOP_RB_INTERVAL_MONTHLY_TITLE' => 'Månedlig',
+	'PHPSHOP_RB_INTERVAL_MONTHLY_TITLE' => 'MÃ¥nedlig',
 	'PHPSHOP_RB_INTERVAL_WEEKLY_TITLE' => 'Ukentlig',
 	'PHPSHOP_RB_INTERVAL_DAILY_TITLE' => 'Daglig',
 	'PHPSHOP_RB_THISMONTH_BUTTON' => 'Denne mnd.',

@@ -18,7 +18,7 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 */
 global $VM_LANG;
 $langvars = array (
-	'CHARSET' => 'ISO-8859-1',
+	'CHARSET' => 'UTF-8',
 	'PHPSHOP_ZONE_ASSIGN_COUNTRY_LBL' => 'Land',
 	'PHPSHOP_ZONE_ASSIGN_ASSIGN_LBL' => 'Knytt til sone',
 	'PHPSHOP_ASSIGN_ZONE_PG_LBL' => 'Knytt sammen soner',
@@ -31,8 +31,8 @@ $langvars = array (
 	'PHPSHOP_ZONE_LIST_DESC_LBL' => 'Sonebeskrivelse',
 	'PHPSHOP_ZONE_LIST_COST_PER_LBL' => 'Sonekostnad per artikkel',
 	'PHPSHOP_ZONE_LIST_COST_LIMIT_LBL' => 'Sonekostnadsgrense',
-	'VM_ZONE_ASSIGN_PERITEM' => 'Per Item',
-	'VM_ZONE_ASSIGN_LIMIT' => 'Limit',
-	'VM_ZONE_EDITZONE' => 'Edit This Zone'
+	'VM_ZONE_ASSIGN_PERITEM' => 'Per artikkel',
+	'VM_ZONE_ASSIGN_LIMIT' => 'Grense',
+	'VM_ZONE_EDITZONE' => 'Rediger sone'
 ); $VM_LANG->initModule( 'zone', $langvars );
 ?>
