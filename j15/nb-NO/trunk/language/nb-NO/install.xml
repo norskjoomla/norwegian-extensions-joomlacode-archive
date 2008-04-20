@@ -3,8 +3,8 @@
 <install version="1.5" client="site" type="language">
     <name>Norwegian bokmål (Norway)</name>
     <tag>nb-NO</tag>
-    <version>1.5.2</version>
-    <creationdate>Mars 2008</creationdate>
+    <version>1.5.3</version>
+    <creationdate>April 2008</creationdate>
     <author>Joomla! i Norge</author>
     <authoremail>oversettelser@joomlainorge.no</authoremail>
     <authorurl>www.joomlainorge.no</authorurl>
@@ -58,7 +58,7 @@
         <filename>nb-NO.plg_system_debug.ini</filename>
         <filename>nb-NO.tpl_beez.ini</filename>
         <filename>nb-NO.tpl_rhuk_milkyway.ini</filename>
-	<filename>index.html</filename>
+        <filename>index.html</filename>
         <filename file="meta">nb-NO.xml</filename>
     </files>
   <params />
