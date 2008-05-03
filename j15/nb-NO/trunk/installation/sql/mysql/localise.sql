@@ -28,6 +28,7 @@ UPDATE `#__plugins` SET `name` = 'Innhold - Last modul' WHERE `element` = 'loadm
 UPDATE `#__plugins` SET `name` = 'Innhold - Sidenavigering' WHERE `element` = 'pagenavigation' AND `folder` = 'content';
 UPDATE `#__plugins` SET `name` = 'Tekstbehandler - Ingen tekstbehandler' WHERE `element` = 'none' AND `folder` = 'editors';
 UPDATE `#__plugins` SET `name` = 'Tekstbehandler - TinyMCE 2.0' WHERE `element` = 'tinymce' AND `folder` = 'editors';
+UPDATE `#__plugins` SET `params` = 'theme=advanced\ncleanup=1\ncleanup_startup=0\nautosave=0\ncompressed=0\nrelative_urls=1\ntext_direction=ltr\nlang_mode=0\nlang_code=nb\ninvalid_elements=applet\ncontent_css=1\ncontent_css_custom=\nnewlines=0\ntoolbar=top\nhr=1\nsmilies=1\ntable=1\nstyle=1\nlayer=1\nxhtmlxtras=0\ntemplate=0\ndirectionality=1\nfullscreen=1\nhtml_height=550\nhtml_width=750\npreview=1\ninsertdate=1\nformat_date=%d-%m-%Y\ninserttime=1\nformat_time=%H:%M:%S\n\n' WHERE `element` = 'tinymce' AND `folder` = 'editors';
 UPDATE `#__plugins` SET `name` = 'Tekstbehandler - XStandard Lite 2.0' WHERE `element` = 'xstandard' AND `folder` = 'editors';
 UPDATE `#__plugins` SET `name` = 'Tekstbehandlerknapp - Bilde' WHERE `element` = 'image' AND `folder` = 'editors-xtd';
 UPDATE `#__plugins` SET `name` = ' Tekstbehandlerknapp - Sideskift' WHERE `element` = 'pagebreak' AND `folder` = 'editors-xtd';
