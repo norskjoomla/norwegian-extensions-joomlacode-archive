@@ -828,7 +828,7 @@ DEFINE('_COM_A_KARMA', 'Vis Karma indikator');
 DEFINE('_COM_A_KARMA_DESC', 'Veld &quot;Ja&quot; for å vise bruker Karma og relaterte knapper (øk / senk) dersom brukerstatistikk er aktivert.');
 DEFINE('_COM_A_DISEMOTICONS', 'Deaktiver emoticons');
 DEFINE('_COM_A_DISEMOTICONS_DESC', 'Velg &quot;Ja&quot; for å deaktivere grafiske emoticons (smilefjes).');
-DEFINE('_COM_C_FBCONFIG', 'Fireboardkonfigurasjon');
+DEFINE('_COM_C_FBCONFIG', 'Konfigurasjon');
 DEFINE('_COM_C_FBCONFIGDESC', 'Konfigurer all funksjonalitet i Fireboard');
 DEFINE('_COM_C_FORUM', 'Forumadministrasjon');
 DEFINE('_COM_C_FORUMDESC', 'Legg til kategorier/forum, og konfigurer dem');
