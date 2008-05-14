@@ -482,7 +482,9 @@ $langvars = array (
 	'PHPSHOP_FREE_SHIPPING' => 'Gratis frakt',
 	'PHPSHOP_FREE_SHIPPING_CUSTOMER_TEXT' => 'Frakt er gratis på denne ordren!',
 	'PHPSHOP_FREE_SHIPPING_AMOUNT' => 'Minste beløp for gratis frakt',
-	'PHPSHOP_FREE_SHIPPING_AMOUNT_TOOLTIP' => 'Minstebeløp (inkludert MVA!) for gratis frakt',
+	'PHPSHOP_FREE_SHIPPING_AMOUNT_TOOLTIP' => 'The amount (INCLUDING TAX!) which is the Minimum for Free Shipping 
+                                                (example: <strong>50</strong> means Free Shipping when the customer checks out
+                                                with $50 (including tax) or more.',
 	'PHPSHOP_ACCOUNT_LBL_ACCOUNT_TYPE' => 'Bankkontotype ',
 	'PHPSHOP_ACCOUNT_LBL_ACCOUNT_TYPE_CHECKING' => 'Sjekk',
 	'PHPSHOP_ACCOUNT_LBL_ACCOUNT_TYPE_BUSINESSCHECKING' => 'Firmasjekk',
@@ -594,7 +596,7 @@ Passord - %s
 	'VM_PRODUCTS_MOVE_TOOLBAR' => 'Move Products',
 	'VM_ADMIN_CFG_PAYPAL_NOTIFYSCRIPT_TIP' => 'When enabled, let\'s you test your Notify Script File %s through this Testing Form: <a href="http://www.eliteweaver.co.uk/testing/ipntest.php" target="_blank">www.eliteweaver.co.uk/testing/ipntest.php</a>',
 	'VM_ADMIN_CFG_PAYPAL_STATUS_PENDING_EXPLAIN' => 'The order Status to which Orders are set, which have no completed Payment Transaction. 
-The transaction was not cancelled in this case, but it is just pending and waiting for completion.',
+		The transaction was not cancelled in this case, but it is just pending and waiting for completion.',
 	'VM_ADMIN_CFG_PAYPAL_STATUS_PENDING' => 'Order Status for Pending Payments',
 	'VM_SHIPPING_MODULE_LIST_LBL' => 'Shipping Module List',
 	'VM_ENABLED' => 'enabled',
@@ -611,16 +613,16 @@ The transaction was not cancelled in this case, but it is just pending and waiti
 	'VM_FEDEX_METER_NUMBER_TIP' => 'The meter number you have received from FedEx',
 	'VM_FEDEX_URI' => 'FedEx Server Address',
 	'VM_FEDEX_URI_TIP' => 'Per FedEx request the addresses to FedEx\'s API servers are not included (FEDEX_URI). Please register with FedEx to receive this information (<a href="http://www.fedex.com/globaldeveloper/shipapi/">www.fedex.com/globaldeveloper/shipapi/</a>).
-<br/>Default for testing is: <strong>https://gatewaybeta.fedex.com/GatewayDC</strong>',
-	'VM_ORDER_EXPORT' => 'Order Export',
-	'VM_ORDER_EXPORT_MODULE_LIST_MNU' => 'List Order Export Modules',
-	'VM_ORDER_EXPORT_MODULE_FORM_MNU' => 'Add Order Export Module',
+		<br/>Default for testing is: <strong>https://gatewaybeta.fedex.com/GatewayDC</strong>',
+	'VM_ORDER_EXPORT' => 'Export Modules',
+	'VM_ORDER_EXPORT_MODULE_LIST_MNU' => 'List Export Modules',
+	'VM_ORDER_EXPORT_MODULE_FORM_MNU' => 'Add Export Module',
 	'VM_TAXDETAILS_LABEL' => 'Tax Total contains',
 	'PHPSHOP_REVIEW_MODIFIED' => 'The review has been updated.',
 	'VM_RECOMMEND_FORM_MESSAGE' => 'Your message',
 	'VM_RECOMMEND_MESSAGE' => 'Hello,
 
-i\'ve found this great product on %s that might be of interest for you.
+I\'ve found this great product on %s that might be of interest for you.
 
 You can find it here:
 %s
@@ -639,9 +641,10 @@ We will contact you soon regarding your enquiry.
 (Please do not reply to this email)',
 	'VM_ENQUIRY_VENDOR_EMAIL_MESSAGE' => 'You have received a product enquiry from {shopper_name} regarding the following product: 
 Product Name: {product_name}
-Product SKU : {product_sku}
+Product SKU: {product_sku}
 
-Enquiry: {shopper_message}
+Enquiry:
+{shopper_message}
 URL: {product_url}
 
 Mail mailto: {shopper_email}',
@@ -787,7 +790,7 @@ Vennligst ikke svar på denne beskjeden. Den er automatisk generert, og kun til 
 	'VM_DOWNLOAD_FILE_NOTFOUND' => 'Sorry, but the requested file wasn\'t found. Possible Cause: Wrong path',
 	'VALID_EUVATID' => 'Please enter a valid EU VAT ID',
 	'VM_REGISTER_ACCOUNT' => 'Register an Account?<br />
-An Account allows you to come back to this shop and view all the orders you have made.',
+		An Account allows you to come back to this shop and view all the orders you have made.',
 	'RELOAD' => 'Reload',
 	'VM_FEED_SUBSCRIBE_TITLE' => 'Subscribe to the Feed of the latest Products!',
 	'VM_FEED_SUBSCRIBE_TOCATEGORY_TITLE' => 'Subscribe to the Feed of the latest Products in this Category!',
@@ -936,23 +939,23 @@ Our %s  is now in stock and can be purchased by following this link:
 	'PHPSHOP_CART_GOTO_WAITING_LIST' => 'Please wait: in the next page you can submit the notify request.',
 	'PHPSHOP_ADMIN_CFG_PAYMENT_ORDERSTATUS_SUCC' => 'Order Status for successful transactions',
 	'PHPSHOP_ADMIN_CFG_PAYMENT_ORDERSTATUS_SUCC_EXPLAIN' => 'Select the order status to which the actual order is set, if the payment transaction was successful. 
-If using download selling options: select the status which enables the download (then the customer is instantly notified about the download via e-mail).',
+		If using download selling options: select the status which enables the download (then the customer is instantly notified about the download via e-mail).',
 	'PHPSHOP_ADMIN_CFG_PAYMENT_ORDERSTATUS_FAIL' => 'Order Status for failed transactions',
 	'PHPSHOP_ADMIN_CFG_PAYMENT_ORDERSTATUS_FAIL_EXPLAIN' => 'Select an order status for failed payment transactions.',
 	'PHPSHOP_ADMIN_CFG_AUTORIZENET_RESPCODES' => 'Show Response Codes for Failed Transactions?',
 	'PHPSHOP_ADMIN_CFG_AUTORIZENET_RESPCODES_EXPLAIN' => 'If set to YES then the customer will see the Authorize.net Transaction Response Reason Codes (Response Code - 
-Response Subcode - Response Reason Code - AVS Result Code - Card Code (CVV2/CVC2/CID) Response Code - 
-Cardholder Authentication Verification Value (CAVV) Response Code - in a format like: 2-2-65-Y-N--)
-along with the Response Reason Text. This can be useful for troubleshooting failed or declined transactions.
-For further details see the <a href="http://www.authorize.net/support/AIM_guide.pdf">Authorize.net Advanced Integration Method (AIM) Implementation Guide</a>',
+		Response Subcode - Response Reason Code - AVS Result Code - Card Code (CVV2/CVC2/CID) Response Code - 
+		Cardholder Authentication Verification Value (CAVV) Response Code - in a format like: 2-2-65-Y-N--)
+		along with the Response Reason Text. This can be useful for troubleshooting failed or declined transactions.
+		For further details see the <a href="http://www.authorize.net/support/AIM_guide.pdf">Authorize.net Advanced Integration Method (AIM) Implementation Guide</a>',
 	'PHPSHOP_ADMIN_CFG_AUTORIZENET_EMAIL_MERCHANT' => 'Email Confirmation from Gateway to Merchant?',
 	'PHPSHOP_ADMIN_CFG_AUTORIZENET_EMAIL_MERCHANT_EXPLAIN' => 'Send copy of the customer confirmation email to the Merchant? If yes then an email will
-be sent to the Merchant address as well as the address(es) configured in the Merchant Interface.
-<em> Note: this email is sent from the Authorize.net gateway and is independent of any email sent by VirtueMart</em>',
+		be sent to the Merchant address as well as the address(es) configured in the Merchant Interface.
+		<em> Note: this email is sent from the Authorize.net gateway and is independent of any email sent by VirtueMart</em>',
 	'PHPSHOP_ADMIN_CFG_AUTORIZENET_EMAIL_CUSTOMER' => 'Email Confirmation from Gateway to Customer?',
 	'PHPSHOP_ADMIN_CFG_AUTORIZENET_EMAIL_CUSTOMER_EXPLAIN' => 'Send a confirmation email to the customer? If yes then an email will
-be sent to the customer from the Merchant Interface.
-<em> Note: this email is sent from the Authorize.net gateway and is independent of any email sent by VirtueMart</em> ',
+		be sent to the customer from the Merchant Interface.
+		<em> Note: this email is sent from the Authorize.net gateway and is independent of any email sent by VirtueMart</em> ',
 	'PHPSHOP_ADMIN_CFG_PFP_VENDOR' => 'Merchant Login / Vendor Name',
 	'PHPSHOP_ADMIN_CFG_PFP_VENDOR_EXPLAIN' => 'Your Merchant Login Name',
 	'PHPSHOP_ADMIN_CFG_PFP_USER' => 'User Name',
@@ -975,7 +978,7 @@ be sent to the customer from the Merchant Interface.
 	'PHPSHOP_ADMIN_CFG_PN_LOGIN_EXPLAIN' => 'The PayMeNow Login/Account ID',
 	'PHPSHOP_ADMIN_CFG_PAYPAL_ONLYVERIFIED' => 'Accept only verified buyers?',
 	'PHPSHOP_ADMIN_CFG_PAYPAL_ONLYVERIFIED_EXPLAIN' => 'Here you can choose if you only want to accept payments from buyers with a
-<strong>verified</strong> PayPal account (when an account is not verified, PayPal does transfer the funds, but they do not fully guarantee the validity of the sale).',
+		<strong>verified</strong> PayPal account (when an account is not verified, PayPal does transfer the funds, but they do not fully guarantee the validity of the sale).',
 	'PHPSHOP_ADMIN_CFG_2CHECKOUT_LOGIN' => '2Checkout.com Seller/Vendor ID',
 	'PHPSHOP_ADMIN_CFG_2CHECKOUT_LOGIN_EXPLAIN' => 'Your 2Checkout.com Seller ID',
 	'PHPSHOP_ADMIN_CFG_2CHECKOUT_SECRETWORD' => '2Checkout.com Secret Word',
@@ -993,9 +996,9 @@ be sent to the customer from the Merchant Interface.
 	'PHPSHOP_EPAY_PAYMENT_DECLINE' => 'The payment was not authorised by ePay/PBS. The payment was rejected because of the following error code: ',
 	'PHPSHOP_EPAY_PAYMENT_LOG_TID' => 'The payment is set up with transaction number: ',
 	'PHPSHOP_EPAY_PAYMENT_EPAY_LINK' => 'The payment can be processed at: <a href="https://ssl.ditonlinebetalingssystem.dk/admin" target="_new">www.epay.dk</a>',
-	'PHPSHOP_EPAY_PAYMENT_CHECKOUT_HEADER' => 'You have now confirmed the order and must now choose how the order have to be paid. This is done by clicking the required payment method below. The payment will happen in a SSL secure window at ePay (<a href="http://www.epay.dk" target="_new">www.epay.dk</a>).<br><br>',
-	'PHPSHOP_EPAY_PAYMENT_CHECKOUT_FOOTER' => 'If the Standard Payment window does not open automatically , then click the button to activate it. Notice! If you are using a pop-up blocker, you must press the CTRL key while clicking the button.',
-	'PHPSHOP_EPAY_BUTTON_OPEN_WINDOW' => 'OPEN PAYMENT WINDOW',
+	'VM_CHECKOUT_EPAY_PAYMENT_CHECKOUT_HEADER' => 'You have now confirmed the order and must now choose how the order have to be paid. This is done by clicking the required payment method below. The payment will happen in a SSL secure window at ePay (<a href="http://www.epay.dk" target="_new">www.epay.dk</a>).<br><br>',
+	'VM_CHECKOUT_EPAY_PAYMENT_CHECKOUT_FOOTER' => 'If the Standard Payment window does not open automatically , then click the button to activate it. Notice! If you are using a pop-up blocker, you must press the CTRL key while clicking the button.',
+	'VM_CHECKOUT_EPAY_BUTTON_OPEN_WINDOW' => 'OPEN PAYMENT WINDOW',
 	'PHPSHOP_ADMIN_CFG_EPAY_MERCHANTNUMBER' => 'PBS Merchant ID',
 	'PHPSHOP_ADMIN_CFG_EPAY_MERCHANTNUMBER_EXPLAIN' => 'The Merchant ID you have reveived from PBS. For testing purpose a test Merchant ID can be obtained by contacting ePay (sales@epay.dk)',
 	'PHPSHOP_ADMIN_CFG_EPAY_CARDTYPES' => 'Cardtypes',
@@ -1026,13 +1029,13 @@ be sent to the customer from the Merchant Interface.
 	'PHPSHOP_ADMIN_CFG_EPAY_CALLBACK_0' => 'Callback is disabled',
 	'PHPSHOP_ADMIN_CFG_EPAY_CALLBACK_1' => 'Enable callback',
 	'PHPSHOP_ADMIN_CFG_EPAY_CALLBACK_EXPLAIN' => 'Callback is used to avoid missing update of the shopping system if
-the user closes the browser before redirect to the shop from ePay is made. <b>(It is recommented that callback is enabled to update the
-shop even if the customer during the payment process closes the browser)</b>',
+		the user closes the browser before redirect to the shop from ePay is made. <b>(It is recommented that callback is enabled to update the
+		shop even if the customer during the payment process closes the browser)</b>',
 	'PHPSHOP_ADMIN_CFG_EPAY_ADDFEE' => 'Transaction Fee',
 	'PHPSHOP_ADMIN_CFG_EPAY_ADDFEE_0' => 'Customer does not pay for the transaction fee',
 	'PHPSHOP_ADMIN_CFG_EPAY_ADDFEE_1' => 'The customer paies for the transaction fee',
 	'PHPSHOP_ADMIN_CFG_EPAY_ADDFEE_EXPLAIN' => 'Often it is necessary to put the transaction fee to the customer.
-ePay will calculate the fee and put it on the payment before the payment is made.',
+		ePay will calculate the fee and put it on the payment before the payment is made.',
 	'PHPSHOP_ADMIN_CFG_EPAY_SUBSCRIPTION' => 'Subscription',
 	'PHPSHOP_ADMIN_CFG_EPAY_SUBSCRIPTION_0' => 'Disable subscription',
 	'PHPSHOP_ADMIN_CFG_EPAY_SUBSCRIPTION_1' => 'All payments are created as recurrent subscriptions',
@@ -1048,17 +1051,16 @@ ePay will calculate the fee and put it on the payment before the payment is made
 	'PHPSHOP_MENU' => 'Meny',
 	'PHPSHOP_SELECT_CATEGORY' => 'Velg en kategori:',
 	'PHPSHOP_RANDOM' => 'Tilfeldige produkter',
-	'VM_ORDER_EXPORT_MODULE_FORM_LBL' => 'Order Export Module Form',
+	'VM_ORDER_EXPORT_MODULE_FORM_LBL' => 'Export Module Form',
 	'VM_ORDER_EXPORT_MODULE_FORM_NAME' => 'Name of Export Module',
 	'VM_ORDER_EXPORT_MODULE_FORM_DESC' => 'Description',
 	'VM_ORDER_EXPORT_CLASS_NAME' => 'Export Module Class Name',
 	'VM_ORDER_EXPORT_CLASS_NAME_TIP' => '(e.g. <strong>ps_olsi</strong>) :<br />
-default: ps_xmlexport<br />
-<i>Leave blank if you\'re not sure what to fill in!</i>',
+		default: ps_xmlexport<br />
+		<i>Leave blank if you\'re not sure what to fill in!</i>',
 	'VM_ORDER_EXPORT_CONFIG' => 'Order Export configuration',
-	'VM_ORDER_EXPORT_CONFIG_TIP' => 'Here you can configure your order export.
-It has to be valid PHP Code!
-',
+	'VM_ORDER_EXPORT_CONFIG_TIP' => 'Here you can configure your export.
+		It has to be valid PHP Code!',
 	'VM_REGISTER_BEFORE' => 'Please register to use this facillity',
 	'VM_RECOMMEND_MESSAGE_PREFACE' => 'The following recommendation from the "%s" website has been sent to you by %s (%s).
 
@@ -1305,6 +1307,16 @@ check with your hosting company to see if you can access this port first',
 	'VM_MANUF_ADDED' => 'The Manufacturer has been added.',
 	'VM_MANUF_UPDATED' => 'The Manufacturer has been updated.',
 	'PHPSHOP_CUSTOMER_CVV2_TOOLTIP_TITLE' => 'Credit Card Security Code',
-	'VM_CREDIT_CARD_TYPE' => 'Credit Card Type'
+	'VM_CREDIT_CARD_TYPE' => 'Credit Card Type',
+	'PHPSHOP_ADMIN_CFG_EPAY_AUTHEMAIL_1' => 'Send authemail to customer',
+	'PHPSHOP_ADMIN_CFG_EPAY_AUTHEMAIL_0' => 'Don\'t send authemail to customer',
+	'PHPSHOP_ADMIN_CFG_EPAY_EXTRAINFO_RESET_EXPLAIN' => 'IF THE PAYMENT EXTRA INFO FIELD IS BLANK YOU MUST CLICK THIS BUTTON BELOW!',
+	'PHPSHOP_ADMIN_CFG_EPAY_EXTRAINFO_RESET' => 'Reset Payment Extra Info',
+	'PHPSHOP_ADMIN_CFG_EPAY_ERR_CONFIGFILE' => 'Could not write to configuration file',
+	'VM_CHECKOUT_ERR_CCTYPE' => 'Credit Card Type not found.',
+	'VM_ENQUIRY_MAIL_CUSTOMER_QUESTION' => 'Customer Question',
+	'VM_ENQUIRY_MAIL_HAS_REQUESTED' => 'has requested more information on',
+	'VM_ENQUIRY_MAIL_PRODUCT_SKU' => 'Product-SKU',
+	'VM_ENQUIRY_MAIL_QUESTION' => 'Question'
 ); $VM_LANG->initModule( 'common', $langvars );
 ?>
