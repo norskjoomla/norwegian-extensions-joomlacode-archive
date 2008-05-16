@@ -24,7 +24,7 @@ $langvars = array (
 	'PHPSHOP_ACC_UPD_SHIP' => 'Her kan du legge til og endre dine leveringsadresser.',
 	'PHPSHOP_ACC_ACCOUNT_INFO' => 'Kontoinformasjon',
 	'PHPSHOP_ACC_SHIP_INFO' => 'Leveringsinformasjon',
-	'PHPSHOP_DOWNLOADS_CLICK' => 'Klikk på produktnavn for å laste ned filen(e).',
-	'PHPSHOP_DOWNLOADS_EXPIRED' => 'Du har allerede lastet ned filen(e) maksimalt tillatte antall ganger, eller nedlasting har utløpt på tid.'
+	'PHPSHOP_DOWNLOADS_CLICK' => 'Klikk på produktnavnet for å laste ned filen(e).',
+	'PHPSHOP_DOWNLOADS_EXPIRED' => 'Du har allerede lastet ned filen(e) maksimal antall ganger, eller nedlastingsperioden har utløpt.'
 ); $VM_LANG->initModule( 'account', $langvars );
 ?>
