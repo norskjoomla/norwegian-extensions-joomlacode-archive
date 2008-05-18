@@ -41,6 +41,7 @@ DEFINE('_FB_UNIST_SUCCESS', "FireBoardkomponenten er avinstallert!");
 DEFINE('_FB_PDF_VERSION', 'FireBoard forumkomponent versjon: %version%');
 DEFINE('_FB_PDF_DATE', 'Generert: %date%');
 DEFINE('_FB_SEARCH_NOFORUM', 'Ingen forum å søke i.');
+
 DEFINE('_FB_ERRORADDUSERS', 'Feil ved tillegging av bruker:');
 DEFINE('_FB_USERSSYNCDELETED', 'Brukere synkronisert; Slettet:');
 DEFINE('_FB_USERSSYNCADD', ', Legg til:');
@@ -108,10 +109,8 @@ DEFINE('_FB_DATE_WEEKS', 'Uker');
 DEFINE('_FB_DATE_DAYS', 'Dager');
 DEFINE('_FB_DATE_HOURS', 'Timer');
 DEFINE('_FB_DATE_MINUTES', 'Minutter');
-
 // 1.0.3
 DEFINE('_FB_CONFIRM_REMOVESAMPLEDATA', 'Er du sikker på at du vil fjerne eksempeldataen? Dette er uomstøtelig.');
-
 // 1.0.2
 DEFINE('_FB_HEADERADD', 'Forumtittel:');
 DEFINE('_FB_ADVANCEDDISPINFO', "Forumvisning");
@@ -420,7 +419,6 @@ DEFINE('_FB_DIRCOPERR', 'Feil: fil');
 DEFINE('_FB_DIRCOPERR1', 'kunne ikke kopieres!\n');
 DEFINE('_FB_INSTALL1', '<strong>Fireboard Forum</strong> Komponent <em>til Joomla! CMS</em> <br />&copy; 2006 - 2007 av Best Of Joomla<br>Alle rettigheter forbeholdt.');
 DEFINE('_FB_INSTALL2', 'Overflytting/Installasjon :</code></strong><br /><br /><font color="red"><b>vellykket');
-
 // added by aliyar 
 DEFINE('_FB_FORUMPRF_TITLE', 'Profilinnstillinger');
 DEFINE('_FB_FORUMPRF', 'Profil');
@@ -439,10 +437,8 @@ DEFINE('_FB_SHOW_CHILD_CATEGORY_COLON', 'Antall kolonner i underforum ');
 DEFINE('_FB_SHOW_CHILD_CATEGORY_COLONDESC', 'Antall kolonner i underforum formatert under hovedkategorien ');
 DEFINE('_FB_SUBSCRIPTIONSCHECKED', 'Emneabonnement valgt som standard?');
 DEFINE('_FB_SUBSCRIPTIONSCHECKED_DESC', 'Velg &quot;Ja&quot; hvis du ønsker at emneabonnement alltid skal være avkrysset');
-
 // Errors (Re-integration from Joomlaboard 1.2)
 DEFINE('_FB_ERROR1', 'Kategori / Forum må ha et navn');
-
 // Forum Configuration (New in FireBoard)
 DEFINE('_FB_SHOWSTATS', 'Vis statistikk');
 DEFINE('_FB_SHOWSTATSDESC', 'Hvis du vil vise statistikk, velg ja');
@@ -462,7 +458,6 @@ DEFINE('_FB_FINFO', 'Fireboard foruminformasjon');
 DEFINE('_FB_CSSEDITOR', 'Skriveprogram for CSS, til Fireboardmal');
 DEFINE('_FB_PATH', 'Sti:');
 DEFINE('_FB_CSSERROR', 'Vær obs:CSS malfilen må ha skriverettigheter for å lagre endringer.');
-
 // User Management
 DEFINE('_FB_FUM', 'Fireboard kontrollpanel for brukerprofiler');
 DEFINE('_FB_SORTID', 'sorter på brukerID');
@@ -486,7 +481,6 @@ DEFINE('_FB_DELSIG', ' huk av i denne boksen for å slette denne signaturen');
 DEFINE('_FB_DELAV', ' huk av i denne boksen for å slette dette profilbildet');
 DEFINE('_FB_SUBFOR', 'Abonnementer for');
 DEFINE('_FB_NOSUBS', 'Ingen abonnementer funnet for denne brukeren');
-
 // Forum Administration (Re-integration from Joomlaboard 1.2)
 DEFINE('_FB_BASICS', 'Grunnleggende');
 DEFINE('_FB_BASICSFORUM', 'Grunnleggende foruminformasjon');
@@ -517,19 +511,15 @@ DEFINE('_FB_MODDESC', 'Satt til &quot;Ja&quot; hvis du vil ha mulighet til å til
 DEFINE('_FB_MODHEADER', 'Modereringsinstillinger for dette forumet');
 DEFINE('_FB_MODSASSIGNED', 'Moderatorer knyttet til dette forumet');
 DEFINE('_FB_NOMODS', 'Det er ingen moderator knyttet til dette forumet');
-
 // Some General Strings (Improvement in Fireboard)
 DEFINE('_FB_EDIT', 'Endre');
 DEFINE('_FB_ADD', 'Legg til');
-
 // Reorder (Re-integration from Joomlaboard 1.2)
 DEFINE('_FB_MOVEUP', 'Flytt opp');
 DEFINE('_FB_MOVEDOWN', 'Flytt ned');
-
 // Groups - Integration in Fireboard
 DEFINE('_FB_ALLREGISTERED', 'Alle registrerte');
 DEFINE('_FB_EVERYBODY', 'Alle');
-
 // Removal of hardcoded strings in admin panel (Re-integration from Joomlaboard 1.2)
 DEFINE('_FB_REORDER', 'Omorganiser');
 DEFINE('_FB_CHECKEDOUT', 'Sjekk ut');
@@ -542,7 +532,6 @@ DEFINE('_FB_LOCKED', 'Låst');
 DEFINE('_FB_CATFOR', 'Kategori / Forum');
 DEFINE('_FB_ADMIN', 'Fireboard administrasjon');
 DEFINE('_FB_CP', 'Fireboard kontrollpanel');
-
 // Configuration page - Headings (Re-integrated from Joomlaboard 1.2)
 DEFINE('_COM_A_AVATAR_INTEGRATION', 'Integrasjon for profilbilde');
 DEFINE('_COM_A_RANKS_SETTINGS', 'Rangering');
@@ -550,8 +539,8 @@ DEFINE('_COM_A_RANKING_SETTINGS', 'Innstillinger for rangering');
 DEFINE('_COM_A_AVATAR_SETTINGS', 'Innstillinger for profilbilde');
 DEFINE('_COM_A_SECURITY_SETTINGS', 'Sikkerhetsinnstillinger');
 DEFINE('_COM_A_BASIC_SETTINGS', 'Grunninnstillinger');
-
 // FIREBOARD 1.0.0
+//
 DEFINE('_COM_A_FAVORITES', 'Tillat favoritter');
 DEFINE('_COM_A_FAVORITES_DESC', 'Velg &quot;Ja&quot; dersom du vil tillate registrerte brukere å legge emner til sine favoritter ');
 DEFINE('_USER_UNFAVORITE_ALL', 'Marker boksen for å <b><u>fjerne alle emnefavoritter</u></b> (inkludert usynlige emner - for problemløsning)');
@@ -607,11 +596,9 @@ DEFINE('_FB_SPOTS', 'Søkelys');
 DEFINE('_FB_CANCEL', 'avbryt');
 DEFINE('_FB_TOPIC', 'EMNE: ');
 DEFINE('_FB_POWEREDBY', 'Forumløsning av: ');
-
 // Time Format
 DEFINE('_TIME_TODAY', '<b>I dag</b> ');
 DEFINE('_TIME_YESTERDAY', '<b>I går</b> ');
-
 //  STARTS HERE!
 DEFINE('_FB_WHO_LATEST_POSTS', 'Siste innlegg');
 DEFINE('_FB_WHO_WHOISONLINE', 'Hvem er pålogget');
@@ -619,12 +606,10 @@ DEFINE('_FB_WHO_MAINPAGE', 'Hovedforum');
 DEFINE('_FB_GUEST', 'Gjester');
 DEFINE('_FB_PATHWAY_VIEWING', 'visning');
 DEFINE('_FB_ATTACH', 'Vedlegg');
-
 // Favorite
 DEFINE('_FB_FAVORITE', 'Favoritt');
 DEFINE('_USER_FAVORITES', 'Dine favoritter');
 DEFINE('_THREAD_UNFAVORITE', 'Fjern fra favoritter');
-
 // profilebox
 DEFINE('_PROFILEBOX_WELCOME', 'Velkommen');
 DEFINE('_PROFILEBOX_SHOW_LATEST_POSTS', 'Vis nye innlegg');
@@ -638,7 +623,6 @@ DEFINE('_PROFILEBOX_LOGOUT', 'Logg ut');
 DEFINE('_PROFILEBOX_LOST_PASSWORD', 'Glemt passord?');
 DEFINE('_PROFILEBOX_PLEASE', 'Vennligst');
 DEFINE('_PROFILEBOX_OR', 'eller');
-
 // recentposts
 DEFINE('_RECENT_RECENT_POSTS', 'Siste innlegg');
 DEFINE('_RECENT_TOPICS', 'Emne');
@@ -646,8 +630,8 @@ DEFINE('_RECENT_AUTHOR', 'Skrevet av');
 DEFINE('_RECENT_CATEGORIES', 'Kategorier');
 DEFINE('_RECENT_DATE', 'Dato');
 DEFINE('_RECENT_HITS', 'Treff');
-
 // announcement
+
 DEFINE('_ANN_ANNOUNCEMENTS', 'Annonsering');
 DEFINE('_ANN_ID', 'ID');
 DEFINE('_ANN_DATE', 'Dato');
@@ -672,7 +656,6 @@ DEFINE('_ANN_ERROR', 'FEIL');
 DEFINE('_ANN_READMORE', 'Les mer...');
 DEFINE('_ANN_CPANEL', 'Kontrollpanel for kunngjøringer');
 DEFINE('_ANN_SHOWDATE', 'Vis dato');
-
 // Stats
 DEFINE('_STAT_FORUMSTATS', 'Forumstatistikk');
 DEFINE('_STAT_GENERAL_STATS', 'Generell statistikk');
@@ -696,11 +679,9 @@ DEFINE('_STAT_POPULAR', 'Mest leste');
 DEFINE('_STAT_POPULAR_USER_TMSG', 'brukere (Totalt antall meldinger) ');
 DEFINE('_STAT_POPULAR_USER_KGSG', 'tråder ');
 DEFINE('_STAT_POPULAR_USER_GSG', 'Brukere (Totalt antall profilvisninger) ');
-
 //Team List
 DEFINE('_MODLIST_ONLINE', 'Bruker er pålogget nå');
 DEFINE('_MODLIST_OFFLINE', 'Bruker frakoblet');
-
 // Whoisonline
 DEFINE('_WHO_WHOIS_ONLINE', 'Hvem er pålogget');
 DEFINE('_WHO_ONLINE_NOW', 'Pålogget:');
@@ -710,7 +691,6 @@ DEFINE('_WHO_ONLINE_GUESTS', 'gjest(er)');
 DEFINE('_WHO_ONLINE_USER', 'Bruker');
 DEFINE('_WHO_ONLINE_TIME', 'Tid');
 DEFINE('_WHO_ONLINE_FUNC', 'Handling');
-
 // Userlist
 DEFINE('_USRL_USERLIST', 'Brukerliste');
 DEFINE('_USRL_REGISTERED_USERS', '%s har <b>%d</b> registrerte brukere');
@@ -761,39 +741,30 @@ DEFINE('_COM_A_MOSBOT_DESC', 'Diskusjonsboten gjør det mulig for dine brukere å 
 .'<br /><em>kategoriID</em> er den forumskategorien hvor artiklene skal diskuteres. For å finne den rette kategoriIDen kan du sjekke i forumet ' . 'og finne kategoriens ID i URLen i nettleseren din.'
 .'<br />Eksempel: Hvis du vil at artikkelen skal diskuteres i et forum med kategoriID 26, bør Bot-kommandoen se slik ut: {mos_fb_discuss:26}'
 .'<br />Dette kan se vanskelig ut, men det gir deg muligheten til å få artiklene dine diskutert i et matchende forum.' );
-
 //new in 1.1.4 stable
 // search.class.php
 DEFINE('_FORUM_SEARCHTITLE', 'Søk');
 DEFINE('_FORUM_SEARCHRESULTS', 'viser %s av %s resultater.');
-
 // Help, FAQ
 DEFINE('_COM_FORUM_HELP', 'OSS');
-
 // rules.php
 DEFINE('_COM_FORUM_RULES', 'Regler');
 DEFINE('_COM_FORUM_RULES_DESC', '<ul><li>Rediger denne filen for å legge inn dine regler joomlaroten/administrator/components/com_fireboard/language/english.php</li><li>Regel 2</li><li>Regel 3</li><li>Regel 4</li><li>...</li></ul>');
-
 //smile.class.php
 DEFINE('_COM_BOARDCODE', 'Forumkode');
-
 // moderate_messages.php
 DEFINE('_MODERATION_APPROVE_SUCCESS', 'Innlegg godkjent');
 DEFINE('_MODERATION_DELETE_ERROR', 'FEIL: Kunne ikke slette innlegg(ene)');
 DEFINE('_MODERATION_APPROVE_ERROR', 'FEIL: Kunne ikke godkjenne innlegg(ene)');
-
 // listcat.php
 DEFINE('_GEN_NOFORUMS', 'Det er ingen forum i denne kategorien!');
-
 //new in 1.1.3 stable
 DEFINE('_POST_GHOST_FAILED', 'Kunne ikke opprette "spøkelsestråd" i gammelt forum!');
 DEFINE('_POST_MOVE_GHOST', 'Legg "spøkelsesmelding" i gammelt forum');
-
 //new in 1.1 Stable
 DEFINE('_GEN_FORUM_JUMP', 'Bytt kategori');
 DEFINE('_COM_A_FORUM_JUMP', 'Aktiver "Bytt kategori"');
 DEFINE('_COM_A_FORUM_JUMP_DESC', 'Dersom du velger &quot;Ja&quot; vil en nedtrekksmeny vises, hvor du kan velge andre kategorier og raskt bytte kategori.');
-
 //new in 1.1 RC1
 DEFINE('_GEN_RULES', 'Regler');
 DEFINE('_COM_A_RULESPAGE', 'Aktiver regelside');
@@ -803,7 +774,6 @@ DEFINE('_COM_A_PDF', 'Aktiver PDF oppretting');
 DEFINE('_COM_A_PDF_DESC', 'Velg &quot;Ja&quot; dersom brukerne skal ha mulighet til å laste ned et enkelt PDF dokument som inneholder teksten i tråden.<br />Det er et <u>enkelt</u> PDF dokument; ingen mark up, ingen pyntet utseende osv, men den inneholder all teksten fra tråden.');
 DEFINE('_GEN_PDFA', 'Klikk her for å opprette et PDF dokument fra denne tråden (åpnes i et nytt vindu).');
 DEFINE('_GEN_PDF', 'Lag Pdf-fil av tråden');
-
 //new in 1.0.4 stable
 DEFINE('_VIEW_PROFILE', 'Klikk her for å se brukerens profil');
 DEFINE('_VIEW_ADDBUDDY', 'Klikk her for å legge brukeren til i vennelisten din');
@@ -857,7 +827,7 @@ DEFINE('_COM_C_BACK', 'Tilbake til Fireboard kontrollpanel');
 DEFINE('_SHOW_LAST_SINCE', 'Aktive emner siden siste besøk:');
 DEFINE('_POST_SUCCESS_REQUEST2', 'Din forespørsel er behandlet');
 DEFINE('_POST_NO_PUBACCESS3', 'Klikk her for å registrere deg.');
-
+//==================================================================================================
 //Changed in 1.0.4
 //please update your local language file with these changes as well
 DEFINE('_POST_SUCCESS_DELETE', 'Meldingen er slettet.');
@@ -865,7 +835,7 @@ DEFINE('_POST_SUCCESS_EDIT', 'Meldingen har blitt redigert.');
 DEFINE('_POST_SUCCESS_MOVE', 'Emnet er flyttet.');
 DEFINE('_POST_SUCCESS_POST', 'Din melding er postet.');
 DEFINE('_POST_SUCCESS_SUBSCRIBE', 'Ditt abonnement er lagret.');
-
+//==================================================================================================
 //new in 1.0.3 stable
 //Karma
 DEFINE('_KARMA', 'Karma');
@@ -882,7 +852,7 @@ DEFINE('_COM_A_TEMPLATE_DESC', 'Velg hvilken mal du vil bruke.');
 DEFINE('_COM_A_TEMPLATE_IMAGE_PATH', 'Bildesett');
 DEFINE('_COM_A_TEMPLATE_IMAGE_PATH_DESC', 'Velg hvilket bildesett som skal brukes.');
 DEFINE('_PREVIEW_CLOSE', 'Lukk dette vinduet');
-
+//==========================================
 //new in 1.0 Stable
 DEFINE('_COM_A_POSTSTATSBAR', 'Bruk statistikkfane');
 DEFINE('_COM_A_POSTSTATSBAR_DESC', 'Velg &quot;Ja&quot; dersom du vil at antall innlegg brukeren har skrevet skal illustreres grafisk i en statistikkfane.');
@@ -917,7 +887,7 @@ DEFINE('_POST_ATTACH_IMAGE', '[img]');
 DEFINE('_POST_ATTACH_FILE', '[file]');
 DEFINE('_USER_UNSUBSCRIBE_ALL', 'Marker boksen for å <b><u>fjerne alle emneabonnement</u></b> (inkludert usynlige emner - for problemløsning)');
 DEFINE('_LINK_JS_REMOVED', '<em>Aktiv link som inneholder JavaScript er fjernet automatisk</em>');
-
+//==========================================
 //new in 1.0 RC4
 DEFINE('_COM_A_LOOKS', 'Utseende og følelse');
 DEFINE('_COM_A_USERS', 'Brukerrelatert');
@@ -975,7 +945,6 @@ DEFINE('_HELP_SUBMIT', 'Klikk her for å lagre ditt innlegg');
 DEFINE('_HELP_PREVIEW', 'Klikk her for forhåndsvisning');
 DEFINE('_HELP_CANCEL', 'Klikk her for å avbryte ditt innlegg');
 DEFINE('_POST_DELETE_ATT', 'Kryss av i boksen for å slette alle bilder og vedlegg også (anbefalt).');
-
 //new since preRC4-III
 DEFINE('_COM_A_USER_MARKUP', 'Vis om innlegget er redigert');
 DEFINE('_COM_A_USER_MARKUP_DESC', 'Velg &quot;Ja&quot; dersom du vil at redigerte innlegg skal markeres som redigert, og når redigeringen skjedde.');
@@ -1006,7 +975,7 @@ DEFINE('_COM_A_RSS', 'Aktiver RSS feed');
 DEFINE('_COM_A_RSS_DESC', 'RSS feed lar brukere laste ned nye innlegg til sin RSS leserapplikasjon (se <a href="http://www.rssreader.com" target="_blank">rssreader.com</a> for et eksempel).');
 DEFINE('_LISTCAT_RSS', 'få nye innlegg direkte til ditt skrivebord');
 DEFINE('_SEARCH_REDIRECT', 'Fireboardforumet må (re)etablere dine aksessprivilegier før det kan utføre ditt søk.\nDette er helt normalt etter mer enn 30 minutter uten aktivitet.\nVennligst kjør ditt søk igjen.');
-
+//====================
 //admin.forum.html.php
 DEFINE('_COM_A_CONFIG', 'Fireboardkonfigurasjon');
 DEFINE('_COM_A_DISPLAY', 'Vis #');
@@ -1132,7 +1101,6 @@ DEFINE('_GEN_TOPIC_ICON', 'Emneikon');
 DEFINE('_GEN_SEARCH_BOX', 'Søk i forumet');
 $_GEN_THREADED_VIEW = "Trådbasert visning";
 $_GEN_FLAT_VIEW = "Flat visning";
-
 //avatar_upload.php
 DEFINE('_UPLOAD_UPLOAD', 'Last opp');
 DEFINE('_UPLOAD_DIMENSIONS', 'Bildefilen kan maksimalt være (bredde x høyde - størrelse)');
@@ -1148,7 +1116,6 @@ DEFINE('_UPLOAD_ERROR_CHOOSE', "Du valgte ikke et profilbilde fra galleriet...")
 DEFINE('_UPLOAD_UPLOADED', 'Ditt profilbilde ble lastet opp.');
 DEFINE('_UPLOAD_GALLERY', 'Velg et bilde fra profilbildegalleriet:');
 DEFINE('_UPLOAD_CHOOSE', 'Bekreft valg.');
-
 // listcat.php
 DEFINE('_LISTCAT_ADMIN', 'En administrator må opprette dem først fra ');
 DEFINE('_LISTCAT_DO', 'De vet hva som må til ');
@@ -1156,10 +1123,8 @@ DEFINE('_LISTCAT_INFORM', 'Informer dem, og be dem skynde seg!');
 DEFINE('_LISTCAT_NO_CATS', 'Det er ingen kategorier i forumet ennå.');
 DEFINE('_LISTCAT_PANEL', 'Administrasjonspanelet i Joomla! OS CMS.');
 DEFINE('_LISTCAT_PENDING', 'ventende melding(er)');
-
 // moderation.php
 DEFINE('_MODERATION_MESSAGES', 'Det er ingen ventende meldinger i dette forumet.');
-
 // post.php
 DEFINE('_POST_ABOUT_TO_DELETE', 'Du er i ferd med å slette meldingen');
 DEFINE('_POST_ABOUT_DELETE', '<strong>MERK:</strong><br/>
@@ -1207,11 +1172,9 @@ DEFINE('_POST_LOCKED', 'låst av administrator.');
 DEFINE('_POST_NO_NEW', 'Nye svar er ikke tillatt.');
 DEFINE('_POST_NO_PUBACCESS1', 'Administratoren har sperret skrivetilgang for besøkende.');
 DEFINE('_POST_NO_PUBACCESS2', 'Kun innloggede / registrerte brukere<br /> har tillatelse til å skrive i forumet.');
-
 // showcat.php
 DEFINE('_SHOWCAT_NO_TOPICS', '>> Det er ingen emner i dette forumet ennå <<');
 DEFINE('_SHOWCAT_PENDING', 'ventende melding(er))');
-
 // userprofile.php
 DEFINE('_USER_DELETE', ' marker denne boksen for å slette din signatur');
 DEFINE('_USER_ERROR_A', 'Du kom til denne siden p.g.a. en feil. Vennligst informer administratoren om hva ');
@@ -1238,12 +1201,10 @@ DEFINE('_USER_UNSUBSCRIBE_B', 'ikke');
 DEFINE('_USER_UNSUBSCRIBE_C', ' avslutte abonnementet på emnet.');
 DEFINE('_USER_UNSUBSCRIBE_YES', 'Du har avsluttet abonnementet på emnet.');
 DEFINE('_USER_DELETEAV', ' merk boksen for å slette ditt profilbilde');
-
 //New 0.9 to 1.0
 DEFINE('_USER_ORDER', 'Foretrukket rekkefølge på meldinger');
 DEFINE('_USER_ORDER_DESC', 'Siste innlegg først');
 DEFINE('_USER_ORDER_ASC', 'Første innlegg først');
-
 // view.php
 DEFINE('_VIEW_DISABLED', 'Du må registrere deg og logge inn for å kunne skrive i forumet.');
 DEFINE('_VIEW_POSTED', 'Skrevet av');
@@ -1350,6 +1311,7 @@ DEFINE('_COM_A_ASK_EMAIL_DESC', 'Krev E-postadresse når brukere eller besøkende 
 //Rank Administration - Dan Syme/IGD
 DEFINE('_FB_RANKS_MANAGE', 'Administrering av rang');
 DEFINE('_FB_SORTRANKS', 'Sorter etter rang');
+
 DEFINE('_FB_RANKSIMAGE', 'Bilde til rang');
 DEFINE('_FB_RANKS', 'Tittel til rang');
 DEFINE('_FB_RANKS_SPECIAL', 'Spesial');
