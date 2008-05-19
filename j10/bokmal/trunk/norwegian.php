@@ -460,7 +460,7 @@ DEFINE('_YOUR_NAME','Ditt navn:');
 DEFINE('_EMAIL','E-post:');
 DEFINE('_UNAME','Brukernavn:');
 DEFINE('_PASS','Passord:');
-DEFINE('_VPASS','Gjennta passord:');
+DEFINE('_VPASS','Gjenta passord:');
 DEFINE('_SUBMIT_SUCCESS','Innsendt!');
 DEFINE('_SUBMIT_SUCCESS_DESC','Ditt bidrag har blitt innsendt til redaksjonen. Det vil bli godkjent før det blir publisert.');
 DEFINE('_WELCOME','Velkommen!');
