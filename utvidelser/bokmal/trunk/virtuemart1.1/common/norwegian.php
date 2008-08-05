@@ -934,7 +934,7 @@ Vennligst ikke svar på denne beskjeden. Den er automatisk generert, og kun til 
 Vi har nå fått %s på lager igjen, produktet kan kjøpes her:
 %s
 
- Denne meldingen er automatisk generert av vårt system, og du mottar den fordi du har bedt om det på vårt nettsted.',
+ Dette er en engangsmelding, automatisk generert av vårt system, som du mottar fordi din adresse er lagt inn som mottaker for dette i vår nettbutikk.',
 	'PHPSHOP_CART_GOTO_WAITING_LIST' => 'Vennligst vent: På neste side kan du be om å få melding fra oss når produktet er på lager igjen.',
 	'PHPSHOP_ADMIN_CFG_PAYMENT_ORDERSTATUS_SUCC' => 'Ordrestatus for gjennomførte transaksjoner',
 	'PHPSHOP_ADMIN_CFG_PAYMENT_ORDERSTATUS_SUCC_EXPLAIN' => 'Velg ordrestatus for ordre med gjennomført betalingstransaksjon. 
