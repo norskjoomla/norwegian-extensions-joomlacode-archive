@@ -228,11 +228,11 @@ $langvars = array (
 	'VM_PRODUCT_LIST_MEDIA' => 'Media',
 	'VM_REVIEW_LIST_NAMEDATE' => 'Navn/Dato',
 	'VM_PRODUCT_SELECT_ONE_OR_MORE' => 'Velg ett eller flere produkter',
-	'VM_PRODUCT_SEARCHING' => 'Søker...',
+	'VM_PRODUCT_SEARCHING' => 'Søker ...',
 	'PHPSHOP_PRODUCT_FORM_ATTRIBUTE_LIST_EXAMPLES' => '<h4>Eksempler på variantlisteformat:</h4>
 Tittel = Farge, Verdi = Rød ; Klikk på Ny verdi for å legge til ny farge: Grønn ; Klikk deretter Ny variant for å legge til ny variant.
 <h4>Du kan justere prisen for hver enkelt variant ved hjelp av Avanserte varianter:</h4>
-Pris = +10 for å legge dette beløpet til opprinnelig pris.<br />  Pris = -10 for å trekke dette beløpet fra opprinnelig pris.<br />  Pris = 10 for å sette prisen til dette beløpet.'
+Pris = +10 for å legge dette beløpet til opprinnelig pris.<br />  Pris = -10 for å trekke dette beløpet fra opprinnelig pris.<br />  Pris = 10 for å sette prisen til dette beløpet.',
 	'VM_FILES_FORM_PRODUCT_IMAGE' => 'Produktbilde (stort og miniatyr)',
 	'VM_FILES_FORM_DOWNLOADABLE' => 'Nedlastbar produktfil (for salg)',
 	'VM_FILES_FORM_RESIZE_IMAGE' => 'Endre størrelse på stort bilde?'
