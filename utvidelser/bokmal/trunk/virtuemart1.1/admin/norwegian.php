@@ -83,7 +83,7 @@ $langvars = array (
 	'PHPSHOP_ADMIN_CFG_TAX_MODE_EXPLAIN' => 'Dette bestemmer om MVA-satsen kalkuleres ut i fra:<br />
 		<ul><li>Landet/Staten butikken er registrert i</li><br/>
 		<li>eller hvor kunden kommer fra.</li>
-		<li>or "EU mode", where a per-product tax rate is used if the shopper is in the European Union, otherwise the tax rate is based on the shopper\'s address.</li></ul>',</ul>',
+		<li>or "EU mode", where a per-product tax rate is used if the shopper is in the European Union, otherwise the tax rate is based on the shopper\'s address.</li></ul>',
 	'PHPSHOP_ADMIN_CFG_MULTI_TAX_RATE' => 'Mulighet for flere MVA-satser?',
 	'PHPSHOP_ADMIN_CFG_MULTI_TAX_RATE_EXPLAIN' => 'velg dette dersom du selger varer med forskjellige satser for MVA. (f.eks. 7% matmoms, 25% for annet)',
 	'PHPSHOP_ADMIN_CFG_SUBSTRACT_PAYEMENT_BEFORE' => 'Trekk fra rabatt før beregning av MVA/fraktkostnader?',
