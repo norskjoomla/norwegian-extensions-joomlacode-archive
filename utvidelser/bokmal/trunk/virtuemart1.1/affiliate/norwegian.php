@@ -6,7 +6,8 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 * @package VirtueMart
 * @subpackage languages
 * @copyright Copyright (C) 2004-2007 soeren - All rights reserved.
-* @translator soeren
+* Translation is based on old language file for VM 1.0.
+* New translation and cleanup for v1.1 by Odd-Eirik Eriksen (abc@abc-konsult.no) and Rune Rasmussen (syntaxerror.no).
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * VirtueMart is free software. This version may have been modified pursuant
 * to the GNU General Public License, and as distributed it includes or
@@ -37,15 +38,15 @@ $langvars = array (
 	'PHPSHOP_AFFILIATE_EMAIL_STATS' => 'Inkluder denne statistikken',
 	'PHPSHOP_AFFILIATE_FORM_RATE' => 'Provisjonsats',
 	'PHPSHOP_AFFILIATE_FORM_ACTIVE' => 'Aktiv?',
-	'VM_AFFILIATE_SHOWINGDETAILS_FOR' => 'Showing Details for',
-	'VM_AFFILIATE_LISTORDERS' => 'List Orders',
-	'VM_AFFILIATE_MONTH' => 'Month',
-	'VM_AFFILIATE_CHANGEVIEW' => 'Change View',
-	'VM_AFFILIATE_ORDERSUMMARY_LBL' => 'Order Summary',
-	'VM_AFFILIATE_ORDERLIST_ORDERREF' => 'Order Ref',
-	'VM_AFFILIATE_ORDERLIST_DATEORDERED' => 'Date Ordered',
-	'VM_AFFILIATE_ORDERLIST_ORDERTOTAL' => 'Order Total',
-	'VM_AFFILIATE_ORDERLIST_COMMISSION' => 'Commission (rate)',
-	'VM_AFFILIATE_ORDERLIST_ORDERSTATUS' => 'Order Status'
+	'VM_AFFILIATE_SHOWINGDETAILS_FOR' => 'Viser detaljer for',
+	'VM_AFFILIATE_LISTORDERS' => 'Ordrer',
+	'VM_AFFILIATE_MONTH' => 'Måned',
+	'VM_AFFILIATE_CHANGEVIEW' => 'Endre visning',
+	'VM_AFFILIATE_ORDERSUMMARY_LBL' => 'Ordreoversikt',
+	'VM_AFFILIATE_ORDERLIST_ORDERREF' => 'Ordreref.',
+	'VM_AFFILIATE_ORDERLIST_DATEORDERED' => 'Ordredato',
+	'VM_AFFILIATE_ORDERLIST_ORDERTOTAL' => 'Ordretotal',
+	'VM_AFFILIATE_ORDERLIST_COMMISSION' => 'Provisjon (sats)',
+	'VM_AFFILIATE_ORDERLIST_ORDERSTATUS' => 'Ordrestatus'
 ); $VM_LANG->initModule( 'affiliate', $langvars );
 ?>
