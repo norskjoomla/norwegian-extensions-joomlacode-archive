@@ -81,31 +81,32 @@ $langvars = array (
 	'PHPSHOP_ADMIN_CFG_TAX_MODE_SHIP' => 'Basert på leveringsadresse',
 	'PHPSHOP_ADMIN_CFG_TAX_MODE_VENDOR' => 'Basert på butikkadresse',
 	'PHPSHOP_ADMIN_CFG_TAX_MODE_EXPLAIN' => 'Dette bestemmer om MVA-satsen kalkuleres ut i fra:<br />
-                                                                                    <ul><li>Landet/Staten butikken er registrert i</li><br/>
-                                                                                    <li>eller hvor kunden kommer fra.</li></ul>',
+		<ul><li>Landet/Staten butikken er registrert i</li><br/>
+		<li>eller hvor kunden kommer fra.</li>
+		<li>or "EU mode", where a per-product tax rate is used if the shopper is in the European Union, otherwise the tax rate is based on the shopper\'s address.</li></ul>',</ul>',
 	'PHPSHOP_ADMIN_CFG_MULTI_TAX_RATE' => 'Mulighet for flere MVA-satser?',
 	'PHPSHOP_ADMIN_CFG_MULTI_TAX_RATE_EXPLAIN' => 'velg dette dersom du selger varer med forskjellige satser for MVA. (f.eks. 7% matmoms, 25% for annet)',
 	'PHPSHOP_ADMIN_CFG_SUBSTRACT_PAYEMENT_BEFORE' => 'Trekk fra rabatt før beregning av MVA/fraktkostnader?',
 	'PHPSHOP_ADMIN_CFG_REVIEW' => 'Muliggjør for kunder å gi kommentarer/rangering?',
 	'PHPSHOP_ADMIN_CFG_REVIEW_EXPLAIN' => 'Om valgt, kan kunder <strong>rangere produkter</strong> og <strong>skrive kommentarer</strong> om dem, <br />
-												slik at kunder kan skrive om sine erfaringer om produktet til andre kunder.',
+		slik at kunder kan skrive om sine erfaringer om produktet til andre kunder.',
 	'PHPSHOP_ADMIN_CFG_SUBSTRACT_PAYEMENT_BEFORE_EXPLAIN' => 'Bestemmer om rabatt skal trekkes fra før valgt betalingsmåte eller etter MVA og sendekostnader.',
 	'PHPSHOP_ADMIN_CFG_AGREE_TERMS' => 'Må akseptere salgs- og leveringsbetingelser?',
 	'PHPSHOP_ADMIN_CFG_AGREE_TERMS_EXPLAIN' => 'Velges dersom du vil at kundene må akseptere salgs- og leveringsbetingelsene før de registrerer seg som kunde.',
 	'PHPSHOP_ADMIN_CFG_CHECK_STOCK' => 'Sjekk varebeholdning?',
 	'PHPSHOP_ADMIN_CFG_CHECK_STOCK_EXPLAIN' => 'Velges dersom varebeholdning skal sjekkes når en kunde legger en vare i handlekurven.',
+
 	'PHPSHOP_ADMIN_CFG_ENABLE_AFFILIATE' => 'Aktiver affiliate-program (referanseprogram)',
 	'PHPSHOP_ADMIN_CFG_ENABLE_AFFILIATE_EXPLAIN' => 'Dette aktiverer affiliate-program (referanseprogram) dersom tillatelse er gitt i Administrasjonen.',
 	'PHPSHOP_ADMIN_CFG_MAIL_FORMAT' => 'E-postformat for ordrebekreftelse:',
 	'PHPSHOP_ADMIN_CFG_MAIL_FORMAT_TEXT' => 'Ren tekst',
 	'PHPSHOP_ADMIN_CFG_MAIL_FORMAT_HTML' => 'HTML',
 	'PHPSHOP_ADMIN_CFG_MAIL_FORMAT_EXPLAIN' => 'Dette bestemmer om ordrebekreftelsen via e-post sendes som:<br />
-
-                                                                                        <ul><li>som ren tekst</li>
-
-                                                                                        <li>eller som HTML med bilder.</li></ul>',
+		<ul><li>som ren tekst</li>
+		<li>eller som HTML med bilder.</li></ul>',
 	'PHPSHOP_ADMIN_CFG_FRONTENDAMDIN' => 'Tillat administrasjon av butikken for bruker uten administrasjonsrett for portalen?',
 	'PHPSHOP_ADMIN_CFG_FRONTENDAMDIN_EXPLAIN' => 'Med dette valget kan du gi tilgang til administrasjon av butikken uten at brukeren har tilgang til administrasjon av nettstedet.',
+
 	'PHPSHOP_ADMIN_CFG_URLSECURE' => 'Sikker URL',
 	'PHPSHOP_ADMIN_CFG_URLSECURE_EXPLAIN' => 'Sikker URL til nettsidene.(https - med "/" til slutt!)',
 	'PHPSHOP_ADMIN_CFG_HOMEPAGE' => 'NETTSIDE',
@@ -122,7 +123,6 @@ $langvars = array (
        (som du finner i <strong>COMPONENTPATH/html/templates/</strong> og starter med browse_)',
 	'PHPSHOP_ADMIN_CFG_PRODUCTS_PER_ROW' => 'Standard antall produkter per rad.',
 	'PHPSHOP_ADMIN_CFG_PRODUCTS_PER_ROW_EXPLAIN' => 'Dette bestemmer antall produkter i en rad. <br />
-
        Eksempel: Om du setter 4, vil kategorimalen vise 4 produkter per rad.',
 	'PHPSHOP_ADMIN_CFG_NOIMAGEPAGE' => '"ikke bilde" bilde',
 	'PHPSHOP_ADMIN_CFG_NOIMAGEPAGE_EXPLAIN' => 'Dette bildet vil vises inntil du legger til bilde på produktet.',
@@ -130,7 +130,6 @@ $langvars = array (
 	'PHPSHOP_ADMIN_CFG_SHOWPHPSHOP_VERSION_EXPLAIN' => 'Viser "powered-by-Virtuemart"-bilde.',
 	'PHPSHOP_ADMIN_CFG_STORE_SHIPPING_METHOD_STANDARD' => 'Standard forsendelsesmodul med forskjellige transportører og kostnader. <strong>ANBEFALES!</strong>',
 	'PHPSHOP_ADMIN_CFG_STORE_SHIPPING_METHOD_ZONE' => '  	Zone Shipping Module Country Version 1.0<br />
-
        For more information on this module please visit <a href="http://ZephWare.com">http://ZephWare.com</a><br />
        for details or contact <a href="mailto:zephware@devcompany.com">ZephWare.com</a><br /> Check this to enable the zone shipping module',
 	'PHPSHOP_ADMIN_CFG_STORE_SHIPPING_METHOD_DISABLE' => 'Skru av forsendelsesmodul. Velges om du selger nedlastbare produkter som ikke skal sendes.',
@@ -145,15 +144,14 @@ $langvars = array (
 	'PHPSHOP_ADMIN_CFG_ORDER_DISABLE_DOWNLOADS_EXPLAIN' => 'Velger ordrestatusen som hindrer kunden å laste ned valgt(e) produkt(er).',
 	'PHPSHOP_ADMIN_CFG_DOWNLOADROOT' => 'Plassering av nedlastbare filer',
 	'PHPSHOP_ADMIN_CFG_DOWNLOADROOT_EXPLAIN' => 'Den fysiske stien til mappen der nedlastbare produkter er lagret. (NB! Husk skråstrek (/) på slutten!)<br>
-
         <span class="message">Av sikkerhetsmessige årsaker bør dette ligge UTENFOR WEBROOT (hovedmappen for nettstedet, vanligvis "www" eller "public_html")</span>',
 	'PHPSHOP_ADMIN_CFG_DOWNLOAD_MAX' => 'Maks antall nedlastinger',
 	'PHPSHOP_ADMIN_CFG_DOWNLOAD_MAX_EXPLAIN' => 'Angir maksimalt antall nedlastinger som kan foretas per nedlastings-ID (ordre)',
 	'PHPSHOP_ADMIN_CFG_DOWNLOAD_EXPIRE' => 'Nedlasting tilgjengelig',
-	'PHPSHOP_ADMIN_CFG_DOWNLOAD_EXPIRE_EXPLAIN' => 'Angir hvor lenge nedlastingen er tilgjengelig <strong>i sekunder</strong>
-',
+	'PHPSHOP_ADMIN_CFG_DOWNLOAD_EXPIRE_EXPLAIN' => 'Angir hvor lenge nedlastingen er tilgjengelig <strong>i sekunder</strong> in which the download is enabled for the customer. 
+		This range begins with the first download! When the time range has expired, the download-ID is disabled.<br />Note : 86400s=24h.',
 	'PHPSHOP_COUPONS' => 'Kuponger',
-	'PHPSHOP_COUPONS_ENABLE' => 'Tillat bruk av kuponger',
+	'PHPSHOP_COUPONS_ENABLE' => 'Aktiver bruk av kuponger',
 	'PHPSHOP_COUPONS_ENABLE_EXPLAIN' => 'Om du aktiverer bruk av kuponger kan kunder med et kupongnummer bruke dette når de handler.',
 	'PHPSHOP_ADMIN_CFG_PDF_BUTTON' => 'PDF-knapp',
 	'PHPSHOP_ADMIN_CFG_PDF_BUTTON_EXPLAIN' => 'Vis/skjul PDF-knapp i butikken',
@@ -172,6 +170,8 @@ $langvars = array (
 	'PHPSHOP_ADMIN_CFG_SHOW_PRODUCT_COUNT_TIP' => 'Vis antall produkter i en kategori som Kategori (4)?',
 	'PHPSHOP_ADMIN_CFG_DYNAMIC_THUMBNAIL_RESIZING' => 'Tillat dynamisk generering av lite bilde?',
 	'PHPSHOP_ADMIN_CFG_DYNAMIC_THUMBNAIL_RESIZING_TIP' => 'Om valgt lages det automatisk et lite bilde for visning i produktlisten. Dette bildet endres til å passe inn i den størrelsen du angir under.',
+
+
 	'PHPSHOP_ADMIN_CFG_THUMBNAIL_WIDTH' => 'Lite bilde bredde',
 	'PHPSHOP_ADMIN_CFG_THUMBNAIL_WIDTH_TIP' => 'Mål for <strong>bredde</strong> på lite bilde',
 	'PHPSHOP_ADMIN_CFG_THUMBNAIL_HEIGHT' => 'Lite bilde høyde',
@@ -212,8 +212,7 @@ $langvars = array (
 	'VM_ADMIN_CFG_REVIEW_MINIMUM_COMMENT_LENGTH' => 'Comment Minimum Length',
 	'VM_ADMIN_CFG_REVIEW_MINIMUM_COMMENT_LENGTH_TIP' => 'This is the amount of characters that MUST at least be written by a customer before the review can be submitted.',
 	'VM_ADMIN_CFG_REVIEW_MAXIMUM_COMMENT_LENGTH' => 'Comment Maximum Length',
-	'VM_ADMIN_CFG_REVIEW_MAXIMUM_COMMENT_LENGTH_TIP' => 'This is the maximum amount of characters that can be written by a customer in a comment.
-',
+	'VM_ADMIN_CFG_REVIEW_MAXIMUM_COMMENT_LENGTH_TIP' => 'This is the maximum amount of characters that can be written by a customer in a comment.',
 	'VM_ADMIN_SHOW_EMAILFRIEND' => 'Show the "Recommend to a friend" link?',
 	'VM_ADMIN_SHOW_EMAILFRIEND_TIP' => 'When enabled, a small link is displayed that allows the customer to send a recommendation email for a specific product.',
 	'VM_ADMIN_SHOW_PRINTICON' => 'Show the "Print View" link?',
@@ -223,7 +222,7 @@ $langvars = array (
 	'VM_ADMIN_CFG_PROXY_SETTINGS' => 'Global Proxy Settings',
 	'VM_ADMIN_CFG_PROXY_URL' => 'URL of the proxy server',
 	'VM_ADMIN_CFG_PROXY_URL_TIP' => 'Example: <strong>http://10.42.21.1</strong>.<br />
-Leave empty if you\'re not sure.</strong> This value will be used to connect to the internet from the shop server (e.g. when fetching shipping rates from UPS/USPS).',
+		Leave empty if you\'re not sure.</strong> This value will be used to connect to the internet from the shop server (e.g. when fetching shipping rates from UPS/USPS).',
 	'VM_ADMIN_CFG_PROXY_PORT' => 'Proxy Port',
 	'VM_ADMIN_CFG_PROXY_PORT_TIP' => 'The port used for communication with the proxy server (mostly <b>80</b> or <b>8080</b>).',
 	'VM_ADMIN_CFG_PROXY_USER' => 'Proxy username',
@@ -234,9 +233,9 @@ Leave empty if you\'re not sure.</strong> This value will be used to connect to 
 	'VM_ADMIN_ONCHECKOUT_SHOW_LEGALINFO_TIP' => 'Store owners are required by law to inform their customers about return and order cancellation policies in most european countries. So this should be enabled in most cases.',
 	'VM_ADMIN_ONCHECKOUT_LEGALINFO_SHORTTEXT' => 'Legal information text (short version).',
 	'VM_ADMIN_ONCHECKOUT_LEGALINFO_SHORTTEXT_TIP' => 'This text instructs your customers in short about your return and order cancellation policy. It is shown on the last page of checkout, just above the "Confirm Order" button.',
-	'VM_ADMIN_ONCHECKOUT_LEGALINFO_LINK' => 'Link to the long version the return policy.',
+	'VM_ADMIN_ONCHECKOUT_LEGALINFO_LINK' => 'Long version of the return policy (link to a content item).',
 	'VM_ADMIN_ONCHECKOUT_LEGALINFO_LINK_TIP' => 'Please add a new content item about the details of your return and order cancellation policy.
-Afterwards you can select it here.',
+		Afterwards you can select it here.',
 	'VM_SELECT_THEME' => 'Select the theme for your Shop',
 	'VM_SELECT_THEME_TIP' => 'Themes allow styling and customizing your shop. <br />If no other themes than the "default" one are present you haven\'t installed more themes.',
 	'VM_CFG_CONTENT_PLUGINS_ENABLE' => 'Enable content mambots / plugins in descriptions?',
@@ -255,16 +254,16 @@ Afterwards you can select it here.',
 	'VM_ADMIN_CFG_COOKIE_CHECK_EXPLAIN' => 'If enabled, VirtueMart checks wether the browser of the customer accepts cookies or not. This is user-friendly, but it can have negative consequences on the Search-Engine-Friendlyness of your shop.',
 	'VM_CFG_REGISTRATION_TYPE' => 'User Registration Type',
 	'VM_CFG_REGISTRATION_TYPE_TIP' => 'Choose the type of User Registration for your store!<br />
-<strong>Normal Registration</strong><br />
-This is the standard registration type where the customer must register and choose an username and password<br /><br />
-<strong>Silent Registration</strong><br />
-Silent Registration means the customer doesn\'t need to choose username and password, but those are created automatically during registration and sent to the provided email address.
-<br /><br />
-<strong>Optional Registration</strong><br />
-Opotional Registration let\'s the customer choose wether he/she wants to create an account or not. If the customer wants to create an account, a username and password must be chosen.
-<br /><br />
-<strong>No Registration</strong><br />
-Customers don\'t need to and are not able to register in this type of registration.',
+		<strong>Normal Registration</strong><br />
+		This is the standard registration type where the customer must register and choose an username and password<br /><br />
+		<strong>Silent Registration</strong><br />
+		Silent Registration means the customer doesn\'t need to choose username and password, but those are created automatically during registration and sent to the provided email address.
+		<br /><br />
+		<strong>Optional Registration</strong><br />
+		Opotional Registration let\'s the customer choose wether he/she wants to create an account or not. If the customer wants to create an account, a username and password must be chosen.
+		<br /><br />
+		<strong>No Registration</strong><br />
+		Customers don\'t need to and are not able to register in this type of registration.',
 	'VM_CFG_REGISTRATION_TYPE_NORMAL_REGISTRATION' => 'Normal Account Creation',
 	'VM_CFG_REGISTRATION_TYPE_SILENT_REGISTRATION' => 'Silent Account Creation',
 	'VM_CFG_REGISTRATION_TYPE_OPTIONAL_REGISTRATION' => 'Optional Account Creation',
@@ -299,7 +298,7 @@ Customers don\'t need to and are not able to register in this type of registrati
 	'PHPSHOP_ADMIN_CFG_STORE_SHIPPING_METHOD_SHIPVALUE' => 'Shipping based on order totals. Fixed shipping costs based on values entered in configuration.',
 	'VM_CFG_CHECKOUT_SHOWSTEPINCHECKOUT' => 'Show on Step: %s of the Checkout Process.',
 	'VM_ADMIN_ENCRYPTION_KEY' => 'Encryption Key',
-	'VM_ADMIN_ENCRYPTION_KEY_TIP' => 'Used to safely store and retrieve sensible data (like credit card information) encrypted in the database.',
+	'VM_ADMIN_ENCRYPTION_KEY_TIP' => 'Used to safely store and retrieve sensitive data (like credit card information) encrypted in the database.',
 	'VM_ADMIN_STORE_CREDITCARD_DATA' => 'Store Credit Card Information?',
 	'VM_ADMIN_STORE_CREDITCARD_DATA_TIP' => 'VirtueMart stores the Credit Card Information of Customers encrypted in the database. This is done even if the Credit Card Information is processed by an external  server. <strong>If you don\'t need to process Credit Card Information manually after the order has been placed, you should turn this option off.</strong>',
 	'VM_USERFIELDS_URL_ONLY' => 'URL only',
@@ -331,7 +330,7 @@ Customers don\'t need to and are not able to register in this type of registrati
 	'VM_ADMIN_CFG_THEME_SETTINGS' => 'Theme Settings',
 	'VM_ADMIN_CFG_THEME_PARAMETERS' => 'Parameters',
 	'VM_ADMIN_ENCRYPTION_FUNCTION' => 'Encryption Function',
-	'VM_ADMIN_ENCRYPTION_FUNCTION_TIP' => 'Here you can select the encryption function used to encrypt sensible information before being stored in the database. AES_ENCRYPT is recommended, because it is very secure. ENCODE doesn\'t provide real encryption.',
+	'VM_ADMIN_ENCRYPTION_FUNCTION_TIP' => 'Here you can select the encryption function used to encrypt sensitive information before being stored in the database. AES_ENCRYPT is recommended, because it is very secure. ENCODE doesn\'t provide real encryption.',
 	'SAVE_PERMISSIONS' => 'Save Permissions',
 	'VM_ADMIN_THEME_CFG_NOT_EXISTS' => 'The configuration file for this template does not exist and can\'t be created. Configuration is not possible',
 	'VM_ADMIN_THEME_NOT_EXISTS' => 'The theme "{theme}" does not exist.',
