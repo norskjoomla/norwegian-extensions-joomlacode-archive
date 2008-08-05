@@ -18,13 +18,13 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 */
 global $VM_LANG;
 $langvars = array (
-	'CHARSET' => 'ISO-8859-1',
+	'CHARSET' => 'UTF-8',
 	'PHPSHOP_TAX_LIST_LBL' => 'Liste over mva-satser',
-	'PHPSHOP_TAX_LIST_STATE' => 'Mva fylke',
-	'PHPSHOP_TAX_LIST_COUNTRY' => 'Mva land',
-	'PHPSHOP_TAX_FORM_LBL' => 'Legg til info for satsen',
-	'PHPSHOP_TAX_FORM_STATE' => 'Mva fylke',
-	'PHPSHOP_TAX_FORM_COUNTRY' => 'Mva land',
+	'PHPSHOP_TAX_LIST_STATE' => 'Mva-region',
+	'PHPSHOP_TAX_LIST_COUNTRY' => 'Mva-land',
+	'PHPSHOP_TAX_FORM_LBL' => 'Legg til infomasjon om satsen',
+	'PHPSHOP_TAX_FORM_STATE' => 'Mva-region',
+	'PHPSHOP_TAX_FORM_COUNTRY' => 'Mva-land',
 	'PHPSHOP_TAX_FORM_RATE' => 'Mva-sats'
 ); $VM_LANG->initModule( 'tax', $langvars );
 ?>
