@@ -2,11 +2,11 @@
 if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.basename(__FILE__).' is not allowed.' ); 
 /**
 *
-* @version : norwegian.php 1071 2007-12-03 08:42:28Z thepisu $
 * @package VirtueMart
 * @subpackage languages
-* @copyright Copyright (C) 2004-2007 soeren - All rights reserved.
-* @translator soeren
+* @copyright Copyright (C) 2004-2008 soeren - All rights reserved.
+* Translation is based on old language file for VM 1.0.
+* New translation and cleanup for v1.1 by Odd-Eirik Eriksen (abc@abc-konsult.no), Rune Rasmussen (syntaxerror.no) and Preben O. Sangvik (ResponsPartner.no).
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * VirtueMart is free software. This version may have been modified pursuant
 * to the GNU General Public License, and as distributed it includes or
@@ -20,8 +20,8 @@ global $VM_LANG;
 $langvars = array (
 	'CHARSET' => 'UTF-8',
 	'PHPSHOP_NO_CUSTOMER' => 'Du er enda ikke registrert som kunde. Vennligst fyll inn fakturainformasjon.',
-	'PHPSHOP_THANKYOU' => 'Takk for bestillingen.',
-	'PHPSHOP_EMAIL_SENDTO' => 'Bekreftelse har blitt sendt på e-post til',
+	'PHPSHOP_THANKYOU' => 'Takk for din bestilling!<br />Vi Ã¸nsker deg en fantastisk dag, og skulle du vÃ¦re usikker pÃ¥ noe kan du nÃ¥r som helst kontakte oss.',
+	'PHPSHOP_EMAIL_SENDTO' => 'En bekreftelse er sendt til epostadressen du oppgav: ',
 	'PHPSHOP_CHECKOUT_NEXT' => 'Neste',
 	'PHPSHOP_CHECKOUT_CONF_BILLINFO' => 'Fakturainformasjon',
 	'PHPSHOP_CHECKOUT_CONF_COMPANY' => 'Firma',
@@ -34,21 +34,23 @@ $langvars = array (
 	'PHPSHOP_CHECKOUT_CONF_SHIPINFO_ADDRESS' => 'Adresse',
 	'PHPSHOP_CHECKOUT_CONF_SHIPINFO_PHONE' => 'Telefon',
 	'PHPSHOP_CHECKOUT_CONF_SHIPINFO_FAX' => 'Faks',
-	'PHPSHOP_CHECKOUT_CONF_PAYINFO_METHOD' => 'Betalingsmåte',
-	'PHPSHOP_CHECKOUT_CONF_PAYINFO_REQINFO' => 'påkrevd informasjon når kredittkort er valgt',
-	'PHPSHOP_PAYPAL_THANKYOU' => 'Takk for din betaling.',
-	'PHPSHOP_PAYPAL_ERROR' => 'En feil har oppstått under betalingstransaksjonen. Statusen på din ordre kan ikke oppdateres.',
-	'PHPSHOP_THANKYOU_SUCCESS' => 'Din ordre er sendt!',
+	'PHPSHOP_CHECKOUT_CONF_PAYINFO_METHOD' => 'BetalingsmÃ¥te',
+	'PHPSHOP_CHECKOUT_CONF_PAYINFO_REQINFO' => 'pÃ¥krevd informasjon nÃ¥r kredittkort er valgt',
+	'PHPSHOP_PAYPAL_THANKYOU' => 'Takk for din betaling.
+        The transaction was successful. You will get a confirmation e-mail for the transaction by PayPal. 
+        You can now continue or log in at <a href=http://www.paypal.com>www.paypal.com</a> to see the transaction details.',
+	'PHPSHOP_PAYPAL_ERROR' => 'En feil har oppstÃ¥tt under betalingstransaksjonen. Statusen pÃ¥ din ordre kan ikke oppdateres.',
+	'PHPSHOP_THANKYOU_SUCCESS' => 'Bestillingen er mottat! Takk for det.',
 	'VM_CHECKOUT_TITLE_TAG' => 'Bestilling: Steg %s av %s',
 	'VM_CHECKOUT_ORDERIDNOTSET' => 'Ordre-ID er ikke angitt eller er tom!',
 	'VM_CHECKOUT_FAILURE' => 'Bestillingen feilet',
-	'VM_CHECKOUT_SUCCESS' => 'Bestillingen er vellykket gjennomført',
-	'VM_CHECKOUT_PAGE_GATEWAY_EXPLAIN_1' => 'Denne siden ligger på nettbutikkens nettsted.',
+	'VM_CHECKOUT_SUCCESS' => 'Bestillingen er vellykket gjennomfÃ¸rt',
+	'VM_CHECKOUT_PAGE_GATEWAY_EXPLAIN_1' => 'Denne siden ligger pÃ¥ nettbutikkens nettsted.',
 	'VM_CHECKOUT_PAGE_GATEWAY_EXPLAIN_2' => 'The gateway execute the page on the website, and the shows the result SSL Encrypted.',
 	'VM_CHECKOUT_CCV_CODE' => 'Credit Card Validation Code',
 	'VM_CHECKOUT_CCV_CODE_TIPTITLE' => 'What\'s the Credit Card Validation Code?',
 	'VM_CHECKOUT_MD5_FAILED' => 'MD5 Check failed',
-	'VM_CHECKOUT_ORDERNOTFOUND' => 'Kunne ikke finne ordren',
+	'VM_CHECKOUT_ORDERNOTFOUND' => 'Ordre ble ikke funnet',
 	'VM_CHECKOUT_PBS_APPROVED_ORDERCOMMENT' => '
                 The Payment Transaction was approved by PBS. \n
                 The Transaction has received the following Transaction Number:\n\n
@@ -59,7 +61,7 @@ $langvars = array (
                 Transaction Number: {transactionnumber}\n',
 	'VM_CHECKOUT_DD_ERROR_0' => 'Merchant/forretningsnummer ugyldig',
 	'VM_CHECKOUT_DD_ERROR_1' => 'Ugyldig kredittkortnummer',
-	'VM_CHECKOUT_DD_ERROR_2' => 'Ugyldig beløp',
+	'VM_CHECKOUT_DD_ERROR_2' => 'Ugyldig belÃ¸p',
 	'VM_CHECKOUT_DD_ERROR_3' => 'Ordrenummer mangler eller er ugyldig',
 	'VM_CHECKOUT_DD_ERROR_4' => 'PBS afvisning - (Oftest - ugyldig kortdata, sp?rret kort osv...)',
 	'VM_CHECKOUT_DD_ERROR_5' => 'Intern server fejl hos DanDomain eller PBS',
@@ -82,13 +84,17 @@ $langvars = array (
 	'VM_CHECKOUT_WF_ERROR_4' => 'Kort udlobet',
 	'VM_CHECKOUT_WF_ERROR_5' => 'Intern feil',
 	'VM_CHECKOUT_WF_ERROR_6' => 'Invalid Transaktion',
-	'VM_CHECKOUT_WF_ERROR_7' => 'System feil',
+	'VM_CHECKOUT_WF_ERROR_7' => 'System fejl',
 	'VM_CHECKOUT_WF_ERROR_8' => 'Forkert forretningsnummer',
 	'VM_CHECKOUT_WF_ERROR_9' => 'Kortet eksistere ikke',
-	'VM_CHECKOUT_WF_ERROR_10' => 'Kort løngen er for kort.',
+	'VM_CHECKOUT_WF_ERROR_10' => 'Kort lÃ¸ngen er for kort.',
 	'VM_CHECKOUT_WF_ERROR_11' => 'Transaktion kan ikke gennemfores igennem denne terminal',
 	'VM_CHECKOUT_WF_ERROR_12' => 'Kortejeren har ikke rettigheder til at gennemfore denne transaktion.',
 	'VM_CHECKOUT_WF_ERROR_13' => 'Kortnummeret eksistere ikke',
-	'VM_CHECKOUT_WF_ERROR_14' => 'Error unknown'
+	'VM_CHECKOUT_WF_ERROR_14' => 'Error unknown',
+	'PHPSHOP_EPAY_PAYMENT_CARDTYPE' => 'The payment is
+created by %s <img
+src="/components/com_virtuemart/shop_image/ps_image/epay_images/%s"
+border="0">'
 ); $VM_LANG->initModule( 'checkout', $langvars );
 ?>
