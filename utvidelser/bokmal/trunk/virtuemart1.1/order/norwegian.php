@@ -6,7 +6,8 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 * @package VirtueMart
 * @subpackage languages
 * @copyright Copyright (C) 2004-2007 soeren - All rights reserved.
-* @translator soeren
+* Translation is based on old language file for VM 1.0.
+* New translation and cleanup for v1.1 by Odd-Eirik Eriksen (abc@abc-konsult.no) and Rune Rasmussen (syntaxerror.no).
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * VirtueMart is free software. This version may have been modified pursuant
 * to the GNU General Public License, and as distributed it includes or
@@ -53,9 +54,9 @@ $langvars = array (
 	'VM_ORDER_LABEL_TRACK_TITLE' => 'Track',
 	'VM_ORDER_LABEL_VOID_TITLE' => 'Void Label',
 	'VM_ORDER_LABEL_VOIDED_MSG' => 'Label for waybill {tracking_number} has been voided.',
-	'VM_ORDER_PRINT_PO_IPADDRESS' => 'IP-ADDRESS',
-	'VM_ORDER_STATUS_ICON_ALT' => 'Status Icon',
-	'VM_ORDER_PAYMENT_CCV_CODE' => 'CVV Code',
-	'VM_ORDER_NOTFOUND' => 'Order not found! It may have been deleted.'
+	'VM_ORDER_PRINT_PO_IPADDRESS' => 'IP-ADRESSE',
+	'VM_ORDER_STATUS_ICON_ALT' => 'Status-ikon',
+	'VM_ORDER_PAYMENT_CCV_CODE' => 'CVV kode',
+	'VM_ORDER_NOTFOUND' => 'Kunne ikke finne ordren, den kan ha blitt slettet.'
 ); $VM_LANG->initModule( 'order', $langvars );
 ?>
