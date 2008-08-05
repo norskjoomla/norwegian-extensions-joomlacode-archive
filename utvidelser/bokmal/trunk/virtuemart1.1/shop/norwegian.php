@@ -6,8 +6,8 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 * @package VirtueMart
 * @subpackage languages
 * @copyright Copyright (C) 2004-2007 soeren - All rights reserved.
-* Oversettelse er hentet fra gammel språkfil for versjon 1.0 av Sören Eberhardt-Biermann @ VirtueMart-teamet.
-* Oversettelse og språkvask for versjon 1.1 av Odd-Eirik Eriksen (abc@abc-konsult.no).
+* Translation is based on old language file for VM 1.0.
+* New translation and cleanup for v1.1 by Odd-Eirik Eriksen (abc@abc-konsult.no) and Rune Rasmussen (syntaxerror.no).
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
 * VirtueMart is free software. This version may have been modified pursuant
 * to the GNU General Public License, and as distributed it includes or
@@ -19,15 +19,14 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 */
 global $VM_LANG;
 $langvars = array (
-	'CHARSET' => 'ISO-8859-1',
-	'PHPSHOP_BROWSE_LBL' => 'Vis',
+	'CHARSET' => 'UTF-8',
+	'PHPSHOP_BROWSE_LBL' => 'Oversikt',
 	'PHPSHOP_FLYPAGE_LBL' => 'Produktdetaljer',
 	'PHPSHOP_PRODUCT_FORM_EDIT_PRODUCT' => 'Endre dette produktet',
 	'PHPSHOP_DOWNLOADS_START' => 'Start nedlasting',
-	'PHPSHOP_DOWNLOADS_INFO' => 'Vennligst skriv inn nedlastings-ID\'en du fikk per e-post. Deretter trykker du \'Start nedlasting\'.',
-	'PHPSHOP_WAITING_LIST_MESSAGE' => 'Venligst skriv inn din E-postadresse for å få beskjed når dette produktet er på lager igjen.
-',
-	'PHPSHOP_WAITING_LIST_THANKS' => 'Takk for at du venter! <br />Vi vil gi deg beskjed så snart varen er på lager igjen.',
+	'PHPSHOP_DOWNLOADS_INFO' => 'Venligst skriv inn nedlastings-ID\'en du fikk per e-post. Deretter trykker du \'Start nedlasting\'.',
+	'PHPSHOP_WAITING_LIST_MESSAGE' => 'Venligst skriv inn e-postadresse for å få beskjed når dette produktet er på lager igjen.',
+	'PHPSHOP_WAITING_LIST_THANKS' => 'Takk for at du venter! <br />Vi vil gi deg beskjed så snart vi får ny vare på lager.',
 	'PHPSHOP_WAITING_LIST_NOTIFY_ME' => 'Gi meg melding!',
 	'PHPSHOP_SEARCH_ALL_CATEGORIES' => 'Velg alle kategorier',
 	'PHPSHOP_SEARCH_ALL_PRODINFO' => 'Søk i all produktinfo',
@@ -36,16 +35,15 @@ $langvars = array (
 	'PHPSHOP_SEARCH_DESCRIPTION' => 'Kun produktbeskrivelse',
 	'PHPSHOP_SEARCH_AND' => 'og',
 	'PHPSHOP_SEARCH_NOT' => 'ikke',
-	'PHPSHOP_SEARCH_TEXT1' => 'Første drop-down-liste lar deg begrense søket til en kategori.
-',
+	'PHPSHOP_SEARCH_TEXT1' => 'Første drop-down-liste lar deg begrense søket til en kategori.',
 	'PHPSHOP_SEARCH_TEXT2' => 'Du kan videre legge til et nøkkelord  og velg deretter OG eller IKKE.',
 	'PHPSHOP_CONTINUE_SHOPPING' => 'Handle mer',
 	'PHPSHOP_AVAILABLE_IMAGES' => 'Tilgjengelige bilder for',
-	'PHPSHOP_BACK_TO_DETAILS' => 'Tilbake til Produktdetaljer',
+	'PHPSHOP_BACK_TO_DETAILS' => 'Tilbake til produktdetaljer',
 	'PHPSHOP_IMAGE_NOT_FOUND' => 'Kan ikke finne bildet!',
 	'PHPSHOP_PARAMETER_SEARCH_TEXT1' => 'Vil du finne produkter etter tekniske parameter?<br />Du kan bruke et forhåndslaget skjema:',
-	'PHPSHOP_PARAMETER_SEARCH_NO_PRODUCT_TYPE' => 'Beklager, det er ingen kategori for søk.',
-	'PHPSHOP_PARAMETER_SEARCH_BAD_PRODUCT_TYPE' => 'Beklager, det er ingen publiserte produkttyper med dette navnet.',
+	'PHPSHOP_PARAMETER_SEARCH_NO_PRODUCT_TYPE' => 'Beklager, det er ingen kategori for søket.',
+	'PHPSHOP_PARAMETER_SEARCH_BAD_PRODUCT_TYPE' => 'Beklager, det er ingen publisert produkttype med dette navnet.',
 	'PHPSHOP_PARAMETER_SEARCH_IS_LIKE' => 'Er lik',
 	'PHPSHOP_PARAMETER_SEARCH_IS_NOT_LIKE' => 'Er ikke lik',
 	'PHPSHOP_PARAMETER_SEARCH_FULLTEXT' => 'Fulltekstsøk',
@@ -53,24 +51,24 @@ $langvars = array (
 	'PHPSHOP_PARAMETER_SEARCH_FIND_IN_SET_ANY' => 'En av de valgte',
 	'PHPSHOP_PARAMETER_SEARCH_RESET_FORM' => 'Nullstill',
 	'PHPSHOP_PRODUCT_NOT_FOUND' => 'Beklager, kan ikke finne produktet du søker!',
-	'PHPSHOP_PRODUCT_PACKAGING1' => 'Antall {enhet}er i pakken:',
-	'PHPSHOP_PRODUCT_PACKAGING2' => 'Antall {enhet}er i boks:',
+	'PHPSHOP_PRODUCT_PACKAGING1' => 'Antall {unit} per pakken:',
+	'PHPSHOP_PRODUCT_PACKAGING2' => 'Antall {unit} per boks:',
 	'PHPSHOP_CART_PRICE_PER_UNIT' => 'Pris',
-	'VM_PRODUCT_ENQUIRY_LBL' => 'Still et spørsmål om dette produktet',
+	'VM_PRODUCT_ENQUIRY_LBL' => 'Send spørsmål om dette produktet',
 	'VM_RECOMMEND_FORM_LBL' => 'Anbefal dette produktet til en venn',
 	'PHPSHOP_EMPTY_YOUR_CART' => 'Tøm handlekurv',
-	'VM_RETURN_TO_PRODUCT' => 'Returner til produkt',
-	'EMPTY_CATEGORY' => 'Denne kategorien er for øyeblikket tom.',
-	'ENQUIRY' => 'Forespørsel',
+	'VM_RETURN_TO_PRODUCT' => 'Tilbake til produkt',
+	'EMPTY_CATEGORY' => 'Kategorien er for øyeblikket tom.',
+	'ENQUIRY' => 'Henvendelse',
 	'NAME_PROMPT' => 'Ditt navn',
-	'EMAIL_PROMPT' => 'Din e-postadresse',
-	'MESSAGE_PROMPT' => 'Skriv din melding her',
+	'EMAIL_PROMPT' => 'E-postadresse',
+	'MESSAGE_PROMPT' => 'Din melding',
 	'SEND_BUTTON' => 'Send',
-	'THANK_MESSAGE' => 'Takk for din forespørsel. Vi vil ta kontakt med deg så snart vi kan.',
+	'THANK_MESSAGE' => 'Takk for din henvendelse, vi vil kontakte deg så snart som mulig.',
 	'PROMPT_CLOSE' => 'Lukk',
-	'VM_RECOVER_CART_REPLACE' => 'Erstatt handlekurv med lagret handlekurv',
-	'VM_RECOVER_CART_MERGE' => 'Tilføy lagret handlekurv til nåværende handlekurv',
-	'VM_RECOVER_CART_DELETE' => 'Slett lagret handlekurv',
-	'VM_EMPTY_YOUR_CART_TIP' => 'Tøm handlekurven'
+	'VM_RECOVER_CART_REPLACE' => 'Erstatt med lagret handlekurv',
+	'VM_RECOVER_CART_MERGE' => 'Slå sammen med lagret handlekurv.',
+	'VM_RECOVER_CART_DELETE' => 'Slett lagret handlekurv.',
+	'VM_EMPTY_YOUR_CART_TIP' => 'Fjern alt innhold fra handlekurv.'
 ); $VM_LANG->initModule( 'shop', $langvars );
 ?>
