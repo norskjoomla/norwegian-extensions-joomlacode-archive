@@ -16,6 +16,7 @@
     <administration>
       <files folder="admin">
 		<filename>nb-NO.com_joomfish.ini</filename>
+		<filename>nb-NO.com_joomfish.menu.ini</filename>
 		<filename>nb-NO.mod_translate.ini</filename>
 		<filename>nb-NO.plg_joomfish_missing_translation.ini</filename>
 		<filename>nb-NO.plg_content_jfalternative.ini</filename>
