@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Id$ -->
-<install version="1.5" client="both" type="language">
+<install version="1.5" client="both" type="language" method="upgrade">
     <name>Norwegian bokmål (Norway)</name>
     <tag>nb-NO</tag>
     <version>1.5.5</version>
@@ -102,7 +102,7 @@
         <filename>nb-NO.plg_xmlrpc_blogger.ini</filename>
         <filename>nb-NO.plg_xmlrpc_joomla.ini</filename>
         <filename>nb-NO.tpl_beez.ini</filename>
-		<filename>nb-NO.tpl_ja_purity.ini</filename>
+	<filename>nb-NO.tpl_ja_purity.ini</filename>
         <filename>nb-NO.tpl_khepri.ini</filename>
         <filename>nb-NO.tpl_rhuk_milkyway.ini</filename>
         <filename>index.html</filename>
@@ -156,7 +156,7 @@
         <filename>nb-NO.plg_search_weblinks.ini</filename>
         <filename>nb-NO.plg_system_debug.ini</filename>
         <filename>nb-NO.tpl_beez.ini</filename>
-		<filename>nb-NO.tpl_ja_purity.ini</filename>
+	<filename>nb-NO.tpl_ja_purity.ini</filename>
         <filename>nb-NO.tpl_rhuk_milkyway.ini</filename>
         <filename>index.html</filename>
         <filename file="meta">nb-NO.xml</filename>
