@@ -10,7 +10,11 @@
     <authorurl>www.joomlainorge.no</authorurl>
     <copyright>(C) 2005 - 2008 Joomla! i Norge. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-    <description>Norwegian bokmål translation for Joomla! 1.5 site and admin</description>
+    <description><![CDATA[Norske språkfiler (bokmål) for Joomla! 1.5 brukerside og administrasjon.<br/>
+				 Opphav: 2005 - 2008, <a href="http://www.joomlainorge.no/" target="_blank">Foreningen Joomla! i Norge</a><br/>
+				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a><br /><br />
+                                 Bidra: Om du har stor nytte av disse språkfilene og ønsker å bidra til at foreningens kan fortsette sitt arbeide, 
+                                 med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/bidra/hvordan_bidra/" target="_blank">besøke våre FAQ-sider</a>.]]></description>
     <administration>
       <files folder="admin">
         <filename>nb-NO.com_admin.ini</filename>
