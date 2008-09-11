@@ -3,14 +3,18 @@
 <install version="1.5" client="administrator" type="language" method="upgrade">
     <name>Norwegian bokmål (Norway)</name>
     <tag>nb-NO</tag>
-    <version>1.5.5</version>
-    <creationdate>05-07-2008</creationdate>
+    <version>1.5.7</version>
+    <creationdate>11-09-2008</creationdate>
     <author>Joomla! i Norge</author>
     <authoremail>oversettelser@joomlainorge.no</authoremail>
     <authorurl>www.joomlainorge.no</authorurl>
     <copyright>(C) 2005 - 2008 Joomla! i Norge. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-    <description></description>
+    <description><![CDATA[Norske språkfiler (bokmål) for Joomla! 1.5 administrasjon.<br/>
+				 Opphav: 2005 - 2008, <a href="http://www.joomlainorge.no/" target="_blank">Foreningen Joomla! i Norge</a><br/>
+				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a><br /><br />
+                                 Bidra: Om du har stor nytte av disse språkfilene og ønsker å bidra til at foreningens kan fortsette sitt arbeide, 
+                                 med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/bidra/hvordan_bidra/" target="_blank">besøke våre FAQ-sider</a> for mer informasjon.]]></description>
     <files>
         <filename>nb-NO.com_admin.ini</filename>
         <filename>nb-NO.com_banners.ini</filename>
