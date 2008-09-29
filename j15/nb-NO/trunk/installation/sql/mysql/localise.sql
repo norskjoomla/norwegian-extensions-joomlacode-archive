@@ -27,7 +27,7 @@ UPDATE `#__plugins` SET `name` = 'Innhold - Code Hightlighter (GeSHi)' WHERE `el
 UPDATE `#__plugins` SET `name` = 'Innhold - Last modul' WHERE `element` = 'loadmodule' AND `folder` = 'content';
 UPDATE `#__plugins` SET `name` = 'Innhold - Sidenavigering' WHERE `element` = 'pagenavigation' AND `folder` = 'content';
 UPDATE `#__plugins` SET `name` = 'Tekstbehandler - Ingen tekstbehandler' WHERE `element` = 'none' AND `folder` = 'editors';
-UPDATE `#__plugins` SET `name` = 'Tekstbehandler - TinyMCE 2.0', `params` = REPLACE(`params`, 'lang_mode=0\nlang_code=en', 'lang_mode=1\nlang_code=nb') WHERE `element` = 'tinymce' AND `folder` = 'editors';
+UPDATE `#__plugins` SET `name` = 'Tekstbehandler - TinyMCE 2.0', `params` = REPLACE(`params`, 'lang_mode=0\nlang_code=en\nformat_date=%Y-%m-%d', 'lang_mode=1\nlang_code=nb\nformat_date=%d-%m-%Y') WHERE `element` = 'tinymce' AND `folder` = 'editors';
 UPDATE `#__plugins` SET `name` = 'Tekstbehandler - XStandard Lite 2.0' WHERE `element` = 'xstandard' AND `folder` = 'editors';
 UPDATE `#__plugins` SET `name` = 'Tekstbehandlerknapp - Bilde' WHERE `element` = 'image' AND `folder` = 'editors-xtd';
 UPDATE `#__plugins` SET `name` = ' Tekstbehandlerknapp - Sideskift' WHERE `element` = 'pagebreak' AND `folder` = 'editors-xtd';
