@@ -273,7 +273,7 @@ $langvars = array (
 	'PHPSHOP_RATE_FORM_MNU' => 'Legg til fraktsats',
 	'PHPSHOP_RATE_FORM_VALUE' => 'Gebyr',
 	'PHPSHOP_RATE_FORM_VAT_ID' => 'Mva-nummer',
-	'PHPSHOP_ERR_MSG_CARRIER_EXIST' => 'FEIL: Transportørnummer eksisterer.',
+	'PHPSHOP_ERR_MSG_CARRIER_EXIST' => 'FEIL: Transportørnummer eksisterer allerede.',
 	'PHPSHOP_ERR_MSG_CARRIER_ID_REQ' => 'FEIL: Velg en transportør.',
 	'PHPSHOP_ERR_MSG_CARRIER_INUSE' => 'FEIL: Minst en fraktrate finnes, slett satser for transportør.',
 	'PHPSHOP_ERR_MSG_CARRIER_NOTFOUND' => 'FEIL: Finner ingen transportør med dette nummer.',
@@ -347,7 +347,7 @@ $langvars = array (
 	'PHPSHOP_CHECKOUT_EMAIL_SHOPPER_HEADER2' => 'Takk for at du handler hos oss!',
 	'PHPSHOP_CHECKOUT_EMAIL_SHOPPER_HEADER3' => 'Spørsmål? Problemer?',
 	'PHPSHOP_CHECKOUT_EMAIL_SHOPPER_HEADER4' => 'Følgende ordre er mottatt.',
-	'PHPSHOP_CHECKOUT_EMAIL_SHOPPER_HEADER5' => 'Vis ordren ved å trykke på følgende lenke:',
+	'PHPSHOP_CHECKOUT_EMAIL_SHOPPER_HEADER5' => 'Trykk her for å se ordren i nettbutikken!',
 	'PHPSHOP_CART_ERROR_NO_NEGATIVE' => 'Minus-antall er ikke tillatt.',
 	'PHPSHOP_CART_ERROR_NO_VALID_QUANTITY' => 'Vennligst skriv inn et gyldig antall for denne varen.',
 	'PHPSHOP_CART_SELECT_ITEM' => 'Du må velge egenskaper først, dette kan være f.eks størrelse eller lengde.',
@@ -574,7 +574,7 @@ $langvars = array (
 	'PHPSHOP_USER_SEND_REGISTRATION_DETAILS' => 'Hei %s,
 
 Takk for at du regsitrerte deg hos %s. Din kundekonto ble opprettet.
-Du kan nå logge deg på hos %s ved å benytte følgende brukernavn og passord:
+Du kan nå logge deg på %s ved å benytte følgende brukernavn og passord:
 
 Brukernavn - %s
 Passord - %s
