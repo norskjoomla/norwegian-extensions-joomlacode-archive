@@ -1,8 +1,8 @@
 // ** I18N
 
 // Calendar NO language
-// Author: ?
-// Encoding: iso-8859-1
+// Author: Mihai Bazon, <mihai_bazon@yahoo.com>
+// Encoding: any
 // Distributed under the same terms as the calendar itself.
 
 // For translators: please use UTF-8 if possible.  We strongly believe that
@@ -11,14 +11,14 @@
 
 // full day names
 Calendar._DN = new Array
-("Søndag",
+("SÃ¸ndag",
  "Mandag",
  "Tirsdag",
  "Onsdag",
  "Torsdag",
  "Fredag",
- "Lørdag",
- "Søndag");
+ "LÃ¸rdag",
+ "SÃ¸ndag");
 
 // Please note that the following array of short day names (and the same goes
 // for short month names, _SMN) isn't absolutely necessary.  We give it here
@@ -34,14 +34,14 @@ Calendar._DN = new Array
 
 // short day names
 Calendar._SDN = new Array
-("Søn",
+("SÃ¸n",
  "Man",
  "Tir",
  "Ons",
  "Tor",
  "Fre",
- "Lør",
- "Søn");
+ "LÃ¸r",
+ "SÃ¸n");
 
 // First day of the week. "0" means display Sunday first, "1" means display
 // Monday first, etc.
@@ -97,18 +97,18 @@ Calendar._TT["ABOUT_TIME"] = "\n\n" +
 "- or Shift-click to decrease it\n" +
 "- or click and drag for faster selection.";
 
-Calendar._TT["PREV_YEAR"] = "Forr. år (hold for menu)";
-Calendar._TT["PREV_MONTH"] = "Forr. måned (hold for menu)";
-Calendar._TT["GO_TODAY"] = "Gå til idag";
-Calendar._TT["NEXT_MONTH"] = "Neste måned (hold for menu)";
-Calendar._TT["NEXT_YEAR"] = "Neste år (hold for menu)";
+Calendar._TT["PREV_YEAR"] = "Forr. Ã¥r (hold for menu)";
+Calendar._TT["PREV_MONTH"] = "Forr. mÃ¥ned (hold for menu)";
+Calendar._TT["GO_TODAY"] = "GÃ¥ til idag";
+Calendar._TT["NEXT_MONTH"] = "Neste mÃ¥ned (hold for menu)";
+Calendar._TT["NEXT_YEAR"] = "Neste Ã¥r (hold for menu)";
 Calendar._TT["SEL_DATE"] = "Velg dato";
-Calendar._TT["DRAG_TO_MOVE"] = "Trekk for å flytte";
+Calendar._TT["DRAG_TO_MOVE"] = "Trekk for Ã¥ flytte";
 Calendar._TT["PART_TODAY"] = " (i dag)";
 
 // the following is to inform that "%s" is to be the first day of week
 // %s will be replaced with the day name.
-Calendar._TT["DAY_FIRST"] = "Vis %s først";
+Calendar._TT["DAY_FIRST"] = "Vis %s fÃ¸rst";
 
 // This may be locale-dependent.  It specifies the week-end days, as an array
 // of comma-separated numbers.  The numbers are from 0 to 6: 0 means Sunday, 1
@@ -117,7 +117,7 @@ Calendar._TT["WEEKEND"] = "1,7";
 
 Calendar._TT["CLOSE"] = "Lukk";
 Calendar._TT["TODAY"] = "I dag";
-Calendar._TT["TIME_PART"] = "(Shift-)klikk eller trekk for å endre verdi";
+Calendar._TT["TIME_PART"] = "(Shift-)klikk eller trekk for Ã¥ endre verdi";
 
 // date formats
 Calendar._TT["DEF_DATE_FORMAT"] = "%d-%m-%Y";
