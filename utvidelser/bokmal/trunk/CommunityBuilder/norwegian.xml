@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<cbinstall version="4.5.3" type="plugin" group="language">
+<?xml version="1.0" encoding="utf-8"?>
+<cbinstall version="1.0" type="plugin" group="language">
 	<name>Norwegian</name>
 	<author>Norwegian Translation Project</author>
 	<creationDate>February 2006</creationDate>
-	<copyright>(C) 2005 MamboJoe.com</copyright>
+	<copyright>(C) 2008 Joomla! i Norge</copyright>
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>http://oversettelser.joomlainorge.no/</authorUrl>
-	<version>1.0</version>
-	<description>Norsk oversettelse for Community Builders hovedfunksjoner.</description>
+	<version>1.2 RC</version>
+	<description>Norsk oversettelse for Community Builder 1.2</description>
 	<files>
 	<filename plugin="norwegian">norwegian.php</filename>
 	<filename>index.html</filename>  
