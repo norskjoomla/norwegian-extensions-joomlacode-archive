@@ -701,7 +701,7 @@ Oppføringsdetaljer:
 	var $CONFIGNAME_NOTIFYADMIN_NEWREVIEW = 'Ny omtale';
 	var $CONFIGNAME_NOTIFYUSER_APPROVED = 'Oppføring godkjent';
 	var $CONFIGNAME_NOTIFYUSER_REVIEW_APPROVED = 'Omtale godkjent';
-	var $CONFIGNAME_NOTIFYADMIN_DELETE = 'Slett oppføring';
+	var $CONFIGNAME_NOTIFYADMIN_DELETE = 'Slett valgte';
 	var $CONFIGNAME_USE_INTERNAL_NOTES = 'Bruk interne referat';
 	var $CONFIGNAME_USE_WYSIWYG_EDITOR = 'Bruk WYSIWYG-redigeringsforklaringsfelt';
 	var $CONFIGNAME_SHOW_LISTNEWRSS = 'Vis siste oppføringer RSS';
@@ -853,7 +853,7 @@ Oppføringsdetaljer:
 	var $INSTALL_NEW_FIELD_TYPE = 'Innstaller/oppdater ny felttype';
 	var $UPLOAD_PACKAGE_FILE = 'Last opp pakkefilen';
 	var $PACKAGE_FILE = 'Pakkefil';
-	var $UPLOAD_FILE_AND_INSTALL = 'Last opp fil &amp; Innstaller/oppdater';
+	var $UPLOAD_FILE_AND_INSTALL = 'Last opp fil &amp; innstaller/oppdater';
 	var $OR_CREATE_A_NEW_FIELD_TYPE = 'Eller lag en ny, egendefinert felttype';
 	var $EDIT_FIELD_TYPE = 'Rediger felttype';
 	var $NAME_OF_THE_FIELD_TYPE = 'Navn på felttype';
@@ -882,8 +882,8 @@ Oppføringsdetaljer:
 	var $MOVE_LISTINGS_MSG = "Vennligst gjør et utvalg fra listen for å flytte oppføring(er)";
 	var $COPY_LISTINGS_MSG = "Vennligst gjør et utvalg fra listen for å kopiere oppføring(er)";
 	var $SAVE_CHANGES = "Lagre endringer";
-	var $APPROVE_AND_PUBLISH_LISTING = "Godkjenn og publiser oppføring";
-	var $APPROVE_AND_PUBLISH_LISTING_MSG = "Vennligst gjør et utvalg fra listen for å godkjenne &amp; publisere oppføring(er)";
+	var $APPROVE_AND_PUBLISH_LISTING = "Godkjenn og publiser valgte";
+	var $APPROVE_AND_PUBLISH_LISTING_MSG = "Vennligst gjør et valg fra listen for å godkjenne og publisere oppføring(er)";
 	var $APPROVE_AND_PUBLISH = "Godkjenn og publiser";
 	var $APPROVE_CATEGORIES = "Godkjenn kategorier";
 	var $BACK = "Tilbake";
