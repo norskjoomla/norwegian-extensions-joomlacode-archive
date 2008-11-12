@@ -1,0 +1,33 @@
+// Norwegian lang variables
+
+tinyMCE.addToLang('imgmanager_ext',{
+desc : 'Sett inn/endre bilde',
+missing_alt : 'Er du sikker på at du vil fortsette uten å inkludere en bildebeskrivelse? Uten det kan bildet bli utilgjengelig for noen brukere med reduserte funksjoner, eller for dem som bruker tekstnettlesere, eller surfer på nettet med bilder avslått.',
+folder_name : 'Ugyldig mappenavn. Velg et annet navn.',
+delfile_alert : 'Slett file(r)?',
+delfolder_alert : 'Slett mappe?',
+rename_alert : 'Nytt navn på filer eller mapper vil bryte eksisterende lenker. Vil du fortsette?',
+move_alert : 'Flytting av filer vil bryte eksisterende lenker. Vil du fortsette?',
+badrename_alert : 'Navnet du oppga er det samme som mappen til miniatyrbildene.',
+toggle_image : 'Miniatyrbildevisning',
+toggle_list : 'Listevisning',
+size : 'Størrelse',
+quality : 'Kvalitet',
+thumbnail : 'Miniatyrbilde',
+resize : 'Endre størrelse',
+delete_thumb_alert : 'Slett miniatyrbilde?',
+delete_thumb : 'Slett miniatyrbilde',
+create_thumb : 'Lag miniatyrbilde',
+use_thumb : 'Bruk tilhørende miniatyrbilde?',
+no_src : 'Vennligst fyll inn en nettadresse til bildet',
+mode : 'Tilstand',
+thumbnail_type : 'Type',
+normal : 'Proporsjonal',
+square : 'Kvadrat',
+width : 'Bredde',
+height : 'Høyde',
+pixels: 'Pixels',
+percent: 'Prosent',
+delta_width : 0,
+delta_height : 0
+});
