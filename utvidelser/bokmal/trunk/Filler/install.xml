@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+<install version="1.5" method="upgrade" client="both" type="language">
+    <name>Norwegian bokmål (Norway)</name>
+    <tag>nb-NO</tag>
+    <version>1.0</version>
+    <creationdate>28 September 2008</creationdate>
+    <author>Rune Rasmussen</author>
+    <authoremail>oversettelser@joomlainorge.no</authoremail>
+    <authorurl>www.joomlainorge.no</authorurl>
+    <copyright>2008, Joomla! i Norge</copyright>
+    <license>GNU General Public License</license>
+    <description><![CDATA[Lokalisering av Filler 1.0.x.<br/>
+				 Opphav: 2008, Joomla! i Norge - Rune Rasmussen<br/>
+				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a>.]]></description>
+    <administration>
+      <files folder="admin">
+	  	  <filename>nb-NO.com_filler.menu</filename>
+	    	<filename>nb-NO.com_filler.ini</filename>
+      </files>
+    </administration>
+  <params />
+</install>
