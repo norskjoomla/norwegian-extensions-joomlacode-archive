@@ -12,7 +12,7 @@
     <license>Open Source License, GPL v2 based</license>
     <description><![CDATA[Lokalisering av JCE 1.5.x.<br/>
 				 Opphav: 2008, Petter Sandvik og Rune Rasmussen<br/>
-				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a>.]]></nbscription>
+				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a>.]]></description>
     <administration>
       <files folder="admin">
 	  	  <filename>nb-NO.com_jce.menu</filename>
