@@ -1,7 +1,8 @@
 <?php
 /**
  * $Id$
- * author Joomla! i Norge
+ * Joomla! Norwegian Bokmål Translation
+ * Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
  * copyright (C) 2005 - 2008 Joomla! i Norge. All rights reserved.
  * license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  */
