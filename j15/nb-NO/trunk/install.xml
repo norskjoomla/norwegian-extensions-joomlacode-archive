@@ -16,7 +16,7 @@
                                  Bidra: Om du har stor nytte av disse språkfilene og ønsker å bidra til at foreningens kan fortsette sitt arbeide, 
                                  med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/bidra/hvordan_bidra/" target="_blank">besøke våre FAQ-sider</a> for mer informasjon.]]></description>
     <administration>
-      <files folder="admin">
+      <files folder="administrator/language/nb-NO">
         <filename>nb-NO.com_admin.ini</filename>
         <filename>nb-NO.com_banners.ini</filename>
         <filename>nb-NO.com_banners.menu.ini</filename>
@@ -114,7 +114,7 @@
       </files>
   </administration>
   <site>
-      <files folder="site">
+      <files folder="language/nb-NO">
         <filename>nb-NO.com_banners.ini</filename>
         <filename>nb-NO.com_contact.ini</filename>
         <filename>nb-NO.com_content.ini</filename>
