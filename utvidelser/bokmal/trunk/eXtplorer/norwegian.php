@@ -1,5 +1,5 @@
 <?php
-// $Id: $
+// $Id$
 // Norwegian Language Module for v2.3 (translated by Bjørnar Markussen)
 global $_VERSION;
 

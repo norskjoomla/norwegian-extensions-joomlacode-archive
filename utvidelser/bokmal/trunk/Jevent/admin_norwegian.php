@@ -2,7 +2,7 @@
 /**
  * Events Component for Joomla 1.0.x
  *
- * @version     $Id: admin_norwegian.php 844 2007-10-30 10:34:31Z gusse500 $
+ * @version     $Id$
  * @package     Events
  * @author      Karl-Gustav Freding
  * @copyright  (C) Norwegian Translation Project

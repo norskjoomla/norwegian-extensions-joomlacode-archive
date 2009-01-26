@@ -1,7 +1,7 @@
 <?php
 /**
  * MjazTools Uploader for DOCMan
- * @version      $Id: norwegian.php 71 2007-03-14 11:55:55Z rued $
+ * @version      $Id$
  * @package      mjaztools_dmuploader
  * @copyright    Copyright (C) 2007 MjazTools. All rights reserved.
  * @license      GNU/GPL

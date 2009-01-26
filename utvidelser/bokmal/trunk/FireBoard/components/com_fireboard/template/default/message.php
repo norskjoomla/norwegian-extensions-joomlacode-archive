@@ -1,6 +1,6 @@
 <?php
 /**
-* @version $Id: message.php 481 2007-12-13 08:21:14Z fxstein $
+* @version $Id$
 * Fireboard Component
 * @package Fireboard
 * @Copyright (C) 2006 - 2007 Best Of Joomla All rights reserved

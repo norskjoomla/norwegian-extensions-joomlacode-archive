@@ -5,7 +5,7 @@
  *    License: GNU General Public License
  *    Author: Rune Rasmussen http://www.syntaxerror.no/
  *    Modified by: Rune Rasmussen
- *    $Id: norwegian.php 62 2007-02-01 14:41:29Z rued $
+ *    $Id$
  *    -----------------------------------------------------------------------
  */
 
