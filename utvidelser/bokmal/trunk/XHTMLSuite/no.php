@@ -1,6 +1,6 @@
 <?php
 // XHTMLSuite
-// $Id: no.php 53 2006-12-16 01:23:11Z rued $
+// $Id$
 /**
 * @ Package XHTMLSuite
 * @ Copyright © 2004, 2005 Bernhard Pfeifer - www.xhtmlsuite.com

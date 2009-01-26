@@ -1,6 +1,6 @@
 <?php
 /**
-* @version $Id: english.php 17 2006-11-04 03:41:21Z pcarr $
+* @version $Id$
 * @package Attend Events
 * @copyright (C) 2005-06 Peter Carr
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL

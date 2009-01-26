@@ -2,7 +2,7 @@
 /**
  * Events Component for Joomla 1.0.x
  *
- * @version     $Id: norwegian.php 845 2007-07-12 07:07:27Z geraint $
+ * @version     $Id$
  * @package     Events
  * @copyright   Copyright (C) 2006 JEvents Project Group
  * @licence     http://www.gnu.org/copyleft/gpl.html

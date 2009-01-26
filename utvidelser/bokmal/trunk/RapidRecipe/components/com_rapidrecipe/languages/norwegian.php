@@ -1,6 +1,6 @@
 <?php
 /**
- * $Id: nb-NO.com_rapidrecipe.ini 437 2008-07-16 05:38:56Z rued $
+ * $Id$
  * 
  * <p>Norwegian language file.</p>
  * 

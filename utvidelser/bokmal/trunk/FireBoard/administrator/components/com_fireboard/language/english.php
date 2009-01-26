@@ -1,6 +1,6 @@
 <?php
 /**
-* @version $Id: english.php 529 2007-12-23 14:45:45Z danialt $
+* @version $Id$
 * FireBoard Component
 * @package FireBoard
 * @Copyright (C) 2006 - 2007 Best Of Joomla All rights reserved
