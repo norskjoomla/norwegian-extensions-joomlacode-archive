@@ -3,9 +3,11 @@
 
 Språkfil og norske knapper/bilder ligger i riktig mappestruktur og kan pakkes ut direkte i rota av din joomlainstallasjon, eller pakkes ut lokalt for direkte opplasting.
 
+Inneholder språkfil i UTF-8 for Joomla! 1.5 og norske knapper, om språkfil skal benyttes på Joomla! 1.0 må den konverteres til ISO-8859-1/15 først for å unngå tegnproblemer.
 
 
-Originalt innhold fra Fireboard:
+
+Originalt innhold fra Fireboard-oversettelsen:
 -----------------------------------------------------------------
 Endringer fra oversettelse 103_1.0:
 
