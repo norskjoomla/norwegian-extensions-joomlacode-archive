@@ -3,6 +3,12 @@
 * @version $Id$
 * Kunena Component
 * @package Kunena
+*
+* @Copyright (C) 2008 - 2009 Kunena Team All rights reserved
+* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* @link http://www.kunena.com
+*
+* Based on FireBoard Component
 * @Copyright (C) 2006 - 2007 Best Of Joomla All rights reserved
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
 * @link http://www.bestofjoomla.com
@@ -11,8 +17,11 @@
 * @copyright (C) 2000 - 2004 TSMF / Jan de Graaff / All Rights Reserved
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
 * @author TSMF & Jan de Graaff
+*
+* Norwegian Translation
+* @Copyright Translation (C) 2006 - 2009 Joomla! i Norge
 * @translator FB 1.0.x -> 1.0.4 Birger J. Nordølum, Supplements by Gunnar Holmstad, Kristian Wengen and Karl-Gustav Freding)
-* @translator Kunena 1.0.5 -> 1.0.7b Rune Rasmussen
+* @translator FB/Kunena 1.0.5 -> 1.0.x Rune Rasmussen
 **/
 
 // Dont allow direct linking
@@ -93,15 +102,15 @@ DEFINE('_POST_SUCCESS_SPLIT_TOPIC_CHANGED', 'Tittel ble vellykket endret.');
 DEFINE('_POST_SPLIT_TOPIC_NOT_CHANGED', 'Tittelendring feilet.');
 DEFINE('_POST_TOPIC_NOT_SPLIT', 'Splitt feilet.');
 DEFINE('_POST_DUPLICATE_IGNORED', 'Duplikat, identisk melding har blitt ignorert.');
-DEFINE('_POST_SPLIT_HINT', '<br />Tips: You can promote a post to topic position if you select it in the second column and check nothing to split.<br />');
-DEFINE('_POST_LINK_ORPHANS_TOPIC', 'link orphans to topic');
-DEFINE('_POST_LINK_ORPHANS_TOPIC_TITLE', 'Link orphans to new topic post.');
-DEFINE('_POST_LINK_ORPHANS_PREVPOST', 'link orphans to previous post');
-DEFINE('_POST_LINK_ORPHANS_PREVPOST_TITLE', 'Link orphans to previous post.');
+DEFINE('_POST_SPLIT_HINT', '<br />Tips: Du kan fremheve et innlegg i trådposisjon hvis du velger det i den andre kolonnen og merker av for ingenting å splitte.<br />');
+DEFINE('_POST_LINK_ORPHANS_TOPIC', 'lenk foreldreløse til emne');
+DEFINE('_POST_LINK_ORPHANS_TOPIC_TITLE', 'Lenk foreldreløse til nytt emne.');
+DEFINE('_POST_LINK_ORPHANS_PREVPOST', 'lenk foreldreløse til forrige post');
+DEFINE('_POST_LINK_ORPHANS_PREVPOST_TITLE', 'Lenk foreldreløse til forrige post.');
 DEFINE('_POST_MERGE', 'slå sammen');
-DEFINE('_POST_MERGE_TITLE', 'Attach this thread to targets first post.');
-DEFINE('_POST_INVERSE_MERGE', 'inverse merge');
-DEFINE('_POST_INVERSE_MERGE_TITLE', 'Attach targets first post to this thread.');
+DEFINE('_POST_MERGE_TITLE', 'Legg denne tråden til målets første innlegg.');
+DEFINE('_POST_INVERSE_MERGE', 'omvendt sammenslåing');
+DEFINE('_POST_INVERSE_MERGE_TITLE', 'Legg målets første innlegg til denne tråden.');
 
 // Additional
 DEFINE('_POST_UNFAVORITED_TOPIC', 'Denne tråden ble fjernet fra dine favoritter.');
@@ -391,7 +400,7 @@ DEFINE('_KUNENA_MYPROFILE_GTALK', 'GTALK');
 DEFINE('_KUNENA_MYPROFILE_GTALK_DESC', 'Dette er ditt Gtalk kallenavn.');
 DEFINE('_KUNENA_MYPROFILE_WEBSITE', 'Nettsted');
 DEFINE('_KUNENA_MYPROFILE_WEBSITE_NAME', 'Nettstedets navn');
-DEFINE('_KUNENA_MYPROFILE_WEBSITE_NAME_DESC', 'Eksempel: Best of Joomla!');
+DEFINE('_KUNENA_MYPROFILE_WEBSITE_NAME_DESC', 'Eksempel: Joomla! i Norge');
 DEFINE('_KUNENA_MYPROFILE_WEBSITE_URL', 'URL til nettstedet');
 DEFINE('_KUNENA_MYPROFILE_WEBSITE_URL_DESC', 'Eksempel: www.joomlainorge.no');
 DEFINE('_KUNENA_MYPROFILE_MSN', 'MSN');
@@ -509,7 +518,7 @@ DEFINE('_KUNENA_SAMPLWARN1', '-- Forsikre deg om at du laster inn eksempeldata i
 DEFINE('_KUNENA_FORUM1', 'Forum 1');
 DEFINE('_KUNENA_SAMPLEPOST1', 'Eksempelinnlegg 1');
 DEFINE('_KUNENA_SAMPLEFORUM11', 'Eksempelforum 1\r\n');
-DEFINE('_KUNENA_SAMPLEPOST11', '[b][size=4][color=#FF6600]Eksempelinnlegg[/color][/size][/b]\nGratulerer med ditt nye forum!\n\n[url=http://bestofjoomla.com]- Best of Joomla[/url]');
+DEFINE('_KUNENA_SAMPLEPOST11', '[b][size=4][color=#FF6600]Eksempelinnlegg[/color][/size][/b]\nGratulerer med ditt nye forum!\n\n[url=http://www.kunena.com]- Kunena[/url]');
 DEFINE('_KUNENA_SAMPLESUCCESS', 'Eksempeldata er lastet inn');
 DEFINE('_KUNENA_SAMPLEREMOVED', 'Eksempeldata er fjernet');
 DEFINE('_KUNENA_CBADDED', 'Profil fra Community Builder er lagt til');
@@ -518,7 +527,7 @@ DEFINE('_KUNENA_FILEDELETED', 'Fil slettet');
 DEFINE('_KUNENA_NOPARENT', 'Ingen overordnet');
 DEFINE('_KUNENA_DIRCOPERR', 'Feil: fil');
 DEFINE('_KUNENA_DIRCOPERR1', 'kunne ikke kopieres!\n');
-DEFINE('_KUNENA_INSTALL1', '<strong>Kunena Forum</strong> Komponent <em>til Joomla! CMS</em> <br />&copy; 2006 - 2007 av Best Of Joomla<br>Alle rettigheter forbeholdt.');
+DEFINE('_KUNENA_INSTALL1', '<strong>Kunena Forum</strong> Komponent <em>til Joomla! CMS</em> <br />&copy; 2006 - 2009 av Kunena<br>Alle rettigheter forbeholdt.');
 DEFINE('_KUNENA_INSTALL2', 'Overflytting/Installasjon :</code></strong><br /><br /><font color="red"><b>vellykket');
 // added by aliyar 
 DEFINE('_KUNENA_FORUMPRF_TITLE', 'Profilinnstillinger');
@@ -553,7 +562,7 @@ DEFINE('_KUNENA_USERNUM', 'Antall populære brukere');
 DEFINE('_KUNENA_USERPOPULAR', 'Vis statistikk over mest populære emner');
 DEFINE('_KUNENA_USERPOPULARDESC', 'Hvis du vil vise statistikk over mest populære emner, velg ja');
 DEFINE('_KUNENA_NUMPOP', 'Antall populære emner');
-DEFINE('_KUNENA_INFORMATION','Best of Joomla team er stolt å annonsere utgivelsen av Kunena 1.0.0. Den er en kraftig og stilig forumkomponent for en meget god content management system, Joomla!. Den er basert på det harde arbeidet til Joomlaboardteamet og mesteparten av våre gode ønsker går til dette teamet. Noen av hovedfunksjonene i Kunena som kan nevnes er listet under (i tillegg til JB&#39;s nåværende funksjoner):<br /><br /><ul><li>Et mye mere designervennlig forumsystem. Det er nært SMF malsystem, men har en enklere struktur. Med noen få trinn, kan du modifisere utseende totalt på forumet. Takk går til våre flinke designere i teamet.</li><li>Ubegrenset underkategorisystem med bedre administrasjonssystem.</li><li>Raskere system og bedre kodingsopplevelse for tredjepart.</li><li>Ikke forandret<br /></li><li>Profilboks på toppen av forumet</li><li>Støtte for populære PM systemer, som ClexusPM og Uddeim</li><li>Enkelt tilleggssystem (praktisk i stedet for perfekt)</li><li>Språkvalgt ikonsystem.<br /></li><li>Deling av bildesystem fra andre maler. Velging mellom maler og bildesystemer er mulig</li><li>Du kan legge til Joomla! moduler inne i forummalen. Ville du ha bannere inne i forumet ditt?</li><li>Valg og behandling av favorittråd</li><li>Forumfremvisninger og høydepunkter</li><li>Forumannonseringer og dets felt</li><li>Siste innlegg (Etiketter)</li><li>Statistikk på bunnen</li><li>Hvem&#39;s er pålogget, på hvilken side?</li><li>Kategorispesifikk bildesystem</li><li>Forbedret søkesti</li><li><strong>Joomlaboard importering, SMF er planlagt snart</strong></li><li>RSS, PDF utskrift</li><li>Avansert søk (under utvikling)</li><li>Community builder og Clexus PM profilvalg</li><li>Behandling av profilbilde : CB og Clexus PM valg<br /></li></ul><br />Husk at denne utgivelsen ikke er ment å brukes på produksjonssider, men vi har testet den grundig. Vi planlegger å fortsette med arbeidet på dette prosjektet, som vi gjør med våre andre prosjekter, og vi vil gjerne at du hjelper oss med å lage bridge-free løsning til Joomla! forumer.<br /><br />Dette er et samarbeidsarbeid med flere utviklere og designere som har deltatt og gjort det mulig å realisere. Vi takker alle og ønsker at du setter pris på denne utgaven!<br /><br />Best of Joomla! team<br /></td></tr></table>');
+DEFINE('_KUNENA_INFORMATION','Kunena-samfunnet er stolt å annonsere utgivelsen av Kunena 1.0.0. Den er en kraftig og stilig forumkomponent for en meget god content management system, Joomla!. Den er basert på det harde arbeidet til Joomlaboardteamet og mesteparten av våre gode ønsker går til dette teamet. Noen av hovedfunksjonene i Kunena som kan nevnes er listet under (i tillegg til JB&#39;s nåværende funksjoner):<br /><br /><ul><li>Et mye mere designervennlig forumsystem. Det er nært SMF malsystem, men har en enklere struktur. Med noen få trinn, kan du modifisere utseende totalt på forumet. Takk går til våre flinke designere i teamet.</li><li>Ubegrenset underkategorisystem med bedre administrasjonssystem.</li><li>Raskere system og bedre kodingsopplevelse for tredjepart.</li><li>Ikke forandret<br /></li><li>Profilboks på toppen av forumet</li><li>Støtte for populære PM systemer, som ClexusPM og Uddeim</li><li>Enkelt tilleggssystem (praktisk i stedet for perfekt)</li><li>Språkvalgt ikonsystem.<br /></li><li>Deling av bildesystem fra andre maler. Velging mellom maler og bildesystemer er mulig</li><li>Du kan legge til Joomla! moduler inne i forummalen. Ville du ha bannere inne i forumet ditt?</li><li>Valg og behandling av favorittråd</li><li>Forumfremvisninger og høydepunkter</li><li>Forumannonseringer og dets felt</li><li>Siste innlegg (Etiketter)</li><li>Statistikk på bunnen</li><li>Hvem&#39;s er pålogget, på hvilken side?</li><li>Kategorispesifikk bildesystem</li><li>Forbedret søkesti</li><li><strong>Joomlaboard importering, SMF er planlagt snart</strong></li><li>RSS, PDF utskrift</li><li>Avansert søk (under utvikling)</li><li>Community builder og Clexus PM profilvalg</li><li>Behandling av profilbilde : CB og Clexus PM valg<br /></li></ul><br />Husk at denne utgivelsen ikke er ment å brukes på produksjonssider, men vi har testet den grundig. Vi planlegger å fortsette med arbeidet på dette prosjektet, som vi gjør med våre andre prosjekter, og vi vil gjerne at du hjelper oss med å lage bridge-free løsning til Joomla! forumer.<br /><br />Dette er et samarbeidsarbeid med flere utviklere og designere som har deltatt og gjort det mulig å realisere. Vi takker alle og ønsker at du setter pris på denne utgaven!<br /><br />Kunena-samfunnet<br /></td></tr></table>');
 DEFINE('_KUNENA_INSTRUCTIONS', 'Instruksjoner');
 DEFINE('_KUNENA_FINFO', 'Kunena foruminformasjon');
 DEFINE('_KUNENA_CSSEDITOR', 'Skriveprogram for CSS, til Kunenamal');
@@ -838,7 +847,7 @@ DEFINE('_PREVIEW', 'forhåndsvis');
 DEFINE('_COM_A_MOSBOT_TITLE', 'Diskusjonsbot');
 DEFINE('_COM_A_MOSBOT_DESC', 'Diskusjonsboten gjør det mulig for dine brukere å diskutere artikler på nettsidene dine. Artikkelens tittel vil bli brukt som tittel på emnet.'
 .'<br />Dersom emnet ikke allerede eksisterer, vil en ny bli opprettet. Dersom emnet allerede eksisterer, blir brukeren vist til tråden hvor hun/han kan legge inn sitt svar.' . '<br /><strong>Du må laste ned og installere diskusjonsboten separat.</strong>'
-.'<br />Gå til <a href="http://www.bestofjoomla.com">Best of Joomla Sidene</a> for mere informasjon.' . '<br />Etter installasjonen må du legge til følgende bot-kommando i artiklene dine:' . '<br />{mos_fb_discuss:<em>kategoriID</em>}'
+.'<br />Gå til <a href="http://www.kunena.com">Kunena-Sidene</a> for mere informasjon.' . '<br />Etter installasjonen må du legge til følgende bot-kommando i artiklene dine:' . '<br />{mos_fb_discuss:<em>kategoriID</em>}'
 .'<br /><em>kategoriID</em> er den forumskategorien hvor artiklene skal diskuteres. For å finne den rette kategoriIDen kan du sjekke i forumet ' . 'og finne kategoriens ID i URLen i nettleseren din.'
 .'<br />Eksempel: Hvis du vil at artikkelen skal diskuteres i et forum med kategoriID 26, bør Bot-kommandoen se slik ut: {mos_fb_discuss:26}'
 .'<br />Dette kan se vanskelig ut, men det gir deg muligheten til å få artiklene dine diskutert i et matchende forum.' );
@@ -912,7 +921,7 @@ DEFINE('_COM_C_IMAGESDESC', 'Bla gjennom og administrer opplastede bilder');
 DEFINE('_COM_C_CSS', 'Rediger CSS Filen');
 DEFINE('_COM_C_CSSDESC', 'Optimaliser Kunena\'s utseende og følelse');
 DEFINE('_COM_C_SUPPORT', 'Hjelp til forumet');
-DEFINE('_COM_C_SUPPORTDESC', 'Koble til "Best of Joomla" nettsted (nytt vindu)');
+DEFINE('_COM_C_SUPPORTDESC', 'Koble til "Kunena"-siden (nytt vindu)');
 DEFINE('_COM_C_PRUNETAB', 'Rydd opp i forum');
 DEFINE('_COM_C_PRUNETABDESC', 'Fjern gamle tråder (konfigurerbar)');
 DEFINE('_COM_C_PRUNEUSERS', 'Rydd opp i brukere');
@@ -1120,7 +1129,7 @@ DEFINE('_COM_A_AVATARGALLERY', 'Bruk profilbildegalleri');
 DEFINE('_COM_A_AVATARGALLERY_DESC', 'Velg &quot;Ja&quot; dersom du vil gi brukere mulighet til å velge profilbilde fra et galleri du tilbyr (components/com_kunena/avatars/gallery).');
 DEFINE('_COM_A_RANKING_DESC', 'Velg &quot;Ja&quot; dersom du vil vise rangeringen registrerte brukere har, basert på antall innlegg de har skrevet.<br/><strong>Merk at du må aktivere brukerstatistikk under fanen Brukerrelatert for å vise den.</strong>');
 DEFINE('_COM_A_RANKINGIMAGES', 'Bruk rangeringsikoner');
-DEFINE('_COM_A_RANKINGIMAGES_DESC', 'Velg &quot;Ja&quot; dersom du vil vise rangeringen registrerte brukere har med et ikon (fra components/com_kunena/ranks). Om du slår dette av vil en tekst for rangeringen vises. Sjekk dokumentasjonen på www.bestofjoomla.com for mere informasjon om rangeringsikoner (ranking images)');
+DEFINE('_COM_A_RANKINGIMAGES_DESC', 'Velg &quot;Ja&quot; dersom du vil vise rangeringen registrerte brukere har med et ikon (fra components/com_kunena/ranks). Om du slår dette av vil en tekst for rangeringen vises. Sjekk dokumentasjonen på www.kunena.com for mere informasjon om rangeringsikoner (ranking images)');
 
 //email and stuff
 $_COM_A_NOTIFICATION = "Melding om nytt innlegg fra ";
@@ -1418,6 +1427,6 @@ DEFINE('_KUNENA_RANKS', 'Tittel til rang');
 DEFINE('_KUNENA_RANKS_SPECIAL', 'Spesial');
 DEFINE('_KUNENA_RANKSMIN', 'Minumium antall innlegg');
 DEFINE('_KUNENA_RANKS_ACTION', 'Handlinger');
-DEFINE('_KUNENA_NEW_RANK', 'Ny grad');
+DEFINE('_KUNENA_NEW_RANK', 'Ny rang');
 
 ?>
