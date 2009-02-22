@@ -27,6 +27,52 @@
 // Dont allow direct linking
 defined ('_VALID_MOS') or die('Direct Access to this location is not allowed.');
 
+// 1.0.8
+DEFINE('_KUNENA_CATID', 'ID');
+DEFINE('_POST_NOT_MODERATOR', 'You don\'t have moderator permissions!');
+DEFINE('_POST_NO_FAVORITED_TOPIC', 'This thread has <b>NOT</b> been added to your favorites');
+DEFINE('_COM_C_SYNCEUSERSDESC', 'Sync the Kunena user table with the Joomla user table');
+DEFINE('_POST_FORGOT_EMAIL', 'You forgot to include your e-mail address.  Click your browser&#146s back button to go back and try again.');
+DEFINE('_KUNENA_POST_DEL_ERR_FILE', 'Everything deletedâ some attachment files were missing!');
+// New strings for initial forum setup. Replacement for legacy sample data
+DEFINE('_KUNENA_SAMPLE_FORUM_MENU_TITLE', 'Forum');
+DEFINE('_KUNENA_SAMPLE_MAIN_CATEGORY_TITLE', 'Main Forum');
+DEFINE('_KUNENA_SAMPLE_MAIN_CATEGORY_DESC', 'This is the main forum category. As a level one category it serves as a container for individual boards or forums. It is also referred to as a level 1 category and is a must have for any Kunena Forum setup.');
+DEFINE('_KUNENA_SAMPLE_MAIN_CATEGORY_HEADER', 'In order to provide additional information for you guests and members, the forum header can be leveraged to display text at the very top of a particular category.');
+DEFINE('_KUNENA_SAMPLE_FORUM1_TITLE', 'Welcome Mat');
+DEFINE('_KUNENA_SAMPLE_FORUM1_DESC', 'We encourage new members to post a short introduction of themselves in this forum category. Get to know each other and share you common interests.<br>');
+DEFINE('_KUNENA_SAMPLE_FORUM1_HEADER', '<strong>Welcome to the Kunena forum!</strong><br><br>Tell us and our members who you are, what you like and why you became a member of this site.<br>We welcome all new members and hope to see you around a lot!<br>');
+DEFINE('_KUNENA_SAMPLE_FORUM2_TITLE', 'Suggestion Box');
+DEFINE('_KUNENA_SAMPLE_FORUM2_DESC', 'Have some feedback and input to share?<br>Don\'t be shy and drop us a note. We want to hear from you and strive to make our site better and more user friendly for our guests and members a like.');
+DEFINE('_KUNENA_SAMPLE_FORUM2_HEADER', 'This is the optional Forum header for the Suggestion Box.<br>');
+DEFINE('_KUNENA_SAMPLE_POST1_SUBJECT', 'Welcome to Kunena!');
+DEFINE('_KUNENA_SAMPLE_POST1_TEXT', '[size=4][b]Welcome to Kunena![/b][/size]
+
+Thank you for choosing Kunena for your community forum needs in Joomla.
+
+Kunena, translated from Swahili meaning "to speak", is built by a team of open source professionals with the goal of providing a top-quality, tightly unified forum solution for Joomla. Kunena even supports social networking components like Community Builder and JomSocial.
+
+
+[size=4][b]Additional Kunena Resources[/b][/size]
+
+[b]Kunena Documentation:[/b] http://www.kunena.com/docs
+(http://docs.kunena.com)
+
+[b]Kunena Support Forum[/b]: http://www.kunena.com/forum
+(http://www.kunena.com/index.php?option=com_kunena&Itemid=125)
+
+[b]Kunena Downloads:[/b] http://www.kunena.com/downloads
+(http://joomlacode.org/gf/project/kunena/frs/)
+
+[b]Kunena Blog:[/b] http://www.kunena.com/blog
+(http://www.kunena.com/index.php?option=com_content&view=section&layout=blog&id=7&Itemid=128)
+
+[b]Submit your feature ideas:[/b] http://www.kunena.com/uservoice
+(http://kunena.uservoice.com/pages/general?referer_type=top3)
+
+[b]Follow Kunena on Twitter:[/b] http://www.kunena.com/twitter
+(https://twitter.com/kunena)');
+
 // 1.0.6
 DEFINE('_KUNENA_JOMSOCIAL', 'JomSocial');
 
