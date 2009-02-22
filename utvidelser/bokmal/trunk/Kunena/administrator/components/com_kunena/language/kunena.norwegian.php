@@ -20,8 +20,8 @@
 *
 * Norwegian Translation
 * @Copyright Translation (C) 2006 - 2009 Joomla! i Norge
-* @translator FB 1.0.x -> 1.0.4 Birger J. Nordølum, Supplements by Gunnar Holmstad, Kristian Wengen and Karl-Gustav Freding)
-* @translator FB/Kunena 1.0.5 -> 1.0.x Rune Rasmussen
+* @translator FB 1.0.x -> 1.0.4 Birger J. Nordølum, Supplements by Gunnar Holmstad, Kristian Wengen and Karl-Gustav Freding
+* @translator FB/Kunena 1.0.5 -> 1.0.8 Rune Rasmussen
 **/
 
 // Dont allow direct linking
@@ -29,48 +29,48 @@ defined ('_VALID_MOS') or die('Direct Access to this location is not allowed.');
 
 // 1.0.8
 DEFINE('_KUNENA_CATID', 'ID');
-DEFINE('_POST_NOT_MODERATOR', 'You don\'t have moderator permissions!');
-DEFINE('_POST_NO_FAVORITED_TOPIC', 'This thread has <b>NOT</b> been added to your favorites');
-DEFINE('_COM_C_SYNCEUSERSDESC', 'Sync the Kunena user table with the Joomla user table');
-DEFINE('_POST_FORGOT_EMAIL', 'You forgot to include your e-mail address.  Click your browser&#146s back button to go back and try again.');
-DEFINE('_KUNENA_POST_DEL_ERR_FILE', 'Everything deletedâ some attachment files were missing!');
+DEFINE('_POST_NOT_MODERATOR', 'Du har ikke moderator-rettigheter!');
+DEFINE('_POST_NO_FAVORITED_TOPIC', 'Denne tråden ble <b>IKKE</b> lagt til dine favoritter');
+DEFINE('_COM_C_SYNCEUSERSDESC', 'Synkroniser Kunenas brukertabell med Joomlas brukertabell');
+DEFINE('_POST_FORGOT_EMAIL', 'Du glemte å inkludere din e-postadresse. Klikk på din nettlesers tilbakeknapp for å gå tilbake og forsøke på nytt.');
+DEFINE('_KUNENA_POST_DEL_ERR_FILE', 'Alt slettet, noen vedleggfiler manglet!');
 // New strings for initial forum setup. Replacement for legacy sample data
 DEFINE('_KUNENA_SAMPLE_FORUM_MENU_TITLE', 'Forum');
-DEFINE('_KUNENA_SAMPLE_MAIN_CATEGORY_TITLE', 'Main Forum');
-DEFINE('_KUNENA_SAMPLE_MAIN_CATEGORY_DESC', 'This is the main forum category. As a level one category it serves as a container for individual boards or forums. It is also referred to as a level 1 category and is a must have for any Kunena Forum setup.');
-DEFINE('_KUNENA_SAMPLE_MAIN_CATEGORY_HEADER', 'In order to provide additional information for you guests and members, the forum header can be leveraged to display text at the very top of a particular category.');
-DEFINE('_KUNENA_SAMPLE_FORUM1_TITLE', 'Welcome Mat');
-DEFINE('_KUNENA_SAMPLE_FORUM1_DESC', 'We encourage new members to post a short introduction of themselves in this forum category. Get to know each other and share you common interests.<br>');
-DEFINE('_KUNENA_SAMPLE_FORUM1_HEADER', '<strong>Welcome to the Kunena forum!</strong><br><br>Tell us and our members who you are, what you like and why you became a member of this site.<br>We welcome all new members and hope to see you around a lot!<br>');
-DEFINE('_KUNENA_SAMPLE_FORUM2_TITLE', 'Suggestion Box');
-DEFINE('_KUNENA_SAMPLE_FORUM2_DESC', 'Have some feedback and input to share?<br>Don\'t be shy and drop us a note. We want to hear from you and strive to make our site better and more user friendly for our guests and members a like.');
-DEFINE('_KUNENA_SAMPLE_FORUM2_HEADER', 'This is the optional Forum header for the Suggestion Box.<br>');
-DEFINE('_KUNENA_SAMPLE_POST1_SUBJECT', 'Welcome to Kunena!');
-DEFINE('_KUNENA_SAMPLE_POST1_TEXT', '[size=4][b]Welcome to Kunena![/b][/size]
+DEFINE('_KUNENA_SAMPLE_MAIN_CATEGORY_TITLE', 'Hovedforum');
+DEFINE('_KUNENA_SAMPLE_MAIN_CATEGORY_DESC', 'Dette er forumets hovedkategori. Som en nivå en kategori fungerer den som en konteiner for individuelle forumer. Det blir også referert til som en nivå 1 kategori og er påkrevd for alle Kunena-forumoppsett.');
+DEFINE('_KUNENA_SAMPLE_MAIN_CATEGORY_HEADER', 'For å gi ytterligere informasjon for gjester og medlemmer kan forumhodet utnyttes til å vise tekst på toppen av en bestemt kategori.');
+DEFINE('_KUNENA_SAMPLE_FORUM1_TITLE', 'Velkommen');
+DEFINE('_KUNENA_SAMPLE_FORUM1_DESC', 'Vi oppfordrer nye medlemmer til å poste en kort introduksjon av dem selv i denne forumkategorien. Bli kjent med hverandre og del deres felles interesser.<br>');
+DEFINE('_KUNENA_SAMPLE_FORUM1_HEADER', '<strong>Velkommen til Kunena-forumet!</strong><br><br>Fortell oss og våre medlemmer hvem du er, hva du liker og hvorfor du ble medlem på denne siden.<br>Vi ønsker alle nye medlemmer velkommen og håper vi får se mye til dere fremover!<br>');
+DEFINE('_KUNENA_SAMPLE_FORUM2_TITLE', 'Forslagkasse');
+DEFINE('_KUNENA_SAMPLE_FORUM2_DESC', 'Har du noen tilbakemeldinger eller innspill du vil dele?<br>Ikke vær sjenert, send oss en melding. Vi ønsker å høre fra deg og streber etter å gjøre vår side bedre og mer brukervennlig for våre gjester og medlemmer.');
+DEFINE('_KUNENA_SAMPLE_FORUM2_HEADER', 'Dette er den valgfrie forumoverskriften for forslagkassen.<br>');
+DEFINE('_KUNENA_SAMPLE_POST1_SUBJECT', 'Velkommen til Kunena!');
+DEFINE('_KUNENA_SAMPLE_POST1_TEXT', '[size=4][b]Velkommen til Kunena![/b][/size]
 
-Thank you for choosing Kunena for your community forum needs in Joomla.
+Takk for at du valgte Kunena for ditt forumbehov i Joomla.
 
-Kunena, translated from Swahili meaning "to speak", is built by a team of open source professionals with the goal of providing a top-quality, tightly unified forum solution for Joomla. Kunena even supports social networking components like Community Builder and JomSocial.
+Kunena, som oversatt fra Swahili betyr "å snakke", er bygget av et lag åpen kildekode-profesjonelle med mål om å tilby toppkvalitets, tett samlet forumløsning for Joomla. Kunena støtter også sosiale nettverksløsninger som Community Builder og JomSocial.
 
 
-[size=4][b]Additional Kunena Resources[/b][/size]
+[size=4][b]Andre Kunena-resurser[/b][/size]
 
-[b]Kunena Documentation:[/b] http://www.kunena.com/docs
+[b]Kunena dokumentasjon:[/b] http://www.kunena.com/docs
 (http://docs.kunena.com)
 
-[b]Kunena Support Forum[/b]: http://www.kunena.com/forum
+[b]Kunena støtteforum[/b]: http://www.kunena.com/forum
 (http://www.kunena.com/index.php?option=com_kunena&Itemid=125)
 
-[b]Kunena Downloads:[/b] http://www.kunena.com/downloads
+[b]Kunena nedlastinger:[/b] http://www.kunena.com/downloads
 (http://joomlacode.org/gf/project/kunena/frs/)
 
-[b]Kunena Blog:[/b] http://www.kunena.com/blog
+[b]Kunena blogg:[/b] http://www.kunena.com/blog
 (http://www.kunena.com/index.php?option=com_content&view=section&layout=blog&id=7&Itemid=128)
 
-[b]Submit your feature ideas:[/b] http://www.kunena.com/uservoice
+[b]Send inn dine ideer:[/b] http://www.kunena.com/uservoice
 (http://kunena.uservoice.com/pages/general?referer_type=top3)
 
-[b]Follow Kunena on Twitter:[/b] http://www.kunena.com/twitter
+[b]Følg Kunena på Twitter:[/b] http://www.kunena.com/twitter
 (https://twitter.com/kunena)');
 
 // 1.0.6
@@ -125,7 +125,7 @@ DEFINE('_COM_A_TRIMLONGURLSFRONT_DESC', 'Antall tegn for første del av trimmede
 DEFINE('_COM_A_TRIMLONGURLSBACK', 'Siste del av trimmede nettadresser');
 DEFINE('_COM_A_TRIMLONGURLSBACK_DESC', 'Antall tegn for siste del av trimmede nettadresser. Trim lange nettadresser må være satt til &quot;Ja&quot;.');
 DEFINE('_COM_A_AUTOEMBEDYOUTUBE', 'Automatisk inkludering av YouTube-videoer');
-DEFINE('_COM_A_AUTOEMBEDYOUTUBE_DESC', 'Sett til &quot;Ja&quot; om du vil at youtube-videoadresser automatisk skal inkluderes.');
+DEFINE('_COM_A_AUTOEMBEDYOUTUBE_DESC', 'Sett til &quot;Ja&quot; om du vil at YouTube-videoadresser automatisk skal inkluderes.');
 DEFINE('_COM_A_AUTOEMBEDEBAY', 'Automatisk inkludering av eBay-produkter');
 DEFINE('_COM_A_AUTOEMBEDEBAY_DESC', 'Sett til &quot;Ja&quot; om du vil at eBay-produkter og søk automatisk skal inkluderes.');
 DEFINE('_COM_A_EBAYLANGUAGECODE', 'eBay-elements språkkode');
