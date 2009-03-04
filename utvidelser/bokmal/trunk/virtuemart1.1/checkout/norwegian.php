@@ -20,7 +20,7 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 global $VM_LANG;
 $langvars = array (
 	'CHARSET' => 'UTF-8',
-	'PHPSHOP_NO_CUSTOMER' => 'Du er enda ikke registrert som kunde. Vennligst fyll inn fakturainformasjon.',
+	'PHPSHOP_NO_CUSTOMER' => 'Du er enda ikke registrert som kunde i nettbutikken vår, du må derfor fylle inn dine kontaktopplysninger, slik at vi vet hvor varene skal sendes.',
 	'PHPSHOP_THANKYOU' => 'Takk for din bestilling!<br />Vi ønsker deg en fantastisk dag, og skulle du være usikker på noe kan du når som helst kontakte oss.',
 	'PHPSHOP_EMAIL_SENDTO' => 'En bekreftelse er sendt til e-postadressen du oppgav: ',
 	'PHPSHOP_CHECKOUT_NEXT' => 'Neste',
