@@ -3,8 +3,8 @@
 <install version="1.5" client="both" type="language" method="upgrade">
     <name>Norwegian bokmål (Norway)</name>
     <tag>nb-NO</tag>
-    <version>1.5.9</version>
-    <creationdate>11-01-2009</creationdate>
+    <version>1.5.10</version>
+    <creationdate>11-03-2009</creationdate>
     <author>Joomla! i Norge</author>
     <authoremail>oversettelser@joomlainorge.no</authoremail>
     <authorurl>www.joomlainorge.no</authorurl>
@@ -46,7 +46,6 @@
         <filename>nb-NO.com_search.ini</filename>
         <filename>nb-NO.com_search.menu.ini</filename>
         <filename>nb-NO.com_sections.ini</filename>
-        <filename>nb-NO.com_statistics.ini</filename>
         <filename>nb-NO.com_templates.ini</filename>
         <filename>nb-NO.com_trash.ini</filename>
         <filename>nb-NO.com_user.ini</filename>
@@ -151,6 +150,7 @@
         <filename>nb-NO.mod_syndicate.ini</filename>
         <filename>nb-NO.mod_whosonline.ini</filename>
         <filename>nb-NO.mod_wrapper.ini</filename>
+        <filename>nb-NO.plg_content_pagebreake.ini</filename>
         <filename>nb-NO.plg_content_vote.ini</filename>
         <filename>nb-NO.plg_search_categories.ini</filename>
         <filename>nb-NO.plg_search_contacts.ini</filename>
