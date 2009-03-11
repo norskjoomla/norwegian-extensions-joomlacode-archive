@@ -1050,9 +1050,6 @@ DEFINE('_UE_ICONS_DISPLAY','Vis ikoner på felter');
 DEFINE('_UE_ICONS_DISPLAY_DESC','Om ikonene og ikonforklaringene skal vises under registrering og på brukerredigeringssiden. Informasjonsikonene vises alltid dersom feltbeskrivelsen er tilgjengelig.');
 DEFINE('_UE_REG_SHOW_LOGIN_ON_PAGE','Vis innloggingsskjema på registrasjonssiden');
 DEFINE('_UE_REG_SHOW_LOGIN_ON_PAGE_DESC','Om innloggingsmodulen skal vises side ved side på registrasjonssiden. VIKTIG: CB innloggingsmodulen må være innstallert for at dette skal virke.');
-
-
-
 DEFINE('_UE_REQUIRED_ONLY','Bare det påkrevde ikonet');
 DEFINE('_UE_PROFILE_ONLY','Bare profilen / Ingen ikoner på profilen');
 DEFINE('_UE_REQUIRED_AND_PROFILE_ONLY','Bare de påkrevde og profilikoner');
@@ -1092,7 +1089,7 @@ DEFINE('_UE_FB_REMOVE_FAVORITES_ALL','Slett alle dine favoritter');
 DEFINE('_UE_FB_CONFIRMUNFAVORITEALL','Er du sikker på at du vil slette alle favorittrådene dine?');
 
 // 1.2 CB Team extensions
-DEFINE('_UE_PROFILE_GALLERY','Profil galleri');
+DEFINE('_UE_PROFILE_GALLERY','Profilgalleri');
 DEFINE('_UE_PROFILE_GALLERY_DESC','Denne fanen viser et standard galleri for CB profiler');
 DEFINE('_UE_PROFILE_GALLERY_MODERATION','Galleri moderering');
 DEFINE('_UE_PROFILE_GALLERY_MODERATION_DESC','Denne fanen viser alle bilder som venter på godkjenning');
@@ -1150,8 +1147,12 @@ DEFINE('_UE_SAVE','Lagre');
 DEFINE('_UE_LOGIN_TYPE','Felttype for innlogging');
 DEFINE('_UE_LOGIN_TYPE_DESC','Innlogging kan være brukernavn + passord, brukernavn eller e-post + passord. CB innloggingsmodulen tilpasser seg automatisk.');
 DEFINE('_UE_INCORRECT_EMAIL_OR_PASSWORD','E-postadresse og/eller passord er ugyldig. Vennligst prøv igjen.');
+// 1.2 CB RC 4 frontend:
+DEFINE('_UE_ERROR_IN_QUERY_TURN_SITE_DEBUG_ON_TO_VIEW','Det er en feil i databasespørringen. Sideadministrator kan aktivere feilsøking for å se og reparere spørringen.');
+// 1.2 CB RC 4 backend:
+DEFINE('_UE_USERNAME_OR_AUTH','Brukernavn, e-post eller aktiver programtillegger for CMS-autentisering');
+// 1.2 Stable:
 
-// ATTENTION: The closing tag, "?" and ">" has been intentionally omitted - CB works fine without it.
+// IMPORTANT WARNING: The closing tag, "?" and ">" has been intentionally omitted - CB works fine without it.
 // This was done to avoid errors caused by custom strings being added after the closing tag. ]
 // With such tags, always watchout to NOT add any line or space or anything after the "?" and the ">".
-
