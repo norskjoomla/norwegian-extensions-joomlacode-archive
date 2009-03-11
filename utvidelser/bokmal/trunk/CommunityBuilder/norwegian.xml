@@ -2,12 +2,12 @@
 <cbinstall version="1.0" type="plugin" group="language">
 	<name>Norwegian</name>
 	<author>Norwegian Translation Project</author>
-	<creationDate>February 2006</creationDate>
-	<copyright>(C) 2008 Joomla! i Norge</copyright>
+	<creationDate>11.03.2009</creationDate>
+	<copyright>(C) 2008 - 2009 Joomla! i Norge</copyright>
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>http://oversettelser.joomlainorge.no/</authorUrl>
-	<version>1.2 RC</version>
+	<version>1.2</version>
 	<description>Norsk oversettelse for Community Builder 1.2</description>
 	<files>
 	<filename plugin="norwegian">norwegian.php</filename>
