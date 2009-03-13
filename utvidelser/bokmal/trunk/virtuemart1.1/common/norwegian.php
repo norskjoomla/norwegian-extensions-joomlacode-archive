@@ -702,12 +702,12 @@ For more information on cancelling orders and returning items, see the <a href="
 	Brukernavn - %s
 	
 	Vennligst ikke svar på denne meldingen. Den er automatisk generert, og kun til informasjon.',
-	'REG_COMPLETE' => '<div class="componentheading">Du er nå registrert!</div><br />Nå kan du logge inn.',
+	'REG_COMPLETE' => '<div class="componentheading">Du er nå registrert og innlogget!</div>',
 	'REG_COMPLETE_ACTIVATE' => '<div class="componentheading">Du er nå registrert!</div><br />Din kundekonto har blitt opprettet, og en bekreftelse er sendt til deg på e-postadressen du oppga. Kontoen aktiveres ved å klikke på lenken i e-posten.',
 	'DATE_FORMAT_LC' => '%A, %d %B %Y',
 	'VM_CART_PRODUCT_ADDED' => 'Produktet ble lagt til i handlekurven din.',
 	'VM_CART_PRODUCT_UPDATED' => 'Antallet ble oppdatert.',
-	'CMN_OK' => 'Ok',
+	'CMN_OK' => 'OK',
 	'CMN_CONTINUE' => 'Fortsett',
 	'CMN_CANCEL' => 'Avbryt',
 	'VM_USERGROUP_LBL' => 'Brukergrupper',
