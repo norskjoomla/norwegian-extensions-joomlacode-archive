@@ -1,0 +1,9 @@
+Dette er en oversettelse av JCal Client 1.6 Beta og det kan derfor komme endringer frem til en endelig utgivelse finner sted.
+
+Filen plasseres i ./components/language/norwegian
+
+06.01.2008  Kjørt diff mellom versjon 1.5 og 1.6.  Startet oversettelse og språkvask.
+
+Joomla!-versjon : 1.0.x og 1.5
+
+UTF-8 vil bli lagt til så snart alt er oversatt.  Som en foreløpig løsning: Åpne filen i en editor som kan skifte Character Encoding til UTF-8

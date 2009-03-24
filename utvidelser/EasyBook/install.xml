@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+<install version="1.5" client="both" type="language">
+    <name>Norwegian bokmål (Norway)</name>
+    <tag>nb-NO</tag>
+    <version>1.0</version>
+    <creationDate>15.01.2008</creationDate>
+    <author>Rune Rasmussen and Olav Fosså</author>
+    <authorEmail>oversettelser@joomlainorge.no</authorEmail>
+    <authorUrl>www.joomlainorge.no</authorUrl>
+    <copyright>Copyright (C) 2008 Joomla! i Norge. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description>Norwegian bokmål translation for EasyBook</description>
+    <administration>
+      <files folder="admin">
+        <filename>nb-NO.com_easybook.ini</filename>
+        <filename>nb-NO.com_easybook.menu.ini</filename>
+      </files>
+  </administration>
+  <site>
+      <files folder="site">
+        <filename>nb-NO.com_easybook.ini</filename>
+    </files>
+  </site>
+  <params />
+</install>
