@@ -1,5 +1,0 @@
-** Norsk Språkfil til
-** RS Gallery2, versjon 1.1.14 Alpha
-
-** INFO
-Språkfilen legges i administrator/components/com_rsgallery2/language/
