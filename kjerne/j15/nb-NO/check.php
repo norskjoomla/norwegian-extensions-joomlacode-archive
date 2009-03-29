@@ -5,9 +5,9 @@ global $defs;
 $defs = array();
 
 
-find_defs( 'site/nb-NO/' );
-find_defs( 'administrator/nb-NO/' );
-#find_defs( 'installation/nb-NO/' );
+find_defs( 'site/language/nb-NO/' );
+find_defs( 'administrator/language/nb-NO/' );
+#find_defs( 'installation/language/nb-NO/' );
 
 foreach( $defs as $def => $text) {
 	if( count($text) < 2 ) continue;
