@@ -22,10 +22,34 @@
 * @Copyright Translation (C) 2006 - 2009 Joomla! i Norge
 * @translator FB 1.0.x -> 1.0.4 Birger J. Nordølum, Supplements by Gunnar Holmstad, Kristian Wengen and Karl-Gustav Freding
 * @translator FB/Kunena 1.0.5 -> 1.0.8 Rune Rasmussen
+* @translator FB/Kunena 1.0.10 -> 1.5.1b Knut Carlsen
 **/
 
 // Dont allow direct linking
 defined ('_VALID_MOS') or die('Direct Access to this location is not allowed.');
+// 1.5.1b
+
+DEFINE('_KUNENA_CFC_SAVED','CSS-filen lagret.');
+DEFINE('_KUNENA_CFC_NOTSAVED','CSS-filen ble ikke lagret.');
+DEFINE('_KUNENA_JS_WARN_NAME_MISSING','Navnet ditt mangler');
+DEFINE('_KUNENA_JS_WARN_UNAME_MISSING','Brukernavnet ditt mangler');
+DEFINE('_KUNENA_JS_WARN_VALID_AZ09','Feltet inneholder ugyldige karakterer');
+DEFINE('_KUNENA_JS_WARN_MAIL_MISSING','Epostadresse mangler');
+DEFINE('_KUNENA_JS_WARN_PASSWORD2','Registrer passord');
+DEFINE('_KUNENA_JS_PROMPT_UNAME','Gjenta registreringen av nytt brukernavn');
+DEFINE('_KUNENA_JS_PROMPT_PASS','Gjenta registreringen av nytt passord');
+DEFINE('_KUNENA_DT_LMON_DEC', 'Desember');
+DEFINE('_KUNENA_DT_MON_DEC', 'Des');
+DEFINE('_KUNENA_NOGENDER', 'Ukjent');
+
+// 1.0.10
+DEFINE('_KUNENA_ERROR_INCOMPLETE_ERROR', 'Your Kunena installation is incomplete!');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_OFFLINE', 'Because of the above errors your Forum is now Offline and Forum Administration has been disabled.');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_REASONS', 'Possible reasons for this error:');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_1', '1) Kunena installation process has failed or timed out (try to install it again)');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_2', '2) You have removed some of the Kunena tables from your database');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_3', '3) Your database has been corrupted');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_SUPPORT', 'Our support forum can be found from:');
 
 // 1.0.9
 DEFINE('_KUNENA_INSTALLED_VERSION', 'Installert versjon');
