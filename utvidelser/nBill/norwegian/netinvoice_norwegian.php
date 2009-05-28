@@ -237,28 +237,28 @@ define("INV_SUB_EXPIRY_MESSAGE", "Vennligst vær oppmerksom på at din brukerkonto
 define("INV_SUB_EXPIRY_BLOCKED", "BLOKKERT");
 define("INV_SUB_EXPIRY_DELETED", "SLETTET");
 define("INV_SUB_EXPIRY_DOWNGRADED", "NEDGRADERT til '%s'");
-define("INV_SUB_EXPIRY_REASON_CANCELLED", "your user subscription order has been cancelled.");
-define("INV_SUB_EXPIRY_REASON_DELETED", "your user subscription order has been deleted.");
-define("INV_SUB_EXPIRY_REASON_EXPIRED", "your user subscription order has exceeded its fixed expiry date.");
-define("INV_SUB_EXPIRY_REASON_NOT_RENEWED", "your user subscription order has not been renewed. To continue accessing this site with your previous user privileges, please contact us to renew your subscription.");
-define("INV_SUB_EXPIRY_REASON_UNKNOWN", "unknown. Please contact us if you feel this is in error.");
-define("INV_CONTINUE", "Click here to continue");
-define("INV_CONTINUE_HOME", "Click here to return to the home page.");
+define("INV_SUB_EXPIRY_REASON_CANCELLED", "din ordre på brukerabonnement har blitt annullert.");
+define("INV_SUB_EXPIRY_REASON_DELETED", "din ordre på brukerabonnement har blitt slettet.");
+define("INV_SUB_EXPIRY_REASON_EXPIRED", "ditt brukerabonnement har utløpt.");
+define("INV_SUB_EXPIRY_REASON_NOT_RENEWED", "ditt brukerabonnement har blitt fornyet. Kontakt oss for å fornye ditt abonnement, slik at du kan fortsette å bruke siden med dine tidligere rettigheter.");
+define("INV_SUB_EXPIRY_REASON_UNKNOWN", "ukjent. Vennligst kontakt oss om du mener dette dette er en feil.");
+define("INV_CONTINUE", "Klikk her for å fortsette");
+define("INV_CONTINUE_HOME", "Klikk her for å returnere til hjemmesiden.");
 
 //Version checking
-define("INV_SOFTWARE_OOD", "WARNING! Your copy of " . INV_BRANDING_NAME . " is out of date. You are attempting to run an old version of " . INV_BRANDING_NAME . " with a newer version of the database. This will result in program errors - please upgrade your software (see " . INV_BRANDING_WEBSITE . ").");
-define("INV_DATABASE_OOD", "WARNING! Your database needs to be upgraded. Failure to do so will result in program errors. %s to upgrade now.");
-define("INV_CLICK_HERE", "Click Here");
-define("INV_NEW_VERSION_AVAILABLE", "A new version of " . INV_BRANDING_NAME . " (%s) is now available.");
-define("INV_NEW_VERSION_MANUAL", "This version cannot be installed automatically - you need to upgrade manually (see documentation for details)");
-define("INV_PATCH_COPY_FAILURES", "An attempt was made to install a patch, but the following files could not be copied. Please download the patch from the " . INV_BRANDING_NAME . " website and re-install it manually.");
-define("INV_PATCH_DB_ERRORS", "An attempt was made to install a patch, but the following database error(s) occurred. You may need to download the patch from the " . INV_BRANDING_NAME . " website and re-install it manually.");
-define("INV_PATCH_FAILED_TO_INSTALL", "An attempt was made to install a patch, but one or more errors occurred. This is probably because your file or folder permissions do not allow PHP to overwrite the files. Alternatively, it could be that a connection to the server where the patch file is located could not be established. Please either try again later, or download the patch from the " . INV_BRANDING_NAME . " website and re-install it manually.");
-define("INV_AUTO_UPDATE_DISABLED", "Automatic updates have been disabled - to turn automatic updates on again, refer to the %sGlobal Configuration%s page.");
-define("INV_NO_NEW_VERSION_AVAILABLE", "You already have the latest version - no new version is available at present.");
-define("INV_PATCH_INSTALLED", "Your software has been upgraded. You are now running the latest version.");
-define("INV_TO_UPGRADE_NOW", "%s to upgrade now."); //Used in conjunction with INV_CLICK_HERE
-define("INV_UNABLE_TO_CHECK_VERSION", "Sorry, a connection to the online version checker could not be established. This might be because you do not have access to the internet, or the server might be down. It is not known whether or not you are running the latest version. Please try again later, or check the " . INV_BRANDING_NAME . " website.");
+define("INV_SOFTWARE_OOD", "ADVARSEL! Din kopi av " . INV_BRANDING_NAME . " er utdatert. Du forsøker å kjøre en gammel versjon av " . INV_BRANDING_NAME . " med en nyere versjon av databasen, dette vil føre til programfeil. Vennligst oppdater din programvare (se " . INV_BRANDING_WEBSITE . ").");
+define("INV_DATABASE_OOD", "ADVARSEL! Din database må oppdateres. Om dette ikke gjøres vil det resultere i programfeil. %s for å oppdatere nå.");
+define("INV_CLICK_HERE", "Klikk her");
+define("INV_NEW_VERSION_AVAILABLE", "En ny versjon av " . INV_BRANDING_NAME . " (%s) er nå tilgjengelig.");
+define("INV_NEW_VERSION_MANUAL", "Denne versjonen kan ikke installeres automatisk, du må oppdatere manuelt (se dokumentasjon for detaljer)");
+define("INV_PATCH_COPY_FAILURES", "Et forsøk ble gjort på installere en oppdateringspakke men følgende filer kunne ikke kopieres. Vennligst last ned pakken fra " . INV_BRANDING_NAME . "-nettsiden og installer manuelt.");
+define("INV_PATCH_DB_ERRORS", "Et forsøk ble gjort på å installere en oppdateringspakke men følgende databasefeil oppstod. Du må kanskje laste ned pakken fra " . INV_BRANDING_NAME . "-nettsiden og installere manuelt.");
+define("INV_PATCH_FAILED_TO_INSTALL", "Et forsøk ble gjort på å installere en oppdateringspakke men en eller flere feil oppstod. Dette er kanskje på grunn av at dine fil- og mapperettigheter ikke tillater PHP å overskrive filene, eventuelt kan det være problemer med forbindelsen til serveren hvor oppdateringspakken ligger. Vennligst forsøk igjen senere, eller last ned pakken fra " . INV_BRANDING_NAME . "-nettsiden og installer manuelt.");
+define("INV_AUTO_UPDATE_DISABLED", "Automatisk oppdatering har blitt deaktivert. For å slå på funksjonen igjen se på siden %sGlobal konfigurasjon%s.");
+define("INV_NO_NEW_VERSION_AVAILABLE", "Du har allerede den nyeste versjonen, ingen nyere er tilgjengelig for øyeblikket.");
+define("INV_PATCH_INSTALLED", "Din programvare har blitt oppdatert, du kjører nå nyeste versjon.");
+define("INV_TO_UPGRADE_NOW", "%s for å oppdatere nå."); //Used in conjunction with INV_CLICK_HERE
+define("INV_UNABLE_TO_CHECK_VERSION", "Beklager, en tilkobling til den nettbaserte versjonsjekken kunne ikke opprettes. Dette kan være fordi du ikke har tilgang til internett, eller tjeneren kan være ute av drift for øyeblikket. Vi vet derfor ikke om du kjører nyeste versjon eller ikke. Vennligst forsøk igjen senere, eller sjekk på " . INV_BRANDING_NAME . "-nettsiden.");
 
 //Toolbar
 define("INV_TB_NEW", "Ny");
@@ -272,11 +272,11 @@ define("INV_TB_PREVIEW_PDF", "Forhåndsvis PDF");
 define("INV_TB_GENERATE_ALL", "Generer alle");
 define("INV_TB_GENERATE", "Generer");
 define("INV_TB_ACTIVATE", "Aktiver");
-define("INV_TB_SELECT_ITEM_TO_DELETE", "Please select the item(s) you want to delete from the list");
-define("INV_TB_DELETE_ARE_YOU_SURE", "Are you sure you want to delete selected item(s)?");
-define("INV_TB_SELECT_ITEM_TO_EDIT", "Please select the item you want to edit from the list");
-define("INV_TB_SELECT_ITEM_TO_GENERATE", "Please select the order you want to generate invoices for from the list");
-define("INV_TB_SELECT_ITEM_TO_PREVIEW", "Please select the item you want to preview from the list");
+define("INV_TB_SELECT_ITEM_TO_DELETE", "Vennligst velg hva du vil slette fra listen");
+define("INV_TB_DELETE_ARE_YOU_SURE", "Er du sikker på at du ønsker å slette valgte elementer?");
+define("INV_TB_SELECT_ITEM_TO_EDIT", "Vennligst velg hva du vil redigere fra listen");
+define("INV_TB_SELECT_ITEM_TO_GENERATE", "Vennligst velg ordren du generere faktura for fra listen");
+define("INV_TB_SELECT_ITEM_TO_PREVIEW", "Vennligst velg hva du vil forhåndsvise fra listen");
 define("INV_TB_BACK", "Tilbake");
 
 /***************************/
@@ -294,8 +294,8 @@ define("INV_MNU_STYLESHEET_WARNING_1011", "WARNING! You are using an OLD and INS
 define("INV_LICENSE_EXPIRES_SOON", "WARNING! Your license key expires soon (%s).");
 define("INV_LIC_EXP_ANNUAL", " If you wish to renew for another year now without losing any of the remaining time on this license key, please login at " . INV_BRANDING_WEBSITE . " and renew your *existing* order (rather than placing a new order).");
 define("INV_LIC_EXP_TRIAL", " If you want to continue using " . INV_BRANDING_NAME . " after this date, please purchase a license key at " . INV_BRANDING_WEBSITE);
-define("INV_TXN_DETAILS", "The following records were found for the given transaction ID");
-define("INV_TXN_NOT_FOUND", "No records were found for the given transaction ID.");
+define("INV_TXN_DETAILS", "Følgende oppføringer ble funnet for angitt transaksjonsnummer");
+define("INV_TXN_NOT_FOUND", "Ingen oppføringer ble funnet for angitt transaksjonsnummer.");
 define("INV_TXN_CLIENT", "Kunde");
 define("INV_TXN_PENDING_ORDER", "Ventende ordre-id");
 define("INV_TXN_FORM_TITLE", "Ordreskjema");
@@ -313,7 +313,7 @@ define("INV_TXN_TYPE_INVOICE", "Fakturaer");
 define("INV_TXN_TYPE_INCOME", "Inntekt");
 define("INV_TXN_RECEIPT_NO_UNKNOWN", "Ikke definert ennå");
 define("INV_MNU_TX_SEARCH", "Søk transaksjon");
-define("INV_MNU_TX_SEARCH_HELP", "Søk etter oppføringer basert på transaksjons-id fra din betalingsformidler");
+define("INV_MNU_TX_SEARCH_HELP", "Søk etter oppføringer basert på transaksjonsnummer fra din betalingsformidler");
 
 //Version 1.2.0 SP1
 define("INV_ERR_COULD_NOT_CREATE_USER_REASON", "WARNING! Although the order form is set to automatically create a user record, it was not possible to create a user for this order. The following error was reported: %s");
@@ -323,11 +323,11 @@ define("INV_CANNOT_UPGRADE_120", "Sorry, you cannot upgrade from a version prior
 define("INV_TEMP_NOT_WRITABLE", "PHP Temp directory not found or not writable ('%s') - invoice attachment could not be saved.");
 define("INV_NO_WRITE_ACCESS", "PHP does not have write access to the file %s - invoice attachment could not be saved.");
 define("INV_INVALID_CHARS_IN_FIELD", "%s contains invalid characters. Please only use alphanumeric characters for this field.");
-define("INV_INVALID_CHARS_USERNAME", "Username");
-define("INV_USERNAME_EXISTS", "Sorry, this Username is already in use.");
-define("INV_USER_EMAIL_EXISTS", "Sorry, this e-mail address is already in use.");
-define("INV_EMAIL_INVALID", "The e-mail address you entered is not valid.");
-define("INV_EMAIL_INVOICE_PDF", "Send invoice to client as a PDF attachment (plain text e-mail)");
+define("INV_INVALID_CHARS_USERNAME", "Brukernavn");
+define("INV_USERNAME_EXISTS", "Beklager, dette brukernavnet er allerede i bruk.");
+define("INV_USER_EMAIL_EXISTS", "Beklager, denne e-postadressen er fortsatt i bruk.");
+define("INV_EMAIL_INVALID", "E-postadressen du oppgav er ikke gyldig.");
+define("INV_EMAIL_INVOICE_PDF", "Send faktura til kunde som et PDF-vedlegg (e-post i ren tekst)");
 define("INV_NO", "Nei");
 define("INV_YES", "Ja");
 
