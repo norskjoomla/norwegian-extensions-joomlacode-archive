@@ -3,6 +3,7 @@
 * @version 1.1.x
 * @package nBill
 * @copyright (C) 2006-2007 Netshine Software Limited
+* @copyright Translation 2009 Joomla! i Norge
 * @license Commercial
 * 
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
@@ -21,20 +22,20 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Currency
-define("INV_CURRENCY_TITLE", "Currencies");
-define("INV_CURRENCY_INTRO", "If your products are priced in multiple currencies, you can define those currencies here. You must have at least one currency.");
-define("INV_CURRENCY_NAME", "Name of Currency");
-define("INV_CURRENCY_CODE", "ISO Code");
+define("INV_CURRENCY_TITLE", "Valutaer");
+define("INV_CURRENCY_INTRO", "Dersom dine produkter er priset i flere valutaer, du kan definere disse valutaene her. Du m&aring; minst velge en valuta.");
+define("INV_CURRENCY_NAME", "Valuta navn");
+define("INV_CURRENCY_CODE", "ISO kode");
 define("INV_CURRENCY_SYMBOL", "Symbol");
-define("INV_CURRENCY_RATE", "Conversion Rate");
-define("INV_EDIT_CURRENCY_RATE", "Edit Currency");
-define("INV_NEW_CURRENCY_RATE", "New Currency");
-define("INV_CURRENCY_DETAILS", "Currency Details");
-define("INV_CURRENCY_NAME_REQUIRED", "Please enter the name of the currency.");
-define("INV_CURRENCY_CODE_REQUIRED", "Please enter the ISO Code of the currency.");
-define("INV_INSTR_CURRENCY_NAME", "Proper name of currency (eg. 'US Dollars', 'Euros')");
-define("INV_INSTR_CURRENCY_CODE", "ISO Code of currency (eg. 'USD', 'EUR')");
-define("INV_INSTR_CURRENCY_SYMBOL", "Symbol used to prefix amounts (eg. '&#36;', '&euro;') - note: it is safest to use HTML codes (eg. &amp;#36; &amp;euro;).");
-define("INV_ERR_CANNOT_DELETE_LAST_CURRENCY", "You cannot delete the last currency!");
-define("INV_ERR_CANNOT_DELETE_CURRENCY_IN_USE", "One or more currencies you tried to delete are in use by one or more vendors. Process aborted - you cannot delete a currency that is being used by a vendor.");
+define("INV_CURRENCY_RATE", "Konverteringsfrekvens");
+define("INV_EDIT_CURRENCY_RATE", "Endre valuta");
+define("INV_NEW_CURRENCY_RATE", "Ny valuta");
+define("INV_CURRENCY_DETAILS", "Valuta detaljer");
+define("INV_CURRENCY_NAME_REQUIRED", "Vennligst skriv inn navnet p&aring; valutaen.");
+define("INV_CURRENCY_CODE_REQUIRED", "Vennligst skriv inn ISO koden for valutaen.");
+define("INV_INSTR_CURRENCY_NAME", "Navn p&aring; valuta (f. eks. 'US Dollar', 'Norske Kroner')");
+define("INV_INSTR_CURRENCY_CODE", "ISO kode for valuta (f. eks. 'USD', 'NOK')");
+define("INV_INSTR_CURRENCY_SYMBOL", "Symbol bruk som prefiks for bel&oslash;pene (f. eks. '&#36;', '&euro;') - husk: det er sikrest &aring; bruke HTML koder (f. eks. &amp;#36; &amp;euro;).");
+define("INV_ERR_CANNOT_DELETE_LAST_CURRENCY", "Du kan ikke slette den eneste valutaen!");
+define("INV_ERR_CANNOT_DELETE_CURRENCY_IN_USE", "En eller flere valutaer du pr&oslash;vde &aring; slette er bruk av en eller flere leverand&oslash;rer. Prosess avbrutt - du kan ikke slette en valuta som blir bruk av en leverand&oslash;r.");
 ?>
