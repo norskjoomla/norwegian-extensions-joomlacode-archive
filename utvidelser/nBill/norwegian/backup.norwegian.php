@@ -3,6 +3,7 @@
 * @version 1.1.x
 * @package nBill
 * @copyright (C) 2006-2007 Netshine Software Limited
+* @copyright Translation 2009 Joomla! i Norge
 * @license Commercial
 * 
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
@@ -21,31 +22,31 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Backup/Restore
-define("INV_BACKUP_RESTORE_TITLE", "Backup/Restore");
-define("INV_BACKUP_RESTORE_INTRO", "Use this page to save a complete backup of your database tables on your computer, or to restore a previously saved backup. You can choose to save or restore ALL of the database tables (your entire database), or just the " . INV_BRANDING_NAME . " tables.");
-define("INV_BACKUP_RESTORE_WARNING", "WARNING! Backup files contain potentially sensitive data. Make sure they are stored securely. DO NOT store backup files on your web server.");
-define("INV_BACKUP", "Backup");
-define("INV_RESTORE", "Restore");
-define("INV_BACKUP_WHAT", "Click on one of the following links to download a backup of your database tables (it may take some time, depending on how much data you have):");
-define("INV_BACKUP_BILLING", "Download Backup of " . INV_BRANDING_NAME . " Tables Only");
-define("INV_BACKUP_ALL", "Download Backup of All Tables");
-define("INV_ERR_NO_TABLES_FOUND", "An error occurred whilst attempting to backup your tables - no tables were found! This should never happen!");
-define("INV_ERR_STRUCTURE_UNREADABLE", "An error occurred whilst attempting to backup your tables - the database table structure could not be read.");
-define("INV_ERR_NO_DATA", "An error occurred whilst attempting to backup your tables - no data was found.");
-define("INV_RESTORE_WHAT", "Tables to Restore");
-define("INV_INSTR_RESTORE_WHAT", "If you are restoring from a backup which includes ALL database tables, you can choose whether to restore only the " . INV_BRANDING_NAME . " tables (and keep the rest of your site intact), or to restore all tables and revert your entire site to the backed-up version. If your backup file only contains " . INV_BRANDING_NAME . " tables, of course only " . INV_BRANDING_NAME . " tables will be restored.");
-define("INV_RESTORE_BILLING", "Restore " . INV_BRANDING_NAME . " Tables Only");
-define("INV_RESTORE_ALL", "Restore ALL Tables");
-define("INV_BACKUP_FILE", "Backup File");
-define("INV_INSTR_BACKUP_FILE", "Select the location of the backup file on your computer");
-define("RESTORE_ARE_YOU_SURE", "WARNING! This will erase all of your current data and restore your backed up version. If anything goes wrong you could lose all of your data. Use this feature at your own risk! Are you sure you want to continue?");
-define("INV_ERR_NO_DATA_FOUND_IN_FILE", "An error occurred whilst attempting to restore your backup file - no data was found in the file! No action has been taken.");
-define("INV_ERR_FILE_NOT_VALID", "The file you specified is not a valid " . INV_BRANDING_NAME . " backup file. No action has been taken.");
-define("INV_ERR_VERSION_MISMATCH", "The file you specified was backed up using a different version of " . INV_BRANDING_NAME . ". It cannot automatically be restored into this version. This can be achieved manually however, please see " . INV_BRANDING_WEBSITE . " for instructions.");
-define("INV_ERR_FILE_NOT_FOUND", "No backup file was found. No action has been taken.");
-define("INV_ERR_BACKUP_DB_ERROR", "The following error(s) occurred whilst attempting to restore the backup:\n\n%s\n\nAll other records were updated successfully.");
-define("INV_BACKUP_RESTORED", "Backup Restored Successfully.");
-define("INV_RESTORE_STATS", "%s Queries Executed. Restored from backup file dated %s");
-define("INV_NO_NON_BILLING_PRESENT", "WARNING! You requested ALL tables to be restored, but the backup file selected only contained " . strtoupper(INV_BRANDING_NAME) . " tables. Billing tables were restored, all other tables were left untouched.");
-define("INV_RETURN_TO_BACKUP", "Return to Backup/Restore Page");
+define("INV_BACKUP_RESTORE_TITLE", "Sikkerhetskopier/Gjenopprett");
+define("INV_BACKUP_RESTORE_INTRO", "Bruk denne siden for å lagre en komplett sikkerhetskopi av databasen på din datamaskin, eller for å gjenopprette en tidligere lagret sikkerhetskopi. Du kan velge å lagre eller gjenopprette ALLE databasetabeller (hele databasen) eller bare " . INV_BRANDING_NAME . " tabeller.");
+define("INV_BACKUP_RESTORE_WARNING", "ADVARSEL! Sikkerhetskopien kan inneholde sensitive data. Lagre sikkerhetskopien på en sikker måte. IKKE lagre sikkerhetskopien på serveren.");
+define("INV_BACKUP", "Sikkerhetskopi");
+define("INV_RESTORE", "Gjenopprett");
+define("INV_BACKUP_WHAT", "Klikk på en av linkene for å laste ned Sikkerhetskopien (avhengig av størrelsen så kan det ta litt tid):");
+define("INV_BACKUP_BILLING", "Last bare ned sikkerhetskopi av " . INV_BRANDING_NAME . " tabellene");
+define("INV_BACKUP_ALL", "Last ned sikkerhetskopi av alle tabeller");
+define("INV_ERR_NO_TABLES_FOUND", "En feil har oppstått - kunne ikke finne noen tabeller!");
+define("INV_ERR_STRUCTURE_UNREADABLE", "En feil har oppstått - kunne ikke lese fra databasen din.");
+define("INV_ERR_NO_DATA", "En feil har oppstått - ingen data funnet.");
+define("INV_RESTORE_WHAT", "Tabeller å gjenopprette");
+define("INV_INSTR_RESTORE_WHAT", "Om du skal gjenopprette fra en sikkerhetskopi som inneholder ALLE tabeller, kan du velge å bare gjenopprette " . INV_BRANDING_NAME . " tabeller (og beholde resten uberørt), eller å gjenopprette alle tabeller til innholde i sikkerhetskopien. Om sikkerhetskopien din bare inneholder " . INV_BRANDING_NAME . " tabeller, så blir bare " . INV_BRANDING_NAME . " tabeller gjenopprette.");
+define("INV_RESTORE_BILLING", "Gjenopprett bare " . INV_BRANDING_NAME . " tabeller");
+define("INV_RESTORE_ALL", "Gjenopprett alle tabeller");
+define("INV_BACKUP_FILE", "Sikkerhetskopi");
+define("INV_INSTR_BACKUP_FILE", "Velg hvor sikkerhetskopien er lagret på din datamaskin");
+define("RESTORE_ARE_YOU_SURE", "ADVARSEL! Dette vil slette all nåværende data og legge tilbake data fra sikkerhetskopien. Om noe går galt kan du miste all data. Brukes på egen risiko! Er du sikker på at du vil fortsette?");
+define("INV_ERR_NO_DATA_FOUND_IN_FILE", "En feil har oppstått ved forsøk på gjenoppretting - ingen data ble funnet i filen! Ingen endringer er utført.");
+define("INV_ERR_FILE_NOT_VALID", "Filen du valgte er ikke en gyldig " . INV_BRANDING_NAME . " sikkerhetskopi. Ingen endringer er utført.");
+define("INV_ERR_VERSION_MISMATCH", "Filen du valgte er fra en tidligere versjon av " . INV_BRANDING_NAME . ". Og kan ikke gjenopprettes automatisk til denne versjonen. Du må gjøre dette manuelt, se " . INV_BRANDING_WEBSITE . " for instruksjoner.");
+define("INV_ERR_FILE_NOT_FOUND", "Ingen sikkerhetskopi ble funnet. Ingen endringer er utført.");
+define("INV_ERR_BACKUP_DB_ERROR", "Følgende feil har oppstått under forsøk på gjenoppretting:\n\n%s\n\nAll andre poster ble oppdatert med godt resultat.");
+define("INV_BACKUP_RESTORED", "Gjenoppretting utført OK.");
+define("INV_RESTORE_STATS", "%s Spørringer utført. Gjenopprettet med sikkerhetskopi fra %s");
+define("INV_NO_NON_BILLING_PRESENT", "ADVARSEL! Du valgte å gjenopprette ALLE tabeller, men filen du valgte inneholdte " . strtoupper(INV_BRANDING_NAME) . " tabellene. Faktureringstabellene ble gjenopprettet, alle de andre ble ikke rørt.");
+define("INV_RETURN_TO_BACKUP", "Tilbake til side for Sikkerhetskopiering/Gjenoppretting");
 ?>
