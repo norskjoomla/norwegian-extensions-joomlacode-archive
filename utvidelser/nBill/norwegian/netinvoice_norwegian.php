@@ -332,7 +332,7 @@ define("INV_NO", "Nei");
 define("INV_YES", "Ja");
 
 //Version 1.2.3
-define("INV_OFFLINE", "Offline");
+define("INV_OFFLINE", "Frakoblet");
 // Note to translators:
 //Line 90 of original English language file amended (INV_ERR_SERIOUS_ERROR_NOMAIL) - if database not available, full error reports are now logged to the PHP error log
 
