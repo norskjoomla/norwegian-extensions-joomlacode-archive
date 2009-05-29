@@ -3,6 +3,7 @@
 * @version 1.1.x
 * @package nBill
 * @copyright (C) 2006-2007 Netshine Software Limited
+* @copyright Translation 2009 Joomla! i Norge
 * @license Commercial
 * 
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
