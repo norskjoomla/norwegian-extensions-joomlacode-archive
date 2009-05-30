@@ -3,7 +3,6 @@
 * @version 1.1.x
 * @package nBill
 * @copyright (C) 2006-2007 Netshine Software Limited
-* @copyright Translation 2009 Joomla! i Norge
 * @license Commercial
 * 
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
@@ -22,21 +21,21 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Extensions
-define("INV_EXTENSION_INSTALL_WARNING", "WARNING! Only install extensions from trusted sources. An extension can access your entire website!");
-define("INV_EXTENSION_NO_GATEWAY_FILE", "No file is marked as a payment gateway file");
-define("INV_EXTENSION_NO_LANGUAGE_FILE", "No file is marked as a language file");
-define("INV_EXTENSION_INSTALL_NEW", "Install new Extension");
-define("INV_EXTENSIONS_INSTALLED", "Installed Extensions");
-define("INV_EXTENSION_NAME", "Extension Name");
+define("INV_EXTENSION_INSTALL_WARNING", "ADVARSEL! Bare innstaller utvidelser fra kilder du stoler på. En utvidelse kan få tilgang til hele webområdet!");
+define("INV_EXTENSION_NO_GATEWAY_FILE", "Ingen fil er markert som betalingsmåtefil");
+define("INV_EXTENSION_NO_LANGUAGE_FILE", "Ingen fil er markert som språkfil");
+define("INV_EXTENSION_INSTALL_NEW", "Innstaller ny utvidelse");
+define("INV_EXTENSIONS_INSTALLED", "Innstallerte utvidelser");
+define("INV_EXTENSION_NAME", "Utvidelses navn");
 define("INV_EXTENSION_TYPE", "Type");
-define("INV_EXTENSION_DATE_CREATED", "Date Created");
-define("INV_EXTENSION_DATE_INSTALLED", "Date Installed");
-define("INV_EXTENSION_VERSION", "Version");
-define("INV_EXTENSION_AUTHOR", "Author");
-define("INV_EXTENSION_URL", "URL");
-define("INV_EXTENSION_UNINSTALL", "Uninstall");
-define("INV_EXTENSION_NOT_REMOVED", "Sorry, " . INV_BRANDING_NAME . " was unable to delete the extension '%s'. It will have to be removed manually.");
-define("INV_EXTENSION_REMOVED", "Extension '%s' uninstalled successfully.");
+define("INV_EXTENSION_DATE_CREATED", "Opprettet dato");
+define("INV_EXTENSION_DATE_INSTALLED", "Innstallert dato");
+define("INV_EXTENSION_VERSION", "Versjon");
+define("INV_EXTENSION_AUTHOR", "Skribrent");
+define("INV_EXTENSION_URL", "Adresse");
+define("INV_EXTENSION_UNINSTALL", "Avinnstaller");
+define("INV_EXTENSION_NOT_REMOVED", "Beklager, " . INV_BRANDING_NAME . " kunne ikke slette utvidelsen '%s'. Den må fjernes manuelt.");
+define("INV_EXTENSION_REMOVED", "Utvidelsen '%s' ble avinnstallert med suksess.");
 define("INV_UNINSTALL_KEEP_SETTINGS", "Do you want to keep your settings, so you can upgrade the extension (if applicable)? Select `OK` to leave any database settings intact, or `Cancel` to permanently delete this extension.");
 
 //Version 1.2.0
