@@ -37,7 +37,7 @@ define("INV_PRT_CARRIAGE", "Frakt");
 define("INV_PRT_CARRIAGE_VAT", "%s på frakt");
 define("INV_PRT_TOTAL", "Totalt");
 define("INV_PRT_NET_AMOUNT", "Nettobeløp:");
-define("INV_PRT_AMOUNT_DUE", "Forfall:");
+define("INV_PRT_AMOUNT_DUE", "Totalsum:");
 define("INV_PAYMENT_RECEIVED", "Betaling mottatt med takk");
 define("INV_PRT_INVOICE_TITLE_CR", "KREDITNOTA");
 define("INV_PRT_INVOICE_NO_CR", "Kreditnotanr.:");
