@@ -22,15 +22,15 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Nominal Ledger
-define("INV_LEDGER_TITLE", "Nominal Ledger");
-define("INV_LEDGER_INTRO", "If you keep a nominal ledger (also known as a general ledger or speed types/cost centres) for your transactions, you can define the codes and descriptions here. This is optional - for reporting purposes only.");
-define("INV_LEDGER_CODE", "Code");
-define("INV_LEDGER_DESCRIPTION", "Description");
-define("INV_EDIT_LEDGER_CODE", "Edit Nominal Ledger Code");
-define("INV_NEW_LEDGER_CODE", "New Nominal Ledger Code");
-define("INV_LEDGER_CODE_REQUIRED", "Please enter a code");
-define("INV_LEDGER_DESC_REQUIRED", "Please enter a description");
-define("INV_LEDGER_CODE_DETAILS", "Ledger Code Details");
-define("INV_INSTR_LEDGER_CODE", "Typically, a numerical cost centre code.");
+define("INV_LEDGER_TITLE", "Nominellhovedbok");
+define("INV_LEDGER_INTRO", "Dersom du beholder en nominellhovedbok(også kjent som en generell hovedbok eller hastighet typer/pris ) for transaksjoner, kan du definere koder og beskrivelser her. Dette er alternativt - kun for rapportering.");
+define("INV_LEDGER_CODE", "Kode");
+define("INV_LEDGER_DESCRIPTION", "Beskrivelse");
+define("INV_EDIT_LEDGER_CODE", "Rediger nominellhovedbok kode");
+define("INV_NEW_LEDGER_CODE", "Ny nominellhovedbok kode");
+define("INV_LEDGER_CODE_REQUIRED", "Vennligst skriv inn en kode");
+define("INV_LEDGER_DESC_REQUIRED", "Vennligst skriv inn en beskrivelse");
+define("INV_LEDGER_CODE_DETAILS", "Hovedbokkode detaljer");
+define("INV_INSTR_LEDGER_CODE", "Det typiske er en numerisk kode");
 define("INV_INSTR_LEDGER_DESCRIPTION", "");
 ?>

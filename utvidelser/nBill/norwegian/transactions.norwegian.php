@@ -21,24 +21,24 @@
 /** ensure this file is being included by a parent file */
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
-define("INV_TRANSACTIONS_TITLE", "Transaction Statement");
+define("INV_TRANSACTIONS_TITLE", "Transaksjons kunngjøring");
 define("INV_TRANSACTIONS_INTRO", "This is a list of all of the income and expenditure items that have been recorded for the given date range. No income or expenditure items are excluded, but this report does not include any unpaid invoices.");
-define("INV_TR_INCOME", "Income");
-define("INV_TR_EXPENDITURE", "Expenditure");
-define("INV_TR_ITEM_NO", "Number");
-define("INV_TR_RECEIPT", "Rct");
-define("INV_TR_PAYMENT", "Pyt");
-define("INV_TR_DATE", "Date");
-define("INV_TR_FROM_TO", "From/To");
+define("INV_TR_INCOME", "Resultat");
+define("INV_TR_EXPENDITURE", "Utgifter");
+define("INV_TR_ITEM_NO", "Nummer");
+define("INV_TR_RECEIPT", "Mot");
+define("INV_TR_PAYMENT", "Bet");
+define("INV_TR_DATE", "Dato");
+define("INV_TR_FROM_TO", "Fra/til");
 define("INV_TR_FOR", "For");
-define("INV_TR_INVOICE", "Invoice");
-define("INV_TR_CREDIT_NOTE", "Credit Note");
-define("INV_TR_LEDGER", "Ledger");
-define("INV_TR_NET_AMOUNT", "Net Amount");
-define("INV_TR_TAX", "Tax");
-define("INV_TR_TOTAL", "Total");
-define("INV_TR_BALANCE", "Balance");
-define("INV_TR_AWAITING_RCT_NO", "Awaiting Receipt No.");
-define("INV_TR_AWAITING_PYT_NO", "Awaiting Payment No.");
-define("INV_TR_CLIENT_REFUND", "Client Refund");
+define("INV_TR_INVOICE", "Faktura");
+define("INV_TR_CREDIT_NOTE", "Kredittnote");
+define("INV_TR_LEDGER", "Hovedbok");
+define("INV_TR_NET_AMOUNT", "Nettoantall");
+define("INV_TR_TAX", "Mva");
+define("INV_TR_TOTAL", "Totalt");
+define("INV_TR_BALANCE", "Balanse");
+define("INV_TR_AWAITING_RCT_NO", "Venter betalingssideformat nr.");
+define("INV_TR_AWAITING_PYT_NO", "Venter kvitteringssideformat nr.");
+define("INV_TR_CLIENT_REFUND", "Kunde tilbakebetaling);
 ?>
