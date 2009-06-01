@@ -22,25 +22,25 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Pending Orders
-define("INV_PENDING", "Pending");
-define("INV_ACTIVATE_PENDING_ORDER", "Activate Pending");
-define("INV_ACTIVATE_ARE_YOU_SURE", "WARNING! This will create a new order record, and the pending record will be deleted. If the related order form stipulates automatic creation of a user record and/or invoice, these will also be generated. Are you sure you want to continue?");
-define("INV_SELECT_PENDING_ORDER", "Please make a selection from the list to activate");
-define("INV_PENDING_ORDER", "Pending Order");
-define("INV_PENDING_TITLE", "Pending Orders");
-define("INV_PENDING_INTRO", "These are orders that were received through the website front-end, but for which payment has not yet been confirmed. Orders will only be held in this pending file if the order form to which they relate stipulates that they should be held until payment is confirmed. If the installed payment gateway extension detects a payment for a pending order, the order will be created automatically. If payment has been made by some other means, or if you want to activate an order without having received payment, you may do so using the activate toolbar button.");
-define("INV_PENDING_ORDER_ID", "Order ID");
-define("INV_PENDING_ORDER_FORM", "Order Form");
-define("INV_PENDING_ORDER_DATE", "Date");
-define("INV_PENDING_ORDER_VALUE", "Total Order Value");
-define("INV_SHOW_PENDING_ORDER", "Show Pending Order Details");
-define("INV_PENDING_ORDER_DETAILS", "Pending Order Details");
-define("INV_QUANTITY", "Quantity");
-define("INV_OTHER_DATA", "Other Data");
-define("INV_ORDERS_ACTIVATED", "Selected Pending Orders Activated");
-@define("INV_USERNAME", "Username");
-@define("INV_PAY_FREQUENCY", "Payment Frequency");
+define("INV_PENDING", "Venter");
+define("INV_ACTIVATE_PENDING_ORDER", "Aktiver venting");
+define("INV_ACTIVATE_ARE_YOU_SURE", "ADVARSEL! Dette vil opprette en ny bestillingspost, og ventende posten vil bli slettet. Hvis relatert bestillingsskjema setter automatisk oppretting av en brukerpost og / eller faktura, disse vil også bli generert. Er du sikker på at du vil fortsette?");
+define("INV_SELECT_PENDING_ORDER", "Vennligst gjør et valg fra listen for å aktivere");
+define("INV_PENDING_ORDER", "Ventende ordrer");
+define("INV_PENDING_TITLE", "Ventende ordrer");
+define("INV_PENDING_INTRO", "Dette er bestillingene som ble mottatt via nettsiden, men der betalingen er ennå ikke bekreftet. Bestillinger vil kun bli avholdt i påvente av at hvis bestillingsskjemaet som de fastslår at de bør holdes før betalingen er bekreftet. Hvis den installerte betalingsprosessoren i forlengelse oppdager en betaling for en ventende rekkefølge, vil rekkefølgen vil bli opprettet automatisk. Hvis betalingen er gjort på en annen måte, eller hvis du vil aktivere en bestilling uten å ha mottatt betaling, kan du gjøre det ved hjelp av aktivere verktøylinjeknappen.");
+define("INV_PENDING_ORDER_ID", "Ordre ID");
+define("INV_PENDING_ORDER_FORM", "Ordre skjema");
+define("INV_PENDING_ORDER_DATE", "Dato");
+define("INV_PENDING_ORDER_VALUE", "Total ordreverdi");
+define("INV_SHOW_PENDING_ORDER", "Vis ventende ordredetaljer");
+define("INV_PENDING_ORDER_DETAILS", "Ventende ordredetaljer");
+define("INV_QUANTITY", "Antall");
+define("INV_OTHER_DATA", "Andre data");
+define("INV_ORDERS_ACTIVATED", "Valgte ordre ble lagt til venting");
+@define("INV_USERNAME", "Brukernavn");
+@define("INV_PAY_FREQUENCY", "Betalings frekvens");
 
 //Version 1.2.0
-define("INV_PENDING_RESUME_LINK", "If you have enabled the payment of orders without being logged in (on the display options page), the following link can be used to resume this pending order (ie. to make payment).");
+define("INV_PENDING_RESUME_LINK", "Hvis du har aktivert innbetaling av bestillinger uten å være logget inn (på visningsalternativene siden), kan følgende link brukes til å gjenoppta denne utestående pålegg (f.eks. å gjøre betaling).");
 ?>

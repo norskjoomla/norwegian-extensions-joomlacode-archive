@@ -22,7 +22,7 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Backup/Restore
-define("INV_TX_SEARCH_TITLE", "Transaction Search");
-define("INV_TX_SEARCH_ID", "Transaction ID");
-define("INV_TX_SEARCH_SEARCH", "Search");
-define("INV_TX_SEARCH_INTRO", "You can use this feature to attempt to find records (orders/invoices/income/clients) that relate to a particular transaction reference number. This is useful where you have a transaction on a statement with your payment service provider, and you are trying to tie it up with your own records in " . INV_BRANDING_NAME . ". Enter a reference number in the box below and click on '" . INV_TX_SEARCH_SEARCH . "' to attempt to locate any related records.");
+define("INV_TX_SEARCH_TITLE", "Transaksjonssøk");
+define("INV_TX_SEARCH_ID", "Transaksjons ID");
+define("INV_TX_SEARCH_SEARCH", "Søk");
+define("INV_TX_SEARCH_INTRO", "Du kan bruke denne funksjonen til å forsøke å finne poster (ordre / faktura / inntekter / klienter) som er knyttet til et bestemt transaksjonsreferansenummer. Dette er nyttig der du har en transaksjon på en uttalelse med betalingen din tjenesteleverandør, og du prøver å knytte det opp med dine egne poster i ". INV_BRANDING_NAME.". Angi et referansenummer i boksen nedenfor og klikk på ". INV_TX_SEARCH_SEARCH ." for å forsøke å finne andre relaterte poster.");
