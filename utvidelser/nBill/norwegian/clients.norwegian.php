@@ -73,7 +73,7 @@ define("INV_INSTR_CLIENT_TAX_ZONE", "Hvis du har satt opp forskjellige skatteniv
 define("INV_INSTR_CREDIT_AMOUNT", "Kreditt denne kunden kan ha på kontoen (netto etter skatt).");
 define("INV_INSTR_CREDIT_TAX_AMOUNT", "Kreditt hos denne kunden som representerer skatt (for eksempel der hvor det er blitt betalt formye og noe skatt må tilbakebetales).");
 define("INV_INSTR_CREDIT_CURRENCY", "Valuta av kredittbeløpet hos denne kunden");
-define("INV_INSTR_CREDIT_LEDGER_CODE", "Nominal ledger code against which the credit should be recorded (at the time of refund).");
+define("INV_INSTR_CREDIT_LEDGER_CODE", "Hovedbok-kode som kreditt skal føres mot (ved refundering).");
 define("INV_INSTR_CREDIT_DESC", "Beskrivelsen vises på fakturaen når kredittbeløpet trekkes.");
 define("INV_INSTR_AUTO_DEDUCT", "Automatisk trekk beløpet fra neste faktura (bare hvis fakturaen er i samme valuta som kredittbeløpet).");
 define("INV_CLIENT_DELETED", "Kunden er slettet");
