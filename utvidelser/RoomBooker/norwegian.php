@@ -2,7 +2,7 @@
 /**
 * /language/norwegian.php
 * * * ElearningForce DK
-* * * Translation : Knut Carlsen (knut.carlsen@indusoft.no)
+* * * Translation : Knut Carlsen (knut.carlsen@joocom.no)
 **/
 
 // no direct access
@@ -35,6 +35,7 @@ define( '_RB_SHORT_DESCRIPTION',     'Kort beskrivelse');
 define( '_RB_LONG_DESCRIPTION',      'Lang beskrivelse'); 
 define( '_RB_DATE',       			 'Dato'); 
 define( '_RB_PERIODS',       		 'Perioder'); 
+define( '_RB_TIME',       		 	 'Tid');
 define( '_RB_PERIOD',       		 'Periode'); 
 define( '_RB_BUILDING',       		 'Bygning'); 
 define( '_RB_ROOM',       			 'Rom'); 
@@ -48,6 +49,7 @@ define( '_RB_USERNAME',       		 'Brukernavn');
 define( '_RB_SELECT_DAY_OF_WEEK',    'Velg dag i uken'); 
 define( '_RB_ENTER_NUMBER_OF_WEEKS', 'Registrer antall uker'); 
 define( '_RB_ENTER_SHORT_DESCR',	 'Registrer en kort beskrivelse.'); 
+define( '_RB_ENTER_DIFFRENT_TIME',	 'Registrer korrekt tid.'); 
 define( '_RB_ENTER_LONG_DESCR',		 'Registrer en lang beskrivelse.'); 
 define( '_RB_ENTER_BOOKING_DATE',	 'Registrer reservasjonsdato.'); 
 define( '_RB_ENTER_START_OR_END_DATE', 'Registrer start- eller sluttdato.');
@@ -90,6 +92,7 @@ define( '_RB_APPLY_ANY_RECURRING',   'Bruk for alle repeterende');
 define( '_RB_CANCEL', 				 'Avbryt');
 define( '_RB_DELETE_ANY_RECURRING',  'Slett alle repeterende');
 define( '_RB_DELETE_ONLY_THIS', 	 'Slett bare denne');
+define( '_RB_DELETE_ALL', 	 		 'Slett alle');
 define( '_RB_ONLY_DELETE_QUESTION',  'Slette bare denne reservasjonen eller også alle repeterende?');
 define( '_RB_BOOKING_INFO', 		 'Reservasjonsinfo.');
 define( '_RB_REPORT_SEARCH_RESULT',  'Søkeresultat for rapport');
@@ -116,4 +119,52 @@ define( '_RB_ALL_BUSY_COLOR',  'ffff50');
 
 define( '_RB_SELECT_ALL',  'Velg alle');
 
+define( '_RB_WARNING', 'Warning: If you delete booking for this day your whole recurring booking will be separated and will be considered as two separate recurring bookings. Please confirm if you want to separate your booking.');
+
+define('_RB_JANUARY', 'Januar');
+define('_RB_FEBRUARY', 'Februar');
+define('_RB_MARCH', 'Mars');
+define('_RB_APRIL', 'April');
+define('_RB_MAY', 'Mai');
+define('_RB_JUNE', 'Juni');
+define('_RB_JULY', 'Juli');
+define('_RB_AUGUST', 'August');
+define('_RB_SEPTEMBER', 'September');
+define('_RB_OCTOBER', 'Oktober');
+define('_RB_NOVEMBER', 'November');
+define('_RB_DECEMBER', 'Desember');
+
+define('_RB_MONDAY', 'Mandag');
+define('_RB_TUESDAY', 'Tirsdag');
+define('_RB_WEDNESDAY', 'Onsdag');
+define('_RB_THURSDAY', 'Torsdag');
+define('_RB_FRIDAY', 'Fredag');
+define('_RB_SATURDAY', 'Lørdag');
+define('_RB_SANDAY', 'Søndag');
+
+define('_RB_MON', 'Man');
+define('_RB_TUE', 'Tir');
+define('_RB_WED', 'Ons');
+define('_RB_THU', 'Tor');
+define('_RB_FRI', 'Fre');
+define('_RB_SAT', 'Lør');
+define('_RB_SAN', 'Søn');
+
+define('_RB_YEAR', 'År');
+
+define('_RB_ALL_ROOMS', 'Alle rom');
+define('_RB_ALL_USERS', 'Alle brukere');
+
+define('_RB_MONTHLY', 'Månedsvisning');
+define('_RB_WEEKLY', 'Ukentlig visning');
+define('_RB_START_TIME', 'Starttid');
+define('_RB_END_TIME', 'Sluttid');
+
+define('_RB_RK_NONE', 'Ingen');
+define('_RB_RK_DAILY', 'Daglig');
+define('_RB_RK_WEEKLY', 'Ukentlig');
+define('_RB_RK_MONTHLY', 'Månedlig');
+define('_RB_RK_MONTHLY_SD', 'Samme dag månedlig');
+define('_RB_RK_MONTHLY_SWD', 'Samme uke og dag månedlig');
+define('_RB_RK_FOR_X_WEEKS', 'For X uker');
 ?>
