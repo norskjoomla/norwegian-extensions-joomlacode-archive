@@ -22,13 +22,103 @@
 * @Copyright Translation (C) 2006 - 2009 Joomla! i Norge
 * @translator FB 1.0.x -> 1.0.4 Birger J. Nordølum, Supplements by Gunnar Holmstad, Kristian Wengen and Karl-Gustav Freding
 * @translator FB/Kunena 1.0.5 -> 1.0.8 Rune Rasmussen
-* @translator FB/Kunena 1.0.10 -> 1.5.1b Knut Carlsen
+* @translator FB/Kunena 1.0.10 (->linje 123) Knut Carlsen
 **/
 
 // Dont allow direct linking
 defined ('_VALID_MOS') or die('Direct Access to this location is not allowed.');
-// 1.5.1b
 
+// 1.0.11 and 1.5.3
+DEFINE('_KUNENA_VERSION_SVN', 'SVN Revision');
+DEFINE('_KUNENA_VERSION_DEV', 'Development Snapshot');
+DEFINE('_KUNENA_VERSION_ALPHA', 'Alpha Release');
+DEFINE('_KUNENA_VERSION_BETA', 'Beta Release');
+DEFINE('_KUNENA_VERSION_RC', 'Release Candidate');
+DEFINE('_KUNENA_VERSION_INSTALLED', 'You have installed Kunena %s (%s).');
+DEFINE('_KUNENA_VERSION_SVN_WARNING', 'Never use an SVN revision for anything else other than software development!');
+DEFINE('_KUNENA_VERSION_DEV_WARNING', 'This internal release should be used only by developers and testers!');
+DEFINE('_KUNENA_VERSION_ALPHA_WARNING', 'This release should not be used on live production sites.');
+DEFINE('_KUNENA_VERSION_BETA_WARNING', 'This release is not recommended to be used on live production sites.');	
+DEFINE('_KUNENA_VERSION_RC_WARNING', 'This release may contain bugs, which will be fixed in the final version.');	
+DEFINE('_KUNENA_ERROR_UPGRADE', 'Upgrading Kunena to version %s has failed!');
+DEFINE('_KUNENA_ERROR_UPGRADE_WARN', 'Your forum may be missing some important fixes and some features may be broken.');
+DEFINE('_KUNENA_ERROR_UPGRADE_AGAIN', 'Please try to upgrade again. If you cannot upgrade to Kunena %s, you can easily downgrade to the latest working version.');
+DEFINE('_KUNENA_PAGE', 'Page');
+DEFINE('_KUNENA_RANK_NO_ASSIGNED', 'No Rank Assigned');
+DEFINE('_KUNENA_INTEGRATION_CB_WARN_GENERAL', 'Problems detected in Community Builder integration:');
+DEFINE('_KUNENA_INTEGRATION_CB_WARN_INSTALL', 'Community Builder integration only works if you have Community Builder version %s or higher installed.');
+DEFINE('_KUNENA_INTEGRATION_CB_WARN_PUBLISH', 'Community Builder Profile integration only works if Community Builder User profile has been published.');
+DEFINE('_KUNENA_INTEGRATION_CB_WARN_UPDATE', 'Community Builder Profile integration only works if you are using Community Builder version %s or higher.');
+DEFINE('_KUNENA_INTEGRATION_CB_WARN_XHTML', 'Community Builder Profile integration only works if Community Builder is in W3C XHTML 1.0 Trans. compliance mode.');
+DEFINE('_KUNENA_INTEGRATION_CB_WARN_INTEGRATION', 'Community Builder Profile integration only works if the forum integration plugin has been enabled in Community Builder.');
+DEFINE('_KUNENA_INTEGRATION_CB_WARN_HIDE', 'Saving the Kunena configuration will disable integration and hide this warning.');
+			
+// 1.0.10
+DEFINE('_KUNENA_BACK', 'Back');
+DEFINE('_KUNENA_SYNC', 'Sync');
+DEFINE('_KUNENA_NEW_SMILIE', 'New Smilie');
+DEFINE('_KUNENA_PRUNE', 'Prune');
+// Editor
+DEFINE('_KUNENA_EDITOR_HELPLINE_BOLD', 'Bold text: [b]text[/b]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_ITALIC', 'Italic text: [i]text[/i]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_UNDERL', 'Underline text: [u]text[/u]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_STRIKE', 'Strikethrough Text: [strike]Text[/strike]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_SUB', 'Subscript Text: [sub]Text[/sub]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_SUP', 'Superscript Text: [sup]Text[/sup]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_QUOTE', 'Quote text: [quote]text[/quote]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_CODE', 'Code display: [code]code[/code]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_UL', 'Unordered List: [ul] [li]text[/li] [/ul] - Tip: a list must contain List Items');
+DEFINE('_KUNENA_EDITOR_HELPLINE_OL', 'Ordered List: [ol] [li]text[/li] [/ol] - Tip: a list must contain List Items');
+DEFINE('_KUNENA_EDITOR_HELPLINE_LI', 'List Item: [li] list item [/li]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_ALIGN_LEFT', 'Align left: [left]Text[/left]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_ALIGN_CENTER', 'Align center: [center]Text[/center]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_ALIGN_RIGHT', 'Align right: [right]Text[/right]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_IMAGELINK', 'Image link: [img size=400]http://www.google.com/images/web_logo_left.gif[/img]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_IMAGELINKSIZE', 'Image link: Size');
+DEFINE('_KUNENA_EDITOR_HELPLINE_IMAGELINKURL', 'Image link: URL of the image link');
+DEFINE('_KUNENA_EDITOR_HELPLINE_IMAGELINKAPPLY', 'Image link: Apply image link');
+DEFINE('_KUNENA_EDITOR_HELPLINE_LINK', 'Link: [url=http://www.zzz.com/]This is a link[/url]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_LINKURL', 'Link: URL of the link');
+DEFINE('_KUNENA_EDITOR_HELPLINE_LINKTEXT', 'Link: Text / Description of the link');
+DEFINE('_KUNENA_EDITOR_HELPLINE_LINKAPPLY', 'Link: Apply link');
+DEFINE('_KUNENA_EDITOR_HELPLINE_HIDE','Hidden text: [hide]any hidden text[/hide] - hide part of message from Guests');
+DEFINE('_KUNENA_EDITOR_HELPLINE_SPOILER', 'Spoiler: Text is only shown after you click the spoiler');
+DEFINE('_KUNENA_EDITOR_HELPLINE_COLOR', 'Color: [color=#FF6600]text[/color]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_FONTSIZE', 'Fontsize: [size=1]text size[/size] - Tip: sizes range from 1 to 5');
+DEFINE('_KUNENA_EDITOR_HELPLINE_FONTSIZESELECTION', 'Fontsize: Select Fontsize, mark text and press the button left from here');
+DEFINE('_KUNENA_EDITOR_HELPLINE_EBAY', 'eBay: [ebay]ItemId[/ebay]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_VIDEO', 'Video: Select Provider or URL - modus');
+DEFINE('_KUNENA_EDITOR_HELPLINE_VIDEOSIZE', 'Video: Size of the video');
+DEFINE('_KUNENA_EDITOR_HELPLINE_VIDEOWIDTH', 'Video: Width of the video');
+DEFINE('_KUNENA_EDITOR_HELPLINE_VIDEOHEIGHT', 'Video: Height of the video');
+DEFINE('_KUNENA_EDITOR_HELPLINE_VIDEOPROVIDER', 'Video: Select video provider');
+DEFINE('_KUNENA_EDITOR_HELPLINE_VIDEOID', 'Video: ID of the video - you can see it in the video URL');
+DEFINE('_KUNENA_EDITOR_HELPLINE_VIDEOAPPLY1', 'Video: [video size=100 width=480 height=360 provider=clipfish]3423432[/video]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_VIDEOURL', 'Video: URL of the video');
+DEFINE('_KUNENA_EDITOR_HELPLINE_VIDEOAPPLY2', 'Video: [video size=100 width=480 height=360]http://myvideodomain.com/myvideo[/video]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_IMGPH', 'Insert [img] placeholder in the post for attached image');
+DEFINE('_KUNENA_EDITOR_HELPLINE_FILEPH', 'Insert [file] placeholder in the post for attached file');
+DEFINE('_KUNENA_EDITOR_HELPLINE_SUBMIT', 'Click here to submit your message');
+DEFINE('_KUNENA_EDITOR_HELPLINE_PREVIEW', 'Click here to see what your message will look like when submitted');
+DEFINE('_KUNENA_EDITOR_HELPLINE_CANCEL', 'Click here to cancel your message');
+DEFINE('_KUNENA_EDITOR_HELPLINE_HINT', 'bbCode Help - Tip: bbCode can be used on selected text!');
+DEFINE('_KUNENA_EDITOR_LINK_URL', ' URL: ');
+DEFINE('_KUNENA_EDITOR_LINK_TEXT', ' Text: ');
+DEFINE('_KUNENA_EDITOR_LINK_INSERT', 'Insert');
+DEFINE('_KUNENA_EDITOR_IMAGE_SIZE', ' Size: ');
+DEFINE('_KUNENA_EDITOR_IMAGE_URL', ' URL: ');
+DEFINE('_KUNENA_EDITOR_IMAGE_INSERT', 'Insert');
+DEFINE('_KUNENA_EDITOR_VIDEO_SIZE', 'Size: ');
+DEFINE('_KUNENA_EDITOR_VIDEO_WIDTH', 'Width: ');
+DEFINE('_KUNENA_EDITOR_VIDEO_HEIGHT', 'Height:');
+DEFINE('_KUNENA_EDITOR_VIDEO_URL', 'URL: ');
+DEFINE('_KUNENA_EDITOR_VIDEO_ID', 'ID: ');
+DEFINE('_KUNENA_EDITOR_VIDEO_PROVIDER', 'Provider: ');
+DEFINE('_KUNENA_BBCODE_HIDDENTEXT', '<span class="fb_quote">Something is hidden for guests. Please log in or register to see it.</span>');
+
+DEFINE('_KUNENA_PROFILE_BIRTHDAY', 'Birthday');
+DEFINE('_KUNENA_DT_MONTHDAY_FMT','%m/%d');
+DEFINE('_KUNENA_CFC_FILENAME','CSS file to be modified');
 DEFINE('_KUNENA_CFC_SAVED','CSS-filen lagret.');
 DEFINE('_KUNENA_CFC_NOTSAVED','CSS-filen ble ikke lagret.');
 DEFINE('_KUNENA_JS_WARN_NAME_MISSING','Navnet ditt mangler');
@@ -41,8 +131,6 @@ DEFINE('_KUNENA_JS_PROMPT_PASS','Gjenta registreringen av nytt passord');
 DEFINE('_KUNENA_DT_LMON_DEC', 'Desember');
 DEFINE('_KUNENA_DT_MON_DEC', 'Des');
 DEFINE('_KUNENA_NOGENDER', 'Ukjent');
-
-// 1.0.10
 DEFINE('_KUNENA_ERROR_INCOMPLETE_ERROR', 'Din Kunena-installasjon er ikke komplett!');
 DEFINE('_KUNENA_ERROR_INCOMPLETE_OFFLINE', 'Pga. ovennevnte feil er forumet nå nede og forumadm. har blitt slått av.');
 DEFINE('_KUNENA_ERROR_INCOMPLETE_REASONS', 'Mulige årsaker for denne feilen:');
