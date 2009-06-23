@@ -21,27 +21,27 @@
 /** ensure this file is being included by a parent file */
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
-define("INV_LEDGER_REPORT_TITLE", "Nominellhovedbok Rapport");
-define("INV_LEDGER_REPORT_INTRO", "Denne rapporten viser en oversikt over inntekter og utgifter mot hver hovedbok kode. Du kan utvide hver hovedbok for å se det enkelte elementer som utgjør totalen. 'Saldo-kolonnen’ bare refererer til netto resultat for gitt datoperiode, og har intet forhold til saldoen på bankkontoen din!");
+define("INV_LEDGER_REPORT_TITLE", "Rapporter hovedbok");
+define("INV_LEDGER_REPORT_INTRO", "Denne rapporten viser en oversikt over inntekter og utgifter mot hver hovedbokskode. Du kan utvide hver hovedbok for å se det enkelte elementer som utgjør totalen. 'Saldo-kolonnen' refererer bare til netto resultat for gitt datoperiode, og har intet forhold til saldoen på bankkontoen din!");
 define("INV_LEDGER_REPORT_INCOME", "Resultat");
 define("INV_LEDGER_REPORT_EXPENDITURE", "Utgifter");
-define("INV_LEDGER_REPORT_NOMINAL_CODE", "Nominellhovedbok kode");
+define("INV_LEDGER_REPORT_NOMINAL_CODE", "Hovedbokskode");
 define("INV_LEDGER_REPORT_AMOUNT", "Antall");
 define("INV_LEDGER_REPORT_DATE", "Dato");
-define("INV_LEDGER_REPORT_RECEIPT_NO", "Kvitteringssideformat nr.");
-define("INV_LEDGER_REPORT_PAYMENT_NO", "Betalingssideformat nr.");
+define("INV_LEDGER_REPORT_RECEIPT_NO", "Kvitteringsnummer");
+define("INV_LEDGER_REPORT_PAYMENT_NO", "Betalingsnummer");
 define("INV_LEDGER_REPORT_FROM", "Fra");
 define("INV_LEDGER_REPORT_FOR", "For");
-define("INV_LEDGER_REPORT_AWAITING_RCT_NO", "Venter kvitteringssideformat nr.");
-define("INV_LEDGER_REPORT_AWAITING_PYT_NO", "Venter betalingssideformat nr.");
+define("INV_LEDGER_REPORT_AWAITING_RCT_NO", "Venter på kvitteringsnummer");
+define("INV_LEDGER_REPORT_AWAITING_PYT_NO", "Venter på betalingsnummer.");
 define("INV_LEDGER_REPORT_INVOICE", "Faktura");
 define("INV_LEDGER_REPORT_TOTAL", "Totalt for %s");
 define("INV_LEDGER_REPORT_EXPAND_ALL", "Utvid alle");
 define("INV_LEDGER_REPORT_TOTAL_INCOME", "Totalt resultat");
 define("INV_LEDGER_REPORT_PAID_TO", "Betal til");
 define("INV_LEDGER_REPORT_CREDIT_NOTE", "Kredittnote");
-define("INV_LEDGER_REPORT_CLIENT_REFUND", "Kunde tilbakebetaling");
-define("INV_LEDGER_REPORT_TOTAL_EXPENDITURE", "Totalt utgifter");
+define("INV_LEDGER_REPORT_CLIENT_REFUND", "Tilbakebetaling");
+define("INV_LEDGER_REPORT_TOTAL_EXPENDITURE", "Utgifter totalt");
 define("INV_LEDGER_REPORT_PF_EXPANDED", "Utskriftsvennlig (Utvidet)");
 define("INV_LEDGER_REPORT_PF_COLLAPSED", "Utskriftsvennlig (Innskrenket)");
 define("INV_LEDGER_REPORT_PERCENTAGE", "Prosentvis");
