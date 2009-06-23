@@ -22,15 +22,15 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Nominal Ledger
-define("INV_LEDGER_TITLE", "Nominellhovedbok");
-define("INV_LEDGER_INTRO", "Dersom du beholder en nominellhovedbok(også kjent som en generell hovedbok eller hastighet typer/pris ) for transaksjoner, kan du definere koder og beskrivelser her. Dette er alternativt - kun for rapportering.");
+define("INV_LEDGER_TITLE", "Hovedbok");
+define("INV_LEDGER_INTRO", "Om du fører en hovedbok (også kjent som generell regnskap eller kostnadssted) for transaksjoner, kan du definere koder og beskrivelser her. Dette er valgfritt - kun til rapporteringsformål.");
 define("INV_LEDGER_CODE", "Kode");
 define("INV_LEDGER_DESCRIPTION", "Beskrivelse");
-define("INV_EDIT_LEDGER_CODE", "Rediger nominellhovedbok kode");
-define("INV_NEW_LEDGER_CODE", "Ny nominellhovedbok kode");
+define("INV_EDIT_LEDGER_CODE", "Rediger hovedbokskode");
+define("INV_NEW_LEDGER_CODE", "Ny hovedbokskode");
 define("INV_LEDGER_CODE_REQUIRED", "Vennligst skriv inn en kode");
 define("INV_LEDGER_DESC_REQUIRED", "Vennligst skriv inn en beskrivelse");
-define("INV_LEDGER_CODE_DETAILS", "Hovedbokkode detaljer");
+define("INV_LEDGER_CODE_DETAILS", "Hovedbokskode detaljer");
 define("INV_INSTR_LEDGER_CODE", "Det typiske er en numerisk kode");
 define("INV_INSTR_LEDGER_DESCRIPTION", "");
 ?>
