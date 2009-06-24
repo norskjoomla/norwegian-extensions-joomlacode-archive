@@ -21,8 +21,8 @@
 /** ensure this file is being included by a parent file */
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
-define("INV_TRANSACTIONS_TITLE", "Transaksjons kunngjøring");
-define("INV_TRANSACTIONS_INTRO", "This is a list of all of the income and expenditure items that have been recorded for the given date range. No income or expenditure items are excluded, but this report does not include any unpaid invoices.");
+define("INV_TRANSACTIONS_TITLE", "Transaksjonsforklaring ");
+define("INV_TRANSACTIONS_INTRO", "Dette er en liste over alle inntekter og utgifter som er registrert for den gitte datoperiode. Ingen inntekter eller utgifter blir ekskludert, men denne rapporten inkluderer ikke eventuelle ubetalte fakturaer.");
 define("INV_TR_INCOME", "Resultat");
 define("INV_TR_EXPENDITURE", "Utgifter");
 define("INV_TR_ITEM_NO", "Nummer");
@@ -35,10 +35,10 @@ define("INV_TR_INVOICE", "Faktura");
 define("INV_TR_CREDIT_NOTE", "Kredittnote");
 define("INV_TR_LEDGER", "Hovedbok");
 define("INV_TR_NET_AMOUNT", "Nettoantall");
-define("INV_TR_TAX", "Mva");
+define("INV_TR_TAX", "Avgift");
 define("INV_TR_TOTAL", "Totalt");
 define("INV_TR_BALANCE", "Balanse");
-define("INV_TR_AWAITING_RCT_NO", "Venter betalingssideformat nr.");
-define("INV_TR_AWAITING_PYT_NO", "Venter kvitteringssideformat nr.");
-define("INV_TR_CLIENT_REFUND", "Kunde tilbakebetaling);
+define("INV_TR_AWAITING_RCT_NO", "Venter på kvitteringsnummer.");
+define("INV_TR_AWAITING_PYT_NO", "Venter på betalingsnummer");
+define("INV_TR_CLIENT_REFUND", "Kundens refusjon);
 ?>
