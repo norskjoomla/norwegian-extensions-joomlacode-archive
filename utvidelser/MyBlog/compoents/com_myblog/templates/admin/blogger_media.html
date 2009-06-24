@@ -1,0 +1,63 @@
+<?php
+$cms    =& cmsInstance('CMSCore');
+global $mainframe;
+?>
+<!-- some header stuff -->
+<div id="myblog">
+<link href="<?php echo $cms->get_path('live'); ?>/components/com_myblog/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="<?php echo $cms->get_path('live'); ?>/components/com_myblog/css/ui.css" type="text/css" media="screen" />
+<!--JavaScript--> 
+<script type="text/javascript" src="<?php echo $cms->get_path('live'); ?>/components/com_myblog/js/myblog.js"></script> 
+
+<?php
+$html = new CMSHtml();
+$links = myGetDashboardLinks();
+$captions = myGetDashboardLinksTitle();
+
+echo $html->show_tabbed_nav($links, $captions, 2);
+?>
+
+
+<div class="componentheading">Media</div>
+
+<?php
+
+$cms =	&cmsInstance('CMSCore');
+$cms->load('libraries', 'table');
+
+$tmpl = array (
+		
+		'table_open'          => '<table border="0" cellpadding="4" cellspacing="0" width="100%">',
+		
+        'heading_row_start'   => '<tr class="sectiontableheader">',
+        'heading_row_end'     => '</tr>',
+        'heading_cell_start'  => '<th>',
+        'heading_cell_end'    => '</th>',
+
+        'row_start'           => '<tr  class="sectiontableentry1">',
+        'row_end'             => '</tr>',
+        'cell_start'          => '<td>',
+        'cell_end'            => '</td>',
+
+        'row_alt_start'       => '<tr class="sectiontableentry2">',
+        'row_alt_end'         => '</tr>',
+        'cell_alt_start'      => '<td>',
+        'cell_alt_end'        => '</td>',
+
+        'table_close'         => '</table>'
+  );
+
+$cms->table->set_template($tmpl);
+
+$cms->table->set_heading('Dato', 'Filnavn', 'Type', 'Brukt?');
+
+
+$cms->table->add_row('12-12-07', 'Filnavn', 'Video/YouTube', 'Ja');
+$cms->table->add_row('12-12-07', 'Bilde filnavn', 'Bilde/PNG', 'Ja');
+$cms->table->add_row('12-12-07', 'Filnavn', 'Video/Vimeo', 'Ja');
+$cms->table->add_row('12-12-07', 'Filnavn', 'Video/Annet', 'Ja');
+$cms->table->add_row('12-12-07', 'JPG filnavn', 'Bilde/JPG', 'Ja');
+
+echo $cms->table->generate();
+?>
+</div>
