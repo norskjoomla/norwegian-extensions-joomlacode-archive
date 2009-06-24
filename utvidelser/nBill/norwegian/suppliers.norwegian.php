@@ -23,26 +23,26 @@ defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.'
 
 //Suppliers
 define("INV_SUPPLIERS_TITLE", "Leverandører");
-define("INV_SUPPLIERS_INTRO", "Vanlig informasjon fra alle leverandører som du foretar regelmessige betalinger til. Dette sparer deg fra å skrive detaljer i igjen på utgiftslisten hver gang du betaler dem. For engangs innbetalinger, trenger du ikke å opprette en leverandørpost - du kan bare skrive inn opplysninger på utgiftslisten.");
+define("INV_SUPPLIERS_INTRO", "Vanlig informasjon fra leverandører som du foretar regelmessige betalinger til. Dette sparer deg fra å skrive inn detaljene på utgiftslisten hver gang du betaler dem. For engangs betalinger, trenger du ikke å opprette en leverandørpost - du kan bare skrive inn opplysninger på utgiftslisten.");
 define("INV_SUPPLIER", "Leverandør");
 define("INV_SUPPLIER_NAME", "Leverandørnavn");
-define("INV_SUPPLIER_EMAIL_ADDRESS", "Epost adresse");
-define("INV_INSTR_SUPPLIER_EMAIL_ADDRESS", "Bare for din egen referanse - " . INV_BRANDING_NAME . " det vil ikke bli sendt eposter til denne adressen.");
+define("INV_SUPPLIER_EMAIL_ADDRESS", "E-post adresse");
+define("INV_INSTR_SUPPLIER_EMAIL_ADDRESS", "For din egen referanse - " . INV_BRANDING_NAME . " det vil ikke bli sendt e-post til denne adressen.");
 define("INV_SUPPLIER_WEBSITE", "Hjemmeside");
 define("INV_SUPPLIER_TELEPHONE", "Telefon");
-define("INV_EDIT_SUPPLIER", "Endre leverandør");
-define("INV_SUPPLIER_NAME_REQUIRED", "Vennligst skriv inn enten et firmanavn eller kontakt meg(eller begge).");
+define("INV_EDIT_SUPPLIER", "Rediger leverandør");
+define("INV_SUPPLIER_NAME_REQUIRED", "Vennligst skriv inn enten et firmanavn eller et kontaktnavn(eller begge).");
 define("INV_NEW_SUPPLIER", "Ny leverandør");
-define("INV_SUPPLIER_DETAILS", "Leverandør detaljer");
+define("INV_SUPPLIER_DETAILS", "Leverandørdetaljer");
 define("INV_SUPPLIER_COUNTRY", "Land");
 define("INV_INSTR_SUPPLIER_COUNTRY", "");
 define("INV_SUPPLIER_REFERENCE", "Referanse");
-define("INV_INSTR_SUPPLIER_REFERENCE", "Din referanse eller konotonummer for denne leverandøren.");
-define("INV_TAX_REFERENCE", "Mva referanse");
-define("INV_INSTR_TAX_REFERENCE", "Leverandørens mva nummer eller momssalgs referansenummer");
+define("INV_INSTR_SUPPLIER_REFERENCE", "Din referanse eller kundenummer med denne leverandøren.");
+define("INV_TAX_REFERENCE", "Avgiftsreferanse");
+define("INV_INSTR_TAX_REFERENCE", "Leverandørens momsnummer eller salgsavgift referansenummer");
 define("INV_SUPPLIER_CURRENCY", "Standard valuta");
-define("INV_INSTR_SUPPLIER_CURRENCY", "Valutaen som skal bli brukt for å betale denne leverandøren");
-define("INV_INSTR_SUPPLIER_ADDRESS", "	Adressen til denne leverandøren");
+define("INV_INSTR_SUPPLIER_CURRENCY", "Valuta som vanligvis brukes til å betale denne leverandøren");
+define("INV_INSTR_SUPPLIER_ADDRESS", "Adressen til denne leverandøren");
 define("INV_SUPPLIER_ADDRESS_1", "Adresselinje 1");
 define("INV_SUPPLIER_ADDRESS_2", "Adresselinje 2");
 define("INV_SUPPLIER_ADDRESS_3", "Adresselinje 3");
