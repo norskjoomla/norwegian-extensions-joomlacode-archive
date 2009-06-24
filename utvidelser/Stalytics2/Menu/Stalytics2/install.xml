@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" client="both" type="language" method="upgrade">
+<tag>nb-NO</tag>
+<version>1.0</version>
+<creationDate>20.02.2009</creationDate>
+<author>NyFritid Web Dev</author>
+<name>Norwegian bokmal and nynorsk</name>
+<authorEmail>nyfritid [at] nyfritid.no</authorEmail>
+<authorUrl>www.nyfritid.no/translations</authorUrl>
+<copyright>Copyright (C) 2008-2009 www.NyFritid.no/translations. All rights reserved.</copyright>
+<license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+<description>Norwegian bokmal and nynorsk Stalytics2 menu translation</description><administration>
+<files folder="admin">
+<filename>nb-NO.com_stalytics2.menu.ini</filename>
+<filename>nn-NO.com_stalytics2.menu.ini</filename>
+</files>
+</administration>
+<params />
+</install>
