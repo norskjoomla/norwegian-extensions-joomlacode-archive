@@ -22,26 +22,26 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Front-End
-define("INV_MAIN_MENU", "Main");
-define("INV_ABOUT_TAX_EXEMPTION_CODE", "If your company is based within the EU, please enter your VAT number.");
-define("INV_ORDER_NUMBER", "Order Number(s)");
-define("INV_ORDER_DATE", "Date");
-define("INV_PRICE", "Order Value");
+define("INV_MAIN_MENU", "Hovedside");
+define("INV_ABOUT_TAX_EXEMPTION_CODE", "Om ditt firma er lokalisert innen EU, oppgi ditt MVA-nummer.");
+define("INV_ORDER_NUMBER", "Ordrenummer");
+define("INV_ORDER_DATE", "Dato");
+define("INV_PRICE", "Ordredato");
 @define("INV_PAY_FREQUENCY", "Payment Frequency");
-define("INV_VIEW_INVOICES", "View Invoices");
-define("INV_VIEW_INVOICES_ALT", "View all invoices that have been generated for this order");
-define("INV_NEW_ORDER_INTRO", "Please select the product you wish to order from the list");
-define("INV_PLACE_ORDER", "Click here to place an order");
-define("INV_CLIENT_NEW_ORDER", "Add a New Order");
-define("INV_ERR_FORM_NOT_DEFINED", "You are not able to access this order form. The form might have been deleted, there may be pre-requisites for ordering this product, or it might only be available to certain users. Please make sure you are logged in, and try again. If you feel you should be able to access this order form and the problem persists, contact a system administrator.");
-define("INV_FIRST_NAME", "First Name");
-define("INV_LAST_NAME", "Last Name");
-define("INV_CONFIRM_EMAIL_ADDRESS", "Confirm E-Mail Address");
-define("INV_ERR_MANDATORY_FIELD", "Please supply a value for all mandatory fields (mandatory fields are marked with an asterisk *)");
+define("INV_VIEW_INVOICES", "Vis fakturaer");
+define("INV_VIEW_INVOICES_ALT", "Vis alle fakturaer som har blitt generert for denne ordren");
+define("INV_NEW_ORDER_INTRO", "Velg produktet du ønsker å bestille fra listen");
+define("INV_PLACE_ORDER", "Klikk her for å legge inn en ordre");
+define("INV_CLIENT_NEW_ORDER", "Legg inn ny ordre");
+define("INV_ERR_FORM_NOT_DEFINED", "Du kan ikke få tilgang til dette ordreskjemaet. Det kan ha blitt slettet, det kan finnes krav som må være oppfylt før du kan bestille produktet, eller det kan være begrenset til bestemte brukere. Påse at du er logget inn, og forsøk deretter på nytt. Om du mener du burde ha tilgang til dette ordreskjeamet, og problemet vedvarer, vennligst kontakt en administrator.");
+define("INV_FIRST_NAME", "Fornavn");
+define("INV_LAST_NAME", "Etternavn");
+define("INV_CONFIRM_EMAIL_ADDRESS", "Bekreft e-postadresse");
+define("INV_ERR_MANDATORY_FIELD", "Du må fylle inn alle påkrevde felter (påkrevde felter er merket med en stjerne *)");
 define("INV_EMAILS_DONT_MATCH", "The email addresses you entered do not match! Please check carefully and try again.");
 define("INV_EMAIL_NOT_VALID", "The email address you entered does not appear to be valid. Please try again.");
-@define("INV_USERNAME", "User Name");
-define("INV_PASSWORD", "Password");
+@define("INV_USERNAME", "Brukernavn");
+define("INV_PASSWORD", "Passord");
 define("INV_USERNAME_HELP", "Please specify a user name and password which you will use to login to this site (to enable you to access your orders and invoices online).");
 define("INV_DETAILS_SAVED", "Details Saved.");
 define("INV_ERR_USER_EXISTS", "There is already a registered user with that user name and/or e-mail address. Please select a unique user name, or if you are already a registered user, please log in before placing an order.");
@@ -104,33 +104,33 @@ define("INV_CLEAR", "Clear");
 define("INV_DATE_NOT_VALID", "The field `%s` requires a date value. Please only enter a date here in the format %s.");
 define("INV_PENDING_ORDER_PAY_NOW", "Pay Now");
 define("INV_PENDING_ORDER_NOT_FOUND", "Sorry, either the pending order record could not be found, or there was no payment gateway set up for the order form at the time the order was placed. It will not be possible to pay for this order online.");
-define("INV_ALREADY_REGISTERED", "Already Registered? Please log in.");
-define("INV_NOT_YET_REGISTERED", "New Client? Please fill in your details below.");
-define("INV_COMPANY_NAME", "Company Name");
-define("INV_ADDRESS_1", "Address Line 1");
-define("INV_ADDRESS_2", "Address Line 2");
-define("INV_ADDRESS_3", "Address Line 3");
-define("INV_TOWN", "Town");
-define("INV_STATE", "State/County/Province");
-define("INV_POSTCODE", "Postcode");
-define("INV_CLIENT_COUNTRY", "Country");
-define("INV_TELEPHONE", "Telephone");
-define("INV_CONTACT_NAME", "Contact Name");
-define("INV_CLIENT_ADD_NAME_TO_INVOICE", "Add contact name to invoices?");
-define("INV_WEBSITE", "Website");
-define("INV_MOBILE", "Mobile");
-define("INV_FAX", "Fax");
-define("INV_CLIENT_CURRENCY", "Default Currency");
-@define("INV_PENDING", "Pending");
-define("INV_FE_PRODUCT", "Product");
+define("INV_ALREADY_REGISTERED", "Allerede registrert? Vennligst logg inn.");
+define("INV_NOT_YET_REGISTERED", "Ny bruker? Vennligst fyll inn dine opplysninger nedenfor.");
+define("INV_COMPANY_NAME", "Firmanavn");
+define("INV_ADDRESS_1", "Adresselinje 1");
+define("INV_ADDRESS_2", "Adresselinje 2");
+define("INV_ADDRESS_3", "Adresselinje 3");
+define("INV_TOWN", "Sted");
+define("INV_STATE", "Fylke");
+define("INV_POSTCODE", "Postnummer");
+define("INV_CLIENT_COUNTRY", "Land");
+define("INV_TELEPHONE", "Telefon");
+define("INV_CONTACT_NAME", "Kontaktperson");
+define("INV_CLIENT_ADD_NAME_TO_INVOICE", "Legge til kontaktperson på fakturaer?");
+define("INV_WEBSITE", "Nettside");
+define("INV_MOBILE", "Mobil");
+define("INV_FAX", "Faks");
+define("INV_CLIENT_CURRENCY", "Standard valuta");
+@define("INV_PENDING", "Venter");
+define("INV_FE_PRODUCT", "Produkt");
 define("INV_FE_ORDER_STATUS", "Status");
-define("INV_FE_NEW_ORDER", "New Order");
-define("INV_INVOICE_NUMBER", "Invoice No.");
-define("INV_INVOICE_DATE", "Date");
+define("INV_FE_NEW_ORDER", "Ny ordre");
+define("INV_INVOICE_NUMBER", "Fakturanr.");
+define("INV_INVOICE_DATE", "Dato");
 define("INV_FIRST_ITEM", "First Item on Invoice");
 define("INV_TOTAL_NET", "Net Total");
 define("INV_TOTAL_GROSS", "Gross Total");
-define("INV_INVOICE_PAID", "Paid");
+define("INV_INVOICE_PAID", "Betalt");
 define("INV_EMAIL_INVOICE_ATTACH_FE", "Send my invoices as an html attachment to a plain text email (recommended)");
 define("INV_FORM_SUMMARY_INTRO", "Please review the following information to ensure it is accurate before submitting your order. If you need to go back and change anything, click on the 'Previous' button.");
 define("INV_CHECKED", "Selected");
@@ -169,25 +169,25 @@ define("INV_FE_SECURITY_IMAGE_CHANGE", "[Change letter code]");
 define("INV_ERR_SECURITY_IMAGE_WRONG", "Sorry, the security image code you entered was incorrect. Please try again.");
 
 /* Version 1.1.4 */
-define("INV_FORM_NEXT", "Next >>");
-define("INV_FORM_PREV", "<< Previous");
-define("INV_FORM_SUBMIT", "Submit");
-define("INV_RENEW_SUBMIT", "Submit");
+define("INV_FORM_NEXT", "Neste >>");
+define("INV_FORM_PREV", "<< Forrige");
+define("INV_FORM_SUBMIT", "Lagre");
+define("INV_RENEW_SUBMIT", "Lagre");
 
 //Version 1.2.0
 /* INV_ORDER_NUMBER on line 26 changed (for plurality) */
 define("INV_CANNOT_RENEW_PAY_FREQS_DIFFER", "Sorry, these orders cannot all be renewed together because they have different payment frequencies. You can only renew multiple orders simultaneously if the payment frequency is the same for each.");
 define("INV_CANNOT_RENEW_AUTO_RENEW_DIFFERS", "Sorry, these orders cannot all be renewed together because at least one is set to auto-renew, and at least one is set not to auto-renew. You can only renew multiple orders simultaneously if they are all set to auto-renew, or all set not to auto-renew.");
-define("INV_RENEW", "Renew");
-define("INV_DUE", "Due");
-define("INV_EXPIRED", "Expired");
-define("INV_SELECT_GATEWAY", "Choose Payment Method");
-define("INV_INVOICE_PAY_NOW", "Pay Invoice(s)");
-define("INV_INVOICE_AMOUNT", "Amount");
-define("INV_INVOICE_TOTAL", "Total");
-if (!defined("_LOST_PASSWORD")) {define("_LOST_PASSWORD", "Lost Password?");}
-define("INV_TRACKING", "Tracking");
-define("INV_TRACK_THIS_PARCEL", "Track this Shipment");
+define("INV_RENEW", "Forny");
+define("INV_DUE", "Forfall");
+define("INV_EXPIRED", "Utløpt");
+define("INV_SELECT_GATEWAY", "Velg betalingsmåte");
+define("INV_INVOICE_PAY_NOW", "Betal faktura(er)");
+define("INV_INVOICE_AMOUNT", "Beløp");
+define("INV_INVOICE_TOTAL", "Totalt");
+if (!defined("_LOST_PASSWORD")) {define("_LOST_PASSWORD", "Glemt passord?");}
+define("INV_TRACKING", "Sporing");
+define("INV_TRACK_THIS_PARCEL", "Spor denne sendingen");
 
 //Version 1.2.1
 define("INV_FILE_UPLOAD_FAILED_REASON", "Sorry, a file you tried to upload could not be saved. The following reason was reported: ");
@@ -209,6 +209,6 @@ define("INV_INVALID_USERNAME", "Please enter a valid username.  No spaces, more 
 define("INV_USERNAME_IN_USE", "This username is already registered. Please choose another username, or if you are already registered, login first. If you have forgotten your password, please click on the lost password link to get a new one emailed to you.");
 
 //Version 1.2.7
-define("INV_ORDER_RENEWED_SUCCESS", "Thank you, your order was renewed successfully."); //Only shown for free product renewals (eg. 100% discount or free non-auto-renewing subscription)
+define("INV_ORDER_RENEWED_SUCCESS", "Takk, din ordre ble vellykket fornyet."); //Only shown for free product renewals (eg. 100% discount or free non-auto-renewing subscription)
 define("INV_CANNOT_RENEW_ADVANCE", "Sorry, you cannot renew more than %s time(s) in advance.");
 ?>
