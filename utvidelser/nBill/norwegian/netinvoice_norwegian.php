@@ -46,11 +46,11 @@ define("INV_ACCEPT_TERMS", "Jeg har lest, forstått og akseptert %s");
 define("INV_EULA", "sluttbrukerlisensen (åpnes i et nytt vindu)");
 define("INV_PLEASE_ACCEPT_TERMS", "Beklager, du må krysse av i boksen for å bekrefte at du aksepterer sluttbrukerlisensen  før du kan fortsette.");
 define("INV_LOCKED_OUT_TITLE", "Tilgang har blitt blokkert!");
-define("INV_LOCKED_OUT_DESC", "You have tried to access the component using an invalid license key too many times. The component has now been blocked. To unblock it, you need to enter an 'unblock key' below. To get your 'unblock key', please send an e-mail to: " . INV_BRANDING_SUPPORT_EMAIL . ", quoting reference '%s', and your domain name (%s)");
-define("INV_UNBLOCK_KEY", "Unblock Key");
-define("INV_UNBLOCK_KEY_INVALID", "Sorry, the unblock key you entered is not valid.");
-define("INV_LICENSE_EXPIRED", "Your license expired %s");
-define("INV_BLACKLISTED", "Your domain name has been blacklisted (typically this would be due to a chargeback after purchase). You are not permitted to continue. If you feel this is in error, please contact us.");
+define("INV_LOCKED_OUT_DESC", "Du har forsøkt å få tilgang til komponenten for mange ganger med ugyldig nøkkel, komponenten har derfor blitt blokkert nå. For å låse den opp igjen behøver du en egen nøkkel for dette, til å fylle inn nedenfor. Denne kan du få ved å sende en e-post til: " . INV_BRANDING_SUPPORT_EMAIL . ", og sitere referanse '%s', samt ditt domenenavn (%s)");
+define("INV_UNBLOCK_KEY", "Opplåsingsnøkkel");
+define("INV_UNBLOCK_KEY_INVALID", "Beklager, denne opplåsingsnøkkelen var ugyldig.");
+define("INV_LICENSE_EXPIRED", "Din lisens utløp %s");
+define("INV_BLACKLISTED", "Ditt domenenavn har blitt svartelistet (typisk vil dett være på grunn av et tilbaketrekk av betaling, etter bestilling). Du har ikke tillatelse til å fortsette. Vennligst kontakt oss om du mener dette er en feil.");
 
 //Global
 define("INV_ALL", "[vis alle]");
@@ -66,24 +66,24 @@ define("INV_FOR", "for");
 define("INV_TO", "til");
 define("INV_GO", "Bruk");
 define("INV_DATE_RANGE", "Fra");
-define("INV_ERR_COULD_NOT_GET_NEXT_NO", "The component was unable to identify the next %s number because the database field is currently locked by another process. If the problem persists, you can unlock the %s number field by editing the Vendor record.");
-define("INV_ERR_NO_NOT_NUMERIC", "The next %s number for this vendor is not numeric! Please update the vendor record to specify a numeric %s number sequence, or enter the %s number manually.");
-define("INV_ERR_NO_NOT_FOUND", "The next %s number for this vendor could not be found! You may have to enter the %s number manually.");
+define("INV_ERR_COULD_NOT_GET_NEXT_NO", "Komponenten kunne ikke identifisere neste %s-nummer ettersom databasefeltet for øyeblikket var låst av en annen prosess. Om problemet vedvarer kan du låse opp %s-nummerfeltet ved å redigere selgeroppføringen.");
+define("INV_ERR_NO_NOT_NUMERIC", "Neste %s-nummer for denne selgeren er ikke numerisk. Oppdater selgeroppføringen for å spesifisere en numerisk %s-nummerserie, eller fyll inn %s-nummer manuelt.");
+define("INV_ERR_NO_NOT_FOUND", "Neste %s-nummer for denne selgeren ble ikke funnet. Du må kanskje fylle inn %s-nummer manuelt.");
 define("INV_PREV", "<< Forrige");
 define("INV_NEXT", "Neste >>");
-define("INV_SAVE_CHANGES", "You have made changes to the data on this page but have not saved the record. If you want to save your changes before moving on, click OK. If you want to move on without saving, click on Cancel");  //Don't use apostrophes or speech marks in this text
+define("INV_SAVE_CHANGES", "Du gjorde endringer til data på denne siden men har ikke lagret. Klikk OK, om du ønsker å lagre før du går videre. Eller klikk Avbryt om du ønsker å gå videre uten å lagre");  //Don't use apostrophes or speech marks in this text
 define("INV_SELECT", "Velg");
 define("INV_DESELECT", "Fravelg");
 define("INV_UNKNOWN", "Ukjent");
 define("INV_NEW", "Ny");
 define("INV_BACK", "Tilbake");
-define("INV_NO_EMAIL", "Don't e-mail invoices");
-define("INV_EMAIL_INVOICE", "Send invoice to client (html e-mail)");
-define("INV_EMAIL_NOTIFICATION", "Send notification to client (plain text e-mail advising client to log into website)");
-define("INV_CLOSE_WINDOW", "Close Window");
-define("INV_NO_ACTION_TAKEN", "No action taken.");
+define("INV_NO_EMAIL", "Ikke send fakturaer i e-post");
+define("INV_EMAIL_INVOICE", "Send faktura til kunde (html e-post)");
+define("INV_EMAIL_NOTIFICATION", "Send melding til kunde (ren tekste-post med instrukser om å logge på siden)");
+define("INV_CLOSE_WINDOW", "Lukk vindu");
+define("INV_NO_ACTION_TAKEN", "Ingen handling utført.");
 define("INV_ADMIN_IMAGE", "style=\"height:54px; padding-left: 54px; background-image: url('$mosConfig_live_site/components/com_netinvoice/images/icons/large/%s.gif') !important;background-position:left;background-repeat:no-repeat;\"");
-define("INV_NUMERIC_ONLY", "The field `%s` requires a numeric value. Please only enter a number here.");
+define("INV_NUMERIC_ONLY", "Feltet `%s` krever en numerisk verdi, du kan bare fylle inn nummer her.");
 define("INV_INVALID_DATE_FIELD", "The field `%s` requires a date value. Please enter a date in the format %s.");
 define("INV_ERR_SERIOUS_ERROR", "Sorry, an error has occurred. An e-mail containing details of the error has been sent to the appropriate person. Apologies for the inconvenience.");
 define("INV_ERR_SERIOUS_ERROR_ADMIN", "Sorry, an error has occurred. An e-mail containing details of the error has been sent to the appropriate person (as defined in Global Configuration page of " . INV_BRANDING_NAME . "). Apologies for the inconvenience.");
@@ -227,7 +227,7 @@ define("INV_MNU_GATEWAY_FUNCTIONS", "%s funksjoner");
 define("INV_MNU_GATEWAY_FUNCTIONS_DESC", "Utvidet funksjonalitet for %s-betalingsmodulen.");
 define("INV_MNU_TRANSACTION_REPORT", "Transaksjonrapport");
 define("INV_MNU_TRANSACTION_REPORT_DESC", "List opp alle inntekter/utgifter etter dato, med summering");
-define("INV_MNU_LEDGER_REPORT", "Ledger Report");
+define("INV_MNU_LEDGER_REPORT", "Hovedbok");
 define("INV_MNU_LEDGER_REPORT_DESC", "Nominal Ledger Summary");
 define("INV_MNU_REMINDERS", "Påminnelser");
 define("INV_MNU_REMINDERS_DESC", "Konfigurer valg for utsendelse av påminnelser på e-post");
@@ -321,8 +321,8 @@ define("INV_ERR_COULD_NOT_CREATE_USER_REASON", "WARNING! Although the order form
 //Version 1.2.1
 define("INV_CANNOT_UPGRADE_120", "Sorry, you cannot upgrade from a version prior to 1.2.0. Please uninstall this version, install 1.2.0 to upgrade your database, then try upgrading again to this version.");
 define("INV_TEMP_NOT_WRITABLE", "PHP Temp directory not found or not writable ('%s') - invoice attachment could not be saved.");
-define("INV_NO_WRITE_ACCESS", "PHP does not have write access to the file %s - invoice attachment could not be saved.");
-define("INV_INVALID_CHARS_IN_FIELD", "%s contains invalid characters. Please only use alphanumeric characters for this field.");
+define("INV_NO_WRITE_ACCESS", "PHP har ikke skrivetilgang til filen %s - fakturavedlegg kunne ikke lagres.");
+define("INV_INVALID_CHARS_IN_FIELD", "%s inneholder ugyldige tegn. Bruk kun alfanumeriske tegn i dette feltet.");
 define("INV_INVALID_CHARS_USERNAME", "Brukernavn");
 define("INV_USERNAME_EXISTS", "Beklager, dette brukernavnet er allerede i bruk.");
 define("INV_USER_EMAIL_EXISTS", "Beklager, denne e-postadressen er fortsatt i bruk.");
@@ -337,8 +337,8 @@ define("INV_OFFLINE", "Frakoblet");
 //Line 90 of original English language file amended (INV_ERR_SERIOUS_ERROR_NOMAIL) - if database not available, full error reports are now logged to the PHP error log
 
 //Version 1.2.4
-define("INV_INSTALL_ERROR", "Sorry, it looks like nBill failed to install correctly! Please try uninstalling and re-installing. If that does not help, please refer to the troubleshooting section of the documentation at <a href=\"http://www.nbill.co.uk/documentation/\">www.nbill.co.uk/documentation</a>.<br /><br /><a href=\"index2.php\">Return to Home Page</a>");
+define("INV_INSTALL_ERROR", "Beklager, det ser ut som nBill ikke ble instalert helt riktig. Forsøk å avinstallere og så instalere på nytt igjen. Om det ikke hjelper bør du ta en kikk på feilsøkingsseksjonen i dokumentasjonen på <a href=\"http://www.nbill.co.uk/documentation/\">www.nbill.co.uk/documentation</a>.<br /><br /><a href=\"index2.php\">Returner til kontrollpanelet</a>");
 
 //Version 1.2.5
-define("INV_LICENSE_NOT_WORKING", "<strong>NOTE: If your license key will not work, please refer to the troubleshooting section of the documentation: <a href=\"http://www.nbill.co.uk/documentation/index.php?page=license-key-is-not-accepted.html\" target=\"_blank\">http://www.nbill.co.uk/documentation/index.php?page=license-key-is-not-accepted.html</a>. If you still cannot get it working after trying everything listed there, please raise a support ticket (we will need super administrator access to your site to investigate the problem).</strong>");
+define("INV_LICENSE_NOT_WORKING", "<strong>MERK: Om din lisensnøkkel ikke vil virke bør du ta en kikk på feilsøkingsseksjonen i dokumentasjonen på: <a href=\"http://www.nbill.co.uk/documentation/index.php?page=license-key-is-not-accepted.html\" target=\"_blank\">http://www.nbill.co.uk/documentation/index.php?page=license-key-is-not-accepted.html</a>. Om du fortsatt ikke får det til å virke, etter å ha forsøkt alt som er listet her, kan du opprette en supportsak (vi vil behøve tilgang til din side som superadministrator for å kunne feilsøke).</strong>");
 ?>
