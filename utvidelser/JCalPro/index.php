@@ -40,7 +40,7 @@ $lang_info = array (
 	,'author' => 'Jeanette, Knut Carlsen'
 	,'author_email' => 'jeanette@bewebbed.no, knut.carlsen@joocom.no'
 	,'author_url' => 'http://www.bewebbed.no, http://joocom.no'
-	,'transdate' => '12/19/2006, 18.6.2009'
+	,'transdate' => '12/19/2006, 19.6.2009'
 	);
 
 	$lang_general = array (
@@ -211,14 +211,14 @@ EOT;
 	,'repeat_edit_parent_event' => 'Edit parent event'
 	,'deleted_child_events' => 'Deleted %d previous repetitions'
 	,'created_child_events' => 'Created a total of %d repetitions of event %s. View this event by <a href="%s" >clicking here.</a>.'  // Jcal Pro 2.1.x
-	
-// Other details
+
+	// Other details
 	,'other_details_label' => 'Andre detaljer'
 	,'picture_file' => 'Bildefil'
 	,'file_upload_info' => '(Maksimal størrelse: %d Kb  - Gyldige filtyper : %s )'
 	,'del_picture' => 'Slett nåværende bilde ?'
 	// Administrative options
-	,'admin_options_label' => 'Administrativa valg'
+	,'admin_options_label' => 'Administrative valg'
 	,'auto_appr_event' => 'Aktivitet godkjent'
 
 	// Error messages
@@ -226,9 +226,9 @@ EOT;
 	,'no_desc' => 'Du må oppgi en beskrivelse!'
 	,'no_cat' => 'Du må velge en kategori fra menyen!'
 	,'date_invalid' => 'Du må oppgi en gyldig dato!'
-	,'end_days_invalid' => 'Verdien indtastet i \'Dager\' feltet er ikke gyldig!'
-	,'end_hours_invalid' => 'Verdien indtastet i \'Timer\' feltet er ikke gyldig!'
-	,'end_minutes_invalid' => 'Verdien indtastet i \'Minutter\' feltet er ikke gyldig!'
+	,'end_days_invalid' => 'Verdien inntastet i \'Dager\' feltet er ikke gyldig!'
+	,'end_hours_invalid' => 'Verdien inntastet i \'Timer\' feltet er ikke gyldig!'
+	,'end_minutes_invalid' => 'Verdien inntastet i \'Minutter\' feltet er ikke gyldig!'
 	,'move_image_failed' => 'The system failed to properly upload the image. Please make sure it is the proper type and not too large, or notify the site administrator.'
 ,'non_valid_dimensions' => 'Bildets bredde eller høyde er større enn %s pixels!'
 
@@ -296,7 +296,7 @@ EOT;
 	,'next_week' => 'Neste uke'
 	,'previous_week' => 'Forrige uke'
 	,'selected_week' => 'Uke %d'
-	,'no_events' => 'Det er ingen aktiviteter denne uke'
+	,'no_events' => 'Det er ingen aktiviteter denne uken'
 	);
 
 	// ======================================================
@@ -321,7 +321,7 @@ EOT;
 	,'contact_info' => 'Kontaktinformasjon'
 	,'contact_email' => 'E-post'
 	,'contact_url' => 'Nettside'
-	,'no_events' => 'Det er ingen aktiviteter denne måned'
+	,'no_events' => 'Det er ingen aktiviteter denne måneden'
 	);
 
 	// ======================================================
@@ -443,7 +443,7 @@ EOT;
 	// Step 1: Terms & Conditions
 	'terms_caption' => 'Brukerbetingelser',
 	'terms_intro' => 'For å fortsette, må du godkjenne følgende:',
-	'terms_message' => 'Læs venligst reglerne herunder. Hvis du kan acceptere dem og ønsker at fortsætte med registreringen, så klik på "Godkend"-knappen herunder. For at afbryde registreringen, tryk på din \'Tilbage\'-knap i din browser.<br /><br />Bemærk venligst at vi ikke er ansvarlige for begivenheder indtastet af brugerne. Vi er ikke ansvarlige for nøjagtigheden, fuldstændigheden eller brugbarheden af de offentliggjorte begivenheder, ej heller for indholdet af begivenhederne.<br /><br />Teksterne udtrykker forfatteren af begivenhedernes synspunkt, ikke nødvendigvis denne kalenderapplikations synspunkt. Enhver bruger, som finder at en offentliggjort begivenhed er anstødelig, opfordres til straks at kontakte os via e-post. Vi har mulighed for at slette anstødeligt indhold, og vi bestræber os på at gøre dette indenfor en rimelig tidsramme, såfremt vi afgør at sletning er nødvendig.<br /><br />Du samtykker i forbindelse med brugen af denne service i, at du ikke vil bruge denne kalenderapplikation til at offentliggøre materiale, som du ved er usand og/eller ærekrænkende, unøjagtig, stødende, vulgært, hadefuldt, chikanerende, uanstændigt, blasfemisk, seksuelt orienteret, truende, krænker privatlivets fred eller på anden måder krænker danske love.<br/><br/>Du samtykker i, at du ikke vil offentliggøre copyright-beskyttet materiale medmindre rettighederne ejes af dig eller af %s.',
+	'terms_message' => 'Les reglene under. Hvis du kan acceptere dem og ønsker at fortsætte med registreringen, så klik på "Godkend"-knappen herunder. For at afbryde registreringen, tryk på din \'Tilbage\'-knap i din browser.<br /><br />Bemærk venligst at vi ikke er ansvarlige for begivenheder indtastet af brugerne. Vi er ikke ansvarlige for nøjagtigheden, fuldstændigheden eller brugbarheden af de offentliggjorte begivenheder, ej heller for indholdet af begivenhederne.<br /><br />Teksterne udtrykker forfatteren af begivenhedernes synspunkt, ikke nødvendigvis denne kalenderapplikations synspunkt. Enhver bruger, som finder at en offentliggjort begivenhed er anstødelig, opfordres til straks at kontakte os via e-post. Vi har mulighed for at slette anstødeligt indhold, og vi bestræber os på at gøre dette indenfor en rimelig tidsramme, såfremt vi afgør at sletning er nødvendig.<br /><br />Du samtykker i forbindelse med brugen af denne service i, at du ikke vil bruge denne kalenderapplikation til at offentliggøre materiale, som du ved er usand og/eller ærekrænkende, unøjagtig, stødende, vulgært, hadefuldt, chikanerende, uanstændigt, blasfemisk, seksuelt orienteret, truende, krænker privatlivets fred eller på anden måder krænker danske love.<br/><br/>Du samtykker i, at du ikke vil offentliggøre copyright-beskyttet materiale medmindre rettighederne ejes af dig eller af %s.',
 	'terms_button' => 'Godkjenn',
 
 	// Account Info
@@ -535,8 +535,8 @@ EOT;
 	$lang_event_admin_data = array(
 	'section_title' => 'Aktivitetsadministrator',
 	'events_to_approve' => 'Aktivitetsadministrator: Aktiviteter som avventer godkjennelse',
-	'upcoming_event' => 'Aktivitetsadministrator: Kommende begivenheter',
-	'past_event' => 'Aktivitetsadministrator: Tidligere begivenheter',
+	'upcoming_event' => 'Aktivitetsadministrator: Kommende aktiviteter',
+	'past_event' => 'Aktivitetsadministrator: Tidligere aktiviteter',
 	'add_event' => 'Legg til ny aktivitet',
 	'edit_event' => 'Rediger aktivitet',
 	'view_event' => 'Vis aktivitet',
@@ -546,7 +546,7 @@ EOT;
 	'events_label' => 'Aktiviteter',
 	'auto_approve' => 'Godkjenn automatisk',
 	'date_label' => 'Dato',
-	'actions_label' => 'Aksjoner',
+	'actions_label' => 'Handlinger',
 	'events_filter_label' => 'Sorter aktiviteter',
 	'events_filter_options' => array('Vis alle aktiviteter','Vis ikke-godkjente aktiviteter','Vis kommende aktiviteter','Vis tidligere aktiviteter'),
 	'picture_attached' => 'Bilde vedlagt',
@@ -568,9 +568,9 @@ EOT;
 	'contact_email' => 'E-post',
 	'contact_url' => 'Nettside',
 	'no_event' => 'Det finnes ingen aktiviteter',
-	'stats_string' => '<strong>%d</strong> Aktiviteter ialt',
+	'stats_string' => '<strong>%d</strong> aktiviteter ialt',
 	// Stats
-	'stats_string1' => '<strong>%d</strong> Begivenhed(er)',
+	'stats_string1' => '<strong>%d</strong> aktivitet(er)',
 	'stats_string2' => 'Total: <strong>%d</strong> Aktiviteter på <strong>%d</strong> side(r)',
 	// Misc.
 	'add_event_success' => 'Ny aktivitet lagt til',
@@ -624,10 +624,10 @@ EOT;
 	'cat_color' => 'Farve',
 	'pick_color' => 'Velg en farve!',
 	'status_label' => 'Status',
-	'category_label' => 'Category permissions',
+	'category_label' => 'Kategoritillatelser',
 		// Stats
 	'stats_string1' => '<strong>%d</strong> kategorier',
-	'stats_string2' => 'Aktiv: <strong>%d</strong>&nbsp;&nbsp;&nbsp;Total: <strong>%d</strong>&nbsp;&nbsp;&nbsp;på <strong>%d</strong> side(r)',
+	'stats_string2' => 'Aktiv: <strong>%d</strong>&nbsp;&nbsp;&nbsp;Totalt: <strong>%d</strong>&nbsp;&nbsp;&nbsp;på <strong>%d</strong> side(r)',
 	// Misc.
 	'add_cat_success' => 'Ny kategori lagt til',
 	'edit_cat_success' => 'Kategori oppdatert',
@@ -917,17 +917,17 @@ EOT;
 
 	// Form Buttons
 	,'update_config' => 'Lagre ny konfigurasjon'
-	,'restore_config' => 'Restore standardinnstillinger'
+	,'restore_config' => 'Tilbakestill standardinnstillinger'
 	// Misc.
 	,'update_settings_success' => 'Innstillinger oppdatert'
-	,'restore_default_confirm' => 'Er du sikker på at du vil restore til standardinnstillinger?'
+	,'restore_default_confirm' => 'Er du sikker på at du vil tilbakestille til standardinnstillinger?'
 	// Template Configuration
-	,'template_type' => 'Templatetype'
+	,'template_type' => 'Maltype'
 	,'template_header' => 'Hovedtekst'
 	,'template_footer' => 'Fottekst'
-	,'template_status_default' => 'Bruk standard-tema-template'
-	,'template_status_custom' => 'Bruk flg. template:'
-	,'template_custom' => 'Brukerdefineret template'
+	,'template_status_default' => 'Bruk standard temamal'
+	,'template_status_custom' => 'Bruk flg. mal:'
+	,'template_custom' => 'Brukerdefinert mal'
 
 	,'info_meta' => 'Meta-informasjon'
 	,'info_status' => 'Statuskontroll'
