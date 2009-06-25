@@ -205,12 +205,12 @@ EOT;
 	,'repeat_end_date_count' => 'Avslutt etter %s forekomster'
 	,'repeat_end_date_until' => 'Gjenta til'
 	// new JCalpro 2
-	,'repeat_event_detached' => 'This event was part of a repetition series, but has been modified and separated from it'
-	,'repeat_event_detached_short' => 'Detached from recurrence'
-	,'repeat_event_not_detached' => 'This event is part of a repetition series'
-	,'repeat_edit_parent_event' => 'Edit parent event'
-	,'deleted_child_events' => 'Deleted %d previous repetitions'
-	,'created_child_events' => 'Created a total of %d repetitions of event %s. View this event by <a href="%s" >clicking here.</a>.'  // Jcal Pro 2.1.x
+	,'repeat_event_detached' => 'Denne aktiviteten var del av en repeterende serie men har blitt endret og skilt av fra denne.'
+	,'repeat_event_detached_short' => 'Skilt ut fra den repeterende serien'
+	,'repeat_event_not_detached' => 'Denne aktiviteten er del av en repeterende serie'
+	,'repeat_edit_parent_event' => 'Rediger overordnet aktivitet'
+	,'deleted_child_events' => 'Slettet %d tidligere repetisjoner'
+	,'created_child_events' => 'Opprettet totalt %d repetisjoner av aktivitet %s. Vis denne aktiviteten ved å <a href="%s" >klikke her.</a>.'  // Jcal Pro 2.1.x
 
 	// Other details
 	,'other_details_label' => 'Andre detaljer'
@@ -596,7 +596,7 @@ EOT;
 	'no_events' => 'Det er ingen aktiviteter!',
 	'recur_val_1_invalid' => 'Verdien inntastet i \'Gjenta intervall\' er ikke gyldig. Det må være et tall større end \'0\'!',
 	'recur_end_count_invalid' => 'Verdien inntastet i \'Antall gjentagelser\' er ikke gyldig. Det må være et tall større end \'0\'!',
-	'recur_end_until_invalid' => 'Verdien inntastet i \'Gjentag inntil\', er ikke gyldig. Det må være en dato etter startdatoen!'
+	'recur_end_until_invalid' => 'Verdien inntastet i \'Gjenta inntil\', er ikke gyldig. Det må være en dato etter startdatoen!'
 
 	);
 
