@@ -102,7 +102,7 @@ define("INV_PRINTER_FRIENDLY", "Utskriftsvennlig versjon");
 define("INV_DATE_PRINTED", "Dato skrevet ut: ");
 define("INV_ERR_COULD_NOT_CREATE_USER", "ADVARSEL! Selv om bestillingsskjemaet er satt til automatisk å opprette en bruker, var det ikke mulig å opprette en bruker fra denne bestillingen. Dette kan skje dersom feltet for e-post er blankt (e-postadressen er nødvendig for å legge til en ny bruker).");
 define("INV_CSV_DOWNLOAD", "Last ned CSV");
-define("INV_CSV_DOWNLOAD_DESC", "Last ned denne rapporten som en CSV fil (som kan åpnes i ett regneark f. eks MS Excel, eller importerer inn i en annen program)");
+define("INV_CSV_DOWNLOAD_DESC", "Last ned denne rapporten som en CSV fil (som kan åpnes i ett regneark f. eks MS Excel, eller importerer inn i et annen program)");
 define("INV_EMAIL_DOWNLOADS_SUBJECT", "Nedlastbare produkt(er) er vedlagt - Bestillingsnummer: %s");
 
 //The following have been moved from other sections (used in more than one place)
@@ -130,7 +130,7 @@ define("INV_EMAIL_ADDRESS", "E-postadresse");
 define("INV_RELATING_TO", "Relatert til");
 define("INV_CURRENCY", "Valuta");
 define("INV_ORDER_DETAILS", "Ordredetaljer");
-define("INV_CLIENT_NAME", "Kudenavn");
+define("INV_CLIENT_NAME", "Kundenavn");
 define("INV_ADD_INVOICE_ITEM", "Legg til produkt");
 define("INV_REMOVE_INVOICE_ITEM", "Fjern produkt");
 define("INV_INSTR_CURRENCY", "");
@@ -197,12 +197,12 @@ define("INV_MNU_INCOME", "Inntekter");
 define("INV_MNU_INCOME_DESC", "Administrer inntekter");
 define("INV_MNU_EXPENDITURE", "Utgifter");
 define("INV_MNU_EXPENDITURE_DESC", "Administrer utgifter");
-define("INV_MNU_AUDIT_LOG", "Audit Log");
+define("INV_MNU_AUDIT_LOG", "Besøkslogg");
 define("INV_MNU_AUDIT_LOG_DESC", "Se besøkslogg");
 define("INV_MNU_REPORTS", "Rapporter");
 define("INV_MNU_REPORTS_DESC", "Produser rapporter");
-define("INV_MNU_JACL_VOUCHER", "ACL Upgrade Vouchers");
-define("INV_MNU_JACL_VOUCHER_DESC", "Define voucher codes for user subscription level upgrades");
+define("INV_MNU_JACL_VOUCHER", "ACL oppgrader rabatter");
+define("INV_MNU_JACL_VOUCHER_DESC", "Definer kupongkoder for å oppgradere abonnementsnivå");
 define("INV_MNU_DISPLAY_OPTIONS", "Visningsvalg");
 define("INV_MNU_DISPLAY_OPTIONS_DESC", "Angi hva som skal vises på forsiden/brukersiden");
 define("INV_MNU_TAX_SUMMARY", "MVA-rapport");
@@ -225,10 +225,10 @@ define("INV_MNU_PAYMENT_LINK", "Generering av betalingslenke");
 define("INV_MNU_PAYMENT_LINK_DESC", "Generer en betalingslenke som du kan sende til en kunde");
 define("INV_MNU_GATEWAY_FUNCTIONS", "%s funksjoner");
 define("INV_MNU_GATEWAY_FUNCTIONS_DESC", "Utvidet funksjonalitet for %s-betalingsmodulen.");
-define("INV_MNU_TRANSACTION_REPORT", "Transaksjonrapport");
+define("INV_MNU_TRANSACTION_REPORT", "Transaksjonsrapport");
 define("INV_MNU_TRANSACTION_REPORT_DESC", "List opp alle inntekter/utgifter etter dato, med summering");
 define("INV_MNU_LEDGER_REPORT", "Hovedbok");
-define("INV_MNU_LEDGER_REPORT_DESC", "Nominal Ledger Summary");
+define("INV_MNU_LEDGER_REPORT_DESC", "Oppsummering hovedbok");
 define("INV_MNU_REMINDERS", "Påminnelser");
 define("INV_MNU_REMINDERS_DESC", "Konfigurer valg for utsendelse av påminnelser på e-post");
 
@@ -240,8 +240,8 @@ define("INV_SUB_EXPIRY_DOWNGRADED", "NEDGRADERT til '%s'");
 define("INV_SUB_EXPIRY_REASON_CANCELLED", "din ordre på brukerabonnement har blitt annullert.");
 define("INV_SUB_EXPIRY_REASON_DELETED", "din ordre på brukerabonnement har blitt slettet.");
 define("INV_SUB_EXPIRY_REASON_EXPIRED", "ditt brukerabonnement har utløpt.");
-define("INV_SUB_EXPIRY_REASON_NOT_RENEWED", "ditt brukerabonnement har blitt fornyet. Kontakt oss for å fornye ditt abonnement, slik at du kan fortsette å bruke siden med dine tidligere rettigheter.");
-define("INV_SUB_EXPIRY_REASON_UNKNOWN", "ukjent. Vennligst kontakt oss om du mener dette dette er en feil.");
+define("INV_SUB_EXPIRY_REASON_NOT_RENEWED", "ditt brukerabonnement har ikke blitt fornyet. Kontakt oss for å fornye ditt abonnement, slik at du kan fortsette å bruke siden med dine tidligere rettigheter.");
+define("INV_SUB_EXPIRY_REASON_UNKNOWN", "ukjent. Vennligst kontakt oss om du mener dette er en feil.");
 define("INV_CONTINUE", "Klikk her for å fortsette");
 define("INV_CONTINUE_HOME", "Klikk her for å returnere til hjemmesiden.");
 
@@ -275,7 +275,7 @@ define("INV_TB_ACTIVATE", "Aktiver");
 define("INV_TB_SELECT_ITEM_TO_DELETE", "Vennligst velg hva du vil slette fra listen");
 define("INV_TB_DELETE_ARE_YOU_SURE", "Er du sikker på at du ønsker å slette valgte elementer?");
 define("INV_TB_SELECT_ITEM_TO_EDIT", "Vennligst velg hva du vil redigere fra listen");
-define("INV_TB_SELECT_ITEM_TO_GENERATE", "Vennligst velg ordren du generere faktura for fra listen");
+define("INV_TB_SELECT_ITEM_TO_GENERATE", "Vennligst velg ordre fra listen som du vil generere faktura for");
 define("INV_TB_SELECT_ITEM_TO_PREVIEW", "Vennligst velg hva du vil forhåndsvise fra listen");
 define("INV_TB_BACK", "Tilbake");
 
@@ -289,11 +289,11 @@ define("INV_TB_BACK", "Tilbake");
 /***************************/
 
 // Version 1.2.0
-define("INV_MNU_STYLESHEET_WARNING", "WARNING! Your ADMIN template is not loading the nBill stylesheet. Everything will look wrong unless you add some code to your admin template. See %s.");
-define("INV_MNU_STYLESHEET_WARNING_1011", "WARNING! You are using an OLD and INSECURE version of Joomla! A side-effect of this is that your ADMIN template is not loading the nBill stylesheet. Everything will look wrong unless you either upgrade Joomla (recommended), or add some code to your admin template. See %s.");
-define("INV_LICENSE_EXPIRES_SOON", "WARNING! Your license key expires soon (%s).");
-define("INV_LIC_EXP_ANNUAL", " If you wish to renew for another year now without losing any of the remaining time on this license key, please login at " . INV_BRANDING_WEBSITE . " and renew your *existing* order (rather than placing a new order).");
-define("INV_LIC_EXP_TRIAL", " If you want to continue using " . INV_BRANDING_NAME . " after this date, please purchase a license key at " . INV_BRANDING_WEBSITE);
+define("INV_MNU_STYLESHEET_WARNING", "ADVARSEL! Din Din ADMIN mal laster ikke nBill stilsett. Alt vil se galt ut med mindre du legge til en kode til din admin mal. Se %s.");
+define("INV_MNU_STYLESHEET_WARNING_1011", "ADVARSEL! Du bruker en utdatert og USIKKER versjon av Joomla! En sideeffekt av dette er at ADMIN malen ikke laster nBill stilsettet. Alt vil se galt ut med mindre du enten oppgradere Joomla (anbefales), eller legge til en kode i admin mal din. Se %s.");
+define("INV_LICENSE_EXPIRES_SOON", "ADVARSEL! Din lisens utløper snart (%s).");
+define("INV_LIC_EXP_ANNUAL", " Hvis du ønsker å fornyes for ett år nå uten å miste noe av gjenværende tid på denne lisensen, vennligst logg deg inn på " . INV_BRANDING_WEBSITE . " og fornye din *eksisterende* bestilling (heller enn å bestille en ny).");
+define("INV_LIC_EXP_TRIAL", " Hvis du fortsatt ønsker å bruke  " . INV_BRANDING_NAME . " etter denne datoen, kan du kjøpe en lisens på " . INV_BRANDING_WEBSITE);
 define("INV_TXN_DETAILS", "Følgende oppføringer ble funnet for angitt transaksjonsnummer");
 define("INV_TXN_NOT_FOUND", "Ingen oppføringer ble funnet for angitt transaksjonsnummer.");
 define("INV_TXN_CLIENT", "Kunde");
@@ -316,18 +316,18 @@ define("INV_MNU_TX_SEARCH", "Søk transaksjon");
 define("INV_MNU_TX_SEARCH_HELP", "Søk etter oppføringer basert på transaksjonsnummer fra din betalingsformidler");
 
 //Version 1.2.0 SP1
-define("INV_ERR_COULD_NOT_CREATE_USER_REASON", "WARNING! Although the order form is set to automatically create a user record, it was not possible to create a user for this order. The following error was reported: %s");
+define("INV_ERR_COULD_NOT_CREATE_USER_REASON", "ADVARSEL! Selv om bestillingsskjemaet er satt til automatisk å opprette en bruker, var det ikke mulig å opprette en brukerkonto for denne bestillingen. Følgende feil ble rapportert: %s");
 
 //Version 1.2.1
-define("INV_CANNOT_UPGRADE_120", "Sorry, you cannot upgrade from a version prior to 1.2.0. Please uninstall this version, install 1.2.0 to upgrade your database, then try upgrading again to this version.");
-define("INV_TEMP_NOT_WRITABLE", "PHP Temp directory not found or not writable ('%s') - invoice attachment could not be saved.");
+define("INV_CANNOT_UPGRADE_120", "Beklager, du kan ikke oppgradere fra en versjon før 1.2.0. Du må avinstallere denne versjonen, installerer versjon 1.2.0 for å oppgradere databasen, og deretter prøve å oppgradere til denne versjonen.");
+define("INV_TEMP_NOT_WRITABLE", "Midlertidig PHP mappen ble ikke funnet eller ikke skrivbar ('%s') - fakturavedlegg kunne ikke lagres.");
 define("INV_NO_WRITE_ACCESS", "PHP har ikke skrivetilgang til filen %s - fakturavedlegg kunne ikke lagres.");
 define("INV_INVALID_CHARS_IN_FIELD", "%s inneholder ugyldige tegn. Bruk kun alfanumeriske tegn i dette feltet.");
 define("INV_INVALID_CHARS_USERNAME", "Brukernavn");
 define("INV_USERNAME_EXISTS", "Beklager, dette brukernavnet er allerede i bruk.");
 define("INV_USER_EMAIL_EXISTS", "Beklager, denne e-postadressen er fortsatt i bruk.");
 define("INV_EMAIL_INVALID", "E-postadressen du oppgav er ikke gyldig.");
-define("INV_EMAIL_INVOICE_PDF", "Send faktura til kunde som et PDF-vedlegg (e-post i ren tekst)");
+define("INV_EMAIL_INVOICE_PDF", "Send faktura til kunde som et PDF vedlegg (e-post i ren tekst)");
 define("INV_NO", "Nei");
 define("INV_YES", "Ja");
 
@@ -337,7 +337,7 @@ define("INV_OFFLINE", "Frakoblet");
 //Line 90 of original English language file amended (INV_ERR_SERIOUS_ERROR_NOMAIL) - if database not available, full error reports are now logged to the PHP error log
 
 //Version 1.2.4
-define("INV_INSTALL_ERROR", "Beklager, det ser ut som nBill ikke ble instalert helt riktig. Forsøk å avinstallere og så instalere på nytt igjen. Om det ikke hjelper bør du ta en kikk på feilsøkingsseksjonen i dokumentasjonen på <a href=\"http://www.nbill.co.uk/documentation/\">www.nbill.co.uk/documentation</a>.<br /><br /><a href=\"index2.php\">Returner til kontrollpanelet</a>");
+define("INV_INSTALL_ERROR", "Beklager, det ser ut som nBill ikke ble installert helt riktig. Forsøk å avinstallere og så installere på nytt igjen. Om det ikke hjelper bør du ta en kikk på feilsøkingsseksjonen i dokumentasjonen på <a href=\"http://www.nbill.co.uk/documentation/\">www.nbill.co.uk/documentation</a>.<br /><br /><a href=\"index2.php\">Returner til kontrollpanelet</a>");
 
 //Version 1.2.5
 define("INV_LICENSE_NOT_WORKING", "<strong>MERK: Om din lisensnøkkel ikke vil virke bør du ta en kikk på feilsøkingsseksjonen i dokumentasjonen på: <a href=\"http://www.nbill.co.uk/documentation/index.php?page=license-key-is-not-accepted.html\" target=\"_blank\">http://www.nbill.co.uk/documentation/index.php?page=license-key-is-not-accepted.html</a>. Om du fortsatt ikke får det til å virke, etter å ha forsøkt alt som er listet her, kan du opprette en supportsak (vi vil behøve tilgang til din side som superadministrator for å kunne feilsøke).</strong>");
