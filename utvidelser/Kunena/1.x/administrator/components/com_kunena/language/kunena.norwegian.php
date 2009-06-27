@@ -56,15 +56,15 @@ DEFINE('_KUNENA_INTEGRATION_CB_WARN_HIDE', 'Lagring av Kunena-konfigurasjonen vi
 // 1.0.10
 DEFINE('_KUNENA_BACK', 'Tilbake');
 DEFINE('_KUNENA_SYNC', 'Synk');
-DEFINE('_KUNENA_NEW_SMILIE', 'New Smilie');
-DEFINE('_KUNENA_PRUNE', 'Prune');
+DEFINE('_KUNENA_NEW_SMILIE', 'Nytt uttrykksikon');
+DEFINE('_KUNENA_PRUNE', 'Fjern poster uten svar');
 // Editor
 DEFINE('_KUNENA_EDITOR_HELPLINE_BOLD', 'Halvfet: [b]tekst[/b]');
 DEFINE('_KUNENA_EDITOR_HELPLINE_ITALIC', 'Kursiv: [i]tekst[/i]');
 DEFINE('_KUNENA_EDITOR_HELPLINE_UNDERL', 'Understreket: [u]Tekst[/u]');
 DEFINE('_KUNENA_EDITOR_HELPLINE_STRIKE', 'Gjennomstreket tekst: [strike]Tekst[/strike]');
-DEFINE('_KUNENA_EDITOR_HELPLINE_SUB', 'Subscript Text: [sub]Tekst[/sub]');
-DEFINE('_KUNENA_EDITOR_HELPLINE_SUP', 'Superscript Text: [sup]Tekst[/sup]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_SUB', 'Senket tekst: [sub]Tekst[/sub]');
+DEFINE('_KUNENA_EDITOR_HELPLINE_SUP', 'Hevet tekst: [sup]Tekst[/sup]');
 DEFINE('_KUNENA_EDITOR_HELPLINE_QUOTE', 'Siter tekst: [quote]Tekst[/quote]');
 DEFINE('_KUNENA_EDITOR_HELPLINE_CODE', 'Kodevisning: [code]Kode[/code]');
 DEFINE('_KUNENA_EDITOR_HELPLINE_UL', 'Punktmerking: [ul] [li]Tekst[/li] [/ul] - Tips: En liste må inneholde listeelementer');
@@ -82,7 +82,7 @@ DEFINE('_KUNENA_EDITOR_HELPLINE_LINKURL', 'Lenke: Nettadresse for lenken');
 DEFINE('_KUNENA_EDITOR_HELPLINE_LINKTEXT', 'Lenke: Tekst / beskrivelse av lenken');
 DEFINE('_KUNENA_EDITOR_HELPLINE_LINKAPPLY', 'Lenke: Bruk lenke');
 DEFINE('_KUNENA_EDITOR_HELPLINE_HIDE','Skjult tekst: [hide]Skjult tekst[/hide] - skjuler deler av meldingen for gjester');
-DEFINE('_KUNENA_EDITOR_HELPLINE_SPOILER', 'Spoiler: Text is only shown after you click the spoiler');
+DEFINE('_KUNENA_EDITOR_HELPLINE_SPOILER', 'Spoiler: Teksten vises kun etter at du har klikket på spoiler');
 DEFINE('_KUNENA_EDITOR_HELPLINE_COLOR', 'Farge: [color=#FF6600]Tekst[/color]');
 DEFINE('_KUNENA_EDITOR_HELPLINE_FONTSIZE', 'Fontstr.: [size=1]Tekststr.[/size] - Tips: størrelsesområde fra 1 til 5');
 DEFINE('_KUNENA_EDITOR_HELPLINE_FONTSIZESELECTION', 'Fontstr.: Velg fontstørrelse, marker tekst og klikk på the button left from here');
