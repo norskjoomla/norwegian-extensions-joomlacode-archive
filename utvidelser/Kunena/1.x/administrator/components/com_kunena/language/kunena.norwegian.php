@@ -22,7 +22,7 @@
 * @Copyright Translation (C) 2006 - 2009 Joomla! i Norge
 * @translator FB 1.0.x -> 1.0.4 Birger J. Nordølum, Supplements by Gunnar Holmstad, Kristian Wengen and Karl-Gustav Freding
 * @translator FB/Kunena 1.0.5 -> 1.0.8 Rune Rasmussen
-* @translator FB/Kunena 1.0.10 (->linje 123) Knut Carlsen
+* @translator FB/Kunena 1.0.10 - 1.5.3 Knut Carlsen
 **/
 
 // Dont allow direct linking
