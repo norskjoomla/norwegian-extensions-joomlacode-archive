@@ -26,7 +26,7 @@
 **/
 
 // Dont allow direct linking
-defined ('_VALID_MOS') or die('Direct Access to this location is not allowed.');
+defined( '_JEXEC' ) or defined ('_VALID_MOS') or die('Restricted access');
 
 // 1.0.11 and 1.5.3
 DEFINE('_KUNENA_VERSION_SVN', 'SVN-revisjon');
