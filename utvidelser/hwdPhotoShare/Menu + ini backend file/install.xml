@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" client="both" type="language" method="upgrade">
+<tag>nb-NO</tag>
+<version>2.1.1</version>
+<creationDate>09.02.2008</creationDate>
+<author>Petter Sandvik</author>
+<name>Norwegian bokmal</name>
+<authorEmail>nyfritid [at] nyfritid.no</authorEmail>
+<authorUrl>www.nyfritid.no</authorUrl>
+<copyright>Copyright (C) 2008 www.NyFritid.no. All rights reserved.</copyright>
+<license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+<description>Norwegian bokmal hwdPhotoShare menu translation</description><administration>
+<files folder="admin">
+<filename>nb-NO.com_hwdphotohare.menu.ini</filename>
+<filename>nb-NO.com_hwdphotohare.ini</filename>
+</files>
+</administration>
+<params />
+</install>
