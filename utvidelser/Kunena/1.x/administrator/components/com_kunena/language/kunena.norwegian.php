@@ -44,7 +44,7 @@ DEFINE('_KUNENA_ERROR_UPGRADE', 'Oppgradering av Kunena til versjon %s feilet!')
 DEFINE('_KUNENA_ERROR_UPGRADE_WARN', 'Forumet ser ut til å mangle noen viktige oppdateringer og noen funksjoner vil derfor kunne være utilgjengelige.');
 DEFINE('_KUNENA_ERROR_UPGRADE_AGAIN', 'Prøv å oppgradere på nytt. Dersom du ikke kan oppgradere til Kunena %s kan du enkelt nedgradere til siste fungerende versjon.');
 DEFINE('_KUNENA_PAGE', 'Side');
-DEFINE('_KUNENA_RANK_NO_ASSIGNED', 'No Rank Assigned');
+DEFINE('_KUNENA_RANK_NO_ASSIGNED', 'Ingen rang tildelt');
 DEFINE('_KUNENA_INTEGRATION_CB_WARN_GENERAL', 'Problemer oppdaget i integrasjonen med Community Builder:');
 DEFINE('_KUNENA_INTEGRATION_CB_WARN_INSTALL', 'Integrasjonen med Community Builder fungerer kun dersom du har Community Builder versjon %s eller høyere installert.');
 DEFINE('_KUNENA_INTEGRATION_CB_WARN_PUBLISH', 'Profilintegrasjonen med Community Builder virker kun dersom Community Builders brukerprofil er publisert.');
@@ -431,12 +431,12 @@ DEFINE('_KUNENA_INSTALL_CLICK_TO_CONTINUE', 'Klikk her for å fortsette...');
 DEFINE('_KUNENA_INSTALL_APPLY', 'Bruk!');
 DEFINE('_KUNENA_NO_ACCESS', 'Du har ikke adgang til dette forumet!');
 DEFINE('_KUNENA_TIME_SINCE', '%time% siden');
-DEFINE('_KUNENA_DATE_YEARS', 'År');
-DEFINE('_KUNENA_DATE_MONTHS', 'Måneder');
-DEFINE('_KUNENA_DATE_WEEKS', 'Uker');
-DEFINE('_KUNENA_DATE_DAYS', 'Dager');
-DEFINE('_KUNENA_DATE_HOURS', 'Timer');
-DEFINE('_KUNENA_DATE_MINUTES', 'Minutter');
+DEFINE('_KUNENA_DATE_YEARS', 'år');
+DEFINE('_KUNENA_DATE_MONTHS', 'måneder');
+DEFINE('_KUNENA_DATE_WEEKS', 'uker');
+DEFINE('_KUNENA_DATE_DAYS', 'dager');
+DEFINE('_KUNENA_DATE_HOURS', 'timer');
+DEFINE('_KUNENA_DATE_MINUTES', 'minutter');
 // 1.0.2
 DEFINE('_KUNENA_HEADERADD', 'Forumtittel:');
 DEFINE('_KUNENA_ADVANCEDDISPINFO', "Forumvisning");
@@ -549,9 +549,9 @@ DEFINE('_KUNENA_EMOTICONS_EDIT_SMILEY', 'Endre smilefjes');
 DEFINE('_KUNENA_EMOTICONS_EDIT_SMILIES', 'Endre smilefjes');
 DEFINE('_KUNENA_EMOTICONS_EMOTICONBAR', 'Smilefjes-linje');
 DEFINE('_KUNENA_EMOTICONS_NEW_SMILEY', 'Nytt smilefjes');
-DEFINE('_KUNENA_EMOTICONS_MORE_SMILIES', 'Flere Smilefjes');
+DEFINE('_KUNENA_EMOTICONS_MORE_SMILIES', 'Vis flere smilefjes');
 DEFINE('_KUNENA_EMOTICONS_CLOSE_WINDOW', 'Lukk vindu');
-DEFINE('_KUNENA_EMOTICONS_ADDITIONAL_EMOTICONS', 'Flere smilefjes');
+DEFINE('_KUNENA_EMOTICONS_ADDITIONAL_EMOTICONS', 'Vis flere smilefjes');
 DEFINE('_KUNENA_EMOTICONS_PICK_A_SMILEY', 'Velg ett smilefjes');
 DEFINE('_KUNENA_MAMBOT_SUPPORT', 'Joomla Mambot støtte');
 DEFINE('_KUNENA_MAMBOT_SUPPORT_DESC', 'Aktiver Joomla Mambot støtte');
@@ -625,12 +625,12 @@ DEFINE('_KUNENA_MYPROFILE_SIGNATURE', 'Signatur');
 DEFINE('_KUNENA_MYPROFILE_MALE', 'Mann');
 DEFINE('_KUNENA_MYPROFILE_FEMALE', 'Kvinne');
 DEFINE('_KUNENA_BULKMSG_DELETED', 'Innlegg ble slettet');
-DEFINE('_KUNENA_DATE_YEAR', 'År');
-DEFINE('_KUNENA_DATE_MONTH', 'Måned');
-DEFINE('_KUNENA_DATE_WEEK', 'Uke');
-DEFINE('_KUNENA_DATE_DAY', 'Dag');
-DEFINE('_KUNENA_DATE_HOUR', 'Time');
-DEFINE('_KUNENA_DATE_MINUTE', 'Minutt');
+DEFINE('_KUNENA_DATE_YEAR', 'år');
+DEFINE('_KUNENA_DATE_MONTH', 'måned');
+DEFINE('_KUNENA_DATE_WEEK', 'uke');
+DEFINE('_KUNENA_DATE_DAY', 'dag');
+DEFINE('_KUNENA_DATE_HOUR', 'time');
+DEFINE('_KUNENA_DATE_MINUTE', 'minutt');
 DEFINE('_KUNENA_IN_FORUM', 'i forum');
 DEFINE('_KUNENA_FORUM_AT', ' Forum på: ');
 DEFINE('_KUNENA_QMESSAGE_NOTE', 'Merk, selv om det ikke vises noen boardkode eller smilefjesknapper, kan de fortsatt brukes');
@@ -908,9 +908,9 @@ DEFINE('_KUNENA_FORUM_TOP', 'Forumkategorier ');
 DEFINE('_KUNENA_CHILD_BOARDS', 'Underkategorier ');
 DEFINE('_KUNENA_QUICKMSG', 'Raskt svar ');
 DEFINE('_KUNENA_THREADS_IN_FORUM', 'Tråder i forum ');
-DEFINE('_KUNENA_FORUM', 'Kategorier ');
-DEFINE('_KUNENA_SPOTS', 'Søkelys');
-DEFINE('_KUNENA_CANCEL', 'avbryt');
+DEFINE('_KUNENA_FORUM', 'Forum');
+DEFINE('_KUNENA_SPOTS', 'Prioritert');
+DEFINE('_KUNENA_CANCEL', 'Avbryt');
 DEFINE('_KUNENA_TOPIC', 'EMNE: ');
 DEFINE('_KUNENA_POWEREDBY', 'Forumløsning av: ');
 // Time Format
@@ -1050,14 +1050,12 @@ DEFINE('_MODERATION_DELETE_SUCCESS', 'Innlegg slettet');
 DEFINE('_COM_A_RANKING', 'Rangering');
 DEFINE('_COM_A_BOT_REFERENCE', 'Vis botreferansediagram');
 DEFINE('_COM_A_MOSBOT', 'Aktiver diskusjonsbot');
-DEFINE('_PREVIEW', 'forhåndsvis');
+DEFINE('_PREVIEW', 'Forhåndsvis');
 DEFINE('_COM_A_MOSBOT_TITLE', 'Diskusjonsbot');
 DEFINE('_COM_A_MOSBOT_DESC', 'Diskusjonsboten gjør det mulig for dine brukere å diskutere artikler på nettsidene dine. Artikkelens tittel vil bli brukt som tittel på emnet.'
-.'<br />Dersom emnet ikke allerede eksisterer, vil en ny bli opprettet. Dersom emnet allerede eksisterer, blir brukeren vist til tråden hvor hun/han kan legge inn sitt svar.' . '<br /><strong>Du må laste ned og installere diskusjonsboten separat.</strong>'
-.'<br />Gå til <a href="http://www.kunena.com">Kunena-Sidene</a> for mere informasjon.' . '<br />Etter installasjonen må du legge til følgende bot-kommando i artiklene dine:' . '<br />{mos_fb_discuss:<em>kategoriID</em>}'
-.'<br /><em>kategoriID</em> er den forumskategorien hvor artiklene skal diskuteres. For å finne den rette kategoriIDen kan du sjekke i forumet ' . 'og finne kategoriens ID i URLen i nettleseren din.'
-.'<br />Eksempel: Hvis du vil at artikkelen skal diskuteres i et forum med kategoriID 26, bør Bot-kommandoen se slik ut: {mos_fb_discuss:26}'
-.'<br />Dette kan se vanskelig ut, men det gir deg muligheten til å få artiklene dine diskutert i et matchende forum.' );
+           . '<br />Dersom emnet ikke allerede eksisterer, vil en ny bli opprettet. Dersom emnet allerede eksisterer, blir brukeren vist til tråden hvor hun/han kan legge inn sitt svar.' . '<br /><strong>Du må laste ned og installere diskusjonsboten separat.</strong>'
+           . '<br />Gå til <a href="http://www.kunena.com">Kunena-Sidene</a> for mere informasjon.' . '<br />Etter installasjonen må du legge til følgende bot-kommando i artiklene dine:' . '<br />{mos_fb_discuss:<em>kategoriID</em>}'
+           . '<br />Eksempel: Hvis du vil at artikkelen skal diskuteres i et forum med kategoriID 26, bør Bot-kommandoen se slik ut: {mos_fb_discuss:26}'           . .'<br />Dette kan se vanskelig ut, men det gir deg muligheten til å få artiklene dine diskutert i et matchende forum.' );           . 
 //new in 1.1.4 stable
 // search.class.php
 DEFINE('_FORUM_SEARCHTITLE', 'Søk');
@@ -1194,10 +1192,10 @@ DEFINE('_SIZE_SMALL', 'Liten');
 DEFINE('_SIZE_VSMALL', 'Veldig liten');
 DEFINE('_SIZE_BIG', 'Stor');
 DEFINE('_SIZE_VBIG', 'Veldig stor');
-DEFINE('_IMAGE_SELECT_FILE', 'Velg bildefilen du vil legge ved');
+DEFINE('_IMAGE_SELECT_FILE', 'Velg bilde du vil legge ved');
 DEFINE('_FILE_SELECT_FILE', 'Velg filen du vil legge ved');
 DEFINE('_FILE_NOT_UPLOADED', 'Filen ble ikke lastet opp. Prøv å legge inn på nytt eller rediger innlegget');
-DEFINE('_IMAGE_NOT_UPLOADED', 'bildefilen ble ikke lastet opp. Prøv å legge inn på nytt eller rediger innlegget');
+DEFINE('_IMAGE_NOT_UPLOADED', 'Bilde ble ikke lastet opp. Prøv å legge inn på nytt eller rediger innlegget');
 DEFINE('_BBCODE_IMGPH', 'Sett inn [img] plassholder i innlegget for det vedlagte bildet');
 DEFINE('_BBCODE_FILEPH', 'Sett inn [file] plassholder i innlegget for den vedlagte filen');
 DEFINE('_POST_ATTACH_IMAGE', '[img]');
@@ -1351,25 +1349,24 @@ DEFINE('_COM_A_FLAT', 'Flat');
 DEFINE('_COM_A_THREADED', 'Tråd');
 DEFINE('_COM_A_MESSAGES', 'Antall innlegg pr. side');
 DEFINE('_COM_A_MESSAGES_DESC', 'Antall innlegg som skal vises pr. side');
-
-   //admin; changes from 0.9 to 0.9.1
+//admin; changes from 0.9 to 0.9.1
 DEFINE('_COM_A_USERNAME', 'Brukernavn');
 DEFINE('_COM_A_USERNAME_DESC', 'Velg &quot;Ja&quot; dersom du vil at brukernavnet (som ved innlogging) skal brukes istedenfor brukerens egentlige navn');
 DEFINE('_COM_A_CHANGENAME', 'Tillat endring av navn');
 DEFINE('_COM_A_CHANGENAME_DESC', 'Velg &quot;Ja&quot; dersom du vil la registrerte brukere ha mulighet til å endre sitt navn når de skriver et innlegg.');
-
 //admin; changes 0.9.1 to 0.9.2
 DEFINE('_COM_A_BOARD_OFFLINE', 'Forum nede for vedlikehold!');
 DEFINE('_COM_A_BOARD_OFFLINE_DESC', 'Velg &quot;Ja&quot; dersom du vil ta ned forumkomponenten for vedlikehold. Forumet vil forbli tilgjengelig for (super)administratorer.');
 DEFINE('_COM_A_BOARD_OFFLINE_MES', 'Frakoblet forumbeskjed');
 DEFINE('_COM_A_PRUNE', 'Rydd i Forum');
 DEFINE('_COM_A_PRUNE_NAME', 'Forum å rydde i:');
-DEFINE('_COM_A_PRUNE_DESC', 'Rydde-funksjonen lar deg fjerne tråder hvor det ikke har blitt skrevet nye innlegg på det spesifiserte antallet dager. Dette fjerner ikke emner som er prioriterte eller låste; disse må fjernes manuelt. Tråder i låste forum vil ikke fjernes.');
+DEFINE('_COM_A_PRUNE_DESC',
+    'Rydde-funksjonen lar deg fjerne tråder hvor det ikke har blitt skrevet nye innlegg på det spesifiserte antallet dager. Dette fjerner ikke emner som er prioriterte eller låste; disse må fjernes manuelt. Tråder i låste forum vil ikke fjernes.');
 DEFINE('_COM_A_PRUNE_NOPOSTS', 'Fjern tråder uten nye innlegg i løpet av de siste ');
 DEFINE('_COM_A_PRUNE_DAYS', 'dager');
 DEFINE('_COM_A_PRUNE_USERS', 'Rydd i brukere');
-DEFINE('_COM_A_PRUNE_USERS_DESC', 'Denne funksjonen lar deg fjerne brukere ved å sammenligne brukerlisten til Kunena med brukerlisten til joomla nettstedet ditt. Den vil slette alle Kunenabrukere som har blitt slettet fra brukere i Joomla! <br/>Når du er sikker på at du vil fortsette trykker du &quot;Prune&quot; i menyen ovenfor.');
-
+DEFINE('_COM_A_PRUNE_USERS_DESC',
+    'Denne funksjonen lar deg fjerne brukere ved å sammenligne brukerlisten til Kunena med brukerlisten til joomla nettstedet ditt. Den vil slette alle Kunenabrukere som har blitt slettet fra brukere i Joomla! <br/>Når du er sikker på at du vil fortsette trykker du &quot;Prune&quot; i menyen ovenfor.');
 //general
 DEFINE('_GEN_ACTION', 'Handling');
 DEFINE('_GEN_AUTHOR', 'Forfatter');
@@ -1471,7 +1468,7 @@ DEFINE('_POST_STICKY_SET', 'Prioritering av emnet er satt.');
 DEFINE('_POST_STICKY_NOT_SET', 'Prioritering av emnet kunne ikke settes.');
 DEFINE('_POST_STICKY_UNSET', 'Prioritering av emnet er fjernet.');
 DEFINE('_POST_STICKY_NOT_UNSET', 'Prioritering kunne ikke fjernes.');
-DEFINE('_POST_SUBSCRIBE', 'abonner');
+DEFINE('_POST_SUBSCRIBE', 'Abonnér');
 DEFINE('_POST_SUBSCRIBED_TOPIC', 'Du abonnerer nå på emnet.');
 DEFINE('_POST_SUCCESS', 'Din melding ble lagt inn');
 DEFINE('_POST_SUCCES_REVIEW', 'Din melding ble lagt inn. Den vil bli gjennomgått av en moderator før det legges ut på forumet.');
@@ -1542,7 +1539,6 @@ DEFINE('_VIEW_LOCK', 'Lås emnet');
 DEFINE('_VIEW_UNLOCK', 'Lås opp emnet');
 DEFINE('_VIEW_MOVE', 'Flytt emnet til et annet forum');
 DEFINE('_VIEW_SUBSCRIBETXT', 'Abonner på emnet for å motta e-post ved nye innlegg');
-
 //NEW-STRINGS-FOR-TRANSLATING-READY-FOR-SIMPLEBOARD 9.2
 DEFINE('_HOME', 'Forum');
 DEFINE('_POSTS', 'Innlegg:');
@@ -1566,7 +1562,7 @@ DEFINE('_SHOW_8_HOURS', '8 timer');
 DEFINE('_SHOW_12_HOURS', '12 timer');
 DEFINE('_SHOW_24_HOURS', '24 timer');
 DEFINE('_SHOW_48_HOURS', '48 timer');
-DEFINE('_SHOW_WEEK', 'uke');
+DEFINE('_SHOW_WEEK', 'Uke');
 DEFINE('_POSTED_AT', 'Skrevet');
 DEFINE('_DATETIME', 'd/m/Y H:i');
 DEFINE('_NO_TIMEFRAME_POSTS', 'Ingen nye innlegg i den tidsrammen du valgte.');
@@ -1577,7 +1573,6 @@ DEFINE('_FORUM_UNAUTHORIZIED2', 'Vennligst logg inn først, dersom du allerede e
 DEFINE('_MESSAGE_ADMINISTRATION', 'Moderasjon');
 DEFINE('_MOD_APPROVE', 'Godkjenn');
 DEFINE('_MOD_DELETE', 'Slett');
-
 //NEW in RC1
 DEFINE('_SHOW_LAST', 'Vis siste innlegg');
 DEFINE('_POST_WROTE', 'skrev');
@@ -1603,17 +1598,17 @@ DEFINE('_VIEW_PMS', 'Klikk her for å sende en privat melding til denne brukeren
 
 //new in RC3
 DEFINE('_POST_RE', 'Sv:');
-DEFINE('_BBCODE_BOLD', 'Fete typer: [b]tekst[/b] ');
+DEFINE('_BBCODE_BOLD', 'Halvfet: [b]tekst[/b] ');
 DEFINE('_BBCODE_ITALIC', 'Kursiv: [i]tekst[/i]');
-DEFINE('_BBCODE_UNDERL', 'Understrek: [u]tekst[/u]');
-DEFINE('_BBCODE_QUOTE', 'I anførselstegn: [quote]tekst[/quote]');
+DEFINE('_BBCODE_UNDERL', 'Understreket: [u]tekst[/u]');
+DEFINE('_BBCODE_QUOTE', 'Siter tekst: [quote]tekst[/quote]');
 DEFINE('_BBCODE_CODE', 'Kode: [code]kode[/code]');
 DEFINE('_BBCODE_ULIST', 'Punktliste: [ul] [li]tekst[/li] [/ul] - Hint: en liste må inneholde listeenheter');
-DEFINE('_BBCODE_OLIST', 'Numerert list: [ol] [li]tekst[/li] [/ol] - Hint: en liste må inneholde listeenheter');
+DEFINE('_BBCODE_OLIST', 'Numerert liste: [ol] [li]tekst[/li] [/ol] - Hint: en liste må inneholde listeenheter');
 DEFINE('_BBCODE_IMAGE', 'Bilde: [img size=(01-499)]http://www.google.com/images/web_logo_left.gif[/img]');
 DEFINE('_BBCODE_LINK', 'Lenke: [url=http://www.nnfa.no/]Dette er en lenke[/url]');
 DEFINE('_BBCODE_CLOSA', 'Lukk alle tagger');
-DEFINE('_BBCODE_CLOSE', 'Lukk alle åpne bb kodetagger');
+DEFINE('_BBCODE_CLOSE', 'Lukk alle åpne bb-kodetagger');
 DEFINE('_BBCODE_COLOR', 'Farge: [color=#FF6600]tekstfarge[/color]');
 DEFINE('_BBCODE_SIZE', 'Størrelse: [size=1]skriftstørrelse[/size] - Hint: størrelse mellom 1 og 5');
 DEFINE('_BBCODE_LITEM', 'Liste enhet: [li] listeenhet [/li]');
@@ -1630,7 +1625,7 @@ DEFINE('_KUNENA_RANKS_MANAGE', 'Administrering av rang');
 DEFINE('_KUNENA_SORTRANKS', 'Sorter etter rang');
 
 DEFINE('_KUNENA_RANKSIMAGE', 'Bilde til rang');
-DEFINE('_KUNENA_RANKS', 'Tittel til rang');
+DEFINE('_KUNENA_RANKS', 'Rangtittel');
 DEFINE('_KUNENA_RANKS_SPECIAL', 'Spesial');
 DEFINE('_KUNENA_RANKSMIN', 'Minumium antall innlegg');
 DEFINE('_KUNENA_RANKS_ACTION', 'Handlinger');
