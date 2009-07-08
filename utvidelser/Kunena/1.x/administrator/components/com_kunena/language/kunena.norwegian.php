@@ -44,7 +44,7 @@ DEFINE('_KUNENA_ERROR_UPGRADE', 'Oppgradering av Kunena til versjon %s feilet!')
 DEFINE('_KUNENA_ERROR_UPGRADE_WARN', 'Forumet ser ut til å mangle noen viktige oppdateringer og noen funksjoner vil derfor kunne være utilgjengelige.');
 DEFINE('_KUNENA_ERROR_UPGRADE_AGAIN', 'Prøv å oppgradere på nytt. Dersom du ikke kan oppgradere til Kunena %s kan du enkelt nedgradere til siste fungerende versjon.');
 DEFINE('_KUNENA_PAGE', 'Side');
-DEFINE('_KUNENA_RANK_NO_ASSIGNED', 'Ingen rang tildelt');
+DEFINE('_KUNENA_RANK_NO_ASSIGNED', 'No Rank Assigned');
 DEFINE('_KUNENA_INTEGRATION_CB_WARN_GENERAL', 'Problemer oppdaget i integrasjonen med Community Builder:');
 DEFINE('_KUNENA_INTEGRATION_CB_WARN_INSTALL', 'Integrasjonen med Community Builder fungerer kun dersom du har Community Builder versjon %s eller høyere installert.');
 DEFINE('_KUNENA_INTEGRATION_CB_WARN_PUBLISH', 'Profilintegrasjonen med Community Builder virker kun dersom Community Builders brukerprofil er publisert.');
@@ -423,7 +423,7 @@ DEFINE('_KUNENA_DT_MON_OCT', 'Okt');
 DEFINE('_KUNENA_DT_MON_NOV', 'Nov');
 DEFINE('_KUNENA_DT_MON_DEV', 'Des');
 DEFINE('_KUNENA_CHILD_BOARD', 'Underforum');
-DEFINE('_WHO_ONLINE_GUEST', 'Gjest');
+DEFINE('_WHO_ONLINE_GUEST', 'gjest');
 DEFINE('_WHO_ONLINE_MEMBER', 'Medlem');
 DEFINE('_KUNENA_IMAGE_PROCESSOR_NONE', 'ingen');
 DEFINE('_KUNENA_IMAGE_PROCESSOR', 'Bildebehandler:');
@@ -920,8 +920,8 @@ DEFINE('_TIME_YESTERDAY', '<b>I går</b> ');
 DEFINE('_KUNENA_WHO_LATEST_POSTS', 'Siste innlegg');
 DEFINE('_KUNENA_WHO_WHOISONLINE', 'Hvem er pålogget');
 DEFINE('_KUNENA_WHO_MAINPAGE', 'Hovedforum');
-DEFINE('_KUNENA_GUEST', 'Gjester');
-DEFINE('_KUNENA_PATHWAY_VIEWING', 'visning');
+DEFINE('_KUNENA_GUEST', 'gjester');
+DEFINE('_KUNENA_PATHWAY_VIEWING', 'besøkende');
 DEFINE('_KUNENA_ATTACH', 'Vedlegg');
 // Favorite
 DEFINE('_KUNENA_FAVORITE', 'Favoritt');
@@ -1053,9 +1053,11 @@ DEFINE('_COM_A_MOSBOT', 'Aktiver diskusjonsbot');
 DEFINE('_PREVIEW', 'Forhåndsvis');
 DEFINE('_COM_A_MOSBOT_TITLE', 'Diskusjonsbot');
 DEFINE('_COM_A_MOSBOT_DESC', 'Diskusjonsboten gjør det mulig for dine brukere å diskutere artikler på nettsidene dine. Artikkelens tittel vil bli brukt som tittel på emnet.'
-           . '<br />Dersom emnet ikke allerede eksisterer, vil en ny bli opprettet. Dersom emnet allerede eksisterer, blir brukeren vist til tråden hvor hun/han kan legge inn sitt svar.' . '<br /><strong>Du må laste ned og installere diskusjonsboten separat.</strong>'
-           . '<br />Gå til <a href="http://www.kunena.com">Kunena-Sidene</a> for mere informasjon.' . '<br />Etter installasjonen må du legge til følgende bot-kommando i artiklene dine:' . '<br />{mos_fb_discuss:<em>kategoriID</em>}'
-           . '<br />Eksempel: Hvis du vil at artikkelen skal diskuteres i et forum med kategoriID 26, bør Bot-kommandoen se slik ut: {mos_fb_discuss:26}'           . .'<br />Dette kan se vanskelig ut, men det gir deg muligheten til å få artiklene dine diskutert i et matchende forum.' );           . 
+.'<br />Dersom emnet ikke allerede eksisterer, vil en ny bli opprettet. Dersom emnet allerede eksisterer, blir brukeren vist til tråden hvor hun/han kan legge inn sitt svar.' . '<br /><strong>Du må laste ned og installere diskusjonsboten separat.</strong>'
+.'<br />Gå til <a href="http://www.kunena.com">Kunena-Sidene</a> for mere informasjon.' . '<br />Etter installasjonen må du legge til følgende bot-kommando i artiklene dine:' . '<br />{mos_fb_discuss:<em>kategoriID</em>}'
+.'<br /><em>kategoriID</em> er den forumskategorien hvor artiklene skal diskuteres. For å finne den rette kategoriIDen kan du sjekke i forumet ' . 'og finne kategoriens ID i URLen i nettleseren din.'
+.'<br />Eksempel: Hvis du vil at artikkelen skal diskuteres i et forum med kategoriID 26, bør Bot-kommandoen se slik ut: {mos_fb_discuss:26}'
+.'<br />Dette kan se vanskelig ut, men det gir deg muligheten til å få artiklene dine diskutert i et matchende forum.' );
 //new in 1.1.4 stable
 // search.class.php
 DEFINE('_FORUM_SEARCHTITLE', 'Søk');
