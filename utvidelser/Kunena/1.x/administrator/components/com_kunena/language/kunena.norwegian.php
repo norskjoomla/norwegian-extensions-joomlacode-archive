@@ -28,12 +28,15 @@
 // Dont allow direct linking
 defined( '_JEXEC' ) or defined ('_VALID_MOS') or die('Restricted access');
 
+// 1.0.11 and 1.5.4
+DEFINE('_KUNENA_MOVED', 'Flyttet');
+
 // 1.0.11 and 1.5.3
 DEFINE('_KUNENA_VERSION_SVN', 'SVN-revisjon');
 DEFINE('_KUNENA_VERSION_DEV', 'Utviklerutgave');
 DEFINE('_KUNENA_VERSION_ALPHA', 'Alfautgave');
 DEFINE('_KUNENA_VERSION_BETA', 'Betautgave');
-DEFINE('_KUNENA_VERSION_RC', 'Release-kandidat');
+DEFINE('_KUNENA_VERSION_RC', 'Utgivelsekandidat');
 DEFINE('_KUNENA_VERSION_INSTALLED', 'Du har installert Kunena %s (%s).');
 DEFINE('_KUNENA_VERSION_SVN_WARNING', 'Bruk aldri en SVN-revisjon for annet enn utvikling av programvare!');
 DEFINE('_KUNENA_VERSION_DEV_WARNING', 'Denne interne utgaven skal ikke benyttes av andre enn utviklere og testere!');
