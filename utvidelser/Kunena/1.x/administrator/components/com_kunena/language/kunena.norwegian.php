@@ -135,12 +135,12 @@ DEFINE('_KUNENA_DT_LMON_DEC', 'Desember');
 DEFINE('_KUNENA_DT_MON_DEC', 'Des');
 DEFINE('_KUNENA_NOGENDER', 'Ukjent');
 DEFINE('_KUNENA_ERROR_INCOMPLETE_ERROR', 'Din Kunena-installasjon er ikke komplett!');
-DEFINE('_KUNENA_ERROR_INCOMPLETE_OFFLINE', 'Pga. ovennevnte feil er forumet nå nede og forumadm. har blitt slått av.');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_OFFLINE', 'På grunn av ovenfornevnte feil er forumet nå ute av drift, og forumadministrasjonen har blitt deaktivert.');
 DEFINE('_KUNENA_ERROR_INCOMPLETE_REASONS', 'Mulige årsaker for denne feilen:');
 DEFINE('_KUNENA_ERROR_INCOMPLETE_1', '1) Kunena-installasjonen feilet eller gikk ut på tid (prøv å installere på nytt)');
-DEFINE('_KUNENA_ERROR_INCOMPLETE_2', '2) Du har fjernet noen av forumtabellene fra databasen din');
-DEFINE('_KUNENA_ERROR_INCOMPLETE_3', '3) Databasen din er korrupt');
-DEFINE('_KUNENA_ERROR_INCOMPLETE_SUPPORT', 'Vårt supportforum finnes her:');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_2', '2) Du har manuelt endret eller fjernet noen av Kunenas forumtabeller fra databasen din');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_3', '3) Du kan finne løsninger for de vanligste problemene i <a href="http://docs.kunena.com/index.php/Installation_Issues">Kunenas dokumentasjonswiki</a>');
+DEFINE('_KUNENA_ERROR_INCOMPLETE_SUPPORT', 'Vårt supportforum finner du her:');
 
 // 1.0.9
 DEFINE('_KUNENA_INSTALLED_VERSION', 'Installert versjon');
