@@ -48,7 +48,7 @@ define("INV_INSTR_TAX_ONLINE_EXEMPT", "Hvorvidt online bestillinger er fritatt f
 
 //Version 1.2.4
 define("INV_TAX_RATE_CHANGE_WARNING", "ADVARSEL! Du har valgt å endre denne satsen fra %s til %s, men det er allerede bestillinger med periodisk betalinger som bruker den gamle satsen. Fremtidige fakturaer for disse bestillingene vil fortsatt bli produsert med de gamle satsene dersom bestillingen ikke oppdateres. Endringen har IKKE blitt lagret. Velg nedenfor hvilken handling du vil utføre.");
-define("INV_TAX_RATE_CHANGE_AUTO_RENEW", "Det er %s ordre som er satt til autofornyelse. Det anbefales at du tillater " . INV_BRANDING_NAME . " automatisk justerer netto pris og avgift, slik at brutto beløp forblir det samme - på den måten kan autofornyelser forsette. MERK: Hvis du velger å endre brutto beløp i stedet – (ikke anbefalt), må eksisterende betalinger enten endres eller avbrytes, og settes opp igjen på det nye beløpet.");
+define("INV_TAX_RATE_CHANGE_AUTO_RENEW", "Det er %s ordre som er satt til autofornyelse. Det anbefales at du tillater " . INV_BRANDING_NAME . " automatisk justerer netto pris og avgift, slik at brutto beløp forblir det samme - på den måten kan autofornyelser forsette. MERK: Hvis du velger å endre brutto beløp i stedet (ikke anbefalt), må eksisterende betalinger enten endres eller avbrytes, og settes opp igjen på det nye beløpet.");
 define("INV_TAX_RATE_CHANGE_MANUAL_RENEW", "Det er %s ordre som er satt til å manuelt bli fornyet. Du har valget mellom å la " . INV_BRANDING_NAME . " automatisk justere netto pris og avgift, slik at brutto beløp forblir det samme, eller til automatisk å justere avgift og brutto beløp, slik at netto prisen forblir den samme. Hvis brutto beløp blir endret, vil neste betaling for hver bestilling være et annet beløp enn tidligere, så ikke bruk dette alternativet hvis kunden har en ordre til autofornyelse satt opp (ikke sannsynlig siden disse bestillingene må fornyes manuelt).");
 define("INV_TAX_RATE_CHANGE_ACTION_AUTO", "Velg ett av følgende handlinger (på ordre med autofornyelse)");
 define("INV_TAX_RATE_CHANGE_ACTION_MANUAL", "Velg ett av følgende handlinger (på ordre med manuell fornyelse)");
@@ -67,7 +67,7 @@ define("INV_TAX_AFFECTED_ORDER_PRODUCT", "Produkt");
 define("INV_TAX_AFFECTED_ORDER_NET", "Nettopris");
 define("INV_TAX_AFFECTED_ORDER_TAX", "Avgiftsbeløpet");
 define("INV_TAX_AFFECTED_ORDER_GROSS", "Bruttobeløp");
-define("INV_TAX_RATE_CHANGE_WARNING_END", "Når du har valgt hva du vil gjøre, klikk enten på "Bruk" eller "Lagre" på verktøylinjen. Før du har klikket på enten "Bruk" eller "Lagre", skjer det ingen ting.");
+define("INV_TAX_RATE_CHANGE_WARNING_END", "Når du har valgt hva du vil gjøre, klikk enten på \"Bruk\" eller \"Lagre\" på verktøylinjen. Før du har klikket på enten \"Bruk\" eller \"Lagre\", skjer det ingen ting.");
 define("INV_TAX_RATE_CHANGE_SURE", "Denne handlingen påvirker %s ordre. Er du sikker på at du vil fortsette?");
 define("INV_TAX_RATE_CHANGE_ORDERS_UPDATED", "%s ordre er oppdatert.");
 define("INV_TAX_RATE_CHANGE_NONE", "Ingen"); //Note for translators: This is 'no' as in 'not any' - ie. 'No Order Records have been updated'
