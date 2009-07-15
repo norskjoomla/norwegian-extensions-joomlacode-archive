@@ -21,7 +21,7 @@
 /** ensure this file is being included by a parent file */
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
-define("INV_CREDITS_TITLE", "Kreditnotaer (Refusjoner)");
+define("INV_CREDITS_TITLE", "Kreditnotaer");
 define("INV_CREDITS_INTRO", "Når du har sendt en tilbakebetaling, bør du også lage et medfølgende kredittnotat med informasjon om hva tilbakebetalingen gjelder, inkludert skatt, hvis aktuelt.");
 define("INV_INVOICE_NUMBER_CR", "Kredittnote nummer");
 define("INV_BILLING_NAME_CR", "Utbetalingsmottaker");
@@ -48,7 +48,7 @@ define("INV_EMAIL_INVOICE_NOTIFICATION_CR", "Kjere %s,\n\nDenne e-posten skal in
 define("INV_EMAIL_INVOICE_FOOTER_USERNAME_CR", "Du kan se alle dine fakturaer/kredittnotater på nett ved å logge inn på %s (ditt brukernavn er %s). Hvis du ikke lenger ønsker å motta varsel på e-post, kan du bare logge inn og klikke på «Min profil` i `Min konto` området å angi dine preferanser.\n\nHilsen,\n %s");
 define("INV_SEND_EMAIL_INTRO_CR", "Vennligst velg en e-post type for å sende (HTML eller ren tekst). Du kan også overveie denne e-post adressen, kontakt navn, og dersom du spesifiserer dine egne verdier her. Dersom dette feltet er blankt, " . INV_BRANDING_NAME . " vil det bli fyllt inn detaljer ved å bruke klient post assosiert med dette kredittnotat (dersom akseptert), og standard meldingstekst.");
 define("INV_EMAIL_SENT_FAILURE_CR", "En eller flere feil oppsto under sending til e-posten. Vennligst OPPDATER KREDITTNOTAT LISTEN og sjekk e-post statusen.");
-define("INV_EMAIL_INVOICE_INTRO_ATTACH_CR", "Kjære %s,\n\nDet vedlagte kredittnotat har blitt generert for deg.\n\n");
+define("INV_EMAIL_INVOICE_INTRO_ATTACH_CR", "Hei %s,\n\nDet vedlagte kredittnotat har blitt generert for deg.\n\n");
 define("INV_EMAIL_ATTACH_CR", "Legg ved HTML kredittnote?");
 
 //Version 1.2.6

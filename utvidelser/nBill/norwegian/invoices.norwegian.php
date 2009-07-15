@@ -157,7 +157,7 @@ define("INV_INVOICE_SHOW_ALL", "Vis alle");
 define("INV_INVOICE_SHOW_ALL_UNPAID", "Vis bare ubetalte");
 define("INV_INVOICE_SHOW_RESET", "Tilbakestill datoperioden");
 define("INV_SHOW_INCOME_RECORDS", "Vis relaterte inntektsposter");
-define("INV_SHOW_EXPENDITURE_RECORDS", Vis relaterte utgiftsposter");
+define("INV_SHOW_EXPENDITURE_RECORDS", "Vis relaterte utgiftsposter");
 define("INV_SHOW_ORDER_RECORDS", "Vis relaterte ordreposter");
 define("INV_EMAIL_ATTACH_OPTIONS", "Vedlegg");
 define("INV_EMAIL_ATTACH_HTML", "HTML");
@@ -166,5 +166,5 @@ define("INV_EMAIL_ATTACH_NONE", "Ingen");
 define("INV_EMAIL_NOT_DUE_ADHOC", "E-post ikke sendt (ad hoc faktura blir ikke automatisk sendt på e-post).");
 
 //Version 1.2.6
-define("INV_INVOICE_RECORD_LIMIT_WARNING", "ADVARSEL! Det er %s eller flere kunder i databasen, bare de %s første postene vises i liste over. Hvis kunden du trenger er ikke her, kan du enten klikke på "Vis alle" (nedenfor), eller velg "Opprett ny faktura" ikonet på kundelisten (den aktuelle posten vil da automatisk bli valgt her).");
+define("INV_INVOICE_RECORD_LIMIT_WARNING", "ADVARSEL! Det er %s eller flere kunder i databasen, bare de %s første postene vises i liste over. Hvis kunden du trenger er ikke her, kan du enten klikke på \"Vis alle\" (nedenfor), eller velg \"Opprett ny faktura\" ikonet på kundelisten (den aktuelle posten vil da automatisk bli valgt her).");
 ?>
