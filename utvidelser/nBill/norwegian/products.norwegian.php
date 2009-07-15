@@ -51,7 +51,7 @@ define("INV_IS_DOWNLOADABLE", "Er nedlastbar?");
 define("INV_DOWNLOAD_LOCATION", "Nedlastingssted");
 define("INV_NO_OF_DAYS_AVAILABLE", "Antall dager tilgjengelig");
 define("INV_DOWNLOAD_LINK_TEXT", "Tekst på nedlastningslink");
-define("INV_INSTR_PRODUCT_SKU", "Et 'varenummer" er en kode som du bruker til å identifisere dette produktet. Du kan bruke hvilken som helst kode.");
+define("INV_INSTR_PRODUCT_SKU", "Et \"varenummer\" er en kode som du bruker til å identifisere dette produktet. Du kan bruke hvilken som helst kode.");
 define("INV_INSTR_PRODUCT_NAME", "");
 define("INV_INSTR_PRODUCT_CATEGORY", "");
 define("INV_INSTR_PATH_TO_IMAGE", "This is not currently used, but might be implemented at a later date for use in conjunction with a shopping cart.");
@@ -114,9 +114,9 @@ define("INV_NET_PRICE_SETUP_FEE", "Registreringsavgift");
 define("INV_INSTR_NET_PRICE_SETUP_FEE", "Om det er en engangs registreringsavgift i tillegg til prisen på produktene, angir du det her. Denne avgiften vil kun bli belastet en gang på den første betalingen, og kommer som tillegg til den vanlige prisen på produktene. Du kan angi en negativ verdi dersom du ønsker å tilby et gratis eller en rabattert prøveperiode (dersom dette er støttet av din betalingskanal).");
 define("INV_ERR_PRODUCT_IN_USE", "Beklager, en eller flere produkter du har valgt å slette er i bruk på følgende ordre: %s. Sørg for at produktene ikke er i bruk før du sletter de.");
 define("INV_EMAIL_DOWNLOADS", "E-post nedlastning?");
-define("INV_INSTR_EMAIL_DOWNLOADS", "Hvorvidt filene definert over skal sendes eller ikke når kunden bestiller produktet (dette vil skje når bestillingen opprettes - så hvis du har "Vent inntil betalt" satt til 'Ja' på bestillingsskjemaet, vil de ikke få filene før de har betalt for de).");
+define("INV_INSTR_EMAIL_DOWNLOADS", "Hvorvidt filene definert over skal sendes eller ikke når kunden bestiller produktet (dette vil skje når bestillingen opprettes - så hvis du har \"Vent inntil betalt\" satt til \"Ja\" på bestillingsskjemaet, vil de ikke få filene før de har betalt for de).");
 define("INV_EMAIL_DOWNLOADS_MESSAGE", "E-post melding");
-define("INV_INSTR_EMAIL_DOWNLOADS_MESSAGE", "Skriv inn meldingen du vil sende sammen med vedleggene (Gjelder bare hvis ’E-post nedlastning?’ Er satt til ’Ja’).");
+define("INV_INSTR_EMAIL_DOWNLOADS_MESSAGE", "Skriv inn meldingen du vil sende sammen med vedleggene (Gjelder bare hvis \"E-post nedlastning?\" er satt til \"Ja\").");
 define("INV_NET_PRICE_SEMI_ANNUALLY", "Nettopris halvårlig (6 måneder)");
 define("INV_INSTR_NET_PRICE_SEMI_ANNUALLY", "Hvis produktet kan betales for halvårlig (hver 6 mnd), angi netto pris per 6 måneder.");
 
@@ -135,9 +135,9 @@ define("INV_INSTR_NET_PRICE_FOUR_WEEKLY", "Hvis produktet kan betales for hver 4
 /* Note to translators: Text has changed on the following constants:
 /* INV_PRODUCT_DISCOUNT_INTRO, INV_PRODUCT_DISCOUNT_QTY (lines 103 and 106 in the English file)
 /**************/
-define("INV_PRODUCT_UPDATE_EXISTING_ORDERS", "Én eller flere eksisterende ordre som er fornyet manuelt ble funnet for dette produktet.Klikk ’OK’ hvis du vil oppdatere prisene på eksisterende bestilling(er).");
+define("INV_PRODUCT_UPDATE_EXISTING_ORDERS", "Én eller flere eksisterende ordre som er fornyet manuelt ble funnet for dette produktet.Klikk \"OK\" hvis du vil oppdatere prisene på eksisterende bestilling(er).");
 define("INV_EXISTING_ORDERS_UPDATED", "%s existing order(s) updated.");
-define("INV_PRODUCT_DOWNLOADABLE_TOKENS", "Du kan bruke følgende frase for å lage ’likelydende’ filnavn: ##ordre_no##, ##ordre_id##, ##kunde_id##. F. eks, hvis du oppretter filer for hver bestilling, kan du bruke et filnavn som \"/hjem/brukernavn/fil##ordre_no##.txt\" - ##ordre_no## frasen vil bli erstattet av det faktiske bestillingsnummeret. Samme prinsipp kan brukes på alle 3 nedlastningslinkene.");
+define("INV_PRODUCT_DOWNLOADABLE_TOKENS", "Du kan bruke følgende frase for å lage \"likelydende\" filnavn: ##ordre_no##, ##ordre_id##, ##kunde_id##. F. eks, hvis du oppretter filer for hver bestilling, kan du bruke et filnavn som \"/hjem/brukernavn/fil##ordre_no##.txt\" - ##ordre_no## frasen vil bli erstattet av det faktiske bestillingsnummeret. Samme prinsipp kan brukes på alle 3 nedlastningslinkene.");
 define("INV_PRODUCT_DISCOUNT_MULTIPLY", "Multipliser med antallet?");
 define("INV_PRODUCT_DISCOUNT_OFFSET", "Forskjøvet");
 ?>
