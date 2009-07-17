@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="xmap_ext" version="1.5.0">
+        <name>XMAP ccBoard Plugin</name>
+        <author>thomas</author>
+        <creationDate>12-May-2009</creationDate>
+        <copyright>GNU GPL</copyright>
+        <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+        <authorEmail>thomas@codeclassic.org</authorEmail>
+        <authorUrl>http://codeclassic.org</authorUrl>
+        <version>1.0</version>
+        <description>Plugin for ccBoard Forum</description>
+        <files>
+                <filename xmap_ext="com_ccboard">com_ccboard.php</filename>
+        </files>
+        <params>
+                <param name="include_topics" type="list" default="1" label="Vis forumemner" description="Skal vi inkludere forumemner inn i sidekartet?">
+                        <option value="0">Aldri</option>
+                        <option value="1">Alltid</option>
+                        <option value="2">Bare i XML sidekart</option>
+                        <option value="3">Bare i nettstedets sidekart</option>
+		</param>
+                <param name="max_topics" type="text" default="" label="Maks antall emner" description="Maks antall emner per kategori ønskes inkludert i sidekartet (La dette feltet være tomt hvis man ikke ønsker begrensninger)" />
+                <param name="max_age" type="text" default="" label="Nyere enn" description="Vis bare emner som er nyere enn antall dager som angitt her (La dette feltet være tomt hvis man ikke ønsker begrensinger)" />
+		<param name="@spacer" type="spacer" default="" label="XML sidekart" description="Konfigurasjon bare for XML sidekart" />
+                <param name="cat_priority" type="list" default="0.5" label="Kategori prioritet" description="Angi prioriteten for kategorier">
+                        <option value="-1">Bruk innstillingene fra de grunnleggende menyene</option>
+                        <option value="0.0">0.0</option>
+                        <option value="0.1">0.1</option>
+                        <option value="0.2">0.2</option>
+                        <option value="0.3">0.3</option>
+                        <option value="0.4">0.4</option>
+                        <option value="0.5">0.5</option>
+                        <option value="0.6">0.6</option>
+                        <option value="0.7">0.7</option>
+                        <option value="0.8">0.8</option>
+                        <option value="0.9">0.9</option>
+                        <option value="1">1</option>
+                </param>
+                <param name="cat_changefreq" type="list" default="weekly" label="Kategori byttefrekvens" description="Angi hvor ofte kategoriene skal byttes i visningen">
+                        <option value="-1">Bruk innstillingene fra de grunnleggende menyene</option>
+                        <option value="always">Alltid</option>
+                        <option value="hourly">Hver time</option>
+                        <option value="daily">Hver dag</option>
+                        <option value="weekly">Hver uke</option>
+                        <option value="monthly">Hver måned</option>
+                        <option value="yearly">Hvert år</option>
+                        <option value="never">Aldri</option>
+                </param>
+                <param name="topic_priority" type="list" default="0.5" label="Emne prioritet" description="Angi prioriteten for forumemner">
+                        <option value="-1">Bruk innstillingene fra de grunnleggende menyene</option>
+                        <option value="0.0">0.0</option>
+                        <option value="0.1">0.1</option>
+                        <option value="0.2">0.2</option>
+                        <option value="0.3">0.3</option>
+                        <option value="0.4">0.4</option>
+                        <option value="0.5">0.5</option>
+                        <option value="0.6">0.6</option>
+                        <option value="0.7">0.7</option>
+                        <option value="0.8">0.8</option>
+                        <option value="0.9">0.9</option>
+                        <option value="1">1</option>
+                </param>
+                <param name="topic_changefreq" type="list" default="weekly" label="Emne byttefrekvens" description="Angi hvor ofte emnene skal skal byttes">
+                        <option value="-1">Bruk innstillingene fra de grunnleggende menyene</option>
+                        <option value="always">Alltid</option>
+                        <option value="hourly">Hver time</option>
+                        <option value="daily">Hver dag</option>
+                        <option value="weekly">Hver uke</option>
+                        <option value="monthly">Hver måned</option>
+                        <option value="yearly">Hvert år</option>
+                        <option value="never">Aldri</option>
+                </param>
+        </params>
+</install>
