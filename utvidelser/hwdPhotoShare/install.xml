@@ -3,13 +3,14 @@
 <tag>nb-NO</tag>
 <version>2.1.1</version>
 <creationDate>09.02.2008</creationDate>
-<author>Petter Sandvik</author>
+<author>Foreningen Joomla! i Norge</author>
 <name>Norwegian bokmal</name>
-<authorEmail>nyfritid [at] nyfritid.no</authorEmail>
-<authorUrl>www.nyfritid.no</authorUrl>
-<copyright>Copyright (C) 2008 www.NyFritid.no. All rights reserved.</copyright>
+<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+<authorUrl>www.joomlainorge.no</authorUrl>
+<copyright>Copyright (C) 2008 ?xxx?. All rights reserved.</copyright> **Du har ikke lov å endre kopirett, som tilhører utvikler av utvidelsen ...
 <license>http://www.gnu.org/licenses/gpl-2.0.html</license>
-<description>Norwegian bokmal hwdPhotoShare menu translation</description><administration>
+<description>Norwegian bokmal hwdPhotoShare menu translation</description>
+<administration>
 <files folder="admin">
 <filename>nb-NO.com_hwdphotohare.menu.ini</filename>
 <filename>nb-NO.com_hwdphotohare.ini</filename>
