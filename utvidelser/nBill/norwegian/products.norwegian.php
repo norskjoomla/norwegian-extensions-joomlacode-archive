@@ -97,7 +97,7 @@ define("INV_REDIRECT_URL", "Følgende nettadresse");
 define("INV_EXPIRY_DELETE", "[Slett bruker]");
 define("INV_EXPIRY_BLOCK", "[Sperr bruker]");
 define("INV_EXPIRY_DOWNGRADE", "Sett til %s");
-define("INV_ENSURE_MAMBOT_PUBLISHED", "MERK: Siden dette er et abonnement, sjekk at du har installert og publisert tillegget som håndterer utløpsabonnement (mambot) - tilgjengelig fra " . INV_BRANDING_WEBSITE);
+define("INV_ENSURE_MAMBOT_PUBLISHED", "MERK: Siden dette er et abonnement, sjekk at du har installert og publisert tillegget som håndterer utløp av abonnement (mambot) - tilgjengelig fra " . INV_BRANDING_WEBSITE);
 define("INV_ALLOW_GLOBAL_DISCOUNTS", "Tillat globale rabatter?");
 define("INV_INSTR_ALLOW_GLOBAL_DISCOUNTS", "Indikere om global rabatt som du har definert også gjelder for ordre på dette produktet.");
 define("INV_PRODUCT_DISCOUNT_TITLE", "Produktspesifikke rabatter");
