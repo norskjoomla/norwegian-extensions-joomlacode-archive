@@ -341,4 +341,7 @@ define("INV_INSTALL_ERROR", "Sorry, it looks like nBill failed to install correc
 
 //Version 1.2.5
 define("INV_LICENSE_NOT_WORKING", "<strong>NOTE: If your license key will not work, please refer to the troubleshooting section of the documentation: <a href=\"http://www.nbill.co.uk/documentation/index.php?page=license-key-is-not-accepted.html\" target=\"_blank\">http://www.nbill.co.uk/documentation/index.php?page=license-key-is-not-accepted.html</a>. If you still cannot get it working after trying everything listed there, please raise a support ticket (we will need super administrator access to your site to investigate the problem).</strong>");
+
+//Version 1.2.9
+define("INV_RENEW_NOW", "Click here to RENEW NOW");
 ?>

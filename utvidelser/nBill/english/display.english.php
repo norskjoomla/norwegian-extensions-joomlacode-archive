@@ -4,13 +4,13 @@
 * @package nBill
 * @copyright (C) 2006-2007 Netshine Software Limited
 * @license Commercial
-* 
+*
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk
 *
 * All Rights Reserved. You may make amendments to any unencrypted files for your own use only or
 * for the use of your customers if you are a website developer. HOWEVER, you are not permitted to
-* re-distribute or re-sell this software in any form without the express permission of the copyright 
+* re-distribute or re-sell this software in any form without the express permission of the copyright
 * holder. This software is NOT open source.
 *
 * This component was developed by Netshine Software Limited (www.netshinesoftware.com). Use of this
@@ -160,4 +160,10 @@ define("INV_DISPLAY_SUPPRESS_CANCEL_IF_NOT_AUTO_RENEW_DESC", "Whether or not to 
 
 //Version 1.2.3 - Note to translators:
 //Line 114 of original English language file amended (INV_WEEKLY) - changed to 'Always Show' for clarity
+
+//Version 1.2.9
+define("INV_DISPLAY_INV_SHOW_DATE_RANGE", "Show date range on invoices?");
+define("INV_DISPLAY_INV_SHOW_DATE_RANGE_DESC", "Whether or not to display the date range in the invoice item descriptions for invoices relating to recurring payments (NOTE: this affects invoice generation only. Existing invoices will not change when you change this setting. If you set this to 'no', the date range will not be recorded on the invoice, so you might have trouble identifying the period the invoice was for.");
+define("INV_DISPLAY_ADD_OPTION_TO_FORM_ACTION", "Add option parameter to form submission URL?");
+define("INV_DISPLAY_ADD_OPTION_TO_FORM_ACTION_DESC", "There are 2 ways of submitting forms (ie. with or without the option parameter in the URL). In most cases, both methods will work, but some templates and some SEF URL components are fussy. If you find any form submissions are just redirecting to your home page or a blank page, try changing the value of this setting.");
 ?>
