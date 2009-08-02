@@ -21,7 +21,7 @@
 /** ensure this file is being included by a parent file */
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
-define("INV_TRANSACTIONS_TITLE", "Transaksjonsforklaring ");
+define("INV_TRANSACTIONS_TITLE", "Transaksjonsforklaring");
 define("INV_TRANSACTIONS_INTRO", "Dette er en liste over alle inntekter og utgifter som er registrert for den gitte datoperiode. Ingen inntekter eller utgifter blir ekskludert, men denne rapporten inkluderer ikke eventuelle ubetalte fakturaer.");
 define("INV_TR_INCOME", "Resultat");
 define("INV_TR_EXPENDITURE", "Utgifter");
@@ -38,7 +38,7 @@ define("INV_TR_NET_AMOUNT", "Nettoantall");
 define("INV_TR_TAX", "Avgift");
 define("INV_TR_TOTAL", "Totalt");
 define("INV_TR_BALANCE", "Balanse");
-define("INV_TR_AWAITING_RCT_NO", "Venter på kvitteringsnummer.");
-define("INV_TR_AWAITING_PYT_NO", "Venter på betalingsnummer");
-define("INV_TR_CLIENT_REFUND", "Kundens refusjon);
+define("INV_TR_AWAITING_RCT_NO", "Venter pÃ¥ kvitteringsnummer");
+define("INV_TR_AWAITING_PYT_NO", "Venter pÃ¥ betalingsnummer");
+define("INV_TR_CLIENT_REFUND", "Kundens refusjon");
 ?>

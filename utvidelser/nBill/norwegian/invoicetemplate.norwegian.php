@@ -57,6 +57,6 @@ define("INV_CREDIT_CARD", "Kreditt-/Debetkort");
 define("INV_ONLINE_AGENCY", "Online");
 define("INV_CASH", "Kontant");
 define("INV_OTHER", "Annet");
-define("INV_IF_NO_SCHEDULE", "Om du ikke allerede har en betalingsplan oppsatt for dette, vennligst");
-define("INV_PAY_THIS_INVOICE", "klikk her for å betale denne fakturaen");
+define("INV_IF_NO_SCHEDULE", "Om du ikke allerede har en betalingsplan for dette kan du");
+define("INV_PAY_THIS_INVOICE", "klikke her for å betale den på nett");
 ?>

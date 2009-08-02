@@ -37,7 +37,7 @@ define("INV_HELP", "Hjelp");
 //Licensing
 define("INV_LICENSE_INVALID", "Din lisensnøkkel er ikke gyldig. Den kan ha utløpt, eller er ugyldig for domenet du forsøker å bruke den på. Vennligst kontakt " . INV_BRANDING_COMPANY . " for en gyldig lisensnøkkel for dette domenet. MERK: Om du fyller inn feil lisensnøkkel mer enn 12 ganger vil du bli utestengt! Vennligst kontakt brukerstøtten om din nøkkel ikke virker.");
 define("INV_NEW_LICENSE_KEY", "Fyll inn ny lisensnøkkel her:");
-define("INV_RETURN_TO_MAIN", "Klikk her for å gå tilbake til nettsiden");
+define("INV_RETURN_TO_MAIN", "Klikk her for å gå tilbake til din konto");
 define("INV_LIC_SERVER_NAME", "Servernavn: ");
 define("INV_LIC_EXPIRY", "Lisens utløper: ");
 define("INV_YOUR_DOMAIN", "Ditt domene er: ");
@@ -233,10 +233,10 @@ define("INV_MNU_REMINDERS", "Påminnelser");
 define("INV_MNU_REMINDERS_DESC", "Konfigurer valg for utsendelse av påminnelser på e-post");
 
 //Account Expiry
-define("INV_SUB_EXPIRY_MESSAGE", "Vennligst vær oppmerksom på at din brukerkonto har blitt satt til %s. Grunnen til dette er: %s<br /><br />Vennligst kontakt oss om du har noen spørsmål rundt dette.");
-define("INV_SUB_EXPIRY_BLOCKED", "BLOKKERT");
-define("INV_SUB_EXPIRY_DELETED", "SLETTET");
-define("INV_SUB_EXPIRY_DOWNGRADED", "NEDGRADERT til '%s'");
+define("INV_SUB_EXPIRY_MESSAGE", "<h1>Din brukerkonto har blitt %s</h1><br /><br />Grunnen til dette er at %s<br /><br />Vennligst kontakt oss om du har noen spørsmål rundt dette.");
+define("INV_SUB_EXPIRY_BLOCKED", "</strong>blokkert</strong>");
+define("INV_SUB_EXPIRY_DELETED", "</strong>slettet</strong>");
+define("INV_SUB_EXPIRY_DOWNGRADED", "<strong>nedgradert</strong> til '%s'");
 define("INV_SUB_EXPIRY_REASON_CANCELLED", "din ordre på brukerabonnement har blitt annullert.");
 define("INV_SUB_EXPIRY_REASON_DELETED", "din ordre på brukerabonnement har blitt slettet.");
 define("INV_SUB_EXPIRY_REASON_EXPIRED", "ditt brukerabonnement har utløpt.");
@@ -332,7 +332,7 @@ define("INV_NO", "Nei");
 define("INV_YES", "Ja");
 
 //Version 1.2.3
-define("INV_OFFLINE", "Frakoblet");
+define("INV_OFFLINE", "Faktura"); //Used as value for offline payments
 // Note to translators:
 //Line 90 of original English language file amended (INV_ERR_SERIOUS_ERROR_NOMAIL) - if database not available, full error reports are now logged to the PHP error log
 

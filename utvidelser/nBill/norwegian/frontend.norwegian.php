@@ -132,7 +132,7 @@ define("INV_TOTAL_NET", "Netto totalt");
 define("INV_TOTAL_GROSS", "Brutto totalt");
 define("INV_INVOICE_PAID", "Betalt");
 define("INV_EMAIL_INVOICE_ATTACH_FE", "Send meg fakturaer som et HTML-vedlegg på e-post som ren tekst (anbefales)");
-define("INV_FORM_SUMMARY_INTRO", "Gå gjennom følgende informasjon for å sikre at de er korrekt før du sender inn bestillingen din. Hvis du trenger å gå tilbake og endre noe, klikker du på knappen 'Forrige'.");
+define("INV_FORM_SUMMARY_INTRO", "Gå gjennom følgende informasjon for å sikre at de er korrekt før du sender inn bestillingen din. Hvis du trenger å gå tilbake og endre noe, klikker du på knappen 'Tilbake'.");
 define("INV_CHECKED", "Valgte");
 define("INV_UNCHECKED", "Ikke valgt");
 define("INV_ORDER_SUMMARY_NET_TOTAL", "Netto totalt");
@@ -170,7 +170,7 @@ define("INV_ERR_SECURITY_IMAGE_WRONG", "Beklager, feil sikkerhetskode. Prøv igje
 
 /* Version 1.1.4 */
 define("INV_FORM_NEXT", "Neste >>");
-define("INV_FORM_PREV", "<< Forrige");
+define("INV_FORM_PREV", "<< Tilbake");
 define("INV_FORM_SUBMIT", "Lagre");
 define("INV_RENEW_SUBMIT", "Lagre");
 
@@ -203,12 +203,12 @@ define("INV_CANNOT_RENEW_CANCELLED", "Beklager, du kan ikke fornye en bestilling
 define("INV_EMAIL_INVOICE_PDF_FE", "Send meg fakturaen som et PDF-vedlegg med e-postformat som ren tekst");
 
 //Version 1.2.3
-define("INV_PENDING_ID", "Pågående ordreID");
+define("INV_PENDING_ID", "Ventende ordrenr.");
 define("INV_EMAIL_IN_USE", "Denne e-postadressen er allerede registrert. Hvis du har glemt passordet, kan du klikke på lenken for Glemt passord og ett nytt vil bli sendt deg på e-post.");
 define("INV_INVALID_USERNAME", "Angi et gyldig brukernavn. Ingen mellomrom, mer enn 2 tegn og inneholder bare tegnene 0-9, a-z eller A-Z");
 define("INV_USERNAME_IN_USE", "Dette brukernavnet er allerede registrert. Vennligst velg et annet brukernavn, eller hvis du allerede er registrert, logg inn først. Hvis du har glemt passordet, kan du klikke på lenken for Glemt passord og ett nytt vil bli sendt deg på e-post.");
 
 //Version 1.2.7
 define("INV_ORDER_RENEWED_SUCCESS", "Takk, din ordre ble vellykket fornyet."); //Only shown for free product renewals (eg. 100% discount or free non-auto-renewing subscription)
-define("INV_CANNOT_RENEW_ADVANCE", "Beklager, du kan ikke Forhåndsbestilling mer enn %s ganger.");
+define("INV_CANNOT_RENEW_ADVANCE", "Beklager, du kan ikke fornye mer enn %s ganger på forhånd.");
 ?>
