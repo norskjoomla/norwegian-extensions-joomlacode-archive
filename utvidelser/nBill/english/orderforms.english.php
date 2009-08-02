@@ -223,7 +223,7 @@ define("INV_INSTR_FORM_USE_EMAIL_ADDRESS", "Whether or not to use the e-mail add
 define("INV_JAVASCRIPT_FUNCTIONS", "Javascript Functions");
 define("INV_INSTR_JAVASCRIPT_FUNCTIONS", "Enter any Javascript that you want to be inserted into the &lt;head&gt; section. Please do not include the &lt;script&gt; tags - just the actual function definitions.");
 define("INV_UPLOAD_PATH", "Upload Path");
-define("INV_INSTR_UPLOAD_PATH", "Enter the full path name where you want to store files that are uploaded by users (folder must be writeable by the user that PHP runs under). After you have entered a valid, writeable path here, you must click on either 'Apply' or 'Save' before the file upload field type will become available for use on this form.");
+define("INV_INSTR_UPLOAD_PATH", "Enter the full path name where you want to store files that are uploaded by users (folder must be writable by the user that PHP runs under). After you have entered a valid, writable path here, you must click on either 'Apply' or 'Save' before the file upload field type will become available for use on this form.");
 define("INV_UPLOAD_MAX_SIZE", "Upload Max File Size");
 define("INV_INSTR_UPLOAD_MAX_SIZE", "Enter the maximum file size (in Kilobytes) that can be uploaded.");
 define("INV_UPLOAD_ALLOWED_TYPES", "Allowed File Types");

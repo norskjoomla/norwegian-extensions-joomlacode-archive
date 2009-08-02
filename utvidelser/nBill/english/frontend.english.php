@@ -4,13 +4,13 @@
 * @package nBill
 * @copyright (C) 2006-2007 Netshine Software Limited
 * @license Commercial
-* 
+*
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk
 *
 * All Rights Reserved. You may make amendments to any unencrypted files for your own use only or
 * for the use of your customers if you are a website developer. HOWEVER, you are not permitted to
-* re-distribute or re-sell this software in any form without the express permission of the copyright 
+* re-distribute or re-sell this software in any form without the express permission of the copyright
 * holder. This software is NOT open source.
 *
 * This component was developed by Netshine Software Limited (www.netshinesoftware.com). Use of this
@@ -52,7 +52,7 @@ define("INV_ERR_NO_INVOICE_GENERATED", "Warning - this order form is flagged to 
 define("INV_EMAIL_NEW_PENDING_ORDER", "New PENDING Order - %s");
 define("INV_EMAIL_PENDING_ORDER_INTRO", "A new order has been placed on %s, and is awaiting payment confirmation. When payment confirmation is received (or when an Administrator goes into " . INV_BRANDING_NAME . " and activates the pending order), an order record will be created for it.");
 define("INV_EMAIL_NEW_ORDER", "New Order - %s");
-define("INV_EMAIL_ORDER_INTRO", "This e-mail is to confirm that following order has been placed on %s");
+define("INV_EMAIL_ORDER_INTRO", "This e-mail is to confirm that the following order has been placed on %s");
 define("INV_DOWNLOAD", "Download");
 define("INV_ERR_DOWNLOAD_FAILED", "Sorry, the file could not be downloaded. This might be due to your session timing out, in which case please login and try again.");
 define("INV_ERR_DOWNLOAD_EXPIRED", "Sorry, the file is no longer available for download. This product can only be downloaded for up to %s days after the order was placed.");
@@ -210,4 +210,10 @@ define("INV_USERNAME_IN_USE", "This username is already registered. Please choos
 //Version 1.2.7
 define("INV_ORDER_RENEWED_SUCCESS", "Thank you, your order was renewed successfully."); //Only shown for free product renewals (eg. 100% discount or free non-auto-renewing subscription)
 define("INV_CANNOT_RENEW_ADVANCE", "Sorry, you cannot renew more than %s time(s) in advance.");
+
+//Version 1.2.9
+define("INV_PROFILE_NAME_REQURED", "Please enter either a company name, or a contact name, or both.");
+define("INV_PROFILE_COMPANY_REQURED", "Please enter a company name");
+define("INV_PROFILE_CONTACT_REQUIRED", "Please enter a contact name");
+define("INV_PROFILE_EMAIL_REQUIRED", "Please enter an e-mail address");
 ?>

@@ -96,7 +96,7 @@ define("INV_REDIRECT_URL", "The following URL");
 define("INV_EXPIRY_DELETE", "[Delete User]");
 define("INV_EXPIRY_BLOCK", "[Block User]");
 define("INV_EXPIRY_DOWNGRADE", "Set to %s");
-define("INV_ENSURE_MAMBOT_PUBLISHED", "NOTE: As this product is a user subscription, please ensure you have installed and published the account expiry plugin (mambot) - available from " . INV_BRANDING_WEBSITE);
+define("INV_ENSURE_MAMBOT_PUBLISHED", "NOTE: As this product is a user subscription, please ensure you have installed and published the user subscription plugin (mambot) - available from " . INV_BRANDING_WEBSITE);
 define("INV_ALLOW_GLOBAL_DISCOUNTS", "Allow Global Discounts?");
 define("INV_INSTR_ALLOW_GLOBAL_DISCOUNTS", "Indicate whether any global discounts that you have defined are allowed to be applied to orders for this product.");
 define("INV_PRODUCT_DISCOUNT_TITLE", "Product-specific Discounts");
