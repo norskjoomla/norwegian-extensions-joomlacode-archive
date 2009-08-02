@@ -5,13 +5,13 @@
 * @copyright (C) 2006-2007 Netshine Software Limited
 * @copyright Translation 2009 Joomla! i Norge
 * @license Commercial
-* 
+*
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk
 *
 * All Rights Reserved. You may make amendments to any unencrypted files for your own use only or
 * for the use of your customers if you are a website developer. HOWEVER, you are not permitted to
-* re-distribute or re-sell this software in any form without the express permission of the copyright 
+* re-distribute or re-sell this software in any form without the express permission of the copyright
 * holder. This software is NOT open source.
 *
 * This component was developed by Netshine Software Limited (www.netshinesoftware.com). Use of this
@@ -161,4 +161,10 @@ define("INV_DISPLAY_SUPPRESS_CANCEL_IF_NOT_AUTO_RENEW_DESC", "Hvorvidt avbryt li
 
 //Version 1.2.3 - Note to translators:
 //Line 114 of original English language file amended (INV_WEEKLY) - changed to 'Always Show' for clarity
+
+//Version 1.2.9
+define("INV_DISPLAY_INV_SHOW_DATE_RANGE", "Vis datoperiode på fakturaer?");
+define("INV_DISPLAY_INV_SHOW_DATE_RANGE_DESC", "Om man skal vise eller ikke, datoperiode på produktlinja på fakturaer for abonnementer/gjentagende betalinger (MERK: dette påvirker bare generering av fakturaer. Eksisterende fakturaer vil ikke endres når du endrer denne innstillingen. Om du velger 'nei' vil ikke datoperioden bli angitt på fakturaene, slik at du kan få problemer med å identifisere gjeldende periode for fakturaene.");
+define("INV_DISPLAY_ADD_OPTION_TO_FORM_ACTION", "Add option parameter to form submission URL?");
+define("INV_DISPLAY_ADD_OPTION_TO_FORM_ACTION_DESC", "There are 2 ways of submitting forms (ie. with or without the option parameter in the URL). In most cases, both methods will work, but some templates and some SEF URL components are fussy. If you find any form submissions are just redirecting to your home page or a blank page, try changing the value of this setting.");
 ?>
