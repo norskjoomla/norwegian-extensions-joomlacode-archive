@@ -5,13 +5,13 @@
 * @copyright (C) 2006-2007 Netshine Software Limited
 * @copyright Translation 2009 Joomla! i Norge
 * @license Commercial
-* 
+*
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk
 *
 * All Rights Reserved. You may make amendments to any unencrypted files for your own use only or
 * for the use of your customers if you are a website developer. HOWEVER, you are not permitted to
-* re-distribute or re-sell this software in any form without the express permission of the copyright 
+* re-distribute or re-sell this software in any form without the express permission of the copyright
 * holder. This software is NOT open source.
 *
 * This component was developed by Netshine Software Limited (www.netshinesoftware.com). Use of this
@@ -211,4 +211,10 @@ define("INV_USERNAME_IN_USE", "Dette brukernavnet er allerede registrert. Vennli
 //Version 1.2.7
 define("INV_ORDER_RENEWED_SUCCESS", "Takk, din ordre ble vellykket fornyet."); //Only shown for free product renewals (eg. 100% discount or free non-auto-renewing subscription)
 define("INV_CANNOT_RENEW_ADVANCE", "Beklager, du kan ikke fornye mer enn %s ganger på forhånd.");
+
+//Version 1.2.9
+define("INV_PROFILE_NAME_REQURED", "Du må fylle inn enneten et firmanavn, et kontaktnavn, eller begge.");
+define("INV_PROFILE_COMPANY_REQURED", "Du må fylle inn et firmanavn");
+define("INV_PROFILE_CONTACT_REQUIRED", "Du må fylle inn et kontaktnavn");
+define("INV_PROFILE_EMAIL_REQUIRED", "Du må fylle inn en e-postadresse");
 ?>
