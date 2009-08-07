@@ -3,8 +3,8 @@
 <install version="1.5" client="both" type="language" method="upgrade">
     <name>Norwegian bokmåll (Norway)</name>
     <tag>nb-NO</tag>
-    <version>2.1.b1</version>
-    <creationdate>30-01-2009</creationdate>
+    <version>2.3.</version>
+    <creationdate>7-08-2009</creationdate>
     <author>Joomla! i Norge</author>
     <authoremail>oversettelser@joomlainorge.no</authoremail>
     <authorurl>www.joomlainorge.no</authorurl>
