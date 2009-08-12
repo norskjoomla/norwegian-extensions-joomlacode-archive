@@ -22,8 +22,8 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Tax
-define("INV_TAX_TITLE", "Merverdiavgift / Omsetningsavgift");
-define("INV_TAX_INTRO", "Du kan angi forskjellige skattsatser for kjøperne i ulike land, eller annen skattsone - riktig sats vil automatisk bli brukt avhengig av kundens faktureringsadresse og / eller skattesone.");
+define("INV_TAX_TITLE", "Merverdiavgift");
+define("INV_TAX_INTRO", "Du kan angi forskjellige skattesatser for kjøpere i ulike land, eller annen skattesone - riktig sats vil automatisk bli brukt avhengig av kundens faktureringsadresse og/eller skattesone.");
 define("INV_TAX_NAME", "Navn på avgift");
 define("INV_TAX_COUNTRY", "Land");
 define("INV_TAX_RATE", "Sats");
@@ -36,24 +36,24 @@ define("INV_TAX_COUNTRY_REQUIRED", "Du må angi et land.");
 define("INV_NEW_TAX", "Ny avgift");
 define("INV_TAX_DETAILS", "Avgiftsdetaljer");
 define("INV_TAX_ZONE", "Avgiftssone");
-define("INV_TAX_ONLINE_EXEMPT", "Avgiftsfritt ved online bestilling?");
-define("INV_INSTR_TAX_NAME", "Skriv inn fullt navn på denne avgiftstype (f.eks. \"Merverdiavgift\")");
-define("INV_INSTR_TAX_COUNTRY", "Spesifiser hvilke land denne avgiften gjelder for. I tillegg til de enkelte land er det 2 spesielle oppføringer: \"EU\", som omfatter alle land i EU, og  \"Global\" som skal brukes når landet i faktureringsadressen ikke har sin egen avgift.");
+define("INV_TAX_ONLINE_EXEMPT", "Avgiftsfritt ved bestilling på nett?");
+define("INV_INSTR_TAX_NAME", "Skriv inn fullt navn på denne avgiftstypen (f.eks. \"Merverdiavgift\")");
+define("INV_INSTR_TAX_COUNTRY", "Spesifiser hvilke land denne avgiften gjelder for. I tillegg til de enkelte land er det 2 spesielle oppføringer: \"EU\", som omfatter alle land i EU, og \"Global\" som skal brukes når landet i faktureringsadressen ikke har sin egen avgift.");
 define("INV_INSTR_TAX_RATE", "Angi avgiften som en prosentverdi (ikke skriv % tegnet)");
-define("INV_INSTR_TAX_PAYMENT_INSTR", "Eventuelle betalingsinstruksjoner du oppgir her vil overstyre standard betalingsinstruksjonene (definert på leverandørside) bare for dette landet.");
-define("INV_INSTR_TAX_SMALL_PRINT", "Eventuelle liten skrift du oppgir her vil overstyre standard liten skrift (definert på leverandørside) bare for dette landet.");
-define("INV_INSTR_TAX_EXEMPT_WITH_REF", "Angi om kjøperen ikke skal betale avgift, kjøper har eget avgiftsnummer eller er en videreforhandler (f. eks. for forsyninger laget fra Storbritannia til EU, eller varer til forhandlere som er fritatt fra salgsskatt i USA).");
-define("INV_INSTR_TAX_ZONE", "Hvis denne avgiftsats kun gjelder for enkelte kunder (f. eks. i en bestemt stat eller kommune), angi en kode (opptil 5 tegn) for å identifisere denne avgiftssats - og register den samme koden på kundens innstillinger.");
-define("INV_INSTR_TAX_ONLINE_EXEMPT", "Hvorvidt online bestillinger er fritatt fra denne avgiften (typisk for bruk i USA). Hvis ja, bestillinger som normalt faller inn under denne avgiften, vil ikke avgiften bli lagt til på bestillingen. Ved bestillinger fra administratorsiden kan det velge om denne avgiften skal legges til eller ikke.");
+define("INV_INSTR_TAX_PAYMENT_INSTR", "Eventuelle betalingsbetingelser som oppgis her vil overstyre standard betalingsbetingelser (definert på leverandørside) bare for dette landet.");
+define("INV_INSTR_TAX_SMALL_PRINT", "Det du angir her vil overstyre det som er defienrt på leverandørsiden (bare for dette landet).");
+define("INV_INSTR_TAX_EXEMPT_WITH_REF", "Angi om kjøperen ikke skal betale avgift, kjøper har eget avgiftsnummer eller er en videreforhandler (f. eks. for forsyninger fra Storbritannia til EU, eller varer til forhandlere som er fritatt fra salgsskatt i USA).");
+define("INV_INSTR_TAX_ZONE", "Hvis denne avgiftsats kun gjelder for enkelte kunder (f.eks. i en bestemt stat eller kommune), angi en kode (opptil 5 tegn) for å identifisere denne avgiftssats - og register den samme koden på innstillingene for kunden.");
+define("INV_INSTR_TAX_ONLINE_EXEMPT", "Hvorvidt nettbestillinger er fritatt fra denne avgiften (typisk for bruk i USA). Hvis ja vil ikke avgiften som normalt faller inn under denne bestillingen avgiften bli. Ved bestillinger fra administratorsiden kan det velges om denne avgiften skal legges til eller ikke.");
 
 //Version 1.2.4
-define("INV_TAX_RATE_CHANGE_WARNING", "ADVARSEL! Du har valgt å endre denne satsen fra %s til %s, men det er allerede bestillinger med periodisk betalinger som bruker den gamle satsen. Fremtidige fakturaer for disse bestillingene vil fortsatt bli produsert med de gamle satsene dersom bestillingen ikke oppdateres. Endringen har IKKE blitt lagret. Velg nedenfor hvilken handling du vil utføre.");
-define("INV_TAX_RATE_CHANGE_AUTO_RENEW", "Det er %s ordre som er satt til autofornyelse. Det anbefales at du tillater " . INV_BRANDING_NAME . " automatisk justerer netto pris og avgift, slik at brutto beløp forblir det samme - på den måten kan autofornyelser forsette. MERK: Hvis du velger å endre brutto beløp i stedet (ikke anbefalt), må eksisterende betalinger enten endres eller avbrytes, og settes opp igjen på det nye beløpet.");
-define("INV_TAX_RATE_CHANGE_MANUAL_RENEW", "Det er %s ordre som er satt til å manuelt bli fornyet. Du har valget mellom å la " . INV_BRANDING_NAME . " automatisk justere netto pris og avgift, slik at brutto beløp forblir det samme, eller til automatisk å justere avgift og brutto beløp, slik at netto prisen forblir den samme. Hvis brutto beløp blir endret, vil neste betaling for hver bestilling være et annet beløp enn tidligere, så ikke bruk dette alternativet hvis kunden har en ordre til autofornyelse satt opp (ikke sannsynlig siden disse bestillingene må fornyes manuelt).");
-define("INV_TAX_RATE_CHANGE_ACTION_AUTO", "Velg ett av følgende handlinger (på ordre med autofornyelse)");
-define("INV_TAX_RATE_CHANGE_ACTION_MANUAL", "Velg ett av følgende handlinger (på ordre med manuell fornyelse)");
-define("INV_TAX_RATE_CHANGE_UPDATE_NET", "Oppdater netto pris og avgift, bruttobeløp samme som før");
-define("INV_TAX_RATE_CHANGE_UPDATE_GROSS", "Oppdater brutto pris og avgift, nettobeløp samme som før");
+define("INV_TAX_RATE_CHANGE_WARNING", "ADVARSEL! Du har valgt å endre denne satsen fra %s til %s, men det er allerede bestillinger med periodiske betalinger som bruker den gamle satsen. Fremtidige fakturaer for disse bestillingene vil fortsatt bli produsert med de gamle satsene dersom bestillingen ikke oppdateres. Endringen har IKKE blitt lagret. Velg nedenfor hvilken handling du vil utføre.");
+define("INV_TAX_RATE_CHANGE_AUTO_RENEW", "Det er %s ordre som er satt til autofornyelse. Det anbefales at du tillater " . INV_BRANDING_NAME . " automatisk justering av nettopris og avgift, slik at bruttobeløpet forblir det samme. På denne måten kan autofornyelser forsette. MERK: Hvis du velger å endre bruttobeløp i stedet (ikke anbefalt), må eksisterende betalinger enten endres eller avbrytes, og settes opp igjen med det nye beløpet.");
+define("INV_TAX_RATE_CHANGE_MANUAL_RENEW", "Det er %s ordre som er satt til å bli manuelt fornyet. Du har valget mellom å la " . INV_BRANDING_NAME . " automatisk justere nettopris og avgift, slik at bruttobeløp forblir det samme, eller til automatisk å justere avgift og bruttobeløp, slik at nettoprisen forblir den samme. Hvis bruttobeløp blir endret, vil neste betaling for hver bestilling være et annet beløp enn tidligere, så ikke bruk dette alternativet hvis kunden har en ordre til autofornyelse satt opp (ikke sannsynlig siden disse bestillingene må fornyes manuelt).");
+define("INV_TAX_RATE_CHANGE_ACTION_AUTO", "Velg en av følgende handlinger (på ordre med autofornyelse)");
+define("INV_TAX_RATE_CHANGE_ACTION_MANUAL", "Velg en av følgende handlinger (på ordre med manuell fornyelse)");
+define("INV_TAX_RATE_CHANGE_UPDATE_NET", "Oppdater nettopris og avgift, bruttobeløp forblir uendret.");
+define("INV_TAX_RATE_CHANGE_UPDATE_GROSS", "Oppdater bruttopris og avgift, nettobeløp forblir uendret.");
 define("INV_TAX_RATE_CHANGE_NO_ACTION_AND_CANCEL", "Avbryt og IKKE endre avgiften");
 define("INV_TAX_RATE_CHANGE_NO_ACTION_AND_SAVE", "Lagre den nye avgiften, men ikke oppdater ordrene");
 define("INV_TAX_RATE_CHANGE_RECOMMENDED", " (Anbefalt)");
@@ -71,5 +71,5 @@ define("INV_TAX_RATE_CHANGE_WARNING_END", "Når du har valgt hva du vil gjøre, kl
 define("INV_TAX_RATE_CHANGE_SURE", "Denne handlingen påvirker %s ordre. Er du sikker på at du vil fortsette?");
 define("INV_TAX_RATE_CHANGE_ORDERS_UPDATED", "%s ordre er oppdatert.");
 define("INV_TAX_RATE_CHANGE_NONE", "Ingen"); //Note for translators: This is 'no' as in 'not any' - ie. 'No Order Records have been updated'
-define("INV_TAX_RATE_CHANGE_CHECK_PRODUCTS", "Merk: Det kan være lurt å kontrollere prisene på produktene etter endringen på avgiften, spesielt hvis prisene er inkl avgift");
+define("INV_TAX_RATE_CHANGE_CHECK_PRODUCTS", "Merk: Det kan være lurt å kontrollere prisene på produktene etter endringen på avgiften, spesielt hvis prisene er inkl. avgift");
 ?>
