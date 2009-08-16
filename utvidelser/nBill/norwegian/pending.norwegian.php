@@ -22,12 +22,12 @@ defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.'
 
 //Pending Orders
 define("INV_PENDING", "Venter");
-define("INV_ACTIVATE_PENDING_ORDER", "Aktiver venting");
-define("INV_ACTIVATE_ARE_YOU_SURE", "ADVARSEL! Dette vil opprette en ny ordre, og den ventende ordren vil bli slettet. Hvis det relatert bestillingsskjema er setter til automatisk oppretting av bruker og / eller faktura, vil disse også bli generert. Er du sikker på at du vil fortsette?");
+define("INV_ACTIVATE_PENDING_ORDER", "Aktivér venting");
+define("INV_ACTIVATE_ARE_YOU_SURE", "ADVARSEL! Dette vil opprette en ny ordre og den ventende ordren vil bli slettet. Hvis relatert bestillingsskjema er satt til automatisk oppretting av bruker og/eller faktura, vil disse også bli generert. Er du sikker på at du vil fortsette?");
 define("INV_SELECT_PENDING_ORDER", "Vennligst gjør et valg fra listen for å aktivere");
-define("INV_PENDING_ORDER", "Ventende ordre");
-define("INV_PENDING_TITLE", "Ventende ordrer");
-define("INV_PENDING_INTRO", "Dette er bestillinger som ble mottatt via nettsiden forside, men der betalingen ennå ikke er bekreftet. Bestillinger vil kun være ventende hvis bestillingsskjemaet er satt til å vente på bekreftet betaling. Hvis den installerte betalingskanalen oppdager betaling for en ventende ordre vil ordren automatisk bli opprettet. Hvis betalingen er gjort på annen måte, eller hvis du vil aktivere en bestilling uten å ha mottatt betaling, kan du gjøre det ved hjelp av aktivere verktøylinjeknappen.");
+define("INV_PENDING_ORDER", "Ventende ordre(r)");
+define("INV_PENDING_TITLE", "Ventende ordre(r)");
+define("INV_PENDING_INTRO", "Dette er bestillinger som ble mottatt via nettsiden men der betalingen ennå ikke er bekreftet. Bestillinger vil kun være ventende hvis bestillingsskjemaet er satt til å vente på bekreftet betaling. Hvis den installerte betalingskanalen oppdager betaling for en ventende ordre vil ordren automatisk bli opprettet. Hvis betalingen er gjort på annen måte, eller hvis du vil aktivere en bestilling uten å ha mottatt betaling, kan du gjøre det ved hjelp av aktivere verktøylinjeknappen.");
 define("INV_PENDING_ORDER_ID", "Ordre ID");
 define("INV_PENDING_ORDER_FORM", "Ordreskjema");
 define("INV_PENDING_ORDER_DATE", "Dato");
@@ -41,5 +41,5 @@ define("INV_ORDERS_ACTIVATED", "Valgte ordre ble aktivert");
 @define("INV_PAY_FREQUENCY", "Betalingsfrekvens");
 
 //Version 1.2.0
-define("INV_PENDING_RESUME_LINK", "Hvis du har aktivert innbetaling av bestillinger uten å være logget inn (på siden for visningsalternativer), kan følgende link brukes til å gjenoppta denne pågående bestillingen (dvs. å gjøre betaling).");
+define("INV_PENDING_RESUME_LINK", "Hvis du har aktivert innbetaling av bestillinger uten å være logget inn kan følgende lenke brukes til å gjenoppta den pågående bestillingen (dvs. å gjøre betaling).");
 ?>
