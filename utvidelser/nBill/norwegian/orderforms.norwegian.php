@@ -22,17 +22,17 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Order Forms
-define("INV_ORDER_FORMS_TITLE", "Bestillingsskjemaet");");
+define("INV_ORDER_FORMS_TITLE", "Bestillingsskjemaet");
 define("INV_ORDER_FORMS_INTRO", "Bestillingsskjemaene gjør at brukerne kan bestille produkter gjennom brukersidene på forsiden (Frontend). Du kan ha hvilke som helst felter i skjemaet, og knytte et eller flere av feltene sammen med ett eller flere produkter (du kan føre til et annet produkt å være organisert, avhengig av verdien en bruker angir for et felt). Når du bruker denne funksjonen for første gang, kan du gå til %s");
 define("INV_ORDER_FORMS_DOC_LINK", "Tilgjengelig dokumentasjon");
-define("INV_FORM_PUBLISHED", "Publisert??");
+define("INV_FORM_PUBLISHED", "Publisert?");
 define("INV_INSTR_FORM_PUBLISHED", "Vise skjema på nettsiden/brukersidene");
 define("INV_FORM_TITLE", "Tittel på skjema");
 define("INV_PUBLISHED", "Publisert");
 define("INV_EDIT_ORDER_FORM", "Rediger bestillingsskjemaet");
 define("INV_NEW_ORDER_FORM", "Nytt bestillingsskjema");
 define("INV_FORM_DETAILS", "Skjemadetaljer");
-define("INV_ORDER_FORM_INTRO_NEW", "Siden dette er et nytt skjema, kan du angi grunnleggende informasjon nedenfor. Når du har klikket på "Bruk" (eller "Lagre" og deretter kommer tilbake til skjemaet for å redigere det) er dette "feltet"det første (fordi det er det du er mest sannsynlig har behov for å oppdatere/redigere).");
+define("INV_ORDER_FORM_INTRO_NEW", "Siden dette er et nytt skjema, kan du angi grunnleggende informasjon nedenfor. Når du har klikket på 'Bruk' (eller 'Lagre' og deretter kommer tilbake til skjemaet for å redigere det) er dette 'feltet' det første (fordi det er det du er mest sannsynlig har behov for å oppdatere/redigere).");
 define("INV_ORDER_FORM_INTRO", "");
 define("INV_FORM_TAB_DETAILS", "Detaljer");
 define("INV_FORM_TAB_FIELDS", "Felter");
