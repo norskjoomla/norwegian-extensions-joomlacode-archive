@@ -22,7 +22,7 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Extensions
-define("INV_EXTENSION_INSTALL_WARNING", "ADVARSEL! Bare innstaller utvidelser fra kilder du stoler på. En utvidelse kan få tilgang til hele nettsiden din!");
+define("INV_EXTENSION_INSTALL_WARNING", "ADVARSEL! Bare installer utvidelser fra kilder du stoler på. En utvidelse kan få tilgang til hele nettsiden din!");
 define("INV_EXTENSION_NO_GATEWAY_FILE", "Ingen fil er merket som en fil for betalingsmodul");
 define("INV_EXTENSION_NO_LANGUAGE_FILE", "Ingen fil er merket som en språkfil");
 define("INV_EXTENSION_INSTALL_NEW", "Installér ny utvidelse");
