@@ -132,7 +132,7 @@ define("INV_TOTAL_NET", "Netto totalt");
 define("INV_TOTAL_GROSS", "Brutto totalt");
 define("INV_INVOICE_PAID", "Betalt");
 define("INV_EMAIL_INVOICE_ATTACH_FE", "Send meg fakturaer som et HTML-vedlegg på e-post som ren tekst (anbefales)");
-define("INV_FORM_SUMMARY_INTRO", "Gå gjennom følgende informasjon for å sikre at de er korrekt før du sender inn bestillingen din. Hvis du trenger å gå tilbake og endre noe, klikker du på knappen 'Tilbake'.");
+define("INV_FORM_SUMMARY_INTRO", "Vennligst kontroller informasjonen nedenfor for å sikre at alt stemmer.<br />Trykk på 'Tilbake' hvis det er behov for å endre noe. Hvis alt er riktig trykker du på 'Lagre/Fortsett'.");
 define("INV_CHECKED", "Valgte");
 define("INV_UNCHECKED", "Ikke valgt");
 define("INV_ORDER_SUMMARY_NET_TOTAL", "Netto totalt");
@@ -171,8 +171,8 @@ define("INV_ERR_SECURITY_IMAGE_WRONG", "Beklager, feil sikkerhetskode. Prøv igje
 /* Version 1.1.4 */
 define("INV_FORM_NEXT", "Neste >>");
 define("INV_FORM_PREV", "<< Tilbake");
-define("INV_FORM_SUBMIT", "Lagre");
-define("INV_RENEW_SUBMIT", "Lagre");
+define("INV_FORM_SUBMIT", "Lagre/Fortsett");
+define("INV_RENEW_SUBMIT", "Lagre/Fortsett");
 
 //Version 1.2.0
 /* INV_ORDER_NUMBER on line 26 changed (for plurality) */
