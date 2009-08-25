@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: install.xml 525 2009-01-30 10:47:09Z Roar $ -->
+<install version="1.5" client="both" type="language" method="upgrade">
+    <name>Norwegian bokmåll (Norway)</name>
+    <tag>nb-NO</tag>
+    <version>2.3.</version>
+    <creationdate>7-08-2009</creationdate>
+    <author>Joomla! i Norge</author>
+    <authoremail>oversettelser@joomlainorge.no</authoremail>
+    <authorurl>www.joomlainorge.no</authorurl>
+    <copyright>Copyright (C) 2005 - 2009 Open Source Matters. All rights reserved</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description><![CDATA[Norske språkfiler (bokmål) for JoomlaPack brukerside og administrasjon.<br/>
+				 Opphav: 2005 - 2009, <a href="http://www.joomlainorge.no/" target="_blank">Foreningen Joomla! i Norge</a><br/>
+				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a><br /><br />
+                                 Bidra: Om du har stor nytte av disse språkfilene og ønsker å bidra til at foreningens kan fortsette sitt arbeide, 
+                                 med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/bidra/hvordan_bidra/" target="_blank">besøk våre FAQ-sider</a> for mer informasjon.]]></description>
+    <administration>
+      <files folder="administrator/language/nb-NO">
+        <filename>nb-NO.com_joomlapack.ini</filename>
+        <filename>nb-NO.com_joomlapack.menu.ini</filename>
+        <filename>nb-NO.mod_jpadmin.ini</filename>
+      </files>
+  </administration>
+  <site>
+      <files folder="language/nb-NO">
+        <filename>nb-NO.com_joomlapack.ini</filename>
+    </files>
+  </site>
+  <params />
+</install>
