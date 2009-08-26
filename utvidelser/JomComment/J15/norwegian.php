@@ -1,5 +1,6 @@
 <?php
-/* Norwegian NN translation by Terje A. Gudmundsson <http://www.skjoldenrafting.no> */
+/* Norwegian NN translation by Terje A. Gudmundsson <http://www.skjoldenrafting.no> 
+   Updated and improved for Norwegian Bokmål (nb) by Rune Rasmussen - syntaxerror.no */
 
 DEFINE("_JC_",                          "Gjest"); 
 DEFINE("_JC_GUEST_NAME",                "en gjest");
