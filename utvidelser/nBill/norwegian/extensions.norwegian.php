@@ -34,7 +34,7 @@ define("INV_EXTENSION_DATE_INSTALLED", "Installasjonsdato");
 define("INV_EXTENSION_VERSION", "Versjon");
 define("INV_EXTENSION_AUTHOR", "Utvikler");
 define("INV_EXTENSION_URL", "Nettadresse");
-define("INV_EXTENSION_UNINSTALL", "Avinstaller");
+define("INV_EXTENSION_UNINSTALL", "Avinstallér");
 define("INV_EXTENSION_NOT_REMOVED", "Beklager, " . INV_BRANDING_NAME . " kunne ikke slette utvidelsen '%s'. Den må fjernes manuelt.");
 define("INV_EXTENSION_REMOVED", "Utvidelsen '%s' ble vellykket avinstallert.");
 define("INV_UNINSTALL_KEEP_SETTINGS", "Vil du beholde dine innstillinger, slik at du kan oppdatere utvidelsen (om det er aktuelt)? Velg `OK` for å la database være uberørt, eller `Avbryt` for å slette denne utvidelsen for godt.");
@@ -42,12 +42,12 @@ define("INV_UNINSTALL_KEEP_SETTINGS", "Vil du beholde dine innstillinger, slik a
 //Version 1.2.0
 define("INV_EXTENSION_NO_INSTALL_FILE", "Ingen installasjonsfil (*.nbe) ble funnet. Utvidelsen kan ikke installeres. Forsikre deg om at du bruker riktig versjon av utvidelsen (utvidelser skrevet for eldre versjoner av " . INV_BRANDING_NAME . " vil kanskje ikke virke med denne versjonen).");
 define("INV_EXTENSION_INVALID_INSTALL_FILE", "Installasjonsfilen (%s) er ikke en gyldig nBill fil. Utvidelsen kan ikke installeres.");
-define("INV_EXTENSION_COULD_NOT_CREATE_DIR", "Installasjonen feilet fordi følgende mappe ikke kunne opprettes: %s (om denne mappen allerede eksisterer, forsøk da å avinstallere den eksisterende utvidelsen først).");
-define("INV_EXTENSION_COULD_NOT_CREATE_FILE", "Installasjonen feilet fordi følgende fil ikke kunne opprettes: %s (om denne filen allerede eksisterer, forsøk da å avinstallere den eksisterende utvidelsen først).");
+define("INV_EXTENSION_COULD_NOT_CREATE_DIR", "Installasjonen feilet fordi følgende mappe ikke kunne opprettes: %s (hvis denne mappen allerede eksisterer, forsøk da å avinstallere den eksisterende utvidelsen først).");
+define("INV_EXTENSION_COULD_NOT_CREATE_FILE", "Installasjonen feilet fordi følgende fil ikke kunne opprettes: %s (hvis denne filen allerede eksisterer, forsøk da å avinstallere den eksisterende utvidelsen først).");
 define("INV_EXTENSION_INSTALLED", "Utvidelsen '%s' ble vellykket installert!");
 define("INV_EXTENSION_RETURN_TO_LIST", "for å returnere til utvidelsesinstallasjonen");
-define("INV_EXTENSION_VERSION_INCOMPATIBLE", "Versjonen av " . INV_BRANDING_NAME . " som du bruker er ikke kompatibel med utvidelsen du forsøker å installere");
+define("INV_EXTENSION_VERSION_INCOMPATIBLE", "Versjonen av " . INV_BRANDING_NAME . " som du bruker, er ikke kompatibel med utvidelsen du forsøker å installere");
 
 //Version 1.2.8
-define("INV_EXTENSION_DB_ERROR", "Installasjonen ble kanskje ikke vellykket fordi følgende databasefeil oppsto: %s");
+define("INV_EXTENSION_DB_ERROR", "Installasjonen var kanskje ikke vellykket fordi følgende databasefeil oppstod: %s");
 ?>
