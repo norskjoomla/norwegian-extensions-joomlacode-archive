@@ -38,8 +38,8 @@ define("INV_PAYMENT_METHOD", "Betalingsmåte");
 define("INV_AMOUNT_RECEIVED", "Mottatt beløp");
 define("INV_DATE_RECEIVED", "Mottatt dato");
 define("INV_RECEIPT_REFERENCE", "Referanse");
-define("INV_INSTR_RECEIPT_NO", "<strong>Merk:</strong> La så åpent hvis du legger til ny. Komponenten vil automatisk legge til neste tilgjengelige kvitteringsnummer.");
-define("INV_INSTR_RELATED_INVOICE", "Hvis denne kvitteringen gjelder for én eller flere fakturaer, velg faktura(er) her (ubetalte fakturaer er vises her).");
+define("INV_INSTR_RECEIPT_NO", "<strong>Merk:</strong> La feltet være tomt hvis du legger til ny. Komponenten vil automatisk legge til neste tilgjengelige kvitteringsnummer.");
+define("INV_INSTR_RELATED_INVOICE", "Hvis denne kvitteringen gjelder for én eller flere fakturaer, velg faktura(er) her (ubetalte fakturaer vises her).");
 define("INV_INSTR_RECEIVED_FROM", "");
 define("INV_INSTR_PAYMENT_METHOD", "");
 define("INV_INSTR_AMOUNT_RECEIVED", "Skriv inn beløpet uten valutasymbol.");
@@ -56,11 +56,11 @@ define("INV_OTHER", "Andre");
 define("INV_RECEIVED_FOR", "Mottatt for");
 define("INV_INSTR_RECEIVED_FOR", "Indikerer hva betalingen gjelder (hvis den ikke er knyttet opp mot en faktura eller annet)");
 define("INV_LEDGER_BREAKDOWN", "Hovedbok detaljvisning");
-define("INV_LEDGER_BREAKDOWN_MISMATCH", "ADVARSEL! Summen av hovedbok detaljer stemmer ikke med inntektsbeløpet.  Hvis du allikevel vil lagre, klikk OK, ellers klikk Avbryt og rett opp hovedbok detaljene eller mottatt beløp.");
+define("INV_LEDGER_BREAKDOWN_MISMATCH", "ADVARSEL! Summen av hovedbokdetaljer stemmer ikke med inntektsbeløpet.  Hvis du likevel vil lagre, klikk OK, ellers klikk Avbryt og rett opp hovedbokdetaljene eller mottatt beløp.");
 define("INV_TAX_RATE_AND_AMOUNT", "Skattesatser og beløp");
-define("INV_INSTR_TAX_RATE_AND_AMOUNT", "Hvis inntekten inkluderer MVA kan du spesifisere sats og beløp her (inntil 3 foskjellige satser pr. inntektsenhet). Fyll kun inn summen for faktisk MVA (ikke hele inntekten). Hvis MVA ikke er tilgjengelig, la feltet være tomt eller skriv en null. Hvis det ikke er skatt på inntekten, la det stå blankt eller skriv 0.  Denne informasjonen blir bare brukt til å lage din skatteoversikt hvis du betaler skatt på faktiske mottatte beløp i motsetning til på fakturerte beløp. <strong>VENNLIGST MERK:</strong> Når du velger en faktura fra listen og den består av flere underenheter, da kan skattebeløpet synes en anelse for høyt i forhold til satsen.  Dette er fordi skatter for individuelle enheter blir avrundet oppover, og dette er derfor IKKE en feil.");
+define("INV_INSTR_TAX_RATE_AND_AMOUNT", "Hvis inntekten inkluderer MVA, kan du spesifisere sats og beløp her (inntil 3 forskjellige satser pr. inntektsenhet). Fyll kun inn summen for faktisk MVA (ikke hele inntekten). Hvis MVA ikke er tilgjengelig, la feltet være tomt eller skriv en null. Hvis det ikke er skatt på inntekten, la det stå blankt eller skriv 0.  Denne informasjonen blir bare brukt til å lage din skatteoversikt hvis du betaler skatt på faktiske mottatte beløp i motsetning til på fakturerte beløp. <strong>VENNLIGST MERK:</strong> Når du velger en faktura fra listen og den består av flere underenheter, kan skattebeløpet synes en anelse for høyt i forhold til satsen.  Dette er fordi skatter for individuelle enheter blir avrundet oppover, og dette er derfor IKKE en feil.");
 define("INV_NET_RECEIPT", "Nettkvittering");
-define("INV_INSTR_NET_RECEIPT", "Sum mottatt etter moms er blitt beregnet.");
+define("INV_INSTR_NET_RECEIPT", "Sum mottatt etter MVA er blitt beregnet.");
 define("INV_INCOME_TAX_RATE", "MVA-sats");
 define("INV_INCOME_TAX_AMOUNT", "Beløp");
 define("INV_SELECT_VENDOR_FOR_RECEIPT_NO_GEN", "Generering av kvitteringsnummer er kun tilgjengelig når en selger er valgt");
@@ -69,12 +69,12 @@ define("INV_GENERATE_RECEIPT_NOS", "Generer kvitteringsnummer");
 define("INV_RECEIPT_NOS_GENERATED", "%s kvitteringsnummer generert%s");
 define("INV_UNNUMBERED", "Venter på kvitteringsnummer.");
 define("INV_INCOME_NO_SUMMARY", "Utelat fra skatteutregning?");
-define("INV_INSTR_INCOME_NO_SUMMARY", "Hvis du vil at denne inntekten skal ignoreres når skatteoversikten blir laget, sett dette valget til 'Ja'.  For eksempel i Storbritannia kan det være typer av inntekt som ikke skal inkluderes på selvangivelsen (som f.eks. penger fra en forsikringsutbetaling).  Men vanligvis skal inntekten tas med.");
+define("INV_INSTR_INCOME_NO_SUMMARY", "Hvis du vil at denne inntekten skal ignoreres når skatteoversikten blir laget, sett dette valget til 'Ja'.  Eksempelvis i Storbritannia kan det være typer av inntekt som ikke skal inkluderes på selvangivelsen (som f.eks. penger fra en forsikringsutbetaling).  Til vanlig skal inntekten tas med.");
 define("INV_INCOME_FROM_REQUIRED", "Spesifisér hvem denne inntekten er fra.");
 @define("INV_GENERATE_MASTER", "ADVARSEL! Dette vil også generere kvitteringsnummer for MASTER databasen(e)!");
 
 //Version 1.2.6
-define("INV_INCOME_RECORD_LIMIT_WARNING", "ADVARSEL! Siden det er %s eller flere ubetalte fakturaer i din database, har kun de første %s blitt lagt til i listen over. Hvis en faktura du ser etter ikke finnes i listen, kan du enten klikk 'Hvis alle' (nedenfor), eller markere den som betalt på fakturalisten (den vil da komme på denne listen automatisk).");
+define("INV_INCOME_RECORD_LIMIT_WARNING", "ADVARSEL! Siden det er %s eller flere ubetalte fakturaer i din database, har kun de første %s blitt lagt til i listen over. Hvis en faktura du ser etter ikke finnes i listen, kan du enten klikke 'Vis alle' (nedenfor), eller markere den som betalt på fakturalisten (den vil da komme på denne listen automatisk).");
 
 //Version 1.2.7
 define("INV_INCOME_SHOW_ALL", "Vis alle");
