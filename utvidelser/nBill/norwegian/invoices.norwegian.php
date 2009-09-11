@@ -90,7 +90,7 @@ define("INVOICE_ITEM_CODE", "Varenr.");
 define("INV_REFUND", "REFUSJON"); //The SKU for refunds
 define("INV_EMAIL_INVOICE_SUBJECT", "Faktura %s fra %s");
 define("INV_EMAIL_INVOICE_INTRO", "Hei %s,\n\nFølgende faktura er vedlagt:");
-define("INV_EMAIL_INVOICE_FOOTER", "Du kan se alle dine fakturaer online ved å logge deg på %s. Hvis du ikke lenger ønsker å motta fakturaer på e-post, kan du logge inn og klikke på `Min profil` på `Min konto` for å endre dine innstillinger.\n\nHilsen,\n%s");
+define("INV_EMAIL_INVOICE_FOOTER", "Du kan se alle dine fakturaer elektronisk ved å logge deg på %s. Hvis du ikke lenger ønsker å motta fakturaer på e-post, kan du logge inn og klikke på `Min profil` på `Min konto` for å endre dine innstillinger.\n\nOm du valgte å betale direkte på nett vil du også kunne laste ned en oppdatert faktura fra din konto, som viser kvitteringsnummer og betalingsdato.\n\nHilsen,\n%s");
 define("INV_EMAIL_INVOICE_ALT_TEXT", "Du ser denne meldingen fordi din e-postklient ikke støtter HTML-meldinger (eller hvis du viser den fra 'useriøs e-post'-mappen. HTML kan da ikke vises). For å se fakturaen din, kan du enten vise denne e-posten i HTML-modus, eller logge inn på %s for å se din faktura online.");
 define("INV_EMAIL_INVOICE_NOTIFICATION", "Hei %s,\n\nDenne e-posten er for å informere deg om at en ny faktura er sendt til deg.\n\n");
 define("INV_INVOICE_EMAILED", "E-post");
