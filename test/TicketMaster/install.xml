@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install version="1.0.2" client="both" type="language" method="upgrade">
+<tag>nb-NO</tag>
+<version>1.0</version>
+<creationDate>17.09.2009</creationDate>
+<author>Knut Helstad</author>
+<name>Norwegian bokmal</name>
+<authorEmail>knuthel [at] online.no</authorEmail>
+<authorUrl></authorUrl>
+<copyright></copyright>
+<license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+<description>Norwegian bokmal Teamlog translation</description><administration>
+<files folder="admin">
+<filename>nb-NO.com_ticketmaster.ini</filename>
+</files>
+</administration>
+<site>
+<files folder="site">
+<filename>nb-NO.com_tiketmaster.ini</filename>
+</files>
+</site>
+<params />
+</install>
