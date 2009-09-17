@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<install version="1.0.2" client="both" type="language" method="upgrade">
+<install version="1.5" client="both" type="language" method="upgrade">
 <tag>nb-NO</tag>
 <version>1.0</version>
 <creationDate>17.09.2009</creationDate>
 <author>Knut Helstad</author>
 <name>Norwegian bokmal</name>
-<authorEmail>knuthel [at] online.no</authorEmail>
-<authorUrl></authorUrl>
-<copyright></copyright>
+<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+<authorUrl>www.joomlainorge.no</authorUrl>
+<copyright>>Copyright (C) 2009 Joomla! i Norge. All rights reserved.</copyright>
 <license>http://www.gnu.org/licenses/gpl-2.0.html</license>
 <description>Norwegian bokmal Teamlog translation</description><administration>
 <files folder="admin">
