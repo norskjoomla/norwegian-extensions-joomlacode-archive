@@ -14,7 +14,6 @@
     <administration>
       <files folder="admin">
         <filename>nb-NO.com_k2.ini</filename>
-        <filename>nb-NO.com_k2.menu.ini</filename>
       </files>
   </administration>
   <site>
