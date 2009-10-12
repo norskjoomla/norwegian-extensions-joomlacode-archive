@@ -73,7 +73,7 @@ define("INV_INSTR_ORDER_CANCELLED", "Hvis ordren er kansellert kan du angi det h
 define("INV_INSTR_CANCELLATION_REASON", "Årsak til kansellering.");
 define("INV_INSTR_IS_ONLINE", "Er dette en internettordre? (Avgiftsfritt eller ikke avhengig av hvordan du har satt opp systemet.).");
 define("INV_INSTR_AUTO_RENEW", "Hvis du velger 'Ja' vil 'Neste forfallsdato' oppdateres hver gang det lages en ny faktura. Hvis du velger 'Nei' vil ikke 'Neste forfallsdato' bli oppdatert og det vil ikke bli generert ny faktura automatisk. Ikke velg 'Nei' med mindre du vet hva du gjør.");
-define("INV_ORDER_INVOICE_INTRO", "Følgende verdier vil komme med på fakuraen(e) som etterfølger denne ordren. Du kan overstyre dette hvis du ønsker det, men hver klar over at ovenstående valg vil bli overstyrt av det du gjør her. Hvis to ordrer faktureres sammen (samlefaktura) og det er lagt inn en fast fraktpris pr. faktura vil ikke fraktprisen bli inkludert. Hvis du vil forsikre deg om at fraktprisen blir lagt til uavhengig av andre ordre på kunden må du velge 'Ja' på 'Uni faktura' ovenfor.");
+define("INV_ORDER_INVOICE_INTRO", "Følgende verdier vil komme med på fakuraen(e) som etterfølger denne ordren. Du kan overstyre dette hvis du ønsker det, men vær klar over at ovenstående valg vil bli overstyrt av det du gjør her. Hvis to ordrer faktureres sammen (samlefaktura) og det er lagt inn en fast fraktpris pr. faktura vil ikke fraktprisen bli inkludert. Hvis du vil forsikre deg om at fraktprisen blir lagt til uavhengig av andre ordre på kunden må du velge 'Ja' på 'Unik faktura' ovenfor.");
 define("INV_ORDER_TOTAL", "Ordretotal");
 define("INV_GENERATE", "Generer");
 define("INV_PRODUCT", "Produkt");
@@ -95,10 +95,10 @@ define("INV_CANCELLATION_DATE", "Kansellert dato (hvis aktuelt)");
 define("INV_INSTR_EXPIRY_DATE", "Legg inn dato for når ordren utløper (ingen flere fakturaer vil bli generert etter denne dato). Hvis det er en faktura med forfall på den angitte datoen vil denne bli produsert.");
 define("INV_INSTR_CANCELLATION_DATE", "<strong>Merk:</strong> Denne skal KUN brukes på gjentagende faktura for en tjeneste som er avbestilt eller kansellert. Det vil ikke bli produsert faktura for ordrer som har en dato her.");
 define("INV_SHOW_INVOICES_FOR_ORDER", "Vis alle fakturaer for denne ordren.");
-define("INV_CANNOT_ORDER_SUB_WITHOUT_USER", "FEIL! Du kan ikke bestille et abbonement på denne klienten fordi den ikke er koblet til en bruker ID. Legg en bruker til klienten først og lag deretter abbonementet.");
+define("INV_CANNOT_ORDER_SUB_WITHOUT_USER", "FEIL! Du kan ikke bestille et abonnement på denne klienten fordi den ikke er koblet til en bruker ID. Legg en bruker til klienten først og lag deretter abonnementet .");
 define("INV_ORDER_VOUCHER_CODE", "Verdikupong nr.");
 define("INV_INSTR_ORDER_VOUCHER_CODE", "Hvis du legger til et verdikupongnr. som tilhører en rabattkode vil rabatten bli trukket fra på hver faktura for denne ordren. Hvis verdikupongnummeret ikke eksisterer vil det bli oversett.");
-define("INV_ORDER_VOUCHER_DISCOUNT_NOT_SHOWN", "Merk: Eventuelle rabatter from vil ikke vises her. De vil imidlertid bli trukket fra når faktura produseres.");
+define("INV_ORDER_VOUCHER_DISCOUNT_NOT_SHOWN", "Merk: Eventuelle rabatter oppgitt ovenfor vil ikke vises her. De vil imidlertid bli trukket fra når faktura produseres.");
 define("INV_ORDER_FORM_FIELD_VALUES", "Order Form Field Values");
 define("INV_INSTR_ORDER_FORM_FIELD_VALUES", "Verdier oppgitt av brukeren når ordren ble opprettet. Dette vil normalt sett bli automatisk opprettet når ordren opprettes, men du kan overstyre det hvis du ønsker det.");
 define("INV_CLIENT_REQUIRED", "Velg en klientoppføring.");
@@ -117,8 +117,8 @@ define("INV_DELETE_DISCOUNT", "Slett rabatt");
 define("INV_PLEASE_SELECT_DISCOUNT", "Velg en rabattsats.");
 define("INV_ORDER_DISCOUNT_DUPLICATION", "Rabatten er allerede lagt til.");
 define("INV_ORDER_PAYLINK", "Betalingsplan");
-define("INV_ORDER_PAYLINK_PROMPT", "Hvis du ønsker å lage en ny betalingsplan for denne ordren, f.eks. for å fornye et abbonement eller hvis kundens kredittkort er gått ut på dato), kan du sende følgende lenke til kunden: ");
-define("INV_ORDER_PAYLINK_WARNING", "ADVARSELG! Klienten må være koblet mot en bruker fordi man må logge inn før man kan betale.");
+define("INV_ORDER_PAYLINK_PROMPT", "Hvis du ønsker å lage en ny betalingsplan for denne ordren, f.eks. for å fornye et abonnement eller hvis kundens kredittkort er gått ut på dato), kan du sende følgende lenke til kunden: ");
+define("INV_ORDER_PAYLINK_WARNING", "ADVARSEL! Klienten må være koblet mot en bruker fordi man må logge inn før man kan betale.");
 define("INV_SEMI_ANNUALLY", "Halvårlig");
 
 /* Version 1.1.4 */
