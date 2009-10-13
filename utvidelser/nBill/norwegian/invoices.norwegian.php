@@ -101,7 +101,7 @@ define("INV_EMAIL_NOT_DUE", "E-post ble ikke sendt. (Kundens innstillinger tilla
 define("INV_EMAIL_NOW", "Send denne fakturaen til kunden via e-post nå");
 define("INV_SEND_EMAIL", "Send e-post");
 define("INV_SEND_EMAIL_INTRO", "Velg format for e-post (HTML eller ren tekst). Du kan også overstyre meldingsteksten ved å skrive din egen tekst her. Hvis du lar felt stå, " . INV_BRANDING_NAME . " vil standard melding bli brukt.");
-define("INV_SEND_EMAIL_MANY_INTRO", "Velg typen e-post som sendes (HTML eller ren tekst). Du kan også overstyre meldingsteksten ved å skrive din egen tekst her. Hvis du lar felt stå tomt, vil " . INV_BRANDING_NAME . " bruke standard meldingstekst.");
+define("INV_SEND_EMAIL_MANY_INTRO", "Vennligst velg en e-posttype som skal sendes (HTML eller ren tekst). Du kan også overstyre e-postadressen, kontaktnavnet og melding ved å spesifisere dine egne verdier her. Om du lar disse være tomme, vil nBill forsøke å fylle inn detaljene ved å bruke kundeoppføringen assosiert med denne fakturaen (dersom anvendelig), sammen med standard meldingstekst.");
 define("INV_EMAIL_OPTIONS", "E-postalternativer");
 define("INV_EMAIL_HTML", "Send i HTML format?");
 define("INV_EMAIL_CONTACT", "Kontaktnavn");
