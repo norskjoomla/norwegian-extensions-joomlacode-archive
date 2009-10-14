@@ -132,7 +132,7 @@ define("INV_TOTAL_NET", "Netto totalt");
 define("INV_TOTAL_GROSS", "Brutto totalt");
 define("INV_INVOICE_PAID", "Betalt");
 define("INV_EMAIL_INVOICE_ATTACH_FE", "Send meg fakturaer som et HTML-vedlegg i e-post med ren tekst (anbefales)");
-define("INV_FORM_SUMMARY_INTRO", "Vennligst kontrollér informasjonen nedenfor for å sikre at alt stemmer.<br />Trykk på 'Tilbake' hvis det er behov for å endre noe. Hvis alt er riktig, trykker du på 'Lagre/Fortsett'.");");
+define("INV_FORM_SUMMARY_INTRO", "Vennligst kontrollér informasjonen nedenfor for å sikre at alt stemmer.<br />Trykk på 'Tilbake' hvis det er behov for å endre noe. Hvis alt er riktig, trykker du på 'Lagre/Fortsett'.");
 define("INV_CHECKED", "Valgte");
 define("INV_UNCHECKED", "Ikke valgt");
 define("INV_ORDER_SUMMARY_NET_TOTAL", "Netto totalt");
