@@ -29,9 +29,9 @@ defined('_JEXEC') OR defined('_VALID_MOS') OR die('...Direct Access to this loca
 
 ### General ###
  //acajoom Description
-define('_ACA_DESC_NEWS', 'Acajoom is a mailing lists, newsletters, auto-responders, and follow up tool to communication effectively with your users and customers.  ' .
-		'Acajoom, Your Communication Partner!');
-define('_ACA_FEATURES', 'Acajoom, your communication partner!');
+define('_ACA_DESC_NEWS', 'Acajoom er en epostliste, nyhetsbrev, \'auto respons\', og oppfølgingsverktøy for å kommunisere med deres brukere og kunder.  ' .
+		'Acajoom, deres kommunikasjonspartner!');
+define('_ACA_FEATURES', 'Acajoom, deres kommunikasjonspartner!');
 
 // Type of lists
 define('_ACA_NEWSLETTER', 'Nyhetsbrev');
@@ -42,23 +42,23 @@ define('_ACA_POSTCARD', 'Postkort');
 define('_ACA_PERF', 'Ytelse');
 define('_ACA_COUPON', 'Kupong');
 define('_ACA_CRON', 'Cron-jobb');
-define('_ACA_MAILING', 'Mailing');
+define('_ACA_MAILING', 'Utsendelse');
 define('_ACA_LIST', 'Liste');
 
  //acajoom Menu
 define('_ACA_MENU_LIST', 'Lister');
 define('_ACA_MENU_SUBSCRIBERS', 'Abonnenter');
 define('_ACA_MENU_NEWSLETTERS', 'Nyhetsbrev');
-define('_ACA_MENU_AUTOS', 'Automatiske svar');
+define('_ACA_MENU_AUTOS', '\'Auto respons\'');
 define('_ACA_MENU_COUPONS', 'Kuponger');
 define('_ACA_MENU_CRONS', 'Cron-jobber');
 define('_ACA_MENU_AUTORSS', 'Automatisk RSS');
 define('_ACA_MENU_ECARD', 'E-kort');
 define('_ACA_MENU_POSTCARDS', 'Postkort');
-define('_ACA_MENU_PERFS', 'Performances');
+define('_ACA_MENU_PERFS', 'Ytelser');
 define('_ACA_MENU_TAB_LIST', 'Lister');
 define('_ACA_MENU_MAILING_TITLE', 'Mailings');
-define('_ACA_MENU_MAILING', 'Mailings for ');
+define('_ACA_MENU_MAILING', 'Utsendelser for ');
 define('_ACA_MENU_STATS', 'Statistikker');
 define('_ACA_MENU_STATS_FOR', 'Statistikker for ');
 define('_ACA_MENU_CONF', 'Konfigurasjon');
@@ -75,7 +75,7 @@ define('_ACA_MENU_UNSUB_ALL', 'Meld av alle');
 define('_ACA_MENU_VIEW_ARCHIVE', 'Arkiv');
 define('_ACA_MENU_PREVIEW', 'Forhåndsvis');
 define('_ACA_MENU_SEND', 'Send');
-define('_ACA_MENU_SEND_TEST', 'Send test e-post');
+define('_ACA_MENU_SEND_TEST', 'Send eposttest');
 define('_ACA_MENU_SEND_QUEUE', 'Behandle kø');
 define('_ACA_MENU_VIEW', 'Vis');
 define('_ACA_MENU_COPY', 'Kopier');
@@ -91,10 +91,10 @@ define('_ACA_STATUS', 'Status');
 // messages
 define('_ACA_ERROR', ' En feil oppstod!');
 define('_ACA_SUB_ACCESS', 'Tilgangsrettigheter');
-define('_ACA_DESC_CREDITS', 'Kreditter');
+define('_ACA_DESC_CREDITS', 'Bidragsytere');
 define('_ACA_DESC_INFO', 'Informasjon');
 define('_ACA_DESC_HOME', 'Hjemmeside');
-define('_ACA_DESC_MAILING', 'Brevliste');
+define('_ACA_DESC_MAILING', 'Distrubusjonsliste');
 define('_ACA_DESC_SUBSCRIBERS', 'Abonnenter');
 define('_ACA_PUBLISHED', 'Publisert');
 define('_ACA_UNPUBLISHED', 'Upublisert');
@@ -104,157 +104,157 @@ define('_ACA_UPDATE', 'Oppdater');
 define('_ACA_SAVE', 'Lagre');
 define('_ACA_CANCEL', 'Avbryt');
 define('_ACA_NAME', 'Navn');
-define('_ACA_EMAIL', 'E-post');
+define('_ACA_EMAIL', 'Epost');
 define('_ACA_SELECT', 'Velg');
-define('_ACA_ALL', 'Alt');
+define('_ACA_ALL', 'Alle');
 define('_ACA_SEND_A', 'Send en ');
-define('_ACA_SUCCESS_DELETED', ' slettet ok');
-define('_ACA_LIST_ADDED', 'Listen ble laget');
-define('_ACA_LIST_COPY', 'Listen er kopiert');
-define('_ACA_LIST_UPDATED', 'Listen er oppdatert');
+define('_ACA_SUCCESS_DELETED', ' velykket slettet');
+define('_ACA_LIST_ADDED', 'Listen ble opprettet');
+define('_ACA_LIST_COPY', 'Listen ble kopiert');
+define('_ACA_LIST_UPDATED', 'Listen ble oppdatert');
 define('_ACA_MAILING_SAVED', 'Brevene er lagret.');
-define('_ACA_UPDATED_SUCCESSFULLY', 'oppdatert ok.');
+define('_ACA_UPDATED_SUCCESSFULLY', 'vellykket oppdatert.');
 
 ### Subscribers information ###
 //subscribe and unsubscribe info
-define('_ACA_SUB_INFO', 'Abonnentens informasjon');
-define('_ACA_VERIFY_INFO', 'Vennligst bekreft lenken du sendte inn, noe informasjon mangler. ');
+define('_ACA_SUB_INFO', 'Abonnententinformasjon');
+define('_ACA_VERIFY_INFO', 'Vennligst bekreft lenken du sendte inn, informasjon mangler. ');
 define('_ACA_INPUT_NAME', 'Navn');
-define('_ACA_INPUT_EMAIL', 'E-post');
+define('_ACA_INPUT_EMAIL', 'Epost');
 define('_ACA_RECEIVE_HTML', 'Motta HTML?');
 define('_ACA_TIME_ZONE', 'Tidssone');
 define('_ACA_BLACK_LIST', 'Svarteliste');
-define('_ACA_REGISTRATION_DATE', 'Brukerens registreringsdato');
+define('_ACA_REGISTRATION_DATE', 'Registreringsdato');
 define('_ACA_USER_ID', 'Bruker-id');
 define('_ACA_DESCRIPTION', 'Beskrivelse');
-define('_ACA_ACCOUNT_CONFIRMED', 'Din konto har blitt aktivert.');
-define('_ACA_SUB_SUBSCRIBER', 'Mottager');
+define('_ACA_ACCOUNT_CONFIRMED', 'deres konto har blitt aktivert.');
+define('_ACA_SUB_SUBSCRIBER', 'Abonnent');
 define('_ACA_SUB_PUBLISHER', 'Utgiver');
 define('_ACA_SUB_ADMIN', 'Administrator');
 define('_ACA_REGISTERED', 'Registrert');
 define('_ACA_SUBSCRIPTIONS', 'Ditt abonnement');
-define('_ACA_SEND_UNSUBCRIBE', 'Send avmeld melding');
-define('_ACA_SEND_UNSUBCRIBE_TIPS', 'Klikk \'Ja\' for å sende en e-post for å bekrefte avmeldingen.');
+define('_ACA_SEND_UNSUBCRIBE', 'Send melding ved avmelding');
+define('_ACA_SEND_UNSUBCRIBE_TIPS', 'Klikk \'Ja\' for å sende en epost med bekreftelse av avmeldingen.');
 define('_ACA_SUBSCRIBE_SUBJECT_MESS', 'Vennligst bekreft ditt abonnement. ');
 define('_ACA_UNSUBSCRIBE_SUBJECT_MESS', 'Bekreftelse på avmelding');
 define('_ACA_DEFAULT_SUBSCRIBE_MESS', 'Hei [NAME],<br />' .
-		'Kun et steg igjen og du er nyhetsbrev abonnent. Vennligst klikk på denne lenken for bekrefte ditt abonnement' .
-		'<br /><br />[CONFIRM]<br /><br />Har du spørsmål, vennligst kontakt vår nettredaktør.');
-define('_ACA_DEFAULT_UNSUBSCRIBE_MESS', 'Dette er en e-post for å bekrefte at du ikke lengre abonnerer på vårt nyhetsbrev. Vi beklager din beslutning og skulle du noen gang ønske å bli abonnent igjen kan du melde deg på via vår nettløsning. Har du spørsmål, vennligst kontakt vår web redaktør.');
+		'Kun et steg igjen og du abonnerer på denne listen. Vennligst klikk på lenken for bekrefte ditt abonnement.' .
+		'<br /><br />[CONFIRM]<br /><br />Kontakt vår nettredaktør om du har noen spørsmål.');
+define('_ACA_DEFAULT_UNSUBSCRIBE_MESS', 'Dette er en epost for å bekrefte at du ikke lenger abonnerer på vårt nyhetsbrev. Vi beklager deres beslutning, men skulle du noen gang ønske å bli abonnent igjen kan du melde deg på via vår nettside. Kontakt vår nettredaktør om du har noen spørsmål.');
 
 // Acajoom subscribers
-define('_ACA_SIGNUP_DATE', 'Abonnement startdato');
+define('_ACA_SIGNUP_DATE', 'Startdato');
 define('_ACA_CONFIRMED', 'Bekreftet');
-define('_ACA_SUBSCRIB', 'Abonner');
-define('_ACA_HTML', 'HTML-brev');
+define('_ACA_SUBSCRIB', 'Abonnér');
+define('_ACA_HTML', 'HTML-utsendelser');
 define('_ACA_RESULTS', 'Resultater');
 define('_ACA_SEL_LIST', 'Velg en liste');
-define('_ACA_SEL_LIST_TYPE', '- Velg en type liste -');
+define('_ACA_SEL_LIST_TYPE', '- Velg listetype -');	
 define('_ACA_SUSCRIB_LIST', 'Liste med alle abonnenter');
-define('_ACA_SUSCRIB_LIST_UNIQUE', 'abonnenter for: ');
-define('_ACA_NO_SUSCRIBERS', 'Ingen abonnenter ble funnet for denne listen.');
-define('_ACA_COMFIRM_SUBSCRIPTION', 'En e-post for å bekrefte har blitt sent til deg.  Vennligst sjekk din e-post og klikk på linken vi har sent til deg.<br />' .
-		'Du må bekrefte din e-post adresse for at abonnementet skal begynne.');
-define('_ACA_SUCCESS_ADD_LIST', 'Du har blitt lagt til listen.');
+define('_ACA_SUSCRIB_LIST_UNIQUE', 'Abonnenter av: ');
+define('_ACA_NO_SUSCRIBERS', 'Ingen abonnenter ble funnet i denne listen.');
+define('_ACA_COMFIRM_SUBSCRIPTION', 'En epostbekreftels er nå sent til deg.  Vennligst sjekk deres epost og klikk på lenken i eposten fra oss.<br />' .
+		'Du må bekrefte deres epostadresse før abonnementet ditt aktiveres.');
+define('_ACA_SUCCESS_ADD_LIST', 'Du har nå blitt lagt til i listen.');
 
 
  // Subcription info
 define('_ACA_CONFIRM_LINK', 'Klikk her for å bekrefte ditt abonnement');
-define('_ACA_UNSUBSCRIBE_LINK', 'Klikk her for å avslutte abonnementet');
-define('_ACA_UNSUBSCRIBE_MESS', 'Din e-post har blitt fjernet fra listen');
+define('_ACA_UNSUBSCRIBE_LINK', 'Klikk her for å avslutte abonnementet ditt');
+define('_ACA_UNSUBSCRIBE_MESS', 'deres epostadresse har blitt fjernet fra listen');
 
-define('_ACA_QUEUE_SENT_SUCCESS', 'Alle planlagte brev har blitt sent.');
+define('_ACA_QUEUE_SENT_SUCCESS', 'Alle planlagte utsendelser har blitt sent.');
 define('_ACA_MALING_VIEW', 'Vis alle utsendelser');
-define('_ACA_UNSUBSCRIBE_MESSAGE', 'Er du sikker på at du ønsker å avslutte abonnementet?');
-define('_ACA_MOD_SUBSCRIBE', 'Abonner');
-define('_ACA_SUBSCRIBE', 'Abonner');
+define('_ACA_UNSUBSCRIBE_MESSAGE', 'Er du sikker på at du ønsker å avslutte abonnementet ditt?');
+define('_ACA_MOD_SUBSCRIBE', 'Abonnér');
+define('_ACA_SUBSCRIBE', 'Abonnér');
 define('_ACA_UNSUBSCRIBE', 'Avslutt abonnement');
 define('_ACA_VIEW_ARCHIVE', 'Vis arkiv');
-define('_ACA_SUBSCRIPTION_OR', ' eller klikk her for å oppdatere dine opplysninger');
-define('_ACA_EMAIL_ALREADY_REGISTERED', 'Denne e-post adressen har allerede blitt registrert. ');
+define('_ACA_SUBSCRIPTION_OR', ' eller klikk her for å oppdatere deres opplysninger');
+define('_ACA_EMAIL_ALREADY_REGISTERED', 'Denne epostadressen er allerede registrert.');
 define('_ACA_SUBSCRIBER_DELETED', 'Abonnenten er slettet.');
 
 
 ### UserPanel ###
  //User Menu
-define('_UCP_USER_PANEL', 'Bruker kontrollpanel');
+define('_UCP_USER_PANEL', 'Brukerkontrollpanel');
 define('_UCP_USER_MENU', 'Brukermeny');
-define('_UCP_USER_CONTACT', 'Mine abonnement');
+define('_UCP_USER_CONTACT', 'Mine abonnementer');
  //Acajoom Cron Menu
 define('_UCP_CRON_MENU', 'Cron-jobber');
 define('_UCP_CRON_NEW_MENU', 'Ny Cron-jobb');
 define('_UCP_CRON_LIST_MENU', 'List mine Cron-jobber');
  //Acajoom Coupon Menu
 define('_UCP_COUPON_MENU', 'Kuponger');
-define('_UCP_COUPON_LIST_MENU', 'List of Coupons');
-define('_UCP_COUPON_ADD_MENU', 'Add a Coupon');
+define('_UCP_COUPON_LIST_MENU', 'Kupongliste');
+define('_UCP_COUPON_ADD_MENU', 'Legg til kupong');
 
 ### lists ###
 // Tabs
 define('_ACA_LIST_T_GENERAL', 'Beskrivelse');
-define('_ACA_LIST_T_LAYOUT', 'Oppsett');
+define('_ACA_LIST_T_LAYOUT', 'Utforming');
 define('_ACA_LIST_T_SUBSCRIPTION', 'Abonnement');
-define('_ACA_LIST_T_SENDER', 'Sender informasjon');
+define('_ACA_LIST_T_SENDER', 'Utgiverinformasjon');
 
-define('_ACA_LIST_TYPE', 'Type liste');
+define('_ACA_LIST_TYPE', 'Listetype');
 define('_ACA_LIST_NAME', 'Listenavn');
 define('_ACA_LIST_ISSUE', 'Utgavenr.');
 define('_ACA_LIST_DATE', 'Sendingsdato');
 define('_ACA_LIST_SUB', 'Nyhetsbrev-mal');
-define('_ACA_ATTACHED_FILES', 'Tilknyttede filer');
-define('_ACA_SELECT_LIST', 'Vennligst velg en liste for å forandre den!');
+define('_ACA_ATTACHED_FILES', 'Vedlagte filer');
+define('_ACA_SELECT_LIST', 'Velg en liste for å redigere denne.');
 
 // Auto Responder box
-define('_ACA_AUTORESP_ON', 'Type of list');
-define('_ACA_AUTO_RESP_OPTION', 'Auto-responder options');
-define('_ACA_AUTO_RESP_FREQ', 'Subscribers can choose frequency');
-define('_ACA_AUTO_DELAY', 'Delay (in days)');
-define('_ACA_AUTO_DAY_MIN', 'Minimum frequency');
-define('_ACA_AUTO_DAY_MAX', 'Maximum frequency');
-define('_ACA_FOLLOW_UP', 'Specify follow up auto-responder');
-define('_ACA_AUTO_RESP_TIME', 'Subscribers can choose time');
-define('_ACA_LIST_SENDER', 'List sender');
+define('_ACA_AUTORESP_ON', 'Listetype');
+define('_ACA_AUTO_RESP_OPTION', 'Valg for \'auto respons\'');
+define('_ACA_AUTO_RESP_FREQ', 'Abonnenter kan velge hyppighet på utsendelser');
+define('_ACA_AUTO_DELAY', 'Forsinkelse (i dager)');
+define('_ACA_AUTO_DAY_MIN', 'Minimum hyppighet');
+define('_ACA_AUTO_DAY_MAX', 'Maksimum hyppighet');
+define('_ACA_FOLLOW_UP', 'Spesifiser oppfølging av \'auto respons\'');
+define('_ACA_AUTO_RESP_TIME', 'Abonnenter kan velge tid');
+define('_ACA_LIST_SENDER', 'Utgiver for liste');
 
-define('_ACA_LIST_DESC', 'List description');
-define('_ACA_LAYOUT', 'Layout');
-define('_ACA_SENDER_NAME', 'Sender name');
-define('_ACA_SENDER_EMAIL', 'Sender email');
-define('_ACA_SENDER_BOUNCE', 'Sender bounce address');
-define('_ACA_LIST_DELAY', 'Delay');
-define('_ACA_HTML_MAILING', 'HTML mailing?');
-define('_ACA_HTML_MAILING_DESC', '(if you change this, you\'ll have to save and return to this screen to see the changes.)');
-define('_ACA_HIDE_FROM_FRONTEND', 'Hide from frontend?');
-define('_ACA_SELECT_IMPORT_FILE', 'Select a file to import');;
-define('_ACA_IMPORT_FINISHED', 'Import finished');
-define('_ACA_DELETION_OFFILE', 'Deletion of file');
-define('_ACA_MANUALLY_DELETE', 'failed, you should manually delete the file');
-define('_ACA_CANNOT_WRITE_DIR', 'Cannot write directory');
-define('_ACA_NOT_PUBLISHED', 'Could not sent the mailing, the list is not published.');
+define('_ACA_LIST_DESC', 'Listebeskrivelse');
+define('_ACA_LAYOUT', 'Utforming');
+define('_ACA_SENDER_NAME', 'Avsendernavn');
+define('_ACA_SENDER_EMAIL', 'Avsenderadresse');
+define('_ACA_SENDER_BOUNCE', 'Svaraddress');
+define('_ACA_LIST_DELAY', 'Forsinkelse');
+define('_ACA_HTML_MAILING', 'HTML-utsending?');
+define('_ACA_HTML_MAILING_DESC', '(om du endrer dette må du lagre og så åpne dette skjermbilde på nytt for å se endringer.)');
+define('_ACA_HIDE_FROM_FRONTEND', 'Skjul på brukersiden?');
+define('_ACA_SELECT_IMPORT_FILE', 'Velg fil som skal importeres');;
+define('_ACA_IMPORT_FINISHED', 'Import fullført');
+define('_ACA_DELETION_OFFILE', 'Sletting av fil');
+define('_ACA_MANUALLY_DELETE', 'feilet, du må slette filen manuelt');
+define('_ACA_CANNOT_WRITE_DIR', 'Kan ikke opprette mappe');
+define('_ACA_NOT_PUBLISHED', 'Kunne ikke sende denne utsendelsen, listen er ikke publisert.');
 
 //  List info box
-define('_ACA_INFO_LIST_PUB', 'Click Yes to publish the list');
-define('_ACA_INFO_LIST_NAME', 'Enter the name of your list here. You can identify the list with this name.');
-define('_ACA_INFO_LIST_DESC', 'Enter a brief description of your list here. This description will be visible to visitors at your site.');
-define('_ACA_INFO_LIST_SENDER_NAME', 'Enter the name of the sender of the mailing. This name will be visible when subscribers receive messages from this list.');
-define('_ACA_INFO_LIST_SENDER_EMAIL', 'Enter the email address from which the messages will be sent.');
-define('_ACA_INFO_LIST_SENDER_BOUNCED', 'Enter the email address where users can reply to. It\'s highly recommended to be the same as the sender email, since spam filters will give your message a higher spam ranking if they are different.');
-define('_ACA_INFO_LIST_AUTORESP', 'Choose the type of mailings for this list. <br />' .
-		'Newsletter: normal newsletter<br />' .
-		'Auto-responder: an auto-responder is a list which is sent automatically through the website at regular intervals.');
-define('_ACA_INFO_LIST_FREQUENCY', 'Enable the users to choose how often they receive the list.  It gives more flexibility to the user.');
-define('_ACA_INFO_LIST_TIME', 'Let the user choose their preferred time of the day to receive the list.');
-define('_ACA_INFO_LIST_MIN_DAY', 'Define what is the minimum frequency a user can choose to receive the list');
-define('_ACA_INFO_LIST_DELAY', 'Specify the delay between this auto-responder and the previous one.');
-define('_ACA_INFO_LIST_DATE', 'Specify the date to publish the news list if you want to delay the publishing. <br /> FORMAT : YYYY-MM-DD HH:MM:SS');
-define('_ACA_INFO_LIST_MAX_DAY', 'Define what is the maximum frequency a user can choose to receive the list');
-define('_ACA_INFO_LIST_LAYOUT', 'Enter the layout of your mailing list here. You can enter any layout for your mailing here.');
-define('_ACA_INFO_LIST_SUB_MESS', 'This message will be send to the subscriber when he or she first registers. You can define any text you like in here.');
-define('_ACA_INFO_LIST_UNSUB_MESS', 'Denne meldingen vil bli sendt til abonnenten når han eller hun avbestiller sit abonoment. Du kan definere hvilken som helst melding her..');
-define('_ACA_INFO_LIST_HTML', 'Merker av hvis du ønsker å sende epost i HTML format. Abonnenter vil kunne spesifisere om de ønsker å motta epost i  HTML format, eller bare tekst når man abonnere på en HTML epost-liste.');
+define('_ACA_INFO_LIST_PUB', 'Klikk \'Ja\'for å publisere listen');
+define('_ACA_INFO_LIST_NAME', 'Fyll inn navn for listen her. Du kan indentifisere listen med dette navnet.');
+define('_ACA_INFO_LIST_DESC', 'Fyll inn en kort beskrivelse av listen her. Beskrivelsen vil være tilgjengelig for sidens besøkende.');
+define('_ACA_INFO_LIST_SENDER_NAME', 'Fyll inn navn på avsender av denne utsendelsen. Dette navnet vil være synlig når abonnenter meldinger fra denne listen.');
+define('_ACA_INFO_LIST_SENDER_EMAIL', 'Fyll inn epostadressen som meldingene vil bli sent fra.');
+define('_ACA_INFO_LIST_SENDER_BOUNCED', 'Fyll inn epostadressen som brukerne kan svare til. Det anbefales at denne er samme som avsenderadressen, hvis ikke vil søppelpostfiltre kunne gi utsendelsen en søppelrangering.');
+define('_ACA_INFO_LIST_AUTORESP', 'Velg utsendelsestype for denne listen.<br />' .
+		'Nyhetsbrev: normale nyhetsbrev<br />' .
+		'\'Auto respons\': er lister som sendes automatisk fra nettsiden etter bestemte intervaller.');
+define('_ACA_INFO_LIST_FREQUENCY', 'Tillat brukerne å velge hvor ofte de mottar utsendelser fra listen. Dette gir brukerne mer fleksibilitet.');
+define('_ACA_INFO_LIST_TIME', 'Tillat brukerne å velge dere foretrukne tid på døgnet for mottak av utsendelser.');
+define('_ACA_INFO_LIST_MIN_DAY', 'Definer hva som er minimum hyppighet for utsendelser som bruker kan velge å motta.');
+define('_ACA_INFO_LIST_DELAY', 'Spesifiser forsinkelse mellom dette \'auto respons\'et og det forrige.');
+define('_ACA_INFO_LIST_DATE', 'Spesifiser dato for publisering av listen om du vil forsinke dette. <br /> FORMAT : ÅÅÅÅ-MM-DD HH:MM:SS');
+define('_ACA_INFO_LIST_MAX_DAY', 'Definer hva som er maksimum hyppighet for utsendelser som bruker kan velge å motta.');
+define('_ACA_INFO_LIST_LAYOUT', 'Fyll inn utforming for listen her. Du kan fylle inn hvilken som helst utforming.');
+define('_ACA_INFO_LIST_SUB_MESS', 'Denne meldingen vil bli sent ut til nye abonnementer. Du kan selv angi teksten du ønsker her.');
+define('_ACA_INFO_LIST_UNSUB_MESS', 'Denne meldingen vil bli sendt til abonnenten når han eller hun avbestiller sit abonnement. Du kan selv angi teksten du ønsker her.');
+define('_ACA_INFO_LIST_HTML', 'Merker av hvis du ønsker å sende epost i HTML format. Abonnenter vil kunne spesifisere om de ønsker å motta epost i  HTML-format, eller bare tekst når man abonnere på en HTML-liste.');
 define('_ACA_INFO_LIST_HIDDEN', 'Klikk Ja for å skjule listen fra forsiden, brukere kan ikke abonnere men du har fortsatt muligheten for å sende epost.');
 define('_ACA_INFO_LIST_ACA_AUTO_SUB', 'Ønsker du å automatisk legge brukere til i abonnementslisten? <br /> <B> Nye Brukere: </ B> vil registerer alle nye brukere som registrerer seg på nettstedet. <br /> <B> Alle brukere: </ B> vil registrere alle registrerte brukere i databasen. <br /> (alle muligheten støttes av Community Builder)');
 define('_ACA_INFO_LIST_ACC_LEVEL', 'Velg tilgangsnivået for forsiden. Dette vil vise eller skjule epost til brukergruppene som ikke har tilgang til det, så de ikke har muligheten til å abonnere på en epostliste.');
-define('_ACA_INFO_LIST_ACC_USER_ID', 'Velg tilgangsnivået til brukergruppe du ønsker å tillate redigering. Denne brukergruppen og de over vil være i stand til å redigere e-post og sende den ut, enten fra forsiden eller baksiden.');
+define('_ACA_INFO_LIST_ACC_USER_ID', 'Velg tilgangsnivået til brukergruppe du ønsker å tillate redigering. Denne brukergruppen og de over vil være i stand til å redigere epost og sende den ut, enten fra forsiden eller baksiden.');
 define('_ACA_INFO_LIST_FOLLOW_UP', 'Hvis du vil at auto-svar skal forflytte seg til en annen etter siste melding, så kan du spesifisere neste her.');
 define('_ACA_INFO_LIST_ACA_OWNER', 'Dette er ID for den som opprettet denne listen.');
 define('_ACA_INFO_LIST_WARNING', '   Dette valget er kun tilgjengelig når listen er laget.');
@@ -283,21 +283,21 @@ define('_ACA_FREQ_ALL', 'Alle brukere');
 
 //Label CRON form
 define('_ACA_LABEL_FREQ', 'Acajoom Cron-jobber?');
-define('_ACA_LABEL_FREQ_TIPS', 'Klikk Ja hvis du vil bruke dette for en Acajoom Cron-jobber, ikke for noen annen cron-jobb.<br />' .
-        'Hvis du klikker Ja, du trenger ikke å spesifisere en Cron-jobb adresse, den bli lagt til automatisk.');
-define('_ACA_SITE_URL', 'Din webadressen');
-define('_ACA_CRON_FREQUENCY', 'Cron-jobb frekvens');
+define('_ACA_LABEL_FREQ_TIPS', 'Klikk \'Ja\' hvis du vil bruke dette for en Acajoom Cron-jobber, ikke for noen annen Cron-jobb.<br />' .
+        'Hvis du klikker \'Ja\' behøver du ikke å spesifisere en Cron-jobbadresse, den bli lagt til automatisk.');
+define('_ACA_SITE_URL', 'deres nettadressen');
+define('_ACA_CRON_FREQUENCY', 'Hyppighet for Cron-jobb');
 define('_ACA_STARTDATE_FREQ', 'Start dato');
 define('_ACA_LABELDATE_FREQ', 'Angi dato');
 define('_ACA_LABELTIME_FREQ', 'Angi tid');
 define('_ACA_CRON_URL', 'Cron-jobb URL');
-define('_ACA_CRON_FREQ', 'Frekvens');
-define('_ACA_TITLE_CRONLIST', 'Cron-jobb liste');
+define('_ACA_CRON_FREQ', 'Hyppighet');
+define('_ACA_TITLE_CRONLIST', 'Cron-jobbliste');
 define('_NEW_LIST', 'Lag en ny liste');
 
 //title CRON form
-define('_ACA_TITLE_FREQ', 'Editer Cron-jobb');
-define('_ACA_CRON_SITE_URL', 'Angi en gyldig nettadresse starter med http://');
+define('_ACA_TITLE_FREQ', 'Rediger Cron-jobb');
+define('_ACA_CRON_SITE_URL', 'Angi en gyldig nettadresse som starter med http://');
 
 ### Mailings ###
 define('_ACA_MAILING_ALL', 'Alle utsendelser');
@@ -308,12 +308,12 @@ define('_ACA_VISIBLE_FRONT', 'Vis på forsiden');
 // mailer
 define('_ACA_SUBJECT', 'Emne');
 define('_ACA_CONTENT', 'Innhold');
-define('_ACA_NAMEREP', '[NAME] = Denne vil bli erstattet med navnet som abonnenten la inn, du vill sende en mer personlig epost med dette.<br />');
+define('_ACA_NAMEREP', '[NAME] = Denne vil bli erstattet med navnet som abonnenten la inn, du vil kunne sende mer personlige epost med dette.<br />');
 define('_ACA_FIRST_NAME_REP', '[FIRSTNAME] = Denne vil bli erstattet med fornavn som abonnenten la inn.<br />');
 define('_ACA_NONHTML', 'Ren tekst versjon');
 define('_ACA_ATTACHMENTS', 'Vedlegg');
 define('_ACA_SELECT_MULTIPLE', 'Hold Ctrl (eller Com) nede for å velde flere vedlegg.<br />' .
-        'Filene som vises i listen over vedlegg finnes i mappen for vedlegg, du kan forandre denne plassen for mappen i konfigurasjonen->epost for AcaJoom.');
+        'Filene som vises i listen over vedlegg finnes i mappen for vedlegg, du kan forandre denne plassen for mappen i \'Konfigurasjonen -> Epost\' for AcaJoom.');
 define('_ACA_CONTENT_ITEM', 'Innholdselementer');
 define('_ACA_SENDING_EMAIL', 'Sender epost');
 define('_ACA_MESSAGE_NOT', 'Meldingen kunne ikke sendes');
@@ -321,7 +321,7 @@ define('_ACA_MAILER_ERROR', 'Feil ved utsending');
 define('_ACA_MESSAGE_SENT_SUCCESSFULLY', 'Meldingen er sendt');
 define('_ACA_SENDING_TOOK', 'Denne utsendelsen tok');
 define('_ACA_SECONDS', 'sekunder');
-define('_ACA_NO_ADDRESS_ENTERED', 'Ingen epost adresse eller abonnent');
+define('_ACA_NO_ADDRESS_ENTERED', 'Ingen epostadresse eller abonnent');
 define('_ACA_CHANGE_SUBSCRIPTIONS', 'Endre');
 define('_ACA_CHANGE_EMAIL_SUBSCRIPTION', 'Endre ditt abonnement');
 define('_ACA_WHICH_EMAIL_TEST', 'Skriv inn epost adresse og navn for test av melding eller velg forhåndsvisning');
@@ -355,25 +355,25 @@ define('_ACA_STATS_SETTINGS', 'Statistikk innstillinger');
 define('_ACA_LOGS_SETTINGS', 'Logge innstillinger');
 define('_ACA_MISC_SETTINGS', 'Diverse innstillinger');
 // mail settings
-define('_ACA_SEND_MAIL_FROM', 'Fra epost');
-define('_ACA_SEND_MAIL_NAME', 'Fra navn');
+define('_ACA_SEND_MAIL_FROM', 'Returadresse>br />(brukes som returadresse for alle deres meldinger)');
+define('_ACA_SEND_MAIL_NAME', 'Avsendernavn');
 define('_ACA_MAILSENDMETHOD', 'Sendingsmetode');
-define('_ACA_SENDMAILPATH', 'Sti for send epost');
+define('_ACA_SENDMAILPATH', 'Sti til sendmail');
 define('_ACA_SMTPHOST', 'SMTP host');
 define('_ACA_SMTPAUTHREQUIRED', 'SMTP godkjenning kreves');
-define('_ACA_SMTPAUTHREQUIRED_TIPS', 'Velg ja hvis din SMTP server krever godkjenning');
+define('_ACA_SMTPAUTHREQUIRED_TIPS', 'Velg ja hvis deres SMTP server krever godkjenning');
 define('_ACA_SMTPUSERNAME', 'SMTP brukernavn');
-define('_ACA_SMTPUSERNAME_TIPS', 'Skriv inn SMTP brukernavn når din SMTP server krever godkjenning');
+define('_ACA_SMTPUSERNAME_TIPS', 'Skriv inn SMTP brukernavn når deres SMTP server krever godkjenning');
 define('_ACA_SMTPPASSWORD', 'SMTP passord');
-define('_ACA_SMTPPASSWORD_TIPS', 'Skriv inn SMTP passord når din SMTP server krever godkjenning');
+define('_ACA_SMTPPASSWORD_TIPS', 'Skriv inn SMTP passord når deres SMTP server krever godkjenning');
 define('_ACA_USE_EMBEDDED', 'Bruk innebygde bilder');
-define('_ACA_USE_EMBEDDED_TIPS', 'Velg Ja hvis bildene i det vedlagte innholdet bør være innebygd i e-post for html-meldinger, eller nei får å bruke standard bilde lenke som linker til bildene på nettstedet.');
+define('_ACA_USE_EMBEDDED_TIPS', 'Velg Ja hvis bildene i det vedlagte innholdet bør være innebygd i epost for html-meldinger, eller nei får å bruke standard bilde lenke som linker til bildene på nettstedet.');
 define('_ACA_UPLOAD_PATH', 'Opplasting/vedlegges sti');
 define('_ACA_UPLOAD_PATH_TIPS', 'Du kan angi en mappe for opplasting.<br />' .
         'Forsikre deg om at mappen finnes, hvis ikke må du opprette den.');
 
 // subscribers settings
-define('_ACA_ALLOW_UNREG', 'Tillat avbestilling');
+define('_ACA_ALLOW_UNREG', 'Tillat uregistrerte');
 define('_ACA_ALLOW_UNREG_TIPS', 'Velg ja for at brukere kan abonnere uten at de er registrerte.');
 define('_ACA_REQ_CONFIRM', 'Krever bekreftelse');
 define('_ACA_REQ_CONFIRM_TIPS', 'Velg ja for at uregistrerte abonnenter skal bekrefte sin epost adresse.');
@@ -381,7 +381,7 @@ define('_ACA_SUB_SETTINGS', 'Abonnement innstillinger');
 define('_ACA_SUBMESSAGE', 'Abonnentens epost adresse');
 define('_ACA_SUBSCRIBE_LIST', 'Abonner på en liste');
 
-define('_ACA_USABLE_TAGS', 'Tag som kan brukes');
+define('_ACA_USABLE_TAGS', 'Merker som kan brukes');
 define('_ACA_NAME_AND_CONFIRM', '<b>[CONFIRM]</b> = Dette lager en link som abonnomenten kan bekrefte sitt abonnement. Dette er <strong>påkrevet</strong> for at Acajoom fungere.<br />'
 .'<br />[NAME] = Denne vil bli erstattet med navnet som abonnenten la inn, du vill sende en mer personlig epost med dette.<br />'
 .'<br />[FIRSTNAME] = Denne vil bli erstattet med fornavn på abonnenten, Fornavn er definert som første ordet i navnet som abonnenten la inn.<br />');
@@ -397,11 +397,12 @@ define('_ACA_TIME_ZONE_ASK', 'Spør om tidssone');
 define('_ACA_TIME_ZONE_TIPS', 'Velg ja hvis du vill spørre brukeren om sin tidssone. Utsendelser sendes basert på tidssonen når dette er aktuelt');
 
  // Cron Set up
+ define('_ACA_AUTO_CONFIG', 'Cron');
 define('_ACA_TIME_OFFSET_URL', 'klikk her for å sette opp tidssonen i Joomla! konfigurasjon -> Tjener ');
-define('_ACA_TIME_OFFSET_TIPS', 'Sett opp din servers tidssone slik at dato og til et rett');
-define('_ACA_TIME_OFFSET', 'Tidssone ');
+define('_ACA_TIME_OFFSET_TIPS', 'Sett opp deres servers tidsavvik slik at dato og til et rett');
+define('_ACA_TIME_OFFSET', 'Tidsavvik');
 define('_ACA_CRON_TITLE', 'Setting up cron function');
-define('_ACA_CRON_DESC', '<br />Ved bruke av cron-jobb funksjonen kan du sette opp automatisert oppgave for din Joomla nettside!<br />' .
+define('_ACA_CRON_DESC', '<br />Ved bruke av cron-jobb funksjonen kan du sette opp automatisert oppgave for deres Joomla nettside!<br />' .
         'For å sette opp crontab må du legge til i kontrollpanelet følgende kommando:<br />' .
         '<b>' . ACA_JPATH_LIVE . '/index2.php?option=com_acajoom&act=cron</b> ' .
         '<br /><br />Hvis du trenger hjelp til å sette den opp eller har problemer vennligst kontakt vårt forum <a href="http://www.ijoobi.com" target="_blank">http://www.ijoobi.com</a>');
@@ -427,9 +428,9 @@ define('_ACA_DISPLAY_LOG_TIPS', 'Velg ja hvis du vil se loggen under sending.');
 define('_ACA_SEND_PERF_DATA', 'Send ut ytelse');
 define('_ACA_SEND_PERF_DATA_TIPS', 'Velg Ja hvis du vil tillate Acajoom å sende ut ANONYME rapporter om konfigurasjonen, antall abonnenter på en liste og tiden det tok å sende post. Dette vil gi oss en ide om Acajoom ytelse og vil HJELP OSS å forbedre Acajoom i den fremtidige utviklingen.');
 define('_ACA_SEND_AUTO_LOG', 'Sent logg for auto-svar');
-define('_ACA_SEND_AUTO_LOG_TIPS', 'Velg Ja hvis du ønsker å sende en e-post logg hver gang køen er behandlet. VARSEL: Dette kan resultere i et stort antall e-poster.');
+define('_ACA_SEND_AUTO_LOG_TIPS', 'Velg Ja hvis du ønsker å sende en epost logg hver gang køen er behandlet. VARSEL: Dette kan resultere i et stort antall eposter.');
 define('_ACA_SEND_LOG', 'Sendt logg');
-define('_ACA_SEND_LOG_TIPS', 'Hvorvidt en logg av forsendelsen bør bli sendt til e-postadressen til brukeren som sendte e-posten.');
+define('_ACA_SEND_LOG_TIPS', 'Hvorvidt en logg av forsendelsen bør bli sendt til epostadressen til brukeren som sendte eposten.');
 define('_ACA_SEND_LOGDETAIL', 'Sent logg detaljer');
 define('_ACA_SEND_LOGDETAIL_TIPS', 'Detaljert inkluderer suksess eller fiasko for hver abonnent og en oversikt over informasjonen. Eller bare en oversikt.');
 define('_ACA_SEND_LOGCLOSED', 'Send logg dersom forbindelse brytes');
@@ -747,220 +748,220 @@ define('_ACA_ACAJOOM_CRON_DESC', 'if you do not have access to a cron task manag
 define('_ACA_CRON_DOCUMENTATION', 'You can find further information on setting up the Acajoom Scheduler at the following url:');
 define('_ACA_CRON_DOC_URL', '<a href="http://www.ijoobi.com/index.php?option=com_content&view=article&id=4249&catid=29&Itemid=72"
  target="_blank">http://www.ijoobi.com/index.php?option=com_content&Itemid=72&view=category&layout=blog&id=29&limit=60</a>');
-define( '_ACA_QUEUE_PROCESSED', 'Queue processed succefully...');
-define( '_ACA_ERROR_MOVING_UPLOAD', 'Error moving imported file');
+define( '_ACA_QUEUE_PROCESSED', 'Kø ble vellykket behandlet ...');
+define( '_ACA_ERROR_MOVING_UPLOAD', 'Feil ved flytting av importert fil');
 
 //since 1.1.4
-define( '_ACA_SCHEDULE_FREQUENCY', 'Scheduler frequency');
-define( '_ACA_CRON_MAX_FREQ', 'Scheduler max frequency');
-define( '_ACA_CRON_MAX_FREQ_TIPS', 'Specify the maximum frequency the scheduler can run ( in minutes ).  This will limit the scheduler even if the cron task is set up more frequently.');
-define( '_ACA_CRON_MAX_EMAIL', 'Maximum emails per task');
-define( '_ACA_CRON_MAX_EMAIL_TIPS', 'Specify the maximum number of emails sent per task (0 unlimited).');
-define( '_ACA_CRON_MINUTES', ' minutes');
-define( '_ACA_SHOW_SIGNATURE', 'Show email footer');
-define( '_ACA_SHOW_SIGNATURE_TIPS', 'Whether or not you want to promote Acajoom in the footer of the emails.');
-define( '_ACA_QUEUE_AUTO_PROCESSED', 'Auto-responders processed successfully...');
-define( '_ACA_QUEUE_NEWS_PROCESSED', 'Scheduled newsletters processed successfully...');
-define( '_ACA_MENU_SYNC_USERS', 'Sync Users');
-define( '_ACA_SYNC_USERS_SUCCESS', 'Users Synchronization Successful!');
+define( '_ACA_SCHEDULE_FREQUENCY', 'Planlagt hyppighet');
+define( '_ACA_CRON_MAX_FREQ', 'Planlagt maksimal hyppighet');
+define( '_ACA_CRON_MAX_FREQ_TIPS', 'Spesifiser maksimal hyppighet for planlagte kjøringer (i minutter). Dette vil begrense planlagte oppgaver selv om cron-jobb er satt opp til å kjøre oftere.');
+define( '_ACA_CRON_MAX_EMAIL', 'Maksimum epost per oppgave');
+define( '_ACA_CRON_MAX_EMAIL_TIPS', 'Spesifiser maksimalt antall epost som kan sendes per oppgave (0 ubegrenset).');
+define( '_ACA_CRON_MINUTES', ' minutter');
+define( '_ACA_SHOW_SIGNATURE', 'Vis bunntekst i epost');
+define( '_ACA_SHOW_SIGNATURE_TIPS', 'Om du vil reklamere for Acajoom eller ikke i bunnteksten på deres epost.');
+define( '_ACA_QUEUE_AUTO_PROCESSED', '\'Auto respons\' ble sendt ...');
+define( '_ACA_QUEUE_NEWS_PROCESSED', 'Planlagt nyhetsbrev ble sendt ...');
+define( '_ACA_MENU_SYNC_USERS', 'Synkroniser brukere');
+define( '_ACA_SYNC_USERS_SUCCESS', 'Synkronisering av brukere var vellykket');
 
 // compatibility with Joomla 15
-if (!defined('_BUTTON_LOGOUT')) define( '_BUTTON_LOGOUT', 'Logout');
-if (!defined('_CMN_YES')) define( '_CMN_YES', 'Yes');
-if (!defined('_CMN_NO')) define( '_CMN_NO', 'No');
-if (!defined('_HI')) define( '_HI', 'Hi');
-if (!defined('_CMN_TOP')) define( '_CMN_TOP', 'Top');
-if (!defined('_CMN_BOTTOM')) define( '_CMN_BOTTOM', 'Bottom');
-//if (!defined('_BUTTON_LOGOUT')) define( '_BUTTON_LOGOUT', 'Logout');
+if (!defined('_BUTTON_LOGOUT')) define( '_BUTTON_LOGOUT', 'Logg ut');
+if (!defined('_CMN_YES')) define( '_CMN_YES', 'Ja');
+if (!defined('_CMN_NO')) define( '_CMN_NO', 'Nei');
+if (!defined('_HI')) define( '_HI', 'Hei');
+if (!defined('_CMN_TOP')) define( '_CMN_TOP', 'Topp');
+if (!defined('_CMN_BOTTOM')) define( '_CMN_BOTTOM', 'Bunn');
+//if (!defined('_BUTTON_LOGOUT')) define( '_BUTTON_LOGOUT', 'Logg ut');
 
 // For include title only or full article in content item tab in newsletter edit - p0stman911
-define('_ACA_TITLE_ONLY_TIPS', 'If you select this only the title of the article will be inserted into the mailing as a link to the complete article on your site.');
-define('_ACA_TITLE_ONLY', 'Title Only');
-define('_ACA_FULL_ARTICLE_TIPS', 'If you select this the complete article will be inserted into the mailing');
-define('_ACA_FULL_ARTICLE', 'Full Article');
-define('_ACA_CONTENT_ITEM_SELECT_T', 'Select a content item to append to the message. <br />Copy and paste the <b>content tag</b> into the mailing.  You can choose to have the full text, intro only, or title only with (0, 1, or 2 respectively). ');
-define('_ACA_SUBSCRIBE_LIST2', 'Mailing list(s)');
+define('_ACA_TITLE_ONLY_TIPS', 'OM du velger dette vil bare tittel på artikkel bli satt inn i utsendelsen, som en lenke til artikkelen på nettsiden deres.');
+define('_ACA_TITLE_ONLY', 'Bare tittel');
+define('_ACA_FULL_ARTICLE_TIPS', 'Om du velger dette vil hele artikkelen bli satt inn i utsendelsen.');
+define('_ACA_FULL_ARTICLE', 'Full artikkel');
+define('_ACA_CONTENT_ITEM_SELECT_T', 'Velg innhold som skal legge sinn i meldingen.<br />Kopier og lim <b>innholdmerket</b> inn i utsendelsen. Du kan velge å bruke fulltekst, bare ingress eller bare tittel (0, 1, eller 2). ');
+define('_ACA_SUBSCRIBE_LIST2', 'Utsendelseliste(r)');
 
 // smart-newsletter function
-define('_ACA_AUTONEWS', 'Smart-Newsletter');
-define('_ACA_MENU_AUTONEWS', 'Smart-Newsletters');
-define('_ACA_AUTO_NEWS_OPTION', 'Smart-Newsletter options');
-define('_ACA_AUTONEWS_FREQ', 'Newsletter Frequency');
-define('_ACA_AUTONEWS_FREQ_TIPS', 'Specify the frequency at which you want to send the smart-newsletter.');
-define('_ACA_AUTONEWS_SECTION', 'Article Section');
-define('_ACA_AUTONEWS_SECTION_TIPS', 'Specify the section you want to choose the articles from.');
-define('_ACA_AUTONEWS_CAT', 'Article Category');
-define('_ACA_AUTONEWS_CAT_TIPS', 'Specify the category you want to choose the articles from (All for all article in that section).');
-define('_ACA_SELECT_SECTION', 'All Sections');
-define('_ACA_SELECT_CAT', 'All Categories');
-define('_ACA_AUTO_DAY_CH8', 'Quaterly');
-define('_ACA_AUTONEWS_STARTDATE', 'Start date');
-define('_ACA_AUTONEWS_STARTDATE_TIPS', 'Specify the date you want to start sending the Smart Newsletter.');
-define('_ACA_AUTONEWS_TYPE', 'Content rendering');// how we see the content which is included in the newsletter
-define('_ACA_AUTONEWS_TYPE_TIPS', 'Full Article: will include the entire article in the newsletter.<br />' .
-		'Intro only: will include only the introduction of the article in the newsletter.<br/>' .
-		'Title only: will include only the title of the article in the newsletter.');
-define('_ACA_TAGS_AUTONEWS', '[SMARTNEWSLETTER] = This will be replaced by the Smart-newsletter.');
+define('_ACA_AUTONEWS', 'Smarte nyhetsbrev');
+define('_ACA_MENU_AUTONEWS', 'Smarte nyhetsbrev');
+define('_ACA_AUTO_NEWS_OPTION', 'Innstillinger for \'Smarte nyhetsbrev\'');
+define('_ACA_AUTONEWS_FREQ', 'Hyppighet for nyhetsbrev');
+define('_ACA_AUTONEWS_FREQ_TIPS', 'Spesifiser hyppighet for hvor ofte du ønsker å send eut \'Smarte nyhetsbrev\'.');
+define('_ACA_AUTONEWS_SECTION', 'Artikkelseksjon');
+define('_ACA_AUTONEWS_SECTION_TIPS', 'Spesifiser seksjon som artikler skal hentes fra.');
+define('_ACA_AUTONEWS_CAT', 'Artikkelkategori');
+define('_ACA_AUTONEWS_CAT_TIPS', 'Spesifiser kategori som artikler skal hentes fra.');
+define('_ACA_SELECT_SECTION', 'Alle seksjoner');
+define('_ACA_SELECT_CAT', 'Alle kategorier');
+define('_ACA_AUTO_DAY_CH8', 'Kvartalsvis');
+define('_ACA_AUTONEWS_STARTDATE', 'Startdato');
+define('_ACA_AUTONEWS_STARTDATE_TIPS', 'Spesifiser datoen for når du vil begynne utsendelser av \'Smarte nyhetsbrev\'.');
+define('_ACA_AUTONEWS_TYPE', 'Innholdsvisning');// how we see the content which is included in the newsletter
+define('_ACA_AUTONEWS_TYPE_TIPS', 'Full artikkel: vil inkludere hele artikkelen i nyhetsbrevet.<br />' .
+		'Bare ingress: vil bare inkludere ingress av artikkelen i nyhetsbrevet.<br/>' .
+		'Bare tittel: vil bare inkludere tittel på artikkel i nyhetsbrevet.');
+define('_ACA_TAGS_AUTONEWS', '[SMARTNEWSLETTER] = Dette vil bli erstattet med \'Smarte nyhetsbrev\'.');
 
 //since 1.1.3
-define('_ACA_MALING_EDIT_VIEW', 'Create / View Mailings');
-define('_ACA_LICENSE_CONFIG', 'License');
-define('_ACA_ENTER_LICENSE', 'Enter license');
-define('_ACA_ENTER_LICENSE_TIPS', 'Enter your license number and save it.');
-define('_ACA_LICENSE_SETTING', 'License settings');
-define('_ACA_GOOD_LIC', 'Your license is valid.');
-define('_ACA_NOTSO_GOOD_LIC', 'Your license is not valid: ');
-define('_ACA_PLEASE_LIC', 'Please contact Acajoom support to upgrade your license ( license@ijoobi.com ).');
-define('_ACA_DESC_PLUS', 'Acajoom Plus is the first sequencial auto-responders for Joomla CMS.  ' . _ACA_FEATURES);
-define('_ACA_DESC_PRO', 'Acajoom PRO the ultimate mailing system for Joomla CMS.  ' . _ACA_FEATURES);
+define('_ACA_MALING_EDIT_VIEW', 'Opprett / Vis utsendelser');
+define('_ACA_LICENSE_CONFIG', 'Lisens');
+define('_ACA_ENTER_LICENSE', 'Fyll inn lisens');
+define('_ACA_ENTER_LICENSE_TIPS', 'Fyll inn ditt lisensnummer og lagre det.');
+define('_ACA_LICENSE_SETTING', 'Lisens-innstillinger');
+define('_ACA_GOOD_LIC', 'deres lisens er gyldig.');
+define('_ACA_NOTSO_GOOD_LIC', 'deres lisens er ikke gyldig: ');
+define('_ACA_PLEASE_LIC', 'Vennligst kontakt Acajooms brukerstøtte for å oppgradere deres lisens ( license@ijoobi.com ).');
+define('_ACA_DESC_PLUS', 'Acajoom Plus er den første sekvensielle \'auto respons\'-komponenten for Joomla! CMS.  ' . _ACA_FEATURES);
+define('_ACA_DESC_PRO', 'Acajoom PRO er det ultimate utsendelsesystemet for Joomla! CMS.  ' . _ACA_FEATURES);
 
 //since 1.1.4
-define('_ACA_ENTER_TOKEN', 'Enter token');
+define('_ACA_ENTER_TOKEN', 'Fyll inn token');
 
-define('_ACA_ENTER_TOKEN_TIPS', 'Please enter your token number you received by email when you purchased Acajoom. ');
+define('_ACA_ENTER_TOKEN_TIPS', 'Vennligst fyll inn ditt token-nummer som du mottok på epost når du kjøpte Acajoom. ');
 
-define('_ACA_ACAJOOM_SITE', 'Acajoom site:');
-define('_ACA_MY_SITE', 'My site:');
+define('_ACA_ACAJOOM_SITE', 'Acajoom-side:');
+define('_ACA_MY_SITE', 'Min side:');
 
 define( '_ACA_LICENSE_FORM', ' ' .
- 		'Click here to go to the license form.</a>');
-define('_ACA_PLEASE_CLEAR_LICENSE', 'Please clear the license field so it is empty and try again.<br />  If the problem persists, ');
+ 		'Klikk her for å gå til lisensskjemaet.</a>');
+define('_ACA_PLEASE_CLEAR_LICENSE', 'Vennligst tøm lisensfeltene og forsøk på nytt.<br />Om problemet vedvarer, ');
 
-define( '_ACA_LICENSE_SUPPORT', 'If you still have questions, ' . _ACA_PLEASE_LIC);
+define( '_ACA_LICENSE_SUPPORT', 'Om du fortsatt har spørsmål, ' . _ACA_PLEASE_LIC);
 
-define( '_ACA_LICENSE_TWO', 'you can get your license manual by entering the token number and site URL (which is highlighted in green at the top of this page) in the License form. '
+define( '_ACA_LICENSE_TWO', 'kan du hente ditt lisensnummer manuelt ved å fylle inn token-nummer og sideadresse (som er uthevet i grønn på toppen av denne siden) i lisensskjemaet. '
 			. _ACA_LICENSE_FORM . '<br /><br/>' . _ACA_LICENSE_SUPPORT);
 
-define('_ACA_ENTER_TOKEN_PATIENCE', 'After saving your token a license will be generated automatically. ' .
-		' Usually the token is validated in 2 minutes.  However, in some cases it can take up to 15 minutes.<br />' .
-		'<br />Check back this control panel in few minutes.  <br /><br />' .
-		'If you didn\'t receive a valid license key in 15 minutes, '. _ACA_LICENSE_TWO);
+define('_ACA_ENTER_TOKEN_PATIENCE', 'En lisens vil bli generert automatisk etter at du har lagret ditt token-nummer.' .
+		' Normalt blir token-nummeret validert innen 2 minutter. Men i enkelte tilfeller kan det likevel ta opp til 15 minutter.<br />' .
+		'<br />Sjekk dette kontrollpanelet igjen om noen få minutter.<br /><br />' .
+		'Om du ikke mottok et gyldig lisensnummer i løpet av 15 minutter, '. _ACA_LICENSE_TWO);
 
 
-define( '_ACA_ENTER_NOT_YET', 'Your token has not yet been validated.');
-define( '_ACA_UPDATE_CLICK_HERE', 'Pleae visit <a href="http://www.ijoobi.com" target="_blank">www.ijoobi.com</a> to download the newest version.');
-define( '_ACA_NOTIF_UPDATE', 'To be notified of new updates enter your email address and click subscribe ');
+define( '_ACA_ENTER_NOT_YET', 'Ditt token-nummer har ikke blitt validert ennå.');
+define( '_ACA_UPDATE_CLICK_HERE', 'Vennligst besøk <a href="http://www.ijoobi.com" target="_blank">www.ijoobi.com</a> for å laste ned nyeste versjon.');
+define( '_ACA_NOTIF_UPDATE', 'Fyll inn deres epostadresse og klikk \'Meld på\' for å motta varsler om nye oppdateringer ');
 
-define('_ACA_THINK_PLUS', 'If you want more out of your mailing system think Plus!');
-define('_ACA_THINK_PLUS_1', 'Sequential auto-responders');
-define('_ACA_THINK_PLUS_2', 'Schedule the delivery of your newsletter for a predefined date');
-define('_ACA_THINK_PLUS_3', 'No more server limitation');
-define('_ACA_THINK_PLUS_4', 'and much more...');
+define('_ACA_THINK_PLUS', 'Om du ønsker mer ut av deres utsendelser, tenk Plus!');
+define('_ACA_THINK_PLUS_1', 'Sekvensielle \'auto respons\'');
+define('_ACA_THINK_PLUS_2', 'Planlegg levering av deres nyhetsbrev for en forhåndsdefinert dato');
+define('_ACA_THINK_PLUS_3', 'Ingen flere serverbegrensninger');
+define('_ACA_THINK_PLUS_4', 'og mye mer ...');
 
 //since 1.2.2
-define( '_ACA_LIST_ACCESS', 'List Access');
-define( '_ACA_INFO_LIST_ACCESS', 'Specify what group of users can view and subscribe to this list');
-define( 'ACA_NO_LIST_PERM', 'You don\'t have enough permission to subscribe to this list');
+define( '_ACA_LIST_ACCESS', 'Listetilgang');
+define( '_ACA_INFO_LIST_ACCESS', 'Spesifiser hvilken brukergrupper som kan se og abonnere på denne listen');
+define( 'ACA_NO_LIST_PERM', 'Du har ikke høye nok rettigheter for å abonnere på denne listen');
 
 //Archive Configuration
- define('_ACA_MENU_TAB_ARCHIVE', 'Archive');
- define('_ACA_MENU_ARCHIVE_ALL', 'Archive All');
+ define('_ACA_MENU_TAB_ARCHIVE', 'Arkiver');
+ define('_ACA_MENU_ARCHIVE_ALL', 'Arkiver alle');
 
 //Archive Lists
- define('_FREQ_OPT_0', 'None');
- define('_FREQ_OPT_1', 'Every Week');
- define('_FREQ_OPT_2', 'Every 2 Weeks');
- define('_FREQ_OPT_3', 'Every Month');
- define('_FREQ_OPT_4', 'Every Quarter');
- define('_FREQ_OPT_5', 'Every Year');
- define('_FREQ_OPT_6', 'Other');
+ define('_FREQ_OPT_0', 'Ingen');
+ define('_FREQ_OPT_1', 'Hver uke');
+ define('_FREQ_OPT_2', 'Hver andre uke');
+ define('_FREQ_OPT_3', 'Hver måned');
+ define('_FREQ_OPT_4', 'Hvert kvartal');
+ define('_FREQ_OPT_5', 'Hvert år');
+ define('_FREQ_OPT_6', 'Annet');
 
-define('_DATE_OPT_1', 'Created date');
-define('_DATE_OPT_2', 'Modified date');
+define('_DATE_OPT_1', 'Opprettet');
+define('_DATE_OPT_2', 'Endret');
 
-define('_ACA_ARCHIVE_TITLE', 'Setting up auto-archive frequency');
-define('_ACA_FREQ_TITLE', 'Archive frequency');
-define('_ACA_FREQ_TOOL', 'Define how often you want the Archive Manager to arhive your website content.');
-define('_ACA_NB_DAYS', 'Number of days');
-define('_ACA_NB_DAYS_TOOL', 'This is only for the Other option! Please specify the number of days between each Archive.');
-define('_ACA_DATE_TITLE', 'Date type');
-define('_ACA_DATE_TOOL', 'Define if the archived should be done on the created date or modified date.');
+define('_ACA_ARCHIVE_TITLE', 'Oppsett av automatisk arkivering');
+define('_ACA_FREQ_TITLE', 'Hyppighet for arkivering');
+define('_ACA_FREQ_TOOL', 'Definer hvor ofte du vil at arkivbehanleren skal arkivere deres nettsides innhold.');
+define('_ACA_NB_DAYS', 'Antall dager');
+define('_ACA_NB_DAYS_TOOL', 'Dette er det eneste \'Annet\'-valget. Spesifiser antall dager mellom hver arkivering.');
+define('_ACA_DATE_TITLE', 'Datotype');
+define('_ACA_DATE_TOOL', 'Definer om arkivering skal gjøres etter dato for opprettelse eller redigering.');
 
-define('_ACA_MAINTENANCE_TAB', 'Maintenance settings');
-define('_ACA_MAINTENANCE_FREQ', 'Maintenance frequency');
-define( '_ACA_MAINTENANCE_FREQ_TIPS', 'Specify the frequency at which you want the maintenance routine to run.');
-define( '_ACA_CRON_DAYS', 'hour(s)');
+define('_ACA_MAINTENANCE_TAB', 'Innstillinger vedlikehold');
+define('_ACA_MAINTENANCE_FREQ', 'Hyppighet for vedlikehold');
+define( '_ACA_MAINTENANCE_FREQ_TIPS', 'Spesifiser hyppighet for kjøring av vedlikeholdsrutine.');
+define( '_ACA_CRON_DAYS', 'time(r)');
 
-define( '_ACA_LIST_NOT_AVAIL', 'There is no list available.');
-define( '_ACA_LIST_ADD_TAB', 'Add/Edit');
+define( '_ACA_LIST_NOT_AVAIL', 'Det finnes ingen tilgjengelig liste.');
+define( '_ACA_LIST_ADD_TAB', 'Legg til/Rediger');
 
-define( '_ACA_LIST_ACCESS_EDIT', 'Mailing Add/Edit Access');
-define( '_ACA_INFO_LIST_ACCESS_EDIT', 'Specify what group of users can add or edit a new mailing for this list');
-define( '_ACA_MAILING_NEW_FRONT', 'Createa New Mailing');
+define( '_ACA_LIST_ACCESS_EDIT', 'Legg til/Rediger tilgang for utsendelse');
+define( '_ACA_INFO_LIST_ACCESS_EDIT', 'Spesifiser hvilken brukergrupper som kan legge til eller redigere en ny utsendelse for denne listen.');
+define( '_ACA_MAILING_NEW_FRONT', 'Opprett en ny utsendelse');
 
-define('_ACA_AUTO_ARCHIVE', 'Auto-Archive');
-define('_ACA_MENU_ARCHIVE', 'Auto-Archive');
+define('_ACA_AUTO_ARCHIVE', 'Automatisk arkivering');
+define('_ACA_MENU_ARCHIVE', 'Automatisk arkivering');
 
 //Extra tags:
-define('_ACA_TAGS_ISSUE_NB', '[ISSUENB] = This will be replaced by the issue number of  the newsletter.');
-define('_ACA_TAGS_DATE', '[DATE] = This will be replaced by the sent date.');
-define('_ACA_TAGS_CB', '[CBTAG:{field_name}] = This will be replaced by the value taken from the Community Builder field: eg. [CBTAG:firstname] ');
+define('_ACA_TAGS_ISSUE_NB', '[ISSUENB] = Dette vil bli erstattet med utgivelsenummer for nyhetsbrevet.');
+define('_ACA_TAGS_DATE', '[DATE] = Dette vil bli erstattet med dato for utsendelse.');
+define('_ACA_TAGS_CB', '[CBTAG:{field_name}] = Dette vil bli erstattet med verdien hentet fra \'Community Builder\'-feltet: f.eks. [CBTAG:firstname] ');
 define( '_ACA_MAINTENANCE', 'Joobi Care');
 
-define('_ACA_THINK_PRO', 'When you have professional needs, you use professional components!');
-define('_ACA_THINK_PRO_1', 'Smart-Newsletters');
-define('_ACA_THINK_PRO_2', 'Define access level for your list');
-define('_ACA_THINK_PRO_3', 'Define who can edit/add mailings');
-define('_ACA_THINK_PRO_4', 'More tags: add your CB fields');
-define('_ACA_THINK_PRO_5', 'Joomla contents Auto-archive');
-define('_ACA_THINK_PRO_6', 'Database optimization');
+define('_ACA_THINK_PRO', 'Når du har profesjonelle behov bruker du profesjonelle komponenter!');
+define('_ACA_THINK_PRO_1', 'Smarte nyhetsbrev');
+define('_ACA_THINK_PRO_2', 'Definer tilgang for deres liste');
+define('_ACA_THINK_PRO_3', 'Definer hvem som kan legge til/redigere utsendelser');
+define('_ACA_THINK_PRO_4', 'Flere merker: legg til dine CB-felter');
+define('_ACA_THINK_PRO_5', 'Joomla contents Auto-archive');//usikker på denne
+define('_ACA_THINK_PRO_6', 'Optimalisering av database');
 
-define('_ACA_LIC_NOT_YET', 'Your license is not yet valid.  Please check the license Tab in the configuration panel.');
-define('_ACA_PLEASE_LIC_GREEN', 'Make sure to provide the green information at the top of the tab to our support team.');
+define('_ACA_LIC_NOT_YET', 'Din lisens er ikke gyldig ennå. Sjekk lisensfanen i kontrollpanelet.');
+define('_ACA_PLEASE_LIC_GREEN', 'Pass på at du gir informasjonen, uthevet i grønt på toppen av siden, til vår brukerstøtte.');
 
-define('_ACA_FOLLOW_LINK', 'Get Your License');
-define( '_ACA_FOLLOW_LINK_TWO', 'You can get your license by entering the token number and site URL (which is highlighted in green at the top of this page) in the License form. ');
-define( '_ACA_ENTER_TOKEN_TIPS2', ' Then click on Apply button in the top right menu.');
-define( '_ACA_ENTER_LIC_NB', 'Enter your License');
-define( '_ACA_UPGRADE_LICENSE', 'Upgrade Your License');
-define( '_ACA_UPGRADE_LICENSE_TIPS', 'If you received a token to upgrade your license please enter it here, click Apply and proceed to number <b>2</b> to get your new license number.');
+define('_ACA_FOLLOW_LINK', 'Hent din lisens');
+define( '_ACA_FOLLOW_LINK_TWO', 'Du kan hente din lisens ved å fylle inn token-nummer og sideadresse (som er uthevet i grønt på toppen av denne siden) i lisensskjeamet. ');
+define( '_ACA_ENTER_TOKEN_TIPS2', ' Klikk så på \'Lagre\' i meny oppe til høyre.');
+define( '_ACA_ENTER_LIC_NB', 'Fyll inn din lisens');
+define( '_ACA_UPGRADE_LICENSE', 'Oppgrader din lisens');
+define( '_ACA_UPGRADE_LICENSE_TIPS', 'Om du mottok et token-nummer for å oppgradere din lisens kan du fylle inn denne her, klikke \'Lagre\' og fortsette til nummer <b>2</b> for å hente ditt nye lisensnummer.');
 
-define( '_ACA_MAIL_FORMAT', 'Encoding format');
-define( '_ACA_MAIL_FORMAT_TIPS', 'What format do you want to use for encoding your mailings, Text only or MIME');
-define( '_ACA_ACAJOOM_CRON_DESC_ALT', 'If you do not have access to a cron task manager on your website, you can use the Free jCron component to create a cron task from your website.');
+define( '_ACA_MAIL_FORMAT', 'Kodeformat');
+define( '_ACA_MAIL_FORMAT_TIPS', 'Hvilket format ønsker du å bruke for koding av dine utsendelser, ren tekst eller MIME');
+define( '_ACA_ACAJOOM_CRON_DESC_ALT', 'Om du ikke har tilgang til å behandle cron-jobber på nettside/-server kan du bruke den fritt tilgjengelige jCron-komponenten for å opprette cron-jobber fra din nettside.');
 
 //since 1.3.1
-define('_ACA_SHOW_AUTHOR', 'Show Author\'s Name');
-define('_ACA_SHOW_AUTHOR_TIPS', 'Select Yes if you want to add the name of the author when you add an article in the Mailing');
+define('_ACA_SHOW_AUTHOR', 'Vis skribentens navn');
+define('_ACA_SHOW_AUTHOR_TIPS', 'Velg \'Ja\' om du vil legge til skribentens navn når du legger til artikkel i utsendelse');
 
 //since 1.3.5
 define('_ACA_REGWARN_NAME', 'Navnet ditt.');
-define('_ACA_REGWARN_MAIL', 'Gyldig e-postadresse.');
+define('_ACA_REGWARN_MAIL', 'Gyldig epostadresse.');
 
 //since 1.5.6
-define('_ACA_ADDEMAILREDLINK_TIPS', 'If you select Yes, the e-mail of the user will be added as a parameter at the end of your redirect URL (the redirect link for your module or for an external Acajoom form).<br/>That can be usefull if you want to execute a special script in your redirect page.');
-define('_ACA_ADDEMAILREDLINK', 'Add e-mail to the redirect link');
+define('_ACA_ADDEMAILREDLINK_TIPS', 'Om du velger \'Ja\' vil brukerens epostadressen bli lagt til som et parameter på slutten av din adresse for viderekobling (viderskoblingslenken for din modul eller et eksternt AcaJoom-skjema).<br/>Det kan være til nytte om du vil kjøre et spesielt skript på denne siden.');
+define('_ACA_ADDEMAILREDLINK', 'Legg til epostadresse på lenke for viderekobling');
 
 //since 1.6.3
-define('_ACA_ITEMID', 'ItemId');
-define('_ACA_ITEMID_TIPS', 'This ItemId will be added to your Acajoom links.');
+define('_ACA_ITEMID', 'Element-id');
+define('_ACA_ITEMID_TIPS', 'Denne element-iden vil bli lagt til deres Acajoom-lenker.');
 
 //since 1.6.5
 define('_ACA_SHOW_JCALPRO', 'jCalPRO');
-define('_ACA_SHOW_JCALPRO_TIPS', 'Show the integration tab for jCalPRO <br/>(only if jCalPRO is installed on your website!)');
-define('_ACA_JCALTAGS_TITLE', 'jCalPRO Tag:');
-define('_ACA_JCALTAGS_TITLE_TIPS', 'Copy and paste this tag into the mailing where you want to have the event to be placed.');
-define('_ACA_JCALTAGS_DESC', 'Description:');
-define('_ACA_JCALTAGS_DESC_TIPS', 'Select Yes if you want to insert the description of the event');
-define('_ACA_JCALTAGS_START', 'Start date:');
-define('_ACA_JCALTAGS_START_TIPS', 'Select Yes if you want to insert the start date of the event');
-define('_ACA_JCALTAGS_READMORE', 'Read more:');
-define('_ACA_JCALTAGS_READMORE_TIPS', 'Select Yes if you want to insert a <b>read more link</b> for this event');
-define('_ACA_REDIRECTCONFIRMATION', 'Redirect URL');
-define('_ACA_REDIRECTCONFIRMATION_TIPS', 'If you require a confirmation e-mail, the user will be confirmed and redirected to this URL if he clicks on the confirmation link.');
+define('_ACA_SHOW_JCALPRO_TIPS', 'Vis fanen for jCalPRO <br/>(bare om jCalPRO er installert på deres nettside!)');
+define('_ACA_JCALTAGS_TITLE', 'jCalPRO-merke:');
+define('_ACA_JCALTAGS_TITLE_TIPS', 'Kopier og lim dette merket inn i utsendelsen, der hvor du vil at begivenhet skal vises.');
+define('_ACA_JCALTAGS_DESC', 'Beskrivelse:');
+define('_ACA_JCALTAGS_DESC_TIPS', 'Velg \'Ja\' om du ønsker å vise beskrivelsen for begivenhet.');
+define('_ACA_JCALTAGS_START', 'Startdato:');
+define('_ACA_JCALTAGS_START_TIPS', 'Velg \'Ja\' om du ønsker å vise startdato for begivenhet.');
+define('_ACA_JCALTAGS_READMORE', 'Les mer:');
+define('_ACA_JCALTAGS_READMORE_TIPS', 'Velg \'Ja\' om du ønsker å vise en <b>les mer lenke</b> for begivenhet.');
+define('_ACA_REDIRECTCONFIRMATION', 'Adresse for viderekobling');
+define('_ACA_REDIRECTCONFIRMATION_TIPS', 'Om du krever en epostbekreftelse vil brukeren bli bekreftet og viderekoblet til denne adressen om vedkommende klikker på denne lenken.');
 
 //since 2.0.0 compatibility with Joomla 1.5
 if(!defined('_CMN_SAVE') and defined('CMN_SAVE')) define('_CMN_SAVE',CMN_SAVE);
 if(!defined('_CMN_SAVE')) define('_CMN_SAVE','Lagre');
 if(!defined('_NO_ACCOUNT')) define('_NO_ACCOUNT','Ingen konto ennå?');
-if(!defined('_CREATE_ACCOUNT')) define('_CREATE_ACCOUNT','Registrer');
+if(!defined('_CREATE_ACCOUNT')) define('_CREATE_ACCOUNT','Registrer konto');
 if(!defined('_NOT_AUTH')) define('_NOT_AUTH','Du har ikke tilgang til dette innholdet.');
 
 //since 3.0.0
-define('_ACA_DISABLETOOLTIP', 'Disable Tooltip');
-define('_ACA_DISABLETOOLTIP_TIPS', 'Disable the tooltip on the frontend');
-define('_ACA_MINISENDMAIL', 'Use Mini SendMail');
-define('_ACA_MINISENDMAIL_TIPS', 'If your server use Mini SendMail, select this option to don\'t add the name of the user in the header of the e-mail');
+define('_ACA_DISABLETOOLTIP', 'Deaktiver verktøytips');
+define('_ACA_DISABLETOOLTIP_TIPS', 'Dekativer verktøytips på brukersiden');
+define('_ACA_MINISENDMAIL', 'Bruk \'Mini SendMail\'');
+define('_ACA_MINISENDMAIL_TIPS', 'Om deres server bruker \'Mini SendMail\', bruk dette valget for å ikke legge til brukerens navn i hodet på eposten.');
 
 //Since 3.1.5
 define('_ACA_READMORE','Les mer ...');
@@ -968,9 +969,9 @@ define('_ACA_VIEWARCHIVE','Klikk her');
 
 //since 4.0.0
 define('_ACA_SHOW_JLINKS','Lenkesporing');
-define('_ACA_SHOW_JLINKS_TIPS','Enables the integration with jLinks to be able to do link tracking for each links in the newsletter.');
+define('_ACA_SHOW_JLINKS_TIPS','Aktiverer integrasjon med jLinks for å muliggjøre lenkesporing for hver enkelt lenke i nyhetsbrev.');
 
 //since 4.1.0
-define( '_ACA_MAIL_ENCODING', 'E-postkoding' );
+define( '_ACA_MAIL_ENCODING', 'Epostkoding' );
 define( '_ACA_MAIL_ENCODING_TIPS', 'Hvilken tegnkoding ønsker du å bruke, UTF-8 (anbefalt) eller ISO-8859-2' );
 define( '_ACA_COPY_SUBJECT', 'Kopier emne' );
