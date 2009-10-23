@@ -355,7 +355,7 @@ define('_ACA_STATS_SETTINGS', 'Statistikk innstillinger');
 define('_ACA_LOGS_SETTINGS', 'Logge innstillinger');
 define('_ACA_MISC_SETTINGS', 'Diverse innstillinger');
 // mail settings
-define('_ACA_SEND_MAIL_FROM', 'Returadresse>br />(brukes som returadresse for alle deres meldinger)');
+define('_ACA_SEND_MAIL_FROM', 'Returadresse<br />(brukes som returadresse for alle deres meldinger)');
 define('_ACA_SEND_MAIL_NAME', 'Avsendernavn');
 define('_ACA_MAILSENDMETHOD', 'Sendingsmetode');
 define('_ACA_SENDMAILPATH', 'Sti til sendmail');
