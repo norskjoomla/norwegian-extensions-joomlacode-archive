@@ -2,13 +2,13 @@
 <install type="xmap_ext" version="1.5.0">
         <name>XMAP ccBoard Plugin</name>
         <author>thomas</author>
-        <creationDate>12-May-2009</creationDate>
-        <copyright>GNU GPL</copyright>
-        <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+        <creationDate>2009-09-26</creationDate>
+        <copyright>Copyright codeclassic.org, All rights reserved 2008-2009.</copyright>
+        <license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2</license>
         <authorEmail>thomas@codeclassic.org</authorEmail>
         <authorUrl>http://codeclassic.org</authorUrl>
-        <version>1.0</version>
-        <description>Plugin for ccBoard Forum</description>
+        <version>1.1-RC</version>
+        <description>Programtillegg for ccBoard forumet</description>
         <files>
                 <filename xmap_ext="com_ccboard">com_ccboard.php</filename>
         </files>

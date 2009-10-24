@@ -8,7 +8,7 @@
 	<authorEmail>thomas@codeclassic.net</authorEmail>
 	<authorUrl>http://codeclassic.net</authorUrl>
 	<version>0.2.1</version>
-	<description>ALLOWS SEARCHING OF ccBoard POSTS</description>
+	<description>Tillater søk etter innlegg i ccBoard</description>
 	<files>
 		<filename plugin="ccboard">ccboard.php</filename>
 	</files>
@@ -16,8 +16,8 @@
 		<param name="search_limit" type="text" size="5" default="50" label="Søkebegrensning" description="Maks antall innlegg som skal komme frem under søket"/>
 		<param name="@spacer" type="spacer" default="" label="" description="" />
 		<param name="search_post" type="radio" default="1" label="Søk i innlegsdetaljene" description="Søke i detaljene om innleggene?">
-			<option value="0">No</option>
-			<option value="1">Yes</option>
+			<option value="0">Nei</option>
+			<option value="1">Ja</option>
 		</param>
 	</params>
 </install>
