@@ -14,7 +14,8 @@
     <administration>
       <files folder="admin">
         <filename>nb-NO.com_ccboard.ini</filename>
-        <!--<filename>nb-NO.com_ccboard.menu.ini</filename>-->
+        <filename>nb-NO.com_ccboard.menu.ini</filename>
+        <filename>nb-NO.plg_search_ccboard.ini</filename>
       </files>
   </administration>
   <site>
