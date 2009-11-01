@@ -217,4 +217,7 @@ define("INV_PROFILE_NAME_REQURED", "Du må fylle inn enneten et firmanavn, et kon
 define("INV_PROFILE_COMPANY_REQURED", "Du må fylle inn et firmanavn");
 define("INV_PROFILE_CONTACT_REQUIRED", "Du må fylle inn et kontaktnavn");
 define("INV_PROFILE_EMAIL_REQUIRED", "Du må fylle inn en e-postadresse");
+
+//Version 1.2.10
+define("INV_LOGIN_FAILED", "Innlogging feilet. Vennligst sjekk ditt brukernavn og passord, forsøk deretter å logge inn på nytt.");
 ?>
