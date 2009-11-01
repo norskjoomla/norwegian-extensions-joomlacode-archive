@@ -216,4 +216,7 @@ define("INV_PROFILE_NAME_REQURED", "Please enter either a company name, or a con
 define("INV_PROFILE_COMPANY_REQURED", "Please enter a company name");
 define("INV_PROFILE_CONTACT_REQUIRED", "Please enter a contact name");
 define("INV_PROFILE_EMAIL_REQUIRED", "Please enter an e-mail address");
+
+//Version 1.2.10
+define("INV_LOGIN_FAILED", "Login Failed. Please check your username and password and try again.");
 ?>
