@@ -1,6 +1,6 @@
 <?php
 /**
-* Language file for the Anomaly report
+* Language file for nBill
 * @version 1
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
