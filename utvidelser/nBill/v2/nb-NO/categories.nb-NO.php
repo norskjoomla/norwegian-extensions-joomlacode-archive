@@ -22,18 +22,18 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Categories
-define("INV_CATEGORIES_TITLE", "Kategorier");
-define("INV_CATEGORY_NAME", "Navn");
-define("INV_CATEGORY_DESCRIPTION", "Beskrivelse");
-define("INV_CATEGORY_ORDERING", "Sortering");
-define("INV_EDIT_CATEGORY", "Rediger kategori");
-define("INV_NEW_CATEGORY", "Ny kategori");
-define("INV_ERR_CANNOT_DELETE_CATEGORY", "Én eller flere kategorier du prøvde å slette ikke er tom. Du kan ikke slette en kategori som inneholder produkter eller andre kategorier. Du må enten slette eller flytte de produktene og/eller underkategorien til en annen kategori før du prøver å slette.");
-define("INV_ERR_CANNOT_DELETE_ROOT_CAT", "Du kan ikke slette hovedkategorien (rot) - det må alltid finnes minst én kategori.");
-define("INV_CATEGORY_NAME_REQUIRED", "Skriv inn navnet for kategorien");
-define("INV_CATEGORY_DETAILS", "Kategoridetaljer");
-define("INV_CATEGORY_PARENT", "Overordnet kategori");
-define("INV_INSTR_CATEGORY_NAME", "");
-define("INV_INSTR_CATEGORY_DESCRIPTION", "");
-define("INV_INSTR_CATEGORY_PARENT", "");
+define("NBILL_CATEGORIES_TITLE", "Kategorier");
+define("NBILL_CATEGORY_NAME", "Navn");
+define("NBILL_CATEGORY_DESCRIPTION", "Beskrivelse");
+define("NBILL_CATEGORY_ORDERING", "Sortering");
+define("NBILL_EDIT_CATEGORY", "Rediger kategori");
+define("NBILL_NEW_CATEGORY", "Ny kategori");
+define("NBILL_ERR_CANNOT_DELETE_CATEGORY", "Én eller flere kategorier du prøvde å slette ikke er tom. Du kan ikke slette en kategori som inneholder produkter eller andre kategorier. Du må enten slette eller flytte de produktene og/eller underkategorien til en annen kategori før du prøver å slette.");
+define("NBILL_ERR_CANNOT_DELETE_ROOT_CAT", "Du kan ikke slette hovedkategorien (rot) - det må alltid finnes minst én kategori.");
+define("NBILL_CATEGORY_NAME_REQUIRED", "Skriv inn navnet for kategorien");
+define("NBILL_CATEGORY_DETAILS", "Kategoridetaljer");
+define("NBILL_CATEGORY_PARENT", "Overordnet kategori");
+define("NBILL_INSTR_CATEGORY_NAME", "");
+define("NBILL_INSTR_CATEGORY_DESCRIPTION", "");
+define("NBILL_INSTR_CATEGORY_PARENT", "");
 ?>

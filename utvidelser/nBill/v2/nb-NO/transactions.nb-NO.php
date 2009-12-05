@@ -21,24 +21,24 @@
 /** ensure this file is being included by a parent file */
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
-define("INV_TRANSACTIONS_TITLE", "Transaksjonsforklaring ");
-define("INV_TRANSACTIONS_INTRO", "Dette er en liste over alle inntekter og utgifter som er registrert for den angitte perioden. Ingen inntekter eller utgifter blir ekskludert, men denne rapporten inkluderer ikke eventuelle ubetalte fakturaer.");
-define("INV_TR_INCOME", "Resultat");
-define("INV_TR_EXPENDITURE", "Utgifter");
-define("INV_TR_ITEM_NO", "Nummer");
-define("INV_TR_RECEIPT", "Mot");
-define("INV_TR_PAYMENT", "Bet");
-define("INV_TR_DATE", "Dato");
-define("INV_TR_FROM_TO", "Fra/til");
-define("INV_TR_FOR", "For");
-define("INV_TR_INVOICE", "Faktura");
-define("INV_TR_CREDIT_NOTE", "Kredittnota");
-define("INV_TR_LEDGER", "Hovedbok");
-define("INV_TR_NET_AMOUNT", "Netto");
-define("INV_TR_TAX", "Avgift");
-define("INV_TR_TOTAL", "Totalt");
-define("INV_TR_BALANCE", "Balanse");
-define("INV_TR_AWAITING_RCT_NO", "Venter på kvitteringsnummer.");
-define("INV_TR_AWAITING_PYT_NO", "Venter på betalingsnummer.");
-define("INV_TR_CLIENT_REFUND", "Kundens refusjon");
+define("NBILL_TRANSACTIONS_TITLE", "Transaksjonsforklaring ");
+define("NBILL_TRANSACTIONS_INTRO", "Dette er en liste over alle inntekter og utgifter som er registrert for den angitte perioden. Ingen inntekter eller utgifter blir ekskludert, men denne rapporten inkluderer ikke eventuelle ubetalte fakturaer.");
+define("NBILL_TR_INCOME", "Resultat");
+define("NBILL_TR_EXPENDITURE", "Utgifter");
+define("NBILL_TR_ITEM_NO", "Nummer");
+define("NBILL_TR_RECEIPT", "Mot");
+define("NBILL_TR_PAYMENT", "Bet");
+define("NBILL_TR_DATE", "Dato");
+define("NBILL_TR_FROM_TO", "Fra/til");
+define("NBILL_TR_FOR", "For");
+define("NBILL_TR_INVOICE", "Faktura");
+define("NBILL_TR_CREDIT_NOTE", "Kredittnota");
+define("NBILL_TR_LEDGER", "Hovedbok");
+define("NBILL_TR_NET_AMOUNT", "Netto");
+define("NBILL_TR_TAX", "Avgift");
+define("NBILL_TR_TOTAL", "Totalt");
+define("NBILL_TR_BALANCE", "Balanse");
+define("NBILL_TR_AWAITING_RCT_NO", "Venter på kvitteringsnummer.");
+define("NBILL_TR_AWAITING_PYT_NO", "Venter på betalingsnummer.");
+define("NBILL_TR_CLIENT_REFUND", "Kundens refusjon");
 ?>

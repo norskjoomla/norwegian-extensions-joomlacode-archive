@@ -22,7 +22,7 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Backup/Restore
-define("INV_TX_SEARCH_TITLE", "Transaksjonssøk");
-define("INV_TX_SEARCH_ID", "Transaksjons-ID");
-define("INV_TX_SEARCH_SEARCH", "Søk");
-define("INV_TX_SEARCH_INTRO", "Du kan bruke denne funksjonen til å finne poster (ordre/faktura/inntekter/klienter) som er knyttet til et bestemt transaksjonsnummer. Dette er nyttig der du har en betalingstransaksjon fra en leverandør, og du prøver å knytte det opp med dine egne poster i ". INV_BRANDING_NAME.". Angi et referansenummer i boksen nedenfor og klikk på ". INV_TX_SEARCH_SEARCH ." for å finne andre relaterte poster.");
+define("NBILL_TX_SEARCH_TITLE", "Transaksjonssøk");
+define("NBILL_TX_SEARCH_ID", "Transaksjons-ID");
+define("NBILL_TX_SEARCH_SEARCH", "Søk");
+define("NBILL_TX_SEARCH_INTRO", "Du kan bruke denne funksjonen til å finne poster (ordre/faktura/inntekter/klienter) som er knyttet til et bestemt transaksjonsnummer. Dette er nyttig der du har en betalingstransaksjon fra en leverandør, og du prøver å knytte det opp med dine egne poster i ". NBILL_BRANDING_NAME.". Angi et referansenummer i boksen nedenfor og klikk på ". NBILL_TX_SEARCH_SEARCH ." for å finne andre relaterte poster.");
