@@ -1,14 +1,13 @@
 <?php
 /**
-* Language file for the Shipping feature.
-* @version 2
+* @version 1.1.x
 * @package nBill
-* @copyright (C) 2006-2009 Netshine Software Limited
-* @license http://www.nbill.co.uk/eula.html
+* @copyright (C) 2006-2007 Netshine Software Limited
+* @copyright Translation 2009 Joomla! i Norge
+* @license Commercial
 * 
-* @access private
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
-* For more information, see www.nbill.co.uk and the license agreement at www.nbill.co.uk/eula.html
+* For more information, see www.nbill.co.uk
 *
 * All Rights Reserved. You may make amendments to any unencrypted files for your own use only or
 * for the use of your customers if you are a website developer. HOWEVER, you are not permitted to
@@ -19,34 +18,35 @@
 * software is entirely at your own risk.
 */
 
-//Ensure this file has been reached through a valid entry point (not always necessary eg. for class files, but included on every file to be safe!)
-(defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
+/** ensure this file is being included by a parent file */
+defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
-//Shipping
-define("NBILL_SHIPPING_TITLE", "Shipping Rates");
-define("NBILL_SHIPPING_INTRO", "This is optional. If you add shipping costs onto the price of your products, you can specify the rates here. You can also specify whether shipping is taxable, and if so, apply a different rate of tax for the shipping portion of the invoice.");
-define("NBILL_SHIPPING_COUNTRY", "Country");
-define("NBILL_SHIPPING_PRICE_PER_UNIT", "Unit Price");
-define("NBILL_EDIT_SHIPPING_RATE", "Edit Shipping Rate");
-define("NBILL_NEW_SHIPPING_RATE", "New Shipping Rate");
-define("NBILL_SERVICE_NAME_REQUIRED", "Please enter the name of this service");
-define("NBILL_COUNTRY_REQUIRED", "Please select the country to which this service applies");
-define("NBILL_SHIPPING_DETAILS", "Shipping Details");
-define("NBILL_SHIPPING_CODE", "Code");
-define("NBILL_NET_PRICE_PER_UNIT", "Net Price per Unit");
-define("NBILL_SHIPPING_FIXED", "Fixed Price Shipping?");
-define("NBILL_SHIPPING_IS_TAXABLE", "Is Shipping Taxable?");
-define("NBILL_SHIPPING_TAX_RATE", "Tax Rate if Different");
-define("NBILL_INSTR_SHIPPING_SERVICE", "Enter a descriptive name for the service (eg. 'First Class', 'Recorded Delivery')");
-define("NBILL_INSTR_SHIPPING_CODE", "Enter your own short code for this service (optional, but if present is used to sort the delivery options alphabetically).");
-define("NBILL_INSTR_SHIPPING_COUNTRY", "Select the country to which this service applies.");
-define("NBILL_INSTR_NET_PRICE_PER_UNIT", "If you charge a fixed price per invoice for shipping, enter that amount here and select 'yes' to the fixed price option below. If your shipping costs depend on the product size/weight/quantity, enter the amount in figures that represents the smallest common denominator for your products' shipping fees. You can then specify a multiplier of this value on a per-product basis which will be used to calculate the shipping fees that appear on invoices. Do not include a currency symbol.");
-define("NBILL_INSTR_SHIPPING_FIXED", "If you charge a fixed price per invoice for shipping, select 'yes', and the value you entered in 'Net Price per Unit' will be applied as a fixed fee to the whole invoice (instead of as a unit price). If your shipping costs depend on the product size/weight/quantity, select 'no'.");
-define("NBILL_INSTR_SHIPPING_IS_TAXABLE", "Indicate whether value-added tax is to be charged for shipping amounts.");
-define("NBILL_INSTR_SHIPPING_TAX_RATE", "If shipping is taxable AND the tax for shipping is charged at a different rate to normal, enter the shipping tax rate here (as a percentage, but without the % sign)");
-define("NBILL_SHIPPING_PRICE_INTRO", "Enter the price of the shipping for each currency that you want to sell in.");
-define("NBILL_SHIPPING_ID", "ID");
+//Carriage
+define("INV_CARRIAGE_TITLE", "Fraktsatser");
+define("INV_CARRIAGE_INTRO", "Dette er valgfritt. Hvis du legger til fraktkostnader til prisen på produktene dine, kan du angi satsene her. Du kan også angi om transporten er MVA-pliktig, og i så fall bruke en annen sats av MVA for transportdelen av fakturaen.");
+define("INV_CARRIAGE_COUNTRY", "Land");
+define("INV_CARRIAGE_PRICE_PER_UNIT", "Enhetspris");
+define("INV_EDIT_CARRIAGE_RATE", "Rediger fraktsatser");
+define("INV_NEW_CARRIAGE_RATE", "Ny fraktsats");
+define("INV_SERVICE_NAME_REQUIRED", "Fyll inn navnet på denne tjenesten");
+define("INV_COUNTRY_REQUIRED", "Velg land hvor denne tjenesten gjelder");
+define("INV_CARRIAGE_DETAILS", "Fraktdetaljer");
+define("INV_CARRIAGE_CODE", "Kode");
+define("INV_NET_PRICE_PER_UNIT", "Nettopris pr. enhet");
+define("INV_CARRIAGE_FIXED", "Fastpris?");
+define("INV_CARRIAGE_IS_TAXABLE", "Er frakten MVA plikig?");
+define("INV_CARRIAGE_TAX_RATE", "MVA-sats om forskjellig");
+define("INV_INSTR_CARRIAGE_SERVICE", "Skriv inn et beskrivende navn for tjenesten (For eksempel 'Ekspress over natten', 'Levering neste dag')");
+define("INV_INSTR_CARRIAGE_CODE", "Angi din egen kode for denne tjenesten (valgfritt, men brukes til å sortere leveringsmuligheter alfabetisk).");
+define("INV_INSTR_CARRIAGE_COUNTRY", "Velg land der denne tjenesten gjelder.");
+define("INV_INSTR_NET_PRICE_PER_UNIT", "Hvis du har betalt fastpris for transport, angir du beløpet her og velger \"Ja\" på fastpris-alternativet nedenfor. Hvis fraktprisen avhenger av produktets størrelse, tyngde eller mengde, skriver du beløpet som representerer den minste fellesnevneren for produktenes fraktavgift. Deretter kan du angi en multiplikator på denne verdien som vil bli brukt til å beregne transportavgifter som vises på fakturaene. Ikke inkluder valutasymbol.");
+define("INV_INSTR_CARRIAGE_FIXED", "Hvis du har betalt fastpris per faktura for transport, velger du \"Ja\", og verdien du skrev inn i \"Nettopris pr enhet\" vil bli brukt som et fast gebyr for hele fakturaen (i stedet for som en enhet). Hvis fraktprisen avhenger av produktets størrelse, tyngde eller mengde, velger du \"Nei\".");
+define("INV_INSTR_CARRIAGE_IS_TAXABLE", "Indikér om det skal betales moms av fraktprisen");
+define("INV_INSTR_CARRIAGE_TAX_RATE", "Hvis transporten er MVA-pliktig OG avgiften for transport er annerledels enn til vanlig, skriver du inn transportens MVA-sats her (i prosent, men uten prosenttegn %)");
+define("INV_CARRIAGE_PRICE_INTRO", "Angi prisen for transport for hver valuta som du vil selge i.");
+define("INV_CARRIAGE_ID", "ID");
 
 //Version 1.2.0
-define("NBILL_SHIPPING_TRACKING_URL", "Shipping Tracking URL");
-define("NBILL_INSTR_SHIPPING_TRACKING_URL", "If the courier allows online tracking of parcels, enter the URL here, and use ## (double hash) as a placeholder for the tracking ID. When you ship the package, you can enter the actual tracking ID on the order record. This will then be combined with the URL recorded here to generate a link in the website front-end that will allow the user to track their goods (subject to this being allowed within the display options).");
+define("INV_CARRIAGE_TRACKING_URL", "Transportens nettadresse for sporing");
+define("INV_INSTR_CARRIAGE_TRACKING_URL", "Hvis transportøren tillater elektronisk sporing av pakker, angi nettadressen her, og bruk ## (dobbel hash) som plassholder for sporingsnummer. Når du sender pakken kan du angi det riktige sporingsnummeret på ordren. Denne vil da bli slått sammen med nettadressen registrert her, for å generere en lenke på nettsidens brukerside som gjør det mulig for brukeren å spore sin forsendelse (om dette lar seg gjøre i henhold til visningsalternativene).");
+?>
