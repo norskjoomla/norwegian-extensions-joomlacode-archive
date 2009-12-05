@@ -235,19 +235,19 @@ define("INV_SECURITY_IMAGE", "Use Security Image?");
 define("INV_INSTR_SECURITY_IMAGE", "Whether or not to display a CAPTCHA style security image to prevent spamming (requires the PHP GD and truetype library to be installed on your web server).");
 
 //Version 1.2.0
-define("INV_ORDER_FORM_LINK", "You can link to this order form from your website content using the following URL: %s");
+define("INV_ORDER_FORM_LINK", "Du kan lenke til dette ordreskjemaet med følgende adresse: %s");
 define("INV_ORDER_FORM_LINK_PREPOP", "Note: You can also pre-populate fields on your form by adding URL parameters. For example, if you have a field on your form called 'message', you could add &quot;&amp;message=hello%20world&quot; (without the quotes) to the end of the above URL to pre-populate that field with the value 'hello world'. This could be useful for example where there are several products that can be ordered on the form, and you want to pre-select the product to order depending on which article the link appears in.");
-define("INV_ORDER_FORM_THANK_YOU", "Thank You Message");
+define("INV_ORDER_FORM_THANK_YOU", "Takketekst");
 define("INV_INSTR_ORDER_FORM_THANK_YOU", "If the user is not redirected elsewhere by the payment gateway (or by your own redirect setting, above), this is the message that will be displayed on successful submission of the order form.");
-define("INV_FORM_DEFAULT_THANK_YOU", "Thank you for your order.");
+define("INV_FORM_DEFAULT_THANK_YOU", "Takk for din ordre.");
 define("INV_ORDER_FORM_DUPLICATE_PRODUCTS", "WARNING! You have assigned a product to a field TWICE on the order form(s) highlighted below. This will result in the product being ordered twice. You should only assign a product on EITHER the edit field popup OR the options popup, not both.");
 define("INV_ORDER_FORM_PRE_SUBMIT", "Pre-Submit Code");
 define("INV_INSTR_ORDER_FORM_PRE_SUBMIT", "PHP code to evaluate after the form is submitted by the user, but before it is processed by " . INV_BRANDING_NAME . " (allows you to modify the values of any of the fields before the amounts are calculated). If that doesn't make sense to you, just leave this blank.");
 
 //Version 1.2.1
-define("INV_ORDER_FORM_FIELD_RESERVED_WORD", "Sorry, `%s` is a reserved word with a special meaning. Please select a different name for this field.");
-define("INV_ORDER_FORM_THANK_YOU_REDIRECT", "Order Complete Redirect");
-define("INV_INSTR_ORDER_FORM_THANK_YOU_REDIRECT", "If you want to redirect the user to another page when an order is submitted instead of displaying the thank you message defined below, please enter a URL here. NOTE: This will have no effect if the payment gateway performs its own redirect.");
+define("INV_ORDER_FORM_FIELD_RESERVED_WORD", "Beklager, '%s' er et reservert ord med en spesiell betydning. Du må velge et annet navn for dette feltet.");
+define("INV_ORDER_FORM_THANK_YOU_REDIRECT", "Viderekobling, fullført ordre");
+define("INV_INSTR_ORDER_FORM_THANK_YOU_REDIRECT", "Om du vil viderekoble brukeren til en annen side en takketeksten nedenfor når ordren er bekreftet kan du fylle inn en adresse her. MERK: Dette vil ikke ha noen effekt om betalingsmodulen bruker egen viderkobling.");
 define("INV_ORDER_FORM_EXPIRE_AFTER", "Number of Billing Cycles");
 define("INV_INSTR_ORDER_FORM_EXPIRE_AFTER", "If you want to automatically calculate the expiry date for the order based on a certain number of payment cycles, enter the number of payments here, or leave blank if you don't want to automatically calculate an expiry date. For example, to bill monthly for 6 months then stop, set the payment frequency to monthly, and enter 6 here. To pick up the number of billing cycles from a field, enter the field ID surrounded by double-hashes, eg. ##23##");
 
