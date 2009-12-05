@@ -21,25 +21,25 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Pending Orders
-define("INV_PENDING", "Venter");
-define("INV_ACTIVATE_PENDING_ORDER", "Aktivér venting");
-define("INV_ACTIVATE_ARE_YOU_SURE", "ADVARSEL! Dette vil opprette en ny ordre og den ventende ordren vil bli slettet. Hvis relatert bestillingsskjema er satt til automatisk oppretting av bruker og/eller faktura, vil disse også bli generert. Er du sikker på at du vil fortsette?");
-define("INV_SELECT_PENDING_ORDER", "Vennligst gjør et valg fra listen for å aktivere");
-define("INV_PENDING_ORDER", "Ventende ordre(r)");
-define("INV_PENDING_TITLE", "Ventende ordre(r)");
-define("INV_PENDING_INTRO", "Dette er bestillinger som ble mottatt via nettsiden men der betalingen ennå ikke er bekreftet. Bestillinger vil kun være ventende hvis bestillingsskjemaet er satt til å vente på bekreftet betaling. Hvis den installerte betalingskanalen oppdager betaling for en ventende ordre vil ordren automatisk bli opprettet. Hvis betalingen er gjort på annen måte, eller hvis du vil aktivere en bestilling uten å ha mottatt betaling, kan du gjøre det ved hjelp av aktivere verktøylinjeknappen.");
-define("INV_PENDING_ORDER_ID", "Ordre ID");
-define("INV_PENDING_ORDER_FORM", "Ordreskjema");
-define("INV_PENDING_ORDER_DATE", "Dato");
-define("INV_PENDING_ORDER_VALUE", "Total ordreverdi");
-define("INV_SHOW_PENDING_ORDER", "Vis detaljer for ventende ordre");
-define("INV_PENDING_ORDER_DETAILS", "Ventende ordredetaljer");
-define("INV_QUANTITY", "Antall");
-define("INV_OTHER_DATA", "Andre data");
-define("INV_ORDERS_ACTIVATED", "Valgte ordre ble aktivert");
-@define("INV_USERNAME", "Brukernavn");
-@define("INV_PAY_FREQUENCY", "Betalingsfrekvens");
+define("NBILL_PENDING", "Venter");
+define("NBILL_ACTIVATE_PENDING_ORDER", "Aktivér venting");
+define("NBILL_ACTIVATE_ARE_YOU_SURE", "ADVARSEL! Dette vil opprette en ny ordre og den ventende ordren vil bli slettet. Hvis relatert bestillingsskjema er satt til automatisk oppretting av bruker og/eller faktura, vil disse også bli generert. Er du sikker på at du vil fortsette?");
+define("NBILL_SELECT_PENDING_ORDER", "Vennligst gjør et valg fra listen for å aktivere");
+define("NBILL_PENDING_ORDER", "Ventende ordre(r)");
+define("NBILL_PENDING_TITLE", "Ventende ordre(r)");
+define("NBILL_PENDING_INTRO", "Dette er bestillinger som ble mottatt via nettsiden men der betalingen ennå ikke er bekreftet. Bestillinger vil kun være ventende hvis bestillingsskjemaet er satt til å vente på bekreftet betaling. Hvis den installerte betalingskanalen oppdager betaling for en ventende ordre vil ordren automatisk bli opprettet. Hvis betalingen er gjort på annen måte, eller hvis du vil aktivere en bestilling uten å ha mottatt betaling, kan du gjøre det ved hjelp av aktivere verktøylinjeknappen.");
+define("NBILL_PENDING_ORDER_ID", "Ordre ID");
+define("NBILL_PENDING_ORDER_FORM", "Ordreskjema");
+define("NBILL_PENDING_ORDER_DATE", "Dato");
+define("NBILL_PENDING_ORDER_VALUE", "Total ordreverdi");
+define("NBILL_SHOW_PENDING_ORDER", "Vis detaljer for ventende ordre");
+define("NBILL_PENDING_ORDER_DETAILS", "Ventende ordredetaljer");
+define("NBILL_QUANTITY", "Antall");
+define("NBILL_OTHER_DATA", "Andre data");
+define("NBILL_ORDERS_ACTIVATED", "Valgte ordre ble aktivert");
+@define("NBILL_USERNAME", "Brukernavn");
+@define("NBILL_PAY_FREQUENCY", "Betalingsfrekvens");
 
 //Version 1.2.0
-define("INV_PENDING_RESUME_LINK", "Hvis du har aktivert innbetaling av bestillinger uten å være logget inn kan følgende lenke brukes til å gjenoppta den pågående bestillingen (dvs. å gjøre betaling).");
+define("NBILL_PENDING_RESUME_LINK", "Hvis du har aktivert innbetaling av bestillinger uten å være logget inn kan følgende lenke brukes til å gjenoppta den pågående bestillingen (dvs. å gjøre betaling).");
 ?>

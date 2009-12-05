@@ -22,20 +22,20 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Currency
-define("INV_CURRENCY_TITLE", "Valutaer");
-define("INV_CURRENCY_INTRO", "Dersom dine produkter er priset i flere valutaer, du kan definere disse valutaene her. Du må minst velge en valuta.");
-define("INV_CURRENCY_NAME", "Valutanavn");
-define("INV_CURRENCY_CODE", "ISO-kode");
-define("INV_CURRENCY_SYMBOL", "Symbol");
-define("INV_CURRENCY_RATE", "Konverteringsfrekvens");
-define("INV_EDIT_CURRENCY_RATE", "Endre valuta");
-define("INV_NEW_CURRENCY_RATE", "Ny valuta");
-define("INV_CURRENCY_DETAILS", "Valutadetaljer");
-define("INV_CURRENCY_NAME_REQUIRED", "Vennligst skriv inn navnet på valutaen.");
-define("INV_CURRENCY_CODE_REQUIRED", "Vennligst skriv inn ISO-koden for valutaen.");
-define("INV_INSTR_CURRENCY_NAME", "Navn på valuta (f.eks. 'US Dollar', 'Norske kroner')");
-define("INV_INSTR_CURRENCY_CODE", "ISO-kode for valuta (f.eks. 'USD', 'NOK')");
-define("INV_INSTR_CURRENCY_SYMBOL", "Symbol brukt som prefiks for beløpene (f.eks. '&#36;', '&euro;') - husk: det er sikrest å bruke HTML koder (f.eks. &amp;#36; &amp;euro;).");
-define("INV_ERR_CANNOT_DELETE_LAST_CURRENCY", "Du kan ikke slette den eneste valutaen!");
-define("INV_ERR_CANNOT_DELETE_CURRENCY_IN_USE", "En eller flere valutaer du prøvde å slette, er i bruk av en eller flere leverandører. Prosess avbrutt - du kan ikke slette en valuta som blir brukt av en leverandør.");
+define("NBILL_CURRENCY_TITLE", "Valutaer");
+define("NBILL_CURRENCY_INTRO", "Dersom dine produkter er priset i flere valutaer, du kan definere disse valutaene her. Du må minst velge en valuta.");
+define("NBILL_CURRENCY_NAME", "Valutanavn");
+define("NBILL_CURRENCY_CODE", "ISO-kode");
+define("NBILL_CURRENCY_SYMBOL", "Symbol");
+define("NBILL_CURRENCY_RATE", "Konverteringsfrekvens");
+define("NBILL_EDIT_CURRENCY_RATE", "Endre valuta");
+define("NBILL_NEW_CURRENCY_RATE", "Ny valuta");
+define("NBILL_CURRENCY_DETAILS", "Valutadetaljer");
+define("NBILL_CURRENCY_NAME_REQUIRED", "Vennligst skriv inn navnet på valutaen.");
+define("NBILL_CURRENCY_CODE_REQUIRED", "Vennligst skriv inn ISO-koden for valutaen.");
+define("NBILL_INSTR_CURRENCY_NAME", "Navn på valuta (f.eks. 'US Dollar', 'Norske kroner')");
+define("NBILL_INSTR_CURRENCY_CODE", "ISO-kode for valuta (f.eks. 'USD', 'NOK')");
+define("NBILL_INSTR_CURRENCY_SYMBOL", "Symbol brukt som prefiks for beløpene (f.eks. '&#36;', '&euro;') - husk: det er sikrest å bruke HTML koder (f.eks. &amp;#36; &amp;euro;).");
+define("NBILL_ERR_CANNOT_DELETE_LAST_CURRENCY", "Du kan ikke slette den eneste valutaen!");
+define("NBILL_ERR_CANNOT_DELETE_CURRENCY_IN_USE", "En eller flere valutaer du prøvde å slette, er i bruk av en eller flere leverandører. Prosess avbrutt - du kan ikke slette en valuta som blir brukt av en leverandør.");
 ?>

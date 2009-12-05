@@ -22,31 +22,31 @@
 defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
 
 //Carriage
-define("INV_CARRIAGE_TITLE", "Fraktsatser");
-define("INV_CARRIAGE_INTRO", "Dette er valgfritt. Hvis du legger til fraktkostnader til prisen på produktene dine, kan du angi satsene her. Du kan også angi om transporten er MVA-pliktig, og i så fall bruke en annen sats av MVA for transportdelen av fakturaen.");
-define("INV_CARRIAGE_COUNTRY", "Land");
-define("INV_CARRIAGE_PRICE_PER_UNIT", "Enhetspris");
-define("INV_EDIT_CARRIAGE_RATE", "Rediger fraktsatser");
-define("INV_NEW_CARRIAGE_RATE", "Ny fraktsats");
-define("INV_SERVICE_NAME_REQUIRED", "Fyll inn navnet på denne tjenesten");
-define("INV_COUNTRY_REQUIRED", "Velg land hvor denne tjenesten gjelder");
-define("INV_CARRIAGE_DETAILS", "Fraktdetaljer");
-define("INV_CARRIAGE_CODE", "Kode");
-define("INV_NET_PRICE_PER_UNIT", "Nettopris pr. enhet");
-define("INV_CARRIAGE_FIXED", "Fastpris?");
-define("INV_CARRIAGE_IS_TAXABLE", "Er frakten MVA plikig?");
-define("INV_CARRIAGE_TAX_RATE", "MVA-sats om forskjellig");
-define("INV_INSTR_CARRIAGE_SERVICE", "Skriv inn et beskrivende navn for tjenesten (For eksempel 'Ekspress over natten', 'Levering neste dag')");
-define("INV_INSTR_CARRIAGE_CODE", "Angi din egen kode for denne tjenesten (valgfritt, men brukes til å sortere leveringsmuligheter alfabetisk).");
-define("INV_INSTR_CARRIAGE_COUNTRY", "Velg land der denne tjenesten gjelder.");
-define("INV_INSTR_NET_PRICE_PER_UNIT", "Hvis du har betalt fastpris for transport, angir du beløpet her og velger \"Ja\" på fastpris-alternativet nedenfor. Hvis fraktprisen avhenger av produktets størrelse, tyngde eller mengde, skriver du beløpet som representerer den minste fellesnevneren for produktenes fraktavgift. Deretter kan du angi en multiplikator på denne verdien som vil bli brukt til å beregne transportavgifter som vises på fakturaene. Ikke inkluder valutasymbol.");
-define("INV_INSTR_CARRIAGE_FIXED", "Hvis du har betalt fastpris per faktura for transport, velger du \"Ja\", og verdien du skrev inn i \"Nettopris pr enhet\" vil bli brukt som et fast gebyr for hele fakturaen (i stedet for som en enhet). Hvis fraktprisen avhenger av produktets størrelse, tyngde eller mengde, velger du \"Nei\".");
-define("INV_INSTR_CARRIAGE_IS_TAXABLE", "Indikér om det skal betales moms av fraktprisen");
-define("INV_INSTR_CARRIAGE_TAX_RATE", "Hvis transporten er MVA-pliktig OG avgiften for transport er annerledels enn til vanlig, skriver du inn transportens MVA-sats her (i prosent, men uten prosenttegn %)");
-define("INV_CARRIAGE_PRICE_INTRO", "Angi prisen for transport for hver valuta som du vil selge i.");
-define("INV_CARRIAGE_ID", "ID");
+define("NBILL_CARRIAGE_TITLE", "Fraktsatser");
+define("NBILL_CARRIAGE_INTRO", "Dette er valgfritt. Hvis du legger til fraktkostnader til prisen på produktene dine, kan du angi satsene her. Du kan også angi om transporten er MVA-pliktig, og i så fall bruke en annen sats av MVA for transportdelen av fakturaen.");
+define("NBILL_CARRIAGE_COUNTRY", "Land");
+define("NBILL_CARRIAGE_PRICE_PER_UNIT", "Enhetspris");
+define("NBILL_EDIT_CARRIAGE_RATE", "Rediger fraktsatser");
+define("NBILL_NEW_CARRIAGE_RATE", "Ny fraktsats");
+define("NBILL_SERVICE_NAME_REQUIRED", "Fyll inn navnet på denne tjenesten");
+define("NBILL_COUNTRY_REQUIRED", "Velg land hvor denne tjenesten gjelder");
+define("NBILL_CARRIAGE_DETAILS", "Fraktdetaljer");
+define("NBILL_CARRIAGE_CODE", "Kode");
+define("NBILL_NET_PRICE_PER_UNIT", "Nettopris pr. enhet");
+define("NBILL_CARRIAGE_FIXED", "Fastpris?");
+define("NBILL_CARRIAGE_IS_TAXABLE", "Er frakten MVA plikig?");
+define("NBILL_CARRIAGE_TAX_RATE", "MVA-sats om forskjellig");
+define("NBILL_INSTR_CARRIAGE_SERVICE", "Skriv inn et beskrivende navn for tjenesten (For eksempel 'Ekspress over natten', 'Levering neste dag')");
+define("NBILL_INSTR_CARRIAGE_CODE", "Angi din egen kode for denne tjenesten (valgfritt, men brukes til å sortere leveringsmuligheter alfabetisk).");
+define("NBILL_INSTR_CARRIAGE_COUNTRY", "Velg land der denne tjenesten gjelder.");
+define("NBILL_INSTR_NET_PRICE_PER_UNIT", "Hvis du har betalt fastpris for transport, angir du beløpet her og velger \"Ja\" på fastpris-alternativet nedenfor. Hvis fraktprisen avhenger av produktets størrelse, tyngde eller mengde, skriver du beløpet som representerer den minste fellesnevneren for produktenes fraktavgift. Deretter kan du angi en multiplikator på denne verdien som vil bli brukt til å beregne transportavgifter som vises på fakturaene. Ikke inkluder valutasymbol.");
+define("NBILL_INSTR_CARRIAGE_FIXED", "Hvis du har betalt fastpris per faktura for transport, velger du \"Ja\", og verdien du skrev inn i \"Nettopris pr enhet\" vil bli brukt som et fast gebyr for hele fakturaen (i stedet for som en enhet). Hvis fraktprisen avhenger av produktets størrelse, tyngde eller mengde, velger du \"Nei\".");
+define("NBILL_INSTR_CARRIAGE_IS_TAXABLE", "Indikér om det skal betales moms av fraktprisen");
+define("NBILL_INSTR_CARRIAGE_TAX_RATE", "Hvis transporten er MVA-pliktig OG avgiften for transport er annerledels enn til vanlig, skriver du inn transportens MVA-sats her (i prosent, men uten prosenttegn %)");
+define("NBILL_CARRIAGE_PRICE_INTRO", "Angi prisen for transport for hver valuta som du vil selge i.");
+define("NBILL_CARRIAGE_ID", "ID");
 
 //Version 1.2.0
-define("INV_CARRIAGE_TRACKING_URL", "Transportens nettadresse for sporing");
-define("INV_INSTR_CARRIAGE_TRACKING_URL", "Hvis transportøren tillater elektronisk sporing av pakker, angi nettadressen her, og bruk ## (dobbel hash) som plassholder for sporingsnummer. Når du sender pakken kan du angi det riktige sporingsnummeret på ordren. Denne vil da bli slått sammen med nettadressen registrert her, for å generere en lenke på nettsidens brukerside som gjør det mulig for brukeren å spore sin forsendelse (om dette lar seg gjøre i henhold til visningsalternativene).");
+define("NBILL_CARRIAGE_TRACKING_URL", "Transportens nettadresse for sporing");
+define("NBILL_INSTR_CARRIAGE_TRACKING_URL", "Hvis transportøren tillater elektronisk sporing av pakker, angi nettadressen her, og bruk ## (dobbel hash) som plassholder for sporingsnummer. Når du sender pakken kan du angi det riktige sporingsnummeret på ordren. Denne vil da bli slått sammen med nettadressen registrert her, for å generere en lenke på nettsidens brukerside som gjør det mulig for brukeren å spore sin forsendelse (om dette lar seg gjøre i henhold til visningsalternativene).");
 ?>
