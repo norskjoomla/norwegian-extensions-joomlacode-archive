@@ -23,16 +23,16 @@
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
 //General
-define("NBILL_AJAX_NOT_SUPPORTED", "Sorry, this feature will not work as your browser does not support AJAX");
-define("NBILL_AJAX_PLEASE_WAIT", "Please Wait...");
+define("NBILL_AJAX_NOT_SUPPORTED", "Beklager, denne funksjonen vil ikke virke ettersom din nettleser ikke støtter AJAX");
+define("NBILL_AJAX_PLEASE_WAIT", "Vennligst vent ...");
 
 //Assign contact to client or supplier
-define("NBILL_AJAX_NO_RESULTS", "Sorry, no results were found");
-define("NBILL_AJAX_TOO_MANY", "%s matching records were found. Only the first %s are shown here.");
-define("NBILL_AJAX_RESULT_COUNT", "%s matching records were found.");
-define("NBILL_AJAX_NAME", "Name");
-define("NBILL_AJAX_EMAIL", "E-Mail Address");
-define("NBILL_AJAX_LOCATION", "Location");
-define("NBILL_AJAX_SELECT_CONTACTS", "Check the box(es) next to the Contact(s) you want to assign, and click on either the 'Apply' or 'Save' toolbar button.");
-define("NBILL_AJAX_NAME_UNKNOWN", "[Name Unknown]");
-define("NBILL_AJAX_SELECT", "Select");
+define("NBILL_AJAX_NO_RESULTS", "Beklager, ingen treff.");
+define("NBILL_AJAX_TOO_MANY", "%s passende oppføringer ble funnet. Bare de første %s blir vist her.");
+define("NBILL_AJAX_RESULT_COUNT", "%s passende oppføringer ble funnet.");
+define("NBILL_AJAX_NAME", "Navn");
+define("NBILL_AJAX_EMAIL", "E-postadresse");
+define("NBILL_AJAX_LOCATION", "Sted");
+define("NBILL_AJAX_SELECT_CONTACTS", "Merk boks(ene) ved siden av kontakten(e) du ønsker å tildele(*oversettelse usikker), og klikk enten på knapp for 'Bruk' eller 'Lagre' i verktøylinjen.");
+define("NBILL_AJAX_NAME_UNKNOWN", "[Navn ukjent]");
+define("NBILL_AJAX_SELECT", "Velg");
