@@ -1,6 +1,6 @@
 <?php
 /**
-* Language file for the registration (license key) page
+* Language file for nBill
 * @version 1
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
