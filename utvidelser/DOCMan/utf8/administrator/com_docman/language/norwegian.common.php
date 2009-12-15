@@ -1,26 +1,27 @@
 <?php
 /**
- * DOCman 1.4.x - Joomla! Document Manager
- * @version $Id$
- * @package DOCman_1.4
- * @copyright (C) 2003-2007 The DOCman Development Team
- * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
- * @link http://www.joomlatools.org/ Official web site
- **/
-defined('_VALID_MOS') or die('Restricted access');
+ * @version		$Id$
+ * @category	DOCman
+ * @package		DOCman15
+ * @copyright	Copyright (C) 2003 - 2009 Johan Janssens and Mathias Verraes. All rights reserved.
+ * @license		GNU GPLv2 <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>
+ * @link     	http://www.joomladocman.org
+ */
+defined('_JEXEC') or die('Restricted access');
 
 /**
  * TRANSLATORS:
- * PLEASE CHANGE THE INFO BELOW
- *
- * Default Norwegian language file
- *
- * Creator:  Rune Rasmussen
- * Website:  http://www.syntaxerror.no/
- * E-mail:   nospam@syntaxerror.no
- * Revision: 1.4
- * Date:     September 2007
- **/
+ * PLEASE ADD THE INFO BELOW
+ */
+
+/**
+ * Language: Norwegian
+ * Creator: Rune Rasmussen
+ * Website: http://www.syntaxerror.no
+ * E-mail: nospam@syntaxerror.no
+ * Revision: 1.5
+ * Date: Desember 2009
+ */
 
 define ('_DM_DATEFORMAT_LONG', "%d.%m.%Y %H:%M"); // use PHP strftime Format, more info at http://php.net
 define ('_DM_DATEFORMAT_SHORT', "%d.%m.%Y");		 // use PHP strftime Format, more info at http://php.net
@@ -221,5 +222,3 @@ define('_DML_CMN_ORDERING', "Sortering");
 // Added DOCman 1.4 RC3
 define('_DML_HELP', "Hjelp");
 
-// Added DOCman 1.4.0.stable
-define('_DML_DONATE', "Bidra");
