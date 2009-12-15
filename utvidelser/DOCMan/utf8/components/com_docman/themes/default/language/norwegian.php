@@ -1,26 +1,30 @@
 <?php
 /**
- * DOCman 1.4.x - Joomla! Document Manager
- * @version $Id$
- * @package DOCman_1.4
- * @copyright (C) 2003-2007 The DOCman Development Team
- * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
- * @link http://www.joomlatools.org/ Official website
- **/
-defined('_VALID_MOS') or die('Restricted access');
+ * @version		$Id$
+ * @category	DOCman
+ * @package		DOCman15
+ * @copyright	Copyright (C) 2003 - 2009 Johan Janssens and Mathias Verraes. All rights reserved.
+ * @license		GNU GPLv2 <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>
+ * @link     	http://www.joomladocman.org
+ */
+defined('_JEXEC') or die('Restricted access');
 
 /**
- * Default Norwegian language file
- *
- * Creator:  Rune Rasmussen
- * Website:  http://www.syntaxerror.no/
- * Email:    nospam@syntaxerror.no
- * Revision: 1.4
- * Date:     September 2007
- **/
+ * TRANSLATORS:
+ * PLEASE ADD THE INFO BELOW
+ */
 
-define('_DML_TPL_DATEFORMAT_LONG','%d.%m.%Y %H:%M');
-define('_DML_TPL_DATEFORMAT_SHORT','%d.%m.%Y');
+/**
+ * Language: Norwegian
+ * Creator: Rune Rasmussen
+ * Website: http://www.syntaxerror.no
+ * E-mail: nospam@syntaxerror.no
+ * Revision: 1.5
+ * Date: December 2009
+ */
+
+define('_DML_TPL_DATEFORMAT_LONG', '%d/%m/%Y %H:%M');
+define('_DML_TPL_DATEFORMAT_SHORT', '%d/%m/%Y');
 
 // General
 define('_DML_TPL_FILES' 		, "Filer");
@@ -75,6 +79,7 @@ define('_DML_TPL_LINK' 		   	   , "Link til en fil på annen server");
 define('_DML_TPL_UPLOAD' 		   , "Last opp en fil fra din datamaskin");
 
 //Document tasks
+//DEPRECATED in v1.4.0RC1, use _DML_BUTTON instead (frontend lang file)
 define('_DML_TPL_DOC_DOWNLOAD' 	, "Last ned");
 define('_DML_TPL_DOC_VIEW' 		, "Se på");
 define('_DML_TPL_DOC_DETAILS' 	, "Detaljer");
@@ -88,6 +93,7 @@ define('_DML_TPL_DOC_UNPUBLISH'	, "Avpubliser");
 define('_DML_TPL_DOC_PUBLISH' 	, "Publiser");
 define('_DML_TPL_DOC_RESET' 	, "Tilbakestill");
 define('_DML_TPL_DOC_APPROVE' 	, "Godkjenn");
+// -- END DEPRECATED
 
 define('_DML_TPL_BACK' 		   , "Tilbake");
 
