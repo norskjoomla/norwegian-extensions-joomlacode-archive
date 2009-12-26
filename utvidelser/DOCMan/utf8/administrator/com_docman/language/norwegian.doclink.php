@@ -1,13 +1,13 @@
 <?php
 /**
- * DOCman 1.4.x - Joomla! Document Manager
- * @version $Id$
- * @package DOCman_1.4
- * @copyright (C) 2003-2007 The DOCman Development Team
- * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
- * @link http://www.joomlatools.org/ Official web site
- **/
-defined('_VALID_MOS') or die('Restricted access');
+ * @version		$Id$
+ * @category	DOCman
+ * @package		DOCman15
+ * @copyright	Copyright (C) 2003 - 2009 Johan Janssens and Mathias Verraes. All rights reserved.
+ * @license		GNU GPLv2 <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>
+ * @link     	http://www.joomladocman.org
+ */
+defined('_JEXEC') or die('Restricted access');
 
 /**
  * TRANSLATORS:
