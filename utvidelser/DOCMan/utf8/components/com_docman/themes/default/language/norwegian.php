@@ -23,8 +23,8 @@ defined('_JEXEC') or die('Restricted access');
  * Date: December 2009
  */
 
-define('_DML_TPL_DATEFORMAT_LONG', '%d/%m/%Y %H:%M');
-define('_DML_TPL_DATEFORMAT_SHORT', '%d/%m/%Y');
+define('_DML_TPL_DATEFORMAT_LONG', '%d.%m.%Y %H:%M');
+define('_DML_TPL_DATEFORMAT_SHORT', '%d.%m.%Y');
 
 // General
 define('_DML_TPL_FILES' 		, "Filer");
