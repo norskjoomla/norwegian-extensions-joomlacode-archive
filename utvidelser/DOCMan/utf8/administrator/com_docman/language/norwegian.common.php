@@ -222,3 +222,5 @@ define('_DML_CMN_ORDERING', "Sortering");
 // Added DOCman 1.4 RC3
 define('_DML_HELP', "Hjelp");
 
+// Added DOCman 1.4.0.stable
+define('_DML_DONATE', "Bidra");
