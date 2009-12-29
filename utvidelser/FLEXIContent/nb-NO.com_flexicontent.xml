@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="language">
+	<name>Norsk bokmål</name>
+	<tag>nb-NO</tag>
+	<version>1.0 B7</version>
+	<creationDate>2009-12-29</creationDate>
+	<author>Joomlainorge</author>
+	<authorEmail>info@joomlainorge.no</authorEmail>
+	<authorUrl>www.joomlainorge.no</authorUrl>
+	<copyright></copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description></description>
+	<site>
+		<files folder="site">	
+			<filename>nb-NO.com_flexicontent.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_checkbox.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_checkboximage.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_core.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_date.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_email.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_file.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_image.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_radio.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_radioimage.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_select.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_selectmultiple.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_text.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_textarea.ini</filename>
+			<filename>nb-NO.plg_flexicontent_fields_weblink.ini</filename>
+			<filename>nb-NO.plg_search_flexisearch.ini</filename>
+			<filename>nb-NO.plg_system_flexisystem.ini</filename>
+		</files>
+	</site>
+	<administration>
+		<files folder="administration">
+		<filename>nb-NO.com_flexicontent.ini</filename>
+		</files>
+	</administration>
+</install>
