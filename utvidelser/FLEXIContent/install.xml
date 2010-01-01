@@ -1,21 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<install version="1.5" client="both" type="language" method="install">
-	<name>Norsk bokmål</name>
+<?xml version="1.0" encoding="utf-8"?>
+<install type="language" version="1.5" client="both" method="upgrade">
+	<name>FLEXIcontent Norwegian</name>
 	<tag>nb-NO</tag>
-	<version>1.0 B5</version>
-	<creationDate>2009-12-29</creationDate>
-	<author>Joomlainorge</author>
-	<authorEmail>info@joomlainorge.no</authorEmail>
-	<authorUrl>www.joomlainorge.no</authorUrl>
-	<copyright></copyright>
+	<creationDate>2010-01-01</creationDate>
+	<author>Joomla! i Norge</author>
+	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+	<authorUrl>http://www.joomlainorge.no</authorUrl>
+	<copyright>Copyright (C) 2009 - 2010 Joomla! i Norge. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<description><![CDATA[Norske språkfiler (bokmål) for JoomlaPack brukerside og administrasjon.<br/>
-				 Opphav: 2005 - 2009, <a href="http://www.joomlainorge.no/" target="_blank">Foreningen Joomla! i Norge</a><br/>
-				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a><br /><br />
-                                 Bidra: Om du har stor nytte av disse språkfilene og ønsker å bidra til at foreningens kan fortsette sitt arbeide, 
-                                 med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/bidra/hvordan_bidra/" target="_blank">besøk våre FAQ-sider</a> for mer informasjon.]]</description>
+	<description>Norwegian bokmaal language pack for FLEXIcontent</description>
+
 	<administration>
-		<files folder="admin">	
+		<files folder="admin">
 			<filename>nb-NO.com_flexicontent.ini</filename>
 			<filename>nb-NO.plg_flexicontent_fields_checkbox.ini</filename>
 			<filename>nb-NO.plg_flexicontent_fields_checkboximage.ini</filename>
@@ -35,10 +31,10 @@
 			<filename>nb-NO.plg_system_flexisystem.ini</filename>
 		</files>
 	</administration>
+  
 	<site>
 		<files folder="site">
-		<filename>nb-NO.com_flexicontent.ini</filename>
-		</files>
+			<filename>nb-NO.com_flexicontent.ini</filename>
+  		</files>
 	</site>
-	<params />
 </install>
