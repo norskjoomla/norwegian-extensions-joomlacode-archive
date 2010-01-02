@@ -7,3 +7,7 @@ Filen plasseres i ./components/language/norwegian
 Joomla!-versjon : 1.0.x og 1.5
 
 UTF-8 vil bli lagt til så snart alt er oversatt.  Som en foreløpig løsning: Åpne filen i en editor som kan skifte Character Encoding til UTF-8
+
+2.1.2010
+
+Kjørt diff til versjon 2.2.x_2.2.7.441
