@@ -37,10 +37,10 @@ $lang_info = array (
 	,'locale' => array('no','norwegian') // Standard locale alternatives for a specific language. For reference, go to: http://www.php.net/manual/en/function.setlocale.php
 	,'charset' => 'UTF-8' // For reference, go to : http://www.w3.org/International/O-charset-lang.html
 	,'direction' => 'ltr' // 'ltr' for Left to Right. 'rtl' for Right to Left languages such as Arabic.
-	,'author' => 'Jeanette, Knut Carlsen'
-	,'author_email' => 'jeanette@bewebbed.no, knut.carlsen@joocom.no'
-	,'author_url' => 'http://www.bewebbed.no, http://joocom.no'
-	,'transdate' => '12/19/2006, 19.6.2009'
+	,'author' => 'Jeanette'
+	,'author_email' => 'jeanette@bewebbed.no'
+	,'author_url' => 'http://www.bewebbed.no'
+	,'transdate' => '12/19/2006'
 	);
 
 	$lang_general = array (
@@ -67,26 +67,30 @@ $lang_info = array (
 	,'active' => 'Aktiv'
 	,'not_active' => 'Inaktiv'
 	,'today' => 'Idag'
-	,'signature' => 'Drevet av %s'
+	,'signature' => 'Powered by %s'
 	,'expand' => 'Åpne'
 	,'collapse' => 'Lukke'
-	,'any_calendar' => 'Vis'
-	
+	,'any_calendar' => 'Show all calendars'
+	,'noon' => 'noon'
+  ,'midnight' => 'midnight'
+  ,'am' => 'am'
+  ,'pm' => 'pm'
+
 	);
 
 	// Date formats, For reference, go to : http://www.php.net/manual/en/function.strftime.php
 	$lang_date_format = array (
 	'full_date' => '%A, %B %d, %Y' // e.g. Wednesday, June 05, 2002
-	,'full_date_time_24hour' => '%A, %d. %B, %Y %H:%M' // e.g. Wednesday, June 05, 2002 At 21:05
-	,'full_date_time_12hour' => '%A, %d. %B, %Y at %I:%M %p' // e.g. Wednesday, June 05, 2002 At 9:05 pm
+	,'full_date_time_24hour' => '%A, %B %d, %Y At %H:%M' // e.g. Wednesday, June 05, 2002 At 21:05
+	,'full_date_time_12hour' => '%A, %B %d, %Y At %I:%M %p' // e.g. Wednesday, June 05, 2002 At 9:05 pm
 	,'day_month_year' => '%d-%b-%Y' // e.g 10-Sep-2004
 	,'local_date' => '%c' // Preferred date and time representation for current language
-	,'mini_date' => '%a. %d. %b. %Y'
+	,'mini_date' => '%a. %d %b, %Y'
 	,'month_year' => '%B %Y'
 	,'day_of_week' => array('Søndag','Mandag','Tisdag','Onsdag','Torsdag','Fredag','Lørdag')
 	,'months' => array('Januar','Februar','Mars','April','Mai','Juni','Juli','August','September','Oktober','November','Desember')
 	// Jcal Pro 2.1.x
-  ,'date_entry' => '%d.%m.%Y'
+  ,'date_entry' => '%Y-%m-%d'
 	);
 
 	$lang_system = array (
@@ -110,15 +114,14 @@ $lang_info = array (
 	,'new_event_subject' => 'Ny aktivitet %s'
 	,'event_notification_failed' => 'En feil oppstod når notifikasjons-epost skulle sendes !'
 	
-  ,'show_required_privileges' => 'Ditt brukernivå er %s, det må minst være %s'  // JCal 2.1
-  ,'template_block_not_found' => '<b>Feil i mal<b><br />Fant ikke blokk \'%s\' i :<br /><pre>%s</pre>'
-  ,'template_file_not_found' => '<b>JCAL Pro kritisk feil</b>:<br />Ikke istand til å laste malfilen %s!</b>'
+  ,'show_required_privileges' => 'Your user level is %s, while this requires to be %s'  // JCal 2.1
+  ,'template_block_not_found' => '<b>Template error<b><br />Failed to find block \'%s\' in :<br /><pre>%s</pre>'
+  ,'template_file_not_found' => '<b>JCAL Pro critical error</b>:<br />Unable to load template file %s!</b>'
 	);
 
 	// Message body for new event email notification
 	$lang_system['event_notification_body'] = <<<EOT
 Følgende aktivitet er sendt {CALENDAR_NAME}
-og trenger godkjenning:
 
 Tittel: "{TITLE}"
 Dato: "{DATE}"
@@ -129,12 +132,9 @@ eller kopiere og lime inn i din nettleser.
 
 {LINK}
 
-(NB! Du må være pålogget som administrator for at 
-linken skal virke.)
+Mvh,
 
-Med vennlig hilsen
-
-Ansvarlig for {CALENDAR_NAME}
+Aktivitetskalenderen {CALENDAR_NAME}
 
 EOT;
 
@@ -161,6 +161,8 @@ EOT;
 	,'yearly_view' => 'Årsformat'
 	,'categories_view' => 'Kategorier'
 	,'search_view' => 'Søk'
+	,'ical_view' => 'get as iCal'
+	,'print_view' => 'Print'
 	);
 
 	// ======================================================
@@ -205,20 +207,20 @@ EOT;
 	,'repeat_end_date_count' => 'Avslutt etter %s forekomster'
 	,'repeat_end_date_until' => 'Gjenta til'
 	// new JCalpro 2
-	,'repeat_event_detached' => 'Denne aktiviteten var del av en repeterende serie men har blitt endret og skilt av fra denne.'
-	,'repeat_event_detached_short' => 'Skilt ut fra den repeterende serien'
-	,'repeat_event_not_detached' => 'Denne aktiviteten er del av en repeterende serie'
-	,'repeat_edit_parent_event' => 'Rediger overordnet aktivitet'
-	,'deleted_child_events' => 'Slettet %d tidligere repetisjoner'
-	,'created_child_events' => 'Opprettet totalt %d repetisjoner av aktivitet %s. Vis denne aktiviteten ved å <a href="%s" >klikke her.</a>.'  // Jcal Pro 2.1.x
-
-	// Other details
+	,'repeat_event_detached' => 'This event was part of a repetition series, but has been modified and separated from it'
+	,'repeat_event_detached_short' => 'Detached from recurrence'
+	,'repeat_event_not_detached' => 'This event is part of a repetition series'
+	,'repeat_edit_parent_event' => 'Edit parent event'
+	,'deleted_child_events' => 'Deleted %d previous repetitions'
+	,'created_child_events' => 'Created a total of %d repetitions of event %s. View this event by <a href="%s" >clicking here</a>.'  // Jcal Pro 2.1.x
+	
+// Other details
 	,'other_details_label' => 'Andre detaljer'
 	,'picture_file' => 'Bildefil'
 	,'file_upload_info' => '(Maksimal størrelse: %d Kb  - Gyldige filtyper : %s )'
 	,'del_picture' => 'Slett nåværende bilde ?'
 	// Administrative options
-	,'admin_options_label' => 'Administrative valg'
+	,'admin_options_label' => 'Administrativa valg'
 	,'auto_appr_event' => 'Aktivitet godkjent'
 
 	// Error messages
@@ -226,52 +228,52 @@ EOT;
 	,'no_desc' => 'Du må oppgi en beskrivelse!'
 	,'no_cat' => 'Du må velge en kategori fra menyen!'
 	,'date_invalid' => 'Du må oppgi en gyldig dato!'
-	,'end_days_invalid' => 'Verdien inntastet i \'Dager\' feltet er ikke gyldig!'
-	,'end_hours_invalid' => 'Verdien inntastet i \'Timer\' feltet er ikke gyldig!'
-	,'end_minutes_invalid' => 'Verdien inntastet i \'Minutter\' feltet er ikke gyldig!'
-	,'move_image_failed' => 'The system failed to properly upload the image. Please make sure it is the proper type and not too large, or notify the site administrator.'
-,'non_valid_dimensions' => 'Bildets bredde eller høyde er større enn %s pixels!'
+	,'end_days_invalid' => 'Verdien indtastet i \'Dager\' feltet er ikke gyldig!'
+	,'end_hours_invalid' => 'Verdien indtastet i \'Timer\' feltet er ikke gyldig!'
+	,'end_minutes_invalid' => 'Verdien indtastet i \'Minutter\' feltet er ikke gyldig!'
+	,'move_image_failed' => 'Systemet kunne ikke uploade bildet ordentlig. Vennligst sjekk at det er den rette størrelse og i et gyldig format, eller kontakt administratoren.'
+	,'non_valid_dimensions' => 'Bildets bredde eller høyde er større enn %s pixels!'
 
 	,'recur_val_1_invalid' => 'Verdien inntastet i \'gjenta interval\' er ikke gyldig. Verdien skal være et tall større enn \'0\'!'
 	,'recur_end_count_invalid' => 'Verdien inntastet i \'antall gjentagelser\' er ikke gyldig. Verdien skal være et tall større enn \'0\'!'
 	,'recur_end_until_invalid' => 'Datoen i \'gjenta inntil\' skal være etter startdatoen!'
-	,'no_recur_end_date' => 'En repeterende aktivitet skal ha en sluttdato eller et antall forekomster'
+	,'no_recur_end_date' => 'A recurring event should have an end-date or a number of occurences'
 	
-	// new JCalpro 2
-	,'failed_existing_event_update' => 'Databasefeil ved oppdatering av aktiviteten %s (%d)'
-	,'failed_child_event_deletion' => 'Databasefeil ved sletting av underordnede aktiviteter av aktivitet %s (%d)'
-	,'failed_child_event_creation' => 'Databasefeil ved opprettelse av underordnede aktiviteter av aktivitet %s (%d)'
-	,'no_calendar' => 'Du må velge en kalender fra nedtrekksmenyen!'
-	,'event_cal' => 'Kalender'
-	,'private_event' => 'Privat aktivitet'
-	,'private_event_read_only' => 'Privat aktivitet, andre kan lese'
-	,'public_event' => 'Offentlig aktivitet'
-	,'privacy' => 'Privat'
-	,'failed_event_creation' => 'Databasefeil ved opprettelse av aktiviteten'
+// new JCalpro 2
+	,'failed_existing_event_update' => 'Database error during update of event %s (%d)'
+	,'failed_child_event_deletion' => 'Database error deleting children of event %s (%d)'
+	,'failed_child_event_creation' => 'Database error creating children of event %s (%d)'
+	,'no_calendar' => 'You must select a calendar from the drop down menu !'
+	,'event_cal' => 'Calendar'
+	,'private_event' => 'Private event'
+	,'private_event_read_only' => 'Private event, others can read'
+	,'public_event' => 'Public event'
+	,'privacy' => 'Privacy'
+	,'failed_event_creation' => 'Database error while trying to create this event'
 	// Misc. messages JCal 2.1
 	,'submit_event_pending' => 'Din aktivitet er sendt. Den vil ikke kunne ses i kalenderen før den er godkjent av en administrator. Takk for ditt bidrag!'
-	,'submit_event_approved' => 'Din aktivitet er automatisk godkjent. Vis denne aktiviteten ved å <a href="%s" >klikke her.</a>. Takk for ditt bidrag!'
+	,'submit_event_approved' => 'Din aktivitet er automatisk godkjent. View this event by <a href="%s" >clicking here</a>. Takk for ditt bidrag!'
 	,'event_repeat_msg' => 'Denne aktiviteten gjentas'
 	,'event_no_repeat_msg' => 'Denne aktiviteten gjentas ikke'
-    ,'recur_start_date_invalid' => 'Start date is not valid. For a recurring event, start date must be on the first recurrence of the series (ie: if recurring every tuesday, start date has to be a tuesday)'
+  ,'recur_start_date_invalid' => 'Start date is not valid. For a recurring event, start date must be on the first recurrence of the series (ie: if recurring every tuesday, start date has to be a tuesday)'
   
   // new JCalPro 2.1
-  ,'repeat_daily' => 'Repeter daglig'
-  ,'repeat_weekly' => 'Repeter ukentlig'
-  ,'repeat_monthly' => 'Repeter månedlig'
-  ,'repeat_yearly' => 'Repeter årlig'
+  ,'repeat_daily' => 'Repeat daily'
+  ,'repeat_weekly' => 'Repeat weekly'
+  ,'repeat_monthly' => 'Repeat monthly'
+  ,'repeat_yearly' => 'Repeat yearly'
   ,'rec_weekly_on' => 'on :'
   ,'rec_monthly_on' => 'on the:'
   ,'rec_yearly_on' => 'on the:'
-  ,'rec_day_first' => 'første'
-  ,'rec_day_second' => 'andre'
-  ,'rec_day_third' => 'tredje'
-  ,'rec_day_fourth' => 'fjerde'
-  ,'rec_day_last' => 'siste'
-  ,'rec_day_day' => 'dag'
-  ,'rec_day_week_day' => 'ukedag'
-  ,'rec_day_weekend_day' => 'helgedag'
-  ,'rec_yearly_on_month_label' => 'i'
+  ,'rec_day_first' => 'first'
+  ,'rec_day_second' => 'second'
+  ,'rec_day_third' => 'third'
+  ,'rec_day_fourth' => 'fourth'
+  ,'rec_day_last' => 'last'
+  ,'rec_day_day' => 'day'
+  ,'rec_day_week_day' => 'week day'
+  ,'rec_day_weekend_day' => 'week-end day'
+  ,'rec_yearly_on_month_label' => 'in'
 
 	);
 
@@ -296,7 +298,7 @@ EOT;
 	,'next_week' => 'Neste uke'
 	,'previous_week' => 'Forrige uke'
 	,'selected_week' => 'Uke %d'
-	,'no_events' => 'Det er ingen aktiviteter denne uken'
+	,'no_events' => 'Det er ingen aktiviteter denne uke'
 	);
 
 	// ======================================================
@@ -319,9 +321,9 @@ EOT;
 	,'next_month' => 'Neste måned'
 	,'previous_month' => 'Forrige måned'
 	,'contact_info' => 'Kontaktinformasjon'
-	,'contact_email' => 'E-post'
-	,'contact_url' => 'Nettside'
-	,'no_events' => 'Det er ingen aktiviteter denne måneden'
+	,'contact_email' => 'E-mail'
+	,'contact_url' => 'Webside'
+	,'no_events' => 'Det er ingen aktiviteter denne måned'
 	);
 
 	// ======================================================
@@ -336,8 +338,8 @@ EOT;
 	,'event_end_date' => 'Inntil'
 	,'event_duration' => 'Varighet'
 	,'contact_info' => 'Kontaktinformasjon'
-	,'contact_email' => 'E-post'
-	,'contact_url' => 'Nettside'
+	,'contact_email' => 'E-mail'
+	,'contact_url' => 'Webside'
 	,'no_event' => 'Det er ingen aktiviteter'
 	,'stats_string' => '<strong>%d</strong> aktiviteter i alt'
 	,'edit_event' => 'Rediger aktivitet'
@@ -408,7 +410,7 @@ EOT;
 	'user_name' => 'Brukernavn',
 	'user_pass' => 'Passord',
 	'user_pass_confirm' => 'Bekreft passord',
-	'user_email' => 'E-postadresse',
+	'user_email' => 'E-mail-adresse',
 	'group_label' => 'Gruppemedlemsskap',
 	// Andre Oplysninger
 	'other_details_label' => 'Andre detaljer',
@@ -420,15 +422,16 @@ EOT;
 	'user_occupation' => 'Yrke',
 	// Misc.
 	'select_language' => 'Velg språk',
-	'edit_profile_success' => 'Din profil er oppdatert',
+	'edit_profile_success' => 'Din profil er oppdateret',
 	'update_pass_info' => 'La passordfeltene være tomme, hvis du ikke vil endre ditt nåværende passord',
 	// Error messages
 	'invalid_password' => 'Oppgi et passord som utelukkende består av bokstaver og tall, og som er mellom 4 og 16 tegn langt!',
 	'password_is_username' => 'Passord skal være forskellig fra brukernavnet!',
 	'password_not_match' =>'De inntastede passord er forskellige',
-	'invalid_email' => 'Du skal oppgi en gyldig e-postadresse!',
-	'email_exists' => 'En annen bruker er allerede registrert med den e-postadressen du har oppgitt. Velg en annen e-postadresse!',
-	'no_email' => 'Du må oppgi en e-postadresse!',
+	'invalid_email' => 'Du skal oppgi en gyldig e-mail-adresse!',
+	'email_exists' => 'En anden bruker er allerede registreret med den e-mail-adresse du har oppgitt. Velg en annen e-mail-adresse!',
+	'no_email' => 'Du må oppgi en e-mail-adresse!',
+    'invalid_email' => 'You must provide a valid email address !',
 	'no_password' => 'Du må oppgi et passord!'
 	);
 
@@ -443,7 +446,7 @@ EOT;
 	// Step 1: Terms & Conditions
 	'terms_caption' => 'Brukerbetingelser',
 	'terms_intro' => 'For å fortsette, må du godkjenne følgende:',
-	'terms_message' => 'Les reglene under. Hvis du kan acceptere dem og ønsker at fortsætte med registreringen, så klik på "Godkend"-knappen herunder. For at afbryde registreringen, tryk på din \'Tilbage\'-knap i din browser.<br /><br />Bemærk venligst at vi ikke er ansvarlige for begivenheder indtastet af brugerne. Vi er ikke ansvarlige for nøjagtigheden, fuldstændigheden eller brugbarheden af de offentliggjorte begivenheder, ej heller for indholdet af begivenhederne.<br /><br />Teksterne udtrykker forfatteren af begivenhedernes synspunkt, ikke nødvendigvis denne kalenderapplikations synspunkt. Enhver bruger, som finder at en offentliggjort begivenhed er anstødelig, opfordres til straks at kontakte os via e-post. Vi har mulighed for at slette anstødeligt indhold, og vi bestræber os på at gøre dette indenfor en rimelig tidsramme, såfremt vi afgør at sletning er nødvendig.<br /><br />Du samtykker i forbindelse med brugen af denne service i, at du ikke vil bruge denne kalenderapplikation til at offentliggøre materiale, som du ved er usand og/eller ærekrænkende, unøjagtig, stødende, vulgært, hadefuldt, chikanerende, uanstændigt, blasfemisk, seksuelt orienteret, truende, krænker privatlivets fred eller på anden måder krænker danske love.<br/><br/>Du samtykker i, at du ikke vil offentliggøre copyright-beskyttet materiale medmindre rettighederne ejes af dig eller af %s.',
+	'terms_message' => 'Læs venligst reglerne herunder. Hvis du kan acceptere dem og ønsker at fortsætte med registreringen, så klik på "Godkend"-knappen herunder. For at afbryde registreringen, tryk på din \'Tilbage\'-knap i din browser.<br /><br />Bemærk venligst at vi ikke er ansvarlige for begivenheder indtastet af brugerne. Vi er ikke ansvarlige for nøjagtigheden, fuldstændigheden eller brugbarheden af de offentliggjorte begivenheder, ej heller for indholdet af begivenhederne.<br /><br />Teksterne udtrykker forfatteren af begivenhedernes synspunkt, ikke nødvendigvis denne kalenderapplikations synspunkt. Enhver bruger, som finder at en offentliggjort begivenhed er anstødelig, opfordres til straks at kontakte os via e-mail. Vi har mulighed for at slette anstødeligt indhold, og vi bestræber os på at gøre dette indenfor en rimelig tidsramme, såfremt vi afgør at sletning er nødvendig.<br /><br />Du samtykker i forbindelse med brugen af denne service i, at du ikke vil bruge denne kalenderapplikation til at offentliggøre materiale, som du ved er usand og/eller ærekrænkende, unøjagtig, stødende, vulgært, hadefuldt, chikanerende, uanstændigt, blasfemisk, seksuelt orienteret, truende, krænker privatlivets fred eller på anden måder krænker danske love.<br/><br/>Du samtykker i, at du ikke vil offentliggøre copyright-beskyttet materiale medmindre rettighederne ejes af dig eller af %s.',
 	'terms_button' => 'Godkjenn',
 
 	// Account Info
@@ -451,7 +454,7 @@ EOT;
 	'user_name' => 'Brukernavn',
 	'user_pass' => 'Passord',
 	'user_pass_confirm' => 'Godkjenn passord',
-	'user_email' => 'E-post',
+	'user_email' => 'E-mail',
 	// Andre Oplysninger
 	'other_details_label' => 'Andre oplysninger',
 	'first_name' => 'Fornavn',
@@ -466,7 +469,7 @@ EOT;
 	'stats_string2' => '<strong>%d</strong> brukere på <strong>%d</strong> side(r)',
 	// Misc.
 	'reg_nomail_success' => 'Takk for din registrering.',
-	'reg_mail_success' => 'En e-post med informasjon om hvordan du aktiverer din konto er blitt sendt til den e-postadresse du oppga.',
+	'reg_mail_success' => 'En e-mail med informasjon om hvordan du aktiverer din konto er blitt sendt til den e-mail-adresse du oppga.',
 	'reg_activation_success' => 'Gratulerer! Din profil er nå aktiv og du kan logge inn med ditt brukernavn og passord. Takk for din registrering.',
 	// Mail messages
 	'reg_confirm_subject' => 'Registrering hos %s',
@@ -474,20 +477,20 @@ EOT;
 	// Error messages
 	'no_username' => 'Du må oppgi et brukernavn!',
 	'invalid_username' => 'Oppgi et brukernavn, som kun består av bokstaver og tall, og er mellom 4 og 30 tegn langt!',
-	'username_exists' => 'Brukernavnet du valgte er opptatt. Tast inn et nytt brukernavn!',
+	'username_exists' => 'Brukernavnet du valgte er opptatt. Tast inn et nyyt brukernavn!',
 	'no_password' => 'Du må oppgi et passord!',
 	'invalid_password' => 'Tast inn passord, som kun består af bokstaver og tall, og er mellom 4 og 16 tegn langt!',
 	'password_is_username' => 'Passordet skal være forskjellig fra brukernavnet!',
 	'password_not_match' =>'Inntastede passord er forskellige',
-	'no_email' => 'Du må oppgi en e-postadresse!',
-	'invalid_email' => 'Du må oppgi en gyldig e-postadresse!',
-	'email_exists' => 'En annen bruker er registreret med den e-postadresse du oppga. Tast inn en annen e-postadresse.!',
+	'no_email' => 'Du må oppgi en e-mail!',
+	'invalid_email' => 'Du må oppgi en gyldig e-mail-adresse!',
+	'email_exists' => 'En annen bruker er registreret med den e-mail-adresse du oppga. Tast inn en annen e-mail-adresse.!',
 	'delete_user_failed' => 'Denne profilen kan ikke slettes',
 	'no_users' => 'Det er ingen brukerprofiler!',
 	'already_logged' => 'Du er allerede logget inn som medlem!',
 	'registration_not_allowed' => 'Brukerregistrering er ikke aktiv!',
-	'reg_email_failed' => 'Der oppsto en feil under avsendelse av e-post for aktivering!',
-	'reg_activation_failed' => 'Der oppsto en feil under godkjennelsen av aktiveringen'
+	'reg_email_failed' => 'Der skjedde en feil under avsendelse af aktiveringsmail!',
+	'reg_activation_failed' => 'Der skjedde en feil under godkjennelsen av aktiveringen'
 
 	);
 	// Message body for email activation
@@ -504,7 +507,7 @@ eller kopiere det til din webbrowser
 
 Vennlig hilsen
 
-Administrator i {CALENDAR_NAME}
+Administratoren i {CALENDAR_NAME}
 
 EOT;
 
@@ -535,8 +538,8 @@ EOT;
 	$lang_event_admin_data = array(
 	'section_title' => 'Aktivitetsadministrator',
 	'events_to_approve' => 'Aktivitetsadministrator: Aktiviteter som avventer godkjennelse',
-	'upcoming_event' => 'Aktivitetsadministrator: Kommende aktiviteter',
-	'past_event' => 'Aktivitetsadministrator: Tidligere aktiviteter',
+	'upcoming_event' => 'Aktivitetsadministrator: Kommende begivenheter',
+	'past_event' => 'Aktivitetsadministrator: Tidligere begivenheter',
 	'add_event' => 'Legg til ny aktivitet',
 	'edit_event' => 'Rediger aktivitet',
 	'view_event' => 'Vis aktivitet',
@@ -544,9 +547,9 @@ EOT;
 	'update_event' => 'Oppdater aktivitetsinformasjon',
 	'delete_event' => 'Slett aktivitet',
 	'events_label' => 'Aktiviteter',
-	'auto_approve' => 'Godkjenn automatisk',
+	'auto_approve' => 'Auto-godkjenn',
 	'date_label' => 'Dato',
-	'actions_label' => 'Handlinger',
+	'actions_label' => 'Aksjoner',
 	'events_filter_label' => 'Sorter aktiviteter',
 	'events_filter_options' => array('Vis alle aktiviteter','Vis ikke-godkjente aktiviteter','Vis kommende aktiviteter','Vis tidligere aktiviteter'),
 	'picture_attached' => 'Bilde vedlagt',
@@ -556,8 +559,8 @@ EOT;
 	'event_end_date' => 'Inntil',
 	'event_duration' => 'Varighet',
 	'contact_info' => 'Kontaktinformasjon',
-	'contact_email' => 'E-post',
-	'contact_url' => 'Nettside',
+	'contact_email' => 'E-mail',
+	'contact_url' => 'Webside',
 	// General Info
 	// Begivenhed form
 	'edit_event_title' => 'Aktivitet: \'%s\'',
@@ -565,12 +568,12 @@ EOT;
 	'event_start_date' => 'Dato',
 	'event_end_date' => 'Inntil',
 	'contact_info' => 'Kontaktinformasjon',
-	'contact_email' => 'E-post',
-	'contact_url' => 'Nettside',
+	'contact_email' => 'E-mail',
+	'contact_url' => 'Webside',
 	'no_event' => 'Det finnes ingen aktiviteter',
-	'stats_string' => '<strong>%d</strong> aktiviteter ialt',
+	'stats_string' => '<strong>%d</strong> Aktiviteter ialt',
 	// Stats
-	'stats_string1' => '<strong>%d</strong> aktivitet(er)',
+	'stats_string1' => '<strong>%d</strong> Begivenhed(er)',
 	'stats_string2' => 'Total: <strong>%d</strong> Aktiviteter på <strong>%d</strong> side(r)',
 	// Misc.
 	'add_event_success' => 'Ny aktivitet lagt til',
@@ -596,7 +599,7 @@ EOT;
 	'no_events' => 'Det er ingen aktiviteter!',
 	'recur_val_1_invalid' => 'Verdien inntastet i \'Gjenta intervall\' er ikke gyldig. Det må være et tall større end \'0\'!',
 	'recur_end_count_invalid' => 'Verdien inntastet i \'Antall gjentagelser\' er ikke gyldig. Det må være et tall større end \'0\'!',
-	'recur_end_until_invalid' => 'Verdien inntastet i \'Gjenta inntil\', er ikke gyldig. Det må være en dato etter startdatoen!'
+	'recur_end_until_invalid' => 'Verdien inntastet i \'Gjentag inntil\', er ikke gyldig. Det må være en dato etter startdatoen!'
 
 	);
 
@@ -624,10 +627,10 @@ EOT;
 	'cat_color' => 'Farve',
 	'pick_color' => 'Velg en farve!',
 	'status_label' => 'Status',
-	'category_label' => 'Kategoritillatelser',
-		// Stats
+	'category_label' => 'Category permissions',
+	// Stats
 	'stats_string1' => '<strong>%d</strong> kategorier',
-	'stats_string2' => 'Aktiv: <strong>%d</strong>&nbsp;&nbsp;&nbsp;Totalt: <strong>%d</strong>&nbsp;&nbsp;&nbsp;på <strong>%d</strong> side(r)',
+	'stats_string2' => 'Aktiv: <strong>%d</strong>&nbsp;&nbsp;&nbsp;Total: <strong>%d</strong>&nbsp;&nbsp;&nbsp;på <strong>%d</strong> side(r)',
 	// Misc.
 	'add_cat_success' => 'Ny kategori lagt til',
 	'edit_cat_success' => 'Kategori oppdatert',
@@ -642,10 +645,10 @@ EOT;
 	'delete_cat_failed' => 'Kategorien kunne ikke slettes',
 	'no_cats' => 'Det er ingen kategorier!',
 	'cat_has_events' => 'Kategori % inneholder %d aktivitet(er) og kan derfor ikke slettes!<br>Slett resterende aktiviteter og prøv igen!'
-	,'default' => 'Bruk standard fra innstillingene'
-	,'no_cats_to_delete' => 'Det er ingen flere kategorier igjen for sletting'
-	
-);
+	,'default' => 'Use default from settings'
+	,'no_cats_to_delete' => 'There is no category left to delete'
+
+	);
 
 	// JCAL pro 2
 	// ======================================================
@@ -655,40 +658,40 @@ EOT;
 	if (defined('ADMIN_CALS_PHP'))
 
 	$lang_cal_admin_data = array(
-	'section_title' => 'Kalenderadministrasjon',
-	'add_cal' => 'Opprett kalender',
-	'edit_cal' => 'Rediger kalender',
-	'update_cal' => 'Oppdater kalenderinfo',
-	'delete_cal' => 'Slett kalender',
-	'events_label' => 'Aktiviteter',
-	'visibility' => 'Synbarhet',
-	'actions_label' => 'Handlinger',
-	'users_label' => 'Brukere',
-	'admins_label' => 'Admin.',
+	'section_title' => 'Calendars Administration',
+	'add_cal' => 'Add New Calendar',
+	'edit_cal' => 'Edit Calendar',
+	'update_cal' => 'Update Calendar Info',
+	'delete_cal' => 'Delete Calendar',
+	'events_label' => 'Events',
+	'visibility' => 'Visibility',
+	'actions_label' => 'Actions',
+	'users_label' => 'Users',
+	'admins_label' => 'Admins',
 	// General Info
-	'general_info_label' => 'Generell informasjon',
-	'cal_name' => 'Kalendernavn',
-	'cal_desc' => 'Kalenderbeskrivelse',
+	'general_info_label' => 'General Information',
+	'cal_name' => 'Calendar Name',
+	'cal_desc' => 'Calendar Description',
 	'status_label' => 'Status',
-	'calendar_label' => 'Kalendertillatelser',
+	'calendar_label' => 'Calendar permissions',
 	// Stats
-	'stats_string1' => '<strong>%d</strong> kalendere',
-	'stats_string2' => 'Aktiv: <strong>%d</strong>&nbsp;&nbsp;&nbsp;Total: <strong>%d</strong>&nbsp;&nbsp;&nbsp;på <strong>%d</strong> side(r)',
+	'stats_string1' => '<strong>%d</strong> calendars',
+	'stats_string2' => 'Active: <strong>%d</strong>&nbsp;&nbsp;&nbsp;Total: <strong>%d</strong>&nbsp;&nbsp;&nbsp;on <strong>%d</strong> page(s)',
 	// Misc.
-	'add_cal_success' => 'Ny kalender opprettet',
-	'edit_cal_success' => 'Kalender ble oppdatert',
-	'delete_confirm' => 'Ønsker du å slette denne kalenderen?',
-	'delete_cal_success' => 'Kalender ble slettet',
-	'active_label' => 'Aktiv',
-	'not_active_label' => 'Inaktiv',
+	'add_cal_success' => 'New calendar added succesfully',
+	'edit_cal_success' => 'Calendar updated succesfully',
+	'delete_confirm' => 'Are you sure you want to delete this calendar ?',
+	'delete_cal_success' => 'Calendar deleted succesfully',
+	'active_label' => 'Active',
+	'not_active_label' => 'Not Active',
 	// Error messages
-	'no_cal_name' => 'Fu må angi et navn for denne kalenderen !',
-	'no_cal_desc' => 'Du må angi en beskrivelse for denne kalenderen !',
-	'delete_cal_failed' => 'Denne kalenderen kan ikke slettes',
-	'no_cals' => 'Det er ingen kalendere som kan vises !',
-	'cal_has_events' => 'Kalender #%d inneholder %d aktivitet(er) og kan derfor ikke slettes. Slett gjenstående aktiviteter og prøv igjen',
-	'default' => 'Bruk standard fra innstillingene'
-	,'no_cals_to_delete' => 'Det er ikke flere kalendere som kan slettes'
+	'no_cal_name' => 'You must provide a name for this calendar !',
+	'no_cal_desc' => 'You must provide a description for this calendar !',
+	'delete_cal_failed' => 'This calendar cannot be deleted',
+	'no_cals' => 'There are no calendars to display !',
+	'cal_has_events' => 'Calendar #%d contains %d event(s) and therefore cannot be deleted! Please delete remaining events under this calendar and try again!',
+	'default' => 'Use default from settings'
+	,'no_cals_to_delete' => 'There is no calendar left to delete'
 	);
 
 	// ======================================================
@@ -712,7 +715,7 @@ EOT;
 	'user_name' => 'Brukernavn',
 	'user_pass' => 'Passord',
 	'user_pass_confirm' => 'Bekreft passord',
-	'user_email' => 'E-post',
+	'user_email' => 'E-mail',
 	'group_label' => 'Gruppemedlemskap',
 	'status_label' => 'Brukerstatus',
 	// Andre Oplysninger
@@ -739,11 +742,11 @@ EOT;
 	'invalid_password' => 'Oppgi et passord, som består av tall og bokstaver, og er mellom 4 og 16 tegn langt!',
 	'password_is_username' => 'Passord skal være forskellig fra brukernavnet!',
 	'password_not_match' =>'De 2 oppgitte passord var forskellige',
-	'invalid_email' => 'Du må oppgi en gyldig e-postadresse!',
-	'email_exists' => 'En annen bruker er registreret med den e-postadresse du oppga. Oppgi en annen e-postadresse.!',
+	'invalid_email' => 'Du må oppgi en gyldig e-mail-adresse!',
+	'email_exists' => 'En annen bruker er registreret med den e-mail-adresse du oppga. Oppgi en annen e-mail-adresse.!',
 	'username_exists' => 'Brukernavnet er opptatt, vennligst velg et annet!',
-	'no_email' => 'Du må oppgi en e-postadresse!',
-	'invalid_email' => 'Du må oppgi en gyldig e-postadresse!',
+	'no_email' => 'Du må oppgi en e-mail-adresse!',
+	'invalid_email' => 'Du må oppgi en gyldig e-mail-adresse!',
 	'no_password' => 'Du må oppgi et passord!',
 	'no_group' => 'Velg en gruppe til denne brukeren!',
 	'delete_user_failed' => 'Denne profilen kan ikke slettes',
@@ -786,7 +789,7 @@ EOT;
 	'username_label' => 'Brukernavn',
 	'firstname_label' => 'Fornavn',
 	'lastname_label' => 'Etternavn',
-	'email_label' => 'E-post',
+	'email_label' => 'E-mail',
 	'last_access_label' => 'Siste login',
 	'edit_user' => 'Rediger bruker',
 	'delete_user' => 'Slett bruker',
@@ -815,15 +818,15 @@ EOT;
 	'section_title' => 'Kalenderinnstillinger'
 	// Links
 	,'admin_links_text' => 'Velg seksjon'
-	,'admin_links' => array('Hovedinnstillinger','Malinnstillinger','Oppdateringer')
+	,'admin_links' => array('Hovedinnstillinger','Templateinnstillinger','Oppdateringer')
 	// General Settings
-	,'general_settings_label' => 'Generell'
+	,'general_settings_label' => 'Hovedinnstillinger'
 	,'calendar_name' => 'Kalendernavn'
 	,'calendar_description' => 'Kalenderbeskrivelse'
-	,'calendar_admin_email' => 'E-postadresse for kalenderadm.'
-	,'cookie_name' => 'Navn på informasjonskapsler benyttet av dette skriptet'
-	,'cookie_path' => 'Stien på informasjonskapsler benyttet av dette skriptet'
-	,'debug_mode' => 'Aktiver feilsøkingsmodus'
+	,'calendar_admin_email' => 'Kalenderadministrators e-mail'
+	,'cookie_name' => 'Navn på cookie brukt af komponenten'
+	,'cookie_path' => 'Sti på cookie brukt af komponenten'
+	,'debug_mode' => 'Aktiver debug mode'
 	// Environment Settings
 	,'env_settings_label' => 'Miljøinnstillinger'
 	,'lang' => 'Språk'
@@ -831,21 +834,21 @@ EOT;
 	,'lang_native_name' => 'Navn'
 	,'lang_trans_date' => 'Oversatt dato'
 	,'lang_author_name' => 'Forfatter'
-	,'lang_author_email' => 'E-post'
-	,'lang_author_url' => 'Nettside'
+	,'lang_author_email' => 'E-mail'
+	,'lang_author_url' => 'Webside'
 	,'charset' => 'Landkode'
-	,'theme' => 'Mal'
-	,'theme_name' => 'Malnavn'
-	,'theme_date_made' => 'Opprettet den'
+	,'theme' => 'Tema'
+	,'theme_name' => 'Temanavn'
+	,'theme_date_made' => 'Laget den'
 	,'theme_author_name' => 'Forfatter'
-	,'theme_author_email' => 'E-post'
-	,'theme_author_url' => 'Nettside'
-	,'timezone' => 'Tidssone-forskyvning'
+	,'theme_author_email' => 'E-mail'
+	,'theme_author_url' => 'Webside'
+	,'timezone' => 'Use this timezone for DST calculation'
 	,'time_format' => 'Format for klokkeslett'
 	,'24hours' => '24 timer'
 	,'12hours' => '12 timer'
 	,'auto_daylight_saving' => 'Automatisk innstilling av sommertid'
-	,'main_table_width' => 'Bredde på hovedtabell (piksler eller %)'
+	,'main_table_width' => 'Bredde på hovedtabell (pixels eller %)'
 	,'day_start' => 'Ukedager starter med'
 	,'default_view' => 'Standardvisning'
 	,'search_view' => 'Tillat søking'
@@ -864,10 +867,10 @@ EOT;
 	// User Settings
 	,'user_settings_label' => 'Brukerinnstillinger'
 	,'allow_user_registration' => 'Tillat brukerregistreringer'
-	,'reg_duplicate_emails' => 'Tillat samme e-postadresse til flere brukere'
-	,'reg_email_verify' => 'Aktiver brukeraktivering gjennom e-post'
+	,'reg_duplicate_emails' => 'Tillat samme e-mail-adresse til flere brukere'
+	,'reg_email_verify' => 'Aktiver brukeraktivering gjennom e-mail'
 	// event View
-	,'event_view_label' => 'Vis aktiviteter'
+	,'Begivenhed_view_label' => 'Vis aktiviteter'
 	,'popup_event_mode' => 'Popup-aktivitet'
 	,'popup_event_width' => 'Bredde på popup-vindu'
 	,'popup_event_height' => 'Høyde på popup-vindu'
@@ -876,10 +879,10 @@ EOT;
 	,'add_event_view' => 'Aktivert'
 	,'addevent_allow_html' => 'Tillat <b>BB Code</b> i beskrivelse'
 	,'addevent_allow_contact' => 'Tillat kontakt'
-	,'addevent_allow_email' => 'Tillat e-post'
+	,'addevent_allow_email' => 'Tillat e-mail'
 	,'addevent_allow_url' => 'Tillat URL'
 	,'addevent_allow_picture' => 'Tillat bilder'
-	,'new_post_notification' => 'Send meg en e-post når en aktivitet skal godkjennes'
+	,'new_post_notification' => 'Send meg en e-mail når en aktivitet skal godkjennes'
 	// Calendar View
 	,'calendar_view_label' => 'Vis kalender (månedlig)'
 	,'monthly_view' => 'Aktivert'
@@ -908,43 +911,43 @@ EOT;
 	,'mini_cal_display_picture' => 'Vis bilde'
 	,'mini_cal_diplay_options' => array('Intet','Standardbilde', 'Daglig bilde','Ukentligt bilde','Tilfeldig bilde')
 	// Mail Settings
-	,'mail_settings_label' => 'E-postinnstillinger'
-	,'mail_method' => 'Metode for å sende e-post'
-	,'mail_smtp_host' => 'SMTP tjenere (separert med et semikolon ;)'
-	,'mail_smtp_auth' => ' SMTP autentisering'
+	,'mail_settings_label' => 'Mail-innstillinger'
+	,'mail_method' => 'Metode til sending av mail'
+	,'mail_smtp_host' => 'SMTP hosts (adskilt af semikolon;)'
+	,'mail_smtp_auth' => ' SMTP authentication'
 	,'mail_smtp_username' => 'SMTP brukernavn'
-	,'mail_smtp_password' => 'SMTP passord'
+	,'mail_smtp_adgangskode' => 'SMTP passord'
 
 	// Form Buttons
 	,'update_config' => 'Lagre ny konfigurasjon'
-	,'restore_config' => 'Tilbakestill standardinnstillinger'
+	,'restore_config' => 'Restore standardinnstillinger'
 	// Misc.
 	,'update_settings_success' => 'Innstillinger oppdatert'
-	,'restore_default_confirm' => 'Er du sikker på at du vil tilbakestille til standardinnstillinger?'
+	,'restore_default_confirm' => 'Er du sikker på at du vil restore til standardinnstillinger?'
 	// Template Configuration
-	,'template_type' => 'Maltype'
+	,'template_type' => 'Templatetype'
 	,'template_header' => 'Hovedtekst'
 	,'template_footer' => 'Fottekst'
-	,'template_status_default' => 'Bruk standard temamal'
-	,'template_status_custom' => 'Bruk flg. mal:'
-	,'template_custom' => 'Brukerdefinert mal'
+	,'template_status_default' => 'Bruk standard-tema-template'
+	,'template_status_custom' => 'Bruk flg. template:'
+	,'template_custom' => 'Brukerdefineret template'
 
 	,'info_meta' => 'Meta-informasjon'
 	,'info_status' => 'Statuskontroll'
 	,'info_status_default' => 'Deaktiver dette innhold'
 	,'info_status_custom' => 'Vis flg. innhold:'
-	,'info_custom' => 'Brukerdefineret innhold'
+	,'info_custom' => 'Brugerdefineret innhold'
 
-	,'dynamic_tags' => 'Dynamiske merker'
+	,'dynamic_tags' => 'Dynamiske tags'
 
 	// Product updates
 	,'updates_check_text' => 'Vennligst vent mens vi henter informasjon fra serveren...'
 	,'updates_no_response' => 'Intet svar fra serveren, prøv igjen senere.'
 	,'avail_updates' => 'Tilgjengelige oppdateringer:'
-	,'updates_download_zip' => 'Last ned ZIP-fil (.zip)'
-	,'updates_download_tgz' => 'Last ned TGZ-fil (.tar.gz)'
-	,'updates_released_label' => 'Utgivelsesdato: %s'
-	,'updates_no_update' => 'Du bruker den siste versjonen. Ingen oppdatering nødvendig.'
+	,'updates_download_zip' => 'Download ZIP-fil (.zip)'
+	,'updates_download_tgz' => 'Download TGZ-fil (.tar.gz)'
+	,'updates_released_label' => 'Utgivelsesdag: %s'
+	,'updates_no_update' => 'Du bruger den siste versjonen. Ingen oppdatering nødvendig.'
 	);
 
 	// ======================================================
@@ -974,7 +977,7 @@ EOT;
 	// To Be Done
 
 	// ======================================================
-	// installe.php
+	// install.php
 	// ======================================================
 
 	// To Be Done
@@ -1017,12 +1020,12 @@ EOT;
 	// ======================================================
 
 	$lang_latest_events = array(
-  'view_full_cal' => 'Vis full aklender'
-  ,'add_new_event' => 'Opprett aktivitet'
-  ,'recent_events' => 'Foregående aktiviteter'
-  ,'no_events_scheduled' => 'Det finnes ingen planlagte aktiviteter.'
-  ,'more_days' => ' Flere dager'
-  ,'days_ago' => ' Dager siden'
+  'view_full_cal' => 'View full calendar'
+  ,'add_new_event' => 'Add new event'
+  ,'recent_events' => 'Recent events'
+  ,'no_events_scheduled' => 'There are no upcoming events currently scheduled.'
+  ,'more_days' => ' More Days'
+  ,'days_ago' => ' Days Ago'
   );
 
 
@@ -1031,56 +1034,56 @@ EOT;
 
   if (!defined('_EXTCAL_THEMES_INSTALL_HEADING'))
   {
-    DEFINE('_EXTCAL_THEMES_INSTALL_HEADING', 'JCal Pro maladministrajon');
+    DEFINE('_EXTCAL_THEMES_INSTALL_HEADING', 'JCal Pro Themes Manager');
 
     //Common
-    DEFINE('_EXTCAL_VERSION', 'Versjon');
-    DEFINE('_EXTCAL_DATE', 'Dato');
-    DEFINE('_EXTCAL_AUTHOR', 'Forfatter');
-    DEFINE('_EXTCAL_AUTHOR_EMAIL', 'Forfatters e-post');
-    DEFINE('_EXTCAL_AUTHOR_URL', 'Forfatters nettsted');
-    DEFINE('_EXTCAL_PUBLISHED', 'Publisert');
+    DEFINE('_EXTCAL_VERSION', 'Version');
+    DEFINE('_EXTCAL_DATE', 'Date');
+    DEFINE('_EXTCAL_AUTHOR', 'Author');
+    DEFINE('_EXTCAL_AUTHOR_EMAIL', 'Author E-Mail');
+    DEFINE('_EXTCAL_AUTHOR_URL', 'Author URL');
+    DEFINE('_EXTCAL_PUBLISHED', 'Published');
 
     //Plugins
-    DEFINE('_EXTCAL_THEME_PLUGIN', 'Mal');
-    DEFINE('_EXTCAL_THEME_PLUGCOM', 'Mal/kommando');
-    DEFINE('_EXTCAL_THEME_NAME', 'Navn');
-    DEFINE('_EXTCAL_THEME_HEADING', 'JCal Pro maladministrasjon');
+    DEFINE('_EXTCAL_THEME_PLUGIN', 'Theme');
+    DEFINE('_EXTCAL_THEME_PLUGCOM', 'Theme/Command');
+    DEFINE('_EXTCAL_THEME_NAME', 'Name');
+    DEFINE('_EXTCAL_THEME_HEADING', 'JCal Pro Themes Manager');
     DEFINE('_EXTCAL_THEME_FILTER', 'Filter');
-    DEFINE('_EXTCAL_THEME_ACCESS_LIST', 'Adgangsliste');
-    DEFINE('_EXTCAL_THEME_ACCESS_LVL', 'Adgangsnivå');
-    DEFINE('_EXTCAL_THEME_CORE', 'Kjerne');
-    DEFINE('_EXTCAL_THEME_DEFAULT', 'Standard');
-    DEFINE('_EXTCAL_THEME_ORDER', 'Sortering');
-    DEFINE('_EXTCAL_THEME_ROW', 'Linje');
+    DEFINE('_EXTCAL_THEME_ACCESS_LIST', 'Access List');
+    DEFINE('_EXTCAL_THEME_ACCESS_LVL', 'Access Level');
+    DEFINE('_EXTCAL_THEME_CORE', 'Core');
+    DEFINE('_EXTCAL_THEME_DEFAULT', 'Default');
+    DEFINE('_EXTCAL_THEME_ORDER', 'Order');
+    DEFINE('_EXTCAL_THEME_ROW', 'Row');
     DEFINE('_EXTCAL_THEME_TYPE', 'Type');
-    DEFINE('_EXTCAL_THEME_ICON', 'Ikon');
+    DEFINE('_EXTCAL_THEME_ICON', 'Icon');
     DEFINE('_EXTCAL_THEME_LAYOUT_ICON', 'Layout Icon');
-    DEFINE('_EXTCAL_THEME_DESC', 'Beskrivelse');
-    DEFINE('_EXTCAL_THEME_EDIT', 'Rediger');
-    DEFINE('_EXTCAL_THEME_NEW', 'Ny');
-    DEFINE('_EXTCAL_THEME_DETAILS', 'Detaljer om utvidelse');
-    DEFINE('_EXTCAL_THEME_PARAMS', 'Parametere');
-    DEFINE('_EXTCAL_THEME_ELMS', 'Elementer');
+    DEFINE('_EXTCAL_THEME_DESC', 'Description');
+    DEFINE('_EXTCAL_THEME_EDIT', 'Edit');
+    DEFINE('_EXTCAL_THEME_NEW', 'New');
+    DEFINE('_EXTCAL_THEME_DETAILS', 'Plugin Details');
+    DEFINE('_EXTCAL_THEME_PARAMS', 'Parameters');
+    DEFINE('_EXTCAL_THEME_ELMS', 'Elements');
     //Plugin Installer
-    DEFINE('_EXTCAL_THEMES_INSTALL_MSG', 'Bare de malene som kan avinstalleres vises - kjernemalen kan ikke fjernes.');
+    DEFINE('_EXTCAL_THEMES_INSTALL_MSG', 'Only those Themes that can be uninstalled are displayed - the Core Theme cannot be removed.');
     DEFINE('_EXTCAL_THEME_NONE', 'There are no non-core themes installed');
 
     //Language Manager
-    DEFINE('_EXTCAL_LANG_HEADING', 'EXTCAL Språkadministrasjon');
-    DEFINE('_EXTCAL_LANG_LANG', 'Språk');
+    DEFINE('_EXTCAL_LANG_HEADING', 'EXTCAL Language Manager');
+    DEFINE('_EXTCAL_LANG_LANG', 'Language');
 
     //Language Installer
-    DEFINE('_EXTCAL_LANG_HEADING_INSTALL', 'Installer nytt EXTCAL-språk');
-    DEFINE('_EXTCAL_LANG_BACK', 'Tilbake til språkadministrasjon');
+    DEFINE('_EXTCAL_LANG_HEADING_INSTALL', 'Install new EXTCAL Language');
+    DEFINE('_EXTCAL_LANG_BACK', 'Back to Language Manager');
     //
 
     //Global Installer
-    DEFINE('_EXTCAL_INS_PACKAGE_UPLOAD', 'Last opp filpakke');
-    DEFINE('_EXTCAL_INS_PACKAGE_FILE', 'Filpakke');
-    DEFINE('_EXTCAL_INS_INSTALL', 'Installer fra mappe');
-    DEFINE('_EXTCAL_INS_INSTALL_DIR', 'Installasjonsmappe');
-    DEFINE('_EXTCAL_INS_UPLOAD_BUTTON', 'Last opp fil &amp; Installer');
-    DEFINE('_EXTCAL_INS_INSTALL_BUTTON', 'Installer');
+    DEFINE('_EXTCAL_INS_PACKAGE_UPLOAD', 'Upload Package File');
+    DEFINE('_EXTCAL_INS_PACKAGE_FILE', 'Package File');
+    DEFINE('_EXTCAL_INS_INSTALL', 'Install From Directory');
+    DEFINE('_EXTCAL_INS_INSTALL_DIR', 'Install Directory');
+    DEFINE('_EXTCAL_INS_UPLOAD_BUTTON', 'Upload File &amp; Install');
+    DEFINE('_EXTCAL_INS_INSTALL_BUTTON', 'Install');
   }
-  ?>
+  
