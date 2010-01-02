@@ -46,6 +46,7 @@
 	<administration>
 		<files folder="administration">
 		<filename>nb-NO.com_jce.ini</filename>
+		<filename>nb-NO.com_jce.menu.ini</filename>
 		</files>
 	</administration>
 </install>
