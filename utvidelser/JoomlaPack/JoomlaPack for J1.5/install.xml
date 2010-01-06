@@ -3,8 +3,8 @@
 <install version="1.5" client="both" type="language" method="upgrade">
     <name>Norwegian bokmåll (Norway)</name>
     <tag>nb-NO</tag>
-    <version>2.4</version>
-    <creationdate>6-12-2009</creationdate>
+    <version>2.4.1</version>
+    <creationdate>06-01-2010</creationdate>
     <author>Joomla! i Norge</author>
     <authoremail>oversettelser@joomlainorge.no</authoremail>
     <authorurl>www.joomlainorge.no</authorurl>
@@ -14,7 +14,7 @@
 				 Opphav: 2005 - 2009, <a href="http://www.joomlainorge.no/" target="_blank">Foreningen Joomla! i Norge</a><br/>
 				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a><br /><br />
                                  Bidra: Om du har stor nytte av disse språkfilene og ønsker å bidra til at foreningens kan fortsette sitt arbeide, 
-                                 med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/bidra/hvordan_bidra/" target="_blank">besøk våre FAQ-sider</a> for mer informasjon.]]></description>
+                                 med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/foreningen/hvordan-bidra" target="_blank">besøk våre FAQ-sider</a> for mer informasjon.]]></description>
     <administration>
       <files folder="administrator/language/nb-NO">
         <filename>nb-NO.com_joomlapack.ini</filename>
