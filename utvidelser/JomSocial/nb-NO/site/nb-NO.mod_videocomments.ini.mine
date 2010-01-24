@@ -1,9 +1,0 @@
-# $Id: nb-NO.mod_videocomments.ini 1045 2010-01-24 03:59:23Z rued $
-# Joomla! Norwegian Bokmål Translation
-# Copyright (C) Translation 2009 Petter Sandvik and Mats Fredrik Heigre http://www.nyfritid.no/
-# Copyright (C) Translation 2010 - Joomla! i Norge http://www.joomlainorge.no/
-# license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
-
-# Note : All ini files need to be saved as UTF-8
-
-MOD_VIDEOCOMMENTS NO COMMENTS=Ingen kommentarer lagt inn ennå.
