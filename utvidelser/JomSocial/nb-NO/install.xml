@@ -1,27 +1,55 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
 <install version="1.5" client="both" type="language" method="upgrade">
-<name>Norwegian bokmål (Norway)</name>
+    <name>Norwegian bokmål (Norway)</name>
     <tag>nb-NO</tag>
-    <version>1.2.202</version>
-    <creationdate>24-06-2009</creationdate>
+    <version>1.6.284</version>
+    <creationDate>24.01.2010</creationDate>
     <author>Joomla! i Norge</author>
-    <authoremail>oversettelser@joomlainorge.no</authoremail>
-    <authorurl>www.joomlainorge.no</authorurl>
-    <copyright>Copyright (C) 2005 - 2009 Open Source Matters. All rights reserved</copyright>
-    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-    <description><![CDATA[Norske språkfiler (bokmål) for JomSocial<br/>
-				 Opphav: 2005 - 2009, <a href="http://www.joomlainorge.no/" target="_blank">Foreningen Joomla! i Norge</a><br/>
-				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a><br /><br />
-                                 Bidra: Om du har stor nytte av disse språkfilene og ønsker å bidra til at foreningens kan fortsette sitt arbeide, 
-                                 med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/bidra/hvordan_bidra/" target="_blank">besøke våre FAQ-sider</a> for mer informasjon.]]></description>
-<files folder="admin">
-<filename>nb-NO.com_community.ini</filename>
-</files>
-</administration>
-<site>
-<files folder="site">
-<filename>nb-NO.com_community.ini</filename>
-</files>
-</site>
-<params />
+    <authorEmail>oversettelser@joomlainorge.no</authorEmail>
+    <authorUrl>www.joomlainorge.no</authorUrl>
+    <copyright>Copyright (C) 2009 - 2010 Joomla! i Norge. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description>Norske språkfiler (bokmål) for JomSocial 1.6.284 (admin er ikke komplett ennå).</description>
+    <administration>
+      <files folder="admin">
+        <filename>nb-NO.com_community.ini</filename>
+        <filename>nb-NO.com_community.menu.ini</filename>
+        <filename>nb-NO.plg_jsmigrator.ini</filename>
+        <filename>nb-NO.plg_eventlist.ini</filename>
+        <filename>nb-NO.plg_feeds.ini</filename>
+        <filename>nb-NO.plg_fireboard.ini</filename>
+        <filename>nb-NO.plg_friendslocation.ini</filename>
+        <filename>nb-NO.plg_groups.ini</filename>
+        <filename>nb-NO.plg_jomcomment.ini</filename>
+        <filename>nb-NO.plg_kunena.ini</filename>
+        <filename>nb-NO.plg_latestphoto.ini</filename>
+        <filename>nb-NO.plg_myarticles.ini</filename>
+        <filename>nb-NO.plg_myblog.ini</filename>
+        <filename>nb-NO.plg_myblogtoolbar.ini</filename>
+        <filename>nb-NO.plg_mycontacts.ini</filename>
+        <filename>nb-NO.plg_mygoogleads.ini</filename>
+        <filename>nb-NO.plg_nicetalk.ini</filename>
+        <filename>nb-NO.plg_phpbb.ini</filename>
+        <filename>nb-NO.plg_seyret.ini</filename>
+        <filename>nb-NO.plg_twitter.ini</filename>
+        <filename>nb-NO.plg_walls.ini</filename>
+      </files>
+  </administration>
+  <site>
+      <files folder="site">
+        <filename>nb-NO.com_community.ini</filename>
+        <filename>nb-NO.mod_activegroups.ini</filename>
+        <filename>nb-NO.mod_datingsearch.ini</filename>
+        <filename>nb-NO.mod_hellome.ini</filename>
+        <filename>nb-NO.mod_latestdiscussion.ini</filename>
+        <filename>nb-NO.mod_latestmembers.ini</filename>
+        <filename>nb-NO.mod_onlineusers.ini</filename>
+        <filename>nb-NO.mod_photocomments.ini</filename>
+        <filename>nb-NO.mod_statistics.ini</filename>
+        <filename>nb-NO.mod_topmembers.ini</filename>
+        <filename>nb-NO.mod_videocomments.ini</filename>
+    </files>
+  </site>
+  <params />
 </install>
