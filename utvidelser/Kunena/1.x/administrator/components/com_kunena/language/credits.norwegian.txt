@@ -1,0 +1,6 @@
+* Norwegian Translation
+* @Copyright Translation (C) 2006 - 2010 Joomla! i Norge
+* @translator FB 1.0.x -> 1.0.4 Birger J. Nordølum, Supplements by Gunnar Holmstad, Kristian Wengen and Karl-Gustav Freding
+* @translator FB/Kunena 1.0.5 -> 1.0.8 Rune Rasmussen
+* @translator Kunena 1.0.10 - 1.5.4 Knut Carlsen
+* @translator Kunena 1.5.4/7 - 1.5.9 Rune Rasmussen
