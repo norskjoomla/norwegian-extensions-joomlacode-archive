@@ -28,6 +28,49 @@
 // Dont allow direct linking
 defined( '_JEXEC' ) or defined ('_VALID_MOS') or die('Restricted access');
 
+// 1.5.8
+
+define('_KUNENA_USRL_REALNAME', 'Fullt navn');
+define('_KUNENA_SEO_SETTINGS', 'SEO-instillinger');
+define('_KUNENA_SEF', 'Søkemotorvennlige adresser');
+define('_KUNENA_SEF_DESC', 'Velg om nettadresser er er optimalisert for søkemotorer eller ikke. MERK: Kunena aksepterer SEF-adresser selv om dette valget er av.');
+define('_KUNENA_SEF_CATS', 'Ikke bruk kategori-id');
+// Please use words from your own (or nearby) language in the next URL, but only using a-z:
+define('_KUNENA_SEF_CATS_DESC', 'Litt bedre utseende adresser: http://www.domain.com/forum/kategori/123-melding . AdDVARSEL: Om satt til "Nei" vil ikke Kunena lengre akseptere disse adressene!');
+define('_KUNENA_SEF_UTF8', 'Aktiver UTF8-støtte');
+// Please use words from your own (or nearby) language in the next URL, but make sure that they contain UTF8 letters:
+define('_KUNENA_SEF_UTF8_DESC', 'Use this option if your SEF URLs are not readable. Result: http://www.domain.com/forum/2-Catégorie/123-Meßage . NOTE: Kunena accepts UTF8 URLs even if this feature has been turned off.');
+define('_KUNENA_SYNC_USERS_OPTIONS', 'Options');
+define('_KUNENA_SYNC_USERS_CACHE', 'Clean user cache');
+define('_KUNENA_SYNC_USERS_CACHE_DESC', 'This function allows user to see hidden forums right away, if you change user group in Joomla (Registered, Author etc).');
+define('_KUNENA_SYNC_USERS_ADD', 'Add user profiles to everyone');
+define('_KUNENA_SYNC_USERS_ADD_DESC', 'Kunena adds new user profiles only if user enters to the forum. This function makes default profiles to all existing users.');
+define('_KUNENA_SYNC_USERS_DEL', 'Remove user profiles from deleted users');
+define('_KUNENA_SYNC_USERS_DEL_DESC', 'Kunena does not remove user profiles from deleted users, it just hides them. This option allows you to remove all deleted profiles.');
+define('_KUNENA_SYNC_USERS_RENAME', 'Update user names in messages');
+define('_KUNENA_SYNC_USERS_RENAME_DESC', 'This option will reset all author names in posts to username or real name depending on your Kunena configuration.');
+define('_KUNENA_SYNC_USERS_DO_CACHE', 'User cache cleaned');
+define('_KUNENA_SYNC_USERS_DO_ADD', 'User profiles added:');
+define('_KUNENA_SYNC_USERS_DO_DEL', 'User profiles removed:');
+define('_KUNENA_SYNC_USERS_DO_RENAME', 'Messages updated:');
+
+// 1.5.7
+
+define('_KUNENA_JS_ACTIVITYSTREAM_CREATE_MSG1', 'opprett nytt emne');
+define('_KUNENA_JS_ACTIVITYSTREAM_CREATE_MSG2', 'i forumene.');
+define('_KUNENA_JS_ACTIVITYSTREAM_REPLY_MSG1', 'svarte på emnet');
+define('_KUNENA_JS_ACTIVITYSTREAM_REPLY_MSG2', 'i forumene.');
+
+define('_KUNENA_AUP_ALPHAUSERPOINTS', 'AlphaUserPoints');
+define('_KUNENA_AUP_ENABLED_POINTS_IN_PROFILE', 'Aktiver poeng i profil');
+define('_KUNENA_AUP_ENABLED_POINTS_IN_PROFILE_DESC', 'Om du har AlphaUserPoints installert kan du konfigurere Kunena til å vise en brukers gjeldende poeng i vedkommendes profil.');
+define('_KUNENA_AUP_ENABLED_RULES', 'Aktiver regler for poeng');
+define('_KUNENA_AUP_ENABLED_RULES_DESC', 'Du kan bruke forhåndsdefinerte regler i AlphaUserPoints til å gi poeng for nye emner og svar. Du må ha AlphaUserPoints 1.5.3 eller nyere installert. Om du har en eldre versjon må du manuelt installere reglene (se dokumentasjon for AlphaUserPoints).');
+define('_KUNENA_AUP_MINIMUM_POINTS_ON_REPLY', 'Minimum tegn ved svar');
+define('_KUNENA_AUP_MINIMUM_POINTS_ON_REPLY_DESC', 'Minimum tegn i svartekst som kvalifiserer til opptjening av poeng i svar på emner.');
+define('_KUNENA_AUP_MESSAGE_TOO_SHORT', 'Din respons var for kort til å gi deg noen nye poeng.');
+define('_KUNENA_AUP_POINTS', 'Poeng:');
+
 // 1.0.11 and 1.5.4
 DEFINE('_KUNENA_MOVED', 'Flyttet');
 
