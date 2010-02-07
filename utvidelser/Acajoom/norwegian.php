@@ -94,7 +94,7 @@ define('_ACA_SUB_ACCESS', 'Tilgangsrettigheter');
 define('_ACA_DESC_CREDITS', 'Bidragsytere');
 define('_ACA_DESC_INFO', 'Informasjon');
 define('_ACA_DESC_HOME', 'Hjemmeside');
-define('_ACA_DESC_MAILING', 'Distrubusjonsliste');
+define('_ACA_DESC_MAILING', 'Distribusjonsliste');
 define('_ACA_DESC_SUBSCRIBERS', 'Abonnenter');
 define('_ACA_PUBLISHED', 'Publisert');
 define('_ACA_UNPUBLISHED', 'Upublisert');
@@ -302,7 +302,7 @@ define('_ACA_CRON_SITE_URL', 'Angi en gyldig nettadresse som starter med http://
 ### Mailings ###
 define('_ACA_MAILING_ALL', 'Alle utsendelser');
 define('_ACA_EDIT_A', 'Editer en ');
-define('_ACA_SELCT_MAILING', 'Vennligst velg en epost liste i nedtrekks menyen for å legge til en ny utsendelse.');
+define('_ACA_SELCT_MAILING', 'Vennligst velg en epost liste i nedtrekksmenyen for å legge til en ny utsendelse.');
 define('_ACA_VISIBLE_FRONT', 'Vis på forsiden');
 
 // mailer
@@ -332,9 +332,9 @@ define('_ACA_INTRO_ONLY', 'Bare innledning');
 // stats
 define('_ACA_GLOBALSTATS', 'Total status');
 define('_ACA_DETAILED_STATS', 'Enkelt status');
-define('_ACA_MAILING_LIST_DETAILS', 'List details');
-define('_ACA_SEND_IN_HTML_FORMAT', 'Send som HTML format');
-define('_ACA_VIEWS_FROM_HTML', 'Visning (av html sendinger)');
+define('_ACA_MAILING_LIST_DETAILS', 'Listedetaljer');
+define('_ACA_SEND_IN_HTML_FORMAT', 'Send som HTML-format');
+define('_ACA_VIEWS_FROM_HTML', 'Visning (av HTML-sendinger)');
 define('_ACA_SEND_IN_TEXT_FORMAT', 'Send som tekst format');
 define('_ACA_HTML_READ', 'HTML lest');
 define('_ACA_HTML_UNREAD', 'HTML ikke lest');
@@ -347,12 +347,12 @@ define('_ACA_LOGGING_CONFIG', 'Logger og status');
 define('_ACA_SUBSCRIBER_CONFIG', 'Abonnenter');
 define('_ACA_MISC_CONFIG', 'Diverse');
 define('_ACA_MAIL_SETTINGS', 'Epost innstillinger');
-define('_ACA_MAILINGS_SETTINGS', 'Sendings innstillinger');
-define('_ACA_SUBCRIBERS_SETTINGS', 'Abonnent innstillinger');
+define('_ACA_MAILINGS_SETTINGS', 'Sendingsinnstillinger');
+define('_ACA_SUBCRIBERS_SETTINGS', 'Abonnentinnstillinger');
 define('_ACA_CRON_SETTINGS', 'Cron-jobb innstillinger');
-define('_ACA_SENDING_SETTINGS', 'Sende innstillinger');
-define('_ACA_STATS_SETTINGS', 'Statistikk innstillinger');
-define('_ACA_LOGS_SETTINGS', 'Logge innstillinger');
+define('_ACA_SENDING_SETTINGS', 'Sendeinnstillinger');
+define('_ACA_STATS_SETTINGS', 'Statistikkinnstillinger');
+define('_ACA_LOGS_SETTINGS', 'Logginnstillinger');
 define('_ACA_MISC_SETTINGS', 'Diverse innstillinger');
 // mail settings
 define('_ACA_SEND_MAIL_FROM', 'Returadresse<br />(brukes som returadresse for alle deres meldinger)');
@@ -361,13 +361,13 @@ define('_ACA_MAILSENDMETHOD', 'Sendingsmetode');
 define('_ACA_SENDMAILPATH', 'Sti til sendmail');
 define('_ACA_SMTPHOST', 'SMTP host');
 define('_ACA_SMTPAUTHREQUIRED', 'SMTP godkjenning kreves');
-define('_ACA_SMTPAUTHREQUIRED_TIPS', 'Velg \'Ja\' hvis deres SMTP server krever godkjenning');
+define('_ACA_SMTPAUTHREQUIRED_TIPS', 'Velg \'Ja\' hvis deres SMTP-server krever godkjenning');
 define('_ACA_SMTPUSERNAME', 'SMTP brukernavn');
-define('_ACA_SMTPUSERNAME_TIPS', 'Skriv inn SMTP brukernavn når deres SMTP server krever godkjenning');
+define('_ACA_SMTPUSERNAME_TIPS', 'Skriv inn SMTP-brukernavn når deres SMTP-server krever godkjenning');
 define('_ACA_SMTPPASSWORD', 'SMTP passord');
-define('_ACA_SMTPPASSWORD_TIPS', 'Skriv inn SMTP passord når deres SMTP server krever godkjenning');
+define('_ACA_SMTPPASSWORD_TIPS', 'Skriv inn SMTP-passord når deres SMTP-server krever godkjenning');
 define('_ACA_USE_EMBEDDED', 'Bruk innebygde bilder');
-define('_ACA_USE_EMBEDDED_TIPS', 'Velg \'Ja\' hvis bildene i det vedlagte innholdet bør være innebygd i epost for html-meldinger, eller nei får å bruke standard bilde lenke som linker til bildene på nettstedet.');
+define('_ACA_USE_EMBEDDED_TIPS', 'Velg \'Ja\' hvis bildene i det vedlagte innholdet bør være innebygd i epost for HTML-meldinger, eller nei får å bruke standard bilde lenke som linker til bildene på nettstedet.');
 define('_ACA_UPLOAD_PATH', 'Opplasting/vedlegges sti');
 define('_ACA_UPLOAD_PATH_TIPS', 'Du kan angi en mappe for opplasting.<br />' .
         'Forsikre deg om at mappen finnes, hvis ikke må du opprette den.');
@@ -382,7 +382,7 @@ define('_ACA_SUBMESSAGE', 'Abonnentens epost adresse');
 define('_ACA_SUBSCRIBE_LIST', 'Abonner på en liste');
 
 define('_ACA_USABLE_TAGS', 'Merker som kan brukes');
-define('_ACA_NAME_AND_CONFIRM', '<b>[CONFIRM]</b> = Dette lager en link som abonnomenten kan bekrefte sitt abonnement. Dette er <strong>påkrevet</strong> for at Acajoom fungere.<br />'
+define('_ACA_NAME_AND_CONFIRM', '<b>[CONFIRM]</b> = Dette lager en link som abonnenten kan bekrefte sitt abonnement. Dette er <strong>påkrevet</strong> for at Acajoom fungere.<br />'
 .'<br />[NAME] = Denne vil bli erstattet med navnet som abonnenten la inn, du vill sende en mer personlig epost med dette.<br />'
 .'<br />[FIRSTNAME] = Denne vil bli erstattet med fornavn på abonnenten, Fornavn er definert som første ordet i navnet som abonnenten la inn.<br />');
 define('_ACA_CONFIRMFROMNAME', 'Bekreftelse fra navn');
@@ -391,18 +391,18 @@ define('_ACA_CONFIRMFROMEMAIL', 'Bekreftelse fra epost adresse');
 define('_ACA_CONFIRMFROMEMAIL_TIPS', 'Legg inn epost adressen som vises i bekreftelsens meldingen.');
 define('_ACA_CONFIRMBOUNCE', 'Retur adresse');
 define('_ACA_CONFIRMBOUNCE_TIPS', 'Legg inn retur epost adressen som vises i bekreftelsens meldingen.');
-define('_ACA_HTML_CONFIRM', 'HTML bekreftelse');
+define('_ACA_HTML_CONFIRM', 'HTML-bekreftelse');
 define('_ACA_HTML_CONFIRM_TIPS', 'Velg \'Ja\' hvis bekreftelsens meldingen skal være HTML hvis brukeren tillater HTML.');
 define('_ACA_TIME_ZONE_ASK', 'Spør om tidssone');
 define('_ACA_TIME_ZONE_TIPS', 'Velg \'Ja\' hvis du vill spørre brukeren om sin tidssone. Utsendelser sendes basert på tidssonen når dette er aktuelt');
 
  // Cron Set up
  define('_ACA_AUTO_CONFIG', 'Cron');
-define('_ACA_TIME_OFFSET_URL', 'klikk her for å sette opp tidssonen i Joomla! konfigurasjon -> Tjener ');
+define('_ACA_TIME_OFFSET_URL', 'klikk her for å sette opp tidssonen i \'Konfigurasjon -> Tjener\' ');
 define('_ACA_TIME_OFFSET_TIPS', 'Sett opp deres servers tidsavvik slik at dato og til et rett');
 define('_ACA_TIME_OFFSET', 'Tidsavvik');
 define('_ACA_CRON_TITLE', 'Setting up cron function');
-define('_ACA_CRON_DESC', '<br />Ved bruke av cron-jobb funksjonen kan du sette opp automatisert oppgave for deres Joomla nettside!<br />' .
+define('_ACA_CRON_DESC', '<br />Ved bruke av cron-jobb funksjonen kan du sette opp automatisert oppgave for deres Joomlanettside!<br />' .
         'For å sette opp crontab må du legge til i kontrollpanelet følgende kommando:<br />' .
         '<b>' . ACA_JPATH_LIVE . '/index2.php?option=com_acajoom&act=cron</b> ' .
         '<br /><br />Hvis du trenger hjelp til å sette den opp eller har problemer vennligst kontakt vårt forum <a href="http://www.ijoobi.com" target="_blank">http://www.ijoobi.com</a>');
@@ -417,9 +417,9 @@ define('_ACA_SCRIPT_TIMEOUT', 'Tidsavbrudd for skripet');
 define('_ACA_SCRIPT_TIMEOUT_TIPS', 'Antall minuttet skripet skal ha mulighet kjøre (0 for uendelig).');
 // Stats settings
 define('_ACA_ENABLE_READ_STATS', 'Aktiver statistikk over leste eposter');
-define('_ACA_ENABLE_READ_STATS_TIPS', 'Velg \'Ja\' hvis du vil logge antall som har lest eposten. Dette er kun mulig for html eposter');
+define('_ACA_ENABLE_READ_STATS_TIPS', 'Velg \'Ja\' hvis du vil logge antall som har lest eposten. Dette er kun mulig for HTML-eposter');
 define('_ACA_LOG_VIEWSPERSUB', 'Logg antall lest pr. abonnent');
-define('_ACA_LOG_VIEWSPERSUB_TIPS', 'Velg \'Ja\' for å logge antall leste pr abonnent. Dette er kun mulig for html eposter');
+define('_ACA_LOG_VIEWSPERSUB_TIPS', 'Velg \'Ja\' for å logge antall leste pr abonnent. Dette er kun mulig for HTML-eposter');
 // Logs settings
 define('_ACA_DETAILED', 'Detaljerte logger');
 define('_ACA_SIMPLE', 'Forenklede logger');
@@ -463,7 +463,7 @@ define('_ACA_SHOW_FOOTER_TIPS', 'Hvorvidt kopirett skal vises som bunntekst.');
 define('_ACA_SHOW_LISTS', 'Vis lister på forsiden');
 define('_ACA_SHOW_LISTS_TIPS', 'Når brukeren ikke er registrert vise en liste over listene de kan abonnere på med arkiv-knappen for nyhetsbrev eller bare logginn, slik at de må registrere seg.');
 define('_ACA_CONFIG_UPDATED', 'Konfigurasjonen har blitt oppdatert!');
-define('_ACA_UPDATE_URL', 'Oppdaterings URL');
+define('_ACA_UPDATE_URL', 'Oppdateringsadresse');
 define('_ACA_UPDATE_URL_WARNING', 'VARSEL! Endre ikke denne URL med mindre du har blitt bedt om å gjøre det av Acajoom.<br />');
 define('_ACA_UPDATE_URL_TIPS', 'For eksempel: http://www.ijoobi.com/update/ (inkludert den avsluttende / )');
 
@@ -521,12 +521,12 @@ define('_ACA_CONTINUE_SENDING', 'Fortsett å sende');
 
 // Acajoom message
 define('_ACA_UPGRADE1', 'Du kan enkelt importere brukere og nyhetsbrev fra ');
-define('_ACA_UPGRADE2', ' til Acajoom i kontroldpanelet -> import.');
+define('_ACA_UPGRADE2', ' til Acajoom i kontrolpanelet -> import.');
 define('_ACA_UPDATE_MESSAGE', 'En ny versjon av Acajoom er tilgjengelig! ');
 define('_ACA_UPDATE_MESSAGE_LINK', 'Klikk her for å oppdatere!');
 define('_ACA_THANKYOU', 'Takk for at du valgte Acajoom, din kommunikasjons partner!');
-define('_ACA_NO_SERVER', 'Oppdaterings serveren var ikke tilgjengelig, vennligst prøv igjen senere.');
-define('_ACA_MOD_PUB', 'Acajoom modulen er ikke publisert.');
+define('_ACA_NO_SERVER', 'Oppdateringsserveren var ikke tilgjengelig, vennligst prøv igjen senere.');
+define('_ACA_MOD_PUB', 'Acajoom-modulen er ikke publisert.');
 define('_ACA_MOD_PUB_LINK', 'Klikk her for å publisere den!');
 define('_ACA_IMPORT_SUCCESS', 'Velykket importert');
 define('_ACA_IMPORT_EXIST', 'abonnent finnes allerede i databasen');
@@ -585,7 +585,7 @@ define('_ACA_GET_STARTED', 'Klikk her for å starte!');
 define('_ACA_WARNING_1011', 'Varsel: 1011: Oppdateringen vil ikke kunne fungere pga. din servers restriksjoner.');
 define('_ACA_SEND_MAIL_FROM_TIPS', 'Velg hvilken epostadresse som skal vises som avsender.');
 define('_ACA_SEND_MAIL_NAME_TIPS', 'Velg hvilket navn som skal vises som avsender.');
-define('_ACA_MAILSENDMETHOD_TIPS', 'Velg hvilke mailfunksjon du vil bruke: PHP mail funksjon, <span>Sendmail</span> eller SMTP Server.');
+define('_ACA_MAILSENDMETHOD_TIPS', 'Velg hvilke epostfunksjon du vil bruke: PHP mail funksjon, <span>Sendmail</span> eller SMTP Server.');
 define('_ACA_SENDMAILPATH_TIPS', 'Dette er den katalogen til epost serveren');
 define('_ACA_LIST_T_TEMPLATE', 'Mal');
 define('_ACA_NO_MAILING_ENTERED', 'Ingen forsendelse valgt');
@@ -601,7 +601,7 @@ define('_ACA_UPDATE_MESS3', 'Ny utgivelse.');
 define('_ACA_UPDATE_MESS5', 'Joomla 1.5 er nødvendig for å oppdatere.');
 define('_ACA_UPDATE_IS_AVAIL', ' er tilgjengelig!');
 define('_ACA_NO_MAILING_SENT', 'Ingen forsendelse sendt!');
-define('_ACA_SHOW_LOGIN', 'Vis logginn');
+define('_ACA_SHOW_LOGIN', 'Vis innlogging');
 define('_ACA_SHOW_LOGIN_TIPS', 'Velg \'Ja\' for å vise Acajoom logging skjema på forsiden slik at brukere kan registrere seg på nettstedet.');
 define('_ACA_LISTS_EDITOR', 'Liste beskrivelses Editor');
 define('_ACA_LISTS_EDITOR_TIPS', 'Velg \'Ja\' for å bruke en HTML-editor å redigere beskrivelsen av en liste.');
@@ -610,7 +610,7 @@ define('_ACA_SUBCRIBERS_VIEW', 'Vis abonnenter');
 //News since 1.0.2
 define('_ACA_FRONTEND_SETTINGS', 'Innstillinger for forsiden');
 define('_ACA_SHOW_LOGOUT', 'Vis logg ut knapp');
-define('_ACA_SHOW_LOGOUT_TIPS', 'Velg \'Ja\' for å vise en logg ut knapp på forsiden i Acajoom modulen.');
+define('_ACA_SHOW_LOGOUT_TIPS', 'Velg \'Ja\' for å vise en logg ut knapp på forsiden i Acajoom-modulen.');
 
 //News since 1.0.3 CB integration
 define('_ACA_CONFIG_INTEGRATION', 'Integrasjon');
@@ -638,7 +638,7 @@ define('_ACA_BACKUP_YOUR_FILES', 'Den gamle versjonen av filene er sikkerhetskop
 define('_ACA_SERVER_LOCAL_TIME', 'Servers lokale tid');
 define('_ACA_SHOW_ARCHIVE', 'Vis arkiv-knappen');
 define('_ACA_SHOW_ARCHIVE_TIPS', 'Velg \'Ja\' for å vise arkiv-knappen på forsiden på nyhetsbrevslistene');
-define('_ACA_LIST_OPT_TAG', 'Tags');
+define('_ACA_LIST_OPT_TAG', 'Merker');
 define('_ACA_LIST_OPT_IMG', 'Bilde');
 define('_ACA_LIST_OPT_CTT', 'Innhold');
 define('_ACA_INPUT_NAME_TIPS', 'Skriv inn ditt fulle navn (fornavn først)');
