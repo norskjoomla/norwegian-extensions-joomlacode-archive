@@ -34,7 +34,7 @@ defined( '_JEXEC' ) or die( 'Direct Access to this location is not allowed.' );
 $lang_info = array (
 	'name' => 'Norwegian'
 	,'nativename' => 'Norsk' // Language name in native language. E.g: 'Français' for 'French'
-	,'locale' => array('no','norwegian','nb-NO','nb-NO.ISO8859-1') // Standard locale alternatives for a specific language. For reference, go to: http://www.php.net/manual/en/function.setlocale.php
+	,'locale' => array('no','norwegian','nb-NO','no_NO.utf-8','nb-NO.ISO8859-1') // Standard locale alternatives for a specific language. For reference, go to: http://www.php.net/manual/en/function.setlocale.php
 	,'charset' => 'UTF-8' // For reference, go to : http://www.w3.org/International/O-charset-lang.html
 	,'direction' => 'ltr' // 'ltr' for Left to Right. 'rtl' for Right to Left languages such as Arabic.
 	,'author' => 'Jeanette'
@@ -628,8 +628,8 @@ EOT;
 	'general_info_label' => 'Generell informasjon',
 	'cat_name' => 'Kategorinavn',
 	'cat_desc' => 'Kategoribeskrivelse',
-	'cat_color' => 'Farve',
-	'pick_color' => 'Velg en farve!',
+	'cat_color' => 'Farge',
+	'pick_color' => 'Velg en farge!',
 	'status_label' => 'Status',
 	'category_label' => 'Category permissions',
 	// Stats
@@ -893,9 +893,9 @@ EOT;
 	,'cal_view_show_week' => 'Vis ukenummer'
 	,'cal_view_max_chars' => 'Maks. tegn i beskrivelse'
 	// Flyer View
-	,'flyer_view_label' => 'Vis brosjyre'
+	,'flyer_view_label' => 'Vis liste'
 	,'flyer_view' => 'Aktivert'
-	,'flyer_show_picture' => 'Vis bilder i brosjyrevisning'
+	,'flyer_show_picture' => 'Vis bilder i listevisning'
 	,'flyer_view_max_chars' => 'Maks. tegn i beskrivelse'
 	// Weekly View
 	,'weekly_view_label' => 'Vis ukentlig'
