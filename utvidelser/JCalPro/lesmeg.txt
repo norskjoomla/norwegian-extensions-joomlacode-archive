@@ -1,13 +1,11 @@
-Dette er en oversettelse av JCal Client 1.6 Beta og det kan derfor komme endringer frem til en endelig utgivelse finner sted.
+Dette er en oversettelse av JCalPro.
 
-Filen plasseres i ./components/language/norwegian
+Filen index.php plasseres i ./components/com_jcalpro/languages/norwegian/
+Filen nb-NO.com_jcalpro.menu.ini plasseres i ./administrator/language/nb-NO/
 
-06.01.2008  Kjørt diff mellom versjon 1.5 og 1.6.  Startet oversettelse og språkvask.
 
-Joomla!-versjon : 1.0.x og 1.5
 
-UTF-8 vil bli lagt til så snart alt er oversatt.  Som en foreløpig løsning: Åpne filen i en editor som kan skifte Character Encoding til UTF-8
+2010.03.17 - Kjørt diff og oppdatert til 2.2.9.469, noe spåkvask gjennstår - Rune Rasmussen
+2010.01.02 - Kjørt diff til versjon 2.2.x_2.2.7.441
+2008.01.06 - Kjørt diff mellom versjon 1.5 og 1.6.  Startet oversettelse og språkvask.
 
-2.1.2010
-
-Kjørt diff til versjon 2.2.x_2.2.7.441
