@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
 <metafile version="1.5"  client="site" >
+	<name>Norsk nynorsk(Norway)</name>
 	<tag>nn-NO</tag>
-	<name>Norsk nynorsk (Norway)</name>
-	<description>Norwegian nynorsk to Joomla! 1.5</description>
-	<version>1.5.8</version>
-	<creationDate>2008-04-08</creationDate>
+	<version>1.5.10</version>
+	<creationDate>28-05-2009</creationDate>
 	<author>Joomla! i Norge</author>
-	<authorUrl>http://www.joomlainorge.no/</authorUrl>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
-	<copyright>(C) 2005 - 2008 Joomla! i Norge. All rights reserved.</copyright>
-	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorUrl>http://www.joomlainorge.no</authorUrl>
+	<copyright>Copyright (C) 2005 - 2009 Open Source Matters. All rights reserved</copyright>
+	<copyright>Copyright (C) Translation 2005 - 2009 Joomla! i Norge</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Norwegian nynorsk for Joomla! 1.5 site</description>
 	<metadata>
 		<name>Norsk nynorsk (Norway)</name>
 		<tag>nn-NO</tag>
 		<rtl>0</rtl>
-		<locale>nn_NO.utf-8, nn_NO.UTF-8, nn, nn_NO, norwegian_nn</locale>
+		<locale>no_NO.utf-8, nn_NO.utf-8, no_NO.UTF-8, nn_NO.UTF-8, nn_NO.utf8, no_NO.utf8, no, nn, non-NO, no_NO, nn_NO, Norwegian_nynorsk, nor, norwegian, nynorsk, nynorsk</locale>
 		<winCodePage>iso-8859-1</winCodePage>
 		<backwardLang>norwegian_nn</backwardLang>
-		<pdfFontName>vera</pdfFontName>
+		<pdfFontName>freesans</pdfFontName>
 	</metadata>
-	<params></params>
+	<params />
 </metafile>
