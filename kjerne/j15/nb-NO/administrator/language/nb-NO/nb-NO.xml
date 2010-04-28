@@ -2,13 +2,13 @@
 <!-- $Id$ -->
 <metafile version="1.5" client="administrator">
 	<name>Norsk bokmål(Norway)</name>
-	<version>1.5.15</version>
-	<creationDate>27-10-2009</creationDate>
+	<version>1.5.17</version>
+	<creationDate>28-04-2010</creationDate>
 	<author>Joomla! i Norge</author>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>http://www.joomlainorge.no</authorUrl>
-	<copyright>Copyright (C) 2005 - 2009 Open Source Matters. All rights reserved</copyright>
-	<copyright>Copyright (C) Translation 2005 - 2009 Joomla! i Norge</copyright>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved</copyright>
+	<copyright>Copyright (C) Translation 2005 - 2010 Joomla! i Norge</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<description>Norwegian bokmål for Joomla! 1.5 administration</description>
 	<metadata>
