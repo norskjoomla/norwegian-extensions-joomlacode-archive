@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id$ -->
 <metafile version="1.5" client="installation">
     <name>Norsk bokmål(Norway)</name>
-    <version>1.5.15</version>
-    <creationDate>27-10-2009</creationDate>
+    <version>1.5.9</version>
+    <creationDate>March 2009</creationDate>
     <author>Joomla! i Norge</author>
     <copyright>(C) 2005 - 2009 Open Source Matters. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-    <description>Norwegian bokmål language file for web installer</description>
+    <description>Norwegian bokmål language installation for Joomla</description>
     <metadata>
     	<name>Norsk bokmål (Norway)</name>
     	<tag>nb-NO</tag>
