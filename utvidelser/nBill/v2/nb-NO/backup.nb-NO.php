@@ -23,31 +23,30 @@
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
 //Backup/Restore
-define("NBILL_BACKUP_RESTORE_TITLE", "Sikkerhetskopiér eller gjenopprett");
-define("NBILL_BACKUP_RESTORE_INTRO", "Bruk denne siden for å lagre en komplett sikkerhetskopi av databasen på din datamaskin, eller for å gjenopprette en tidligere lagret sikkerhetskopi. Du kan velge å lagre eller gjenopprette ALLE databasetabeller (hele databasen) eller bare " . NBILL_BRANDING_NAME . " tabeller.");
-define("NBILL_BACKUP_RESTORE_WARNING", "ADVARSEL! Sikkerhetskopien kan inneholde sensitive data. Lagre sikkerhetskopien på en sikker måte. IKKE lagre sikkerhetskopien på serveren.");
+define("NBILL_BACKUP_RESTORE_TITLE", "SikkerhetskopiÃ©r eller gjenopprett");
+define("NBILL_BACKUP_RESTORE_INTRO", "Bruk denne siden for Ã¥ lagre en komplett sikkerhetskopi av databasen pÃ¥ din datamaskin, eller for Ã¥ gjenopprette en tidligere lagret sikkerhetskopi. Du kan velge Ã¥ lagre eller gjenopprette ALLE databasetabeller (hele databasen) eller bare " . NBILL_BRANDING_NAME . " tabeller.");
+define("NBILL_BACKUP_RESTORE_WARNING", "ADVARSEL! Sikkerhetskopien kan inneholde sensitive data. Lagre sikkerhetskopien pÃ¥ en sikker mÃ¥te. IKKE lagre sikkerhetskopien pÃ¥ serveren.");
 define("NBILL_BACKUP", "Sikkerhetskopi");
 define("NBILL_RESTORE", "Gjenopprett");
-define("NBILL_BACKUP_WHAT", "Klikk på en av linkene for å laste ned sikkerhetskopien. (Avhengig av størrelsen kan det ta litt tid):");
+define("NBILL_BACKUP_WHAT", "Klikk pÃ¥ en av linkene for Ã¥ laste ned sikkerhetskopien. (Avhengig av stÃ¸rrelsen kan det ta litt tid):");
 define("NBILL_BACKUP_BILLING", "Last bare ned sikkerhetskopi av " . NBILL_BRANDING_NAME . " tabellene");
 define("NBILL_BACKUP_ALL", "Last ned sikkerhetskopi av alle tabeller");
-define("NBILL_ERR_NO_TABLES_FOUND", "En feil har oppstått - kunne ikke finne noen tabeller!");
-define("NBILL_ERR_STRUCTURE_UNREADABLE", "En feil har oppstått - kunne ikke lese fra databasen din.");
-define("NBILL_ERR_NO_DATA", "En feil har oppstått - ingen data funnet.");
-define("NBILL_RESTORE_WHAT", "Tabeller å gjenopprette");
-define("NBILL_INSTR_RESTORE_WHAT", "Om du skal gjenopprette fra en sikkerhetskopi som inneholder ALLE tabeller, kan du velge å bare gjenopprette " . NBILL_BRANDING_NAME . " tabeller (og beholde resten uberørt), eller å gjenopprette alle tabeller til innholdet i sikkerhetskopien. Om sikkerhetskopien din bare inneholder " . NBILL_BRANDING_NAME . " tabeller, blir bare " . NBILL_BRANDING_NAME . " tabeller gjenopprettet.");
+define("NBILL_ERR_NO_TABLES_FOUND", "En feil har oppstÃ¥tt - kunne ikke finne noen tabeller!");
+define("NBILL_ERR_STRUCTURE_UNREADABLE", "En feil har oppstÃ¥tt - kunne ikke lese fra databasen din.");
+define("NBILL_ERR_NO_DATA", "En feil har oppstÃ¥tt - ingen data funnet.");
+define("NBILL_RESTORE_WHAT", "Tabeller Ã¥ gjenopprette");
+define("NBILL_INSTR_RESTORE_WHAT", "Om du skal gjenopprette fra en sikkerhetskopi som inneholder ALLE tabeller, kan du velge Ã¥ bare gjenopprette " . NBILL_BRANDING_NAME . " tabeller (og beholde resten uberÃ¸rt), eller Ã¥ gjenopprette alle tabeller til innholdet i sikkerhetskopien. Om sikkerhetskopien din bare inneholder " . NBILL_BRANDING_NAME . " tabeller, blir bare " . NBILL_BRANDING_NAME . " tabeller gjenopprettet.");
 define("NBILL_RESTORE_BILLING", "Gjenopprett bare " . NBILL_BRANDING_NAME . " tabeller");
 define("NBILL_RESTORE_ALL", "Gjenopprett alle tabeller");
 define("NBILL_BACKUP_FILE", "Sikkerhetskopi");
-define("NBILL_INSTR_BACKUP_FILE", "Velg hvor sikkerhetskopien er lagret på din datamaskin");
-define("RESTORE_ARE_YOU_SURE", "ADVARSEL! Dette vil slette all nåværende data og legge tilbake data fra sikkerhetskopien. Om noe går galt kan du miste alle data. Brukes på egen risiko! Er du sikker på at du vil fortsette?");
-define("NBILL_ERR_NO_DATA_FOUND_IN_FILE", "En feil har oppstått under forsøk på gjenoppretting - ingen data ble funnet i filen! Ingen endringer er gjort.");
+define("NBILL_INSTR_BACKUP_FILE", "Velg hvor sikkerhetskopien er lagret pÃ¥ din datamaskin");
+define("RESTORE_ARE_YOU_SURE", "ADVARSEL! Dette vil slette all nÃ¥vÃ¦rende data og legge tilbake data fra sikkerhetskopien. Om noe gÃ¥r galt kan du miste alle data. Brukes pÃ¥ egen risiko! Er du sikker pÃ¥ at du vil fortsette?");
+define("NBILL_ERR_NO_DATA_FOUND_IN_FILE", "En feil har oppstÃ¥tt under forsÃ¸k pÃ¥ gjenoppretting - ingen data ble funnet i filen! Ingen endringer er gjort.");
 define("NBILL_ERR_FILE_NOT_VALID", "Filen du valgte er ikke en gyldig " . NBILL_BRANDING_NAME . " sikkerhetskopi. Ingen endringer er gjort.");
-define("NBILL_ERR_VERSION_MISMATCH", "Filen du valgte er fra en tidligere versjon av " . NBILL_BRANDING_NAME . ", og kan ikke gjenopprettes automatisk til denne versjonen. Du må gjøre dette manuelt, se " . NBILL_BRANDING_WEBSITE . " for instruksjoner.");
+define("NBILL_ERR_VERSION_MISMATCH", "Filen du valgte er fra en tidligere versjon av " . NBILL_BRANDING_NAME . ", og kan ikke gjenopprettes automatisk til denne versjonen. Du mÃ¥ gjÃ¸re dette manuelt, se " . NBILL_BRANDING_WEBSITE . " for instruksjoner.");
 define("NBILL_ERR_FILE_NOT_FOUND", "Ingen sikkerhetskopi ble funnet. Ingen endringer er gjort.");
-define("NBILL_ERR_BACKUP_DB_ERROR", "Følgende feil har oppstått under forsøk på gjenoppretting:\n\n%s\n\nAlle andre poster ble oppdatert med godt resultat.");
-define("NBILL_BACKUP_RESTORED", "Gjenoppretting utført OK.");
-define("NBILL_RESTORE_STATS", "%s Spørringer utført. Gjenopprettet med sikkerhetskopi fra %s");
-define("NBILL_NO_NON_BILLING_PRESENT", "ADVARSEL! Du valgte å gjenopprette ALLE tabeller, men filen du valgte inneholdt " . strtoupper(NBILL_BRANDING_NAME) . " tabellene. Faktureringstabellene ble gjenopprettet, de andre ble ikke rørt.");
+define("NBILL_ERR_BACKUP_DB_ERROR", "FÃ¸lgende feil har oppstÃ¥tt under forsÃ¸k pÃ¥ gjenoppretting:\n\n%s\n\nAlle andre poster ble oppdatert med godt resultat.");
+define("NBILL_BACKUP_RESTORED", "Gjenoppretting utfÃ¸rt OK.");
+define("NBILL_RESTORE_STATS", "%s SpÃ¸rringer utfÃ¸rt. Gjenopprettet med sikkerhetskopi fra %s");
+define("NBILL_NO_NON_BILLING_PRESENT", "ADVARSEL! Du valgte Ã¥ gjenopprette ALLE tabeller, men filen du valgte inneholdt " . strtoupper(NBILL_BRANDING_NAME) . " tabellene. Faktureringstabellene ble gjenopprettet, de andre ble ikke rÃ¸rt.");
 define("NBILL_RETURN_TO_BACKUP", "Tilbake til side for sikkerhetskopiering og gjenoppretting");
-?>
