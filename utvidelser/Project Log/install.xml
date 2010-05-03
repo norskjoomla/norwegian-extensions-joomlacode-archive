@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Id: install.xml 567 2009-03-24 09:45:28Z rued $ -->
-<install version="1.5" client="both" type="language">
+<install version="1.5" method="upgrade" client="both" type="language">
     <name>Norwegian bokmål (Norway)</name>
     <tag>nb-NO</tag>
     <version>1.0</version>
