@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: install.xml 525 2009-01-30 10:47:09Z Roar $ -->
+<install version="1.5" client="both" type="language" method="upgrade">
+    <name>Norwegian bokmåll (Norway)</name>
+    <tag>nb-NO</tag>
+    <version>2.0</version>
+    <creationdate>04-05-2010</creationdate>
+    <author>Joomla! i Norge</author>
+    <authoremail>oversettelser@joomlainorge.no</authoremail>
+    <authorurl>www.joomlainorge.no</authorurl>
+    <copyright>Copyright (C) 2005 - 2009 Open Source Matters. All rights reserved</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description><![CDATA[Norske språkfiler (bokmål) for Attachments brukerside og administrasjon.<br/>
+				 Opphav: 2005 - 2009, <a href="http://www.joomlainorge.no/" target="_blank">Foreningen Joomla! i Norge</a><br/>
+				 Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a><br /><br />
+                                 Bidra: Om du har stor nytte av disse språkfilene og ønsker å bidra til at foreningens kan fortsette sitt arbeide, 
+                                 med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/foreningen/hvordan-bidra/" target="_blank">besøk våre FAQ-sider</a> for mer informasjon.]]></description>
+    <administration>
+      <files folder="admin">
+        <filename>nb-NO.com_attachments.ini</filename>
+        <filename>nb-NO.com_attachments.menu.ini</filename>
+		<filename>nb-NO.plg_attachments_attachments_for_content.ini</filename>
+		<filename>nb-NO.plg_attachments_attachments_plugin_framework.ini</filename>
+		<filename>nb-NO.plg_content_attachments.ini</filename>
+		<filename>nb-NO.plg_editors-xtd_add_attachment.ini</filename>
+		<filename>nb-NO.plg_frontend_attachments.ini</filename>
+		<filename>nb-NO.plg_search_attachments.ini</filename>
+		<filename>nb-NO.plg_system_show_attachments.ini</filename>
+      </files>
+  </administration>
+  <site>
+      <files folder="site">
+        <filename>nb-NO.com_attachments.ini</filename>
+    </files>
+  </site>
+  <params />
+</install>
