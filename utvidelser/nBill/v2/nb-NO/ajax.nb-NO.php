@@ -33,6 +33,6 @@ define("NBILL_AJAX_RESULT_COUNT", "%s passende oppføringer ble funnet.");
 define("NBILL_AJAX_NAME", "Navn");
 define("NBILL_AJAX_EMAIL", "E-postadresse");
 define("NBILL_AJAX_LOCATION", "Sted");
-define("NBILL_AJAX_SELECT_CONTACTS", "Merk boks(ene) ved siden av kontakten(e) du ønsker å tildele(*oversettelse usikker), og klikk enten på knapp for 'Bruk' eller 'Lagre' i verktøylinjen.");
+define("NBILL_AJAX_SELECT_CONTACTS", "Merk boks(ene) ved siden av kontakten(e) du ønsker å tildele, og klikk enten på knapp for 'Bruk' eller 'Lagre' på verktøylinjen.");
 define("NBILL_AJAX_NAME_UNKNOWN", "[Navn ukjent]");
 define("NBILL_AJAX_SELECT", "Velg");
