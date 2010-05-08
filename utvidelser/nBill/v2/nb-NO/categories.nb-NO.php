@@ -29,7 +29,7 @@ define("NBILL_CATEGORY_DESCRIPTION", "Beskrivelse");
 define("NBILL_CATEGORY_ORDERING", "Sortering");
 define("NBILL_EDIT_CATEGORY", "Rediger kategori");
 define("NBILL_NEW_CATEGORY", "Ny kategori");
-define("NBILL_ERR_CANNOT_DELETE_CATEGORY", "Én eller flere kategorier du prøvde å slette ikke er tom. Du kan ikke slette en kategori som inneholder produkter eller andre kategorier. Du må enten slette eller flytte de produktene og/eller underkategorien til en annen kategori før du prøver å slette.");
+define("NBILL_ERR_CANNOT_DELETE_CATEGORY", "Én eller flere kategorier du prøvde å slette er ikke tom. Du kan ikke slette en kategori som inneholder produkter eller andre kategorier. Du må enten slette eller flytte de produktene og/eller underkategorien til en annen kategori før du prøver å slette.");
 define("NBILL_ERR_CANNOT_DELETE_ROOT_CAT", "Du kan ikke slette hovedkategorien (rot) - det må alltid finnes minst én kategori.");
 define("NBILL_CATEGORY_NAME_REQUIRED", "Skriv inn navnet for kategorien");
 define("NBILL_CATEGORY_DETAILS", "Kategoridetaljer");

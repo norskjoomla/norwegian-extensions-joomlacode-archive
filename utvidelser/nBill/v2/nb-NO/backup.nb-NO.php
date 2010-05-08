@@ -26,7 +26,7 @@
 define("NBILL_BACKUP_RESTORE_TITLE", "Sikkerhetskopiér eller gjenopprett");
 define("NBILL_BACKUP_RESTORE_INTRO", "Bruk denne siden for å lagre en komplett sikkerhetskopi av databasen på din datamaskin, eller for å gjenopprette en tidligere lagret sikkerhetskopi. Du kan velge å lagre eller gjenopprette ALLE databasetabeller (hele databasen) eller bare " . NBILL_BRANDING_NAME . " tabeller.");
 define("NBILL_BACKUP_RESTORE_WARNING", "ADVARSEL! Sikkerhetskopien kan inneholde sensitive data. Lagre sikkerhetskopien på en sikker måte. IKKE lagre sikkerhetskopien på serveren.");
-define("NBILL_BACKUP", "Sikkerhetskopi");
+define("NBILL_BACKUP", "Sikkerhetskopier");
 define("NBILL_RESTORE", "Gjenopprett");
 define("NBILL_BACKUP_WHAT", "Klikk på en av linkene for å laste ned sikkerhetskopien. (Avhengig av størrelsen kan det ta litt tid):");
 define("NBILL_BACKUP_BILLING", "Last bare ned sikkerhetskopi av " . NBILL_BRANDING_NAME . " tabellene");
