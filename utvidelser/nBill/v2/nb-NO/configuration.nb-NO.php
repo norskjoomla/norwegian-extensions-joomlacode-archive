@@ -26,51 +26,87 @@
 define("NBILL_CONFIG_TITLE", "Konfigurasjon");
 define("NBILL_CFG_ERROR_EMAIL", "E-post ved feil");
 define("NBILL_CFG_DATE_FORMAT", "Datoformat");
-define("NBILL_CFG_LIST_USERS", "Liste opp brukere pÂ klientsiden");
-define("NBILL_CFG_INSTR_ERROR_EMAIL", "Om det oppstÂr feil med programmet, vil en melding bli sendt til denne e-postadressen. MERK: Meldingen som sendes kan inneholde sensitive konfigurasjonsdata om din nettside eller server. Om feltet er blankt vil det IKKE bli sendt noe melding ved feil. Alle feil blir lagret i databasen (slettes etter 2 uker).");
-define("NBILL_CFG_INSTR_DATE_FORMAT", "Fastsette datoformatet som skal brukes pÂ fakturaen (for ¯yeblikket kan dato bare angis med tall. d=dag, m=mÂned, Y=Âr f. eks. NO: \"d/m/Y\"   US: \"m/d/Y\"   Internasjonalt: \"Y/m/d\").");
+define("NBILL_CFG_LIST_USERS", "Vis brukere p√• kundesiden");
+define("NBILL_CFG_INSTR_ERROR_EMAIL", "Om det oppst√•r feil med programmet, vil en melding bli sendt til denne e-postadressen. MERK: Meldingen som sendes kan inneholde sensitive konfigurasjonsdata om din nettside eller server. Om feltet er blankt vil det IKKE bli sendt noe melding ved feil. Alle feil blir lagret i databasen (slettes etter 2 uker).");
+define("NBILL_CFG_INSTR_DATE_FORMAT", "Fastsette datoformatet som skal brukes p√• fakturaen (for √∏yeblikket kan dato bare angis med tall. d=dag, m=m√•ned, Y=√•r f. eks. NO: \"d/m/Y\"   US: \"m/d/Y\"   Internasjonalt: \"Y/m/d\").");
 define("NBILL_CONFIG_UPDATED", "Konfigurasjonen er oppdatert.");
-define("NBILL_CFG_INSTR_LIST_USERS", "Velg om du vil vise liste over brukere, som du kan velge fra, skal vises pÂ kliensiden (sÂ du kan koble klient og brukerdata). Har du tusenvis av brukere, sett dette til NEI for Â laste siden raskere. (Velger du nei, kan du forsatt koble bruker med klient ved Â skrive inn bruker-ID direkte).");
+define("NBILL_CFG_INSTR_LIST_USERS", "Hvorvidt du vil vise liste over brukere, som du kan velge fra, som skal vises p√• kundesiden (s√• du kan koble kunde og brukerdata). Har du tusenvis av brukere, sett dette til NEI for √• laste siden raskere. (Velger du nei, kan du forsatt koble bruker med kunde ved √• skrive inn bruker-ID direkte).");
 define("NBILL_CFG_DATABASE_FUNCTIONS", "Databasefunksjoner");
-define("NBILL_CFG_INSTR_DATABASE_FUNCTIONS", "KomprimÈr eller slett " . NBILL_BRANDING_NAME . " tabellene. Komprimering av tabellene vil slette alle data sÂ du kan starte pÂ nytt igjen (du mÂ angi lisenskoden pÂ nytt). For Â kunne slette komponenten fullstendig mÂ du f¯rst slette tabellene f¯r du avinstallerer komponenten. IKKE slett tabellene om du skal oppgradere til siste versjon av " . NBILL_BRANDING_NAME . " og beholde dataene! MERK: SLETTING AV TABELLENE GJÿR " . strtoupper(NBILL_BRANDING_NAME) . " UBRUKELIG. Etter sletting b¯r du avinstallere komponenten, da den ikke lenger vil virke!");
-define("NBILL_CFG_CLEAR_TABLES", "KomprimÈr tabellene");
+define("NBILL_CFG_INSTR_DATABASE_FUNCTIONS", "Komprimer eller slett " . NBILL_BRANDING_NAME . " databasetabellen, eller overf√∏re data fra versjon 1.2.x. Komprimering av tabellene vil slette alle data s√• du kan starte p√• nytt igjen (du m√• angi lisenskoden p√• nytt). For √• kunne slette komponenten fullstendig m√• du f√∏rst slette tabellene f√∏r du avinstallerer komponenten. IKKE slett tabellene om du skal oppgradere til siste versjon av " . NBILL_BRANDING_NAME . " og beholde dataene! MERK: SLETTING AV TABELLENE GJ√òR " . strtoupper(NBILL_BRANDING_NAME) . " UBRUKELIG. Etter sletting b√∏r du avinstallere komponenten, da den ikke lenger vil virke! Overf√∏ring av data fra versjon 1.2.x vil slette all eksisterende data, kopiere data fra versjon 1.2.x i stedet (dette kan ta noe tid).");
+define("NBILL_CFG_CLEAR_TABLES", "Komprimer tabellene");
 define("NBILL_CFG_DELETE_TABLES", "Slett tabellene");
-define("NBILL_CFG_CONFIRM_CLEAR", "Er du sikker pÂ at du vil slette alle data? De kan IKKE gjenopprettes! (Om du fortsetter mÂ du angi lisenskoden pÂ nytt.)");
-define("NBILL_CFG_CONFIRM_DELETE", "ADVARSEL! PÂ denne mÂten vil " . NBILL_BRANDING_NAME . " ikke virke lenger! Er du sikker pÂ at du vil SLETTE alle " . NBILL_BRANDING_NAME . " tabellene permanent?");
-define("NBILL_CFG_TABLES_CLEARED", "Tabellene og alle dine data er slettet. Du mÂ  angi lisenskoden pÂ nytt for Â fortsatt kunne bruke " . NBILL_BRANDING_NAME . ".");
-define("NBILL_CFG_TABLES_DELETED", "Alle " . NBILL_BRANDING_NAME . " tabellene er slettet. For Â fullstendig avinstaller, se %s");
-define("NBILL_CFG_UNINSTALLER", "Komponent installert");
-define("NBILL_CFG_CRON_TOKEN", "CRON autorisasjons-kode");
-define("NBILL_CFG_INSTR_CRON_TOKEN", "Skriv inn en kode her (ingen skilletegn takk!) og skriv inn den samme koden slik at CRON-skriptet kan kj¯res (f. eks. til daglig automatisk generering av fakturaer ). Dette for Â hindre at ikke godkjente skript kj¯res pÂ " . NBILL_BRANDING_NAME . ". Se " . NBILL_BRANDING_WEBSITE . " for mer informasjon.");
+define("NBILL_CFG_CONFIRM_CLEAR", "Er du sikker p√• at du vil slette alle data? De kan IKKE gjenopprettes! (Om du fortsetter m√• du angi lisenskoden p√• nytt.)");
+define("NBILL_CFG_CONFIRM_DELETE", "ADVARSEL! P√• denne m√•ten vil " . NBILL_BRANDING_NAME . " ikke virke lenger! Er du sikker p√• at du vil SLETTE alle " . NBILL_BRANDING_NAME . " tabellene permanent?");
+define("NBILL_CFG_TABLES_CLEARED", "Tabellene og alle dine data er slettet. Du m√•  angi lisenskoden p√• nytt for √• fortsatt kunne bruke " . NBILL_BRANDING_NAME . ".");
+define("NBILL_CFG_TABLES_DELETED", "Alle " . NBILL_BRANDING_NAME . " tabellene er slettet. For √• fullstendig avinstaller, se %s");
+define("NBILL_CFG_UNINSTALLER", "Komponent installasjon");
+define("NBILL_CFG_CRON_TOKEN", "CRON autorisasjonskode");
+define("NBILL_CFG_INSTR_CRON_TOKEN", "Skriv inn en kode her (ingen skilletegn!) og skriv inn den samme koden slik at CRON-skriptet kan kj√∏res (f. eks. til daglig automatisk generering av fakturaer ). Dette for √• hindre at ikke godkjente skript kj√∏res p√• " . NBILL_BRANDING_NAME . ". Se " . NBILL_BRANDING_WEBSITE . " for mer informasjon.");
 define("NBILL_CFG_LICENSE_KEY", "Lisenskode");
-define("NBILL_CFG_INSTR_LICENSE_KEY", "ÿnsker du Â oppdatere din lisenskode f¯r den utl¯per, kan du skrive inne den ny koden her. ADVARSEL! Skriver du feil kode kan dette f¯re til at du ikke kan bruke " . NBILL_BRANDING_NAME . " lenger! Skriv inn en gyldig lisenskode NÿYAKTIG slik den er. Ved Â skrive inn lisenskoden, bekrefter du, godtar og forstÂr %s");
+define("NBILL_CFG_INSTR_LICENSE_KEY", "√ònsker du √• oppdatere din lisenskode f√∏r den utl√∏per, kan du skrive inne den ny koden her. ADVARSEL! Skriver du feil kode kan dette f√∏re til at du ikke kan bruke " . NBILL_BRANDING_NAME . " lenger! Skriv inn en gyldig lisenskode N√òYAKTIG slik den er. Ved √• skrive inn lisenskoden, bekrefter du, godtar og forst√•r %s");
 define("NBILL_CFG_EULA", "Avslutt avtalen");
 define("NBILL_CFG_VERSION_AUTO_CHECK", "Se etter nye versjoner?");
 define("NBILL_CFG_AUTO_UPDATE", "Oppgrader automatisk?");
-define("NBILL_CFG_INSTR_VERSION_AUTO_CHECK", "Velg om det automatisk skal eller ikke skal sjekkes for nyere versjoner av programmet nÂr administratorsiden Âpnes. Ingen personlige data blir sendt.");
-define("NBILL_CFG_INSTR_AUTO_UPDATE", "Velg om du automatisk skal eller ikke skal oppgradere programvaren nÂr nyere versjoner er tilgjenelig. Gjelder bare om 'Se etter nye versjoner' er satt til 'ja'. Er dette valget satt til 'nei', fÂr du bare en pÂminnelse om at ny versjon er tilgjengelig, men den nye versjonen vil IKKE bli lastet ned og installert.");
+define("NBILL_CFG_INSTR_VERSION_AUTO_CHECK", "Velg om det automatisk skal eller ikke skal sjekkes for nyere versjoner av programmet n√•r administratorsiden √•pnes. Ingen personlige data blir sendt.");
+define("NBILL_CFG_INSTR_AUTO_UPDATE", "Velg om du automatisk skal eller ikke skal oppgradere programvaren n√•r nyere versjoner er tilgjengelig. Gjelder bare om 'Se etter nye versjoner' er satt til 'ja'. Er dette valget satt til 'nei', f√•r du bare en p√•minnelse om at ny versjon er tilgjengelig, men den nye versjonen vil IKKE bli lastet ned og installert.");
 define("NBILL_CFG_CHECK_VERSION", "Se etter oppdateringer");
-define("NBILL_CFG_INSTR_CHECK_VERSION", "Klikk for Â sjekke om en nyere versjon av komponenten finnes.");
-define("NBILL_CFG_BTN_CHECK_VERSION", "Sjekk nÂ");
+define("NBILL_CFG_INSTR_CHECK_VERSION", "Klikk for √• sjekke om en nyere versjon av komponenten finnes.");
+define("NBILL_CFG_BTN_CHECK_VERSION", "Sjekk n√•");
 define("NBILL_CFG_UPDATE_NOW", "Oppgrader komponenten");
-define("NBILL_CFG_INSTR_UPDATE_NOW", "Klikk pÂ knappen for Â oppgradere til nyeste versjon (hvis tilgjengelig).");
-define("NBILL_CFG_BTN_UPDATE_NOW", "Oppgrader nÂ");
+define("NBILL_CFG_INSTR_UPDATE_NOW", "Klikk p√• knappen for √• oppgradere til nyeste versjon (hvis tilgjengelig).");
+define("NBILL_CFG_BTN_UPDATE_NOW", "Oppgrader n√•");
 
 /* Version 1.1.4 */
-define("NBILL_CFG_LIST_START_DATE", "Standard startdatolister");
-define("NBILL_CFG_INSTR_LIST_START_DATE", "Indikerer hvordan du vil at systemet skal velge startdato for lister som bruker datoomrÂde (f. eks. ordre, faktura) nÂr ingen dato valgt. ADVARSEL! Velger du f. eks. Â vise poster for de siste 5 Ârene, kan dette f¯re til at det tar lang tid Â vise listen.");
-define("NBILL_CFG_START_DATE_CURRENT_ONLY", "Vis bare denne mÂned");
-define("NBILL_CFG_START_DATE_CURRENT_LAST", "Vis denne og forrige mÂned");
-define("NBILL_CFG_START_DATE_QUARTER", "Vis inntil 3 mÂneder");
-define("NBILL_CFG_START_DATE_SEMI", "Vis inntil 6 mÂneder");
-define("NBILL_CFG_START_DATE_YEAR", "Vis inntil ett Âr");
-define("NBILL_CFG_START_DATE_FIVE", "Vis inntil 5 Âr");
-define("NBILL_CFG_START_DATE_ALL", "Vis ALLE postene");
+define("NBILL_CFG_LIST_START_DATE", "Standard startdato for lister");
+define("NBILL_CFG_INSTR_LIST_START_DATE", "Indikerer hvordan du vil at systemet skal velge startdato for lister som bruker datoomr√•de (f. eks. ordre, faktura) n√•r ingen dato valgt. ADVARSEL! Velger du f. eks. √• vise poster for de siste 5 √•rene, kan dette f√∏re til at det tar lang tid √• vise listen.");
+define("NBILL_CFG_START_DATE_CURRENT_ONLY", "Vis bare denne m√•ned");
+define("NBILL_CFG_START_DATE_CURRENT_LAST", "Vis denne og forrige m√•ned");
+define("NBILL_CFG_START_DATE_QUARTER", "Vis inntil 3 m√•neder");
+define("NBILL_CFG_START_DATE_SEMI", "Vis inntil 6 m√•neder");
+define("NBILL_CFG_START_DATE_YEAR", "Vis inntil ett √•r");
+define("NBILL_CFG_START_DATE_FIVE", "Vis inntil 5 √•r");
+define("NBILL_CFG_START_DATE_ALL", "Vis ALt");
 
 //Version 1.2.1
 define("NBILL_CFG_SWITCH_TO_SSL", "Bytt til SSL ved innlogging?");
-define("NBILL_CFG_INSTR_SWITCH_TO_SSL", "Velg om du skal eller ikke skal bytte til https etter at brukeren har logget inn ved bruk av logg inn fra " . NBILL_BRANDING_NAME . " (vil bare gjelde logg inn fra  " . NBILL_BRANDING_NAME . "). ADVARSEL! Du mÂ ha installert et SSL-sertifikat for at dette skal virke. Det kan hende du mÂ modifisere filer (Se artikkel pÂ <a target=\"blank\" href=\"http://www.netshinesoftware.com/security/using-an-ssl-certificate-with-your-joomla-website.html\">Netshine Software website</a>).");
+define("NBILL_CFG_INSTR_SWITCH_TO_SSL", "Velg om du skal eller ikke skal bytte til https etter at brukeren har logget inn ved bruk av logg inn fra " . NBILL_BRANDING_NAME . " (vil bare gjelde logg inn fra  " . NBILL_BRANDING_NAME . "). ADVARSEL! Du m√• ha installert et SSL-sertifikat for at dette skal virke. Det kan hende du m√• modifisere filer (Se artikkel p√• <a target=\"blank\" href=\"http://www.netshinesoftware.com/security/using-an-ssl-certificate-with-your-joomla-website.html\">Netshines nettside</a>).");
 
 //Version 1.2.3 - Note to translators:
 //Line 29 of original English language file amended (NBILL_CFG_INSTR_DATE_FORMAT) - date formats currently restricted to numeric
-?>
+
+//Version 2.0.0
+define("NBILL_CFG_NO_TX_ID_SPECIFIED", "Ingen transaksjons-ID ble spesifisert.");
+define("NBILL_CFG_ORDER_ASSOCIATED", "Den valgte bestillingen er n√• knyttet til denne transaksjonen");
+define("NBILL_CFG_PREV_MATCH_DISCARDED", " og den tidligere knytningen valgt av " . NBILL_BRANDING_NAME . " er slettet.");
+define("NBILL_CFG_CLOSEST_MATCH_ACCEPTED", "Den n√¶rmeste likheten ble akseptert. ");
+define("NBILL_CFG_NO_ACTION", "Ingen handling utf√∏rt.");
+define("NBILL_CFG_ASSOCIATION_REMOVED", "Transaksjonen er ikke lenger forbundet med en bestilling. Fremtidige transaksjoner med denne ID en vil vise en advarsel som igjen ber deg om √• velge riktig bestilling.");
+define("NBILL_CFG_FORM_TAMPERING", "Skjemaet synes √• ha blitt endret (sikkerhetstegnet samsvarer ikke med verdien). Ingen handling er utf√∏rt.");
+define("NBILL_CFG_TX_CHANGE_INTRO", "%s klarte ikke √• bestemme hvilken bestilling en transaksjon for %s skal tildeles. Basert p√• bel√∏p og dato, ble den n√¶rmeste valgt (som standard blir den bestillingen som er mest lik valgt i den f√∏rste nedtrekkslisten nedenfor). Hvis dette ikke er riktig, m√• du velge riktig bestilling fra den f√∏rste nedtrekkslisten. Hvis du er sikker p√• at den riktige bestillingen ikke er oppf√∏rt i den f√∏rste nedtrekkslisten, kan du velge en annen bestilling √• knytte denne transaksjonen til, eller velge √• ikke knytte transaksjonen til noen bestillinger.");
+define("NBILL_CFG_SELECT_ASSOCIATION", "Du kan velge en ordre √• knytte denne transaksjonen til, eller velg √• ikke knytte transaksjonen til en ordre.");
+define("NBILL_CFG_ASSOC_WARNING", "MERK: Velger du en ordre vil alle fremtidige transaksjoner med samme ID-nummer (%s) bli knyttet til denne ordre ogs√•.");
+define("NBILL_CFG_AMEND_ASSOC_TITLE", "Endre transaksjon tilknytning");
+define("NBILL_CFG_INDICATE_ACTION", "Velg hvilke tiltak som skal utf√∏res:");
+define("NBILL_CFG_UNALLOCATED", "Tilordne transaksjon til en ledig bestilling:");
+define("NBILL_CFG_OTHER_ORDER", "Tilordne transaksjon til en annen bestilling:");
+define("NBILL_CFG_NOT_RECOMMENDED", "(anbefales ikke med mindre du er helt sikkert!)");
+define("NBILL_CFG_NO_SAVE_ON_DEMO", "Beklager, men du kan ikke lagre konfigurasjonen i demo versjonen.");
+define("NBILL_CFG_MIGRATE_1_2", "Overf√∏r fra v1.2.x");
+define("NBILL_CFG_FTP_ADDRESS", "FTP adresse");
+define("NBILL_CFG_INSTR_FTP_ADDRESS", "Hvis du vil tillate " . NBILL_BRANDING_NAME . " √• oppgradere seg selv ved hjelp av FTP (dvs. hvor filene er eid av ditt FTP brukernavn i stedet for at brukeren PHP som det kj√∏rer under), skriv inn FTP forbindelsesdetaljene her. Dette er ikke n√∏dvendig hvis serveren kj√∏rer suPHP. <strong>MERK: Hvis du bruker Joomla 1.5, b√∏r du sette FTP detaljene i Joomla konfigurasjonen i stedet for her</strong> (s√• lenge detaljene er riktig, vil de automatisk bli plukket opp av " . NBILL_BRANDING_NAME . " og kan da ikke bli overskrevet her).");
+define("NBILL_CFG_FTP_PORT", "FTP Port");
+define("NBILL_CFG_INSTR_FTP_PORT", "Porten til bruk ved tilkobling via FTP (standard er 21)");
+define("NBILL_CFG_FTP_USERNAME", "FTP brukernavn");
+define("NBILL_CFG_INSTR_FTP_USERNAME", "Brukernavnet som skal brukes n√•r du kobler via FTP");
+define("NBILL_CFG_FTP_PASSWORD", "FTP passord");
+define("NBILL_CFG_INSTR_FTP_PASSWORD", "Passord som skal brukes n√•r du kobler via FTP");
+define("NBILL_CFG_FTP_ROOT", "FTP rot mappe");
+define("NBILL_CFG_INSTR_FTP_ROOT", "Den fullstendige banen til rotmappen hvor detaljene over gir tilgang. For eksempel, hvis hele banen til nettstedet ditt er /home/user/public_html/cms, FTP-roten vil da typisk v√¶re /home/user/. Pass p√• at du har med en etterf√∏lgende skr√•strek, hvis det er aktuelt.");
+define("NBILL_CFG_TEST_FTP", "Test kobling");
+define("NBILL_CFG_FTP_CONNECT_SUCCESSFUL", "Vellykket FTP tilkobling");
+define("NBILL_CFG_FTP_CONNECT_FAILED", "FTP tilkobling mislyktes");
+define("NBILL_CFG_FTP_LOGIN_FAILED", "Koblet til FTP server ok, men p√•logging mislyktes");
+define("NBILL_CFG_FTP_OK_BUT_NBILL_NOT_FOUND", "FTP tilkobling og innlogging var vellykket, men " . NBILL_BRANDING_NAME . " ble ikke funnet p√• denne plasseringen");
+define("NBILL_CFG_FTP_OK_BUT_FILE_NOT_WRITTEN", "FTP tilkobling, innlogging, og navigering i mappene er vellykket, men kunne ikke skrive til filene (det kan v√¶re din brannmur blokkerer tilgangen, eller denne brukeren kanskje ikke har skrivetilgang til filene");
+define("NBILL_CFG_FTP_WRITE_OK_NO_READ", "FTP tilkobling, innlogging, og navigering i mappene er vellykket, men kan ikke bekrefte at filer kan skrives til - brukeren har kanskje ikke lesetilgang til filene");
+define("NBILL_CFG_FTP_TRY_AGAIN", "Vennligst endre FTP forbindelsesdetaljene p√• denne siden, lagre endringene, og pr√∏v igjen.");
