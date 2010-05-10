@@ -1,7 +1,7 @@
 <?php
 /**
 * Language file for nBill
-* @version 1
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
@@ -23,32 +23,31 @@
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
 //Extensions
-define("NBILL_EXTENSION_INSTALL_WARNING", "ADVARSEL! Bare installer utvidelser fra kilder du stoler pÂ. En utvidelse kan fÂ tilgang til hele nettsiden din!");
+define("NBILL_EXTENSION_INSTALL_WARNING", "ADVARSEL! Bare installer utvidelser fra kilder du stoler p√•. En utvidelse kan f√• tilgang til hele nettsiden din!");
 define("NBILL_EXTENSION_NO_GATEWAY_FILE", "Ingen fil er merket som en fil for betalingsmodul");
-define("NBILL_EXTENSION_NO_LANGUAGE_FILE", "Ingen fil er merket som en sprÂkfil");
-define("NBILL_EXTENSION_INSTALL_NEW", "InstallÈr ny utvidelse");
+define("NBILL_EXTENSION_NO_LANGUAGE_FILE", "Ingen fil er merket som en spr√•kfil");
+define("NBILL_EXTENSION_INSTALL_NEW", "Install√©r ny utvidelse");
 define("NBILL_EXTENSIONS_INSTALLED", "Installerte utvidelser");
 define("NBILL_EXTENSION_NAME", "Utvidelsens navn");
 define("NBILL_EXTENSION_TYPE", "Type");
-define("NBILL_EXTENSION_DATE_CREATED", "Produksjondato");
+define("NBILL_EXTENSION_DATE_CREATED", "Dato");
 define("NBILL_EXTENSION_DATE_INSTALLED", "Installasjonsdato");
 define("NBILL_EXTENSION_VERSION", "Versjon");
 define("NBILL_EXTENSION_AUTHOR", "Utvikler");
 define("NBILL_EXTENSION_URL", "Nettadresse");
-define("NBILL_EXTENSION_UNINSTALL", "AvinstallÈr");
-define("NBILL_EXTENSION_NOT_REMOVED", "Beklager, " . NBILL_BRANDING_NAME . " kunne ikke slette utvidelsen '%s'. Den mÂ fjernes manuelt.");
+define("NBILL_EXTENSION_UNINSTALL", "Avinstall√©r");
+define("NBILL_EXTENSION_NOT_REMOVED", "Beklager, " . NBILL_BRANDING_NAME . " kunne ikke slette utvidelsen '%s'. Den m√• fjernes manuelt.");
 define("NBILL_EXTENSION_REMOVED", "Utvidelsen '%s' ble vellykket avinstallert.");
-define("NBILL_UNINSTALL_KEEP_SETTINGS", "Vil du beholde dine innstillinger, slik at du kan oppdatere utvidelsen (om det er aktuelt)? Velg `OK` for Â la database vÊre uber¯rt, eller `Avbryt` for Â slette denne utvidelsen for godt.");
+define("NBILL_UNINSTALL_KEEP_SETTINGS", "Vil du beholde dine innstillinger, slik at du kan oppdatere utvidelsen (om det er aktuelt)? Velg `OK` for √• la database v√¶re uber√∏rt, eller `Avbryt` for √• slette denne utvidelsen for godt.");
 
 //Version 1.2.0
 define("NBILL_EXTENSION_NO_INSTALL_FILE", "Ingen installasjonsfil (*.nbe) ble funnet. Utvidelsen kan ikke installeres. Forsikre deg om at du bruker riktig versjon av utvidelsen (utvidelser skrevet for eldre versjoner av " . NBILL_BRANDING_NAME . " vil kanskje ikke virke med denne versjonen).");
 define("NBILL_EXTENSION_INVALID_INSTALL_FILE", "Installasjonsfilen (%s) er ikke en gyldig nBill fil. Utvidelsen kan ikke installeres.");
-define("NBILL_EXTENSION_COULD_NOT_CREATE_DIR", "Installasjonen feilet fordi f¯lgende mappe ikke kunne opprettes: %s (hvis denne mappen allerede eksisterer, fors¯k da Â avinstallere den eksisterende utvidelsen f¯rst).");
-define("NBILL_EXTENSION_COULD_NOT_CREATE_FILE", "Installasjonen feilet fordi f¯lgende fil ikke kunne opprettes: %s (hvis denne filen allerede eksisterer, fors¯k da Â avinstallere den eksisterende utvidelsen f¯rst).");
+define("NBILL_EXTENSION_COULD_NOT_CREATE_DIR", "Installasjonen feilet fordi f√∏lgende mappe ikke kunne opprettes: %s (hvis denne mappen allerede eksisterer, fors√∏k da √• avinstallere den eksisterende utvidelsen f√∏rst).");
+define("NBILL_EXTENSION_COULD_NOT_CREATE_FILE", "Installasjonen feilet fordi f√∏lgende fil ikke kunne opprettes: %s (hvis denne filen allerede eksisterer, fors√∏k da √• avinstallere den eksisterende utvidelsen f√∏rst).");
 define("NBILL_EXTENSION_INSTALLED", "Utvidelsen '%s' ble vellykket installert!");
-define("NBILL_EXTENSION_RETURN_TO_LIST", "for Â returnere til utvidelsesinstallasjonen");
-define("NBILL_EXTENSION_VERSION_INCOMPATIBLE", "Versjonen av " . NBILL_BRANDING_NAME . " som du bruker, er ikke kompatibel med utvidelsen du fors¯ker Â installere");
+define("NBILL_EXTENSION_RETURN_TO_LIST", "for √• returnere til utvidelsesinstallasjonen");
+define("NBILL_EXTENSION_VERSION_INCOMPATIBLE", "Versjonen av " . NBILL_BRANDING_NAME . " som du bruker, er ikke kompatibel med utvidelsen du fors√∏ker √• installere");
 
 //Version 1.2.8
-define("NBILL_EXTENSION_DB_ERROR", "Installasjonen var kanskje ikke vellykket fordi f¯lgende databasefeil oppstod: %s");
-?>
+define("NBILL_EXTENSION_DB_ERROR", "Installasjonen var kanskje ikke vellykket fordi f√∏lgende databasefeil oppstod: %s");

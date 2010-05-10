@@ -24,7 +24,7 @@
 
 //Contacts
 define("NBILL_CONTACTS_TITLE", "Kontakter");
-define("NBILL_WEBSITE", "Nettadresse");
+define("NBILL_WEBSITE", "Nettside");
 define("NBILL_TELEPHONE", "Telefon 1");
 define("NBILL_TELEPHONE_2", "Telefon 2");
 define("NBILL_USERNAME_PASSWORD_REQUIRED", "Et brukernavn og passord er påkrevd for å opprette en ny bruker.");
@@ -33,7 +33,7 @@ define("NBILL_NEW_CONTACT", "Ny kontakt");
 define("NBILL_CONTACT_DETAILS", "Kontaktdetaljer");
 define("NBILL_CONTACT_USER", "Lenket til bruker");
 define("NBILL_CREATE_USER", "[Opprett ny bruker]");
-define("NBILL_CONTACT_NAME", "Kontaktnavn");
+define("NBILL_CONTACT_NAME", "Navn");
 define("NBILL_CONTACT_ADD_NAME_TO_INVOICE", "Legg kontaktnavn til fakturaer?");
 define("NBILL_ADDRESS_1", "Adresselinje 1");
 define("NBILL_ADDRESS_2", "Adresselinje 2");
@@ -42,7 +42,7 @@ define("NBILL_TOWN", "Sted");
 define("NBILL_STATE", "Fylke");
 define("NBILL_POSTCODE", "Postnummer");
 define("NBILL_CONTACT_COUNTRY", "Land");
-define("NBILL_MOBILE", "Mobiltelefon");
+define("NBILL_MOBILE", "Mobil");
 define("NBILL_FAX", "Faks");
 define("NBILL_INSTR_CONTACT_NAME", "Navnet på personen du handler med - du kan la dette stå tomt hvis du vil.");
 define("NBILL_INSTR_ADDRESS", "Alternativt kan du skrive inn adressen til denne kontakten (den brukes bare for å opprette kunden eller leverandøradressen hvis en kunde eller leverandør er generert basert på denne kontakten).");

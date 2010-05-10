@@ -22,11 +22,11 @@
 //Ensure this file has been reached through a valid entry point (not always necessary eg. for class files, but included on every file to be safe!)
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
-define("NBILL_FAVOURITES_TITLE", "Favourites Picker");
-define("NBILL_FAVOURITES_INTRO", "Check the items that you want to appear as icons on the 'home' control panel (ie. select the items you use most frequently, for quick access from the home page).");
-define("NBILL_FAVOURITES_ICON", "Icon");
-define("NBILL_FAVOURITES_NAME", "Option Name");
-define("NBILL_FAVOURITES_DESCRIPTION", "Option Description");
-define("NBILL_FAVOURITES_SELECT", "Select as Favourite?");
-define("NBILL_FAVOURITE_YES", "Yes");
-define("NBILL_FAVOURITE_YES", "No");
+define("NBILL_FAVOURITES_TITLE", "Favorittvelger");
+define("NBILL_FAVOURITES_INTRO", "Velg de elementene du vil skal vises som ikoner på 'Kontrollpanelet' (dvs. Velg elementene du bruker oftest, for rask tilgang fra nettsiden).");
+define("NBILL_FAVOURITES_ICON", "Ikon");
+define("NBILL_FAVOURITES_NAME", "Alternativt navn");
+define("NBILL_FAVOURITES_DESCRIPTION", "Alternativ beskrivelse");
+define("NBILL_FAVOURITES_SELECT", "Velg som favoritt?");
+define("NBILL_FAVOURITE_YES", "Ja");
+define("NBILL_FAVOURITE_YES", "Nei");

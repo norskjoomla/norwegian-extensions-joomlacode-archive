@@ -1,7 +1,7 @@
 <?php
 /**
 * Language file for nBill
-* @version 1
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
@@ -24,7 +24,7 @@
 
 //Currency
 define("NBILL_CURRENCY_TITLE", "Valutaer");
-define("NBILL_CURRENCY_INTRO", "Dersom dine produkter er priset i flere valutaer, du kan definere disse valutaene her. Du mÂ minst velge en valuta.");
+define("NBILL_CURRENCY_INTRO", "Dersom dine produkter er priset i flere valutaer, kan du definere disse valutaene her. Du m√• minst velge en valuta.");
 define("NBILL_CURRENCY_NAME", "Valutanavn");
 define("NBILL_CURRENCY_CODE", "ISO-kode");
 define("NBILL_CURRENCY_SYMBOL", "Symbol");
@@ -32,11 +32,10 @@ define("NBILL_CURRENCY_RATE", "Konverteringsfrekvens");
 define("NBILL_EDIT_CURRENCY_RATE", "Endre valuta");
 define("NBILL_NEW_CURRENCY_RATE", "Ny valuta");
 define("NBILL_CURRENCY_DETAILS", "Valutadetaljer");
-define("NBILL_CURRENCY_NAME_REQUIRED", "Vennligst skriv inn navnet pÂ valutaen.");
+define("NBILL_CURRENCY_NAME_REQUIRED", "Vennligst skriv inn navnet p√• valutaen.");
 define("NBILL_CURRENCY_CODE_REQUIRED", "Vennligst skriv inn ISO-koden for valutaen.");
-define("NBILL_INSTR_CURRENCY_NAME", "Navn pÂ valuta (f.eks. 'US Dollar', 'Norske kroner')");
+define("NBILL_INSTR_CURRENCY_NAME", "Navn p√• valuta (f.eks. 'US Dollar', 'Norske kroner')");
 define("NBILL_INSTR_CURRENCY_CODE", "ISO-kode for valuta (f.eks. 'USD', 'NOK')");
-define("NBILL_INSTR_CURRENCY_SYMBOL", "Symbol brukt som prefiks for bel¯pene (f.eks. '&#36;', '&euro;') - husk: det er sikrest Â bruke HTML koder (f.eks. &amp;#36; &amp;euro;).");
+define("NBILL_INSTR_CURRENCY_SYMBOL", "Symbol brukt som prefiks for bel√∏pene (f.eks. '&#36;', '&euro;') - husk: det er sikrest √• bruke HTML koder (f.eks. &amp;#36; &amp;euro;).");
 define("NBILL_ERR_CANNOT_DELETE_LAST_CURRENCY", "Du kan ikke slette den eneste valutaen!");
-define("NBILL_ERR_CANNOT_DELETE_CURRENCY_IN_USE", "En eller flere valutaer du pr¯vde Â slette, er i bruk av en eller flere leverand¯rer. Prosess avbrutt - du kan ikke slette en valuta som blir brukt av en leverand¯r.");
-?>
+define("NBILL_ERR_CANNOT_DELETE_CURRENCY_IN_USE", "En eller flere valutaer du pr√∏vde √• slette, er i bruk av en eller flere leverand√∏rer. Prosess avbrutt - du kan ikke slette en valuta som blir brukt av en leverand√∏r.");
