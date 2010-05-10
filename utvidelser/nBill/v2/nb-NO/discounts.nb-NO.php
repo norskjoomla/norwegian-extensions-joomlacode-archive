@@ -1,7 +1,7 @@
 <?php
 /**
 * Language file for nBill
-* @version 1
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
@@ -24,63 +24,60 @@
 
 //Discounts
 define("NBILL_DISCOUNTS_TITLE", "Rabatter");
-define("NBILL_DISCOUNTS_INTRO", "Her kan du sette opp regler for rabatter på dine produkter (for hvert produkt eller for alle). Rabatter kan avgrenses på brukernivå og/eller rabattkoder, og det kan være som prosent eller fast beløp. Du kan også velge at rabattkoden bare skal kunne brukes en gang, eller at rabatten bare gjelder for en angitt periode.");
+define("NBILL_DISCOUNTS_INTRO", "Her kan du sette opp regler for rabatter pÃ¥ dine produkter (for hvert produkt eller for alle). Rabatter kan avgrenses pÃ¥ brukernivÃ¥ og/eller rabattkoder, og det kan vÃ¦re som prosent eller fast belÃ¸p. Du kan ogsÃ¥ velge at rabattkoden bare skal kunne brukes en gang, eller at rabatten bare gjelder for en angitt periode.");
 define("NBILL_DISCOUNT_NAME", "Rabattnavn");
 define("NBILL_DISCOUNT_END_DATE", "Sluttdato");
-define("NBILL_DISCOUNT_USER_LEVEL", "Brukernivå");
+define("NBILL_DISCOUNT_LOGGED_IN", "Kun for innloggede?");
 define("NBILL_DISCOUNT_PERCENTAGE", "Prosent");
-define("NBILL_DISCOUNT_AMOUNT", "Beløp");
+define("NBILL_DISCOUNT_AMOUNT", "BelÃ¸p");
 define("NBILL_EDIT_DISCOUNT", "Rediger rabatt");
 define("NBILL_ALL_GROUPS", "Alle");
 define("NBILL_AND_ABOVE", " og over");
-define("NBILL_DISCOUNT_NAME_REQUIRED", "Skriv inn ett navn på rabatten.");
+define("NBILL_DISCOUNT_NAME_REQUIRED", "Skriv inn ett navn pÃ¥ rabatten.");
 define("NBILL_NEW_DISCOUNT", "Ny rabatt");
 define("NBILL_DISCOUNT_DETAILS", "Rabattdetaljer");
 define("NBILL_INSTR_DISCOUNT_NAME", "Skriv en beskrivelse av rabatten, slik at du senere husker hvorfor det er gitt rabatt.");
 define("NBILL_DISCOUNT_DISPLAY_NAME", "Vis navn");
-define("NBILL_INSTR_DISCOUNT_DISPLAY_NAME", "Tekst som vises på faktura når denne rabatten brukes (er feltet blankt, brukes rabattnavnet).");
+define("NBILL_INSTR_DISCOUNT_DISPLAY_NAME", "Tekst som vises pÃ¥ faktura nÃ¥r denne rabatten brukes (er feltet blankt, brukes rabattnavnet).");
 define("NBILL_DISCOUNT_TIME_LIMITED", "Tidsperiode?");
-define("NBILL_INSTR_DISCOUNT_TIME_LIMITED", "Her angis en periode for når denne rabatten gjelder.");
+define("NBILL_INSTR_DISCOUNT_TIME_LIMITED", "Her angis en periode for nÃ¥r denne rabatten gjelder.");
 define("NBILL_DISCOUNT_START_DATE", "Stardato");
-define("NBILL_INSTR_DISCOUNT_START_DATE", "Når rabatten skal starte (kan bare brukes bare når 'Tidsperiode' er satt til 'JA')");
-define("NBILL_INSTR_DISCOUNT_END_DATE", "Når rabatten skal avsluttes (kan bare brukes bare når 'Tidsperiode' er satt til 'JA')");
+define("NBILL_INSTR_DISCOUNT_START_DATE", "NÃ¥r rabatten skal starte (kan bare brukes bare nÃ¥r 'Tidsperiode' er satt til 'JA')");
+define("NBILL_INSTR_DISCOUNT_END_DATE", "NÃ¥r rabatten skal avsluttes (kan bare brukes bare nÃ¥r 'Tidsperiode' er satt til 'JA')");
 define("NBILL_DISCOUNT_GLOBAL", "Global?");
-define("NBILL_INSTR_DISCOUNT_GLOBAL", "Her angir en om rabatten skal gjelde for alle produkter (sett til 'NEI' og rediger de produktene rabatten skal gjelde for om denne rabatten skal gjelde enkeltprodukter). MERK: Du kan også redigere enkeltprodukter slik at rabatt ikke gjelder om du setter at rabatten skal gjelde for alle produkter.");
-define("NBILL_INSTR_DISCOUNT_USER_LEVEL", "Brukergruppe som denne rabatten gjelder for.");
-define("NBILL_DISCOUNT_AND_ABOVE", "Og over?");
-define("NBILL_INSTR_DISCOUNT_AND_ABOVE", "Her angis det om denne rabatten også gjelder brukere med høyere adgangsnivå.");
-define("NBILL_GUEST", "Guest (ikke logget inn)");
+define("NBILL_INSTR_DISCOUNT_GLOBAL", "Her angir en om rabatten skal gjelde for alle produkter (sett til 'NEI' og rediger de produktene rabatten skal gjelde for om denne rabatten skal gjelde enkeltprodukter). MERK: Du kan ogsÃ¥ redigere enkeltprodukter slik at rabatt ikke gjelder om du setter at rabatten skal gjelde for alle produkter.");
+define("NBILL_INSTR_DISCOUNT_LOGGED_IN", "Hvorvidt denne rabatten kun er tilgjengelig for brukere som er innlogget");
 define("NBILL_INSTR_DISCOUNT_PERCENTAGE", "Rabatt i prosent - ikke skriv prosenttegnet. (ved for f.eks. 10%, bare skriv 10)");
-define("NBILL_INSTR_DISCOUNT_AMOUNT", "Rabatt som fast beløp til fradrag (gjelder bare om prosent er satt til 0)");
-define("NBILL_DISCOUNT_EXCLUSIVE", "Spesiell?");
-define("NBILL_INSTR_DISCOUNT_EXCLUSIVE", "Angi om andre rabatter kan brukes sammen med denne rabatten (når mer enn en rabatt er angitt, angi prioritetsverdi for hvilken rabatt som skal brukes ).");
+define("NBILL_INSTR_DISCOUNT_AMOUNT", "Rabatt som fast belÃ¸p til fradrag (gjelder bare om prosent er satt til 0)");
+define("NBILL_DISCOUNT_EXCLUSIVE", "Utelukkende?");
+define("NBILL_INSTR_DISCOUNT_EXCLUSIVE", "Angi om andre rabatter kan brukes sammen med denne rabatten (nÃ¥r mer enn en rabatt er angitt, angi prioritetsverdi for hvilken rabatt som skal brukes ).");
 define("NBILL_DISCOUNT_PRIORITY", "Prioritet");
-define("NBILL_INSTR_DISCOUNT_PRIORITY", "Skriv inn et tall for å angi prioriteten for denne rabatten om det finnes andre rabatter også. Jo LAVERE tallet er, dess HØYERE prioritet har denne rabatten - en rabatt med prioritet '0' gjelder før en rabatt med prioritet '1'. Du kan bruke hvilke som helst tall. Er det to rabatter med samme prioritet vil rabatten bli vilkårlig.");
+define("NBILL_INSTR_DISCOUNT_PRIORITY", "Skriv inn et tall for Ã¥ angi prioriteten for denne rabatten om det finnes andre rabatter ogsÃ¥. Jo LAVERE tallet er, dess HÃ˜YERE prioritet har denne rabatten - en rabatt med prioritet '0' gjelder fÃ¸r en rabatt med prioritet '1'. Du kan bruke hvilke som helst tall. Er det to rabatter med samme prioritet vil rabatten bli vilkÃ¥rlig.");
 define("NBILL_DISCOUNT_VOUCHER", "Rabattkode");
-define("NBILL_INSTR_DISCOUNT_VOUCHER", "Skriver du en rabattkode her (f.eks. i samband med en nylansering av produkt), gjelder rabatten KUN om brukeren skriver inn rabattkoden på bestillingen, eller om rabattkoden blir lagt til av en administrator. MERK: For at dette skal virke, må du angi på bestillingsskjemaet at det kan brukes en rabattkode, eller, du kan angi denne rabatten på en ordre ved å skrive inn rabattkoden på ordren selv.");
+define("NBILL_INSTR_DISCOUNT_VOUCHER", "Skriver du en rabattkode her (f.eks. i samband med en nylansering av produkt), gjelder rabatten KUN om brukeren skriver inn rabattkoden pÃ¥ bestillingen, eller om rabattkoden blir lagt til av en administrator. MERK: For at dette skal virke, mÃ¥ du angi pÃ¥ bestillingsskjemaet at det kan brukes en rabattkode, eller, du kan angi denne rabatten pÃ¥ en ordre ved Ã¥ skrive inn rabattkoden pÃ¥ ordren selv.");
 define("NBILL_DISCOUNT_RECURRING", "Gjentagende rabatt?");
-define("NBILL_INSTR_DISCOUNT_RECURRING", "Her angis det om rabatten også skal gjelde ved gjentakende betalinger.");
+define("NBILL_INSTR_DISCOUNT_RECURRING", "Her angis det om rabatten ogsÃ¥ skal gjelde ved gjentakende betalinger.");
 define("NBILL_AVAILABLE", "Tilgjengelig");
 define("NBILL_DISCOUNT_AVAILABLE_YES", "Tilgjengelig for nye bestillinger");
 define("NBILL_DISCOUNT_AVAILABLE_NO", "Ikke tilgjengelig for nye bestillinger");
 define("NBILL_DISCOUNT_AVAILABLE", "Tilgjengelig for nye bestillinger?");
 define("NBILL_INSTR_DISCOUNT_AVAILABLE", "Her angis det om denne rabatten skal gjelde for nye bestillinger (eller bare for eksisterende bestillinger med gjentakende betalinger).");
-define("NBILL_DISCOUNT_AUTO_DISABLE", "Automatisk deaktivér rabatt?");
-define("NBILL_INSTR_DISCOUNT_AUTO_DISABLE", "Feltet angir om denne rabatten automatisk skal gjøres utilgjengelig for nye bestillinger når den er brukt (for å forhindre at samme rabattkode blir brukt flere ganger).");
-define("NBILL_DISCOUNT_PREREQ_PRODUCTS", "Rabatt hvis annet produkt er kjøpt");
-define("NBILL_INSTR_DISCOUNT_PREREQ_PRODUCTS", "Feltet angir om brukeren må ha kjøpt et spesifikt produkt tidligere for å få denne rabatten. Angi produktet eller produktene som gir forutsetning for rabatt her. Velges det mer enn et produkt, får kunde rabatten om ETT av produktene er kjøpt allerede.");
+define("NBILL_DISCOUNT_AUTO_DISABLE", "Automatisk deaktivÃ©r rabatt?");
+define("NBILL_INSTR_DISCOUNT_AUTO_DISABLE", "Feltet angir om denne rabatten automatisk skal gjÃ¸res utilgjengelig for nye bestillinger nÃ¥r den er brukt (for Ã¥ forhindre at samme rabattkode blir brukt flere ganger).");
+define("NBILL_DISCOUNT_PREREQ_PRODUCTS", "Rabatt hvis annet produkt er kjÃ¸pt");
+define("NBILL_INSTR_DISCOUNT_PREREQ_PRODUCTS", "Feltet angir om brukeren mÃ¥ ha kjÃ¸pt et spesifikt produkt tidligere for Ã¥ fÃ¥ denne rabatten. Angi produktet eller produktene som gir forutsetning for rabatt her. Velges det mer enn et produkt, fÃ¥r kunde rabatten om ETT av produktene er kjÃ¸pt allerede.");
 define("NBILL_DISCOUNT_PREREQ_CATS", "Kategorier");
 define("NBILL_DISCOUNT_PREREQ_CAT_PROD", "Produkter");
 define("NBILL_DISCOUNT_PREREQ_SELECTED_PROD", "Velg produkt(er)");
-define("NBILL_DISCOUNT_AMOUNT_REQUIRED", "Velg prosent eller beløp (for hver valuta).");
-define("NBILL_DISCOUNT_DATE_REQUIRED", "Velg både start- og sluttdato for denne rabatten, eller sett valget `Tidsperiode` til `Nei`");
-define("NBILL_DISCOUNT_MIN_ORDER_VALUE", "Minste bestillingsbeløp");
-define("NBILL_INSTR_DISCOUNT_MIN_ORDER_VALUE", "Minstebeløpet en klient må bestille for (etter at andre rabatter er trukket fra, før mva) for å få denne rabatten.");
+define("NBILL_DISCOUNT_AMOUNT_REQUIRED", "Velg prosent eller belÃ¸p (for hver valuta).");
+define("NBILL_DISCOUNT_DATE_REQUIRED", "Velg bÃ¥de start- og sluttdato for denne rabatten, eller sett valget `Tidsperiode` til `Nei`");
+define("NBILL_DISCOUNT_MIN_ORDER_VALUE", "Minste bestillingsbelÃ¸p");
+define("NBILL_INSTR_DISCOUNT_MIN_ORDER_VALUE", "MinstebelÃ¸pet en kunde mÃ¥ bestille for (etter at andre rabatter er trukket fra, fÃ¸r mva) for Ã¥ fÃ¥ denne rabatten.");
 define("NBILL_DISCOUNT_CARRIAGE_ONLY", "Forsendelsesrabatt?");
 define("NBILL_INSTR_DISCOUNT_CARRIAGE_ONLY", "Om denne rabatten bare gjelder forsendelsen eller ikke.");
-define("NBILL_DISCOUNT_WARNING_IN_USE", "ADVARSEL! Denne rabatten brukes nå på følgende bestillinger med gjentakende betalinger. Om du endrer denne rabatten kan fremtidige fakturaer påvirkes for disse bestillingene:");
-define("NBILL_DISCOUNT_CANNOT_DELETE", "En eller flere av disse rabattene kan ikke slettes. De er i bruk på følgende bestillinger med gjenstående gjentakende betalinger:");
-define("NBILL_DISCOUNTS_WARNING_DATE_PLUS_RECURRING", "ADVARSEL! Denne rabatten har både en sluttdato og er satt til å gjelde med gjentakende betalinger. Dette er ikke anbefalt, etter som gjentakende betalinger vil fortsette med rabatten etter sluttdato (men ikke fakturaen). Er du sikker på at du vil lagre?");
+define("NBILL_DISCOUNT_WARNING_IN_USE", "ADVARSEL! Denne rabatten brukes nÃ¥ pÃ¥ fÃ¸lgende bestillinger med gjentakende betalinger. Om du endrer denne rabatten kan fremtidige fakturaer pÃ¥virkes for disse bestillingene:");
+define("NBILL_DISCOUNT_CANNOT_DELETE", "En eller flere av disse rabattene kan ikke slettes. De er i bruk pÃ¥ fÃ¸lgende bestillinger med gjenstÃ¥ende gjentakende betalinger:");
+define("NBILL_DISCOUNTS_WARNING_DATE_PLUS_RECURRING", "ADVARSEL! Denne rabatten har bÃ¥de en sluttdato og er satt til Ã¥ gjelde med gjentakende betalinger. Dette er ikke anbefalt, etter som gjentakende betalinger vil fortsette med rabatten etter sluttdato (men ikke fakturaen). Er du sikker pÃ¥ at du vil lagre?");
 	
 /********************/
 /* Version 1.1.4 
@@ -90,14 +87,13 @@ define("NBILL_DISCOUNTS_WARNING_DATE_PLUS_RECURRING", "ADVARSEL! Denne rabatten 
 
 //Version 1.2.1
 define("NBILL_DISCOUNT_RENEWALS", "Legg til fornyelse?");
-define("NBILL_INSTR_DISCOUNT_RENEWALS", "Angir om denne rabatten også skal, eller ikke skal gjelde for eksisterende bestillinger som kvalifiserer til denne rabatten (som tidligere ikke hadde denne gjentagende rabatten) som blir fornyet (gjelder bare for gjentakende betalinger). Om en eksisterende bestilling hadde rabatten (og det er med gjentakende betalinger), vil den fortsatt bli brukt ved fornyelse uavhengig av disse innstillingene.");
+define("NBILL_INSTR_DISCOUNT_RENEWALS", "Angir om denne rabatten ogsÃ¥ skal, eller ikke skal gjelde for eksisterende bestillinger som kvalifiserer til denne rabatten (som tidligere ikke hadde denne gjentagende rabatten) som blir fornyet (gjelder bare for gjentakende betalinger). Om en eksisterende bestilling hadde rabatten (og det er med gjentakende betalinger), vil den fortsatt bli brukt ved fornyelse uavhengig av disse innstillingene.");
 define("NBILL_DISCOUNT_DISQUAL_PRODUCTS", "Diskvalifiserende produkter");
-define("NBILL_INSTR_DISCOUNT_DISQUAL_PRODUCTS", "Brukeren kan IKKE ha kjøpt disse produktene før denne rabatten gjelder, angi produkt(er) de IKKE kan ha her. Velges det mer enn ett produkt, får bruken IKKE rabatt om noen av produktene er kjøpt allerede.");
+define("NBILL_INSTR_DISCOUNT_DISQUAL_PRODUCTS", "Brukeren kan IKKE ha kjÃ¸pt disse produktene fÃ¸r denne rabatten gjelder, angi produkt(er) de IKKE kan ha her. Velges det mer enn ett produkt, fÃ¥r bruken IKKE rabatt om noen av produktene er kjÃ¸pt allerede.");
 define("NBILL_DISCOUNT_DISQUAL_CATS", "Kategorier");
 define("NBILL_DISCOUNT_DISQUAL_CAT_PROD", "Produkter");
 define("NBILL_DISCOUNT_DISQUAL_SELECTED_PROD", "Valgte produkter");
 
 //Version 1.2.7
-define("NBILL_DISCOUNT_RECORD_LIMIT_WARNING", "ADVARSEL! Ettersom det er %s eller flere bestillinger med gjenstående gjentakende betalinger som bruker denne rabatten, vises bare de første %s postene her. Vil du se alle de andre bestillingene klikk på 'Vis alle' (Under).");
+define("NBILL_DISCOUNT_RECORD_LIMIT_WARNING", "ADVARSEL! Ettersom det er %s eller flere bestillinger med gjenstÃ¥ende gjentakende betalinger som bruker denne rabatten, vises bare de fÃ¸rste %s postene her. Vil du se alle de andre bestillingene klikk pÃ¥ 'Vis alle' (Under).");
 define("NBILL_DISCOUNT_SHOW_ALL", "Vis alle");
-?>

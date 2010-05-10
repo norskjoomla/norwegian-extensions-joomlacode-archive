@@ -23,88 +23,88 @@
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
 //General
-define("NBILL_EM_GREETING", "Dear %s,");
-define("NBILL_EM_REGARDS", "Regards,");
-define("NBILL_CLIENT_GENERIC", "Client");
-define("NBILL_EM_EXISTING_CLIENT", "%s (Existing Client)");
+define("NBILL_EM_GREETING", "Kjære %s,");
+define("NBILL_EM_REGARDS", "Hilsen,");
+define("NBILL_CLIENT_GENERIC", "Kunde");
+define("NBILL_EM_EXISTING_CLIENT", "%s (Eksisterende kunde)");
 
 //Invoices
-define("NBILL_EM_INVOICE_SUBJECT", "Invoice %s from %s");
-define("NBILL_EMAIL_INVOICE_INTRO", "E-mail Invoice to Client");
-define("NBILL_EM_NEW_INVOICE", "New Invoice");
-define("NBILL_EM_EMBEDDED_INVOICE_INTRO", "The following invoice has been generated for you:");
-define("NBILL_EM_NEW_INVOICE_PAR_1", "This e-mail is to inform you that a new invoice has been generated for you.");
-define("NBILL_EM_NEW_INVOICE_PAR_1_ATTACHED", "The attached invoice has been generated for you.");
-define("NBILL_EM_NEW_INVOICE_PAR_2", "You can see all of your invoices online by logging in at %s. If you no longer wish to receive your invoices by e-mail, simply log in and click on `My Profile` in the `My Account` area to set your preferences.");
-define("NBILL_EM_NEW_INVOICE_PAR_2_USERNAME", "You can see all of your invoices online by logging in at %s (your username is %s). If you no longer wish to receive your invoices by e-mail, simply log in and click on `My Profile` in the `My Account` area to set your preferences.");
+define("NBILL_EM_INVOICE_SUBJECT", "Faktura %s fra %s");
+define("NBILL_EMAIL_INVOICE_INTRO", "Send faktura på e-post til kunden");
+define("NBILL_EM_NEW_INVOICE", "Ny faktura");
+define("NBILL_EM_EMBEDDED_INVOICE_INTRO", "Følgende fakturaen er generert for deg:");
+define("NBILL_EM_NEW_INVOICE_PAR_1", "Denne e-posten er for å informere deg om at en ny faktura er generert for deg.");
+define("NBILL_EM_NEW_INVOICE_PAR_1_ATTACHED", "Den vedlagte fakturaen er generert for deg.");
+define("NBILL_EM_NEW_INVOICE_PAR_2", "Du kan se alle dine fakturaer online ved å logge inn på %s. Hvis du ikke lenger ønsker å motta fakturaer via e-post, logge deg inn og klikk på `Min profil` i `Min konto` for å angi dine preferanser.");
+define("NBILL_EM_NEW_INVOICE_PAR_2_USERNAME", "Du kan se alle dine fakturaer online ved å logge inn på %s (ditt brukernavn er %s). Hvis du ikke lenger ønsker å motta fakturaer via e-post, logge deg inn og klikk på `Min profil` i `Min konto` for å angi dine preferanser.");
 
 //Credit notes
-define("NBILL_EM_CREDIT_SUBJECT", "Credit Note %s from %s");
-define("NBILL_EMAIL_CREDIT_INTRO", "E-mail Credit Note to Client");
-define("NBILL_EM_NEW_CREDIT", "New Credit Note");
-define("NBILL_EM_EMBEDDED_CREDIT_INTRO", "The following credit note has been generated for you:");
-define("NBILL_EM_NEW_CREDIT_PAR_1", "This e-mail is to inform you that a new credit note has been generated for you.");
-define("NBILL_EM_NEW_CREDIT_PAR_1_ATTACHED", "The attached credit note has been generated for you.");
-define("NBILL_EM_NEW_CREDIT_PAR_2", "You can see all of your credit notes online by logging in at %s.");
-define("NBILL_EM_NEW_CREDIT_PAR_2_USERNAME", "You can see all of your credit notes online by logging in at %s (your username is %s).");
+define("NBILL_EM_CREDIT_SUBJECT", "Kreditnota %s fra %s");
+define("NBILL_EMAIL_CREDIT_INTRO", "Send kreditnota på e-post til kunden");
+define("NBILL_EM_NEW_CREDIT", "Ny kreditnota");
+define("NBILL_EM_EMBEDDED_CREDIT_INTRO", "Følgende kreditnota er generert for deg:");
+define("NBILL_EM_NEW_CREDIT_PAR_1", "Denne e-posten er for å informere deg om at en ny kreditnota er generert for deg.");
+define("NBILL_EM_NEW_CREDIT_PAR_1_ATTACHED", "Den vedlagte kreditnota er generert for deg.");
+define("NBILL_EM_NEW_CREDIT_PAR_2", "Du kan se alle dine kreditnotaer online ved å logge inn på %s.");
+define("NBILL_EM_NEW_CREDIT_PAR_2_USERNAME", "Du kan se alle dine kreditnotaer online ved å logge inn på %s (ditt brukernavn er %s).");
 
 //Quotes
-define("NBILL_EM_QUOTE_SUBJECT", "Quotation %s from %s");
-define("NBILL_EM_QUOTE_ON_HOLD_SUBJECT", "Your Quote %s - Request for further information from %s");
-define("NBILL_EMAIL_QUOTE_INTRO", "E-mail Quote to Client");
-define("NBILL_EM_NEW_QUOTE", "New Quote");
-define("NBILL_EM_EMBEDDED_QUOTE_INTRO", "The following quote has been generated for you:");
-define("NBILL_EM_NEW_QUOTE_PAR_1", "Thank you for requesting a quotation. To view your quote online and accept, partially accept, or reject it, please visit: %s.");
-define("NBILL_EM_NEW_QUOTE_PAR_1_ATTACHED", "Thank you for requesting a quotation. Please find attached our quotation in accordance with your stated requirements. To view this quote online and accept, partially accept, or reject it, please visit: %s.");
-define("NBILL_EM_NEW_QUOTE_PAR_2", "You can see all of your quotes online by logging in at %s.");
-define("NBILL_EM_NEW_QUOTE_PAR_2_USERNAME", "You can see all of your quotes online by logging in at %s (your username is %s).");
-define("NBILL_EM_NEW_QUOTE_PAR_3", "PLEASE DO NOT REPLY DIRECTLY TO THIS E-MAIL - If you wish to respond, please visit %s (this is so that your response can be recorded on the quotation document).");
-define("NBILL_EM_NEW_QUOTE_CORRESPONDENCE_INTRO", "This quote is based on the following correspondence:");
-define("NBILL_EM_NEW_QUOTE_REQUEST", "Quote Request Acknowledgement");
-define("NBILL_EM_NEW_QUOTE_REQUEST_SUBJECT", "New Quote Request: %s - %s (%s)");
-define("NBILL_EM_NEW_QUOTE_REQUEST_PAR_1", "This e-mail is to acknowledge that the following details have been submitted in order to request a quote on %s. We will review your requirements and contact you with our quotation as soon as possible.");
-define("NBILL_EM_NEW_QUOTE_REQUEST_ADMIN", "Administrator Notification - quote request for user %s");
+define("NBILL_EM_QUOTE_SUBJECT", "Forespørsel %s fra %s");
+define("NBILL_EM_QUOTE_ON_HOLD_SUBJECT", "Din forespørsel %s - Anmodning om ytterligere informasjon fra %s");
+define("NBILL_EMAIL_QUOTE_INTRO", "Send forespørsel på e-post til kunden.");
+define("NBILL_EM_NEW_QUOTE", "Ny forespørsel");
+define("NBILL_EM_EMBEDDED_QUOTE_INTRO", "Følgende tilbud er generert for deg:");
+define("NBILL_EM_NEW_QUOTE_PAR_1", "Takk for at du ber om et tilbud.  Hvis du vil se dine forespørsler online og godta, delvis godta eller avvise det, kan du gå til: %s.");
+define("NBILL_EM_NEW_QUOTE_PAR_1_ATTACHED", "Takk for din forespørsel. Vedlagt er vårt tilbud i samsvar med din forespørsel. Hvis du vil se dette tilbudet på nettet og eventuelt godta, delvis godta eller avvise det, kan du gå til: %s.");
+define("NBILL_EM_NEW_QUOTE_PAR_2", "Du kan se alle dine forespørsler online ved å logge inn på %s.");
+define("NBILL_EM_NEW_QUOTE_PAR_2_USERNAME", "Du kan se alle dine forespørsler online ved å logge inn på %s (ditt brukernavn er %s).");
+define("NBILL_EM_NEW_QUOTE_PAR_3", "IKKE SVAR DIREKTE PÅ DENNE E-POSTEN - Ønsker du å svare, kan du gå til %s (dette for at svaret skal bli registrert på tilbudsdokumentet).");
+define("NBILL_EM_NEW_QUOTE_CORRESPONDENCE_INTRO", "Dette tilbudet er basert på følgende korrespondanse:");
+define("NBILL_EM_NEW_QUOTE_REQUEST", "Tilbudsbekreftelse av forespørsel");
+define("NBILL_EM_NEW_QUOTE_REQUEST_SUBJECT", "Nye tilbudsforespørsel: %s - %s (%s)");
+define("NBILL_EM_NEW_QUOTE_REQUEST_PAR_1", "Denne e-post er for å bekrefte at følgende detaljer har blitt sendt for å be om et tilbud på %s. Vi vil vurdere dine ønsker og kontakte deg med vårt svar så snart som mulig.");
+define("NBILL_EM_NEW_QUOTE_REQUEST_ADMIN", "Administrator melding - Prisforespørsel fra bruker %s");
 
 //Pending Orders
-define("NBILL_EM_NEW_PENDING", "Pending Order Acknowledgement");
-define("NBILL_EM_NEW_PENDING_SUBJECT", "New PENDING Order: %s - %s (%s)");
-define("NBILL_EM_NEW_PENDING_PAR_1", "This e-mail is to acknowledge that the following order has been provisionally placed on %s. This order will not be processed until we have received payment or the order is manually activated by us.");
-define("NBILL_EM_NEW_PENDING_ADMIN", "Administrator Notification - pending order for user %s");
+define("NBILL_EM_NEW_PENDING", "Ventende bestillingsbekreftelser");
+define("NBILL_EM_NEW_PENDING_SUBJECT", "Nye ventende bestillinger: %s - %s (%s)");
+define("NBILL_EM_NEW_PENDING_PAR_1", "Denne e-posten er for å bekrefte at denne bestillingen foreløpig er plassert på %s. Denne bestillingen vil ikke bli behandlet før vi har mottatt betaling eller ordren aktiveres manuelt av oss.");
+define("NBILL_EM_NEW_PENDING_ADMIN", "Administrator melding - ventende ordre for bruker %s");
 
 //Orders
-define("NBILL_EM_NEW_ORDER", "Order Confirmation");
-define("NBILL_EM_NEW_ORDER_SUBJECT", "New Order: %s - %s (%s)");
-define("NBILL_EM_NEW_ORDER_PAR_1", "This e-mail is to acknowledge that the following order has been confirmed on %s.");
-define("NBILL_EM_NEW_ORDER_ADMIN", "Administrator Notification - new order for user %s");
+define("NBILL_EM_NEW_ORDER", "Ordrebekreftelse");
+define("NBILL_EM_NEW_ORDER_SUBJECT", "Ny bestilling: %s - %s (%s)");
+define("NBILL_EM_NEW_ORDER_PAR_1", "Denne e-posten er for å bekrefte at følgende bestilling er bekreftet på %s.");
+define("NBILL_EM_NEW_ORDER_ADMIN", "Administrator melding - Ny bestilling fra bruker %s");
 
 /****************************************************************
 * You will probably not need to modify anything below this line *
 ****************************************************************/
 
 //Admin
-define("NBILL_EMAIL_MESSAGE_FROM", "From");
-define("NBILL_EMAIL_MESSAGE_TO", "To");
-define("NBILL_EMAIL_MESSAGE_CC", "CC");
-define("NBILL_EMAIL_MESSAGE_BCC", "BCC");
-define("NBILL_EMAIL_MESSAGE_SUBJECT", "Subject");
-define("NBILL_EMAIL_INCLUDE_DOCUMENT", "Include the actual document?");
-define("NBILL_EMAIL_MESSAGE_ATTACH", "Attach HTML document to message");
-define("NBILL_EMAIL_MESSAGE_ATTACH_PDF", "Attach PDF document to message");
-define("NBILL_EMAIL_MESSAGE_NO_ATTACH", "Do not attach document to message");
-define("NBILL_EMAIL_MESSAGE_EMBED", "Embed the document in the message");
-define("NBILL_EMAIL_MESSAGE_USE_TEMPLATE", "Use HTML Template?");
-define("NBILL_EMAIL_MESSAGE_TIMESTAMP", "Message sent %s");
-define("NBILL_QUOTE_SHOW_HISTORY", "Include Message History?");
-define("NBILL_EMAIL_MESSAGE", "Message:");
+define("NBILL_EMAIL_MESSAGE_FROM", "Fra");
+define("NBILL_EMAIL_MESSAGE_TO", "Til");
+define("NBILL_EMAIL_MESSAGE_CC", "Kopi til");
+define("NBILL_EMAIL_MESSAGE_BCC", "Blindkopi til");
+define("NBILL_EMAIL_MESSAGE_SUBJECT", "Emne");
+define("NBILL_EMAIL_INCLUDE_DOCUMENT", "Inkluder selve dokumentet?");
+define("NBILL_EMAIL_MESSAGE_ATTACH", "Legg ved HTML dokument til meldingen");
+define("NBILL_EMAIL_MESSAGE_ATTACH_PDF", "Legg ved PDF dokument til meldingen");
+define("NBILL_EMAIL_MESSAGE_NO_ATTACH", "Ikke legg ved dokumentet til melding");
+define("NBILL_EMAIL_MESSAGE_EMBED", "Legge inn dokumentet i meldingen");
+define("NBILL_EMAIL_MESSAGE_USE_TEMPLATE", "Bruk HTML-mal?");
+define("NBILL_EMAIL_MESSAGE_TIMESTAMP", "Melding sendt %s");
+define("NBILL_QUOTE_SHOW_HISTORY", "Inkluder meldingshistorien?");
+define("NBILL_EMAIL_MESSAGE", "Melding:");
 define("NBILL_EMAIL_SEND", "Send");
-define("NBILL_EMAIL_CANCEL", "Abort");
+define("NBILL_EMAIL_CANCEL", "Avbryt");
 
 //Results
-define("NBILL_EMAIL_QUOTE_DOC_SENT", "Message added to quote and e-mail sent successfully");
-define("NBILL_EMAIL_QUOTE_DOC_NOT_SENT", "WARNING! The message was added to the quote, but the e-mail failed to send. Please send an e-mail manually.");
-define("NBILL_EMAIL_NO_RECIPIENT", "No recipient was specified, so no e-mail was sent");
-define("NBILL_EMAIL_NO_MESSAGE", "No message was entered, so no e-mail was sent");
-define("NBILL_EMAIL_DOC_SENT", "Message sent successfully");
-define("NBILL_EMAIL_DOC_NOT_SENT", "The message could not be sent.");
-define("NBILL_EMAIL_DOC_NOT_SENT_UNKNOWN", "Please check your mail configuration settings, and make sure all 'from' and 'to' e-mail addresses are valid.");
-define("NBILL_EMAIL_SEND_INTERRUPTED", "The connection to the server was interrupted whilst attempting to send the e-mail. Please check the email log to verify whether or not the e-mail was sent.");
+define("NBILL_EMAIL_QUOTE_DOC_SENT", "Melding lagt til tilbudet og e-posten sendt");
+define("NBILL_EMAIL_QUOTE_DOC_NOT_SENT", "ADVARSEL! Meldingen ble lagt til tilbudet, men e-posten ble ikke sendt. Vennligst send e-posten manuelt.");
+define("NBILL_EMAIL_NO_RECIPIENT", "Ingen mottaker var oppgitt, så ingen e-post ble sendt.");
+define("NBILL_EMAIL_NO_MESSAGE", "Ingen melding ble skrevet inn, så ingen e-post ble sendt");
+define("NBILL_EMAIL_DOC_SENT", "Melding sendt");
+define("NBILL_EMAIL_DOC_NOT_SENT", "Meldingen kunne ikke sendes.");
+define("NBILL_EMAIL_DOC_NOT_SENT_UNKNOWN", "Vennligst sjekk e-post konfigurasjonsinnstillingen, og at alle 'fra' og 'til' e-postadressene er gyldige.");
+define("NBILL_EMAIL_SEND_INTERRUPTED", "Tilkoblingen til serveren ble avbrutt mens du forsøker å sende e-post. Vennligst sjekk e-postloggen for å kontrollere om e-posten ble sendt.");

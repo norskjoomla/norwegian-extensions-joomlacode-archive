@@ -1,7 +1,7 @@
 <?php
 /**
 * Language file for nBill
-* @version 1
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html

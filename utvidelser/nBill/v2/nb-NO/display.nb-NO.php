@@ -1,7 +1,7 @@
 <?php
 /**
 * Language file for nBill
-* @version 1
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
@@ -24,34 +24,36 @@
 
 //Display Options
 define("NBILL_DISPLAY_OPTIONS_TITLE", "Vis alternativer");
-define("NBILL_DISPLAY_INTRO", "De fleste innstillinger og valg som vises pÂ forsiden konfigureres her - du velger her hva som skal vises for dine brukere.");
+define("NBILL_DISPLAY_INTRO", "De fleste innstillinger og valg som vises p√• forsiden konfigureres her - du velger her hva som skal vises for dine brukere.");
 define("NBILL_DISPLAY_MY_ACCOUNT", "Alternativer for siden 'Min konto'");
-define("NBILL_DISPLAY_ACCESS_LEVEL", "Vis gjeldende medlemsnivÂ");
+define("NBILL_DISPLAY_ACCESS_LEVEL", "Vis gjeldende medlemsniv√•");
 define("NBILL_DISPLAY_ACCESS_LEVEL_DESC", "Angir om ACL-gruppenavn skal vises eller ikke for brukerne.");
-define("NBILL_DISPLAY_PROFILE", "Vis link til profilen");
-define("NBILL_DISPLAY_PROFILE_DESC", "Angir om link til brukerprofilen skal vises eller ikke i hovedmenyen.");
-define("NBILL_DISPLAY_ORDERS", "Vis link til bestillinger");
-define("NBILL_DISPLAY_ORDERS_DESC", "Angir om link til brukerens bestillinger skal vises eller ikke i hovedmenyen.");
-define("NBILL_DISPLAY_INVOICES", "Vis link til faktura");
-define("NBILL_DISPLAY_INVOICES_DESC", "Angir om link til brukerens faktura(er) skal vises eller ikke i hovedmenyen.");
-define("NBILL_DISPLAY_MORE_LINKS", "Du kan legge til ytterligere 10 linker som vil bli vist pÂ hovedmenyen under 'Min konto'. Skriv inn linkene her i den rekkef¯lgen de skal vises pÂ forsiden.");
-define("NBILL_LINK", "Link");
-define("NBILL_LINK_URL", "Sti");
-define("NBILL_LINK_TEXT", "Forklarende tekst til link");
-define("NBILL_LINK_DESC", "Beskrivelse av link");
+define("NBILL_DISPLAY_PROFILE", "Vis lenke til profilen");
+define("NBILL_DISPLAY_PROFILE_DESC", "Angir om lenken til brukerprofilen skal vises eller ikke i hovedmenyen.");
+define("NBILL_DISPLAY_ORDERS", "Vis lenke til bestillinger");
+define("NBILL_DISPLAY_ORDERS_DESC", "Angir om lenke til brukerens bestillinger skal vises eller ikke i hovedmenyen.");
+define("NBILL_DISPLAY_INVOICES", "Vis lenke til faktura");
+define("NBILL_DISPLAY_INVOICES_DESC", "Angir om lenke til brukerens faktura(er) skal vises eller ikke i hovedmenyen.");
+define("NBILL_DISPLAY_QUOTES", "Vis lenke til foresp√∏rsler");
+define("NBILL_DISPLAY_QUOTES_DESC", "Angir om lenke til brukerens foresp√∏rsler skal vises eller ikke i hovedmenyen.");
+define("NBILL_DISPLAY_MORE_LINKS", "Du kan legge til ytterligere 10 lenker som vil bli vist p√• hovedmenyen under 'Min konto'. Skriv inn lenkene her i den rekkef√∏lgen de skal vises p√• forsiden.");
+define("NBILL_LINK", "Lenke");
+define("NBILL_LINK_URL", "Nettadresse");
+define("NBILL_LINK_TEXT", "Forklarende tekst til lenke");
+define("NBILL_LINK_DESC", "Beskrivelse av lenken");
 define("NBILL_DISPLAY_MY_PROFILE", "Valg for siden 'Min profil'");
 define("NBILL_DISPLAY_COMPANY_NAME", "Vis felt med firmanavn");
 define("NBILL_DISPLAY_COMPANY_NAME_DESC", "Angir om bruker selv kan endre firmanavn fra profilsiden.");
 define("NBILL_DISPLAY_CONTACT_NAME", "Vis felt med kontaktnavn");
 define("NBILL_DISPLAY_CONTACT_NAME_DESC", "Angir om bruker selv kan endre kontaktnavn fra profilsiden.");
-define("NBILL_DISPLAY_CONTACT_NAME_INV", "Vis feltet 'Vis kontaktnavn pÂ faktura");
-define("NBILL_DISPLAY_CONTACT_NAME_NBILL_DESC", "Angir om bruker selv kan velge om kontaktnavn skal komme pÂ fakturaen (hvis firmanavn ogsÂ vises) fra profilsiden.");
+define("NBILL_DISPLAY_CONTACT_NAME_INV", "Vis feltet 'Vis kontaktnavn' p√• faktura");
+define("NBILL_DISPLAY_CONTACT_NAME_NBILL_DESC", "Angir om bruker selv kan velge om kontaktnavn skal komme p√• fakturaen (hvis firmanavn ogs√• vises) fra profilsiden.");
 define("NBILL_DISPLAY_ADDRESS", "Vis adressefelt");
 define("NBILL_DISPLAY_ADDRESS_DESC", "Angir om bruker selv kan endre adressen fra profilsiden.");
 define("NBILL_DISPLAY_EMAIL", "Vis felt for e-post adresse");
 define("NBILL_DISPLAY_EMAIL_DESC", "Angir om bruker selv kan endre e-post adressen fra profilsiden.");
 define("NBILL_DISPLAY_WEBSITE", "Vis adressefelt for hjemmeside");
-define("NBILL_DISPLAY_WEBSITE_DESC", "Angir om bruker selv kan endre link til hjemmesiden fra profilsiden.");
+define("NBILL_DISPLAY_WEBSITE_DESC", "Angir om bruker selv kan endre lenken til hjemmesiden fra profilsiden.");
 define("NBILL_DISPLAY_TELEPHONE", "Vis felt for telefonnummer");
 define("NBILL_DISPLAY_TELEPHONE_DESC", "Hvorvidt bruker selv kan endre telefonnummer fra profilsiden.");
 define("NBILL_DISPLAY_MOBILE", "Vis felt for mobilnummer");
@@ -65,66 +67,66 @@ define("NBILL_DISPLAY_CURRENCY_DESC", "Angir om bruker selv kan endre standard v
 define("NBILL_DISPLAY_PASSWORD", "Vis felt for passord");
 define("NBILL_DISPLAY_PASSWORD_DESC", "Angir om bruker selv kan endre passord fra profilsiden.");
 define("NBILL_DISPLAY_MY_ORDERS", "Alternativer for siden 'Mine bestillinger'");
-define("NBILL_DISPLAY_NEW_ORDER_LINK", "Vis link 'Ny bestilling'");
-define("NBILL_DISPLAY_NEW_ORDER_LINK_DESC", "Angir om linken 'Ny bestilling' skal vises eller ikke pÂ ordreoversikten.");
+define("NBILL_DISPLAY_NEW_ORDER_LINK", "Vis lenken 'Ny bestilling'");
+define("NBILL_DISPLAY_NEW_ORDER_LINK_DESC", "Angir om lenken 'Ny bestilling' skal vises eller ikke p√• ordreoversikten.");
 define("NBILL_DISPLAY_ORDER_NO", "Vis felt med bestillingsnummer (anbefalt)");
-define("NBILL_DISPLAY_ORDER_NO_DESC", "Angir om ordrenummer skal vises pÂ ordreoversikten.");
-define("NBILL_DISPLAY_INVOICE_LINK", "Vis link til fakturaer");
-define("NBILL_DISPLAY_INVOICE_LINK_DESC", "Angir om en link til fakturaer skal vises eller ikke for hver ordre (linken vises ved siden av ordrenummer, og da mÂ ordrenummer ogsÂ vises).");
+define("NBILL_DISPLAY_ORDER_NO_DESC", "Angir om ordrenummer skal vises p√• ordreoversikten.");
+define("NBILL_DISPLAY_INVOICE_LINK", "Vis lenke til fakturaer");
+define("NBILL_DISPLAY_INVOICE_LINK_DESC", "Angir om en lenke til fakturaer skal vises eller ikke for hver ordre (lenken vises ved siden av ordrenummer, og da m√• ordrenummer ogs√• vises).");
 define("NBILL_DISPLAY_ORDER_DATE", "Vis bestillingsdato");
 define("NBILL_DISPLAY_ORDER_DATE_DESC", "Om bestillingsdato skal vises eller ikke i ordroversikten.");
-define("NBILL_DISPLAY_ORDER_EXPIRY_DATE", "Vis utl¯psdato");
-define("NBILL_DISPLAY_ORDER_EXPIRY_DATE_DESC", "Om utl¯psdato pÂ bestillingen skal vises eller ikke pÂ ordroversikten.");
+define("NBILL_DISPLAY_ORDER_EXPIRY_DATE", "Vis utl√∏psdato");
+define("NBILL_DISPLAY_ORDER_EXPIRY_DATE_DESC", "Om utl√∏psdato p√• bestillingen skal vises eller ikke p√• ordroversikten.");
 define("NBILL_DISPLAY_PRODUCT", "Vis produktnavn");
-define("NBILL_DISPLAY_PRODUCT_DESC", "Angir om produktnavn som er bestilt skal vises eller ikke pÂ ordroversikten.");
-define("NBILL_DISPLAY_ORDER_VALUE", "Vis ordrebel¯p");
-define("NBILL_DISPLAY_ORDER_VALUE_DESC", "Angir om ordrebel¯p skal vises eller ikke pÂ ordroversikten.");
+define("NBILL_DISPLAY_PRODUCT_DESC", "Angir om produktnavn som er bestilt skal vises eller ikke p√• ordroversikten.");
+define("NBILL_DISPLAY_ORDER_VALUE", "Vis ordrebel√∏p");
+define("NBILL_DISPLAY_ORDER_VALUE_DESC", "Angir om ordrebel√∏p skal vises eller ikke p√• ordroversikten.");
 define("NBILL_DISPLAY_FREQUENCY", "Vis periodiske betalinger");
-define("NBILL_DISPLAY_FREQUENCY_DESC", "Angir om periodiske betalinger skal vises eller ikke pÂ ordroversikten.");
+define("NBILL_DISPLAY_FREQUENCY_DESC", "Angir om periodiske betalinger skal vises eller ikke p√• ordroversikten.");
 define("NBILL_ALLOW_CANCELLATION", "Tillat annulleringer");
 define("NBILL_ALLOW_CANCELLATION_DESC", "Angir om brukeren kan annullere en bestilling eller ikke (gjelder bare abonnement hvor ordre er satt til automatisk fornyelse, OG periodiske betalinger vises).");
 define("NBILL_DISPLAY_ORDER_STATUS", "Vis ordrestatus");
-define("NBILL_DISPLAY_ORDER_STATUS_DESC", "Angir om ordrestatus skal vises eller ikke pÂ ordroversikten.");
+define("NBILL_DISPLAY_ORDER_STATUS_DESC", "Angir om ordrestatus skal vises eller ikke p√• ordroversikten.");
 define("NBILL_DISPLAY_MY_INVOICES", "Alternativer for siden 'Min faktura'");
 define("NBILL_DISPLAY_FILTER", "Vis rullegardinliste");
-define("NBILL_DISPLAY_FILTER_DESC", "Angir om rullegardinliste med ordrer skal vises eller ikke for Â filtrere fakturaer.");
-define("NBILL_DISPLAY_DATE_RANGE", "Vis datoomrÂde");
-define("NBILL_DISPLAY_DATE_RANGE_DESC", "Angir om bruker kan velge datoomrÂde eller ikke for Â filtrere fakturalisten (er dette valget satt til 'Nei', vil ALLE fakturaer for bruker vises pÂ fakturalisten.");
+define("NBILL_DISPLAY_FILTER_DESC", "Angir om rullegardinliste med ordrer skal vises eller ikke for √• filtrere fakturaer.");
+define("NBILL_DISPLAY_DATE_RANGE", "Vis datoomr√•de");
+define("NBILL_DISPLAY_DATE_RANGE_DESC", "Angir om bruker kan velge datoomr√•de eller ikke for √• filtrere fakturalisten (er dette valget satt til 'Nei', vil ALLE fakturaer for bruker vises p√• fakturalisten.");
 define("NBILL_DISPLAY_INVOICE_DATE", "Vis felt for fakturadato");
 define("NBILL_DISPLAY_INVOICE_DATE_DESC", "Angir om fakturadato skal vises eller ikke i fakturalisten.");
-define("NBILL_DISPLAY_FIRST_ITEM", "Vis f¯rste vare pÂ fakturafeltet");
-define("NBILL_DISPLAY_FIRST_ITEM_DESC", "Angir om beskrivelse av f¯rste vare pÂ fakturaen skal vises eller ikke pÂ fakturalisten.");
+define("NBILL_DISPLAY_FIRST_ITEM", "Vis f√∏rste vare p√• fakturafeltet");
+define("NBILL_DISPLAY_FIRST_ITEM_DESC", "Angir om beskrivelse av f√∏rste vare p√• fakturaen skal vises eller ikke p√• fakturalisten.");
 define("NBILL_DISPLAY_NET", "Vis felt for netto totalt");
-define("NBILL_DISPLAY_NET_DESC", "Angir om netto totalt skal vises eller ikke pÂ fakturalisten.");
+define("NBILL_DISPLAY_NET_DESC", "Angir om netto totalt skal vises eller ikke p√• fakturalisten.");
 define("NBILL_DISPLAY_GROSS", "Vis felt for brutto totalt");
-define("NBILL_DISPLAY_GROSS_DESC", "Angir om brutto totalt skal vises eller ikke pÂ fakturalisten.");
+define("NBILL_DISPLAY_GROSS_DESC", "Angir om brutto totalt skal vises eller ikke p√• fakturalisten.");
+define("NBILL_DISPLAY_OUTSTANDING", "Vis totalt utest√•ende");
+define("NBILL_DISPLAY_OUTSTANDING_DESC", "Om du vil vise det totale bel√∏pet forfalt til betaling (hvis forskjellig fra brutto totalt - dvs. for delvis betalte fakturaer)");
 define("NBILL_DISPLAY_STATUS", "Vis felt for fakturastatus");
-define("NBILL_DISPLAY_STATUS_DESC", "Angir om fakturastatus skal vises eller ikke (f.eks. ikke betalt, betalt, delvis betalt, refundert eller delvis refundert) pÂ fakturalisten.");
-define("NBILL_DISPLAY_PAYMENT_LINK", "Vis betalingslink (hvis tilgjengelig)");
-define("NBILL_DISPLAY_PAYMENT_LINK_DESC", "Angir om link for online betaling av faktura skal vises eller ikke (gjelder bare om en betalingsl¯sning er spesifisert for kunde, og at faktura ikke er betalt).");
-define("NBILL_DISPLAY_PDF", "Vis PDF-link for faktura");
-define("NBILL_DISPLAY_PDF_DESC", "Angir om en PDF-faktura skal genereres eller ikke (MERK: ≈ produsere PDF faktura kan ta tid og det brukes store serverressurser, sÂ bruk funksjonen med forsiktighet! PDF linken vises bare om HTML2PS/PDF er installert. Se %s)");
-define("NBILL_DISPLAY_EMAIL_OPTIONS", "alternativer for faktura pÂ e-post");
-define("NBILL_DISPLAY_EMAIL_OPTIONS_DESC", "Angir om kunden skal kunne velge Â motta faktura pÂ e-post eller ikke. Merk: For Â hindre visning av valg for fakturavarsling, i tillegg til Â sette dette valget til 'Nei', mÂ du bÂde for selger og for hver kunde spesifisere (settes til selgers standard med mindre det overstyres) at faktura ikke skal sendes ut. Dersom kunden mottar faktura pÂ e-post, mÂ kunde kunne velge Â ikke motta - ellers gj¯r du deg skyldig Â sende ut spam).");
-define("NBILL_DISPLAY_PENDING_PAY_LINK", "Tillate betaling for pÂgÂende ordre?");
-define("NBILL_DISPLAY_PENDING_PAY_LINK_DESC", "Angir om en knapp for at kunden skal kunne betale pÂgÂende ordre skal vises eller ikke (i tilfelle kunden ikke fullf¯rte betaling, eller at tidligere betaling har mislyktes og de ¯nsker Â pr¯ve igjen). Gjelder kun om ordrestatus ogsÂ vises.");
+define("NBILL_DISPLAY_STATUS_DESC", "Angir om fakturastatus skal vises eller ikke (f.eks. ikke betalt, betalt, delvis betalt, refundert eller delvis refundert) p√• fakturalisten.");
+define("NBILL_DISPLAY_PAYMENT_LINK", "Vis betalingslenke (hvis tilgjengelig)");
+define("NBILL_DISPLAY_PAYMENT_LINK_DESC", "Angir om lenke for online betaling av faktura skal vises eller ikke (gjelder bare om en betalingsl√∏sning er spesifisert for kunde, og at faktura ikke er betalt).");
+define("NBILL_DISPLAY_PDF", "Vis PDF-lenke for faktura");
+define("NBILL_DISPLAY_PDF_DESC", "Angir om en PDF-faktura skal genereres eller ikke (MERK: √Ö produsere PDF faktura kan ta tid og det brukes store serverressurser, s√• bruk funksjonen med forsiktighet! PDF lenken vises bare om HTML2PS/PDF er installert. Se %s)");
+define("NBILL_DISPLAY_PENDING_PAY_LINK", "Tillate betaling for p√•g√•ende ordre?");
+define("NBILL_DISPLAY_PENDING_PAY_LINK_DESC", "Angir om en knapp for at kunden skal kunne betale p√•g√•ende ordre skal vises eller ikke (i tilfelle kunden ikke fullf√∏rte betaling, eller at tidligere betaling har mislyktes og de √∏nsker √• pr√∏ve igjen). Gjelder kun om ordrestatus ogs√• vises.");
 define("NBILL_DISPLAY_PAYMENT_LINK_THRESHOLD", "Hyppighetsterskel");
-define("NBILL_DISPLAY_PAYMENT_LINK_THRESHOLD_DESC", "Som standard vil betalingslinken bare vises pÂ ubetalte faktura for engangsbetalinger. Skal linken vises for ordre med andre betalingsfrekvenser, sett det mest hyppige valget her - alle ordre med gitte betalingshyppighet eller med lavere hyppighet, kvalifiserer til at betalingslinken vises - om  'Vis betalingslink' (over) er satt til 'Ja', og faktura ikke er betalt, og at ordre- og fakturainnstillingene ikke overstyrer denne verdien.");
+define("NBILL_DISPLAY_PAYMENT_LINK_THRESHOLD_DESC", "Som standard vil betalingslenken bare vises p√• ubetalte faktura for engangsbetalinger. Skal lenken vises for ordre med andre betalingsfrekvenser, sett det mest hyppige valget her - alle ordre med gitte betalingshyppighet eller med lavere hyppighet, kvalifiserer til at betalingslenken vises - om  'Vis betalingslenke' (over) er satt til 'Ja', og faktura ikke er betalt, og at ordre- og fakturainnstillingene ikke overstyrer denne verdien.");
 if (!defined("NBILL_ONE_OFF"))
 {
 	define("NBILL_ONE_OFF", "Engangsbetaling");
 	define("NBILL_WEEKLY", "Vis alltid");
-	define("NBILL_MONTHLY", "MÂnedlig");
+	define("NBILL_MONTHLY", "M√•nedlig");
 	define("NBILL_FOUR_WEEKLY", "Hver fjerde uke"); //Version 1.2.0
 	define("NBILL_QUARTERLY", "Kvartalsvis");
-	define("NBILL_SEMI_ANNUALLY", "HalvÂrlig");
-	define("NBILL_ANNUALLY", "≈rlig");
-	define("NBILL_BIANNUALLY", "Hvert andre Âr");
-	define("NBILL_FIVE_YEARLY", "Hvert femte Âr");
-	define("NBILL_TEN_YEARLY", "Hvert tiende Âr");
+	define("NBILL_SEMI_ANNUALLY", "Halv√•rlig");
+	define("NBILL_ANNUALLY", "√Örlig");
+	define("NBILL_BIANNUALLY", "Hvert andre √•r");
+	define("NBILL_FIVE_YEARLY", "Hvert femte √•r");
+	define("NBILL_TEN_YEARLY", "Hvert tiende √•r");
 }
 define("NBILL_DISPLAY_PATHWAY", "Vis navigeringssti?");
-define("NBILL_DISPLAY_PATHWAY_DESC", "Angir om sti skal vises eller ikke pÂ toppen av siden nÂr en bruker er logget inn.");
+define("NBILL_DISPLAY_PATHWAY_DESC", "Angir om sti skal vises eller ikke p√• toppen av siden n√•r en bruker er logget inn.");
 define("NBILL_DISPLAY_USERNAME", "Vis felt for brukernavn");
 define("NBILL_DISPLAY_USERNAME_DESC", "Angir om bruker kan endre sitt brukernavn eller ikke");
 
@@ -137,35 +139,53 @@ define("NBILL_DISPLAY_USERNAME_DESC", "Angir om bruker kan endre sitt brukernavn
 //Line 116 (four-weekly) added
 
 //Version 1.2.0
-define("NBILL_DISPLAY_RENEW_LINK", "Vis link for fornyelse");
-define("NBILL_DISPLAY_RENEW_LINK_DESC", "Angir om link 'fornyelse' skal vises eller ikke, slik at kunden kan fornye en ordre (bare om autofornyelse er satt til 'Nei' eller at utl¯psdato er passert).");
-define("NBILL_DISPLAY_RENEW_ADVANCE_LIMIT", "Avansert fornyelse");
-define("NBILL_DISPLAY_RENEW_ADVANCE_LIMIT_DESC", "Maksimum antall betalingssykluser periodiske betalinger kan gj¯res pÂ forhÂnd (gjelder bare om `Vis link for fornyelse` er satt til `Ja`. F.eks. om betalingsfrekvens pÂ en ordre er satt til mÂnedlig, og du skriver 3 her, har ordre med autofornyelse satt til `Nei`, kan kunden manuelt fornye opp til 3 mÂneder pÂ forskudd. skriver du 0 (null), vises ikke linken f¯r etter utl¯psdato.");
-define("NBILL_DISPLAY_GATEWAY_CHOICE_ORDER", "Tillat valg av betalingsl¯sning");
-define("NBILL_DISPLAY_GATEWAY_CHOICE_ORDER_DESC", "Tillate bruker Â velge hvilken betalingsl¯sning som skal brukes (bare om mer enn en er installert og publisert) nÂr en ordre skal fornyes (gjelder ikke for pÂgÂende ordre, i dette tilfellet brukes den betalingsmÂte som ble valgt da ordre ble inngÂtt). Om denne settes til `Nei`, brukes standardverdi for selger.");
-define("NBILL_DISPLAY_PAY_REQUIRES_LOGIN_ORDER", "Obligatorisk Â logge inn for Â betale");
-define("NBILL_DISPLAY_PAY_REQUIRES_LOGIN_ORDER_DESC", "Angir om en bruker mÂ vÊre pÂlogget eller ikke for Â betale en pÂgÂende ordre eller en fornyelse.");
-define("NBILL_DISPLAY_GATEWAY_CHOICE_INVOICE", "Tillat valg av betalingsl¯sning");
-define("NBILL_DISPLAY_GATEWAY_CHOICE_INVOICE_DESC", "Tillate bruker Â velge hvilken betalingsl¯sning som skal brukes (bare om mer enn en er installert og publisert) ved betaling av en faktura. Om denne settes til `Nei`, brukes standardverdi for selger.");
-define("NBILL_DISPLAY_PAY_REQUIRES_LOGIN_INVOICE", "Obligatorisk Â logge inn for Â betale");
-define("NBILL_DISPLAY_PAY_REQUIRES_LOGIN_INVOICE_DESC", "Angir om en bruker mÂ vÊre pÂlogget eller ikke for Â betale en faktura.");
-define("NBILL_DISPLAY_PARCEL_TRACKING", "Vis link for pakkesporing");
-define("NBILL_DISPLAY_PARCEL_TRACKING_DESC", "Angir om link for pakkesporing skal vises eller ikke (forutsatt at en pakkesporingsadresse blir satt pÂ transportposten og at sporings-ID blir satt pÂ ordreposten). MERK: Vises bare om ordrestatus ogsÂ vises.");
+define("NBILL_DISPLAY_RENEW_LINK", "Vis lenke for fornyelse");
+define("NBILL_DISPLAY_RENEW_LINK_DESC", "Angir om lenken 'fornyelse' skal vises eller ikke, slik at kunden kan fornye en ordre (bare om autofornyelse er satt til 'Nei' eller at utl√∏psdato er passert).");
+define("NBILL_DISPLAY_RENEW_ADVANCE_LIMIT", "Forh√•ndsfornyelse");
+define("NBILL_DISPLAY_RENEW_ADVANCE_LIMIT_DESC", "Maksimum antall betalingssykluser periodiske betalinger kan gj√∏res p√• forh√•nd (gjelder bare om `Vis lenken for fornyelse` er satt til `Ja`. F.eks. om betalingsfrekvens p√• en ordre er satt til m√•nedlig, og du skriver 3 her, har ordre med autofornyelse satt til `Nei`, kan kunden manuelt fornye opp til 3 m√•neder p√• forskudd. skriver du 0 (null), vises ikke lenken f√∏r etter utl√∏psdato.");
+define("NBILL_DISPLAY_GATEWAY_CHOICE_ORDER", "Tillat valg av betalingsl√∏sning");
+define("NBILL_DISPLAY_GATEWAY_CHOICE_ORDER_DESC", "Tillate bruker √• velge hvilken betalingsl√∏sning som skal brukes (bare om mer enn en er installert og publisert) n√•r en ordre skal fornyes (gjelder ikke for p√•g√•ende ordre, i dette tilfellet brukes den betalingsm√•te som ble valgt da ordre ble inng√•tt). Om denne settes til `Nei`, brukes standardverdi for selger.");
+define("NBILL_DISPLAY_PAY_REQUIRES_LOGIN_ORDER", "Obligatorisk √• logge inn for √• betale");
+define("NBILL_DISPLAY_PAY_REQUIRES_LOGIN_ORDER_DESC", "Angir om en bruker m√• v√¶re p√•logget eller ikke for √• betale en p√•g√•ende ordre eller en fornyelse.");
+define("NBILL_DISPLAY_GATEWAY_CHOICE_INVOICE", "Tillat valg av betalingsl√∏sning");
+define("NBILL_DISPLAY_GATEWAY_CHOICE_INVOICE_DESC", "Tillate bruker √• velge hvilken betalingsl√∏sning som skal brukes (bare om mer enn en er installert og publisert) ved betaling av en faktura. Om denne settes til `Nei`, brukes standardverdi for selger.");
+define("NBILL_DISPLAY_PAY_REQUIRES_LOGIN_INVOICE", "Obligatorisk √• logge inn for √• betale");
+define("NBILL_DISPLAY_PAY_REQUIRES_LOGIN_INVOICE_DESC", "Angir om en bruker m√• v√¶re p√•logget eller ikke for √• betale en faktura.");
+define("NBILL_DISPLAY_PARCEL_TRACKING", "Vis lenke for pakkesporing");
+define("NBILL_DISPLAY_PARCEL_TRACKING_DESC", "Angir om lenken for pakkesporing skal vises eller ikke (forutsatt at en pakkesporingsadresse blir satt p√• transportposten og at sporings-ID blir satt p√• ordreposten). MERK: Vises bare om ordrestatus ogs√• vises.");
 
 //Version 1.2.1
 define("NBILL_DISPLAY_MY_ACCOUNT_HEADER", "Vis overskriften 'Min konto'?");
-define("NBILL_DISPLAY_MY_ACCOUNT_HEADER_DESC", "Angir om en overskrift skal vises pÂ hver siden nÂr bruker er logget inn pÂ forsiden.(Standard tekst er 'Min konto'.) Om du ¯nsker, kan dette endres i sprÂkfilen)");
+define("NBILL_DISPLAY_MY_ACCOUNT_HEADER_DESC", "Angir om en overskrift skal vises p√• hver siden n√•r bruker er logget inn p√• forsiden.(Standard tekst er 'Min konto'.) Om du √∏nsker, kan dette endres i spr√•kfilen)");
 define("NBILL_DISPLAY_SUPPRESS_RENEW_IF_CANCELLED", "Stanse fornyelse dersom bestillingen kanselleres");
-define("NBILL_DISPLAY_SUPPRESS_RENEW_IF_CANCELLED_DESC", "Angir om fornyelse-linken skal eller ikke skal vises om en ordre er kansellert (forhindrer at bruker gjennomf¯rer en ordre etter at den er kansellert - gjelder bare nÂr `Vis fornyelseslinke` er satt til `Ja`).");
+define("NBILL_DISPLAY_SUPPRESS_RENEW_IF_CANCELLED_DESC", "Angir om fornyelseslenken skal eller ikke skal vises om en ordre er kansellert (forhindrer at bruker gjennomf√∏rer en ordre etter at den er kansellert - gjelder bare n√•r `Vis fornyelseslenke` er satt til `Ja`).");
 define("NBILL_DISPLAY_SUPPRESS_CANCEL_IF_NOT_AUTO_RENEW", "Skjul avbryt om ordre ikke fornyes automatisk");
-define("NBILL_DISPLAY_SUPPRESS_CANCEL_IF_NOT_AUTO_RENEW_DESC", "Angir om avbryt-linken skal skjules eller ikke for ordre som ikke er satt til automatisk fornyelse. Kansellering av en bestilling som ikke automatisk fornyes har ingen effekt, men hvis du vil tillate brukerne Â avbryte slike ordrer uansett (snarere enn Â forklare dem at det ikke er n¯dvendig Â avbryte), sett dette til `nei`. Gjelder bare hvis `Tillat annulleringer` er satt til `Ja`, ellers vil ikke avbryt-linken vises uansett.");
+define("NBILL_DISPLAY_SUPPRESS_CANCEL_IF_NOT_AUTO_RENEW_DESC", "Angir om avbryt-lenken skal skjules eller ikke for ordre som ikke er satt til automatisk fornyelse. Kansellering av en bestilling som ikke automatisk fornyes har ingen effekt, men hvis du vil tillate brukerne √• avbryte slike ordrer uansett (snarere enn √• forklare dem at det ikke er n√∏dvendig √• avbryte), sett dette til `nei`. Gjelder bare hvis `Tillat annulleringer` er satt til `Ja`, ellers vil ikke avbryt-lenken vises uansett.");
 
 //Version 1.2.3 - Note to translators:
 //Line 114 of original English language file amended (NBILL_WEEKLY) - changed to 'Always Show' for clarity
 
 //Version 1.2.9
-define("NBILL_DISPLAY_NBILL_SHOW_DATE_RANGE", "Vis datoperiode pÂ fakturaer?");
-define("NBILL_DISPLAY_NBILL_SHOW_DATE_RANGE_DESC", "Om man skal vise eller ikke, datoperiode pÂ produktlinja pÂ fakturaer for abonnementer/gjentagende betalinger (MERK: dette pÂvirker bare generering av fakturaer. Eksisterende fakturaer vil ikke endres nÂr du endrer denne innstillingen. Om du velger 'nei' vil ikke datoperioden bli angitt pÂ fakturaene, slik at du kan fÂ problemer med Â identifisere gjeldende periode for fakturaene.");
-define("NBILL_DISPLAY_ADD_OPTION_TO_FORM_ACTION", "Add option parameter to form submission URL?");
-define("NBILL_DISPLAY_ADD_OPTION_TO_FORM_ACTION_DESC", "There are 2 ways of submitting forms (ie. with or without the option parameter in the URL). In most cases, both methods will work, but some templates and some SEF URL components are fussy. If you find any form submissions are just redirecting to your home page or a blank page, try changing the value of this setting.");
-?>
+define("NBILL_DISPLAY_NBILL_SHOW_DATE_RANGE", "Vis datoperiode p√• fakturaer?");
+define("NBILL_DISPLAY_NBILL_SHOW_DATE_RANGE_DESC", "Om man skal vise eller ikke, datoperiode p√• produktlinja p√• fakturaer for abonnementer/gjentagende betalinger (MERK: dette p√•virker bare generering av fakturaer. Eksisterende fakturaer vil ikke endres n√•r du endrer denne innstillingen. Om du velger 'nei' vil ikke datoperioden bli angitt p√• fakturaene, slik at du kan f√• problemer med √• identifisere gjeldende periode for fakturaene.");
+define("NBILL_DISPLAY_ADD_OPTION_TO_FORM_ACTION", "Legg til alternative parameter for √• lage innsendingsadresser?");
+define("NBILL_DISPLAY_ADD_OPTION_TO_FORM_ACTION_DESC", "Det er 2 m√•ter √• sende inn skjemaer p√• (dvs. med eller uten alternative parameter i nettadressen). I de fleste tilfeller vil begge metodene fungerer, men noen maler og noen SEF komponentene er kresne. Hvis du finner at noen skjemaer bare blir omdirigert til din hjemmeside eller en tom side, pr√∏v √• endre verdien av denne innstillingen.");
+
+//Version 2.0.1
+define("NBILL_DISPLAY_MY_PROFILE_HELP", "Du kan styre hva som vises p√• siden 'Min profil' ved hjelp av %s funksjonen");
+define("NBILL_DISPLAY_MY_PROFILE_HELP_FIELDS", "Kundeprofil felt");
+define("NBILL_DISPLAY_MY_QUOTES", "Alternativer for siden 'Mine foresp√∏rsler'");
+define("NBILL_DISPLAY_NEW_QUOTE_LINK", "Vis lenken 'Foresp√∏rsel om nye tilbud‚Äô");
+define("NBILL_DISPLAY_NEW_QUOTE_LINK_DESC", "Om du vil vise en lenke p√• siden for foresp√∏rsler for √• tillate en bruker √• be om en ny foresp√∏rsel.");
+define("NBILL_DISPLAY_QUOTE_DATE", "Vis felt for foresp√∏rselsdato");
+define("NBILL_DISPLAY_QUOTE_DATE_DESC", "Om du vil vise dato i listen over foresp√∏rsler.");
+define("NBILL_DISPLAY_QUOTE_FIRST_ITEM", "Vis f√∏rste vare p√• p√• foresp√∏rselsfeltet");
+define("NBILL_DISPLAY_QUOTE_FIRST_ITEM_DESC", "Om du vil vise beskrivelsen av f√∏rste vare p√• foresp√∏rsler i foresp√∏rselslisten.");
+define("NBILL_DISPLAY_QUOTE_NET", "Vis felt for netto totalt");
+define("NBILL_DISPLAY_QUOTE_NET_DESC", "Om du vil vise netto totalt i foresp√∏rselslisten.");
+define("NBILL_DISPLAY_QUOTE_GROSS", "Vis felt for brutto totalt");
+define("NBILL_DISPLAY_QUOTE_GROSS_DESC", "Om du vil vise brutto totalt i foresp√∏rselslisten.");
+define("NBILL_DISPLAY_QUOTE_STATUS", "Vis foresp√∏rsel statusfeltet");
+define("NBILL_DISPLAY_QUOTE_STATUS_DESC", "Om du vil vise status p√• foresp√∏rsel (dvs. nye, p√• vent, forespurt, akseptert, eller deler akseptert) i listen (avvist foresp√∏rsler vises ikke p√• listen).");
+define("NBILL_DISPLAY_GATEWAY_CHOICE_QUOTE", "Tillat valg av betalingsl√∏sning");
+define("NBILL_DISPLAY_GATEWAY_CHOICE_QUOTE_DESC", "Tillate bruker √• velge hvilken betalingsl√∏sning som skal brukes (bare om mer enn en er installert og publisert) n√•r en akseptert foresp√∏rsel skal betales. Om denne er settes til `Nei`, brukes standardverdi for leverand√∏ren.");
