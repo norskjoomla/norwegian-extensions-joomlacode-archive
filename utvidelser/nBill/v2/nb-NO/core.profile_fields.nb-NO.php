@@ -1,7 +1,7 @@
 <?php
 /**
 * Language file for the default core profile fields
-* @version 2
+* @version 1
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html

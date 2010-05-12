@@ -1,6 +1,6 @@
 <?php
 /**
-* Language file for nBill
+* Language file for the Expenditure feature
 * @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
@@ -67,7 +67,7 @@ define("NBILL_RELATED_CREDITS", "Relatert kreditnota eller kreditnotaer");
 define("NBILL_INSTR_RELATED_CREDITS", "Hvis denne utgiften er for betaling med en eller flere kreditnotaer, velg kreditnota her (ubetalte kreditnota er listet her).");
 define("NBILL_EXP_PAYEE_ADDRESS", "Mottakers adresse");
 define("NBILL_INSTR_PAYEE_ADDRESS", "Mottakeradresse til person eller firma");
-define("NBILL_GENERATE_MASTER", "ADVARSEL! Dette lager også betalingsnummer til hoveddatabasen(e)!");
+@define("NBILL_GENERATE_MASTER", "ADVARSEL! Dette lager også betalingsnummer til hoveddatabasen(e)!");
 
 //Version 2.0.0
 define("NBILL_EXPENDITURE_LEDGER_NET_AMOUNT", "Netto:");
