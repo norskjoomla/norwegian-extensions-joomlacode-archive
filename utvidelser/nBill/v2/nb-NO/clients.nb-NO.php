@@ -1,11 +1,11 @@
 <?php
 /**
-* Language file for nBill
+* Language file for Clients
 * @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
-* 
+*
 * @access private
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk and the license agreement at www.nbill.co.uk/eula.html

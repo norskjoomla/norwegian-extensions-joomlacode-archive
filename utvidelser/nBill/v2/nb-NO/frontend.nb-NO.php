@@ -1,11 +1,11 @@
 <?php
 /**
-* Language file for nBill
-* @version 1
+* Language file for the website front end features
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
-* 
+*
 * @access private
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk and the license agreement at www.nbill.co.uk/eula.html
@@ -31,143 +31,125 @@ define("NBILL_PRICE", "Ordredato");
 @define("NBILL_PAY_FREQUENCY", "Periodiske betalinger");
 define("NBILL_VIEW_INVOICES", "Vis fakturaer");
 define("NBILL_VIEW_INVOICES_ALT", "Vis alle fakturaer som har blitt generert for denne ordren");
-define("NBILL_NEW_ORDER_INTRO", "Velg produktet du ¯nsker Â bestille fra listen");
-define("NBILL_PLACE_ORDER", "Klikk her for Â legge inn en ordre");
+define("NBILL_NEW_ORDER_INTRO", "Velg produktet du √∏nsker √• bestille fra listen");
+define("NBILL_OR_NEW_QUOTE_INTRO", "...eller velg for √• be om et tilbud");
+define("NBILL_NEW_QUOTE_INTRO", "Velg den type tilbud du vil be om fra listen");
+define("NBILL_PLACE_ORDER", "Klikk her for √• legge inn en ordre");
 define("NBILL_CLIENT_NEW_ORDER", "Legg inn ny ordre");
-define("NBILL_ERR_FORM_NOT_DEFINED", "Du kan ikke fÂ tilgang til dette ordreskjemaet. Det kan ha blitt slettet, det kan finnes krav som mÂ vÊre oppfylt f¯r du kan bestille produktet, eller det kan vÊre begrenset til bestemte brukere. PÂse at du er logget inn, og fors¯k deretter pÂ nytt. Om du mener du burde ha tilgang til dette ordreskjeamet, og problemet vedvarer, vennligst kontakt en administrator.");
-define("NBILL_FIRST_NAME", "Fornavn");
-define("NBILL_LAST_NAME", "Etternavn");
-define("NBILL_CONFIRM_EMAIL_ADDRESS", "Bekreft e-postadresse");
-define("NBILL_ERR_MANDATORY_FIELD", "Du mÂ fylle inn alle pÂkrevde felter (pÂkrevde felter er merket med en stjerne *)");
-define("NBILL_EMAILS_DONT_MATCH", "E-postadressene du skrev stemmer ikke! Sjekk og pr¯v igjen.");
-define("NBILL_EMAIL_NOT_VALID", "E-postadressen du oppga, ser ut til Â ikke vÊre gyldig. Pr¯v igjen.");
-@define("NBILL_USERNAME", "Brukernavn");
-define("NBILL_PASSWORD", "Passord");
-define("NBILL_USERNAME_HELP", "Angi brukernavn og passord som du vil bruke til Â logge deg inn pÂ dette nettstedet (slik at du kan fÂ tilgang til dine bestillinger og fakturaer).");
+define("NBILL_CLIENT_NEW_QUOTE", "Be om et nytt tilbud");
+define("NBILL_ERR_FORM_NOT_DEFINED", "Du kan ikke f√• tilgang til dette ordreskjemaet. Det kan ha blitt slettet, det kan finnes krav som m√• v√¶re oppfylt f√∏r du kan bestille produktet, eller det kan v√¶re begrenset til bestemte brukere. P√•se at du er logget inn, og fors√∏k deretter p√• nytt. Om du mener du burde ha tilgang til dette ordreskjemaet, og problemet vedvarer, vennligst kontakt en administrator.");
+define("NBILL_ERR_MANDATORY_FIELD", "Du m√• fylle inn alle p√•krevde felter (p√•krevde felter er merket med en stjerne *)");
+define("NBILL_EMAILS_DONT_MATCH", "E-postadressene du skrev stemmer ikke! Sjekk og pr√∏v igjen.");
+define("NBILL_EMAIL_NOT_VALID", "E-postadressen du oppga, ser ut til √• ikke v√¶re gyldig. Pr√∏v igjen.");
 define("NBILL_DETAILS_SAVED", "Detaljer lagret.");
-define("NBILL_ERR_USER_EXISTS", "Det finnes allerede en bruker med samme brukernavn og/eller e-postadresse. Vennligst velg et unikt brukernavn. Hvis du allerede er registrert bruker, kan du logge deg pÂ f¯r du legger inn en bestilling.");
-define("NBILL_ERROR_SAVING_ORDER", "Det oppstod et problem under fors¯k pÂ Â lagre bestilling til databasen. Bestillingen mÂ legges inn manuelt av administrator");
-define("NBILL_ERR_COULD_NOT_SAVE_PENDING_ORDER", "En feil har oppstÂtt, og din bestilling ble ikke lagret. Vi beklager det inntrufne ñ vennligst ta kontakt med oss.");
-define("NBILL_ERR_PENDING_ORDER_NOT_FOUND", "Det ble gjort et fors¯k pÂ Â laste en pÂgÂende bestilling (ordre id: %s), men bestillingen kan ikke lastes. All behandling av denne bestillingen er avbrutt. Det kan vÊre n¯dvendig at en administrator oppretter brukerkonto, kundekonto,  bestilling og faktura.");
+define("NBILL_ERR_USER_EXISTS", "Det finnes allerede en bruker med samme brukernavn og/eller e-postadresse. Vennligst velg et unikt brukernavn. Hvis du allerede er registrert bruker, kan du logge deg p√• f√∏r du legger inn en bestilling.");
+define("NBILL_ERROR_SAVING_ORDER", "Det oppstod et problem under fors√∏k p√• √• lagre bestilling til databasen. Bestillingen m√• legges inn manuelt av administrator");
+define("NBILL_ERR_COULD_NOT_SAVE_PENDING_ORDER", "En feil har oppst√•tt, og din bestilling ble ikke lagret. Vi beklager det inntrufne ‚Äì vennligst ta kontakt med oss.");
+define("NBILL_ERR_PENDING_ORDER_NOT_FOUND", "Det ble gjort et fors√∏k p√• √• laste en p√•g√•ende bestilling (ordre id: %s), men bestillingen kan ikke lastes. All behandling av denne bestillingen er avbrutt. Det kan v√¶re n√∏dvendig at en administrator oppretter brukerkonto, kundekonto,  bestilling og faktura.");
 define("NBILL_ERR_NO_PRODUCTS_ORDERED", "Advarsel - et bestillingsskjema er behandlet, men det ble ikke funnet noen produkter - derfor er det ikke opprettet en bestilling.");
-define("NBILL_ERR_NO_INVOICE_GENERATED", "Advarsel  - dette bestillingsskjemaet er merket for automatisk opprettelse av faktura, men en faktura kunne ikke lages. Faktura mÂ kanskje opprettes manuelt av en administrator.");
+define("NBILL_ERR_NO_INVOICE_GENERATED", "Advarsel  - dette bestillingsskjemaet er merket for automatisk opprettelse av faktura, men en faktura kunne ikke lages. Faktura m√• kanskje opprettes manuelt av en administrator.");
 define("NBILL_EMAIL_NEW_PENDING_ORDER", "Ny VENTENDE bestilling - %s");
-define("NBILL_EMAIL_PENDING_ORDER_INTRO", "En ny bestilling er plassert pÂ %s, og venter pÂ bekreftet betaling. NÂr betaling er bekreftet mottatt (eller nÂr en administrator gÂr inn " . NBILL_BRANDING_NAME . " og aktiverer den ventende bestillingen), blir det laget en ordrebekreftelse.");
+define("NBILL_EMAIL_PENDING_ORDER_INTRO", "En ny bestilling er plassert p√• %s, og venter p√• bekreftet betaling. N√•r betaling er bekreftet mottatt (eller n√•r en administrator g√•r inn " . NBILL_BRANDING_NAME . " og aktiverer den ventende bestillingen), blir det laget en ordrebekreftelse.");
 define("NBILL_EMAIL_NEW_ORDER", "Ny bestilling - %s");
-define("NBILL_EMAIL_ORDER_INTRO", "Denne e-posten er for Â bekrefte at f¯lgende bestillinger er laget pÂ %s");
+define("NBILL_EMAIL_ORDER_INTRO", "Denne e-posten er for √• bekrefte at f√∏lgende bestillinger er laget p√• %s");
 define("NBILL_DOWNLOAD", "Last ned");
-define("NBILL_ERR_DOWNLOAD_FAILED", "Beklager, filen kunne ikke lastes ned. Dette kan skyldes tidsavbrudd. Logg inn, og pr¯v igjen.");
+define("NBILL_ERR_DOWNLOAD_FAILED", "Beklager, filen kunne ikke lastes ned. Dette kan skyldes tidsavbrudd. Logg inn, og pr√∏v igjen.");
 define("NBILL_ERR_DOWNLOAD_EXPIRED", "Beklager, filen er ikke lenger tilgjengelig for nedlastning. Dette produktet kan kun lastes ned inntil %s dager etter at bestillingen er gjort.");
 define("NBILL_ERR_DOWNLOAD_NOT_FOUND", "Beklager, kunne ikke finne filen. Vennligst kontakt oss.");
 define("NBILL_CANCEL_ORDER", "Avbryt bestilling");
-define("NBILL_CANCEL_ORDER_INTRO", "I forbindelse med kansellering av denne bestillingen, kan du fortelle oss Ârsaken til kansellering og bekrefte at du vil angre ved hjelp av skjemaet nedenfor. Hvis du for tiden gj¯r regelmessige planlagt utbetalinger til oss, vil vi avslutte dine fremtidige utbetalinger dersom det er mulig for oss Â gj¯re det. Hvis vi ikke har myndighet til Â annullere betaling (for eksempel hvis du betaler med autotrekk via din bank), mÂ du selv avslutte dette i din bank.");
-define("NBILL_CONFIRM_CANCELLATION", "Jeg bekrefter at jeg ¯nsker Â avslutte bestillingen over.");
-define("NBILL_PLEASE_CONFIRM_CANCELLATION", "Du merket ikke av i boksen for Â bekrefte at du vil avbryte. Hvis du vil avbryte denne bestillingen, husk Â merke av i boksen f¯r du klikker pÂ knappen 'Avbryt bestilling'.");
+define("NBILL_CANCEL_ORDER_INTRO", "I forbindelse med kansellering av denne bestillingen, kan du fortelle oss √•rsaken til kansellering og bekrefte at du vil angre ved hjelp av skjemaet nedenfor. Hvis du for tiden gj√∏r regelmessige planlagt utbetalinger til oss, vil vi avslutte dine fremtidige utbetalinger dersom det er mulig for oss √• gj√∏re det. Hvis vi ikke har myndighet til √• annullere betaling (for eksempel hvis du betaler med autotrekk via din bank), m√• du selv avslutte dette i din bank.");
+define("NBILL_CONFIRM_CANCELLATION", "Jeg bekrefter at jeg √∏nsker √• avslutte bestillingen over.");
+define("NBILL_PLEASE_CONFIRM_CANCELLATION", "Du merket ikke av i boksen for √• bekrefte at du vil avbryte. Hvis du vil avbryte denne bestillingen, husk √• merke av i boksen f√∏r du klikker p√• knappen 'Avbryt bestilling'.");
 define("NBILL_ORDER_NOT_FOUND", "Den angitte bestillingen ble ikke funnet.");
 define("NBILL_ORDER_CANCELLED_SUCCESS", "Den angitte bestillingen er avbrutt.");
 define("NBILL_EMAIL_ORDER_CANCELLED", "Bestilling avbrutt den %s");
-define("NBILL_EMAIL_ORDER_CANCELLED_INTRO", "F¯lgende bestilling pÂ %s er avbrutt av kunden. KontrollÈr at alle planlagte periodiske betalinger for denne bestillingen er kansellert. Ingen ytterligere fakturaer vil bli opprettet for denne bestillingen.");
-define("NBILL_CONFIRM_PENDING_DELETE", "Den valgte bestillingen er merket som ventende. Dette betyr at den ikke er behandlet. Hvis du avbryter denne bestillingen, vil den bli slettet. Hvis du er sikker pÂ at du vil slette denne ventende bestillingen, klikker du pÂ knappen 'Avbryt bestilling'. Ellers klikker pÂ linken for Â gÂ tilbake til din bestilling uten Â slette noe.");
+define("NBILL_EMAIL_ORDER_CANCELLED_INTRO", "F√∏lgende bestilling p√• %s er avbrutt av kunden. Kontroll√©r at alle planlagte periodiske betalinger for denne bestillingen er kansellert. Ingen ytterligere fakturaer vil bli opprettet for denne bestillingen.");
+define("NBILL_CONFIRM_PENDING_DELETE", "Den valgte bestillingen er merket som ventende. Dette betyr at den ikke er behandlet. Hvis du avbryter denne bestillingen, vil den bli slettet. Hvis du er sikker p√• at du vil slette denne ventende bestillingen, klikker du p√• knappen 'Avbryt bestilling'. Ellers klikker p√• linken for √• g√• tilbake til din bestilling uten √• slette noe.");
 define("NBILL_RETURN_TO_ORDERS", "Tilbake til bestillingslisten");
 define("NBILL_INVOICE_STATUS", "Status");
 define("NBILL_INVOICE_PART_PAID", "Delbetalt");
 define("NBILL_INVOICE_UNPAID", "Ubetalt");
 define("NBILL_INVOICE_REFUNDED", "Tilbakebetalt");
 define("NBILL_INVOICE_PART_REFUNDED", "Delvis tilbakebetalt");
-define("NBILL_UPGRADE_MEMBERSHIP", "OppgradÈr medlemskap");
-define("NBILL_MY_PROFILE_DESC", "OppdatÈr dine personlige detaljer");
+define("NBILL_UPGRADE_MEMBERSHIP", "Oppgrad√©r medlemskap");
+define("NBILL_MY_PROFILE_DESC", "Oppdat√©r dine personlige detaljer");
+define("NBILL_MY_QUOTES_DESC", "En liste over tilbud du har bedt om fra oss.");
 define("NBILL_MY_ORDERS_DESC", "En liste over bestillinger du har lagt inn hos oss.");
 define("NBILL_MY_INVOICES_DESC", "En liste over fakturaene.");
-define("NBILL_UPGRADE_MEMBERSHIP_DESC", "OppgradÈr ditt medlemskap for Â fÂ tilgang til flere av dette nettstedet funksjoner");
-define("NBILL_EXPIRY_DATE_FE", "Utl¯psdato");
-define("NBILL_CONFIRM_PASSWORD", "Bekreft passord");
-define("NBILL_EMAIL_INVOICE_OPTIONS_FE", "E-post-innstillinger");
-define("NBILL_NO_EMAIL_FE", "Ikke send mine fakturaer pÂ e-post");
-define("NBILL_EMAIL_INVOICE_FE", "Send mine fakturaer pÂ e-post (html)");
-define("NBILL_EMAIL_NOTIFICATION_FE", "Send meg en melding nÂr jeg har en ny faktura (e-post som ren tekst");
+define("NBILL_UPGRADE_MEMBERSHIP_DESC", "Oppgrad√©r ditt medlemskap for √• f√• tilgang til flere av dette nettstedet funksjoner");
+define("NBILL_EXPIRY_DATE_FE", "Utl√∏psdato");
 define("NBILL_EMAIL_CONFIRM", "Bekreft");
-define("NBILL_WARN_ORDER_NOT_PROCESSED", "Advarsel - dette bestillingsskjema er behandlet, men ingenting ble bestilt. Derfor blir det ingen synlig ordreoppf¯ring i " . NBILL_BRANDING_NAME . " for denne innsendingen");
-define("NBILL_PAY_INVOICE_TITLE", "Betaling");
+define("NBILL_WARN_ORDER_NOT_PROCESSED", "Advarsel - dette bestillingsskjema er behandlet, men ingenting ble bestilt. Derfor blir det ingen synlig ordreoppf√∏ring i " . NBILL_BRANDING_NAME . " for denne innsendingen");
 define("NBILL_PAY_INVOICE", "Betal denne fakturaen");
-define("NBILL_CURRENT_ACCESS_LEVEL", "Ditt nÂvÊrende medlemsnivÂ er '%s'.");
-define("NBILL_PASSWORDS_DONT_MATCH", "Feil passord! Pr¯v igjen.");
-define("NBILL_CANNOT_PAY_INVOICE_ONLINE", "Beklager, for ¯yeblikket kan du ikke betale denne fakturaen online."); //This would probably only be used if someone tries to change the invoice id to pay someone else's invoice
+define("NBILL_CURRENT_USER_GROUP", "Din n√•v√¶rende medlemskapsniv√• er '%s'.");
+define("NBILL_CANNOT_PAY_INVOICE_ONLINE", "Beklager, for √∏yeblikket kan du ikke betale denne fakturaen online."); //This would probably only be used if someone tries to change the invoice id to pay someone else's invoice
 define("NBILL_POST_ERROR", "Beklager, men det oppstod en feil ved innsending av bestillingen. Vennligst kontakt oss for hjelp.");
-define("NBILL_WARN_CLIENT_EMAIL_NOT_SENT", "ADVARSEL! Kunden har IKKE fÂtt en e-post som bekrefter denne bestillingen.");
-define("NBILL_USER_NAME", "Brukernavn:");
-define("NBILL_USER_PASSWORD", "Passord:");
-define("NBILL_LOGIN", "Logg inn");
-define("NBILL_FORM_TIMEOUT", "Beklager, ¯kten din har utl¯pt. Logg inn pÂ nytt.");
+define("NBILL_WARN_CLIENT_EMAIL_NOT_SENT", "ADVARSEL! Kunden har IKKE f√•tt en e-post som bekrefter denne bestillingen.");
+define("NBILL_FORM_TIMEOUT", "Beklager, √∏kten din har utl√∏pt. Logg inn p√• nytt.");
 define("NBILL_NO_FORMS", "Det er ingen bestillingsskjemaer tilgjengelig for deg.");
 define("NBILL_PDF_INVOICE", "Vis PDF-faktura");
-define("NBILL_CALENDAR", "Kalender");
-define("NBILL_CLEAR", "Tilbakestill");
-define("NBILL_DATE_NOT_VALID", "Feltet `%s` krever at dato er utfylt. Angi en dato med formatet %s.");
-define("NBILL_PENDING_ORDER_PAY_NOW", "Betal nÂ");
-define("NBILL_PENDING_ORDER_NOT_FOUND", "Beklager, enten ble den ventende bestilling ikke funnet, eller ingen betalingskanal var satt opp pÂ bestillingsskjemaet pÂ tidspunktet bestillingen ble foretatt. Det vil ikke vÊre mulig Â betale for bestillingen online.");
-define("NBILL_ALREADY_REGISTERED", "Allerede registrert? Vennligst logg inn.");
-define("NBILL_NOT_YET_REGISTERED", "Ny bruker? Vennligst fyll inn dine opplysninger nedenfor.");
-define("NBILL_COMPANY_NAME", "Firmanavn");
-define("NBILL_ADDRESS_1", "Adresselinje 1");
-define("NBILL_ADDRESS_2", "Adresselinje 2");
-define("NBILL_ADDRESS_3", "Adresselinje 3");
-define("NBILL_TOWN", "Sted");
-define("NBILL_STATE", "Fylke");
-define("NBILL_POSTCODE", "Postnummer");
-define("NBILL_CLIENT_COUNTRY", "Land");
-define("NBILL_TELEPHONE", "Telefon");
-define("NBILL_CONTACT_NAME", "Kontaktperson");
-define("NBILL_CLIENT_ADD_NAME_TO_INVOICE", "Legge til kontaktperson pÂ fakturaer?");
-define("NBILL_WEBSITE", "Nettside");
-define("NBILL_MOBILE", "Mobil");
-define("NBILL_FAX", "Faks");
-define("NBILL_CLIENT_CURRENCY", "Standard valuta");
+define("NBILL_PDF_QUOTE", "Vis tilbud i PDF");
+define("NBILL_HTML_QUOTE", "Vis tilbud i HTML");
+define("NBILL_QUOTE_VIEW_DETAILS", "Se tilbudsdetaljer");
+define("NBILL_PENDING_ORDER_PAY_NOW", "Betal n√•");
+define("NBILL_PENDING_ORDER_NOT_FOUND", "Beklager, enten ble den ventende bestilling ikke funnet, eller ingen betalingskanal var satt opp p√• bestillingsskjemaet p√• tidspunktet bestillingen ble foretatt. Det vil ikke v√¶re mulig √• betale for bestillingen online.");
 @define("NBILL_PENDING", "Venter");
 define("NBILL_FE_PRODUCT", "Produkt");
 define("NBILL_FE_ORDER_STATUS", "Status");
 define("NBILL_FE_NEW_ORDER", "Ny ordre");
-define("NBILL_INVOICE_NUMBER", "Fakturanr.");
-define("NBILL_INVOICE_DATE", "Dato");
-define("NBILL_FIRST_ITEM", "F¯rste punkt pÂ faktura");
-define("NBILL_TOTAL_NET", "Netto totalt");
-define("NBILL_TOTAL_GROSS", "Brutto totalt");
-define("NBILL_INVOICE_PAID", "Betalt");
-define("NBILL_EMAIL_INVOICE_ATTACH_FE", "Send meg fakturaer som et HTML-vedlegg i e-post med ren tekst (anbefales)");
-define("NBILL_FORM_SUMMARY_INTRO", "Vennligst kontrollÈr informasjonen nedenfor for Â sikre at alt stemmer.<br />Trykk pÂ 'Tilbake' hvis det er behov for Â endre noe. Hvis alt er riktig, trykker du pÂ 'Lagre/Fortsett'.");
+define("NBILL_FE_NEW_QUOTE", "Be om nytt tilbud");
+define("NBILL_FE_QUOTE_NUMBER", "Tilbudsnr.");
+define("NBILL_FE_QUOTE_DATE", "Dato");
+define("NBILL_FE_QUOTE_FIRST_ITEM", "F√∏rste post p√• tilbudet");
+define("NBILL_QUOTE_NEW_NO_DESC", "Nytt tilbud - Under gjennomgang");
+define("NBILL_QUOTE_AWAITING_REPLY", "Avvente mer informasjon - %s for √• svare");
+define("NBILL_FE_QUOTE_TOTAL_NET", "Netto totalt");
+define("NBILL_FE_QUOTE_TOTAL_GROSS", "Brutto totalt");
+define("NBILL_FE_QUOTE_STATUS", "Status");
+define("NBILL_FE_INVOICE_NUMBER", "Fakturanr.");
+define("NBILL_FE_INVOICE_DATE", "Dato");
+define("NBILL_FE_FIRST_ITEM", "F√∏rste punkt p√• faktura");
+define("NBILL_FE_TOTAL_NET", "Netto totalt");
+define("NBILL_FE_TOTAL_GROSS", "Brutto totalt");
+define("NBILL_FE_TOTAL_OUTSTANDING", "Utest√•ende");
+define("NBILL_FE_INVOICE_PAID", "Betalt");
 define("NBILL_CHECKED", "Valgte");
 define("NBILL_UNCHECKED", "Ikke valgt");
 define("NBILL_ORDER_SUMMARY_NET_TOTAL", "Netto totalt");
 define("NBILL_ORDER_SUMMARY_TAX_TOTAL", "Avgift");
-define("NBILL_ORDER_SUMMARY_CARRIAGE_TOTAL", "Forsendelse totalt");
-define("NBILL_ORDER_SUMMARY_CARRIAGE_TAX", "Forsendelsesavgift");
-define("NBILL_ORDER_SUMMARY_AMOUNT_TO_PAY", "Bel¯p Â betale");
-define("NBILL_CARRIAGE_LIST_FOR", "Forsendelse for %s");
-define("NBILL_CARRIAGE_LIST", "Forsendelse");
-define("NBILL_ERR_SELECT_CARRIAGE", "Vennligst velg en transporttjeneste fra listen");
-define("NBILL_PASSWORD_HELP", "Angi et passord som du mÂ bruke for Â logge deg inn pÂ dette nettstedet (slik at du kan fÂ tilgang til dine bestillinger og fakturaer online).");
+define("NBILL_ORDER_SUMMARY_SHIPPING_FEES", "Forsendelse avgift");
+define("NBILL_ORDER_SUMMARY_SHIPPING_TOTAL", "Forsendelse totalt");
+define("NBILL_ORDER_SUMMARY_SHIPPING_TAX", "Forsendelsesavgift");
+define("NBILL_ORDER_SUMMARY_AMOUNT_TO_PAY", "Bel√∏p √• betale");
+define("NBILL_ORDER_SUMMARY_AMOUNT_TO_PAY_TODAY", "Bel√∏p √• betale i dag");
+define("NBILL_ORDER_SUMMARY_AMOUNT_TO_PAY_REGULAR", "Bel√∏p √• betale %s");
+define("NBILL_ORDER_SUMMARY_AMOUNT_TO_PAY_REGULAR_INSTALLMENTS", "Bel√∏p √• betale: %s %s betalinger av");
+define("NBILL_ORDER_SUMMARY_AMOUNT_TO_PAY_REGULAR_THEREAFTER", "Etterfulgt av %s%s betalinger av");
+define("NBILL_ORDER_SUMMARY_PAYMENT_PLAN", "Betalingsplan: %s");
+define("NBILL_SHIPPING_LIST_FOR", "Forsendelse for %s");
+define("NBILL_SHIPPING_LIST", "Velg forsendelse");
+define("NBILL_ERR_SELECT_SHIPPING", "Vennligst velg en transporttjeneste fra listen");
+define("NBILL_PASSWORD_HELP", "Angi et passord som du m√• bruke for √• logge deg inn p√• dette nettstedet (slik at du kan f√• tilgang til dine bestillinger og fakturaer online).");
 define("NBILL_PAYMENT_DETAILS", "Betalingsdetaljer:");
 define("NBILL_EMAIL_ORDER_PRODUCTS", "Produkter bestilt:");
 define("NBILL_EMAIL_TOTAL_ORDER_VALUE", "Total bestillingsverdi: %s");
-define("NBILL_JWHOIS_CHECK", "Sjekk tilgjengelighet");
-define("NBILL_JWHOIS_AVAILABLE", "Domenenavn %s er tilgjengelig for ¯yeblikket.");
-define("NBILL_JWHOIS_UNAVAILABLE", "Domenenavn %s er allerede registrert.");
-define("NBILL_JWHOIS_RETURNED_NOTHING", "Beklager, vi er ikke i stand til Â avgj¯re om det valgte domenet er tilgjengelig. Sjekk igjen senere.");
-define("NBILL_JWHOIS_NOT_FOUND", "Beklager, J!Whois komponenten ble ikke funnet. Vi kan ikke fastslÂ om det valgte domenet er tilgjengelig.");
-define("NBILL_JWHOIS_TLD_NOT_SUPPORTED", "Beklager, vi er ikke i stand til Â sjekke tilgjengeligheten av domener som slutter med '.%s'.");
-define("NBILL_CLIENT_REMINDER_EMAILS", "Send meg en pÂminnelse om bestillinger som forfaller, ordrefornyelser, eller forfalte betalinger (anbefales).");
+define("NBILL_DOMAIN_AVAILABLE", "Domenenavn %s er tilgjengelig for √∏yeblikket.");
+define("NBILL_DOMAIN_UNAVAILABLE", "Domenenavn %s er allerede registrert.");
+define("NBILL_DOMAIN_RETURNED_NOTHING", "Beklager, vi er ikke i stand til √• avgj√∏re om det valgte domenet er tilgjengelig. Sjekk igjen senere.");
+define("NBILL_DOMAIN_NOT_FOUND", "Beklager, domenekomponenten ble ikke funnet. Vi kan ikke fastsl√• om det valgte domenet er tilgjengelig.");
+define("NBILL_DOMAIN_TLD_NOT_SUPPORTED", "Beklager, vi er ikke i stand til √• sjekke tilgjengeligheten av domener som slutter med '.%s'.");
 define("NBILL_NOT_LOGGED_IN", "Du er ikke logget inn.");
-define("NBILL_LOGIN_INTRO", "Tjenesten du har bedt om, krever at du mÂ vÊre logget inn. Fyll inn brukernavn og passord nedenfor for Â logge inn - du vil da bli omdirigert til den siden du anmodet.");
-define("NBILL_ORDER_RENEW_ORDER_NOT_FOUND", "Beklager, ingen kvalifiserende bestillinger ble funnet - det er ingenting Â fornye. Om du mener dette er feil, vennligst kontakt oss.");
+define("NBILL_LOGIN_INTRO", "Tjenesten du har bedt om, krever at du m√• v√¶re logget inn. Fyll inn brukernavn og passord nedenfor for √• logge inn - du vil da bli omdirigert til den siden du anmodet.");
+define("NBILL_ORDER_RENEW_ORDER_NOT_FOUND", "Beklager, ingen kvalifiserende bestillinger ble funnet - det er ingenting √• fornye. Om du mener dette er feil, vennligst kontakt oss.");
 define("NBILL_ORDER_RENEW_TITLE", "Forny bestillingen");
-define("NBILL_ORDER_RENEW_INTRO", "For Â fornye denne bestillingen, sjekk at informasjonen nedenfor er riktig, og klikk pÂ 'Send'.");
+define("NBILL_ORDER_RENEW_INTRO", "For √• fornye denne bestillingen, sjekk at informasjonen nedenfor er riktig, og klikk p√• 'Send'.");
 define("NBILL_ORDER_PRODUCT", "Produkt");
 define("NBILL_ORDER_RENEW_WARNING", "Ikke send inn dette skjemaet hvis du allerede har en periodisk betalingsplan satt opp for denne bestillingen.");
-define("NBILL_FILE_TOO_BIG", "Filen du pr¯vde Â laste opp er for stor. Maksimumsst¯rrelsen er %s KB");
-define("NBILL_FILE_TYPE_NOT_ALLOWED", "Du fors¯kte Â laste opp en fil av feil type. Kun f¯lgende filtyper er tillatt: %s");
-define("NBILL_FILE_UPLOAD_FAILED", "Beklager, filen du fors¯kte Â laste opp kunne ikke lagres. Pr¯v med et annet filnavn.");
-define("NBILL_FE_SECURITY_IMAGE", "Skriv inn bokstavene du ser:");
+define("NBILL_FILE_TOO_BIG", "Filen du pr√∏vde √• laste opp er for stor. Maksimumsst√∏rrelsen er %s KB");
+define("NBILL_FILE_TYPE_NOT_ALLOWED", "Du fors√∏kte √• laste opp en fil av feil type. Kun f√∏lgende filtyper er tillatt: %s");
+define("NBILL_FILE_UPLOAD_FAILED", "Beklager, filen du fors√∏kte √• laste opp kunne ikke lagres. Pr√∏v med et annet filnavn.");
 define("NBILL_FE_SECURITY_IMAGE_CHANGE", "[Endre bokstavskode]");
-define("NBILL_ERR_SECURITY_IMAGE_WRONG", "Beklager, feil sikkerhetskode. Pr¯v igjen.");
+define("NBILL_ERR_SECURITY_IMAGE_WRONG", "Beklager, feil sikkerhetskode. Pr√∏v igjen.");
 
 /* Version 1.1.4 */
 define("NBILL_FORM_NEXT", "Neste >>");
@@ -178,47 +160,88 @@ define("NBILL_RENEW_SUBMIT", "Lagre/Fortsett");
 //Version 1.2.0
 /* NBILL_ORDER_NUMBER on line 26 changed (for plurality) */
 define("NBILL_CANNOT_RENEW_PAY_FREQS_DIFFER", "Beklager, disse bestillingene kan ikke fornyes samtidig fordi de har ulik betalingsplan. Du kan kun fornye flere bestillinger samtidig hvis betalingsfrekvensen er den samme for alle.");
-define("NBILL_CANNOT_RENEW_AUTO_RENEW_DIFFERS", "Beklager, disse bestillingene kan ikke alle fornyes samtidig fordi minst en er satt til automatisk fornyelse, og minst en er satt til ikke Â automatisk fornyes. Du kan kun fornye flere bestillinger samtidig om de alle er satt til automatisk fornyelse eller alle ikke er satt til automatisk fornyelse.");
+define("NBILL_CANNOT_RENEW_AUTO_RENEW_DIFFERS", "Beklager, disse bestillingene kan ikke alle fornyes samtidig fordi minst en er satt til automatisk fornyelse, og minst en er satt til ikke √• automatisk fornyes. Du kan kun fornye flere bestillinger samtidig om de alle er satt til automatisk fornyelse eller alle ikke er satt til automatisk fornyelse.");
+define("NBILL_CANNOT_RENEW_CURRENCY_DIFFERS", "Beklager, disse bestillingene kan ikke alle fornyes samtidig fordi de har ulike valutaer. Du kan bare fornye flere bestillinger samtidig hvis valuta er den samme for alle. ");
 define("NBILL_RENEW", "Forny");
 define("NBILL_DUE", "Forfall");
-define("NBILL_EXPIRED", "Utl¯pt");
-define("NBILL_SELECT_GATEWAY", "Velg betalingsmÂte");
+define("NBILL_EXPIRED", "Utl√∏pt");
+define("NBILL_SELECT_GATEWAY", "Velg betalingsm√•te");
 define("NBILL_INVOICE_PAY_NOW", "Betal faktura(er)");
-define("NBILL_INVOICE_AMOUNT", "Bel¯p");
+define("NBILL_INVOICE_AMOUNT", "Bel√∏p");
 define("NBILL_INVOICE_TOTAL", "Totalt");
 if (!defined("_LOST_PASSWORD")) {define("_LOST_PASSWORD", "Glemt passord?");}
 define("NBILL_TRACKING", "Sporing");
 define("NBILL_TRACK_THIS_PARCEL", "Spor denne sendingen");
 
 //Version 1.2.1
-define("NBILL_FILE_UPLOAD_FAILED_REASON", "Beklager, en fil du fors¯kte Â laste opp, kunne ikke lagres. F¯lgende begrunnelse ble rapportert: ");
-define("NBILL_ERR_UPLOAD_ERR_INI_SIZE", "Filen var st¯rre enn filst¯rrelsesgrensen pÂlagt av PHP konfigurasjonsfil (php.ini) pÂ denne serveren.");
-define("NBILL_UPLOAD_ERR_FORM_SIZE", "PHP rapporter at filen var st¯rre enn filst¯rrelsesgrensen pÂlagt av MAX_FILE_SIZE-direktivet (Merk: Denne feilen skjer noen ganger selv om filen er mindre enn grensen. Hvis dette skjer, b¯r MAX_FILE_SIZE-direktivet fjernes fra skjemaet).");
+define("NBILL_FILE_UPLOAD_FAILED_REASON", "Beklager, en fil du fors√∏kte √• laste opp, kunne ikke lagres. F√∏lgende begrunnelse ble rapportert: ");
+define("NBILL_ERR_UPLOAD_ERR_INI_SIZE", "Filen var st√∏rre enn filst√∏rrelsesgrensen p√•lagt av PHP konfigurasjonsfil (php.ini) p√• denne serveren.");
+define("NBILL_UPLOAD_ERR_FORM_SIZE", "PHP rapporter at filen var st√∏rre enn filst√∏rrelsesgrensen p√•lagt av MAX_FILE_SIZE-direktivet (Merk: Denne feilen skjer noen ganger selv om filen er mindre enn grensen. Hvis dette skjer, b√∏r MAX_FILE_SIZE-direktivet fjernes fra skjemaet).");
 define("NBILL_UPLOAD_ERR_PARTIAL", "Opplastingen ble avbrutt, og bare en del av filen ble mottatt.");
 define("NBILL_UPLOAD_ERR_NO_FILE", "Opplastingen ble avbrutt, og ingen av dataene i filen ble mottatt.");
-define("NBILL_UPLOAD_ERR_NO_TMP_DIR", "PHP kunne ikke finne en midlertidig mappe til Â lagre filen i.");
-define("NBILL_UPLOAD_ERR_CANT_WRITE", "PHP kunne ikke skrive til den midlertidige mappen for Â lagre filen.");
+define("NBILL_UPLOAD_ERR_NO_TMP_DIR", "PHP kunne ikke finne en midlertidig mappe til √• lagre filen i.");
+define("NBILL_UPLOAD_ERR_CANT_WRITE", "PHP kunne ikke skrive til den midlertidige mappen for √• lagre filen.");
 define("NBILL_INVOICE_ALREADY_PAID", "Faktura %s er allerede betalt. Du kan ikke betale den igjen!");
-define("NBILL_RETURN_TO_MY_INVOICES", " Â gÂ tilbake til %s");
-define("NBILL_CANNOT_RENEW_CANCELLED", "Beklager, du kan ikke fornye en bestilling som er kansellert. Bestill i stedet for pÂ nytt.");
-define("NBILL_EMAIL_INVOICE_PDF_FE", "Send meg fakturaen som et PDF-vedlegg i e-post med ren tekst");
+define("NBILL_RETURN_TO_MY_INVOICES", " √• g√• tilbake til %s");
+define("NBILL_CANNOT_RENEW_CANCELLED", "Beklager, du kan ikke fornye en bestilling som er kansellert. Bestill i stedet for p√• nytt.");
 
 //Version 1.2.3
 define("NBILL_PENDING_ID", "Ventende ordrenr.");
-define("NBILL_EMAIL_IN_USE", "Denne e-postadressen er allerede registrert. Hvis du har glemt passordet, kan du klikke pÂ lenken for Glemt passord og ett nytt vil bli sendt deg pÂ e-post.");
-define("NBILL_INVALID_USERNAME", "Angi et gyldig brukernavn. Brukernavn skal ikke inneholde mellomrom, ha minst to tegn, bestÂ av av tallene 0-9 og bokstavene a-z eller A-Z");
-define("NBILL_USERNAME_IN_USE", "Dette brukernavnet er allerede registrert. Vennligst velg et annet brukernavn, eller hvis du allerede er registrert, logg inn f¯rst. Hvis du har glemt passordet, kan du klikke pÂ lenken for Glemt passord og ett nytt vil bli sendt deg pÂ e-post.");
+define("NBILL_EMAIL_IN_USE", "Denne e-postadressen er allerede registrert. Hvis du har glemt passordet, kan du klikke p√• lenken for Glemt passord og ett nytt vil bli sendt deg p√• e-post.");
+define("NBILL_INVALID_USERNAME", "Angi et gyldig brukernavn. Brukernavn kan ikke inneholde mellomrom, ha minst to tegn, best√• av tallene 0-9 og bokstavene a-z eller A-Z");
+define("NBILL_USERNAME_IN_USE", "Dette brukernavnet er allerede registrert. Vennligst velg et annet brukernavn, eller hvis du allerede er registrert, logg inn f√∏rst. Hvis du har glemt passordet, kan du klikke p√• lenken for Glemt passord og ett nytt vil bli sendt deg p√• e-post.");
 
 //Version 1.2.7
 define("NBILL_ORDER_RENEWED_SUCCESS", "Takk, din ordre ble vellykket fornyet."); //Only shown for free product renewals (eg. 100% discount or free non-auto-renewing subscription)
-define("NBILL_CANNOT_RENEW_ADVANCE", "Beklager, du kan ikke fornye mer enn %s ganger pÂ forhÂnd.");
+define("NBILL_CANNOT_RENEW_ADVANCE", "Beklager, du kan ikke fornye mer enn %s ganger p√• forh√•nd.");
 
-//Version 1.2.9
-define("NBILL_PROFILE_NAME_REQURED", "Du mÂ fylle inn enneten et firmanavn, et kontaktnavn, eller begge.");
-define("NBILL_PROFILE_COMPANY_REQURED", "Du mÂ fylle inn et firmanavn");
-define("NBILL_PROFILE_CONTACT_REQUIRED", "Du mÂ fylle inn et kontaktnavn");
-define("NBILL_PROFILE_EMAIL_REQUIRED", "Du mÂ fylle inn en e-postadresse");
-
-//Version 1.2.10
-define("NBILL_LOGIN_FAILED", "Innlogging feilet. Vennligst sjekk ditt brukernavn og passord, fors¯k deretter Â logge inn pÂ nytt.");
-?>
+//Version 2.0.1
+define("NBILL_VALUES_DONT_MATCH", "Verdiene du skrev inn i det markerte feltene nedenfor stemmer ikke! Vennligst pr√∏v igjen.");
+define("NBILL_LOGIN_FAILED", "Innlogging feilet. Vennligst sjekk ditt brukernavn og passord, fors√∏k deretter √• logge inn p√• nytt.");
+define("NBILL_FORM_SHIPPING_INTRO", "<p>Velg en forsendelse.</p>");
+define("NBILL_RECALCULATE", "Beregn p√• nytt");
+define("NBILL_USER_SELECT_CLIENT", "Velg en kunde:");
+define("NBILL_INVOICE_SUMMARY_TOTALS_TITLE", "Fakturasammendrag");
+define("NBILL_QUOTE_SUMMARY_TOTALS_TITLE", "Tilbudssammendrag");
+define("NBILL_ORDER_SUMMARY_TOTALS_TITLE", "Bestillingssammendrag");
+define("NBILL_UPLOAD_ERR_FILE_EXISTS", "Kan ikke generere et unikt filnavn for √• lagre filen.");
+define("NBILL_UPLOAD_PATH_NOT_WRITABLE", "PHP kunne ikke skrive til opplastingsmappen for √• lagre filen.");
+define("NBILL_UPLOAD_COPY_FAILED", "Kunne ikke kopiere filen fra midlertidig mappe til opplastingsmappen.");
+define("NBILL_FILE_DELETE", "Slett fil");
+define("NBILL_PAY_INVOICE_TITLE", "Betal faktura(er)");
+define("NBILL_PAY_INVOICE_INTRO", "For √• betale fakturaen(e) nedenfor, vennligst sjekk at opplysningene er korrekte og klikk p√• 'Send'.");
+define("NBILL_INVOICE_INSTALLMENTS_ALREADY_RUNNING", "Du allerede har en periodisk betalingsplan satt opp for denne fakturaen %s for √• betale den i avdrag. for √• betale den i avdrag. P√• grunn av dette kan du ikke betale fakturaen manuelt, det ville resultere i at du betaler for mye. Hvis den eksisterende periodiske betalingsplan har feilet eller blitt kansellert, kontakte oss slik at vi kan rette p√• dette slik at du kan betaler fakturaen.");
+define("NBILL_INVOICE_CURRENCY_MISMATCH", "De valgte fakturaene er ikke i samme valuta. Du kan ikke betale fakturaer for ulike valutaer i en enkelt transaksjon - vennligst betale hver av disse for seg.");
+define("NBILL_QUOTE_REQUEST_NO_QUOTE_NO_EMAIL", "Beklager, det var et problem ved behandling av din foresp√∏rsel. Systemet kunne ikke opprette et nytt tilbudsdokument, eller sende e-postbekreftelse. Vennligst kontakt oss.");
+define("NBILL_QUOTE_REQUEST_QUOTE_NO_EMAIL", "Takk, din foresp√∏rsel ble registrert i systemet v√•rt, men det var et problem √• sende bekreftelse per e-post. Hvis du har skrevet inn feil e-postadresse, kan du kontakte oss slik at vi kan oppdatere v√•re registre.");
+define("NBILL_QUOTE_REQUEST_EMAIL_NO_QUOTE", "Tilbudsdokumentet kan ikke lagres. Opprett et nytt tilbud manuelt.");
+define("NBILL_FE_QUOTE_INTRO", "Klikk p√• et tilbudsnr. for √• godta eller forkaste hele eller deler av tilbudet, eller for √• sende oss mer informasjon.");
+define("NBILL_FE_QUOTE_TITLE", "Tilbud %s, datert %s. Tilbudsstatus: %s.");
+define("NBILL_FE_QUOTE_SHOW_CORRE", "Vis tidligere korrespondanse");
+define("NBILL_FE_QUOTE_HIDE_CORRE", "Skjul tidligere korrespondanse");
+define("NBILL_FE_QUOTE_REPLY_INTRO", "Vennligst send skjemaet nedenfor hvis du √∏nsker √• svare eller legge til ytterligere informasjon til dette tilbudet.");
+define("NBILL_FE_QUOTE_EMAIL_DEFAULT_SUBJECT", "Re: Tilbudsnr. %s");
+define("NBILL_FE_QUOTE_ITEM_MANDATORY", "(Obligatorisk)");
+define("NBILL_QUOTE_ITEM_ACCEPTED_ACTION", "Godta/Avsl√•");
+define("NBILL_QUOTE_CLICK_TO_ACCEPT", "Klikk for √• godta dette elementet");
+define("NBILL_QUOTE_CLICK_TO_REJECT", "Klikk for √• avvise dette elementet");
+define("NBILL_QUOTE_SUBMIT_WARNING", "Advarsel: Ved √• sende inn dette skjemaet, inng√•r du en juridisk bindende avtale om √• kj√∏pe de produktene som er merket som godkjent.");
+define("NBILL_QUOTE_ACCEPT_ALL_WARNING", "Advarsel: Ved √• sende inn dette skjemaet, inng√•r du en juridisk bindende avtale om √• kj√∏pe alle varene som er oppf√∏rt.");
+define("NBILL_QUOTE_REJECT_ALL", "Avvis alle");
+define("NBILL_QUOTE_REJECT", "Avvis");
+define("NBILL_QUOTE_REJECT_WARNING", "Er du sikker p√• at du vil avvise dette tilbudet?");
+define("NBILL_QUOTE_ACCEPT_ALL", "Godta alle");
+define("NBILL_QUOTE_ACCEPT_SELECTED", "Bekreft valgene");
+define("NBILL_QUOTE_REJECTED_SUCCESSFULLY", "Du har n√• avvist dette tilbudet. Takk for at du gav oss beskjed.");
+define("NBILL_QUOTE_PART_REJECTED_SUCCESSFULLY", "Du har avvist de utest√•ende elementene p√• dette tilbudet. Takk for at du gav oss beskjed.");
+define("NBILL_QUOTE_REJECTED_SUBJECT", "Tilbud avvist den %s");
+define("NBILL_QUOTE_REJECTED_MESSAGE", "Dette er bare for √• informere deg om at tilbudsnummer %s har blitt avvist av kunden. Beklager at det ikke ble noe av dette!");
+define("NBILL_QUOTE_ACCEPTED_SUCCESSFULLY", "Takk - du har akseptert dette tilbudet.");
+define("NBILL_QUOTE_ACCEPTED_INVOICE_GENERATED", " En ny faktura er generert til deg.");
+define("NBILL_QUOTE_NOTHING_NEW", "Ingen nye elementer ble akseptert. Ingen handling er utf√∏rt.");
+define("NBILL_QUOTE_AWAITING_PAYMENT", "ADVARSEL! Du har akseptert en eller flere tilbuds elementer, men har enn√• ikke betalt for dem alle. F√∏lgende akseptert(e) tilbud kan ikke utf√∏res f√∏r betalingen er bekreftet: ");
+define("NBILL_QUOTE_AWAITING_ACTION", "Tilbud %s: <a href=\"%s\">Betal n√•</a> | <a href=\"%s\">Avvis tilbud</a> | <a href=\"%s\">Se tilbudsdetaljene</a>");
+define("NBILL_CANNOT_PAY_QUOTE_ONLINE", "Beklager, du kan ikke betale for dette tilbudet p√• nettet for √∏yeblikket."); //Never likely to happen, unless someone is trying to hack!
+define("NBILL_PAY_QUOTE_TITLE", "Betal for tilbudene");
+define("NBILL_PAY_QUOTE_INTRO", "For √• betale for det aksepterte tilbudsbel√∏pene nevnt nedenfor, vennligst sjekk at opplysningene er korrekte og klikk p√• 'Send'.");
+define("NBILL_PAY_QUOTE_INTRO_ADDITIONAL_PAYMENT_REQD", "Merk, p√• grunn av ulike betalingsintervaller involvert i dette tilbudet, m√• en ekstra betaling utf√∏res etter dette. Du vil bli bedt om √• gj√∏re ytterligere en innbetaling etter at denne er fullf√∏rt.");

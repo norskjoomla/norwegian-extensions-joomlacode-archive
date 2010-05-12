@@ -1,11 +1,11 @@
 <?php
 /**
-* Language file for nBill
+* Language file for the Display Options page
 * @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
-* 
+*
 * @access private
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk and the license agreement at www.nbill.co.uk/eula.html
@@ -26,8 +26,8 @@
 define("NBILL_DISPLAY_OPTIONS_TITLE", "Vis alternativer");
 define("NBILL_DISPLAY_INTRO", "De fleste innstillinger og valg som vises på forsiden konfigureres her - du velger her hva som skal vises for dine brukere.");
 define("NBILL_DISPLAY_MY_ACCOUNT", "Alternativer for siden 'Min konto'");
-define("NBILL_DISPLAY_ACCESS_LEVEL", "Vis gjeldende medlemsnivå");
-define("NBILL_DISPLAY_ACCESS_LEVEL_DESC", "Angir om ACL-gruppenavn skal vises eller ikke for brukerne.");
+define("NBILL_DISPLAY_USER_GROUP", "Vis gjeldende medlemsnivå");
+define("NBILL_DISPLAY_USER_GROUP_DESC", "Angir om ACL-gruppenavn skal vises eller ikke for brukerne.");
 define("NBILL_DISPLAY_PROFILE", "Vis lenke til profilen");
 define("NBILL_DISPLAY_PROFILE_DESC", "Angir om lenken til brukerprofilen skal vises eller ikke i hovedmenyen.");
 define("NBILL_DISPLAY_ORDERS", "Vis lenke til bestillinger");
@@ -163,7 +163,7 @@ define("NBILL_DISPLAY_SUPPRESS_CANCEL_IF_NOT_AUTO_RENEW", "Skjul avbryt om ordre
 define("NBILL_DISPLAY_SUPPRESS_CANCEL_IF_NOT_AUTO_RENEW_DESC", "Angir om avbryt-lenken skal skjules eller ikke for ordre som ikke er satt til automatisk fornyelse. Kansellering av en bestilling som ikke automatisk fornyes har ingen effekt, men hvis du vil tillate brukerne å avbryte slike ordrer uansett (snarere enn å forklare dem at det ikke er nødvendig å avbryte), sett dette til `nei`. Gjelder bare hvis `Tillat annulleringer` er satt til `Ja`, ellers vil ikke avbryt-lenken vises uansett.");
 
 //Version 1.2.3 - Note to translators:
-//Line 114 of original English language file amended (NBILL_WEEKLY) - changed to 'Always Show' for clarity
+//Line 114 of original en-GB language file amended (NBILL_WEEKLY) - changed to 'Always Show' for clarity
 
 //Version 1.2.9
 define("NBILL_DISPLAY_NBILL_SHOW_DATE_RANGE", "Vis datoperiode på fakturaer?");

@@ -1,6 +1,6 @@
 <?php
 /**
-* Language file for nBill
+* Language file for the Discounts feature
 * @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
@@ -73,8 +73,8 @@ define("NBILL_DISCOUNT_AMOUNT_REQUIRED", "Velg prosent eller beløp (for hver va
 define("NBILL_DISCOUNT_DATE_REQUIRED", "Velg både start- og sluttdato for denne rabatten, eller sett valget `Tidsperiode` til `Nei`");
 define("NBILL_DISCOUNT_MIN_ORDER_VALUE", "Minste bestillingsbeløp");
 define("NBILL_INSTR_DISCOUNT_MIN_ORDER_VALUE", "Minstebeløpet en kunde må bestille for (etter at andre rabatter er trukket fra, før mva) for å få denne rabatten.");
-define("NBILL_DISCOUNT_CARRIAGE_ONLY", "Forsendelsesrabatt?");
-define("NBILL_INSTR_DISCOUNT_CARRIAGE_ONLY", "Om denne rabatten bare gjelder forsendelsen eller ikke.");
+define("NBILL_DISCOUNT_SHIPPING_ONLY", "Forsendelsesrabatt?");
+define("NBILL_INSTR_DISCOUNT_SHIPPING_ONLY", "Om denne rabatten bare gjelder forsendelsen eller ikke.");
 define("NBILL_DISCOUNT_WARNING_IN_USE", "ADVARSEL! Denne rabatten brukes nå på følgende bestillinger med gjentakende betalinger. Om du endrer denne rabatten kan fremtidige fakturaer påvirkes for disse bestillingene:");
 define("NBILL_DISCOUNT_CANNOT_DELETE", "En eller flere av disse rabattene kan ikke slettes. De er i bruk på følgende bestillinger med gjenstående gjentakende betalinger:");
 define("NBILL_DISCOUNTS_WARNING_DATE_PLUS_RECURRING", "ADVARSEL! Denne rabatten har både en sluttdato og er satt til å gjelde med gjentakende betalinger. Dette er ikke anbefalt, etter som gjentakende betalinger vil fortsette med rabatten etter sluttdato (men ikke fakturaen). Er du sikker på at du vil lagre?");

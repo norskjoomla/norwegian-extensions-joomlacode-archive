@@ -1,6 +1,6 @@
 <?php
 /**
-* Language file for nBill
+* Language file for Credit Notes
 * @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited

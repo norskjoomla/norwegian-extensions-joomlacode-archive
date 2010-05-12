@@ -1,6 +1,6 @@
 <?php
 /**
-* Language file for nBill
+* Language file for the Global Configuration page
 * @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
@@ -72,7 +72,7 @@ define("NBILL_CFG_SWITCH_TO_SSL", "Bytt til SSL ved innlogging?");
 define("NBILL_CFG_INSTR_SWITCH_TO_SSL", "Velg om du skal eller ikke skal bytte til https etter at brukeren har logget inn ved bruk av logg inn fra " . NBILL_BRANDING_NAME . " (vil bare gjelde logg inn fra  " . NBILL_BRANDING_NAME . "). ADVARSEL! Du må ha installert et SSL-sertifikat for at dette skal virke. Det kan hende du må modifisere filer (Se artikkel på <a target=\"blank\" href=\"http://www.netshinesoftware.com/security/using-an-ssl-certificate-with-your-joomla-website.html\">Netshines nettside</a>).");
 
 //Version 1.2.3 - Note to translators:
-//Line 29 of original English language file amended (NBILL_CFG_INSTR_DATE_FORMAT) - date formats currently restricted to numeric
+//Line 29 of original en-GB language file amended (NBILL_CFG_INSTR_DATE_FORMAT) - date formats currently restricted to numeric
 
 //Version 2.0.0
 define("NBILL_CFG_NO_TX_ID_SPECIFIED", "Ingen transaksjons-ID ble spesifisert.");

@@ -1,7 +1,7 @@
 <?php
 /**
-* Language file for nBill
-* @version 1
+* Language file for the Payment Gateway list
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
@@ -25,25 +25,25 @@
 //Payment Gateway
 define("NBILL_AUTO_GENERATED_INCOME", "Autogenerert av betalingskanal.");
 define("NBILL_GATEWAY_ERROR", NBILL_BRANDING_NAME . " Feilrapport");
-define("NBILL_ERR_RECEIPT_NOT_PROCESSED", "En kvittering for %s er mottatt, men kan ikke finne en ordre eller faktura som passer. Hvis du bruker " . NBILL_BRANDING_NAME . " til Â avstemme dine transaksjoner, mÂ du kanskje legge inn denne transaksjonen manuelt.");
+define("NBILL_ERR_RECEIPT_NOT_PROCESSED", "En kvittering for %s er mottatt, men kan ikke finne en ordre eller faktura som passer. Hvis du bruker " . NBILL_BRANDING_NAME . " til √• avstemme dine transaksjoner, m√• du kanskje legge inn denne transaksjonen manuelt.");
 define("NBILL_GATEWAY_TITLE", "Betalingskanal");
-define("NBILL_GATEWAY_INTRO", "Betalingskanalen er for Â tillate deg Â bruke en online betalingstjeneste for Â godta kredittkortbetalinger. For Â legge til online betalingstjeneste pÂ ditt bestillingsskjema, mÂ du ha en utvidelse som er laget for " . NBILL_BRANDING_NAME . " og for din tjenesteleverand¯r for betalingen. For detaljer om tilgjengelige utvidelser, henvises det til " . NBILL_BRANDING_NAME . "  sine nettsider (%s).");
+define("NBILL_GATEWAY_INTRO", "Betalingskanalen er for √• tillate deg √• bruke en online betalingstjeneste for √• godta kredittkortbetalinger. For √• legge til online betalingstjeneste p√• ditt bestillingsskjema, m√• du ha en utvidelse som er laget for " . NBILL_BRANDING_NAME . " og for din tjenesteleverand√∏r for betalingen. For detaljer om tilgjengelige utvidelser, henvises det til " . NBILL_BRANDING_NAME . "  sine nettsider (%s).");
 define("NBILL_GATEWAY_NAME", "Navn");
 define("NBILL_GATEWAY_DESCRIPTION", "Beskrivelse");
-define("NBILL_EDIT_GATEWAY", "RedigÈr innstillinger");
-define("NBILL_ERR_GATEWAY_PROBLEM", "Det er et problem med denne betalingstjenesten. Handlingen du valgte, kunne ikke utf¯res.");
+define("NBILL_EDIT_GATEWAY", "Redig√©r innstillinger");
+define("NBILL_ERR_GATEWAY_PROBLEM", "Det er et problem med denne betalingstjenesten. Handlingen du valgte, kunne ikke utf√∏res.");
 define("NBILL_GATEWAY_SETTINGS", "Innstillinger for betalingskanal");
 define("NBILL_CONFIRM_UNINSTALL_GATEWAY", "ADVARSEL! Dette vil helt avinstallere denne betalingskanalen!");
 define("NBILL_ERR_GATEWAY_NOT_REMOVED", "ADVARSEL! Selv om betalingskanalen er slettet fra " . NBILL_BRANDING_NAME . ", kunne ikke alle filene slettes.");
-define("NBILL_ERR_GATEWAY_NOT_FOUND", "FEIL: Betalingskanalen tilknyttet dette bestillingsskjema eller denne faktura, ble ikke funnet. Det vil ikke vÊre mulig Â betale online pÂ nÂvÊrende tidspunkt.");
+define("NBILL_ERR_GATEWAY_NOT_FOUND", "FEIL: Betalingskanalen tilknyttet dette bestillingsskjema eller denne faktura, ble ikke funnet. Det vil ikke v√¶re mulig √• betale online p√• n√•v√¶rende tidspunkt.");
 define("NBILL_GATEWAY_WARNING", NBILL_BRANDING_NAME . " Varselrapport");
 define("NBILL_GATEWAY_ERR_ORDER_NOT_FOUND", "Ventende ordrenummer '%s' ble ikke funnet");
-define("NBILL_GATEWAY_INSTALL_WARNING", "ADVARSEL! Bare installÈr betalingstjenester fra pÂlitelige kilder. Skripter fra betalingskanalen kan fÂ tilgang til hele nettsiden din!");
-define("NBILL_GATEWAY_CALLBACK_INFO", "F¯lgende informasjon viser innholdet i \$_REQUEST og \$_SERVER PHP variablene. En tekniker kan finne denne informasjonen nyttig for Â finne ut hvorfor feilen oppstod.\n\n");
-define("NBILL_GATEWAY_FILES_MISSING", "ADVARSEL! Tabellene i databasen for '%s' er i databasen, men filene mangler. Dette kan vÊre fordi du har oppgradert " . NBILL_BRANDING_NAME . ". Installer betalingskanalen pÂ nytt ved Â klikke 'Ny' pÂ verkt¯ylinjen over (innstillingene dine vil bli bevart), eller slett den (som vil slette alle spor av betalingskanalen).");
-define("NBILL_GATEWAY_ERR", "Et problem oppstod under fors¯k pÂ Â behandle din betaling. F¯lgende feil oppstod: %s<br /><br />Ta kontakt med oss dersom du trenger hjelp.");
+define("NBILL_GATEWAY_INSTALL_WARNING", "ADVARSEL! Bare install√©r betalingstjenester fra p√•litelige kilder. Skripter fra betalingskanalen kan f√• tilgang til hele nettsiden din!");
+define("NBILL_GATEWAY_CALLBACK_INFO", "F√∏lgende informasjon viser innholdet i \$_REQUEST og \$_SERVER PHP variablene. En tekniker kan finne denne informasjonen nyttig for √• finne ut hvorfor feilen oppstod.\n\n");
+define("NBILL_GATEWAY_FILES_MISSING", "ADVARSEL! Tabellene i databasen for '%s' er i databasen, men filene mangler. Dette kan v√¶re fordi du har oppgradert " . NBILL_BRANDING_NAME . ". Installer betalingskanalen p√• nytt ved √• klikke 'Ny' p√• verkt√∏ylinjen over (innstillingene dine vil bli bevart), eller slett den (som vil slette alle spor av betalingskanalen).");
+define("NBILL_GATEWAY_ERR", "Et problem oppstod under fors√∏k p√• √• behandle din betaling. F√∏lgende feil oppstod: %s<br /><br />Ta kontakt med oss dersom du trenger hjelp.");
 define("NBILL_GATEWAY_SUCCESS", "Takk - din betaling er mottatt.");
-define("NBILL_GATEWAY_ERR_AMOUNT_MISMATCH", "FEIL - Bel¯pet samsvarer ikke (bel¯pet mottatt var annet enn forventet). Forventet bel¯p: %s; Mottatt bel¯p: %s");
+define("NBILL_GATEWAY_ERR_AMOUNT_MISMATCH", "FEIL - Bel√∏pet samsvarer ikke (bel√∏pet mottatt var annet enn forventet). Forventet bel√∏p: %s; Mottatt bel√∏p: %s");
 define("NBILL_GATEWAY_ERR_DUPLICATE_NOTIFICATION", "FEIL - Dupliserte betalingsvarsel.");
 
 
@@ -55,6 +55,14 @@ define("NBILL_GATEWAY_ERR_DUPLICATE_NOTIFICATION", "FEIL - Dupliserte betalingsv
 //Version 1.2.0
 define("NBILL_GATEWAY_DISPLAY_NAME", "Visningsnavn");
 define("NBILL_GATEWAY_PUBLISHED", "Publisert?");
-define("NBILL_INSTR_GATEWAY_DISPLAY_NAME", "Brukes i en rullegardinliste for Â la brukeren velge en betalingskanal nÂr en ordre fornyes, eller en faktura skal betales. MERK: NÂr brukeren velger en betalingskanal pÂ et bestillingsskjema, mÂ du angi visningsnavnet i alternativfeltet. Denne innstillingen er bare tilfeller nÂr betalingene gj¯res uten Â bruke et bestillingsskjema.");
-define("NBILL_INSTR_GATEWAY_PUBLISHED", "Hvorvidt denne betalingskanalen skal vises i rullegardinlisten eller ikke sÂ brukeren kan velge betalingskanal. Merk: Dette gjelder bare nÂr det ikke brukes et bestillingsskjema. PÂ et bestillingsskjema mÂ du manuelt definere hvilke betalingskanaler som er tillatt, sÂ disse innstillingene gjelder ikke der (du kan fremdeles bruke en betalingskanal pÂ et bestillingsskjema selv om det ikke er publisert, men det kan ikke brukes til Â betale en faktura eller fornye en bestilling, med mindre den er publisert).");
-?>
+define("NBILL_INSTR_GATEWAY_DISPLAY_NAME", "Brukes i en rullegardinliste for √• la brukeren velge en betalingskanal n√•r en ordre fornyes, eller en faktura skal betales. MERK: N√•r brukeren velger en betalingskanal p√• et bestillingsskjema, m√• du angi visningsnavnet i alternativfeltet. Denne innstillingen er bare tilfeller n√•r betalingene gj√∏res uten √• bruke et bestillingsskjema.");
+define("NBILL_INSTR_GATEWAY_PUBLISHED", "Hvorvidt denne betalingskanalen skal vises i rullegardinlisten eller ikke s√• brukeren kan velge betalingskanal. Merk: Dette gjelder bare n√•r det ikke brukes et bestillingsskjema. P√• et bestillingsskjema m√• du manuelt definere hvilke betalingskanaler som er tillatt, s√• disse innstillingene gjelder ikke der (du kan fremdeles bruke en betalingskanal p√• et bestillingsskjema selv om det ikke er publisert, men det kan ikke brukes til √• betale en faktura eller fornye en bestilling, med mindre den er publisert).");
+
+//Version 2.0.1
+define("NBILL_GATEWAY_NO_RECURRING", "Beklager, denne betalingskanalen st√∏tter ikke periodiske betalinger");
+define("NBILL_GATEWAY_DOES_NOT_SUPPORT_FREQUENCY", "Beklager, denne betalingskanalen st√∏tter ikke den valgte betalingsfrekvensen");
+define("NBILL_GATEWAY_NO_FREE_TRIALS", "Beklager, denne betalingskanalen st√∏tter ikke pr√∏veversjoner");
+define("NBILL_GATEWAY_NO_FIRST_PAYMENT_DIFFERENT", "Beklager, denne betalingskanalen st√∏tter ikke √• ha et annet bel√∏p for den f√∏rste betalingen enn for de periodiske betalingene");
+define("NBILL_GATEWAY_NO_FIXED_INSTALLMENTS", "Beklager, denne betalingskanalen st√∏tter ikke et fast antall betalinger");
+define("NBILL_GATEWAY_MIN_PAYMENTS", "Beklager, gir denne betalingskanalen tillater bare et minimum av %s betalinger");
+define("NBILL_GATEWAY_ERR_SUFFIX", " - det vil ikke v√¶re mulig √• betale for denne bestillingen p√• nettet.");
