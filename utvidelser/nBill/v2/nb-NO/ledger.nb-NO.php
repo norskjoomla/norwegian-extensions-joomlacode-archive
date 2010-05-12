@@ -1,7 +1,7 @@
 <?php
 /**
-* Language file for nBill
-* @version 1
+* Language file for the Nominal Ledger feature
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
@@ -24,7 +24,7 @@
 
 //Nominal Ledger
 define("NBILL_LEDGER_TITLE", "Hovedbok");
-define("NBILL_LEDGER_INTRO", "Om du fører en hovedbok (også kjent som generell regnskap eller kostnadssted) for transaksjoner, kan du definere koder og beskrivelser her. Dette er valgfritt - kun til rapporteringsformål.");
+define("NBILL_LEDGER_INTRO", "Om du fÃ¸rer en hovedbok (ogsÃ¥ kjent som generell regnskap eller kostnadssted) for transaksjoner, kan du definere koder og beskrivelser her. Dette er valgfritt - kun til rapporteringsformÃ¥l.");
 define("NBILL_LEDGER_CODE", "Kode");
 define("NBILL_LEDGER_DESCRIPTION", "Beskrivelse");
 define("NBILL_EDIT_LEDGER_CODE", "Rediger hovedbokskode");
@@ -32,6 +32,5 @@ define("NBILL_NEW_LEDGER_CODE", "Ny hovedbokskode");
 define("NBILL_LEDGER_CODE_REQUIRED", "Vennligst skriv inn en kode");
 define("NBILL_LEDGER_DESC_REQUIRED", "Vennligst skriv inn en beskrivelse");
 define("NBILL_LEDGER_CODE_DETAILS", "Hovedbokskode detaljer");
-define("NBILL_INSTR_LEDGER_CODE", "Det typiske er en numerisk kode");
+define("NBILL_INSTR_LEDGER_CODE", "Vanligvis, en numerisk kostnadsstedskode");
 define("NBILL_INSTR_LEDGER_DESCRIPTION", "");
-?>

@@ -1,7 +1,7 @@
 <?php
 /**
-* Language file for nBill
-* @version 1
+* Language file for Invoices
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
@@ -25,22 +25,22 @@
 //Invoices
 define("NBILL_INVOICES_TITLE", "Fakturaer");
 define("NBILL_INVOICES_INTRO", "Du kan lage faktura for ALLE utestående ordre opp til en gitt dato ved å klikke på knappen 'Lag alle' på verktøylinjen over. Du kan også lage faktura for enkeltordre fra <a href=\"index2.php?option=com_netinvoice&action=orders\">ordrelisten</a>. Alternativt kan du opprette og redigere fakturaer manuelt ved hjelp av knappene 'Ny' og 'Rediger' på verktøylinjen over. Du kan også få utskriftsvennlige versjoner av disse fakturaene ved å merke av i boksene ved siden av fakturaene du vil skrive ut, og klikke på 'HTML forhåndsvisning' eller 'PDF forhåndsvisning' på verktøylinjen over (PDF er bedre egnet til å skrive ut flere fakturaer på separate sider, men HTML er raskere og kan inneholde bilder).");
-@define("NBILL_INVOICE_NUMBER", "Fakturanr.");
+define("NBILL_INVOICE_NUMBER", "Fakturanr.");
 define("NBILL_BILLING_NAME", "Fakturanavn");
 define("NBILL_EDIT_INVOICE", "Rediger faktura");
 define("NBILL_NEW_INVOICE", "Ny faktura");
-@define("NBILL_TOTAL_NET", "Netto totalt");
-@define("NBILL_TOTAL_GROSS", "Brutto totalt");
+define("NBILL_TOTAL_NET", "Netto totalt");
+define("NBILL_TOTAL_GROSS", "Brutto totalt");
 define("NBILL_PAID_IN_FULL", "Fullt betalt");
-@define("NBILL_INVOICE_PAID", "Betalt");
+define("NBILL_INVOICE_PAID", "Betalt");
 define("NBILL_INVOICE_NOT_PAID", "Ikke betalt");
 define("NBILL_GENERATE_ALL", "Lag alle");
 define("NBILL_PRINT", "HTML forhåndsvisning");
 define("NBILL_PDF", "PDF forhåndsvisning");
 define("NBILL_BILLING_ADDRESS", "Faktureringsadresse");
 define("NBILL_REFERENCE", "Referanse");
-@define("NBILL_INVOICE_DATE", "Fakturadato");
-@define("NBILL_FIRST_ITEM", "Første post på faktura");
+define("NBILL_INVOICE_DATE", "Fakturadato");
+define("NBILL_FIRST_ITEM", "Første post på faktura");
 define("NBILL_INVOICE_ITEMS", "Fakturaposter");
 define("NBILL_INVOICE_ITEM_NAME", "Beskrivelse");
 define("NBILL_INVOICE_ITEM_LEDGER", "Hovedbokskonto");
@@ -50,23 +50,23 @@ define("NBILL_INVOICE_ITEM_DISCOUNT_DESC", "Rabattbeskrivelse");
 define("NBILL_INVOICE_ITEM_DISCOUNT_AMOUNT", "Rabattbeløp");
 define("NBILL_INVOICE_ITEM_TOTAL_NET", "Netto pris");
 define("NBILL_INVOICE_ITEM_TAX", "Avgift");
-define("NBILL_INVOICE_ITEM_CARRIAGE_SERVICE", "Transportør");
-define("NBILL_INVOICE_ITEM_CARRIAGE", "Forsendelse");
-define("NBILL_INVOICE_ITEM_CARRIAGE_TAX", "Avgift på forsendelsen");
+define("NBILL_INVOICE_ITEM_SHIPPING_SERVICE", "Transportør");
+define("NBILL_INVOICE_ITEM_SHIPPING", "Forsendelse");
+define("NBILL_INVOICE_ITEM_SHIPPING_TAX", "Avgift på forsendelsen");
 define("NBILL_INVOICE_ITEM_GROSS", "Brutto pris");
 define("NBILL_NEW_INVOICE_ITEM", "Ny");
 define("NBILL_TOTAL_TAX", "Avgift totalt");
-define("NBILL_TOTAL_CARRIAGE", "Forsendelse totalt");
-define("NBILL_TOTAL_CARRIAGE_TAX", "Avgift på forsendelse");
+define("NBILL_TOTAL_SHIPPING", "Forsendelse totalt");
+define("NBILL_TOTAL_SHIPPING_TAX", "Avgift på forsendelse");
 define("NBILL_INVOICE_PAY_INSTR", "Betalingsinstruksjoner");
 define("NBILL_INVOICE_SMALL_PRINT", "Liten skrift");
-define("NBILL_INVOICE_PAID_IN_FULL", "Betalt alt?");
+define("NBILL_INVOICE_PAID_IN_FULL", "Betalt i sin helhet?");
 define("NBILL_INVOICE_PARTIAL_PAYMENT", "Delvis betalt?");
 define("NBILL_INVOICE_REFUND_IN_FULL", "Refundert helt?");
 define("NBILL_INVOICE_PARTIAL_REFUND", "Delvis refundert?");
 define("NBILL_INSTR_INVOICE_NUMBER", "<strong>Merk:</strong> Skal stå tomt hvis du legger til en ny faktura - komponenten vil automatisk tildele neste fakturanummer.");
 define("NBILL_INSTR_BILLING_NAME", "Navnet på personen og/eller firma som blir fakturert.");
-define("NBILL_INSTR_BILLING_ADDRESS", "");
+define("NBILL_INSTR_BILLING_ADDRESS", "Ta med hele adressen UNNTATT land (dette er lagret separat, nedenfor).");
 define("NBILL_INSTR_REFERENCE", "Din egen referanse-ID for denne klienten eller transaksjon.");
 define("NBILL_INSTR_INVOICE_DATE", "");
 define("NBILL_INSTR_INVOICE_PAY_INSTR", "Detaljer om hvordan kunden kan betale deg (f. eks bankinformasjonen)");
@@ -87,13 +87,9 @@ define("NBILL_REFUND_DESC", "Kontokreditt");
 define("NBILL_BILLING_NAME_REQUIRED", "Du må angi et faktureringsnavn.");
 define("NBILL_BILLING_ADDRESS_REQUIRED", "Du må angi en faktureringsadresse.");
 define("NBILL_ALL_OUTSTANDING", "Vis ALLE ubetalte fakturaer uansett dato");
-define("INVOICE_ITEM_CODE", "Varenr.");
+define("NBILL_INVOICE_ITEM_CODE", "Varenr.");
 define("NBILL_REFUND", "REFUSJON"); //The SKU for refunds
-define("NBILL_EMAIL_INVOICE_SUBJECT", "Faktura %s fra %s");
-define("NBILL_EMAIL_INVOICE_INTRO", "Hei %s,\n\nFølgende faktura er vedlagt:");
-define("NBILL_EMAIL_INVOICE_FOOTER", "Du kan se alle dine fakturaer elektronisk ved å logge deg på %s. Hvis du ikke lenger ønsker å motta fakturaer på e-post, kan du logge inn og klikke på `Min profil` på `Min konto` for å endre dine innstillinger.\n\nOm du valgte å betale direkte på nett vil du også kunne laste ned en oppdatert faktura fra din konto, som viser kvitteringsnummer og betalingsdato.\n\nHilsen,\n%s");
-define("NBILL_EMAIL_INVOICE_ALT_TEXT", "Du ser denne meldingen fordi din e-postklient ikke støtter HTML-meldinger (eller hvis du viser den fra 'useriøs e-post'-mappen. HTML kan da ikke vises). For å se fakturaen din, kan du enten vise denne e-posten i HTML-modus, eller logge inn på %s for å se din faktura online.");
-define("NBILL_EMAIL_INVOICE_NOTIFICATION", "Hei %s,\n\nDenne e-posten er for å informere deg om at en ny faktura er sendt til deg.\n\n");
+
 define("NBILL_INVOICE_EMAILED", "E-post");
 define("NBILL_EMAIL_FAILED", "Et forsøk ble gjort for å sende en e-post, men det oppstod en feil som hindret den i å bli sendt. Kontrollér serverkonfigurasjonen for å sikre at serveren er i stand til å sende e-post.");
 define("NBILL_EMAIL_FAILED_NO_ADDRESS", "Et forsøk ble gjort for å sende en e-post, men det ble ikke funnet en e-postadresse til denne kunden.");
@@ -101,15 +97,7 @@ define("NBILL_EMAIL_SENT", "E-post sendt til kunden %s");
 define("NBILL_EMAIL_NOT_DUE", "E-post ble ikke sendt. (Kundens innstillinger tillater ikke faktura via e-post).");
 define("NBILL_EMAIL_NOW", "Send denne fakturaen til kunden via e-post nå");
 define("NBILL_SEND_EMAIL", "Send e-post");
-define("NBILL_SEND_EMAIL_INTRO", "Velg format for e-post (HTML eller ren tekst). Du kan også overstyre meldingsteksten ved å skrive din egen tekst her. Hvis du lar felt stå, " . NBILL_BRANDING_NAME . " vil standard melding bli brukt.");
-define("NBILL_SEND_EMAIL_MANY_INTRO", "Vennligst velg en e-posttype som skal sendes (HTML eller ren tekst). Du kan også overstyre e-postadressen, kontaktnavnet og melding ved å spesifisere dine egne verdier her. Om du lar disse være tomme, vil nBill forsøke å fylle inn detaljene ved å bruke kundeoppføringen assosiert med denne fakturaen (dersom anvendelig), sammen med standard meldingstekst.");
 define("NBILL_EMAIL_OPTIONS", "E-postalternativer");
-define("NBILL_EMAIL_HTML", "Send i HTML format?");
-define("NBILL_EMAIL_CONTACT", "Kontaktnavn");
-define("NBILL_EMAIL_MESSAGE", "Melding");
-define("NBILL_EMAIL_SENT_SUCCESS", "E-post sendt.");
-define("NBILL_EMAIL_SENT_FAILURE", "En eller flere feil oppstod under forsøk på å sende e-post. Oppdatér fakturalisten,  og sjekke e-poststatus etterpå.");
-define("NBILL_EMAIL_INVOICE_FOOTER_USERNAME", "Du kan se alle dine fakturaer online ved å logge deg på %s (ditt brukernavn er %s). Hvis du ikke lenger ønsker å motta fakturaer på e-post, kan du logge inn og klikke på `Min profil` på `Min konto` for å endre dine innstillinger.\n\nHilsen,\n%s");
 define("NBILL_INVOICE_LBL_WRITTEN_OFF", "Avskrevet");
 define("NBILL_INVOICE_WRITTEN_OFF", "Avskrevet?");
 define("NBILL_INSTR_INVOICE_WRITTEN_OFF", "Hvis du har gitt opp håpet om at denne fakturaen vil bli betalt, og bare ønsker å avskrive den, velger du 'Ja' her og oppgi detaljer nedenfor.");
@@ -120,11 +108,9 @@ define("NBILL_INSTR_INVOICE_CLAIM_BACK", "Vil du trekker fra avgiftsbeløpet på
 define("NBILL_WRITTEN_OFF_DATE_REQUIRED", "Angi datoen for når denne fakturaen ble avskrevet.");
 define("NBILL_VENDOR", "Leverandør");
 define("NBILL_INVOICE_TAX_RATE", "Avgiftssats");
-define("NBILL_INVOICE_CARRIAGE_TAX_RATE", "Sats for transportavgift");
+define("NBILL_INVOICE_SHIPPING_TAX_RATE", "Sats for transportavgift");
 define("NBILL_INSTR_INVOICE_TAX_RATE", "Standarden avgiftssats for å automatisk beregne avgiftsgrunnlag på denne fakturaen (faktisk avgiftsbeløp kan fortsatt overstyres under)");
-define("NBILL_INSTR_INVOICE_CARRIAGE_TAX_RATE", "Standard avgiftssats for transport, som brukes til automatisk å beregne avgiften på transport uavhengig av mengde på denne fakturaen (faktisk avgiftsbeløp kan overstyres under)");
-define("NBILL_EMAIL_INVOICE_INTRO_ATTACH", "Hei %s,\n\nFølgende faktura er vedlagt.\n\n");
-define("NBILL_EMAIL_ATTACH", "Legg ved faktura som HTML?");
+define("NBILL_INSTR_INVOICE_SHIPPING_TAX_RATE", "Standard avgiftssats for transport, som brukes til automatisk å beregne avgiften på transport uavhengig av mengde på denne fakturaen (faktisk avgiftsbeløp kan overstyres under)");
 define("NBILL_INVOICE_VENDOR_NAME_REQUIRED", "Du må oppgi navn på leverandøren.");
 define("NBILL_INVOICE_VENDOR_ADDRESS_REQUIRED", "Du må angi leverandørens adresse");
 define("NBILL_INSTR_VENDOR_NAME", "");
@@ -138,7 +124,7 @@ define("NBILL_AUTO_INVOICE_SUBJECT", NBILL_BRANDING_NAME . " automatisk fakturag
 define("NBILL_AUTO_INVOICE_FAILURE", "FEIL");
 define("NBILL_AUTO_INVOICE_NO_LICENSE", NBILL_BRANDING_NAME . " sin lisenskode er feil, eller ble ikke funnet");
 define("NBILL_INVOICE_SHOW_PAYLINK", "Vis betalingslink?");
-define("NBILL_INSTR_INVOICE_SHOW_PAYLINK", "Om link 'Betal denne faktura' skal vises eller ikke. Verdien av den globale innstillingen avhenger av ordreantallet - hvis aktuelt - eller, visningsalternativene (du kan angi en fast betalingsfrekvens - se visningsarternativene for mer informasjon). Betalingslinken vises bare hvis fakturaen ikke er betalt og en standard betalingskanal er angitt på leverandøren, og brutto totalt på fakturaen er større enn null.");
+define("NBILL_INSTR_INVOICE_SHOW_PAYLINK", "Om lenken 'Betal denne faktura' skal vises eller ikke. Verdien av den globale innstillingen avhenger av ordreantallet - hvis aktuelt - eller, visningsalternativene (du kan angi en fast betalingsfrekvens - se visningsalternativene for mer informasjon). Betalingslinken vises bare hvis fakturaen ikke er betalt og en standard betalingskanal er angitt på leverandøren, og brutto totalt på fakturaen er større enn null.");
 define("NBILL_INVOICE_PAYLINK_USE_GLOBAL", "Bruk global");
 define("NBILL_INVOICE_PAYLINK_SHOW", "Vis");
 define("NBILL_INVOICE_PAYLINK_HIDE", "Skjul");
@@ -150,7 +136,7 @@ define("NBILL_INVOICE_ORDER_NO", "Ordrenr.");
 define("NBILL_INVOICE_LOOKUP_SKU", "Slå opp varenr.");
 
 //Version 1.2.0 SP2
-define("NBILL_PAYLINK", "Betalingslink");
+define("NBILL_PAYLINK", "Betalingslenke");
 define("NBILL_INVOICE_SELECT_PRODUCT", "Velg produkt");
 
 //Version 1.2.1
@@ -168,4 +154,23 @@ define("NBILL_EMAIL_NOT_DUE_ADHOC", "E-post ble ikke sendt (ad hoc-faktura blir 
 
 //Version 1.2.6
 define("NBILL_INVOICE_RECORD_LIMIT_WARNING", "ADVARSEL! Det er %s eller flere kunder i databasen. Bare de %s første postene vises i listen over. Hvis kunden du trenger er ikke her, kan du enten klikke på \"Vis alle\" (nedenfor), eller velge \"Opprett ny faktura\"-ikonet på kundelisten (den aktuelle posten vil da automatisk bli valgt her).");
-?>
+
+//Version 2.0.0
+define("NBILL_INVOICE_TOTAL_THIS_PAGE", "Totalt for alle fakturaer som vises på DENNE siden (herunder avskrevet beløp):");
+define("NBILL_INVOICE_TOTAL_ALL_PAGES", "Totalt for alle fakturaer på alle sider i den valgte tidsperioden (herunder avskrevet beløp):");
+define("NBILL_INVOICE_ITEM_TAX_RATE", "Skattesats (%)");
+define("NBILL_INVOICE_ITEM_SHIPPING_TAX_RATE", "Forsendelses avgift (%)");
+define("NBILL_BILLING_COUNTRY", "Faktureringsland");
+define("NBILL_INSTR_BILLING_COUNTRY", "");
+define("NBILL_INVOICE_HTML_HIDE", "Skjul HTML");
+define("NBILL_INVOICE_HTML_SHOW", "Vis HTML");
+define("NBILL_PAYMENT_PLAN", "Betalingsplan");
+define("NBILL_INSTR_PAYMENT_PLAN", "Hvis et engangsbeløp er forfalt til betaling, velge hvilke betalingsplan å implementere (NB: ikke alle betalingsløsninger støtte betalingsplaner)");
+define("NBILL_INVOICE_PAY_STATUS", "Betalt?");
+define("NBILL_DOCUMENT_FILE_NOT_FOUND", "Fil %s ikke funnet.");
+define("NBILL_DOCUMENT_FILE_UPLOADS", "Opplastet fil");
+define("NBILL_INSTR_DOCUMENT_FILE_UPLOADS", "Filen som ble lastet opp av kunden når de leverte tilbudsforespørselen ble brukt til å lage denne posten.");
+define("NBILL_INVOICE_UNDER_PAYMENT_SCHEDULE", "En betalingsplan er satt opp for denne fakturaen som bør føre til at den er betalt i sin helhet etter at alle avdrag er betalt. Kunden vil derfor ikke bli gitt mulighet til å betale denne fakturaen (ellers blir det betalt for mye). Hvis du ønsker å at fakturaen skal betales (for eksempel hvis betalingsplanen for terminene har feilet eller er kansellert), kan du klikke på følgende knapp, klikk deretter enten på knappen ’Bruk’ eller ’Lagre’ på verktøylinjen.");
+define("NBILL_INVOICE_REMOVE_GATEWAY_TXN_ID_SURE", "Er du sikker på at du vil tillate brukeren å betale denne fakturaen? I så fall må du kontrollere at eksisterende periodisk betalingsplanen er kansellert med betalingstjenesteleverandøren.");
+define("NBILL_INVOICE_REMOVE_GATEWAY_TXN_ID", "Slett tilhørende betalingsplan");
+define("NBILL_INVOICE_GATEWAY_TXN_ID_REMOVED", "Tilhørende betalingsplan slettet");
