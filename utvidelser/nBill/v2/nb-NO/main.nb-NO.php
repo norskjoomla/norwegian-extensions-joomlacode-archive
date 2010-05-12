@@ -22,9 +22,9 @@
 //Ensure this file has been reached through a valid entry point (not always necessary eg. for class files, but included on every file to be safe!)
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
-define("NBILL_LEDGER_GUESSES", NBILL_BRANDING_NAME . " was unable to accurately calculate the breakdown of net/tax/gross amounts on the nominal ledger records for the following transactions. Please check each of the records listed below and enter the correct tax breakdown figures for the nominal ledger entries.");
-define("NBILL_LEDGER_GUESSES_DELETE", "Don't bug me!");
-define("NBILL_LEDGER_GUESSES_DELETE_SURE", "Are you sure you want to forget about these innaccurate ledger entries? This will mean your nominal ledger report and tax summary will be INACCURATE for any date ranges involving the listed transactions.");
-define("NBILL_PAYMENT_NO", "Payment");
-define("NBILL_RECEIPT_NO", "Receipt");
-define("NBILL_IE6_NOT_SUPPORTED", "WARNING! Some features of " . NBILL_BRANDING_NAME . " Administrator will not work properly in IE6 (front end features should all work ok though). Please upgrade your browser!");
+define("NBILL_LEDGER_GUESSES", NBILL_BRANDING_NAME . " er ute av stand til nøyaktig å beregne fordelingen av netto/avgift/bruttobeløp på hovedbokspostene for følgende transaksjoner. Merk av i hver av postene nedenfor og skriv inn riktig avgiftsfordeling for hovedboksoppføringen.");
+define("NBILL_LEDGER_GUESSES_DELETE", "Ikke plag meg!");
+define("NBILL_LEDGER_GUESSES_DELETE_SURE", "Er du sikker på at du ikke vil gjøre noe med disse unøyaktighetene? Dette vil bety at hovedboksrapporten og skattesammendraget vil være feil for alle periodene som involverer de nevnte transaksjonene.");
+define("NBILL_PAYMENT_NO", "Betaling");
+define("NBILL_RECEIPT_NO", "Kvittering");
+define("NBILL_IE6_NOT_SUPPORTED", "ADVARSEL! Enkelte funksjoner i " . NBILL_BRANDING_NAME . "  administrasjonen vil ikke fungere i IE6 (funksjoner på brukersiden bør fortsatt fungere). Vennligst oppgrader din nettleser!");
