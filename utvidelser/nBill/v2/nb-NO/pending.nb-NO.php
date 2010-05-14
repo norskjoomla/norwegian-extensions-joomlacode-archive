@@ -1,7 +1,7 @@
 <?php
 /**
-* Language file for nBill
-* @version 1
+* Language file for Pending Orders
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
@@ -24,12 +24,12 @@
 
 //Pending Orders
 define("NBILL_PENDING", "Venter");
-define("NBILL_ACTIVATE_PENDING_ORDER", "AktivÈr venting");
-define("NBILL_ACTIVATE_ARE_YOU_SURE", "ADVARSEL! Dette vil opprette en ny ordre og den ventende ordren vil bli slettet. Hvis relatert bestillingsskjema er satt til automatisk oppretting av bruker og/eller faktura, vil disse ogsÂ bli generert. Er du sikker pÂ at du vil fortsette?");
-define("NBILL_SELECT_PENDING_ORDER", "Vennligst gj¯r et valg fra listen for Â aktivere");
+define("NBILL_ACTIVATE_PENDING_ORDER", "Aktiver ventende");
+define("NBILL_ACTIVATE_ARE_YOU_SURE", "ADVARSEL! Dette vil opprette en ny ordre og den ventende ordren vil bli slettet. Hvis relatert bestillingsskjema er satt til automatisk oppretting av bruker og/eller faktura, vil disse ogs√• bli generert. Er du sikker p√• at du vil fortsette?");
+define("NBILL_SELECT_PENDING_ORDER", "Vennligst gj√∏r et valg fra listen for √• aktivere");
 define("NBILL_PENDING_ORDER", "Ventende ordre(r)");
 define("NBILL_PENDING_TITLE", "Ventende ordre(r)");
-define("NBILL_PENDING_INTRO", "Dette er bestillinger som ble mottatt via nettsiden men der betalingen ennÂ ikke er bekreftet. Bestillinger vil kun vÊre ventende hvis bestillingsskjemaet er satt til Â vente pÂ bekreftet betaling. Hvis den installerte betalingskanalen oppdager betaling for en ventende ordre vil ordren automatisk bli opprettet. Hvis betalingen er gjort pÂ annen mÂte, eller hvis du vil aktivere en bestilling uten Â ha mottatt betaling, kan du gj¯re det ved hjelp av aktivere verkt¯ylinjeknappen.");
+define("NBILL_PENDING_INTRO", "Dette er bestillinger som ble mottatt via nettsiden men der betalingen enn√• ikke er bekreftet. Bestillinger vil kun v√¶re ventende hvis bestillingsskjemaet er satt til √• vente p√• bekreftet betaling. Hvis den installerte betalingskanalen oppdager betaling for en ventende ordre vil ordren automatisk bli opprettet. Hvis betalingen er gjort p√• annen m√•te, eller hvis du vil aktivere en bestilling uten √• ha mottatt betaling, kan du gj√∏re det ved hjelp av aktivere verkt√∏ylinjeknappen.");
 define("NBILL_PENDING_ORDER_ID", "Ordre ID");
 define("NBILL_PENDING_ORDER_FORM", "Ordreskjema");
 define("NBILL_PENDING_ORDER_DATE", "Dato");
@@ -43,5 +43,4 @@ define("NBILL_ORDERS_ACTIVATED", "Valgte ordre ble aktivert");
 @define("NBILL_PAY_FREQUENCY", "Betalingsfrekvens");
 
 //Version 1.2.0
-define("NBILL_PENDING_RESUME_LINK", "Hvis du har aktivert innbetaling av bestillinger uten Â vÊre logget inn kan f¯lgende lenke brukes til Â gjenoppta den pÂgÂende bestillingen (dvs. Â gj¯re betaling).");
-?>
+define("NBILL_PENDING_RESUME_LINK", "Hvis du har aktivert innbetaling av bestillinger uten √• v√¶re logget inn kan f√∏lgende lenke brukes til √• gjenoppta den p√•g√•ende bestillingen (dvs. √• gj√∏re betaling).");
