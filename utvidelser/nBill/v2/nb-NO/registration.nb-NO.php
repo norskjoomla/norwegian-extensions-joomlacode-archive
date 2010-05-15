@@ -1,6 +1,6 @@
 <?php
 /**
-* Language file for nBill
+* Language file for the registration (license key) page
 * @version 1
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
@@ -23,7 +23,7 @@
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
 //Configuration
-define("NBILL_REGISTRATION_TITLE", "Registration");
-define("NBILL_REG_LICENSE_KEY", "License Key");
-define("NBILL_REG_INSTR_LICENSE_KEY", "If you wish to update your license key before it expires, you can enter a new one here. WARNING! If you enter an incorrect value here, it could prevent you from using " . NBILL_BRANDING_NAME . "! Only enter a valid license key, and copy it EXACTLY. By entering a license key, you are confirming that you understand and accept the %s");
-define("NBILL_REG_EULA", "End User License Agreement");
+define("NBILL_REGISTRATION_TITLE", "Registrering");
+define("NBILL_REG_LICENSE_KEY", "Lisensnøkkel");
+define("NBILL_REG_INSTR_LICENSE_KEY", "Hvis du ønsker å oppdatere din lisensnøkkel før den utløper, kan du skrive inn et nytt her. ADVARSEL! Hvis du angir feil verdi, kan det hindre deg i å bruke " . NBILL_BRANDING_NAME . "! Bare skriv inn en gyldig lisensnøkkel, og kopiere den NØYAKTIG. Ved å skrive inn lisensnøkkelen, bekrefter du at du forstår og aksepterer %s");
+define("NBILL_REG_EULA", "Lisensbetingelser");
