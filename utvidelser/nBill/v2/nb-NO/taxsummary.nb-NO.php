@@ -1,11 +1,11 @@
 <?php
 /**
-* Language file for nBill
-* @version 1
+* Language file for the Tax Summary Report
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
-* 
+*
 * @access private
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk and the license agreement at www.nbill.co.uk/eula.html
@@ -24,18 +24,18 @@
 
 //Tax Summary Report
 define("NBILL_TAX_SUMMARY_TITLE", "Avgift oppsummeringsrapport");
-define("NBILL_TAX_SUMMARY_INTRO", "Denne rapporten viser totalt avgiftsbel¯p som har blitt fakturert for angitte periode. Noen avgiftstyper kan bare bli bokf¯rt etter at kunden har betalt for varen. Andre avgifter krever at du bokf¯rer uansett om faktura er betalt eller ikke. Bruk knappen nedenfor for Â velge hvilket av disse alternativene du vil bruke, angi perioden og klikk 'Start' for Â fÂ totalverdiene. Merk: Hvis du tar med ubetalte fakturaer, vil disse bare vÊre med hvis datoen de ble laget faller innenfor den valgte datoperioden - det er derfor mulig at totalverdiene vil vÊre lavere enn hvis du velger Â ikke inkludere ubetalte fakturaer (som vil omfatte all fakturaer under den valgte perioden, selv om fakturaer ble laget f¯r den valgte datoperiode).");
+define("NBILL_TAX_SUMMARY_INTRO", "Denne rapporten viser totalt avgiftsbel√∏p som har blitt fakturert for angitte periode. Noen avgiftstyper kan bare bli bokf√∏rt etter at kunden har betalt for varen. Andre avgifter krever at du bokf√∏rer uansett om faktura er betalt eller ikke. Bruk knappen nedenfor for √• velge hvilket av disse alternativene du vil bruke, angi perioden og klikk 'Start' for √• f√• totalverdiene. Merk: Hvis du tar med ubetalte fakturaer, vil disse bare v√¶re med hvis datoen de ble laget faller innenfor den valgte datoperioden - det er derfor mulig at totalverdiene vil v√¶re lavere enn hvis du velger √• ikke inkludere ubetalte fakturaer (som vil omfatte all fakturaer under den valgte perioden, selv om fakturaer ble laget f√∏r den valgte datoperiode).");
 define("NBILL_INCLUDE_UNPAID", "Inkluder ubetalte fakturaer?");
 define("NBILL_TAX_BREAKDOWN_INC", "Avgiftsanalyse - Inntekter");
 define("NBILL_TAX_BREAKDOWN_EXP", "Avgiftsanalyse - Utgifter");
 define("NBILL_TOTAL_TAXABLE", "Total skattbar inntekt");
 define("NBILL_TOTAL_TAXABLE_DUE", "Totalt skyldig skattbar inntekt");
-define("NBILL_INSTR_TOTAL_TAXABLE", "Dette er det totale bel¯pet mottatt hvor det skyldes avgift.");
-define("NBILL_INSTR_TOTAL_TAXABLE_DUE", "Dette er det totale fakturabel¯pet hvor det skyldes avgift.");
+define("NBILL_INSTR_TOTAL_TAXABLE", "Dette er det totale bel√∏pet mottatt hvor det skyldes avgift.");
+define("NBILL_INSTR_TOTAL_TAXABLE_DUE", "Dette er det totale fakturabel√∏pet hvor det skyldes avgift.");
 define("NBILL_TOTAL_NON_TAXABLE", "Totalt ikke avgiftspliktig inntekt");
 define("NBILL_TOTAL_NON_TAXABLE_DUE", "Totalt skyldig ikke avgiftspliktig inntekt");
-define("NBILL_INSTR_TOTAL_NON_TAXABLE", "Dette er det totale bel¯pet mottatt hvor det ikke skyldes avgifter (dette kan inkludere inntekter som ikke er knyttet til eventuelle fakturaer, f.eks. renter fra banken).");
-define("NBILL_INSTR_TOTAL_NON_TAXABLE_DUE", "Dette er det totale bel¯pet fakturert hvor det ikke skyldes avgifter (dette kan inkludere inntekter som ikke er knyttet til eventuelle fakturaer, f.eks. renter fra banken).");
+define("NBILL_INSTR_TOTAL_NON_TAXABLE", "Dette er det totale bel√∏pet mottatt hvor det ikke skyldes avgifter (dette kan inkludere inntekter som ikke er knyttet til eventuelle fakturaer, f.eks. renter fra banken).");
+define("NBILL_INSTR_TOTAL_NON_TAXABLE_DUE", "Dette er det totale bel√∏pet fakturert hvor det ikke skyldes avgifter (dette kan inkludere inntekter som ikke er knyttet til eventuelle fakturaer, f.eks. renter fra banken).");
 define("NBILL_GROSS_TOTAL", "Brutto totalt");
 define("NBILL_INSTR_GROSS_TOTAL", "Samlede inntekter inkludert avgifter");
 define("NBILL_INSTR_GROSS_TOTAL_DUE", "Samlede inntekter forfalt til betaling (inkludert avgifter)");
@@ -47,44 +47,44 @@ define("NBILL_VAT_RPT_TOTAL_NET", "Netto totalt");
 define("NBILL_INSTR_VAT_RPT_TOTAL_NET", "Netto inntekt etter avgifter");
 define("NBILL_INSTR_VAT_RPT_TOTAL_NET_DUE", "Netto skyldig inntekt etter avgift");
 define("NBILL_VAT_RPT_DISCREPANCIES", "ADVARSEL! Avvik funnet");
-define("NBILL_INSTR_VAT_RPT_DISCREPANCIES", "Fakturanumrene som er vist her synes Â vÊre manuelt endret slik at netto bel¯pet og avgifter ikke stemmer med brutto total for minst ett element pÂ fakturaen, eller summen av de enkelte fakturaene ikke stemmer totalt for fakturaene. Dette betyr at tallene over kanskje ikke er riktig. Sjekk summen for hver av verdiene (netto, avgift, transport, transportavgift og brutto) pÂ disse fakturaene og korriger dem hvis n¯dvendig. Hvis du ikke kan se noe galt med fakturaene, pr¯ver Â lagre dem pÂ nytt (dette vil f¯re til at tallene beregnes pÂ nytt). Hvis du fÂr denne meldingen etter Â ha kontrollert og lagret fakturaen(e), kan fakturaen(e) vÊre korrupt og i sÂ fall mÂ du slette dem Â opprette dem manuelt (ved Â gÂ til fakturalisten og klikke íNyí pÂ verkt¯ylinjen).");
+define("NBILL_INSTR_VAT_RPT_DISCREPANCIES", "Fakturanumrene som er vist her synes √• v√¶re manuelt endret slik at netto bel√∏pet og avgifter ikke stemmer med brutto total for minst ett element p√• fakturaen, eller summen av de enkelte fakturaene ikke stemmer totalt for fakturaene. Dette betyr at tallene over kanskje ikke er riktig. Sjekk summen for hver av verdiene (netto, avgift, transport, transportavgift og brutto) p√• disse fakturaene og korriger dem hvis n√∏dvendig. Hvis du ikke kan se noe galt med fakturaene, pr√∏ver √• lagre dem p√• nytt (dette vil f√∏re til at tallene beregnes p√• nytt). Hvis du f√•r denne meldingen etter √• ha kontrollert og lagret fakturaen(e), kan fakturaen(e) v√¶re korrupt og i s√• fall m√• du slette dem √• opprette dem manuelt (ved √• g√• til fakturalisten og klikke ‚ÄôNy‚Äô p√• verkt√∏ylinjen).");
 define("NBILL_EXCLUDED_INCOME_TITLE", "Inntekt");
 define("NBILL_EXCLUDED_EXPENDITURE_TITLE", "Utgift");
 define("NBILL_TAX_SUMMARY_LIST_EXCLUDED", "Klikk her for en liste over elementer som har blitt utelatt fra rapporten");
 define("NBILL_TAX_SUMMARY_EXCLUDED_TITLE", "Avgiftssammendrag utelukkede elementer");
-define("NBILL_TAX_SUMMARY_EXCLUDED_INTRO", "F¯lgende inntekts-/utgiftstyper ble utelatt fra avgiftssammendraget fordi den relevante inntekts-/utgiftstypen viser at de skal ekskluderes. Du kan klikke pÂ noen av de nevnte elementer for Â redigere dem (MERK: hovedvinduet vil bli omdirigert til Â redigere inntekt eller utgiftselementet - dette vinduet vil bli der det er).");
+define("NBILL_TAX_SUMMARY_EXCLUDED_INTRO", "F√∏lgende inntekts-/utgiftstyper ble utelatt fra avgiftssammendraget fordi den relevante inntekts-/utgiftstypen viser at de skal ekskluderes. Du kan klikke p√• noen av de nevnte elementer for √• redigere dem (MERK: hovedvinduet vil bli omdirigert til √• redigere inntekt eller utgiftselementet - dette vinduet vil bli der det er).");
 define("NBILL_TAX_SUMMARY_EXCLUDED_NO_INCOME", "Ingen inntektstyper er utelatt.");
 define("NBILL_TAX_SUMMARY_EXCLUDED_NO_EXP", "Ingen utgiftstyper er utelatt.");
 define("NBILL_TAX_EXCLUDED_RCT_NO", "Kvitteringsnr.");
 define("NBILL_TAX_EXCLUDED_DATE", "Dato");
 define("NBILL_TAX_EXCLUDED_RCD_FROM", "Mottatt fra");
-define("NBILL_TAX_EXCLUDED_AMOUNT", "Bel¯p");
+define("NBILL_TAX_EXCLUDED_AMOUNT", "Bel√∏p");
 define("NBILL_TAX_EXCLUDED_NBILL_NO", "Fakturanr.");
-define("NBILL_TAX_EXCLUDED_RCT_UNNUMBERED", "Venter pÂ kvitteringsnr.");
+define("NBILL_TAX_EXCLUDED_RCT_UNNUMBERED", "Venter p√• kvitteringsnr.");
 define("NBILL_TAX_EXCLUDED_EDIT_INC", "Rediger inntekt");
 define("NBILL_TAX_EXCLUDED_NO_INV", "Ingen fakturanummer");
 define("NBILL_TAX_EXCLUDED_PYT_NO", "Betalingsnr.");
 define("NBILL_TAX_EXCLUDED_PAID_TO", "Betalt til");
 define("NBILL_TAX_EXCLUDED_PYT_FOR", "For");
-define("NBILL_TAX_EXCLUDED_PYT_UNNUMBERED", "Venter pÂ betalingsnr.");
+define("NBILL_TAX_EXCLUDED_PYT_UNNUMBERED", "Venter p√• betalingsnr.");
 define("NBILL_TAX_EXCLUDED_EDIT_EXP", "Rediger utgift");
 define("NBILL_TAX_EXCLUDED_WO_NAME", "Faktura navn");
 define("NBILL_TAX_EXCLUDED_WO_TOTAL", "Brutto totalt");
-define("NBILL_TAX_EXCLUDED_WO_PREVIEW", "ForhÂndsvisning");
+define("NBILL_TAX_EXCLUDED_WO_PREVIEW", "Forh√•ndsvisning");
 define("NBILL_WRITE_OFFS_TITLE", "Avskrevene fakturaer");
 define("NBILL_TAX_SUMMARY_EXCLUDED_NO_WO", "Ingen avskrevne fakturaer ble utelatt.");
 define("NBILL_TOTAL_TAXABLE_PAID", "Total avgiftspliktige utgifter");
-define("NBILL_INSTR_TOTAL_TAXABLE_PAID", "Dette er det samlede nettobel¯p utbetalt, hvor avgift var skyldig.");
+define("NBILL_INSTR_TOTAL_TAXABLE_PAID", "Dette er det samlede nettobel√∏p utbetalt, hvor avgift var skyldig.");
 define("NBILL_TOTAL_NON_TAXABLE_PAID", "Totalt utgifter ikke avgiftspliktig");
-define("NBILL_INSTR_TOTAL_NON_TAXABLE_PAID", "Dette er det totale bel¯pet betalt ut hvor ingen avgifter var skyldig.");
+define("NBILL_INSTR_TOTAL_NON_TAXABLE_PAID", "Dette er det totale bel√∏pet betalt ut hvor ingen avgifter var skyldig.");
 define("NBILL_INSTR_GROSS_TOTAL_PAID", "Totale utgifter inkludert avgifter.");
 define("NBILL_INSTR_VAT_RPT_TOTAL_TAX_PAID", "Totalt avgifter betalt");
 define("NBILL_INSTR_VAT_RPT_TOTAL_NET_PAID", "Netto utgifter");
 define("NBILL_TAX_BREAKDOWN_WO", "Avgiftsanalyse - avskrevne fakturaer");
 define("NBILL_TOTAL_TAXABLE_DUE_WO", "Totalt avgiftspliktig inntekter avskrevet");
-define("NBILL_INSTR_TOTAL_TAXABLE_DUE_WO", "Dette er det totale bel¯pet fakturert for, men avskrevet, hvor avgifter er forfalt.");
+define("NBILL_INSTR_TOTAL_TAXABLE_DUE_WO", "Dette er det totale bel√∏pet fakturert for, men avskrevet, hvor avgifter er forfalt.");
 define("NBILL_TOTAL_NON_TAXABLE_DUE_WO", "Totalt ikke avgiftspliktig inntekt avskrevet");
-define("NBILL_INSTR_TOTAL_NON_TAXABLE_DUE_WO", "Dette er det totale bel¯pet fakturert for, men avskrevet, hvor avgifter ikke er forfalt.");
+define("NBILL_INSTR_TOTAL_NON_TAXABLE_DUE_WO", "Dette er det totale bel√∏pet fakturert for, men avskrevet, hvor avgifter ikke er forfalt.");
 define("NBILL_GROSS_TOTAL_WO", "Brutto totalt");
 define("NBILL_INSTR_GROSS_TOTAL_DUE_WO", "Totale inntekter avskrevet, inkludert avgifter.");
 define("NBILL_VAT_RPT_TOTAL_TAX_WO", "Totalt");
@@ -93,7 +93,7 @@ define("NBILL_INSTR_VAT_RPT_TOTAL_TAX_DUE_WO", "Totale avgifter avskrevet");
 define("NBILL_VAT_RPT_TOTAL_NET_WO", "Netto totalt");
 define("NBILL_INSTR_VAT_RPT_TOTAL_NET_DUE_WO", "Netto verdi avskrevet etter avgifter");
 define("NBILL_VAT_RPT_DISCREPANCIES_WO", "ADVARSEL! Avvik funnet");
-define("NBILL_INSTR_VAT_RPT_DISCREPANCIES_WO", "Fakturanumrene som er vist her synes Â vÊre manuelt endret slik at netto bel¯pet og avgifter ikke stemmer med brutto total for minst ett element pÂ fakturaen, eller summen av de enkelte fakturaene ikke stemmer totalt for fakturaene. Dette betyr at tallene over kanskje ikke er riktig. Sjekk summen for hver av verdiene (netto, avgift, transport, transportavgift og brutto) pÂ disse fakturaene og rette dem hvis n¯dvendig. Hvis du ikke kan se noe galt med fakturaene, pr¯ver Â lagre dem pÂ nytt (dette vil f¯re til at tallene beregnes pÂ nytt). Hvis du fÂr denne meldingen etter Â ha kontrollert og lagret fakturaen (e), kan fakturaen (e) vÊre korrupt og i sÂ fall mÂ du slette dem Â opprette dem manuelt (ved Â gÂ til fakturalisten og klikke íNyí pÂ verkt¯ylinjen).");
+define("NBILL_INSTR_VAT_RPT_DISCREPANCIES_WO", "Fakturanumrene som er vist her synes √• v√¶re manuelt endret slik at netto bel√∏pet og avgifter ikke stemmer med brutto total for minst ett element p√• fakturaen, eller summen av de enkelte fakturaene ikke stemmer totalt for fakturaene. Dette betyr at tallene over kanskje ikke er riktig. Sjekk summen for hver av verdiene (netto, avgift, transport, transportavgift og brutto) p√• disse fakturaene og rette dem hvis n√∏dvendig. Hvis du ikke kan se noe galt med fakturaene, pr√∏ver √• lagre dem p√• nytt (dette vil f√∏re til at tallene beregnes p√• nytt). Hvis du f√•r denne meldingen etter √• ha kontrollert og lagret fakturaen (e), kan fakturaen (e) v√¶re korrupt og i s√• fall m√• du slette dem √• opprette dem manuelt (ved √• g√• til fakturalisten og klikke ‚ÄôNy‚Äô p√• verkt√∏ylinjen).");
 define("NBILL_TAX_SUMMARY", "SUMMARY (Bare relevant for avgifter)");
 define("GROSS_PROFIT_LOSS", "Brutto fortjeneste (eller tap)");
 define("TAX_PAYABLE_REBATE_DUE", "Total betalbar avgift (eller rabatt skyldig)");
@@ -101,4 +101,27 @@ define("NET_PROFIT_LOSS", "Netto fortjeneste (eller tap)");
 
 //Version 1.2.1
 define("NBILL_TAX_SUMMARY_DETAILED", "Vis detaljert struktur? (Kan ta tid!)");
-?>
+
+//Version 2.0.0
+define("NBILL_TAX_SUMMARY_UNNUMBERED_RCT", "Avventer kvitteringsnr..");
+define("NBILL_TAX_SUMMARY_UNNUMBERED_PYT", "Avventer betalingsnr.");
+define("NBILL_BREAKDOWN_TYPE_1", "Inntekt");
+define("NBILL_BREAKDOWN_TYPE_2", "Faktura");
+define("NBILL_BREAKDOWN_TYPE_3", "Utgifter");
+define("NBILL_BREAKDOWN_TYPE_4", "Kreditnota");
+define("NBILL_BREAKDOWN_TYPE", "Type");
+define("NBILL_BREAKDOWN_DATE", "Dato");
+define("NBILL_BREAKDOWN_REF", "Ref.");
+define("NBILL_BREAKDOWN_DESC", "Beskrivelse");
+define("NBILL_BREAKDOWN_NET", "Nettobel√∏p");
+define("NBILL_BREAKDOWN_TAX", "Skattebel√∏p");
+define("NBILL_BREAKDOWN_TAX_REF", "Skattereferanse");
+define("NBILL_BREAKDOWN_COUNTRY", "Land");
+define("NBILL_BREAKDOWN_UNKNOWN", "Ukjent");
+define("NBILL_BREAKDOWN_EXP_COLL", "Utvid/Skjul");
+define("NBILL_BREAKDOWN_TOTAL_COUNT", "%s element");
+define("NBILL_TAX_SUMMARY_PF_EXPANDED", "Utskriftsvennlig (Utvidet)");
+define("NBILL_TAX_SUMMARY_PF_COLLAPSED", "Utskriftsvennlig (Minimert)");
+define("NBILL_INSTR_VAT_RPT_DISCREPANCIES_CR", "Kreditnotanumrene som er vist her synes √• v√¶re manuelt endret slik at netto bel√∏pet og avgifter ikke stemmer med brutto total for minst ett element p√• kredittnotaen, eller summen av de enkelte kredittnotaene ikke stemmer med totalen for kredittnotaene. Dette betyr at tallene over kanskje ikke er riktig. Sjekk summen for hver av verdiene (netto, avgift, forsendelse, transportavgift og brutto) p√• disse kredittnotaene og rette dem hvis n√∏dvendig. Hvis du ikke kan se noe galt med kredittnotaene, pr√∏ver √• lagre dem p√• nytt (dette vil f√∏re til at tallene beregnes p√• nytt). Hvis du f√•r denne meldingen etter √• ha kontrollert og lagret kredittnotaene, kan kredittnotaene v√¶re korrupt og i s√• fall m√• du slette dem √• opprette dem manuelt (ved √• g√• til kredittnotalisten og klikke ‚ÄôNy‚Äô p√• verkt√∏ylinjen).");
+define("NBILL_TAX_EXCLUDED_INCOME_TOTAL", "Totalt ekskluderte inntekter (%s elementer)");
+define("NBILL_TAX_EXCLUDED_EXPENDITURE_TOTAL", "Totalt ekskluderte utgifter (%s elementer)");

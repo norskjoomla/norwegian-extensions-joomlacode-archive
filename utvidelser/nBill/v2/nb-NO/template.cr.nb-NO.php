@@ -23,7 +23,7 @@
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
 //Credit note Template
-define("NBILL_PRT_CREDIT_TITLE", "CREDIT NOTE");
-define("NBILL_PRT_CREDIT_NO", "Credit Note No:");
-define("NBILL_PRT_AMOUNT_REFUNDED", "Amount Refunded:");
-define("NBILL_PAYMENT_MADE", "Payment of this credit note has been processed.");
+define("NBILL_PRT_CREDIT_TITLE", "KREDITNOTA");
+define("NBILL_PRT_CREDIT_NO", "Kreditnota nr.:");
+define("NBILL_PRT_AMOUNT_REFUNDED", "Beløp refunderte:");
+define("NBILL_PAYMENT_MADE", "Betaling av denne kredittnotaen er behandlet.");

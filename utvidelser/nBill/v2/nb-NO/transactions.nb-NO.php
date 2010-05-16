@@ -1,11 +1,11 @@
 <?php
 /**
-* Language file for nBill
-* @version 1
+* Language file for the Transaction Report
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
-* 
+*
 * @access private
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk and the license agreement at www.nbill.co.uk/eula.html
@@ -37,9 +37,14 @@ define("NBILL_TR_CREDIT_NOTE", "Kredittnota");
 define("NBILL_TR_LEDGER", "Hovedbok");
 define("NBILL_TR_NET_AMOUNT", "Netto");
 define("NBILL_TR_TAX", "Avgift");
-define("NBILL_TR_TOTAL", "Totalt");
+define("NBILL_TR_TOTAL", "Totalt (%s transaksjoner)");
 define("NBILL_TR_BALANCE", "Balanse");
-define("NBILL_TR_AWAITING_RCT_NO", "Venter på kvitteringsnummer.");
-define("NBILL_TR_AWAITING_PYT_NO", "Venter på betalingsnummer.");
+define("NBILL_TR_AWAITING_RCT_NO", "Venter pÃ¥ kvitteringsnummer.");
+define("NBILL_TR_AWAITING_PYT_NO", "Venter pÃ¥ betalingsnummer.");
 define("NBILL_TR_CLIENT_REFUND", "Kundens refusjon");
-?>
+
+//Version 2.0.0
+define("NBILL_TR_NET_INCOME", "Netto inn");
+define("NBILL_TR_TAX_INCOME", "Skatt inn");
+define("NBILL_TR_NET_EXPENDITURE", "Netto ut");
+define("NBILL_TR_TAX_EXPENDITURE", "Skatt ut");
