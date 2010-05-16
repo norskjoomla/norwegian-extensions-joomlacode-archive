@@ -1,11 +1,11 @@
 <?php
 /**
-* Language file for nBill
-* @version 1
+* Language file for Vendors
+* @version 2
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
 * @license http://www.nbill.co.uk/eula.html
-* 
+*
 * @access private
 * PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
 * For more information, see www.nbill.co.uk and the license agreement at www.nbill.co.uk/eula.html
@@ -23,110 +23,145 @@
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
 //Vendors
-define("NBILL_VENDOR_INTRO", "Typisk, du vil bare ha dine egne firmadetaljer listet her. Dersom du har mer enn et firma, eller en tilbyder for flere firmaer, kan du legge til ytter¯igere firmadetaljer. Alle fakturaer, inkludert oppf¯ringer, blir lagret separat for hver leverand¯r.");
-define("NBILL_VENDOR_DETAILS", "Leverand¯r detaljer");
-define("NBILL_NEW_VENDOR", "Ny leverand¯r");
-define("NBILL_EDIT_VENDOR", "Rediger leverand¯r detaljer");
-define("NBILL_VENDORS_TITLE", "Leverand¯rer");
-define("NBILL_VENDOR_COUNTRY", "Leverand¯r land");
-define("NBILL_VENDOR_CURRENCY", "Leverand¯r valuta");
-define("NBILL_VENDOR_OTHER_CURRENCIES", "Andre tillatte valutaer");
+define("NBILL_VENDOR_INTRO", "Typisk, du vil bare ha dine egne firmadetaljer listet her. Dersom du har mer enn et firma, eller en tilbyder for flere firmaer, kan du legge til ytterligere firmadetaljer. Alle fakturaer, inkludert oppf√∏ringer, blir lagret separat for hver leverand√∏r.");
+define("NBILL_VENDOR_DETAILS", "Leverand√∏rdetaljer");
+define("NBILL_NEW_VENDOR", "Ny leverand√∏r");
+define("NBILL_EDIT_VENDOR", "Rediger leverand√∏rdetaljer");
+define("NBILL_VENDORS_TITLE", "Leverand√∏rer");
+define("NBILL_VENDOR_COUNTRY", "Leverand√∏r land");
+define("NBILL_VENDOR_CURRENCY", "Leverand√∏r valuta");
 define("NBILL_NEXT_NBILL_NO", "Neste fakturanummer");
 define("NBILL_NEXT_ORDER_NO", "Neste ordrenummer");
 define("NBILL_NEXT_RECEIPT_NO", "Neste kvitteringsnummer");
 define("NBILL_NEXT_PAYMENT_NO", "Neste betalingsnummer");
 define("NBILL_NEXT_CREDIT_NO", "Neste kredittnotanummer");
+define("NBILL_NEXT_QUOTE_NO", "Neste tilbudsnummer");
 define("NBILL_DEFAULT_PAYMENT_INSTR", "Standard betalingsbetingelser");
 define("NBILL_DEFAULT_SMALL_PRINT", "Standard liten utskrift");
 define("NBILL_ADMIN_EMAIL", "Administrator e-post");
-define("NBILL_PAPER_SIZE", "Papirst¯rrelse");
-define("NBILL_CLIENT_ORDERING", "Tillat klienter Â plassere ordrer?");
-define("NBILL_PUBLIC_ORDERING", "Tillat offentlige Â plassere ordrer?");
+define("NBILL_PAPER_SIZE", "Papirst√∏rrelse");
+define("NBILL_CLIENT_ORDERING", "Tillat klienter √• plassere ordrer?");
+define("NBILL_PUBLIC_ORDERING", "Tillat offentlige √• plassere ordrer?");
 define("NBILL_SHOW_EMPTY_CATS", "Vis tomme kategorier?");
-define("NBILL_INSTR_VENDOR_NAME", "Skriv inn navnet som du ¯nsker pÂ fakturaer.");
-define("NBILL_INSTR_VENDOR_ADDRESS", "Skriv inn adressen som du ¯nsker pÂ fakturaer.");
-define("NBILL_INSTR_VENDOR_COUNTRY", "Dette vil kun vises pÂ automatisk genererte fakturarer nÂr fakturadresse er i et annet land.");
-define("NBILL_INSTR_VENDOR_CURRENCY", "Velg valuta for denne leverand¯ren.");
-define("NBILL_INSTR_VENDOR_OTHER_CURRENCIES", "Spesifiser annen valuta som kunder av denne leverand¯ren kan bestille og bli fakturert i (press Ctrl for flere valg, eller for Â ta bort allerede markerte valg).");
-define("NBILL_INSTR_NEXT_INVOICE_NO", "Legg inn neste fakturanummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter mÂ vÊre numerisk, da denne ¯kes automatisk).");
-define("NBILL_INSTR_NEXT_ORDER_NO", "Legg inn neste ordrenummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter mÂ vÊre numerisk, da denne ¯kes automatisk).");
-define("NBILL_INSTR_NEXT_RECEIPT_NO", "Legg inn neste kvitteringsnummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter mÂ vÊre numerisk, da denne ¯kes automatisk).");
-define("NBILL_INSTR_NEXT_PAYMENT_NO", "Legg inn neste betalingsnummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter mÂ vÊre numerisk, da denne ¯kes automatisk).");
-define("NBILL_INSTR_NEXT_CREDIT_NO", "Legg inn neste kredittnotanummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter mÂ vÊre numerisk, da denne ¯kes automatisk).");
-define("NBILL_INSTR_DEFAULT_PAYMENT_INSTR", "Legg inn standard betalingsbetingelser som skal vises pÂ fakturaer (dette kan endres for forskjellige land pÂ skattesiden)");
-define("NBILL_INSTR_DEFAULT_SMALL_PRINT", "Legg inn standard liten utskrift som skal vises pÂ fakturane (dette kan endres for forskjellige land pÂ skattesiden)");
+define("NBILL_INSTR_VENDOR_NAME", "Skriv inn navnet som du √∏nsker p√• fakturaer.");
+define("NBILL_INSTR_VENDOR_ADDRESS", "Skriv inn adressen som du √∏nsker p√• fakturaer.");
+define("NBILL_INSTR_VENDOR_COUNTRY", "Dette vil kun vises p√• automatisk genererte fakturaer n√•r fakturadresse er i et annet land.");
+define("NBILL_INSTR_VENDOR_CURRENCY", "Velg valuta for denne leverand√∏ren.");
+define("NBILL_INSTR_NEXT_INVOICE_NO", "Legg inn neste fakturanummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter m√• v√¶re numerisk, da denne √∏kes automatisk).");
+define("NBILL_INSTR_NEXT_ORDER_NO", "Legg inn neste ordrenummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter m√• v√¶re numerisk, da denne √∏kes automatisk).");
+define("NBILL_INSTR_NEXT_RECEIPT_NO", "Legg inn neste kvitteringsnummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter m√• v√¶re numerisk, da denne √∏kes automatisk).");
+define("NBILL_INSTR_NEXT_PAYMENT_NO", "Legg inn neste betalingsnummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter m√• v√¶re numerisk, da denne √∏kes automatisk).");
+define("NBILL_INSTR_NEXT_CREDIT_NO", "Legg inn neste kredittnotanummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter m√• v√¶re numerisk, da denne √∏kes automatisk).");
+define("NBILL_INSTR_NEXT_QUOTE_NO", "Legg inn neste tilbudsnummer som skal genereres (du kan velg alpha-numeriske karakterer i starten, men siste karakter m√• v√¶re numerisk, da denne √∏kes automatisk).");
+define("NBILL_INSTR_DEFAULT_PAYMENT_INSTR", "Legg inn standard betalingsbetingelser som skal vises p√• fakturaer (dette kan endres for forskjellige land p√• skattesiden)");
+define("NBILL_INSTR_DEFAULT_SMALL_PRINT", "Legg inn standard liten utskrift som skal vises p√• fakturane (dette kan endres for forskjellige land p√• skattesiden)");
 define("NBILL_INSTR_ADMIN_EMAIL", "E-post sendt til kunder vil se ut som om de blir sendt fra denne adressen.");
 define("NBILL_INSTR_PAPER_SIZE", "Format som skal brukes ved konvertering til PDF-faktura (tillatte str. er: A4, A5, Letter og Legal)");
-define("NBILL_INSTR_CLIENT_ORDERING", "Om komponentens 'front end' skal gi innloggede brukere rett eller ikke rett til Â legge inn ordre ");
-define("NBILL_INSTR_PUBLIC_ORDERING", "Om komponentens 'front end' skal gi ikke innloggede brukere rett eller ikke rett til Â legge inn ordre ");
-define("NBILL_INSTR_SHOW_EMPTY_CATS", "Hvis brukere kan legge inn ordre i komponentens 'front end', avgj¯r dette valget om det skal vises eller ikke vises kategorier som ikke inneholder produkter eller underkategorier");
-define("NBILL_VENDOR_NAME_REQUIRED", "Du mÂ spesifisere pÂ leverand¯ren.");
-define("NBILL_VENDOR_ADDRESS_REQUIRED", "Du mÂ spesifisere leverand¯rens addresse");
-define("NBILL_VENDOR_COUNTRY_REQUIRED", "Du mÂ spesifisere hvilket land leverand¯ren er i.");
-define("NBILL_VENDOR_CURRENCY_REQUIRED", "Du mÂ spesifisere hvilken valuta leverand¯ren benytter.");
-define("NBILL_VENDOR_EMAIL_REQUIRED", "Du mÂ spesifisere leverand¯rens e-post adresse.");
-define("NBILL_ERR_CANNOT_DELETE_LAST_VENDOR", "Du kan ikke slette siste leverand¯r!");
-define("NBILL_INVOICE_NO_LOCKED", "Neste fakturanummer for leverand¯ren er i ¯yeblikket lÂst. Dette skal kun skje midlertidig mens fakturaer blir generert. Hvis fakturagenerering feiler og dette feltet fortsatt er lÂst, kan du lÂse opp ved Â trykke pÂ denne knappen:");
-define("NBILL_ORDER_NO_LOCKED", "Neste ordrenummer for leverand¯ren er i ¯yeblikket lÂst. Dette skal kun skje midlertidig mens fakturaer blir generert. Hvis fakturagenerering feiler og dette feltet fortsatt er lÂst, kan du lÂse opp ved Â trykke pÂ denne knappen:");
-define("NBILL_RECEIPT_NO_LOCKED", "Neste kvitteringsnummer for leverand¯ren er i ¯yeblikket lÂst. Dette skal kun skje midlertidig mens fakturaer blir generert. Hvis fakturagenerering feiler og dette feltet fortsatt er lÂst, kan du lÂse opp ved Â trykke pÂ denne knappen:");
-define("NBILL_PAYMENT_NO_LOCKED", "Neste betalingsnummer for leverand¯ren er i ¯yeblikket lÂst. Dette skal kun skje midlertidig mens fakturaer blir generert. Hvis fakturagenerering feiler og dette feltet fortsatt er lÂst, kan du lÂse opp ved Â trykke pÂ denne knappen:");
-define("NBILL_UNLOCK", "LÂs opp");
+define("NBILL_INSTR_CLIENT_ORDERING", "Om komponentens 'brukerside' skal gi innloggede brukere rett eller ikke rett til √• legge inn ordre ");
+define("NBILL_INSTR_PUBLIC_ORDERING", "Om komponentens 'brukerside' skal gi ikke innloggede brukere rett eller ikke rett til √• legge inn ordre ");
+define("NBILL_INSTR_SHOW_EMPTY_CATS", "Hvis brukere kan legge inn ordre i komponentens 'front end', avgj√∏r dette valget om det skal vises eller ikke vises kategorier som ikke inneholder produkter eller underkategorier");
+define("NBILL_VENDOR_NAME_REQUIRED", "Du m√• spesifisere p√• leverand√∏ren.");
+define("NBILL_VENDOR_ADDRESS_REQUIRED", "Du m√• spesifisere leverand√∏rens adresse");
+define("NBILL_VENDOR_COUNTRY_REQUIRED", "Du m√• spesifisere hvilket land leverand√∏ren er i.");
+define("NBILL_VENDOR_CURRENCY_REQUIRED", "Du m√• spesifisere hvilken valuta leverand√∏ren benytter.");
+define("NBILL_VENDOR_EMAIL_REQUIRED", "Du m√• spesifisere leverand√∏rens e-post adresse.");
+define("NBILL_ERR_CANNOT_DELETE_LAST_VENDOR", "Du kan ikke slette siste leverand√∏r!");
+define("NBILL_INVOICE_NO_LOCKED", "Neste fakturanummer for leverand√∏ren er i √∏yeblikket l√•st. Dette skal kun skje midlertidig mens fakturaer blir generert. Hvis fakturagenerering feiler og dette feltet fortsatt er l√•st, kan du l√•se opp ved √• trykke p√• denne knappen:");
+define("NBILL_ORDER_NO_LOCKED", "Neste ordrenummer for leverand√∏ren er i √∏yeblikket l√•st. Dette skal kun skje midlertidig mens fakturaer blir generert. Hvis fakturagenerering feiler og dette feltet fortsatt er l√•st, kan du l√•se opp ved √• trykke p√• denne knappen:");
+define("NBILL_RECEIPT_NO_LOCKED", "Neste kvitteringsnummer for leverand√∏ren er i √∏yeblikket l√•st. Dette skal kun skje midlertidig mens fakturaer blir generert. Hvis fakturagenerering feiler og dette feltet fortsatt er l√•st, kan du l√•se opp ved √• trykke p√• denne knappen:");
+define("NBILL_PAYMENT_NO_LOCKED", "Neste betalingsnummer for leverand√∏ren er i √∏yeblikket l√•st. Dette skal kun skje midlertidig mens fakturaer blir generert. Hvis fakturagenerering feiler og dette feltet fortsatt er l√•st, kan du l√•se opp ved √• trykke p√• denne knappen:");
+define("NBILL_UNLOCK", "L√•s opp");
+define("NBILL_TEMPLATES_TITLE", "Maler");
+define("NBILL_TEMPLATES_INTRO", "Du kan bruke PHP / HTML-maler for dokumenter og e-post. Dokumentmaler er lagret i mappen %s , og e-postmaler er lagret i %s.");
 define("NBILL_INVOICE_TEMPLATE", "Fakturamal");
-define("NBILL_INSTR_INVOICE_TEMPLATE", "Navn pÂ mal som skal brukes pÂ fakturaer fra denne leverand¯ren.");
-define("NBILL_INSTR_EMAIL_INVOICE_OPTIONS", "Angi standard fakturavarsel nÂr nye fakturaer er generert. Disse verdiene kan overstyres for individuelle kunder. Hvis standard er satt til Â sende en e-post til kunden (enten et varsel eller den faktiske faktureringen), gj¯r komponent-grensesnittet at klienten mÂ melde deg pÂ dette. Hvis begge standardinnstillingene mot leverand¯ren posten OG den altoverskyggende verdien holdes mot klienten posten bÂde stiller krav om at ingen e-post skal sendes, vil brukeren ikke bli gitt muligheten til Â melde seg. <strong>Merk:</strong> Hvis du sender automatisk e-post, er det sterkt anbefalt Â sikre at alle klient-postene har en tilknytting til brukerens post slik at de kan logge seg pÂ nettsiden Â angi sine innstillinger og vise sine fakturaer. <strong>Merk ogsÂ:</strong> ≈ generere PDF'er tar mye systemressurser - er det anbefalt Â unngÂ dette som standard, og bare for de klienter som virkelig ¯nsker det.");
-define("NBILL_DEFAULT_GATEWAY", "Standard betalingsmÂte");
-define("NBILL_INSTR_DEFAULT_GATEWAY", "Standard betalingsmÂte som brukes for nye ordrer, og for Â tillate betaling av fakturaer pÂ nett (hvis det er aktuelt).");
+define("NBILL_INSTR_INVOICE_TEMPLATE", "Navn p√• mal som skal brukes p√• fakturaer fra denne leverand√∏ren.");
+define("NBILL_INVOICE_EMAIL_TEMPLATE", "E-post mal faktura ");
+define("NBILL_INSTR_INVOICE_EMAIL_TEMPLATE", "Navn p√• HTML mal som brukes for √• sende e-faktura tilkunden(eventuelt - se e-faktura alternativene nedenfor).");
+define("NBILL_CREDIT_TEMPLATE", "Mal kreditnota");
+define("NBILL_INSTR_CREDIT_TEMPLATE", "Navn p√• mal som brukes for √• produsere kredit noter for denne leverand√∏ren.");
+define("NBILL_CREDIT_EMAIL_TEMPLATE", "E-post mal kreditnota");
+define("NBILL_INSTR_CREDIT_EMAIL_TEMPLATE", "Navn p√• HTML mal som brukes for e-post kreditnotaer tilkundene (hvis aktuelt).");
+define("NBILL_QUOTE_TEMPLATE", "Tilbudsmal");
+define("NBILL_INSTR_QUOTE_TEMPLATE", "Navn p√• mal som brukes for √• produsere tilbud for denne leverand√∏ren.");
+define("NBILL_QRC_EMAIL_TEMPLATE", "Mal tilbudsbekreftelse p√• e-post");
+define("NBILL_INSTR_QRC_EMAIL_TEMPLATE", "Navn p√• HTML mal som brukes for e-postbekreftelse p√• tilbudsskjemaer til kunden (hvis aktuelt).");
+define("NBILL_QUOTE_EMAIL_TEMPLATE", "E-post mal pristilbud");
+define("NBILL_INSTR_QUOTE_EMAIL_TEMPLATE", "Navn p√• HTML mal som brukes for √• sende pristilbud p√• e-post til kunden (hvis aktuelt).");
+define("NBILL_PENDING_EMAIL_TEMPLATE", "E-post mal for ventende bestillinger");
+define("NBILL_INSTR_PENDING_EMAIL_TEMPLATE", "Navn p√• HTML mal som brukes for √• sende ventede ordrebekreftelse p√• e-post til kunden (hvis aktuelt ‚Äì kan tilpasses for hvert bestillingsskjema).");
+define("NBILL_ORDER_EMAIL_TEMPLATE", "E-post mal bestillinger");
+define("NBILL_INSTR_ORDER_EMAIL_TEMPLATE", "Navn p√• HTML mal som brukes for √• sende ordrebekreftelse p√• e-post til kunden (hvis aktuelt ‚Äì kan tilpasses for hvert bestillingsskjema).");
+define("NBILL_INSTR_EMAIL_INVOICE_OPTIONS", "Angi standard fakturavarsel n√•r nye fakturaer er generert. Disse verdiene kan overstyres for individuelle kunder. Hvis standard er satt til √• sende en e-post til kunden (enten et varsel eller den faktiske faktureringen), gj√∏r komponent-grensesnittet at klienten m√• melde deg p√• dette. Hvis begge standardinnstillingene mot leverand√∏ren posten OG den altoverskyggende verdien holdes mot klienten posten b√•de stiller krav om at ingen e-post skal sendes, vil brukeren ikke bli gitt muligheten til √• melde seg. <strong>Merk:</strong> Hvis du sender automatisk e-post, er det sterkt anbefalt √• sikre at alle klient-postene har en tilknytting til brukerens post slik at de kan logge seg p√• nettsiden √• angi sine innstillinger og vise sine fakturaer. <strong>Merk ogs√•:</strong> √Ö generere PDF'er tar mye systemressurser - er det anbefalt √• unng√• dette som standard, og bare for de klienter som virkelig √∏nsker det.");
+define("NBILL_DEFAULT_GATEWAY", "Standard betalingsm√•te");
+define("NBILL_INSTR_DEFAULT_GATEWAY", "Standard betalingsm√•te som brukes for nye ordrer, og for √• tillate betaling av fakturaer p√• nett (hvis det er aktuelt).");
 define("NBILL_AUTO_CREATE_INCOME", "Autogenerer inntekt?");
-define("NBILL_INSTR_AUTO_CREATE_INCOME", "Om betalingsmÂten skal instrueres til Â automatisk opprette en inntektspost for fakturaer som er betalt pÂ nettet. MERK: Dette pÂvirker ikke bestillinger gjort pÂ et bestillingsskjema (du kan sette det pÂ det aktuelle bestillingsskjemaet), bare frittstÂende fakturaer som er betalt pÂ nett .");
+define("NBILL_INSTR_AUTO_CREATE_INCOME", "Om betalingsm√•ten skal instrueres til √• automatisk opprette en inntektspost for fakturaer som er betalt p√• nettet. MERK: Dette p√•virker ikke bestillinger gjort p√• et bestillingsskjema (du kan sette det p√• det aktuelle bestillingsskjemaet), bare frittst√•ende fakturaer som er betalt p√• nett .");
 define("NBILL_SUPPRESS_RECEIPT_NOS", "Generer kvitteringsnummer manuelt?");
-define("NBILL_INSTR_SUPPRESS_RECEIPT_NOS", "Om man skal eller ikke skal fjerne generering av kvitteringstall nÂr inntektselementer er lagt til, og tilbyr en verkt¯ylinjeknapp for Â generere kvittering for alle inntekter eks. opp til en gitt dato i stedet. Dette er slik at du kan ha alle kvitteringstall i dato rekkef¯lge, selv om du har en blanding av automatisk genererte inntekter fra elektroniske betalinger og manuelt innlagte inntekter eks. (eg. for sjekker ets. som overf¯res direkte til bankkontoen din). Ved Â sette denne til \"Ja\", vil en ekstra verkt¯ylinjeknapp vises pÂ inntektslist-siden slik at du kan fylle ut kvitteringstallene opp til en gitt dato, nÂr du er klar. ");
-define("NBILL_VENDOR_LOGO", "Leverand¯r logo");
-define("NBILL_INSTR_VENDOR_LOGO", "Last opp en .gif fil som vises pÂ leverand¯rens faktura (hvis dette st¯ttes av fakturamal). MÂ vÊre .gif og mindre enn 30 kb. OBS: Det er mulig du mÂ oppdatere nettleservinduet, etter du har lastet opp et nytt bilde, siden noen nettlesere lagrer bildet i bufferet.");
-define("NBILL_VENDOR_GIF_ONLY", "Beklager, filen som du lastet opp (%s) er ikke gyldig.  Kun GIF-filer kan brukes som leverand¯r-logo");
-define("NBILL_VENDOR_GIF_TOO_BIG", "Beklager, filen du lastet opp er for stor. Maks st¯rrelse er 30 kb");
+define("NBILL_INSTR_SUPPRESS_RECEIPT_NOS", "Hvorvidt om man skal fjerne generering av kvitteringsnummer n√•r inntektselementer er lagt til, og tilbyr en verkt√∏ylinjeknapp for √• generere kvittering for alle inntekter eks. opp til en gitt dato i stedet. Dette er slik at du kan ha alle kvitteringstall i dato rekkef√∏lge, selv om du har en blanding av automatisk genererte inntekter fra elektroniske betalinger og manuelt innlagte inntekter eks. (eg. for sjekker ets. som overf√∏res direkte til bankkontoen din). Ved √• sette denne til 'Ja', vil en ekstra verkt√∏ylinjeknapp vises p√• inntektslist-siden slik at du kan fylle ut kvitteringstallene opp til en gitt dato, n√•r du er klar. ");
+define("NBILL_VENDOR_LOGO", "Leverand√∏rlogo");
+define("NBILL_INSTR_VENDOR_LOGO", "Last opp en .png eller en .gif fil som vises p√• leverand√∏rens faktura (hvis dette st√∏ttes av fakturamalen). M√• v√¶re .png eller .gif og mindre enn 30 kb. OBS: Det er mulig du m√• oppdatere nettleservinduet, etter du har lastet opp et nytt bilde, siden noen nettlesere lagrer bildet i bufferet.");
+define("NBILL_VENDOR_GIF_ONLY", "Beklager, filen som du lastet opp (%s) er ikke gyldig.  Kun GIF eller PNG filer kan brukes som leverand√∏rlogo");
+define("NBILL_VENDOR_GIF_TOO_BIG", "Beklager, filen du lastet opp er for stor. Maks st√∏rrelse er 30 kb");
 define("NBILL_DELETE_LOGO", "Slett");
-define("NBILL_VENDOR_DELETE_LOGO_FAILED", NBILL_BRANDING_NAME . " kunne ikke slette filen. Det kan vÊre fordi PHP ikke har rettigheter til Â slette filer pÂ din server.");
+define("NBILL_VENDOR_DELETE_LOGO_FAILED", NBILL_BRANDING_NAME . " kunne ikke slette filen. Det kan v√¶re fordi PHP ikke har rettigheter til √• slette filer p√• din server.");
 define("NBILL_SUPPRESS_PAYMENT_NOS", "Generer betalingsnummer manuelt?");
-define("NBILL_INSTR_SUPPRESS_PAYMENT_NOS", "Som over, men for betalingsnummer pÂ utgiftslisten.");
-define("NBILL_ADD_REMITTANCE", "Vis remisse rÂd?");
-define("NBILL_INSTR_ADD_REMITTANCE", "Om det skal eller ikke skal legges til en remisse rÂd slip pÂ slutten av fakturaer.");
+define("NBILL_INSTR_SUPPRESS_PAYMENT_NOS", "Som over, men for betalingsnummer p√• utgiftslisten.");
+define("NBILL_ADD_REMITTANCE", "Vis remisse r√•d?");
+define("NBILL_INSTR_ADD_REMITTANCE", "Om det skal eller ikke skal legges til en remisse r√•d slip p√• slutten av fakturaer.");
 define("NBILL_CREDIT_SMALL_PRINT", "Kredittnota (liten skrift)");
-define("NBILL_INSTR_INVOICE_SMALL_PRINT_CR", "Angi eventuell juridisk ansvarsfraskrivelser etc. som du vil skal vises pÂ kredittnota.");
-define("NBILL_MASTER_DB_INTRO", "Hvis du selger produkter eller arbeid ved bruk av flere nettsider, hver og en med kopi av " . NBILL_BRANDING_NAME . ", men du ¯nsker Â ha all finansinformasjon kun pÂ en av nettsidene, kan du gj¯re dette ved Â bruke en kjede av hoveddatabaser. VIKTIG! Vennligst ikke bruk denne muligheten f¯r du har lest dokumentasjonen (tiljengelig pÂ " . NBILL_BRANDING_NAME . " nettsiden), ellers er mulighetene tilstede for at du ¯delegger dataene!");
-define("NBILL_USE_MASTER_DB", "Bruk en primÊrdatabasen?");
-define("NBILL_INSTR_USE_MASTER_DB", "Om man skal utsette generering av tallene for fakturaer, kreditnotaer, inntekter og utgifter til en primÊrdatabasen, eller ikke (en ny kopi av " . NBILL_BRANDING_NAME . ").");
-define("NBILL_MASTER_DB_HOST", "PrimÊrvert");
-define("NBILL_INSTR_MASTER_DB_HOST", "Vertsnavn pÂ primÊrdatabasen (kan vÊre 'localhost' om dette er en database pÂ samme server).");
+define("NBILL_INSTR_INVOICE_SMALL_PRINT_CR", "Angi eventuell juridisk ansvarsfraskrivelser etc. som du vil skal vises p√• kredittnota.");
+define("NBILL_QUOTE_SMALL_PRINT", "Pristilbud liten skrift");
+define("NBILL_INSTR_INVOICE_SMALL_PRINT_QU", "Skriv inn eventuelle juridiske ansvarsfraskrivelser etc. som du vil skal vises p√• pristilbudet.");
+define("NBILL_MASTER_DB_INTRO", "Hvis du selger produkter eller arbeid ved bruk av flere nettsider, hver og en med kopi av " . NBILL_BRANDING_NAME . ", men du √∏nsker √• ha all finansinformasjon kun p√• en av nettsidene, kan du gj√∏re dette ved √• bruke en kjede av hoveddatabaser. VIKTIG! Vennligst ikke bruk denne muligheten f√∏r du har lest dokumentasjonen (tiljengelig p√• " . NBILL_BRANDING_NAME . " nettsiden), ellers er mulighetene tilstede for at du √∏delegger dataene!");
+define("NBILL_USE_MASTER_DB", "Bruk en prim√¶rdatabasen?");
+define("NBILL_INSTR_USE_MASTER_DB", "Om man skal utsette generering av tallene for fakturaer, kreditnotaer, inntekter og utgifter til en prim√¶rdatabasen, eller ikke (en ny kopi av " . NBILL_BRANDING_NAME . ").");
+define("NBILL_MASTER_DB_HOST", "Prim√¶rvert");
+define("NBILL_INSTR_MASTER_DB_HOST", "Vertsnavn p√• prim√¶rdatabasen (kan v√¶re 'localhost' om dette er en database p√• samme server).");
 define("NBILL_MASTER_USERNAME", "Brukernavn");
-define("NBILL_INSTR_MASTER_USERNAME", "Brukernavn som beh¯ves for Â fÂ adgang til primÊrdatabasen.");
+define("NBILL_INSTR_MASTER_USERNAME", "Brukernavn som beh√∏ves for √• f√• adgang til prim√¶rdatabasen.");
 define("NBILL_MASTER_PASSWORD", "Passord");
-define("NBILL_INSTR_MASTER_PASSWORD", "Passord som beh¯ves for Â fÂ adgang til primÊrdatabasen.");
-define("NBILL_MASTER_DB_NAME", "Navn pÂ primÊrdatabasen");
-define("NBILL_INSTR_MASTER_DB_NAME", "Navn pÂ primÊrdatabasen.");
-define("NBILL_MASTER_TABLE_PREFIX", "Tabell prefiks for primÊrdatabasen");
-define("NBILL_INSTR_MASTER_TABLE_PREFIX", "Tabell prefiks for primÊrdatabasen (typisk 'jos_').");
-define("NBILL_MASTER_DB_CANNOT_CONNECT", "Kunne ikke koble til primÊrdatabasen.");
+define("NBILL_INSTR_MASTER_PASSWORD", "Passord som beh√∏ves for √• f√• adgang til prim√¶rdatabasen.");
+define("NBILL_MASTER_DB_NAME", "Navn p√• prim√¶rdatabasen");
+define("NBILL_INSTR_MASTER_DB_NAME", "Navn p√• prim√¶rdatabasen.");
+define("NBILL_MASTER_TABLE_PREFIX", "Tabell prefiks for prim√¶rdatabasen");
+define("NBILL_INSTR_MASTER_TABLE_PREFIX", "Tabell prefiks for prim√¶rdatabasen (typisk 'jos_').");
+define("NBILL_MASTER_DB_CANNOT_CONNECT", "Kunne ikke koble til prim√¶rdatabasen.");
 define("NBILL_MASTER_DB_TEST", "Test oppkobling");
-define("NBILL_MASTER_VENDOR", "Hovedleverand¯r");
-define("NBILL_INSTR_MASTER_VENDOR", "Korresponderende leverand¯roppf¯ring i primÊrdatabasen med synkronisering");
-define("NBILL_SYNCHRONISE", "Last opp til primÊrdatabase");
-define("NBILL_INSTR_SYNCHRONISE", "Send faktura-, kredittnota-, inntekts- og utgiftsdata fra denne databasen til primÊrdatabasen. Dette vil overskrive eksisterende data i hoveddatabasen med samme faktura-, kredittnota-, inntekts- og utgiftstall .");
-define("NBILL_SYNC_ARE_YOU_SURE", "ADVARSEL! Dette vil overskrive data pÂ primÊrdatabasen (r). Klikk 'OK' for Â laste opp data, eller 'Avbryt' for Â avbryte.");
-define("NBILL_MASTER_DB_TEST_SUCCESS", "Koblet til primÊrdatabase");
-define("NBILL_MASTER_DB_NOT_IN_USE", "Kan ikke oppdatere primÊrdatabasen - du mÂ sette 'Bruk primÊrdatabase' til 'Ja' f¯r du fors¯ker Â laste opp.");
-define("NBILL_SYNCHRONISATION_ERROR", "Det oppstod en feil mens du pr¯vde Â laste opp til primÊrdatabasen. Opplasting avbrutt! Feilmeldingen som returneres av databasen var: %s");
-define("NBILL_SYNCHRONISE_RECORD_COUNT", "%s oppf¯ring(er) lagt til, og %s oppf¯ring(er) oppdatert i primÊrdatabasen");
-define("NBILL_SYNCHRONISE_NEED_GEN", "KAN IKKE FORTSETTE! En eller flere inntekter eller utgiftsposter (enten pÂ denne databasen, eller pÂ en primÊrdatabasen) har ennÂ ikke fÂtt tildelt et nummer. Du mÂ generere betaling og/eller kvitteringstall f¯r synkronisering (generering av kvitterings- eller betalingstall pÂ denne databasen vil ogsÂ generere eventuelle utestÂende pÂ primÊrdatabasen).");
-define("NBILL_SYNC_UP_TO", "Synkroniser poster til og med (ÂÂÂÂ/mm/dd)");
+define("NBILL_MASTER_VENDOR", "Hovedleverand√∏r");
+define("NBILL_INSTR_MASTER_VENDOR", "Korresponderende leverand√∏roppf√∏ring i prim√¶rdatabasen med synkronisering");
+define("NBILL_SYNCHRONISE", "Last opp til prim√¶rdatabase");
+define("NBILL_INSTR_SYNCHRONISE", "Send faktura-, kredittnota-, inntekts- og utgiftsdata fra denne databasen til prim√¶rdatabasen. Dette vil overskrive eksisterende data i hoveddatabasen med samme faktura-, kredittnota-, inntekts- og utgiftstall .");
+define("NBILL_SYNC_ARE_YOU_SURE", "ADVARSEL! Dette vil overskrive data p√• prim√¶rdatabasen (r). Klikk 'OK' for √• laste opp data, eller 'Avbryt' for √• avbryte.");
+define("NBILL_MASTER_DB_TEST_SUCCESS", "Koblet til prim√¶rdatabase");
+define("NBILL_MASTER_DB_NOT_IN_USE", "Kan ikke oppdatere prim√¶rdatabasen - du m√• sette 'Bruk prim√¶rdatabase' til 'Ja' f√∏r du fors√∏ker √• laste opp.");
+define("NBILL_SYNCHRONISATION_ERROR", "Det oppstod en feil mens du pr√∏vde √• laste opp til prim√¶rdatabasen. Opplasting avbrutt! Feilmeldingen som returneres av databasen var: ");
+define("NBILL_SYNCHRONISE_NEED_GEN", "KAN IKKE FORTSETTE! En eller flere inntekter eller utgiftsposter (enten p√• denne databasen, eller p√• en prim√¶rdatabasen) har enn√• ikke f√•tt tildelt et nummer. Du m√• generere betaling og/eller kvitteringstall f√∏r synkronisering (generering av kvitterings- eller betalingstall p√• denne databasen vil ogs√• generere eventuelle utest√•ende p√• prim√¶rdatabasen).");
+define("NBILL_SYNC_UP_TO", "Synkroniser poster til og med (√•√•√•√•/mm/dd)");
 define("NBILL_SUPPRESS_GENERATION_BUTTONS", "Fjern genererings-knapper?");
-define("NBILL_INSTR_SUPPRESS_GENERATION_BUTTONS", "Om Â fjerne eller ikke fjerne visning av verkt¯ylinjeknappene for Â tillate generering av betalings- og kvitteringsnummer. Du b¯r bare sette dette til \"Ja\" hvis dette er en primÊrdatabase som har en underdatabase som nummergenerering b¯r utf¯res (se hoeveddatabase avsnittet nedenfor). Hvis du angir en underdatabase til Â bruke dette eksemplaret av " . NBILL_BRANDING_NAME . " som en master, vil verdien bli satt til \"Ja\" automatisk. DU GJÿR DERFOR VANLIGVIS IKKE NOE MED INNSTILLINGENE med mindre du pleide Â ha en underdatabase som peker til denne, men som ikke lenger finnes (da mÂ du endre den fra \"Ja\" til \"Nei\" ).");
-define("NBILL_ADD_PAYLINK", "Vis lenke til betaling pÂ fakturaer?");
-define("NBILL_INSTR_ADD_PAYLINK", "Om du vil legge til en kobling til ubetalte fakturaer generert for denne leverand¯ren som tillater kunden Â betale fakturaen pÂ nett.");
-define("NBILL_MASTER_DB_SECTION", "PrimÊrdatabase");
+define("NBILL_INSTR_SUPPRESS_GENERATION_BUTTONS", "Om √• fjerne eller ikke fjerne visning av verkt√∏ylinjeknappene for √• tillate generering av betalings- og kvitteringsnummer. Du b√∏r bare sette dette til 'Ja' hvis dette er en prim√¶rdatabase som har en underdatabase som nummergenerering b√∏r utf√∏res (se hoveddatabase avsnittet nedenfor). Hvis du angir en underdatabase til √• bruke dette eksemplaret av " . NBILL_BRANDING_NAME . " som en master, vil verdien bli satt til 'Ja' automatisk. DU GJ√òR DERFOR VANLIGVIS IKKE NOE MED INNSTILLINGENE med mindre du pleide √• ha en underdatabase som peker til denne, men som ikke lenger finnes (da m√• du endre den fra 'Ja' til 'Nei' ).");
+define("NBILL_ADD_PAYLINK", "Vis lenke til betaling p√• fakturaer?");
+define("NBILL_INSTR_ADD_PAYLINK", "Om du vil legge til en kobling til ubetalte fakturaer generert for denne leverand√∏ren som tillater kunden √• betale fakturaen p√• nett.");
+define("NBILL_MASTER_DB_SECTION", "Prim√¶rdatabase");
 
 //Version 1.2.1 - Note to translators:
 //Line 74 of original English language file amended (NBILL_INSTR_EMAIL_INVOICE_OPTIONS) - additional note added
 
 //Version 1.2.7
 define("NBILL_EMAIL_PDF_AVAILABILITY", " (PDF-alternativet er kun tilgjengelig om <a href=\"http://www.nbill.co.uk/html2ps.html\" target=\"_blank\">HTML2PS/PDF-skriptet</a> er lastet opp)");
-?>
+
+//Version 2.0.0 - Note to translators:
+//Lines 84 and 85 of original en-GB language file amended (.png files now supported)
+define("NBILL_VENDOR_DEFAULT", "Standard leverand√∏r");
+define("NBILL_INSTR_VENDOR_DEFAULT", "Hvis du har mer enn en leverand√∏rpost, kan noen innstillinger p√• andre poster (f. eks land) v√¶re standard til verdien til standard leverand√∏ren hvis ingen annen verdi er gitt og leverand√∏ren ikke er kjent (for eksempel p√• nye kunder). Det b√∏r alltid v√¶re en standard leverand√∏r.");
+
+//Version 2.0.1
+define("NBILL_SYNC_VENDOR", "Synkronisere data");
+define("NBILL_VENDOR_SYNC_ABORTED", "Synkronisering har blitt avbrutt. ");
+define("NBILL_VENDOR_SYNC_VENDOR_TASK_INVOICES", "Laster opp fakturaer");
+define("NBILL_VENDOR_SYNC_VENDOR_TASK_TXS", "Laster opp inntekter/utgifter");
+define("NBILL_SYNC_SUCCESS", "Synkronisering fullf√∏rt!");
+define("NBILL_SYNC_SUCCESS_RECORD_COUNT", "%s1 post(er) satt inn, og %s2 post(er) oppdatert i hoveddatabasen");
+define("NBILL_VENDOR_SYNC_RETRY", "Synkroniseringen av leverand√∏rdata ble ikke fullf√∏rt. Pr√∏ve p√• nytt fra der den stoppet, <a href=\"#\" onclick=\"%s;return false;\">Klikk her</a>.");
+define("NBILL_VENDOR_SYNC_ABORT", "Avbryt");
+define("NBILL_VENDOR_SYNC_ABORT_SURE", "Er du sikker p√• at du vil avbryte synkroniseringen av leverand√∏rer? Hoveddatabasen inneholder kanskje ikke alle data fra denne nettsiden hvis du gj√∏r det.");
+define("NBILL_VENDOR_SYNC_ABORTING", "Avbryter...");

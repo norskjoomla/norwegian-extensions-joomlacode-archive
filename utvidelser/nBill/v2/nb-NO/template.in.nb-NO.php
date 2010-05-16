@@ -1,6 +1,6 @@
 <?php
 /**
-* Language file for nBill
+* Language file for the default invoice template
 * @version 1
 * @package nBill
 * @copyright (C) 2006-2009 Netshine Software Limited
@@ -25,39 +25,18 @@
 //Invoicing Template
 define("NBILL_PRT_INVOICE_TITLE", "FAKTURA");
 define("NBILL_PRT_INVOICE_NO", "Fakturanr.:");
-define("NBILL_PRT_REFERENCE", "Referanse:");
-define("NBILL_PRT_DATE", "Fakturadato:");
-define("NBILL_PRT_CLIENT_TAX_REF", "Kundens MVA.nr.:");
-define("NBILL_PRT_DESC", "Beskrivelse");
-define("NBILL_PRT_UNIT_PRICE", "Stykkpris");
-define("NBILL_PRT_QUANTITY", "Antall");
-define("NBILL_PRT_DISCOUNT", "Rabatt");
-define("NBILL_PRT_NET_PRICE", "Netto");
-define("NBILL_PRT_VAT", "MVA");
-define("NBILL_PRT_CARRIAGE", "Frakt");
-define("NBILL_PRT_CARRIAGE_VAT", "%s pÂ frakt");
-define("NBILL_PRT_TOTAL", "Totalt");
-define("NBILL_PRT_NET_AMOUNT", "Nettobel¯p:");
 define("NBILL_PRT_AMOUNT_DUE", "Totalsum:");
 define("NBILL_PAYMENT_RECEIVED", "Vi takker for mottatt betaling");
-define("NBILL_PRT_INVOICE_TITLE_CR", "KREDITNOTA");
-define("NBILL_PRT_INVOICE_NO_CR", "Kreditnotanr.:");
-define("NBILL_PRT_AMOUNT_DUE_CR", "Refundert bel¯p:");
-define("NBILL_PAYMENT_RECEIVED_CR", "Utbetaling av denne kreditnotaen er behandlet.");
+define("NBILL_FULL_PAYMENT_RECEIVED", "Betalt i sin helhet. Takk.");
 define("NBILL_REMITTANCE_ADVICE", "Betalingsinformasjon");
-define("NBILL_REMITTANCE_INTRO", "Vennligst legg ved denne betalingsinformasjonen om du sender betaling i posten, slik at vi kan se hva betalingen din gjelder. PÂ forhÂnd takk!");
+define("NBILL_REMITTANCE_INTRO", "Vennligst legg ved denne betalingsinformasjonen om du sender betaling i posten, slik at vi kan se hva betalingen din gjelder. P√• forh√•nd takk!");
 define("NBILL_RECEIVED_FROM", "Mottatt fra");
 define("NBILL_PAYMENT_DATE", "Betalingsdato");
-define("NBILL_PAYMENT_METHOD", "BetalingsmÂte");
-define("NBILL_PAYMENT_REFERENCE", "VÂr referanse");
-define("NBILL_CHEQUE", "Sjekk");
-define("NBILL_DIRECT_DEBIT", "Direktetrekk");
-define("NBILL_STANDING_ORDER", "Ventende ordre");
-define("NBILL_BANK_TRANSFER", "Bankoverf¯ring");
-define("NBILL_CREDIT_CARD", "Kreditt-/Debetkort");
-define("NBILL_ONLINE_AGENCY", "Online");
-define("NBILL_CASH", "Kontant");
-define("NBILL_OTHER", "Annet");
-define("NBILL_IF_NO_SCHEDULE", "Om du ¯nsker Â betale denne pÂ en annen mÂte kan du");
-define("NBILL_PAY_THIS_INVOICE", "klikke her for Â betale pÂ nett");
-?>
+define("NBILL_PAYMENT_METHOD", "Betalingsm√•te");
+define("NBILL_PAYMENT_AMOUNT" , "Bel√∏p betalt");
+define("NBILL_PAYMENT_REFERENCE", "V√•r referanse");
+define("NBILL_TOTAL_PAID", "Totalt bel√∏pet betalt");
+define("NBILL_TOTAL_DUE", "Utest√•ende bel√∏p:");
+define("NBILL_REFERENCE_UNKNOWN", "Enn√• ikke tilordnet");
+define("NBILL_IF_NO_SCHEDULE", "Om du √∏nsker √• betale denne p√• en annen m√•te kan du");
+define("NBILL_PAY_THIS_INVOICE", "klikk her for √• betale denne fakturaen");

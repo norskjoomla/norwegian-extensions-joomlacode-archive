@@ -23,16 +23,16 @@
 (defined('_VALID_MOS') || defined('_JEXEC') || defined('NBILL_VALID_NBF')) or die('Access Denied.');
 
 //Language constants common to all/most types of document template
-define("NBILL_PRT_REFERENCE", "Reference:");
-define("NBILL_PRT_DATE", "Date:");
-define("NBILL_PRT_CLIENT_TAX_REF", "Client Tax Reference:");
-define("NBILL_PRT_DESC", "Description");
-define("NBILL_PRT_UNIT_PRICE", "Unit Price");
-define("NBILL_PRT_QUANTITY", "Quantity");
-define("NBILL_PRT_DISCOUNT", "Discount");
-define("NBILL_PRT_NET_PRICE", "Net Price");
-define("NBILL_PRT_VAT", "VAT");
-define("NBILL_PRT_SHIPPING", "Shipping");
-define("NBILL_PRT_SHIPPING_VAT", "%s on Shipping");
-define("NBILL_PRT_TOTAL", "Total");
-define("NBILL_PRT_NET_AMOUNT", "Net Amount:");
+define("NBILL_PRT_REFERENCE", "Referanse:");
+define("NBILL_PRT_DATE", "Dato:");
+define("NBILL_PRT_CLIENT_TAX_REF", "Kundens skattereferanse:");
+define("NBILL_PRT_DESC", "Beskrivelse");
+define("NBILL_PRT_UNIT_PRICE", "Pris pr enhet");
+define("NBILL_PRT_QUANTITY", "Antall");
+define("NBILL_PRT_DISCOUNT", "Rabatt");
+define("NBILL_PRT_NET_PRICE", "Netto pris");
+define("NBILL_PRT_VAT", "MVA");
+define("NBILL_PRT_SHIPPING", "Forsendelse");
+define("NBILL_PRT_SHIPPING_VAT", "%s på forsendelse");
+define("NBILL_PRT_TOTAL", "Totalt");
+define("NBILL_PRT_NET_AMOUNT", "Nettobeløp:");
