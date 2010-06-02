@@ -1,0 +1,97 @@
+#nbill_extension_installer_1.0
+
+# The following directive tells the installer whether or not to convert the files in this extension to UTF-8.
+# If your files are encoded as ISO-8559-1 (this is usually the default for text editors, so they probably are),
+# some CMSs (eg. Joomla 1.5, Mambo 4.6) will require them to be converted to UTF-8. Other CMSs may prefer them 
+# to be kept as ISO-8559-1, or the user might be able to choose. If the files are NOT encoded using ISO-8559-1, 
+# you must set this option to C (Don't Convert), as the conversion process will not work with any other encoding.
+# In most cases though, it is necessary to set this option to A.
+# 
+# Valid values for this directive are: 
+# A = Convert if required by CMS
+# B = Convert always
+# C = Don't Convert
+Convert_ISO-8859-1_to_UTF-8=C
+
+#Minimum version of nBill on which this extension installation will work
+nbill_version=2.0.6
+
+#If a service pack is required for the above version in order for this installation to work, specify it here
+nbill_sp=0
+
+type=language
+
+#This must match the name of the language pack in the CMS
+name=nb-NO
+
+#The title is used as the default human-readable display value (although the user can change it):
+title=Norsk bokmål
+
+author=Netshine Software Limited and Joomla! i Norge
+
+date=May 2009
+
+copyright=(C) 2008 - 2009 Netshine Software Limited. All rights reserved. Translation by Joomla! i Norge
+
+license=See www.nbill.co.uk/eula.html
+
+author_email=oversettelser@joomlainorge.no
+
+author_url=www.nbill.co.uk
+
+version=2.0.6
+
+description=Norsk bokmål-oversettelse for nBill - Norwegian bokmal language pack for nBill.
+
+admin_file=nb-NO/ajax.nb-NO.php
+admin_file=nb-NO/anomaly.nb-NO.php
+admin_file=nb-NO/backup.nb-NO.php
+admin_file=nb-NO/categories.nb-NO.php
+admin_file=nb-NO/clients.nb-NO.php
+admin_file=nb-NO/configuration.nb-NO.php
+admin_file=nb-NO/contacts.nb-NO.php
+admin_file=nb-NO/core.profile_fields.nb-NO.php
+admin_file=nb-NO/credits.nb-NO.php
+admin_file=nb-NO/currency.nb-NO.php
+admin_file=nb-NO/discounts.nb-NO.php
+admin_file=nb-NO/display.nb-NO.php
+admin_file=nb-NO/email.nb-NO.php
+admin_file=nb-NO/email_log.nb-NO.php
+admin_file=nb-NO/expenditure.nb-NO.php
+admin_file=nb-NO/extensions.nb-NO.php
+admin_file=nb-NO/favourites.nb-NO.php
+admin_file=nb-NO/form.editor.nb-NO.php
+admin_file=nb-NO/frontend.nb-NO.php
+admin_file=nb-NO/gateway.nb-NO.php
+admin_file=nb-NO/income.nb-NO.php
+admin_file=nb-NO/index.html
+admin_file=nb-NO/invoices.nb-NO.php
+admin_file=nb-NO/io.nb-NO.php
+admin_file=nb-NO/ledger.nb-NO.php
+admin_file=nb-NO/ledger_report.nb-NO.php
+admin_file=nb-NO/main.nb-NO.php
+admin_file=nb-NO/nbill.nb-NO.php
+admin_file=nb-NO/orderforms.nb-NO.php
+admin_file=nb-NO/orders.nb-NO.php
+admin_file=nb-NO/payment_plans.nb-NO.php
+admin_file=nb-NO/pending.nb-NO.php
+admin_file=nb-NO/potential_clients.nb-NO.php
+admin_file=nb-NO/products.nb-NO.php
+admin_file=nb-NO/profile_fields.nb-NO.php
+admin_file=nb-NO/quote_request.nb-NO.php
+admin_file=nb-NO/quotes.nb-NO.php
+admin_file=nb-NO/registration.nb-NO.php
+admin_file=nb-NO/reminders.nb-NO.php
+admin_file=nb-NO/shipping.nb-NO.php
+admin_file=nb-NO/snapshot.nb-NO.php
+admin_file=nb-NO/suppliers.nb-NO.php
+admin_file=nb-NO/taxsummary.nb-NO.php
+admin_file=nb-NO/template.common.nb-NO.php
+admin_file=nb-NO/template.cr.nb-NO.php
+admin_file=nb-NO/template.in.nb-NO.php
+admin_file=nb-NO/template.qu.nb-NO.php
+admin_file=nb-NO/transactions.nb-NO.php
+admin_file=nb-NO/tx_search.nb-NO.php
+admin_file=nb-NO/vat.nb-NO.php
+admin_file=nb-NO/vendors.nb-NO.php
+admin_file=nb-NO/xref.nb-NO.php
