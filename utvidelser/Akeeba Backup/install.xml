@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Id: install.xml 525 2009-01-30 10:47:09Z Roar $ -->
 <install version="1.5" client="both" type="language" method="upgrade">
-	<name>Norwegian bokmåll (Norway)</name>
+	<name>Norwegian bokmål (Norway)</name>
 	<tag>nb-NO</tag>
-	<version>3.0.rc1</version>
-	<creationdate>21-05-2010</creationdate>
+	<version>3.0</version>
+	<creationdate>12-06-2010</creationdate>
 	<author>Joomla! i Norge</author>
 	<authoremail>oversettelser@joomlainorge.no</authoremail>
 	<authorurl>www.joomlainorge.no</authorurl>
