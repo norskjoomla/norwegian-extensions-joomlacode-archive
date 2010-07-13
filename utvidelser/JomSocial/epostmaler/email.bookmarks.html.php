@@ -12,18 +12,18 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi there,
+Hei,
 
-A user would like to share a link with you.
+En bruker vil dele en lenke med deg.
 
-You can view the link at:
+Du kan se lenken her:
 <a href="<?php echo $uri; ?>"><?php echo $uri; ?></a>
 
 <?php
 if( !empty($message) )
 {
 ?>
-Message:
+Melding:
 ===============================================================================
 
 <?php echo $message; ?>
