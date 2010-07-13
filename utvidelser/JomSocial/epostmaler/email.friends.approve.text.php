@@ -7,7 +7,7 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
 {actor} godtok deg som venn. Dere er nå listet som venner.
 
