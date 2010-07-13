@@ -12,10 +12,10 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
-{actor} has recently created a new group <?php echo $groupName;?>. You will need to moderate the group because group moderations are currently enabled.
+{actor} har nylig opprettet en ny gruppe <?php echo $groupName;?>. Du vil måtte godkjenne eller avvise gruppen ettersom moderering av grupper er aktivert.
 
-To access the administration area, you may access it at <a href="{url}">{url}</a>
+Du finner administrasjonen her <a href="{url}">{url}</a>
 
-Have a nice day!
+Ha en fin dag!
