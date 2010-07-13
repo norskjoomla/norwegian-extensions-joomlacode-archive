@@ -12,6 +12,6 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
 <?php echo JText::sprintf( 'CC EVENT INVITATION APPROVED EMAIL' , $eventTitle , $url ); ?>
