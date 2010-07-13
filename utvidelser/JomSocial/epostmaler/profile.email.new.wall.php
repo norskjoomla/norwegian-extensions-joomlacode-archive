@@ -1,16 +1,16 @@
-Hi {target},
+Hei {target},
 
-<?php echo $user->getDisplayName(); ?> just posted a wall message. 
+<?php echo $user->getDisplayName(); ?> postet en veggmelding. 
 
-Message:
+Melding:
 
 <?php echo $message; ?>
 
-You can read the message at:
+Du kan lese meldingen her:
 
 
 <?php echo $url; ?>
 
 
-Have a nice day!
+Ha en fin dag!
 
