@@ -9,19 +9,19 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 ?>
-Hi {target},
+Hei {target},
 
-{actor} just posted a comment in your wall post. 
+{actor} postet akkurat en kommentar på din veggmelding. 
 
-Message:
+Melding:
 
 <?php echo $message; ?>
 
-You can read the message at:
+Du kan lese meldingen her:
 
 
 <a href="{url}">{url}</a>
 
 
-Have a nice day!
+Ha en fin dag!
 

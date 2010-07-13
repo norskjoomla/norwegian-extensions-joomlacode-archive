@@ -7,10 +7,10 @@
  */
 defined('_JEXEC') or die();
 ?>
-Title: <?php echo $title; ?>
+Tittel: <?php echo $title; ?>
 
 
-Message:
+Melding:
 <?php echo $message; ?>
 
-You may view the event at {url}
+Du kan se mer informasjon om arrangementet her <a href="{url}">{url}</a>
