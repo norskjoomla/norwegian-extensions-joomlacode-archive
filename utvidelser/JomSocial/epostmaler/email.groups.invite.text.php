@@ -7,18 +7,18 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
-{actor} invited you to join a group (<?php echo $groupname;?>). Below is a message that is sent by {actor},
+{actor} inviterer deg til å delta i gruppen (<?php echo $groupname;?>). Nedenfor er meldingen fra {actor},
 
-Message:
+Melding:
 
 <?php echo $message; ?>
 
-To view the group, access the URL at the following location:
+Du kan besøke gruppen her:
 
 <a href="{url}">{url}</a>
 
 
-Have a nice day!
+Ha en fin dag!
 
