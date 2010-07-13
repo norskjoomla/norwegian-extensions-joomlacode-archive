@@ -1,15 +1,14 @@
-Hi {target},
+Hei {target},
 
-{actor} invited you to join an event (<?php echo $eventTitle;?>). Below is a message that is sent by {actor},
+{actor} inviterte deg til å delta på et arrangement (<?php echo $eventTitle;?>). Nedenfor er en melding sendt av {actor},
 
-Message:
+Melding:
 
 <?php echo $message; ?>
 
-To view the event, access the URL at the following location:
+Du kan se mer informasjon om arrangementet her:
 
-<?php echo $url; ?>
+<a href="<?php echo $url; ?>"><?php echo $url; ?></a>
 
 
-Have a nice day!
-
+Ha en fin dag!
