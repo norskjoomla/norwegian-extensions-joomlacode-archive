@@ -9,9 +9,9 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 ?>
-Hi {target},
+Hei {target},
 
-{actor} added you as friend. You still need to approve this request.
+{actor} la deg til som venn, men du må selv velge om du vil akseptere vedkommendes forespørsel.
 
 <?php 
 	if(!empty($msg))
@@ -20,9 +20,9 @@ Hi {target},
 	}
 ?>
 
-To add {actor} as your friend, just go to your friends request page below:
+Om du vil legge til {actor} som din venn går du bare til følgende side:
 
 {url}
 
 
-Have a nice day!
+Ha en fin dag!
