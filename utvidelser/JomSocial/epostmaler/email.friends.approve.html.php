@@ -12,13 +12,13 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
-{actor} just approved your friend request. You are now friends with {actor}.
+{actor} godtok deg som venn. Dere er nå listet som venner.
 
-You can view {actor}'s profile here:
+Du kan se profilen til {actor} her:
 
 <a href="{url}">{url}</a>
 
 
-Have a nice day!
+Ha en fin dag!
