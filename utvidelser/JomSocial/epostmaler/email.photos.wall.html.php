@@ -7,19 +7,19 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
-{actor} just posted a wall message. 
+{actor} postet en veggmelding. 
 
-Message:
+Melding:
 
 <?php echo $message; ?>
 
-You can read the message at:
+Du kan lese meldingen her:
 
 
 <a href="{url}">{url}</a>
 
 
-Have a nice day!
+Ha en fin dag!
 
