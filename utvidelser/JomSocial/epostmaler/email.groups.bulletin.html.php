@@ -7,18 +7,18 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
-<?php echo $this->escape($group); ?> group just posted a new bulletin.
+<?php echo $this->escape($group); ?>-gruppen postet en nyhet.
 
-Subject: <?php echo $this->escape($subject); ?>
+Emne: <?php echo $this->escape($subject); ?>
 
 
-You can read your new message here:
+Du kan lese meldingen her:
 
 
 <a href="{url}">{url}</a>
 
 
-Have a nice day!
+Ha en fin dag!
 
