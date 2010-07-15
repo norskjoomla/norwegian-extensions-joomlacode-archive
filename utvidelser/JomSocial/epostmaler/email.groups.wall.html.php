@@ -12,19 +12,20 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
-{actor} just posted a new wall post in the group <?php echo $this->escape($group); ?>
+{actor} postet en ny veggpost i gruppen <?php echo $this->escape($group); ?>
 
 
-Message:
+Melding:
 
 <?php echo $this->escape($message); ?>
 
-You can read the message at:
-
-<a href="{url}">{url}</a>
+Du kan lese meldingen her:
 
 
-Have a nice day!
+{url}
+
+
+Ha en fin dag!
 
