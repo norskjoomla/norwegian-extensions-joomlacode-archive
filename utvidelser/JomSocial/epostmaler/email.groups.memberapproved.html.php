@@ -12,6 +12,6 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
 <?php echo JText::sprintf( 'CC GROUP MEMBER APPROVED EMAIL' , $group , $url ); ?>
