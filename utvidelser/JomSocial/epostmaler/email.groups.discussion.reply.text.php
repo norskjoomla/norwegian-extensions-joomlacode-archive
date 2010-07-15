@@ -7,14 +7,14 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
-{actor} has recently posted a reply in the discussion <?php echo $title; ?> which you were participating in. Below is the message,
+{actor} har nylig postet et svar på diskusjonen <?php echo $title; ?> som du har deltatt i.
 
-Message:
+Melding:
 <?php echo $message; ?>
 
 
-To post a reply, you may visit the site at {url}
+Du kan poste et svar her {url}
 
-Have a nice day!
+Ha en fin dag!
