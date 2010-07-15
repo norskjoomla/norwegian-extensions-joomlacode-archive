@@ -7,17 +7,14 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
-{actor} has recently posted a new discussion in the group <?php echo $this->escape($group); ?>. Below is the discussion snippet that has been created.
+{actor} har nylig postet et svar på diskusjonen <?php echo $title; ?> som du deltar i.
 
-Subject:
-<?php echo $subject; ?>
-
-Message:
+Melding:
 <?php echo $message; ?>
 
 
-To post a reply, you may visit the site at <a href="{url}">{url}</a>
+Du kan svare på diskusjonen her <a href="{url}">{url}</a>
 
-Have a nice day!
+Ha en fin dag!
