@@ -12,10 +12,10 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+Hei {target},
 
-Your group <?php echo $groupName;?> that were created recently is now published. You can start interacting within the group by accessing the following link below.
+Din gruppe <?php echo $groupName;?> er nå publisert. Du kan begynne å bruke gruppen ved å følge lenke nedenfor.
 
-To access the group, you may access it at <a href="{url}">{url}</a>
+Du finner gruppen her <a href="{url}">{url}</a>
 
-Have a nice day!
+Ha en fin dag!
