@@ -1,15 +1,15 @@
-Hi {target},
+Hei {target},
 
-<?php echo $group->name; ?> group just posted a new bulletin. 
+<?php echo $group->name; ?>-gruppen postet akkurat en nyhetsmelding. 
 
-Subject: <?php echo $subject; ?>
+Emne: <?php echo $subject; ?>
 
 
-You can read your new message here:
+Du kan lese meldingen her:
 
 
 <?php echo $url; ?>
 
 
-Have a nice day!
+Ha en fin dag!
 
