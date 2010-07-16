@@ -1,10 +1,10 @@
-Hi {target},
+Hei {target},
 
-{actor} just approved your friend request. You are now friends with {actor}.
+{actor} godtok din venneforespørsel. Du er nå venn med {actor}.
 
-You can view {actor}'s profile here:
+Du kan se profilen til {actor} her:
 
 <?php echo $url; ?>
 
 
-Have a nice day!
+Ha en fin dag!
