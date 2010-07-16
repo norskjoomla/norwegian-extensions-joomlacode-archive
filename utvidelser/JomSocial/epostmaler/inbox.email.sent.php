@@ -1,12 +1,12 @@
-Hi {target},
+Hei {target},
 
-{actor} just sent you a new message.
+{actor} har sendt deg en ny melding.
 
-You can read your new message here:
+Du kan lese meldingen her:
 
 <?php echo $url; ?>
 
 
-Have a nice day!
+Ha en fin dag!
 
 

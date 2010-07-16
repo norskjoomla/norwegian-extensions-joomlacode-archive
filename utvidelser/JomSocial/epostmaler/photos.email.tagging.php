@@ -1,8 +1,10 @@
-Hi {target},
+Hei {target},
 
-{actor} tagged you in a photo.  To view this photo, please click the link below:
+{actor} tagget deg i et bilde.
+
+Du kan se bildet her:
 
 <?php echo $url; ?>
 
 
-Have a nice day!
+Ha en fin dag!
