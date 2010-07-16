@@ -1,13 +1,13 @@
-Hi {target},
+Hei {target},
 
-{actor} added you as friend. You still need to approve this request. 
+{actor} la deg til som venn, men du må velge om du vil ha vedkommende som din venn. 
 <?php if(!empty($message)){echo '
     '.$message.'
 ';} ?>
 
-To add {actor} as your friend, just go to your friends request page below:
+For å legge til {actor} som din venn her:
 
 <?php echo $url; ?>
 
 
-Have a nice day!
+Ha en fin dag!
