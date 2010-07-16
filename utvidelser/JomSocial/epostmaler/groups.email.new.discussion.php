@@ -1,14 +1,14 @@
-Hi {target},
+Hei {target},
 
-<?php echo $creator->getDisplayName(); ?> has recently posted a new discussion in the group <?php echo $group->name; ?>. Below is the discussion snippet that has been created.  
+<?php echo $creator->getDisplayName(); ?> har nylig postet en ny diskusjon i gruppen <?php echo $group->name; ?>. Nedenfor er utdrag av diskusjonen som er opprettet.  
 
-Subject:
+Emne:
 <?php echo $subject; ?>
 
-Message:
+Melding:
 <?php echo $message; ?>
 
 
-To post a reply, you may visit the site at <?php echo $url; ?>
+Du kan poste et svar her <?php echo $url; ?>
 
-Have a nice day!
+Ha en fin dag!
