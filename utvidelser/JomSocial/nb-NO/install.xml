@@ -17,9 +17,26 @@
         <filename>nb-NO.com_community.menu.ini</filename>
         <filename>nb-NO.com_jsmigrator.ini</filename>
         <filename>nb-NO.plg_community_eventlist.ini</filename>
+        <filename>nb-NO.plg_community_feeds.ini</filename>
         <filename>nb-NO.plg_community_fireboard.ini</filename>
+        <filename>nb-NO.plg_community_friendslocation.ini</filename>
+        <filename>nb-NO.plg_community_groups.ini</filename>
+        <filename>nb-NO.plg_community_input.ini</filename>
+        <filename>nb-NO.plg_community_invite.ini</filename>
         <filename>nb-NO.plg_community_jomcomment.ini</filename>
         <filename>nb-NO.plg_community_kunena.ini</filename>
+        <filename>nb-NO.plg_community_latestphoto.ini</filename>
+        <filename>nb-NO.plg_community_myarticles.ini</filename>
+        <filename>nb-NO.plg_community_myblog.ini</filename>
+        <filename>nb-NO.plg_community_myblogtoolbar.ini</filename>
+        <filename>nb-NO.plg_community_mycontacts.ini</filename>
+        <filename>nb-NO.plg_community_mygoogleads.ini</filename>
+        <filename>nb-NO.plg_community_nicetalk.ini</filename>
+        <filename>nb-NO.plg_community_seyret.ini</filename>
+        <filename>nb-NO.plg_community_system.ini</filename>
+        <filename>nb-NO.plg_community_twitter.ini</filename>
+        <filename>nb-NO.plg_community_walls.ini</filename>
+        <filename>nb-NO.plg_community_wordfilter.ini</filename>
         <filename>nb-NO.plg_editormyphotos.ini</filename>
         <filename>nb-NO.plg_eventlist.ini</filename>
         <filename>nb-NO.plg_feeds.ini</filename>
@@ -45,9 +62,12 @@
       <files folder="site">
         <filename>nb-NO.com_community.ini</filename>
         <filename>nb-NO.mod_activegroups.ini</filename>
+        <filename>nb-NO.mod_activitystream.ini</filename>
         <filename>nb-NO.mod_datingsearch.ini</filename>
         <filename>nb-NO.mod_hellome.ini</filename>
+        <filename>nb-NO.mod_jomsocialconnect.ini</filename>
         <filename>nb-NO.mod_latestdiscussion.ini</filename>
+        <filename>nb-NO.mod_latestgroupwalls.ini</filename>
         <filename>nb-NO.mod_latestmembers.ini</filename>
         <filename>nb-NO.mod_onlineusers.ini</filename>
         <filename>nb-NO.mod_photocomments.ini</filename>
