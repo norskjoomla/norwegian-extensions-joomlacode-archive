@@ -1,0 +1,33 @@
+# $Id:
+# Joomla! Norwegian Bokmål Translation
+# Copyright (C) Translation 2010 - Joomla! i Norge http://www.joomlainorge.no/
+# license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+
+# Note : All ini files need to be saved as UTF-8
+
+INFORMASJON
+Dette er et dokument som beskriver hvordan man skal installere de norske språkfilene
+til JomSocial. Får at installasjonen skal gå smertefritt anbefales det å lese hele
+dette dokumentet før installasjon.
+
+SPRÅKFILER OG E-POSTMALER
+Pakken består av to ZIP-filer og dette dokumentet:
+* Norske språkfiler for JomSocial: jomsocial_nb-NO-x.x.x.zip
+* Norske e-postmaler for JomSocial: jomsocial_epostmaler_nb-NO-x.x.x.zip
+(x.x.x står for versjonsnummeret til JomSocial (eksempel: 1.8.7)
+
+INSTALLASJON
+Først må du pakke ut den nedlastede ZIP-filen til en midlertidig mappe på din
+egen datamaskin. Da vil det komme frem to ZIP-filer som beskrevet ovenfor.
+
+Installasjonen av de norske språkfilene foregår igjennom administrasjonspanelet til
+Joomla!. (Utvidelser - Installer / Avinstaller. Trykk på Bla igjennom og velg
+filen jomsocial_nb-NO-x.x.x.zip. Deretter trykker du på Last opp fil & installer)
+
+Installasjonen av e-postmalene krever at man har tilgang til fil og mappestrukturen
+på serveren. Last opp filen jomsocial_epostmaler_nb-NO-x.x.x.zip til malmappen
+(templatemappen) du benytter i JomSocial. (eks: /components/com_community/templates/minmal)
+Pakk deretter ut filen direkte i denne malmappen og eventuelt erstatt tilsvarende filer.
+("minmal" vil være navnet på den malen du benytter)
+
+Lykke til!
