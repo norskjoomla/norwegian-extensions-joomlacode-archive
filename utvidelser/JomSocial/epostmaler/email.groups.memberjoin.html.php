@@ -14,4 +14,12 @@ defined('_JEXEC') or die();
 ?>
 Hei {target},
 
-<?php echo JText::sprintf( 'CC NEW MEMBER JOIN EMAIL' , $user , $group , '{url}' ); ?>
+<?php
+if( $approved )
+{
+	echo JText::sprintf( 'CC NEW MEMBER JOIN EMAIL' , $user , $group , '{url}' );
+}
+else
+{
+	echo JText::sprintf( 'CC NEW MEMBER REQUESTED TO JOIN GROUP EMAIL' , $user , $group , '{url}' );
+}

@@ -8,7 +8,8 @@ Melding:
 
 Du kan se mer informasjon om arrangementet her:
 
-<a href="<?php echo $url; ?>"><?php echo $url; ?></a>
+<?php echo $url; ?>
 
 
 Ha en fin dag!
+

@@ -23,9 +23,7 @@ Melding:
 
 Du kan lese meldingen her:
 
-
-{url}
+<a href="{url}">{url}</a>
 
 
 Ha en fin dag!
-

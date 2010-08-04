@@ -11,7 +11,10 @@ Hei {target},
 
 {actor} har nylig postet et svar på diskusjonen <?php echo $title; ?> som du deltar i.
 
-Melding:
+Subject:
+<?php echo $subject; ?>
+
+Message:
 <?php echo $message; ?>
 
 

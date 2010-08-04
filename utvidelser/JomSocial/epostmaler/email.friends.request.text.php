@@ -26,4 +26,3 @@ Om du vil legge til {actor} som din venn går du bare til følgende side:
 
 
 Ha en fin dag!
-

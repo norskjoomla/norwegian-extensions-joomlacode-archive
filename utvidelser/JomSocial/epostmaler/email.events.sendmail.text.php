@@ -13,4 +13,4 @@ Tittel: <?php echo $title; ?>
 Melding:
 <?php echo $message; ?>
 
-Du kan se mer informasjon om arrangementet her <a href="{url}">{url}</a>
+Du kan se mer informasjon om arrangementet her {url}
