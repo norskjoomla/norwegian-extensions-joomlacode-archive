@@ -18,7 +18,7 @@ Hei {target},
 
 Du kan lese meldingen her:
 
-<a href="{url}">{url}</a>
+{url}
 
 
 Ha en fin dag!

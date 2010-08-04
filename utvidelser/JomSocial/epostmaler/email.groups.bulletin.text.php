@@ -17,7 +17,7 @@ Emne: <?php echo $this->escape($subject); ?>
 Du kan lese meldingen her:
 
 
-<a href="{url}">{url}</a>
+<?php echo $url; ?>
 
 
 Ha en fin dag!
