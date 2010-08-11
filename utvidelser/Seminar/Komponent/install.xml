@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<install method="upgrade" type="language" client="both" version="1.5">
+  <tag>nb-NO</tag>
+  <name>Seminar</name>
+  <creationDate>2010-01-13</creationDate>
+  <author>Dirk Vollmar</author>
+  <copyright>(C) 2004 - 2009 Dirk Vollmar.</copyright>
+  <license>http://www.gnu.org/licenses/gpl.html</license>
+  <authorEmail>seminar@vollmar.ws</authorEmail>
+  <authorUrl>http://seminar.vollmar.ws</authorUrl>
+  <version>1.3.0</version>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+
+  <description>
+  <![CDATA[
+  <img src="../components/com_seminar/images/menulogo.png" valign="middle"><font size="+1" color="#0B55C4"> Seminar Sprachpaket</font>
+  <div align="center"><table border="0" width="90%"><tbody>
+  <tr><td width="18%"><b>Sprache:</b></td><td width="80%">Norwegisch - Norsk (bokm&aring;l)</td></tr>
+  <tr><td width="18%"><b>Autor:</b></td><td width="80%">Bj&oslash;rn Thorsbakken / Roar Moen 1.3.0 </td></tr>
+  <tr><td width="18%"><b>Webseite:</b></td><td width="80%"><a target="_blank" href="http://seminar.vollmar.ws">http://seminar.vollmar.ws</a></td></tr>
+  <tr><td width="18%"><b>Version:</b></td><td width="80%">1.3.0</td></tr>
+  </tbody></table></div>
+  ]]>
+  </description>
+
+  <administration>
+    <files folder="admin">
+      <filename>nb-NO.com_seminar.ini</filename>
+      <filename>nb-NO.com_seminar.menu.ini</filename>
+    </files>
+  </administration>
+  
+  <site>
+    <files folder="site">
+      <filename>nb-NO.com_seminar.ini</filename>
+    </files>
+  </site>
+
+</install>
