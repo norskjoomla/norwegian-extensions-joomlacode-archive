@@ -3,7 +3,8 @@ defined('_JEXEC') OR defined('_VALID_MOS') OR die('...Direct Access to this loca
 
 /**
 * <p>Norwegian language file.</p>
-* @author Foreningen Joomla! i Norge, Rune Rasmussen <oversettelser@joomlainorge.no>
+* @author Foreningen Joomla! i Norge <oversettelser@joomlainorge.no>
+* @translators (known): Irma Rustad, Rune Rasmussen and Knut Helstad
 * @version $Id: norwegian.php 491 2007-02-01 22:56:07Z divivo $
 * @link http://www.joomlainorge.no
 */
