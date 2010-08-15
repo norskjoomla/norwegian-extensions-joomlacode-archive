@@ -14,7 +14,7 @@
 	<administration>
 		<files folder="admin">
 			<filename>nb-NO.com_redshop.ini</filename>
-			<filename>nb-NO.com_akeeba.menu.ini</filename>
+			<filename>nb-NO.com_redshop.menu.ini</filename>
 		</files>
 	</administration>
 	<site>
@@ -30,7 +30,7 @@
   		<filename>nb-NO.mod_redshop_categories.ini</filename>
   		<filename>nb-NO.mod_redshop_discount.ini</filename>
   		<filename>nb-NO.mod_redshop_login.ini</filename>
-  		<filename>nb-NO.mod_redshopnewsletter.ini</filename>
+  		<filename>nb-NO.mod_redshop_newsletter.ini</filename>
   		<filename>nb-NO.mod_redshop_pricefilter.ini</filename>
   		<filename>nb-NO.mod_redshop_productcompare.ini</filename>
   		<filename>nb-NO.mod_redshop_products.ini</filename>
