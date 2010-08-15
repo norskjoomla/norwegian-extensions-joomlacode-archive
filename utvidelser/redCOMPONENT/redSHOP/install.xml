@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- $Id: install.xml 525 2009-01-30 10:47:09Z Roar $ -->
+<install version="1.5" client="both" type="language" method="upgrade">
+	<name>Norwegian bokmål (Norway)</name>
+	<tag>nb-NO</tag>
+	<version>3.0</version>
+	<creationdate>15-08-2010</creationdate>
+	<author>Joomla! i Norge</author>
+	<authoremail>oversettelser@joomlainorge.no</authoremail>
+	<authorurl>www.joomlainorge.no</authorurl>
+  <copyright>Copyright (C) 2010 Joomla! i Norge. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[Norske språkfiler (bokmål) for redSHOP.<br/>Opphav: 2010, <a href="http://www.joomlainorge.no/" target="_blank">Foreningen Joomla! i Norge</a><br/>Kontakt: <a href="mailto:oversettelser@joomlainorge.no">oversettelser@joomlainorge.no</a><br /><br />                                 Bidra: Om du har stor nytte av disse språkfilene og ønsker å bidra til at foreningens kan fortsette sitt arbeide, med bl.a. oppdatering av språkfilene, kan du <a href="http://www.joomlainorge.no/foreningen/hvordan-bidra/" target="_blank">besøk våre FAQ-sider</a> for mer informasjon.]]></description>
+	<administration>
+		<files folder="admin">
+			<filename>nb-NO.com_redshop.ini</filename>
+			<filename>nb-NO.com_akeeba.menu.ini</filename>
+		</files>
+	</administration>
+	<site>
+		<files folder="site">
+			<filename>nb-NO.com_redshop.ini</filename>
+  		<filename>nb-NO.mod_redfeaturedproduct.ini</filename>
+  		<filename>nb-NO.mod_redmanufacturer.ini</filename>
+  		<filename>nb-NO.mod_redmasscart.ini</filename>
+  		<filename>nb-NO.mod_redproducts3d.ini</filename>
+  		<filename>nb-NO.mod_redproductscroller.ini</filename>
+  		<filename>nb-NO.mod_redproducttab.ini</filename>
+  		<filename>nb-NO.mod_redshop_cart.ini</filename>
+  		<filename>nb-NO.mod_redshop_categories.ini</filename>
+  		<filename>nb-NO.mod_redshop_discount.ini</filename>
+  		<filename>nb-NO.mod_redshop_login.ini</filename>
+  		<filename>nb-NO.mod_redshopnewsletter.ini</filename>
+  		<filename>nb-NO.mod_redshop_pricefilter.ini</filename>
+  		<filename>nb-NO.mod_redshop_productcompare.ini</filename>
+  		<filename>nb-NO.mod_redshop_products.ini</filename>
+  		<filename>nb-NO.mod_redshop_search.ini</filename>
+  		<filename>nb-NO.mod_redshop_shoppergrouplogo.ini</filename>
+  		<filename>nb-NO.mod_redshop_wishlist.ini</filename>
+		</files>
+	</site>
+	<params/>
+</install>
