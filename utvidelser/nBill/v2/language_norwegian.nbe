@@ -14,7 +14,7 @@
 Convert_ISO-8859-1_to_UTF-8=C
 
 #Minimum version of nBill on which this extension installation will work
-nbill_version=2.0.6
+nbill_version=2.0.9
 
 #If a service pack is required for the above version in order for this installation to work, specify it here
 nbill_sp=0
@@ -29,9 +29,9 @@ title=Norsk bokmål
 
 author=Netshine Software Limited and Joomla! i Norge
 
-date=May 2009
+date=Sept 2010
 
-copyright=(C) 2008 - 2009 Netshine Software Limited. All rights reserved. Translation by Joomla! i Norge
+copyright=(C) 2008 - 2010 Netshine Software Limited. All rights reserved. Translation by Joomla! i Norge
 
 license=See www.nbill.co.uk/eula.html
 
@@ -39,7 +39,7 @@ author_email=oversettelser@joomlainorge.no
 
 author_url=www.nbill.co.uk
 
-version=2.0.6
+version=2.0.9
 
 description=Norsk bokmål-oversettelse for nBill - Norwegian bokmal language pack for nBill.
 
@@ -80,6 +80,7 @@ admin_file=nb-NO/products.nb-NO.php
 admin_file=nb-NO/profile_fields.nb-NO.php
 admin_file=nb-NO/quote_request.nb-NO.php
 admin_file=nb-NO/quotes.nb-NO.php
+admin_file=nb-NO/reconcile.nb-NO.php
 admin_file=nb-NO/registration.nb-NO.php
 admin_file=nb-NO/reminders.nb-NO.php
 admin_file=nb-NO/shipping.nb-NO.php
