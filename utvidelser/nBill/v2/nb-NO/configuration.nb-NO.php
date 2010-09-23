@@ -57,7 +57,7 @@ define("NBILL_CFG_INSTR_UPDATE_NOW", "Klikk på knappen for å oppgradere til ny
 define("NBILL_CFG_BTN_UPDATE_NOW", "Oppgrader nå");
 
 /* Version 1.1.4 */
-define("NBILL_CFG_LIST_START_DATE", "Standard startdato for lister");
+/*define("NBILL_CFG_LIST_START_DATE", "Standard startdato for lister");
 define("NBILL_CFG_INSTR_LIST_START_DATE", "Indikerer hvordan du vil at systemet skal velge startdato for lister som bruker datoområde (f. eks. ordre, faktura) når ingen dato valgt. ADVARSEL! Velger du f. eks. å vise poster for de siste 5 årene, kan dette føre til at det tar lang tid å vise listen.");
 define("NBILL_CFG_START_DATE_CURRENT_ONLY", "Vis bare denne måned");
 define("NBILL_CFG_START_DATE_CURRENT_LAST", "Vis denne og forrige måned");
@@ -65,7 +65,7 @@ define("NBILL_CFG_START_DATE_QUARTER", "Vis inntil 3 måneder");
 define("NBILL_CFG_START_DATE_SEMI", "Vis inntil 6 måneder");
 define("NBILL_CFG_START_DATE_YEAR", "Vis inntil ett år");
 define("NBILL_CFG_START_DATE_FIVE", "Vis inntil 5 år");
-define("NBILL_CFG_START_DATE_ALL", "Vis ALt");
+define("NBILL_CFG_START_DATE_ALL", "Vis ALt");*/
 
 //Version 1.2.1
 define("NBILL_CFG_SWITCH_TO_SSL", "Bytt til SSL ved innlogging?");

@@ -25,19 +25,19 @@
 //Clients
 define("NBILL_CLIENTS_TITLE", "Kunder");
 define("NBILL_CLIENT_USER", "Brukernavn");
-define("NBILL_WEBSITE", "Nettside");
-define("NBILL_TELEPHONE", "Telefon");
-define("NBILL_TELEPHONE_2", "Telefon 2");
+//define("NBILL_WEBSITE", "Nettside");
+//define("NBILL_TELEPHONE", "Telefon");
+//define("NBILL_TELEPHONE_2", "Telefon 2");
 define("NBILL_USERNAME_PASSWORD_EMAIL_REQUIRED", "Et brukernavn, passord og e-postadresse er påkrevd for å opprette en ny bruker");
 define("NBILL_EDIT_CLIENT", "Rediger kunde");
 define("NBILL_NEW_CLIENT", "Ny kunde");
 define("NBILL_CLIENT_DETAILS", "Kundedetaljer");
-define("NBILL_COMPANY_NAME", "Firmanavn");
-define("NBILL_CLIENT_ADD_NAME_TO_INVOICE", "Legg til kontaktnavn på faktura?");
-define("NBILL_ADDRESS_1", "Adresse 1");
-define("NBILL_ADDRESS_2", "Adresse 2");
-define("NBILL_ADDRESS_3", "Adresse 3");
-define("NBILL_TOWN", "By");
+//define("NBILL_COMPANY_NAME", "Firmanavn");
+//define("NBILL_CLIENT_ADD_NAME_TO_INVOICE", "Legg til kontaktnavn på faktura?");
+//define("NBILL_ADDRESS_1", "Adresse 1");
+//define("NBILL_ADDRESS_2", "Adresse 2");
+//define("NBILL_ADDRESS_3", "Adresse 3");
+//define("NBILL_TOWN", "By");
 define("NBILL_STATE", "Fylke");
 define("NBILL_POSTCODE", "Postnummer");
 define("NBILL_CLIENT_COUNTRY", "Land");
@@ -117,3 +117,6 @@ define("NBILL_INSTR_CREDIT_TAX_RATE", "Avgiftssats benyttet hvor beløpet av all
 define("NBILL_CLIENT_CUSTOM_FIELDS", "Egendefinerte felt");
 define("NBILL_CLIENT_NEW_QUOTE", "Opprett nytt anbud for denne kunden");
 define("NBILL_CLIENT_VIEW_QUOTES", "Se anbud for denne kunden");
+
+//Version 2.0.9
+define("NBILL_CLIENT_USERNAME_ALPHANUM", "Du kan bare bruker bokstaver og nummer i brukernavn");

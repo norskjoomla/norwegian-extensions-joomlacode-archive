@@ -25,27 +25,27 @@
 //Suppliers
 define("NBILL_SUPPLIERS_TITLE", "Leverandører");
 define("NBILL_SUPPLIER_NAME", "Leverandørnavn");
-define("NBILL_WEBSITE", "Hjemmeside");
-define("NBILL_TELEPHONE", "Telefon");
-define("NBILL_TELEPHONE_2", "Telefon 2");
+//define("NBILL_WEBSITE", "Hjemmeside");
+//define("NBILL_TELEPHONE", "Telefon");
+//define("NBILL_TELEPHONE_2", "Telefon 2");
 define("NBILL_USERNAME_PASSWORD_REQUIRED", "Ett brukernavn og passorde er påkrevd for å opprette ny bruker.");
 define("NBILL_EDIT_SUPPLIER", "Rediger leverandør");
 define("NBILL_NEW_SUPPLIER", "Ny leverandør");
 define("NBILL_SUPPLIER_DETAILS", "Leverandørdetaljer");
 define("NBILL_SUPPLIER_USER", "Relaterte bruker");
 define("NBILL_CREATE_USER", "[Opprett ny bruker]");
-define("NBILL_COMPANY_NAME", "Firmanavn");
-define("NBILL_CONTACT_NAME", "Kontakt navn");
-define("NBILL_ADDRESS_1", "Adresse 1");
-define("NBILL_ADDRESS_2", "Adresse 2");
-define("NBILL_ADDRESS_3", "Adresse 3");
-define("NBILL_TOWN", "Sted/by");
-define("NBILL_STATE", "Fylke");
-define("NBILL_POSTCODE", "Postnummer");
+//define("NBILL_COMPANY_NAME", "Firmanavn");
+//define("NBILL_CONTACT_NAME", "Kontakt navn");
+//define("NBILL_ADDRESS_1", "Adresse 1");
+//define("NBILL_ADDRESS_2", "Adresse 2");
+//define("NBILL_ADDRESS_3", "Adresse 3");
+//define("NBILL_TOWN", "Sted/by");
+//define("NBILL_STATE", "Fylke");
+//define("NBILL_POSTCODE", "Postnummer");
 define("NBILL_SUPPLIER_COUNTRY", "Land");
 define("NBILL_SUPPLIER_REFERENCE", "Referanse");
-define("NBILL_MOBILE", "Mobiltelefon");
-define("NBILL_FAX", "Faks");
+//define("NBILL_MOBILE", "Mobiltelefon");
+//define("NBILL_FAX", "Faks");
 define("NBILL_SUPPLIER_CURRENCY", "Standard valuta");
 define("NBILL_INSTR_COMPANY_NAME", "Navn på leverandørselskap");
 define("NBILL_INSTR_ADDRESS", "Leverandørs adresse.");
@@ -88,3 +88,6 @@ define("NBILL_INSTR_SUPPLIER_ACCESS_PURCHASE_ORDERS", "Hvorvidt denne kontakten 
 define("NBILL_SUPPLIER", "Leverandør");
 define("NBILL_SUPPLIER_TAX_REFERENCE", "Skattereferanse");
 define("NBILL_INSTR_SUPPLIER_TAX_REFERENCE", "Skriv inn leverandørens skattereferansenummer (dvs. MVA-nummer, eller tilsvarende).");
+
+//Version 2.0.9
+define("NBILL_SUPPLIER_USERNAME_ALPHANUM", "Bruk kun bokstaver og nummer i brukernavn");

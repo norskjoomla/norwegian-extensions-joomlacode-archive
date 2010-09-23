@@ -136,7 +136,7 @@ define("NBILL_FORM_FIELD_HORIZONTAL_HELP", "If the field type supports it (typic
 define("NBILL_FORM_FIELD_MERGE_COLS", "Merge Columns?");
 define("NBILL_FORM_FIELD_MERGE_COLS_HELP", "Whether or not to merge the label column with the value column when displaying the form");
 define("NBILL_FORM_FIELD_XREF", "Cross Reference");
-define("NBILL_FORM_FIELD_XREF_HELP", "If you want to populate the options of a dropdown list or option list based on the values held in a database table (rather than defining each option manually), you can specify the table here. To add your own cross reference table, just create a table in the database with a prefix of `%s`");
+define("NBILL_FORM_FIELD_XREF_HELP", "If you want to populate the options of a dropdown list or option list based on the values held in a database table (rather than defining each option manually), you can specify the table here. To add your own cross reference table, just create a table in the database with a prefix of `%snbill_xref_`");
 define("NBILL_FORM_FIELD_XREF_SQL", "XRef SQL");
 define("NBILL_FORM_FIELD_XREF_SQL_HELP", "If you select to populate the options using the special [SQL List] cross reference table, you can enter the SQL here to return a list of name/value pairs (use `code` and `description` as the column aliases)");
 define("NBILL_FORM_FIELD_CONFIRMATION", "Show Confirmation?");

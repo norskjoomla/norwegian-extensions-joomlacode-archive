@@ -112,7 +112,7 @@ define("NBILL_DISPLAY_PENDING_PAY_LINK", "Tillate betaling for pågående ordre?
 define("NBILL_DISPLAY_PENDING_PAY_LINK_DESC", "Angir om en knapp for at kunden skal kunne betale pågående ordre skal vises eller ikke (i tilfelle kunden ikke fullførte betaling, eller at tidligere betaling har mislyktes og de ønsker å prøve igjen). Gjelder kun om ordrestatus også vises.");
 define("NBILL_DISPLAY_PAYMENT_LINK_THRESHOLD", "Hyppighetsterskel");
 define("NBILL_DISPLAY_PAYMENT_LINK_THRESHOLD_DESC", "Som standard vil betalingslenken bare vises på ubetalte faktura for engangsbetalinger. Skal lenken vises for ordre med andre betalingsfrekvenser, sett det mest hyppige valget her - alle ordre med gitte betalingshyppighet eller med lavere hyppighet, kvalifiserer til at betalingslenken vises - om  'Vis betalingslenke' (over) er satt til 'Ja', og faktura ikke er betalt, og at ordre- og fakturainnstillingene ikke overstyrer denne verdien.");
-if (!defined("NBILL_ONE_OFF"))
+/*if (!defined("NBILL_ONE_OFF"))
 {
 	define("NBILL_ONE_OFF", "Engangsbetaling");
 	define("NBILL_WEEKLY", "Vis alltid");
@@ -124,7 +124,7 @@ if (!defined("NBILL_ONE_OFF"))
 	define("NBILL_BIANNUALLY", "Hvert andre år");
 	define("NBILL_FIVE_YEARLY", "Hvert femte år");
 	define("NBILL_TEN_YEARLY", "Hvert tiende år");
-}
+}*/
 define("NBILL_DISPLAY_PATHWAY", "Vis navigeringssti?");
 define("NBILL_DISPLAY_PATHWAY_DESC", "Angir om sti skal vises eller ikke på toppen av siden når en bruker er logget inn.");
 define("NBILL_DISPLAY_USERNAME", "Vis felt for brukernavn");

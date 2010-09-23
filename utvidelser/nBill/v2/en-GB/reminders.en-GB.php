@@ -62,18 +62,18 @@ define("NBILL_REMINDER_ORDER_EXPIRY_EMAIL", "Dear {NAME},\n\nThis is a courtesy 
 define("NBILL_REMINDER_RENEWAL_DUE_EMAIL", "Dear {NAME},\n\nThis is a reminder that your subscription for the following order is due for renewal on {DATE}. If you would like to renew, please use the following link: {PAYLINK}. Any remaining time on your old subscription will be added to the new one so you will not lose out by renewing early.\n\n{ORDER}\n\nIf you no longer wish to receive these reminders, please login to your account at {WEBSITE}, and set your preferences under 'My Account->My Profile'.\n\nRegards,\n{VENDOR}");
 define("NBILL_REMINDER_INVOICE_OVERDUE_EMAIL", "Dear {NAME},\n\nThis is a reminder that invoice number {INVOICE} for {AMOUNT} has been outstanding for {INTERVAL} {UNITS}, and is therefore now overdue. Please arrange to pay this invoice as soon as possible. If you would like to pay online, you can use the following link: {PAYLINK}.\n\nRegards,\n{VENDOR}.");
 define("NBILL_REMINDER_USER_DEFINED_EMAIL", "Don't forget: <Enter reminder text here!>");
-define("NBILL_REMINDER_PAYMENT_DUE_SUBJECT", "Reminder: Payment Due");
-define("NBILL_REMINDER_ORDER_EXPIRY_SUBJECT", "Reminder: Order Expiry");
-define("NBILL_REMINDER_RENEWAL_DUE_SUBJECT", "Reminder: Renewal Due");
-define("NBILL_REMINDER_INVOICE_OVERDUE_SUBJECT", "Reminder: Invoice Overdue");
-define("NBILL_REMINDER_USER_DEFINED_SUBJECT", "Reminder");
+define("NBILL_REMINDER_PAYMENT_DUE_SUBJECT", "%s Reminder: Payment Due");
+define("NBILL_REMINDER_ORDER_EXPIRY_SUBJECT", "%s Reminder: Order Expiry");
+define("NBILL_REMINDER_RENEWAL_DUE_SUBJECT", "%s Reminder: Renewal Due");
+define("NBILL_REMINDER_INVOICE_OVERDUE_SUBJECT", "%s Reminder: Invoice Overdue");
+define("NBILL_REMINDER_USER_DEFINED_SUBJECT", "%s Reminder");
 
 //Reminder Types
-define("NBILL_REMINDER_PAYMENT_DUE", "Payment Due");
+/*define("NBILL_REMINDER_PAYMENT_DUE", "Payment Due");
 define("NBILL_REMINDER_ORDER_EXPIRY", "Order Expiry");
 define("NBILL_REMINDER_RENEWAL_DUE", "Renewal Due");
 define("NBILL_REMINDER_INVOICE_OVERDUE", "Invoice Overdue");
-define("NBILL_REMINDER_USER_DEFINED", "User-defined");
+define("NBILL_REMINDER_USER_DEFINED", "User-defined");*/
 
 //Units
 define("NBILL_REMINDER_UNIT_DAYS", "Days");

@@ -78,3 +78,6 @@ define("NBILL_QUOTE_GENERATE_WARNING_ORDERS", "ADVARSEL! Følgende ordreposter e
 define("NBILL_QUOTE_GENERATE_WARNING_INVOICES", "ADVARSEL! Følgende fakturaposter er allerede blitt generert basert på dette tilbudet: ");
 define("NBILL_WARNING_QUOTE_ACCEPTED", "ADVARSEL! Dette tilbudet er allerede akseptert. Er du sikker på at du vil endre det?");
 define("NBILL_WARNING_QUOTE_PART_ACCEPTED", "ADVARSEL! Dette tilbudet er allerede delvis akseptert. Er du sikker på at du vil endre det?");
+
+//Version 2.0.9
+define("NBILL_QUOTE_PAY_FREQ_CHANGED", "Advarsel! Du har endret betalingsfrekvensen, men prisen vil ikke bli endret automatisk. Vennligst sjekk at prisen du har oppgitt fortsatt er riktig.");

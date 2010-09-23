@@ -27,7 +27,7 @@ define("NBILL_CONTACTS_TITLE", "Contacts");
 define("NBILL_WEBSITE", "Website Address");
 define("NBILL_TELEPHONE", "Telephone");
 define("NBILL_TELEPHONE_2", "2nd Telephone Line");
-define("NBILL_USERNAME_PASSWORD_REQUIRED", "In order to create a new user, a user name and password are required.");
+define("NBILL_USERNAME_PASSWORD_REQUIRED", "In order to create a new user, a user name, password, and e-mail address are required.");
 define("NBILL_EDIT_CONTACT", "Edit Contact");
 define("NBILL_NEW_CONTACT", "New Contact");
 define("NBILL_CONTACT_DETAILS", "Contact Details");

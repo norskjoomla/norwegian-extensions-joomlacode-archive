@@ -42,3 +42,7 @@ define("NBILL_PROFILE_FIELD_IN_USE_NO", "Not In Use");
 define("NBILL_PROFILE_FIELD_IN_USE_HELP", "Whether or not any fields on any existing forms have the same name, client mapping, and contact mapping as this field (and therefore may be updated if this field is updated).");
 define("NBILL_PROFILE_FIELD_SAVE_FAILED", "Sorry, a problem occurred whilst saving the field - it is not known whether the field was saved successfully or not. This could be due to a transient communication problem between your browser and the web server. Please try again.");
 define("NBILL_OPTIONS_CANNOT_UNSERIALIZE", "There was a problem transfering the data to the server. The field cannot be saved. Please contact support.");
+
+//Version 2.0.9
+define("NBILL_PROFILE_FIELD_PUBLISHED_YES", "Published");
+define("NBILL_PROFILE_FIELD_PUBLISHED_NO", "Not Published");

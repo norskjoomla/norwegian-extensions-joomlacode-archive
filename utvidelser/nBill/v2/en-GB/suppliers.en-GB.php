@@ -25,27 +25,27 @@
 //Suppliers
 define("NBILL_SUPPLIERS_TITLE", "Suppliers");
 define("NBILL_SUPPLIER_NAME", "Supplier Name");
-define("NBILL_WEBSITE", "Website Address");
-define("NBILL_TELEPHONE", "Telephone");
-define("NBILL_TELEPHONE_2", "2nd Telephone Line");
+//define("NBILL_WEBSITE", "Website Address");
+//define("NBILL_TELEPHONE", "Telephone");
+//define("NBILL_TELEPHONE_2", "2nd Telephone Line");
 define("NBILL_USERNAME_PASSWORD_REQUIRED", "In order to create a new user, a user name and password are required.");
 define("NBILL_EDIT_SUPPLIER", "Edit Supplier");
 define("NBILL_NEW_SUPPLIER", "New Supplier");
 define("NBILL_SUPPLIER_DETAILS", "Supplier Details");
 define("NBILL_SUPPLIER_USER", "Related User");
 define("NBILL_CREATE_USER", "[Create New User]");
-define("NBILL_COMPANY_NAME", "Company Name");
-define("NBILL_CONTACT_NAME", "Contact Name");
-define("NBILL_ADDRESS_1", "Address Line 1");
-define("NBILL_ADDRESS_2", "Address Line 2");
-define("NBILL_ADDRESS_3", "Address Line 3");
-define("NBILL_TOWN", "Town/City");
-define("NBILL_STATE", "State/County/Province");
-define("NBILL_POSTCODE", "Postcode");
+//define("NBILL_COMPANY_NAME", "Company Name");
+//define("NBILL_CONTACT_NAME", "Contact Name");
+//define("NBILL_ADDRESS_1", "Address Line 1");
+//define("NBILL_ADDRESS_2", "Address Line 2");
+//define("NBILL_ADDRESS_3", "Address Line 3");
+//define("NBILL_TOWN", "Town/City");
+//define("NBILL_STATE", "State/County/Province");
+//define("NBILL_POSTCODE", "Postcode");
 define("NBILL_SUPPLIER_COUNTRY", "Country");
 define("NBILL_SUPPLIER_REFERENCE", "Supplier Reference");
-define("NBILL_MOBILE", "Mobile (Cell) Phone");
-define("NBILL_FAX", "Fax");
+//define("NBILL_MOBILE", "Mobile (Cell) Phone");
+//define("NBILL_FAX", "Fax");
 define("NBILL_SUPPLIER_CURRENCY", "Default Currency");
 define("NBILL_INSTR_COMPANY_NAME", "Name of the supplier company");
 define("NBILL_INSTR_ADDRESS", "Supplier address");
@@ -88,3 +88,6 @@ define("NBILL_INSTR_SUPPLIER_ACCESS_PURCHASE_ORDERS", "Whether or not this conta
 define("NBILL_SUPPLIER", "Supplier");
 define("NBILL_SUPPLIER_TAX_REFERENCE", "Tax Reference");
 define("NBILL_INSTR_SUPPLIER_TAX_REFERENCE", "Enter the supplier's tax reference number (ie. VAT number, or equivalent).");
+
+//Version 2.0.9
+define("NBILL_SUPPLIER_USERNAME_ALPHANUM", "Please use letters and numbers only for the username");

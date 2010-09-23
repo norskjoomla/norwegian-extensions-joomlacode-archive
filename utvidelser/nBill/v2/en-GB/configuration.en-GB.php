@@ -57,7 +57,7 @@ define("NBILL_CFG_INSTR_UPDATE_NOW", "Click the button to upgrade to the latest 
 define("NBILL_CFG_BTN_UPDATE_NOW", "Upgrade Now");
 
 /* Version 1.1.4 */
-define("NBILL_CFG_LIST_START_DATE", "Default Start Date for Lists");
+/*define("NBILL_CFG_LIST_START_DATE", "Default Start Date for Lists");
 define("NBILL_CFG_INSTR_LIST_START_DATE", "Indicate how you want the system to select the start date for any lists that are governed by a date range (eg. orders, invoices) when no date has been specifically selected. WARNING! If you select to show a large number of records (eg. 5 years, or all), this could slow down the display of the lists.");
 define("NBILL_CFG_START_DATE_CURRENT_ONLY", "Show current month only");
 define("NBILL_CFG_START_DATE_CURRENT_LAST", "Show current and previous month");
@@ -65,7 +65,7 @@ define("NBILL_CFG_START_DATE_QUARTER", "Show up to 3 months");
 define("NBILL_CFG_START_DATE_SEMI", "Show up to 6 months");
 define("NBILL_CFG_START_DATE_YEAR", "Show up to a year");
 define("NBILL_CFG_START_DATE_FIVE", "Show up to 5 years");
-define("NBILL_CFG_START_DATE_ALL", "Show ALL items");
+define("NBILL_CFG_START_DATE_ALL", "Show ALL items");*/
 
 //Version 1.2.1
 define("NBILL_CFG_SWITCH_TO_SSL", "Switch to SSL on login?");
