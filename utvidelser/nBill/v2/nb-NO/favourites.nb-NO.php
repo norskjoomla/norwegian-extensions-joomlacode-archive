@@ -29,4 +29,4 @@ define("NBILL_FAVOURITES_NAME", "Alternativt navn");
 define("NBILL_FAVOURITES_DESCRIPTION", "Alternativ beskrivelse");
 define("NBILL_FAVOURITES_SELECT", "Velg som favoritt?");
 define("NBILL_FAVOURITE_YES", "Ja");
-define("NBILL_FAVOURITE_YES", "Nei");
+define("NBILL_FAVOURITE_NO", "Nei");

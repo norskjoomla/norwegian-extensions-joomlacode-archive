@@ -133,8 +133,6 @@ define("NBILL_UPLOAD_ALLOWED_TYPES", "Allowed File Types");
 define("NBILL_INSTR_UPLOAD_ALLOWED_TYPES", "Enter a pipe (|) delimited list of field types that are allowed to be uploaded (eg. .jpg|.bmp|.gif). Leave blank to allow any file type to be uploaded.");
 define("NBILL_ATTACH_TO_EMAIL", "Attach to Admin E-Mail?");
 define("NBILL_INSTR_ATTACH_TO_EMAIL", "Whether or not to attach uploaded files to the confirmation e-mail that gets sent to the administrator (if applicable).");
-define("NBILL_SECURITY_IMAGE", "Use Security Image?");
-define("NBILL_INSTR_SECURITY_IMAGE", "Whether or not to display a CAPTCHA style security image to prevent spamming (requires the PHP GD and truetype library to be installed on your web server).");
 
 //Version 1.2.0
 define("NBILL_ORDER_FORM_LINK", "You can link to this form from your website content using the following URL: %s");
@@ -142,7 +140,7 @@ define("NBILL_ORDER_FORM_LINK_PREPOP", "Note: You can also pre-populate fields o
 define("NBILL_ORDER_FORM_THANK_YOU", "Thank You Message");
 define("NBILL_INSTR_ORDER_FORM_THANK_YOU", "If the user is not redirected elsewhere by the payment gateway (or by your own redirect setting, above), this is the message that will be displayed on successful submission of the order form.");
 define("NBILL_FORM_DEFAULT_THANK_YOU", "Thank you for your order.");
-define("NBILL_ORDER_FORM_DUPLICATE_PRODUCTS", "WARNING! You have assigned a product to a field TWICE on the order form(s) highlighted below. This will result in the product being ordered twice. You should only assign a product on EITHER the edit field popup OR the options popup, not both.");
+define("NBILL_ORDER_FORM_DUPLICATE_PRODUCTS", "WARNING! You have assigned a product to a field TWICE on the order form(s) highlighted below. This will result in the product being ordered twice. You should only assign a product on EITHER the field properties pane OR the options popup, not both.");
 
 //Version 1.2.1
 define("NBILL_ORDER_FORM_FIELD_RESERVED_WORD", "Sorry, `%s` is a reserved word with a special meaning. Please select a different name for this field.");
@@ -173,3 +171,6 @@ define("NBILL_INSTR_FORM_LEGACY_RENDERER", "If you set this to `yes`, the fields
 define("NBILL_FORM_LEGACY_TABLE_BORDER", "Legacy Table Border?");
 define("NBILL_INSTR_FORM_LEGACY_TABLE_BORDER", "In previous versions of " . NBILL_BRANDING_NAME . ", you could specify that the table containing your fields should have a border. This generally looks rubbish, is not semantic, and was probably a bad idea, but the option is included here for the benefit of those who are migrating from a previous version and wish to keep it. This option will only take effect if `Use Legacy Renderer` is set to `yes`.");
 define("NBILL_FORM_LEGACY_RENDERER_WARNING", "WARNING! This form uses the legacy renderer, so your fields might not appear exactly as you define them here, but should look very similar to how they did in previous versions of " . NBILL_BRANDING_NAME . ". You can turn the legacy renderer on or off on the 'Details' tab, below.");
+
+//Version 2.0.9
+define("NBILL_ORDER_FORM_UNMAPPED", "WARNING! You have specified that the form(s) highlighted below should automatically create order records, but none of the fields on the form are mapped to any client values. You need to either: 1) Make the form available to logged-in users only (so no mapping is required); 2) Change the form to NOT automatically create order records (not usually recommended unless you have some custom code to make the form do something else) or 3) Map one or more fields to a client value (on the processing tab of the field properties pane).");

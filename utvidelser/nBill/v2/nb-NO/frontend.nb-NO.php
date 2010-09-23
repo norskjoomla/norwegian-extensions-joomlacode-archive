@@ -152,8 +152,8 @@ define("NBILL_FE_SECURITY_IMAGE_CHANGE", "[Endre bokstavskode]");
 define("NBILL_ERR_SECURITY_IMAGE_WRONG", "Beklager, feil sikkerhetskode. Prøv igjen.");
 
 /* Version 1.1.4 */
-define("NBILL_FORM_NEXT", "Neste >>");
-define("NBILL_FORM_PREV", "<< Tilbake");
+//define("NBILL_FORM_NEXT", "Neste >>");
+//define("NBILL_FORM_PREV", "<< Tilbake");
 define("NBILL_FORM_SUBMIT", "Lagre/Fortsett");
 define("NBILL_RENEW_SUBMIT", "Lagre/Fortsett");
 

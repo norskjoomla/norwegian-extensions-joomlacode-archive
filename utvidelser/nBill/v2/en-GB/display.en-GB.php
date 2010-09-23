@@ -112,7 +112,7 @@ define("NBILL_DISPLAY_PENDING_PAY_LINK", "Allow payment of pending orders?");
 define("NBILL_DISPLAY_PENDING_PAY_LINK_DESC", "Whether or not to display a button that will allow the user to pay for a pending order (in case they backed out or it went wrong previously and they want to try again). Only applicable if the order status is also displayed.");
 define("NBILL_DISPLAY_PAYMENT_LINK_THRESHOLD", "Frequency Treshold");
 define("NBILL_DISPLAY_PAYMENT_LINK_THRESHOLD_DESC", "By default, a payment link will only appear next to unpaid invoices for 'one-off' orders. If you want to enable the link for orders with other payment frequencies, select the most frequent option here - all orders with that payment frequency, or a less frequent one, will be eligible for a payment link - subject to 'Show Payment Link' (above) being set to 'yes', and invoice being unpaid, and the order record and invoice record not overriding this value.");
-if (!defined("NBILL_ONE_OFF"))
+/*if (!defined("NBILL_ONE_OFF"))
 {
 	define("NBILL_ONE_OFF", "One-off");
 	define("NBILL_WEEKLY", "Always Show");
@@ -124,7 +124,7 @@ if (!defined("NBILL_ONE_OFF"))
 	define("NBILL_BIANNUALLY", "Biannually");
 	define("NBILL_FIVE_YEARLY", "Five Yearly");
 	define("NBILL_TEN_YEARLY", "Ten Yearly");
-}
+}*/
 define("NBILL_DISPLAY_PATHWAY", "Display Pathway?");
 define("NBILL_DISPLAY_PATHWAY_DESC", "Whether or not to show a 'breadcrumb trail' at the top of the page when a user has logged in.");
 define("NBILL_DISPLAY_USERNAME", "Show user name field");

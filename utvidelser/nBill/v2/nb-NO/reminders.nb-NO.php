@@ -62,18 +62,18 @@ define("NBILL_REMINDER_ORDER_EXPIRY_EMAIL", "Hei {NAME},\n\nDette er en e-post f
 define("NBILL_REMINDER_RENEWAL_DUE_EMAIL", "Hei {NAME},\n\nDette er en påminnelse om at abonnementet for følgende ordre forfaller på {DATE}. Hvis du ønsker å fornye, kan du bruke følgende link: {PAYLINK}. Eventuell gjenværende tid på det gamle abonnementet vil bli lagt til på det nye slik at du ikke taper ved å fornye før abonnementet utløper.\n\n{ORDER}\n\nHvis du ikke lenger ønsker å motta disse påminnelsene, må du logge inn på din konto på {WEBSITE}, og endre innstillinger under \"Min konto-> Min profil\".\n\nHilsen,\n{VENDOR}");
 define("NBILL_REMINDER_INVOICE_OVERDUE_EMAIL", "Hei {NAME},\n\nDette er en påminnelse om at fakturanummer {INVOICE} for {AMOUNT} har vært utestående i {INTERVAL} {UNITS}, og er derfor nå forfalt. Vennligst betal denne fakturaen så snart som mulig. Hvis du ønsker å betale elektronisk, kan du bruke følgende lenke: {PAYLINK}.\n\nHilsen,\n{VENDOR}.");
 define("NBILL_REMINDER_USER_DEFINED_EMAIL", "Ikke glemt: <Skriv inn tekst her!>");
-define("NBILL_REMINDER_PAYMENT_DUE_SUBJECT", "Påminnelse: Betaling forfalt");
-define("NBILL_REMINDER_ORDER_EXPIRY_SUBJECT", "Påminnelse: Ordre utløpt");
-define("NBILL_REMINDER_RENEWAL_DUE_SUBJECT", "Påminnelse: Fornyelse forfalt");
-define("NBILL_REMINDER_INVOICE_OVERDUE_SUBJECT", "Påminnelse: Faktura forfalt");
-define("NBILL_REMINDER_USER_DEFINED_SUBJECT", "Påminnelse");
+define("NBILL_REMINDER_PAYMENT_DUE_SUBJECT", "%s-påminnelse: Betaling forfalt");
+define("NBILL_REMINDER_ORDER_EXPIRY_SUBJECT", "%s-påminnelse: Ordre utløpt");
+define("NBILL_REMINDER_RENEWAL_DUE_SUBJECT", "%s-påminnelse: Fornyelse forfalt");
+define("NBILL_REMINDER_INVOICE_OVERDUE_SUBJECT", "%s-påminnelse: Faktura forfalt");
+define("NBILL_REMINDER_USER_DEFINED_SUBJECT", "%s-påminnelse");
 
 //Reminder Types
-define("NBILL_REMINDER_PAYMENT_DUE", "Betaling forfalt");
+/*define("NBILL_REMINDER_PAYMENT_DUE", "Betaling forfalt");
 define("NBILL_REMINDER_ORDER_EXPIRY", "Ordre utløpt");
 define("NBILL_REMINDER_RENEWAL_DUE", "Fornyelse forfalt");
 define("NBILL_REMINDER_INVOICE_OVERDUE", "Faktura forfalt");
-define("NBILL_REMINDER_USER_DEFINED", "Brukerdefinert");
+define("NBILL_REMINDER_USER_DEFINED", "Brukerdefinert");*/
 
 //Units
 define("NBILL_REMINDER_UNIT_DAYS", "Dager");

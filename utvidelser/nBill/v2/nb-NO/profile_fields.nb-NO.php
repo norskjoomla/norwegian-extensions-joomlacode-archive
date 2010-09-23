@@ -42,3 +42,7 @@ define("NBILL_PROFILE_FIELD_IN_USE_NO", "Ikke i bruk");
 define("NBILL_PROFILE_FIELD_IN_USE_HELP", "Hvorvidt noen felt på eventuelle eksisterende skjemaer har samme navn, klient kobling, og kontakt kobling som dette feltet (og kan derfor bli oppdatert dersom dette feltet er oppdatert).");
 define("NBILL_PROFILE_FIELD_SAVE_FAILED", "Beklager, det oppstod et problem under lagring - det er ikke kjent om det ble lagret vellykket eller ikke. Dette kan skyldes et forbigående kommunikasjonsproblem mellom nettleseren og nettserveren. Vennligst prøv igjen.");
 define("NBILL_OPTIONS_CANNOT_UNSERIALIZE", "Det oppstod et problem ved overføring av dataene til serveren. Feltet kunne ikke lagres. Ta kontakt med brukerstøtte.");
+
+//Version 2.0.9
+define("NBILL_PROFILE_FIELD_PUBLISHED_YES", "Publisert");
+define("NBILL_PROFILE_FIELD_PUBLISHED_NO", "Ikke publisert");

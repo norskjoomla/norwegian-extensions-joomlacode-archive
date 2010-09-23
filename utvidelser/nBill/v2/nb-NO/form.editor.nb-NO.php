@@ -136,7 +136,7 @@ define("NBILL_FORM_FIELD_HORIZONTAL_HELP", "Hvis felttypen støtter det (vanligv
 define("NBILL_FORM_FIELD_MERGE_COLS", "Slå sammen kolonner?");
 define("NBILL_FORM_FIELD_MERGE_COLS_HELP", "Hvorvidt etiketten skal slås sammen med selve verdikolonnen ved visning av skjemaet");
 define("NBILL_FORM_FIELD_XREF", "Kryss referanse");
-define("NBILL_FORM_FIELD_XREF_HELP", "Hvis du vil fylle alternativene for en nedtrekksliste eller en alternativliste basert på verdiene i en databasetabell (i stedet for å definere hvert alternativ manuelt), kan du angi tabellen her. For å legge til din egne kryssreferansetabell, bare lage en tabell i databasen med et prefiks `%s`");
+define("NBILL_FORM_FIELD_XREF_HELP", "Hvis du vil fylle alternativene for en nedtrekksliste eller en alternativliste basert på verdiene i en databasetabell (i stedet for å definere hvert alternativ manuelt), kan du angi tabellen her. For å legge til din egne kryssreferansetabell, bare opprett en tabell i databasen med prefiks `%snbill_xref_`");
 define("NBILL_FORM_FIELD_XREF_SQL", "XRef SQL");
 define("NBILL_FORM_FIELD_XREF_SQL_HELP", "Hvis du velger å fylle valgene ved hjelp av den spesielle [SQL List] kryssreferansetabell, kan du skrive inn SQL her for å returnere en liste med navn / verdipar (bruk `kode` og `beskrivelse` som kolonnens alias)");
 define("NBILL_FORM_FIELD_CONFIRMATION", "Vis bekreftelse?");

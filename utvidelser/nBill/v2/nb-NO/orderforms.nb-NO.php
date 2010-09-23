@@ -133,8 +133,6 @@ define("NBILL_UPLOAD_ALLOWED_TYPES", "Tillatte filtyper");
 define("NBILL_INSTR_UPLOAD_ALLOWED_TYPES", "Skriv inn de forskjellige tillatte filtypene adskilt med tegnet ’|’ (f. eks. Jpg |. Bmp |. Gif). La stå tomt slik at en hvilken som helst filtype kan lastes opp.");
 define("NBILL_ATTACH_TO_EMAIL", "Legg ved e-posten til administrator?");
 define("NBILL_INSTR_ATTACH_TO_EMAIL", "Hvorvidt å legge ved opplastede filer når bekreftelses e-post blir sendt til administrator (hvis aktuelt).");
-define("NBILL_SECURITY_IMAGE", "Bruk sikkerhetsbilde?");
-define("NBILL_INSTR_SECURITY_IMAGE", "Om du vil vise en CAPTCHA sikkerhetsbilde for å hindre spam (krever at PHP GD og TrueType biblioteket er installert på din nettserver).");
 
 //Version 1.2.0
 define("NBILL_ORDER_FORM_LINK", "Du kan lenke til dette ordreskjemaet med følgende adresse: %s");
@@ -173,3 +171,6 @@ define("NBILL_INSTR_FORM_LEGACY_RENDERER", "Hvis du setter denne til å `ja`, vi
 define("NBILL_FORM_LEGACY_TABLE_BORDER", "Bakoverkompatible kantlinjer?");
 define("NBILL_INSTR_FORM_LEGACY_TABLE_BORDER", "I tidligere versjoner av " . NBILL_BRANDING_NAME . ", kunne du angi at tabellen som inneholdt feltene kunne ha kantlinjer. Dette ser i grunnet ikke bra ut, og var sannsynligvis en dårlig idé, men alternativet er tatt med her til glede for dem som går fra en tidligere versjon og ønsker å beholde den. Dette alternativet vil kun tre i kraft dersom `Bruk bakoverkompatibilitet` er satt til `ja`.");
 define("NBILL_FORM_LEGACY_RENDERER_WARNING", "ADVARSEL! Dette skjemaet bruker bakoverkompatibilitet, slik at det er ikke sikkert feltene vises nøyaktig slik du definerer dem her, men bør ligne på hvordan de gjorde i tidligere versjoner av " . NBILL_BRANDING_NAME . ". Du kan slå av eller på bakoverkompatibilitet på fanene ’Detaljer’ nedenfor.");
+
+//Version 2.0.9
+define("NBILL_ORDER_FORM_UNMAPPED", "WARNING! You have specified that the form(s) highlighted below should automatically create order records, but none of the fields on the form are mapped to any client values. You need to either: 1) Make the form available to logged-in users only (so no mapping is required); 2) Change the form to NOT automatically create order records (not usually recommended unless you have some custom code to make the form do something else) or 3) Map one or more fields to a client value (on the processing tab of the field properties pane).");

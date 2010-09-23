@@ -27,7 +27,7 @@ define("NBILL_CONTACTS_TITLE", "Kontakter");
 define("NBILL_WEBSITE", "Nettside");
 define("NBILL_TELEPHONE", "Telefon 1");
 define("NBILL_TELEPHONE_2", "Telefon 2");
-define("NBILL_USERNAME_PASSWORD_REQUIRED", "Et brukernavn og passord er påkrevd for å opprette en ny bruker.");
+define("NBILL_USERNAME_PASSWORD_REQUIRED", "Brukernavn, passord og e-postadresse er påkrevd for å opprette en ny bruker.");
 define("NBILL_EDIT_CONTACT", "Rediger kontakter");
 define("NBILL_NEW_CONTACT", "Ny kontakt");
 define("NBILL_CONTACT_DETAILS", "Kontaktdetaljer");

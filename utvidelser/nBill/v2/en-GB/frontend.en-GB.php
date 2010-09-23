@@ -152,8 +152,8 @@ define("NBILL_FE_SECURITY_IMAGE_CHANGE", "[Change letter code]");
 define("NBILL_ERR_SECURITY_IMAGE_WRONG", "Sorry, the security image code you entered was incorrect. Please try again.");
 
 /* Version 1.1.4 */
-define("NBILL_FORM_NEXT", "Next >>");
-define("NBILL_FORM_PREV", "<< Previous");
+//define("NBILL_FORM_NEXT", "Next >>");
+//define("NBILL_FORM_PREV", "<< Previous");
 define("NBILL_FORM_SUBMIT", "Submit");
 define("NBILL_RENEW_SUBMIT", "Submit");
 

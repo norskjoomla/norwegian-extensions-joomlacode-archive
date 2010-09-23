@@ -25,27 +25,27 @@
 //Clients
 define("NBILL_CLIENTS_TITLE", "Clients");
 define("NBILL_CLIENT_USER", "Username");
-define("NBILL_WEBSITE", "Website Address");
-define("NBILL_TELEPHONE", "Telephone");
-define("NBILL_TELEPHONE_2", "2nd Telephone Line");
+//define("NBILL_WEBSITE", "Website Address");
+//define("NBILL_TELEPHONE", "Telephone");
+//define("NBILL_TELEPHONE_2", "2nd Telephone Line");
 define("NBILL_USERNAME_PASSWORD_EMAIL_REQUIRED", "In order to create a new user, a user name, password, and e-mail address are required.");
 define("NBILL_EDIT_CLIENT", "Edit Client");
 define("NBILL_NEW_CLIENT", "New Client");
 define("NBILL_CLIENT_DETAILS", "Client Details");
-define("NBILL_COMPANY_NAME", "Company Name");
-define("NBILL_CLIENT_ADD_NAME_TO_INVOICE", "Add Primary Contact Name to Invoices?");
-define("NBILL_ADDRESS_1", "Address Line 1");
-define("NBILL_ADDRESS_2", "Address Line 2");
-define("NBILL_ADDRESS_3", "Address Line 3");
-define("NBILL_TOWN", "Town/City");
-define("NBILL_STATE", "State/County/Province");
-define("NBILL_POSTCODE", "Postcode");
-define("NBILL_CLIENT_COUNTRY", "Country");
+//define("NBILL_COMPANY_NAME", "Company Name");
+//define("NBILL_CLIENT_ADD_NAME_TO_INVOICE", "Add Primary Contact Name to Invoices?");
+//define("NBILL_ADDRESS_1", "Address Line 1");
+//define("NBILL_ADDRESS_2", "Address Line 2");
+//define("NBILL_ADDRESS_3", "Address Line 3");
+//define("NBILL_TOWN", "Town/City");
+//define("NBILL_STATE", "State/County/Province");
+//define("NBILL_POSTCODE", "Postcode");
+//define("NBILL_CLIENT_COUNTRY", "Country");
 define("NBILL_CLIENT_REFERENCE", "Client Reference");
-define("NBILL_MOBILE", "Mobile (Cell) Phone");
-define("NBILL_FAX", "Fax");
-define("NBILL_CLIENT_CURRENCY", "Default Currency");
-define("NBILL_CLIENT_TAX_ZONE", "Client Tax Zone");
+//define("NBILL_MOBILE", "Mobile (Cell) Phone");
+//define("NBILL_FAX", "Fax");
+//define("NBILL_CLIENT_CURRENCY", "Default Currency");
+//define("NBILL_CLIENT_TAX_ZONE", "Client Tax Zone");
 define("NBILL_CREDIT_AMOUNT", "Credit Amount");
 define("NBILL_CREDIT_TAX_AMOUNT", "Credit Tax Amount");
 define("NBILL_CREDIT_LEDGER_CODE", "Credit Ledger Code");
@@ -117,3 +117,6 @@ define("NBILL_INSTR_CREDIT_TAX_RATE", "The rate of tax used where the amount of 
 define("NBILL_CLIENT_CUSTOM_FIELDS", "Custom Fields");
 define("NBILL_CLIENT_NEW_QUOTE", "Create New Quote for this Client");
 define("NBILL_CLIENT_VIEW_QUOTES", "View Quotes for this Client");
+
+//Version 2.0.9
+define("NBILL_CLIENT_USERNAME_ALPHANUM", "Please use letters and numbers only for the username");

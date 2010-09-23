@@ -29,4 +29,4 @@ define("NBILL_FAVOURITES_NAME", "Option Name");
 define("NBILL_FAVOURITES_DESCRIPTION", "Option Description");
 define("NBILL_FAVOURITES_SELECT", "Select as Favourite?");
 define("NBILL_FAVOURITE_YES", "Yes");
-define("NBILL_FAVOURITE_YES", "No");
+define("NBILL_FAVOURITE_NO", "No");

@@ -78,3 +78,6 @@ define("NBILL_QUOTE_GENERATE_WARNING_ORDERS", "WARNING! The following order reco
 define("NBILL_QUOTE_GENERATE_WARNING_INVOICES", "WARNING! The following invoice record(s) have already been generated based on this quote: ");
 define("NBILL_WARNING_QUOTE_ACCEPTED", "WARNING! This quote has already been accepted. Are you sure you want to change it?");
 define("NBILL_WARNING_QUOTE_PART_ACCEPTED", "WARNING! This quote has already been partially accepted. Are you sure you want to change it?");
+
+//Version 2.0.9
+define("NBILL_QUOTE_PAY_FREQ_CHANGED", "WARNING! You have changed the payment frequency but the price will not be changed automatically. Please check that the price you are quoting is still correct.");
