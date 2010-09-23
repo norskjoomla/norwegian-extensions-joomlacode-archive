@@ -97,7 +97,7 @@ define("NBILL_MENU_ITEM_CREATED", "Menypunkt opprettet.");
 define("NBILL_MENU_ITEM_NOT_CREATED", "Beklager, menypunktet kunne ikke opprettes.");
 define("NBILL_MENU_ITEM_TO_EDIT", "å redigere menypunktet.");
 define("NBILL_FORM_ORDER_GATEWAY", "Betalingsmodul");
-define("NBILL_INSTR_FORM_ORDER_GATEWAY", "Enten en fast verdi som betalingsmodulen skal bruke, eller en tagg som representerer verdi i ett felt, (f. eks ##23##).  Verdien som eventuelt er angitt her oversyrer verdien angitt på fanen 'Detaljer'. ")
+define("NBILL_INSTR_FORM_ORDER_GATEWAY", "Enten en fast verdi som betalingsmodulen skal bruke, eller en tagg som representerer verdi i ett felt, (f. eks ##23##).  Verdien som eventuelt er angitt her oversyrer verdien angitt på fanen 'Detaljer'.");
 define("NBILL_FORM_SHOW_LOGIN_BOX", "Vis innlogging?");
 define("NBILL_INSTR_FORM_SHOW_LOGIN_BOX", "Om du vil vise innloggingsboksen hvis bruker ikke er innlogget.");
 define("NBILL_FORM_ADMIN_EMAIL_ADDR", "Administrators e-postadresse");
