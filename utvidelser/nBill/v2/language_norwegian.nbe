@@ -25,7 +25,7 @@ type=language
 name=nb-NO
 
 #The title is used as the default human-readable display value (although the user can change it):
-title=Norsk bokmål
+title=Norsk bokmÃ¥l
 
 author=Netshine Software Limited and Joomla! i Norge
 
@@ -41,7 +41,7 @@ author_url=www.nbill.co.uk
 
 version=2.0.9
 
-description=Norsk bokmål-oversettelse for nBill - Norwegian bokmal language pack for nBill.
+description=Norsk bokmÃ¥l-oversettelse for nBill - Norwegian bokmal language pack for nBill.
 
 admin_file=nb-NO/ajax.nb-NO.php
 admin_file=nb-NO/anomaly.nb-NO.php
