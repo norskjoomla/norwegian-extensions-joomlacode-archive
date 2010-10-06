@@ -181,7 +181,7 @@ define("NBILL_MNU_SHIPPING", "Frakt/Levering");
 define("NBILL_MNU_SHIPPING_DESC", "Sett opp fraktvalg");
 define("NBILL_MNU_NOMINAL_LEDGER", "Hovedbok");
 define("NBILL_MNU_NOMINAL_LEDGER_DESC", "Administrer kostsenter");
-define("NBILL_MNU_BACKUP_RESTORE", "Sikkerhetskopi/<br />Gjenoppretting");
+define("NBILL_MNU_BACKUP_RESTORE", "Sikkerhetskopier");
 define("NBILL_MNU_BACKUP_RESTORE_DESC", "Sikkerhetskopiér eller gjenopprett dine data");
 define("NBILL_MNU_BILLING", "Fakturering");
 define("NBILL_MNU_BILLING_DESC", "Administrer kunder, produkter, ordrer og fakturaer");
