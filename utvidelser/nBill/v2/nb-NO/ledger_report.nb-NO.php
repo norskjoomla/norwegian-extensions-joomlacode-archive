@@ -38,7 +38,7 @@ define("NBILL_LEDGER_REPORT_FOR", "For");
 define("NBILL_LEDGER_REPORT_AWAITING_RCT_NO", "Venter på kvitteringsnummer");
 define("NBILL_LEDGER_REPORT_AWAITING_PYT_NO", "Venter på betalingsnummer.");
 define("NBILL_LEDGER_REPORT_INVOICE", "Faktura");
-define("NBILL_LEDGER_REPORT_TOTAL", "Totalt for %s (%s transaksjoner)")");
+define("NBILL_LEDGER_REPORT_TOTAL", "Totalt for %s (%s transaksjoner)");
 define("NBILL_LEDGER_REPORT_EXPAND_ALL", "Utvid alle");
 define("NBILL_LEDGER_REPORT_TOTAL_INCOME", "Inntekt totalt (%s transaksjoner)");
 define("NBILL_LEDGER_REPORT_PAID_TO", "Betal til");

@@ -53,7 +53,7 @@ define("NBILL_EXP_TAX_AMOUNT", "Beløp");
 define("NBILL_EXP_TAX_REFERENCE", "Avgiftsreferanse");
 define("NBILL_INSTR_EXP_TAX_REFERENCE", "MVA-nummer til denne leverandøren");
 define("NBILL_EXP_NO_SUMMARY", "Ikke ta med på oppsummeringen?");
-define("NBILL_INSTR_EXP_NO_SUMMARY", "Hvis du ønsker at denne utgiftlinjen ikke skal være med på oppsummeringen, setter denne til "ja".");
+define("NBILL_INSTR_EXP_NO_SUMMARY", "Hvis du ønsker at denne utgiftlinjen ikke skal være med på oppsummeringen, setter denne til 'ja'.");
 define("NBILL_EXP_SUPPLIER_NAME_REQUIRED", "Angi hvem betalingen ble gjort til (leverandørnavn).");
 define("NBILL_EXP_WHAT_FOR", "ADVARSEL! Du har ikke angitt hva betalingen gjelder. Klikk OK for å lagre likevel, eller klikk Avbryt for å gå tilbake og skrive hva betalingen gjelder.");
 define("NBILL_EXP_NO_AMOUNT", "ADVARSEL! Du har ikke skrevet beløp. Klikk OK for å lagre likevel, eller klikk Avbryt for å gå tilbake og skrive inn et beløp.");
