@@ -4,7 +4,7 @@
 * @Copyright (C) 2007 Konstantinos Kokkorogiannis
 * @ All rights reserved
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
-* @version 1.6.9
+* @version 1.7.3
 **/
 defined('_JEXEC') or die('Restricted access');
 
@@ -121,8 +121,6 @@ class TOOLBAR_RAPIDRECIPE {
 		JToolBarHelper::spacer();
 		JToolBarHelper::custom('deleteconfirm','delete.png','delete_f2.png','Delete', true);
 		JToolBarHelper::spacer();
-	echo '<td><a class="toolbar" href="index2.php?option=com_rapidrecipe">'. "\n";
-	echo '<img src="images/cancel_f2.png" alt="Cancel" align="middle" name="cancel" border="0" />	<br />Cancel</a></td>' . "\n";
 		JToolBarHelper::spacer();
 		JToolBarHelper::help( 'screen.trashmanager' );
 		
@@ -217,7 +215,7 @@ class TOOLBAR_RAPIDRECIPE {
 		
 		$bar = & JToolBar::getInstance('toolbar');
 		$bar->prependButton( 'custom', '<a href="index.php?option=com_rapidrecipe"><img src="components/com_rapidrecipe/rrlogo.png"></a>' );	
-	
+
 		
 		JToolBarHelper::spacer();
 		JToolBarHelper::publishList();
