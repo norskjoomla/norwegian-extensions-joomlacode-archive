@@ -4,7 +4,7 @@
 * @Copyright (C) 2008 Konstantinos Kokkorogiannis
 * @ All rights reserved
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
-* @version 1.6.9
+* @version 1.7.3
 **/
 
 
@@ -12,20 +12,15 @@
 defined('_JEXEC') or die('Restricted access');
 require_once( $mainframe->getPath( 'class' ) );
 
+rrloadlang();
 
 global $mosConfig_absolute_path;
 // ensure user has access to this function
 
-
- // include language file, or default to english
- if (file_exists (JPATH_COMPONENT_SITE.DS.'languages'.DS. $mosConfig_lang . '.php')) {
-	include_once (JPATH_COMPONENT_SITE.DS.'languages'.DS. $mosConfig_lang . '.php');
- } else {
-	include_once (JPATH_COMPONENT_SITE.DS.'languages'.DS.'norwegian.php');
- } // end if
+rr_updatedb();
  
 $document =& JFactory::getDocument();
-$document->addStyleSheet('components/com_rapidrecipe/admin.css'); 
+//$document->addStyleSheet('components/com_rapidrecipe/admin.css'); 
 
 
 $task 	= trim( strtolower(JRequest::getVar('task') ) );
@@ -50,6 +45,8 @@ define('_category_id',trim(JRequest::getVar('category_id')));
 
 if (isset($_REQUEST['cid'])) {
 	$cid 			= $_REQUEST['cid'];	
+} else {
+	$cid 			= array();
 }
 
 $section= trim(JRequest::getVar('section'));
@@ -62,7 +59,7 @@ $parent_id= trim( intval(JRequest::getVar('parent_id')));
 $image= trim( JRequest::getVar('image'));
 $published= trim( JRequest::getVar('published'));
 
-
+$database = & JFactory::getDBO();
 
 if (count($cid)==0) {
 	$cid[0]=$id;
@@ -258,17 +255,18 @@ case 'config':
 case 'feature':
 	switch ($section) {
 		case 'categories':
-			rr_runSQL('UPDATE #__rr_categories SET in_featured=1 where category_id=' . mysql_real_escape_string($id));			
+			rr_runSQL('UPDATE #__rr_categories SET in_featured=1 where category_id=' . $database->getEscaped($id));			
 			rr_admincategories();
 		break;
 		case 'recipes':	
-			rr_save_config (mysql_real_escape_string($id) , 'featured_recipe');					
+			rr_save_config ($database->getEscaped($id) , 'featured_recipe');	
+			$rr_conf['featured_recipe'] = $database->getEscaped($id);
 			rr_adminrecipes();
 		break;
 	}
 	break;		
 case 'unfeature':
-	rr_runSQL('UPDATE #__rr_categories SET in_featured=0 where category_id=' . mysql_real_escape_string($id));			
+	rr_runSQL('UPDATE #__rr_categories SET in_featured=0 where category_id=' . $database->getEscaped($id));			
 	rr_admincategories();
 	break;
 case 'admintrash':
@@ -282,20 +280,35 @@ case 'restoreconfirm':
 
 case 'updatedb':
 	$rr_version = $rr_conf['rr_version'];
-	if ($rr_version<'1.6.9') {
-		if ($rr_version<'1.6.8') {
-			//changes for 1.6.8
-			rr_save_config('0','email_recipe_author_on_comment');		
-			rr_save_config('0','fav_show_cats');		
-			rr_save_config('0','add_recipe_intro_to_meta_tag_description');	
-			rr_save_config('0','featured_only_with_image');	
+	if ($rr_version<'1.7.3') {	
+		if ($rr_version<'1.7.1') {
+			if ($rr_version<'1.6.9') {
+				if ($rr_version<'1.6.8') {
+					//changes for 1.6.8
+					rr_save_config('0','email_recipe_author_on_comment');		
+					rr_save_config('0','fav_show_cats');		
+					rr_save_config('0','add_recipe_intro_to_meta_tag_description');	
+					rr_save_config('0','featured_only_with_image');	
+					
+					//add the new field for the videos
+					$query = 'ALTER TABLE `#__rr_recipes` ADD `video_embed_code` TEXT NOT NULL';		
+					rr_runSQL ($query);
+				}			
+				rr_save_config('1','at_a_glance_links');		
+				rr_save_config('1','rr_comment_field_available');
+			}
 			
-			//add the new field for the videos
-			$query = 'ALTER TABLE `#__rr_recipes` ADD `video_embed_code` TEXT NOT NULL';		
-			rr_runSQL ($query);
-		}			
-		$rr_conf['rr_version'] = '1.6.9';
-		rr_save_config('1.6.9','rr_version');
+			
+			$query = 'ALTER TABLE `#__rr_recipes` ADD `metakey` TEXT NOT NULL ,
+						ADD `metadesc` TEXT NOT NULL ;';
+			//new configuration value
+			$rr_conf['show_ordering_options_in_recipe_listing'] = '0';
+						
+			//take care of the version			
+		}
+		$rr_conf['rr_version'] = '1.7.3';
+		rr_save_config('1.7.3','rr_version');			
+		
 	}
 	$mainframe->redirect( "index2.php?option=com_rapidrecipe&mosmsg=Upgrade completed" );
 		
@@ -304,6 +317,41 @@ case 'updatedb':
 default:
 	rr_echomenu();
 }
+
+function rr_updatedb() {
+	global $rr_conf;
+	$rr_version = $rr_conf['rr_version'];
+	if ($rr_version<'1.7.3') {		
+		if ($rr_version<'1.7.1') {
+			if ($rr_version<'1.6.9') {
+				if ($rr_version<'1.6.8') {
+					//changes for 1.6.8
+					rr_save_config('0','email_recipe_author_on_comment');		
+					rr_save_config('0','fav_show_cats');		
+					rr_save_config('0','add_recipe_intro_to_meta_tag_description');	
+					rr_save_config('0','featured_only_with_image');	
+					
+					//add the new field for the videos
+					$query = 'ALTER TABLE `#__rr_recipes` ADD `video_embed_code` TEXT NOT NULL';		
+					rr_runSQL ($query);
+				}			
+				rr_save_config('1','at_a_glance_links');		
+				rr_save_config('1','rr_comment_field_available');
+			}
+			rr_save_config('1','use_back_editor');
+			
+			$query = 'ALTER TABLE `#__rr_recipes` ADD `metakey` TEXT NOT NULL ,
+						ADD `metadesc` TEXT NOT NULL ;';
+			rr_runSQL ($query);
+		
+		}
+		$rr_conf['rr_version'] = '1.7.3';
+		rr_save_config('1.7.3','rr_version');			
+	}
+	//$mainframe->redirect( "index2.php?option=com_rapidrecipe&mosmsg=Upgrade completed" );
+
+}
+
 
 function rr_cb($fieldname,$value) {
 	global $rr_conf;
@@ -364,15 +412,7 @@ function rr_echomenu() {
 				<div style="float:left;">
 					<div class="icon">
 						Din versjon er <?php echo $rr_conf['rr_version'] ?><br/>
-						Sjekk hva <a href="http://www.rapid-source.com/info/general-info/latest-product-version.html" target="_blank">nyeste versjon er</a>.<br/>
-						<?php $rr_version = $rr_conf['rr_version'];
-							  if ($rr_version!='1.6.9') { ?>						
-							<a href="index2.php?option=com_rapidrecipe&task=updatedb">
-								<img src="images/config.png" alt="Update latest db changes" align="middle" name="image" border="0" />
-								Oppdater datbase til siste versjon
-							</a><br /><br />
-						<?php } ?>					
-						
+						Sjekk hva <a href="http://www.rapid-source.com/info/general-info/latest-product-version.html" target="_blank">nyeste versjon er</a>.<br/><br />
 					</div>
 				</div>
 			</td>
@@ -426,9 +466,10 @@ function rr_echomenu() {
 
 function rr_restoretrash($cid) {
 	global $rr_conf;
+	$database = & JFactory::getDBO();
 	$cnt = count($cid);
 	for ($i = 0; $i < $cnt; $i++) {
-		$query = 'UPDATE #__rr_recipes SET deleted = 0 WHERE recipe_id =' . mysql_escape_string($cid[$i]);
+		$query = 'UPDATE #__rr_recipes SET deleted = 0 WHERE recipe_id =' . $database->getEscaped($cid[$i]);
 		rr_runSQL ($query);
 	}	
 	
@@ -618,6 +659,15 @@ function rr_config() {
 				<?php echo JHTML::_( 'select.booleanlist', 'overide_order_for_alphabetical', '', $rr_conf['overide_order_for_alphabetical'], JText::_( 'Yes' ), JText::_( 'No' ) ); ?>
 			</td>
 		</tr>		
+
+		<tr>
+			<td valign="top">
+                        Show extra ordering options? (newest and rating)?
+                        </td>
+			<td>
+				<?php echo JHTML::_( 'select.booleanlist', 'show_ordering_options_in_recipe_listing', '', $rr_conf['show_ordering_options_in_recipe_listing'], JText::_( 'Yes' ), JText::_( 'No' ) ); ?>
+			</td>
+		</tr>	
 		
 		<tr>
 			<td valign="top">
@@ -705,7 +755,7 @@ function rr_config() {
 							FROM #__core_acl_aro_groups
 							WHERE name != 'ROOT'
 							AND name != 'USERS'
-							AND lft >12 ");
+							AND lft >3 ");
 	$qresult = $database->loadObjectList();
   	//$groups = array();
 
@@ -739,6 +789,26 @@ function rr_config() {
 			</td>
 			<td>
 				<?php echo JHTML::_( 'select.booleanlist', 'user_restriction_hides_ingredients', '', $rr_conf['user_restriction_hides_ingredients'], JText::_( 'Yes' ), JText::_( 'No' ) ); ?>
+
+			</td>
+		</tr>		
+		
+		<tr>
+			<td valign="top">
+				The categories in "At a glance" box, should be links?
+			</td>
+			<td>
+				<?php echo JHTML::_( 'select.booleanlist', 'at_a_glance_links', '', $rr_conf['at_a_glance_links'], JText::_( 'Yes' ), JText::_( 'No' ) ); ?>
+
+			</td>
+		</tr>	
+
+		<tr>
+			<td valign="top">
+                            Use editor in Back end?
+                            </td>
+			<td>
+				<?php echo JHTML::_( 'select.booleanlist', 'use_back_editor', '', $rr_conf['use_back_editor'], JText::_( 'Yes' ), JText::_( 'No' ) ); ?>
 
 			</td>
 		</tr>		
@@ -870,6 +940,16 @@ function rr_config() {
 			</td>
 		</tr>
 
+		<tr>
+			<td valign="top">
+                        Comment field is available?
+            </td>
+			<td>
+				<?php echo JHTML::_( 'select.booleanlist', 'rr_comment_field_available', '', $rr_conf['rr_comment_field_available'], JText::_( 'Yes' ), JText::_( 'No' ) ); ?>
+
+			</td>
+		</tr>		
+		
 		<tr>
 			<td valign="top">
                         Vote is required in order for user to comment?
@@ -1115,6 +1195,7 @@ function rr_saveconfigALL() {
 		'admin_group'=> trim( JRequest::getVar('admin_group', '' ) ),
 		'rr_use_icons'=> trim( JRequest::getVar('rr_use_icons', '' ) ),
 		'rr_comment_required_to_vote'=> trim( JRequest::getVar('rr_comment_required_to_vote', '' ) ),
+		'rr_comment_field_available'=> trim( JRequest::getVar('rr_comment_field_available', '' ) ),		
 		'rr_vote_required_to_comment'=> trim( JRequest::getVar('rr_vote_required_to_comment', '' ) ),
 		'recipe_template'=> trim( JRequest::getVar('recipe_template', '' ) ),	
 		'hide_content_from_unregistered'=> trim( JRequest::getVar('hide_content_from_unregistered', '' ) ),	
@@ -1134,7 +1215,10 @@ function rr_saveconfigALL() {
 		'email_recipe_author_on_comment'=> trim( JRequest::getVar('email_recipe_author_on_comment', '' ) ),
 		'fav_show_cats'=> trim( JRequest::getVar('fav_show_cats', '' ) ),
 		'add_recipe_intro_to_meta_tag_description'=> trim( JRequest::getVar('add_recipe_intro_to_meta_tag_description', '' ) ),
-		'featured_only_with_image'=> trim( JRequest::getVar('featured_only_with_image', '' ) )		
+		'featured_only_with_image'=> trim( JRequest::getVar('featured_only_with_image', '' ) ),
+		'at_a_glance_links'=> trim( JRequest::getVar('at_a_glance_links', '' ) ),
+		'show_ordering_options_in_recipe_listing'=> trim( JRequest::getVar('show_ordering_options_in_recipe_listing', '' )),
+		'use_back_editor'=> trim( JRequest::getVar('use_back_editor', '' ))	
 	);
 	
 	//print_r ($allConfig);
@@ -1156,7 +1240,7 @@ function rr_saveaddrecipe() {
 	
 	$user =& JFactory::getUser();
 	$user_id = $user->get('id');
-
+	
 	$catid = array();
 	$catid = JRequest::getVar('catid', 0 );
 	
@@ -1165,16 +1249,35 @@ function rr_saveaddrecipe() {
 	//find out the latest ordering
 	$qresult = rr_getonerow('Select max(ordering) as maxordering from #__rr_recipes');
 	$newordering = $qresult->maxordering + 1;
-	
+
+	if ($user->get('usertype') == 'Super Administrator') {
+		$created_by = intval( JRequest::getVar('created_by', 0 ) );
+		
+		//check if user id exists and it is a non deleted user
+		$user_exists_row = rr_getonerow('SELECT id from #__users WHERE id= ' . $created_by . ' AND block=0' );
+		$user_exists = $user_exists_row->id;
+		if (!$user_exists) {
+			$created_by = 0;
+		}
+		//echo "the user exists has $user_exists <br>";
+	}	
 
 	if ($id>0) {    //it is an edit
 		$existingItem =new mosRecipe($database);
 		$existingItem->load($id);
 		$newordering = $existingItem->ordering;
-		$user_id = $existingItem->created_by;
+		if ($created_by) {
+			$user_id = $created_by;	
+		} else {
+			$user_id = $existingItem->created_by;
+		}	
 		$createddate = $existingItem->created;
 	}			
 
+	if ($created_by) {
+		$user_id = $created_by;	
+	}	
+	
 	$item =new mosRecipe($database);			
 	
 	if (!$item->bind( $_POST )) {
@@ -1195,11 +1298,15 @@ function rr_saveaddrecipe() {
 	
 	//get rid of the apostrophe bug
 	$item->title =JRequest::getVar('title', '', 'post', 'string', JREQUEST_ALLOWRAW);
-	$item->ingredients =JRequest::getVar('ingredients', '', 'post', 'string', JREQUEST_ALLOWRAW);
+	if (! $rr_conf['use_back_editor']) {
+		$item->ingredients = rr_ConvertTextToList(htmlspecialchars($item->ingredients), 'rr_method_list',0); 
+		$item->steps = rr_ConvertTextToList(htmlspecialchars($item->steps), 'rr_method_list',1);	
+	} else {
+		$item->ingredients =JRequest::getVar('ingredients', '', 'post', 'string', JREQUEST_ALLOWRAW);
+		$item->steps = JRequest::getVar('steps', '', 'post', 'string', JREQUEST_ALLOWRAW);
+	}
 	$item->introtext =JRequest::getVar('introtext', '', 'post', 'string', JREQUEST_ALLOWRAW);
-	$item->steps = JRequest::getVar('steps', '', 'post', 'string', JREQUEST_ALLOWRAW);
 	$item->recipecomment = JRequest::getVar('recipecomment', '', 'post', 'string', JREQUEST_ALLOWRAW);
-	
 	
 	
 
@@ -1234,7 +1341,7 @@ function rr_editaddrecipe($recipeid='') {
 	$author_data = array();
 	$reccategoriesobject = array();
 	if ($recipeid) {
-		$recipe = rr_getonerow('SELECT * from #__rr_recipes WHERE recipe_id= ' . mysql_real_escape_string($recipeid) . ' AND deleted=0' );
+		$recipe = rr_getonerow('SELECT * from #__rr_recipes WHERE recipe_id= ' . $database->getEscaped($recipeid) . ' AND deleted=0' );
 		$recipe_id = $recipe->recipe_id;
 		$author_data = rr_getonerow('Select name, username, email from #__users WHERE id=' .  $recipe->created_by);
 		$reccategoriesobject = rr_GetRecipesCategories($recipeid);
@@ -1246,6 +1353,13 @@ function rr_editaddrecipe($recipeid='') {
 		jimport( 'joomla.filesystem.folder' );
 		JFolder::create( $dest_dir );
 	}	
+	
+	if ((!$rr_conf['use_back_editor']) && ($recipeid)) {
+		$recipe->introtext		= strip_tags($recipe->introtext);	
+		$recipe->ingredients	= strip_tags($recipe->ingredients);	
+		$recipe->steps			= strip_tags($recipe->steps);	
+		$recipe->recipecomment	= strip_tags($recipe->recipecomment);
+	}
 	
 	//Create an array with the categories of this recipe. To be used later
 	$reccategories = array();
@@ -1277,11 +1391,16 @@ function rr_editaddrecipe($recipeid='') {
 		function submitbutton(pressbutton, section) {
 			var form = document.adminForm;
 
+<?php
+		if (!$rr_conf['use_back_editor']) {
+?>
 			// do field validation
 			var text = <?php echo $editor->getContent( 'introtext' ); ?>
 			var text = <?php echo $editor->getContent( 'ingredients' ); ?>
 			var text = <?php echo $editor->getContent( 'recipecomment' ); ?>
-
+<?php
+		}
+?>
 			if (pressbutton == 'cancel') {
 				submitform( pressbutton );
 				return;
@@ -1395,6 +1514,21 @@ function rr_editaddrecipe($recipeid='') {
 					</td>
 					<td>				
 						<?php echo '<a href="mailto:' . $author_data->email . '?subject=' . _RR_RECIPES . ': ' . $recipe->title. '">' . $author_data->username . '</a>' ; ?>
+<?php
+	$user =& JFactory::getUser();
+	$user_id = $user->get('id');
+	if ($user->get('usertype') == 'Super Administrator') {
+	
+?>
+						- 
+						<span style="color:red"> 
+							Overide with user id: 
+							<input type="input" name="created_by" value="<?php echo $recipe->created_by; ?>" />
+							(will be saved only if the user id exists)
+						</span>				
+<?php
+	}
+?>
 					</td>
 				</tr>
 
@@ -1416,7 +1550,15 @@ function rr_editaddrecipe($recipeid='') {
 					    <?php echo _RR_DESCRIPTION; ?>
 					</td>
 					<td colspan="2">
-<?php  	echo $editor->display( 'introtext' , $recipe->introtext, '400', '200', '79', '15' ); ?>
+<?php  	
+						if ($rr_conf['use_back_editor']) {
+							echo $editor->display( 'introtext',$recipe->introtext  ,  '400', '200', '79', '15' ); 
+						} else {
+?>
+						<textarea name="introtext" rows="5" cols="60"><?php echo $recipe-> introtext; ?></textarea>		
+<?php
+						}	
+?>
 					</td>
 				</tr>
 
@@ -1426,11 +1568,16 @@ function rr_editaddrecipe($recipeid='') {
 					</td>
 					<td colspan="2">
 <?php
-		if (file_exists($mosConfig_absolute_path . '/administrator/components/com_ingredients/admin.ingredients.php')) {
-			echo '<input class="button" type="submit" value="Edit Ingredients List" name="go_to_ingredients" onclick="' . "javascript:submitbutton('ingredients')" . ';"/>' . "\n";
-		}
-		echo $editor->display( 'ingredients',$recipe->ingredients  ,  '400', '200', '79', '15' );
+						if ($rr_conf['use_back_editor']) {
+							echo $editor->display( 'ingredients',$recipe->ingredients  ,  '400', '200', '79', '15' );
+						} else {
 ?>
+						<textarea name="ingredients" rows="5" cols="60"><?php echo $recipe-> ingredients; ?></textarea>		
+<?php
+						}	
+?>
+
+
 					</td>
 				</tr>
 
@@ -1439,7 +1586,15 @@ function rr_editaddrecipe($recipeid='') {
 				    <?php echo _RR_STEPS; ?>
 					</td>
 					<td colspan="2">
-<?php  	echo $editor->display( 'steps',$recipe->steps  ,  '400', '200', '79', '15' ); ?>
+<?php  	
+						if ($rr_conf['use_back_editor']) {
+							echo $editor->display( 'steps',$recipe->steps  ,  '400', '200', '79', '15' ); 
+						} else {
+?>
+						<textarea name="steps" rows="5" cols="60"><?php echo $recipe-> steps; ?></textarea>		
+<?php
+						}	
+?>					
 					</td>
 				</tr>
 
@@ -1449,7 +1604,15 @@ function rr_editaddrecipe($recipeid='') {
 					    <?php echo _RR_RECIPE_COMMENT; ?>
 					</td>
 					<td colspan="2">
-<?php  	echo $editor->display( 'recipecomment',$recipe->recipecomment  ,  '400', '200', '79', '15' ); ?>
+<?php  	
+						if ($rr_conf['use_back_editor']) {
+							echo $editor->display( 'recipecomment',$recipe->recipecomment  ,  '400', '200', '79', '15' ); 
+						} else {
+?>
+						<textarea name="recipecomment" rows="5" cols="60"><?php echo $recipe-> recipecomment; ?></textarea>		
+<?php
+						}	
+?>
 					</td>
 				</tr>
 
@@ -1461,6 +1624,24 @@ function rr_editaddrecipe($recipeid='') {
 						<textarea name="video_embed_code" rows="5" cols="60"><?php echo $recipe-> video_embed_code; ?></textarea>
 					</td>
 				</tr>				
+
+				<tr>
+					<td valign="top">
+					    Meta Description
+					</td>
+					<td colspan="2">
+						<textarea name="metadesc" rows="5" cols="60"><?php echo $recipe-> metadesc; ?></textarea>
+					</td>
+				</tr>	
+
+				<tr>
+					<td valign="top">
+					    Meta keywords
+					</td>
+					<td colspan="2">
+						<textarea name="metakey" rows="5" cols="60"><?php echo $recipe-> metakey; ?></textarea>
+					</td>
+				</tr>	
 				
 				<tr>
 					<td valign="top">
@@ -1497,9 +1678,9 @@ function rr_editaddrecipe($recipeid='') {
 	$database->setQuery( "SELECT id as value, name as text
 							FROM #__groups");
 	$qresult = $database->loadObjectList();
-	$list['admin_group'] =  JHTML::_( 'select.genericlist', $qresult, 'admin_group' );
+	$list['user_group'] =  JHTML::_( 'select.genericlist', $qresult, 'user_group','','value', 'text',$recipe->user_group );
 	
-	echo $list['admin_group'];
+	echo $list['user_group'];
 		
 ?>
 					</td>
@@ -1552,7 +1733,7 @@ function rr_adminrecipes () {
 	$cnt = count($recipes);
 	$cntminus1 = $cnt-1;
 
-	$featured_recipe = $rr_conf['featured_recipe'];;
+	$featured_recipe = $rr_conf['featured_recipe'];
 ?>
 	<script language="Javascript" src="http://localhost/joomla/includes/js/overlib_mini.js"></script>
 	<div id="overDiv" style="position:absolute; visibility:hidden; z-index:10000;"></div>
@@ -1755,11 +1936,11 @@ function rr_admincomments ($recipe_id) {
 function rr_savecomment($id) {
 	global $rr_conf;
 	$comment= trim( JRequest::getVar('comment', '' ) );
-
+	$database = & JFactory::getDBO();
 	//echo "$id, $comment, $parent_id <br>";
-	rr_runSQL("UPDATE #__rr_comment set comment='" . mysql_real_escape_string($comment) . "'  where comment_id=" . mysql_real_escape_string($id));
+	rr_runSQL("UPDATE #__rr_comment set comment='" . $database->getEscaped($comment) . "'  where comment_id=" . $database->getEscaped($id));
 	echo '<div class="message">'. _RR_CHANGES_COMMITED .'</div>';
-	$parent_id_row= rr_getonerow('Select recipe_id from #__rr_comment where comment_id= ' . mysql_real_escape_string($id) );		
+	$parent_id_row= rr_getonerow('Select recipe_id from #__rr_comment where comment_id= ' . $database->getEscaped($id) );		
 	return $parent_id_row->recipe_id;
 }
 
@@ -1768,8 +1949,8 @@ function rr_savecomment($id) {
 
 function rr_editcomment($id) {
 	global $mosConfig_absolute_path, $rr_conf;
-
-	$comment = rr_getonerow('Select * from #__rr_comment where comment_id= ' . mysql_real_escape_string($id) );
+	$database = & JFactory::getDBO();
+	$comment = rr_getonerow('Select * from #__rr_comment where comment_id= ' . $database->getEscaped($id) );
 
 ?>
 			<script language="javascript" type="text/javascript">
@@ -1866,9 +2047,11 @@ function rr_adminsteps ($recipe_id) {
 		$id = $step-> step_id;
 		$row= "row" . ($i % 2); 
 		$cb = $i-1;
+		$link = 'index2.php?option=com_rapidrecipe&task=edit&id='. $id . '&hidemainmenu=1&section=steps&page=' . _page . '&paginator=' . _adm_rec_per_page . '&search=' . _search .'&category_id=' . _category_id;
+		
 		echo '<tr class="' . $row . '">'. "\n";
-		echo '<td>'  . $i . "</td> \n";
-		echo '<td><a href="index2.php?option=com_rapidrecipe&task=edit&id='. $id . '&hidemainmenu=1&section=steps&page=' . _page . '&paginator=' . _adm_rec_per_page . '&search=' . _search .'&category_id=' . _category_id.'">' . $step-> description  . "</a></td>\n";
+		echo '<td><a href="' . $link .'">'  . $i . "</a></td> \n";
+		echo '<td><a href="' . $link .'">' . $step-> description  . "</a></td>\n";
 		echo '<td align="center" >' . $step-> ordering . '</td>'. "\n";
 		echo '<td align="center">' . $id . '</td>'. "\n";
 		
@@ -1882,9 +2065,9 @@ function rr_adminsteps ($recipe_id) {
 
 function rr_saveaddstep() {
 	global $rr_conf;
-	
+	$database = & JFactory::getDBO();
 	$id = JRequest::getVar('id', '' );
-	$description= mysql_real_escape_string(JRequest::getVar('description', '', 'POST', 'STRING', JREQUEST_ALLOWRAW ));
+	$description= $database->getEscaped(JRequest::getVar('description', '', 'POST', 'STRING', JREQUEST_ALLOWRAW ));
 	$parent_id= intval( JRequest::getVar('parent_id', '' ) );
 	$image = rr_recipe_image_upload ($parent_id);
 	
@@ -1898,7 +2081,7 @@ function rr_saveaddstep() {
 		$newordering = $qresult->maxordering + 1;
 
 		$query = 'INSERT INTO `#__rr_steps` ( recipe_id, description, image, ordering) 
-		VALUES ('. mysql_real_escape_string($parent_id) .", '" . $description . "', '" . mysql_real_escape_string($image) . "', " . mysql_real_escape_string($newordering) .");"; 
+		VALUES ('. $database->getEscaped($parent_id) .", '" . $description . "', '" . $database->getEscaped($image) . "', " . $database->getEscaped($newordering) .");"; 
 		//echo "$query <br>";
 		rr_runSQL( $query);
 		echo '<div class="message">' . _RR_STEP_ADDED .'</div>';
@@ -1913,7 +2096,7 @@ function rr_saveaddstep() {
 
 function rr_editaddstep($type='', $id='', $recipe_id='') {
 	global $mosConfig_absolute_path, $rr_conf;
-
+	$database = & JFactory::getDBO();
 	$editor =& JFactory::getEditor();	
 	if ($type=="add") {
 		if (!$recipe_id) {
@@ -1921,7 +2104,7 @@ function rr_editaddstep($type='', $id='', $recipe_id='') {
 		}
 	} else {	
 		$step_id = $id;
-		$step = rr_getonerow('Select * from #__rr_steps where step_id= ' . mysql_real_escape_string($step_id) );
+		$step = rr_getonerow('Select * from #__rr_steps where step_id= ' . $database->getEscaped($step_id) );
 		$recipe_id = $step->recipe_id;
 	}
 
@@ -2052,7 +2235,7 @@ function rr_editaddstep($type='', $id='', $recipe_id='') {
 
 function rr_saveaddcategory($id) {
 	global $rr_conf;
-	
+	$database = & JFactory::getDBO();
 	$uploaded_file = rr_img_upload('cat');
 	if ($uploaded_file) {
 		$image = $uploaded_file;
@@ -2074,16 +2257,16 @@ function rr_saveaddcategory($id) {
 
 	if ($id>0) {
 		rr_runSQL("UPDATE #__rr_categories set 
-				title='" . mysql_real_escape_string($title) . "' , 
-				description='" . mysql_real_escape_string($description) . "' , 
-				image ='" . mysql_real_escape_string($image) . "' , 
-				published =" . mysql_real_escape_string($published) . ", 
-				parent_id =" . mysql_real_escape_string($parent_id) . " ,  
-				in_nav_module=" . mysql_real_escape_string($in_nav_module) . " ,
-				in_glance_box= " . mysql_real_escape_string($in_glance_box) . " ,
-				in_featured= " . mysql_real_escape_string($in_featured) . " ,
-				pagetitle_overide= '" . mysql_real_escape_string($pagetitle_overide) . "' ,
-				in_front_page= " . mysql_real_escape_string($in_front_page) . " 	 
+				title='" . $database->getEscaped($title) . "' , 
+				description='" . $database->getEscaped($description) . "' , 
+				image ='" . $database->getEscaped($image) . "' , 
+				published =" . $database->getEscaped($published) . ", 
+				parent_id =" . $database->getEscaped($parent_id) . " ,  
+				in_nav_module=" . $database->getEscaped($in_nav_module) . " ,
+				in_glance_box= " . $database->getEscaped($in_glance_box) . " ,
+				in_featured= " . $database->getEscaped($in_featured) . " ,
+				pagetitle_overide= '" . $database->getEscaped($pagetitle_overide) . "' ,
+				in_front_page= " . $database->getEscaped($in_front_page) . " 	 
 			where category_id=" . $id);
 		echo '<div class="message">'. _RR_CHANGES_COMMITED .'</div>';
 	} else {
@@ -2104,17 +2287,17 @@ function rr_saveaddcategory($id) {
 			in_featured,
 			pagetitle_overide,
 			in_front_page ) 
-		VALUES ('". mysql_real_escape_string($title) ."', '" . 
+		VALUES ('". $database->getEscaped($title) ."', '" . 
 		$description . "', '" . 
-		mysql_real_escape_string($image) . "'," . 
-		mysql_real_escape_string($published) ." , " . 
-		mysql_real_escape_string($newordering) .", " . 
-		mysql_real_escape_string($parent_id) .", " . 
-		mysql_real_escape_string($in_nav_module) . ", " . 
-		mysql_real_escape_string($in_glance_box) . ", " . 
-		mysql_real_escape_string($in_featured) . ", '" . 
-		mysql_real_escape_string($pagetitle_overide) . "', " . 
-		mysql_real_escape_string($in_front_page) . ");"; 
+		$database->getEscaped($image) . "'," . 
+		$database->getEscaped($published) ." , " . 
+		$database->getEscaped($newordering) .", " . 
+		$database->getEscaped($parent_id) .", " . 
+		$database->getEscaped($in_nav_module) . ", " . 
+		$database->getEscaped($in_glance_box) . ", " . 
+		$database->getEscaped($in_featured) . ", '" . 
+		$database->getEscaped($pagetitle_overide) . "', " . 
+		$database->getEscaped($in_front_page) . ");"; 
 		
 		rr_runSQL( $query);
 		echo '<div class="message">' . _RR_CATEGORY . ' "' . $title . '" ' .  _RR_ADDED_DATABASE . '</div>';
@@ -2265,7 +2448,7 @@ function rr_GetChildCategoriesAdmin ($category_id) {
 	global $rr_conf;
 	$database = & JFactory::getDBO();
 	$query = 'SELECT category_id, title, description, child_imidiate_recipes, child_categories, child_all_recipes  
-		FROM #__rr_categories WHERE parent_id=' . mysql_real_escape_string($category_id) . ' ORDER BY ordering';
+		FROM #__rr_categories WHERE parent_id=' . $database->getEscaped($category_id) . ' ORDER BY ordering';
 	$database->setQuery( $query );
 	return $database->loadObjectList();
 }
@@ -2329,10 +2512,10 @@ function rr_echoCategoryTree ($section='categories') {
 
 function rr_editaddcategory($category_id='') {
 	global $mosConfig_absolute_path, $rr_conf;
-
+	$database = & JFactory::getDBO();
 	$editor =& JFactory::getEditor();
     $rrcategories = rr_GetCategoriesAllAdmin(0,'',$category_id);
-	$category = rr_getonerow('Select * from #__rr_categories where category_id= ' . mysql_real_escape_string($category_id) );
+	$category = rr_getonerow('Select * from #__rr_categories where category_id= ' . $database->getEscaped($category_id) );
 	$category_id = $category->category_id;
 	$parentid=$category->parent_id;
 
@@ -2431,12 +2614,14 @@ function rr_editaddcategory($category_id='') {
 <?php
 		foreach ($rrcategories as $parcategory) {
 			$curcatid = $parcategory->category_id;
-			$selected = "";
-			if ($curcatid == $parentid) {
-				$selected = ' selected="selected" ';
+			if ($category_id!=$curcatid) {		
+				$selected = "";
+				if ($curcatid == $parentid) {
+					$selected = ' selected="selected" ';
+				}
+				echo '<option value="'. $curcatid . '" ' .  $selected . '> ' . $parcategory->title  . "\n";	
 			}
-			echo '<option value="'. $curcatid . '" ' .  $selected . '> ' . $parcategory->title  . "\n";				
-		};
+		}
 ?>
 					</select>
 					</td>
@@ -2572,15 +2757,15 @@ function rr_recipe_image_upload ($recipe_id) {
 		$imagestr = trim( JRequest::getVar('image', '' ) );
 
 		//check and create the images rapidrecipe directory.
-		$path = JPATH_BASE.DS. 'images'.DS.'stories'.DS.'rapidrecipe';
+		$path = JPATH_ROOT.DS. 'images'.DS.'stories'.DS.'rapidrecipe';
 		if (!file_exists($path)) {
-			JFolder::create($base.$path, 0777);
+			JFolder::create($path, 0777);
 		}
 
 		//check and create the thumbnails directory
-		$path = JPATH_BASE.DS. 'images'.DS.'stories'.DS.'rapidrecipe'.DS.'th';
+		$path = JPATH_ROOT.DS. 'images'.DS.'stories'.DS.'rapidrecipe'.DS.'th';
 		if (!file_exists($path)) {
-			JFolder::create($base.$path, 0777);
+			JFolder::create($path, 0777);
 		}
 
 	
@@ -2592,7 +2777,7 @@ function rr_recipe_image_upload ($recipe_id) {
 				//create the thumbnail
 				//echo "$dest_dir.$file_uploaded , $dest_dir_th.$file_uploaded <br>";
 				$thumbnail_width = _recipe_img_size;
-				resize_image($original, $th, $thumbnail_width , 'gd2', 75);
+				rr_resize_image($original, $th, $thumbnail_width , 'gd2', 75);
 			}				
 		}
 	}		
@@ -2603,6 +2788,7 @@ function rr_recipe_image_upload ($recipe_id) {
 
 function rr_publish($section, $order, $cid, $published) {
 	global $rr_conf;
+	$database = & JFactory::getDBO();
 	switch ($section) {	
 		case 'categories':
 			$table = "#__rr_categories";
@@ -2615,7 +2801,7 @@ function rr_publish($section, $order, $cid, $published) {
 	}				
 	$cnt = count($cid);
 	for ($i = 0; $i < $cnt; $i++) {
-		$query = "UPDATE " . $table . " SET published = " . $published . " WHERE " . $field . "=" . mysql_escape_string($cid[$i]);
+		$query = "UPDATE " . $table . " SET published = " . $published . " WHERE " . $field . "=" . $database->getEscaped($cid[$i]);
 		rr_runSQL ($query);
 	}
 }
@@ -2623,19 +2809,19 @@ function rr_publish($section, $order, $cid, $published) {
 
 function rr_remove($section, $order, $cid) {
 	global $rr_conf;
-
+	$database = & JFactory::getDBO();
 	$cnt = count($cid);
 	switch ($section) {	
 		case 'categories':
 			for ($i = 0; $i < $cnt; $i++) {
-				$selsubs = rr_getonerow('SELECT count(subcategory_id) AS cntsub from #__rr_subcategories WHERE category_id=' . mysql_real_escape_string($cid[$i]));	
+				$selsubs = rr_getonerow('SELECT count(subcategory_id) AS cntsub from #__rr_subcategories WHERE category_id=' . $database->getEscaped($cid[$i]));	
 				$cntsub = $selsubs->cntsub;
 				if ($cntsub > 0) {
-					$catitle = rr_getonerow('SELECT title from #__rr_categories WHERE category_id=' . mysql_real_escape_string($cid[$i]));	
+					$catitle = rr_getonerow('SELECT title from #__rr_categories WHERE category_id=' . $database->getEscaped($cid[$i]));	
 					$title= $catitle->title;
 					echo '<div class="message">' ._RR_CATEGORY . "' . $title . '" . _RR_CANNOT_REMOVE . '</div>';
 				} else {
-					$query = 'DELETE FROM #__rr_categories  WHERE category_id =' . mysql_real_escape_string($cid[$i]);
+					$query = 'DELETE FROM #__rr_categories  WHERE category_id =' . $database->getEscaped($cid[$i]);
 					rr_runSQL ($query);
 				}
 			}
@@ -2644,7 +2830,7 @@ function rr_remove($section, $order, $cid) {
 
 		case 'recipes':
 			for ($i = 0; $i < $cnt; $i++) {
-				rr_runSQL ('UPDATE #__rr_recipes SET deleted=1 WHERE recipe_id =' . mysql_real_escape_string($cid[$i]));
+				rr_runSQL ('UPDATE #__rr_recipes SET deleted=1 WHERE recipe_id =' . $database->getEscaped($cid[$i]));
 			}
 			rr_UpdateCountCategoriesImidiateRecipes();
 			rr_adminrecipes();
@@ -2652,21 +2838,21 @@ function rr_remove($section, $order, $cid) {
 
 		case 'trash':
 			for ($i = 0; $i < $cnt; $i++) {
-				rr_runSQL ('DELETE FROM #__rr_recipes WHERE recipe_id =' . mysql_real_escape_string($cid[$i]));
+				rr_runSQL ('DELETE FROM #__rr_recipes WHERE recipe_id =' . $database->getEscaped($cid[$i]));
 			}
 			rr_adminrtrash();
 			break;
 
 		case 'comments':
-			$parent_id_row= rr_getonerow('Select recipe_id from #__rr_comment where comment_id= ' . mysql_real_escape_string($cid[0]) );
-			rr_runSQL("DELETE FROM #__rr_comment where comment_id=" . mysql_real_escape_string($cid[0]));
+			$parent_id_row= rr_getonerow('Select recipe_id from #__rr_comment where comment_id= ' . $database->getEscaped($cid[0]) );
+			rr_runSQL("DELETE FROM #__rr_comment where comment_id=" . $database->getEscaped($cid[0]));
 			echo '<div class="message">' ._RR_REMOVE_REVIEW . '</div>';
 			rr_editaddrecipe($parent_id_row->recipe_id);
 			break;
 
 		case 'steps':
-			$parent_id_row= rr_getonerow('Select recipe_id from #__rr_steps where step_id= ' . mysql_real_escape_string($cid[0]) );
-			rr_runSQL("DELETE FROM #__rr_steps where step_id=" . mysql_real_escape_string($cid[0]));
+			$parent_id_row= rr_getonerow('Select recipe_id from #__rr_steps where step_id= ' . $database->getEscaped($cid[0]) );
+			rr_runSQL("DELETE FROM #__rr_steps where step_id=" . $database->getEscaped($cid[0]));
 			echo '<div class="message">' ._RR_REMOVE_STEP . '</div>';
 			rr_editaddrecipe($parent_id_row->recipe_id);
 			break;
@@ -2677,15 +2863,15 @@ function rr_remove($section, $order, $cid) {
 
 function rr_saveorder($section, $cid) {
 	global $rr_conf;
-	
+	$database = & JFactory::getDBO();	
 	$order= JRequest::getVar('order', '' );
 	switch ($section) {	
 		case 'categories':
 			$cnt = count($cid);
 			for ($i = 0; $i < $cnt; $i++) {
 				$query = "UPDATE #__rr_categories 
-						SET ordering = " . mysql_escape_string($order[$i]) . " 
-						WHERE category_id=" . mysql_escape_string($cid[$i]);
+						SET ordering = " . $database->getEscaped($order[$i]) . " 
+						WHERE category_id=" . $database->getEscaped($cid[$i]);
 				rr_runSQL ($query);
 			}
 			rr_admincategories();
@@ -2694,7 +2880,7 @@ function rr_saveorder($section, $cid) {
 			$cnt = count($cid);			
 			for ($i = 0; $i < $cnt; $i++) {
 				$query = "UPDATE #__rr_recipes 
-				SET ordering = " . mysql_escape_string($order[$i]) . " WHERE recipe_id=" . mysql_escape_string($cid[$i]);
+				SET ordering = " . $database->getEscaped($order[$i]) . " WHERE recipe_id=" . $database->getEscaped($cid[$i]);
 				rr_runSQL ($query);
 			}
 			rr_adminrecipes();
@@ -2729,15 +2915,17 @@ function rr_GetRecipiessAll($published='', $search='',$parentid=0, $page='') {
 		$query .= ' AND (' . $qst . ') ';	
 	} 
 	if ($search!='') {
-		$query .= " AND c.title like  '%" . mysql_real_escape_string($search) . "%' " ;
+		$query .= " AND c.title like  '%" . $database->getEscaped($search) . "%' " ;
 	}		
 
 
 	$query .= ' ORDER BY c.ordering';
 	if ($page!='') {
-		$start=(($page-1) * _adm_rec_per_page);
-		$query .= " LIMIT $start , " . _adm_rec_per_page ;
-	}		
+		$start=(($page-1) * _adm_rec_per_page);	
+	} else {
+		$start=0;
+	}	
+	$query .= " LIMIT $start , " . _adm_rec_per_page ;	
 	
 	$database->setQuery( $query );	
 	//echo $query . "<br>";
@@ -2761,7 +2949,7 @@ function rr_CountRecipiessAll($published='', $search='',$parentid=0) {
 		$query .= ' AND (' . $qst . ') ';	
 	} 
 	if ($search!='') {
-		$query .= " AND c.title like  '%" . mysql_real_escape_string($search) . "%' " ;
+		$query .= " AND c.title like  '%" . $database->getEscaped($search) . "%' " ;
 	}		
 
 
@@ -2797,7 +2985,7 @@ function rr_GetCategoriesAllAdmin($onlypublished=0, $parentid='', $nochildcatego
 	} else if ($parentid=='frontpage') {
 		$query .= ' AND c.in_front_page = 1';	
 	} else if ($parentid>0) {
-		$query .= ' AND c.parent_id = ' . mysql_real_escape_string($parentid);
+		$query .= ' AND c.parent_id = ' . $database->getEscaped($parentid);
 	}		
 
 	$query .= ' ORDER BY c.ordering';
@@ -2810,7 +2998,7 @@ function rr_GetCategoriesAllAdmin($onlypublished=0, $parentid='', $nochildcatego
 function rr_GetStepsAll($recipe_id) {
 	global $rr_conf;
 	$database = & JFactory::getDBO();
-	$query = 'SELECT * FROM #__rr_steps WHERE recipe_id=' . mysql_real_escape_string($recipe_id) . ' ORDER BY ordering';
+	$query = 'SELECT * FROM #__rr_steps WHERE recipe_id=' . $database->getEscaped($recipe_id) . ' ORDER BY ordering';
 	$database->setQuery( $query );
 	return $database->loadObjectList();
 }
