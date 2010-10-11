@@ -1,30 +1,25 @@
-Norwegian (Bokmaal) Translation (nb-NO) for
-Attachments extension for Joomla 1.5
+Norsk (Bokmål) oversettelse (nb-NO) for
+Attachments utvidelsen for Joomla 1.5
 (http://joomlacode.org/gf/project/attachments/)
 
-Translation by: Espen Gjelsvik (1.3.4), Roar Jystad (2.0) 
+Oversatt av: Roar Jystad (2.0 og 2.1), Espen Gjelsvik (1.3.4) 
 
-For Attachments version 2.0
-Last updated: May 8, 2010
-Status: Complete
+For Attachments versjon 2.0 og 2.1
+Sist oppdatert: 10. oktober 2010
+Status: Komplett oversettelse
 
-INSTALLATION:
-  - Unzip this file in the root directory of your website.
-    This will place all of the translation files in the
-    correct places.
-	
-  - Pakk ut denne zip filen i rotmappen på nettområdet ditt.
-    Dette vil plassere alle filene i oversettelsen på riktige steder.
+INSTALLASJON:
+ - Pakk ut denne filen i rotkatalogen på nettområdet ditt.
+   Dette vil plassere alle filene på riktige steder.
 
-
-If you have questions about this translation or want to 
-assist with translations, please contact Jonathan Cameron
-(jmcameron@jmcameron.net).
+Hvis du har spørsmål om denne oversettelsen, eller vil
+bistå med oversettelse, vennligst kontakt utvikleren, 
+Jonathan Cameron (jmcameron@jmcameron.net).
 
 Copyright (c) 2007-2010 Jonathan M. Cameron, All Rights Reserved
 License: GNU/GPL2, http://www.gnu.org/licenses/gpl-2.0.html 
 
-INSTALLED FILES:
+INSTALLERTE FILER:
     administrator/components/com_attachments/help/nb-NO/help.css
     administrator/components/com_attachments/help/nb-NO/help.html
     administrator/components/com_attachments/help/nb-NO/index.html
@@ -34,6 +29,7 @@ INSTALLED FILES:
     administrator/language/nb-NO/nb-NO.plg_attachments_attachments_plugin_framework.ini
     administrator/language/nb-NO/nb-NO.plg_content_attachments.ini
     administrator/language/nb-NO/nb-NO.plg_editors-xtd_add_attachment.ini
+    administrator/language/nb-NO/nb-NO.plg_editors-xtd_insert_attachments_token.ini
     administrator/language/nb-NO/nb-NO.plg_frontend_attachments.ini
     administrator/language/nb-NO/nb-NO.plg_search_attachments.ini
     administrator/language/nb-NO/nb-NO.plg_system_show_attachments.ini
