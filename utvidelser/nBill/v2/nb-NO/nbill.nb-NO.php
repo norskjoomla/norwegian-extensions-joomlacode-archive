@@ -151,7 +151,7 @@ define("NBILL_MY_PROFILE", "Min profil");
 define("NBILL_MY_ORDERS", "Mine ordrer");
 define("NBILL_MY_INVOICES", "Mine fakturaer");
 define("NBILL_MY_QUOTES", "Mine forespørsler");
-define("NBILL_SUBMIT", "Lagre");
+define("NBILL_SUBMIT", "Send");
 define("NBILL_CANCEL", "Avbryt");
 define("NBILL_INVALID_DATE_ENTERED", "Oppgitt dato er ikke gyldig. Dato må fylles inn i følgende format: %s.");
 
