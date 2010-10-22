@@ -20,9 +20,9 @@ if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.
 global $VM_LANG;
 $langvars = array (
 	'CHARSET' => 'UTF-8',
-	'PHPSHOP_NO_CUSTOMER' => 'Du er enda ikke registrert som kunde i nettbutikken vår, du må derfor fylle inn dine kontaktopplysninger, slik at vi vet hvor varene skal sendes.',
-	'PHPSHOP_THANKYOU' => 'Takk for din bestilling!<br />Vi ønsker deg en fantastisk dag, og skulle du være usikker på noe kan du når som helst kontakte oss.',
-	'PHPSHOP_EMAIL_SENDTO' => 'En bekreftelse er sendt til e-postadressen du oppga',
+	'PHPSHOP_NO_CUSTOMER' => 'Du er enda ikke registrert som kunde i nettbutikken vår, du må derfor fylle inn dine kontaktopplysninger, slik at vi vet hvor varene skal sendes. Dersom du handler et nedlastbart produkt er opplysningen under relevante mht kreditt kort verifikasjon',
+	'PHPSHOP_THANKYOU' => 'Takk for din bestilling!<br />Vi ønsker deg en fortsatt fin dag, og skulle du være usikker på noe kan du når som helst kontakte oss.',
+	'PHPSHOP_EMAIL_SENDTO' => 'En bekreftelse er sendt til e-postadressen du oppgav: ',
 	'PHPSHOP_CHECKOUT_NEXT' => 'Neste',
 	'PHPSHOP_CHECKOUT_CONF_BILLINFO' => 'Fakturainformasjon',
 	'PHPSHOP_CHECKOUT_CONF_COMPANY' => 'Firma',
@@ -38,12 +38,12 @@ $langvars = array (
 	'PHPSHOP_CHECKOUT_CONF_PAYINFO_METHOD' => 'Betalingsmåte',
 	'PHPSHOP_CHECKOUT_CONF_PAYINFO_REQINFO' => 'påkrevd informasjon når kredittkort er valgt',
 	'PHPSHOP_PAYPAL_THANKYOU' => 'Takk for din betaling.
-        Transaksjonen var vellykket. Du vil motta en bekreftelse på transaksjonen fra PayPal. 
+        Transaksjonen var vellykket. Du vil motta en e-postbekreftelse på transaksjonen dra PayPal. 
         Du kan nå fortsette, eller logge inn på <a href=http://www.paypal.com>www.paypal.com</a> for å se transaksjonsdetaljene.',
 	'PHPSHOP_PAYPAL_ERROR' => 'En feil har oppstått under betalingstransaksjonen. Statusen på din ordre kan ikke oppdateres.',
-	'PHPSHOP_THANKYOU_SUCCESS' => 'Bestillingen er mottatt!',
+	'PHPSHOP_THANKYOU_SUCCESS' => 'Takk for din bestilling, den er nå registrert.',
 	'VM_CHECKOUT_TITLE_TAG' => 'Bestilling: Steg %s av %s',
-	'VM_CHECKOUT_ORDERIDNOTSET' => 'Ordrenummer er ikke angitt!',
+	'VM_CHECKOUT_ORDERIDNOTSET' => 'Ordrenummer mangler.',
 	'VM_CHECKOUT_FAILURE' => 'Bestillingen feilet',
 	'VM_CHECKOUT_SUCCESS' => 'Bestillingen er vellykket gjennomført',
 	'VM_CHECKOUT_PAGE_GATEWAY_EXPLAIN_1' => 'Denne siden ligger på nettbutikkens nettsted.',
