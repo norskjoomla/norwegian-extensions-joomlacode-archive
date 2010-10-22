@@ -38,7 +38,7 @@ $langvars = array (
 	'PHPSHOP_CHECKOUT_CONF_PAYINFO_METHOD' => 'Betalingsmåte',
 	'PHPSHOP_CHECKOUT_CONF_PAYINFO_REQINFO' => 'påkrevd informasjon når kredittkort er valgt',
 	'PHPSHOP_PAYPAL_THANKYOU' => 'Takk for din betaling.
-        Transaksjonen var vellykket. Du vil motta en e-postbekreftelse på transaksjonen dra PayPal. 
+        Transaksjonen var vellykket. Du vil motta en e-postbekreftelse på transaksjonen fra PayPal. 
         Du kan nå fortsette, eller logge inn på <a href=http://www.paypal.com>www.paypal.com</a> for å se transaksjonsdetaljene.',
 	'PHPSHOP_PAYPAL_ERROR' => 'En feil har oppstått under betalingstransaksjonen. Statusen på din ordre kan ikke oppdateres.',
 	'PHPSHOP_THANKYOU_SUCCESS' => 'Takk for din bestilling, den er nå registrert.',
