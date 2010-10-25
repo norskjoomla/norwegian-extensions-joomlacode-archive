@@ -15,7 +15,7 @@
 <div class="document">
 
 
-<p class="version"><strong>Versjon 2.1 - Oktober 2010</strong></p>
+<p class="version"><strong>Versjon 2.1.1 - Oktober 2010</strong></p>
 <div class="contents topic" id="innhold">
 <p class="topic-title first">Innhold</p>
 <ul class="simple">
@@ -510,6 +510,22 @@ vil ende opp med den riktige artikkelen.</p>
 <li><p class="first">Noen ganger når du i administrasjonen utfører en av verktøykommandoene, kan få en advarsel om at nettleseren må sende en forespørsel.
 Dette er ufarlig, klikk [Ok] og kommandoen kjøres.</p>
 </li>
+<li><p class="first">Verktøykommandoen for å &quot;Regenerere vedleggets filnavn&quot; fungerer for migrering
+fra Windows til Linux-servere.  Det fungerer også for migrering fra Linux til
+Windows servere med et par potensielle problemer:</p>
+<blockquote>
+<ul class="simple">
+<li>Når du kopierer filer til Windows serveren, må du sjekke
+at mappen for vedleggene (vanligvis ' attachments ') og alle filer
+er skrivbare for Joomla nettserver.</li>
+<li>kan få problemer med å flytte filer med unicode tegn i
+filnavnet fordi arkiveringsprogrammet har problemer
+med unicode filnavn (på Windows siden). Du må kanskje lagre
+filene, slettes de tilhørende vedleggene, og deretter laste de opp
+som ny vedlegg.</li>
+</ul>
+</blockquote>
+</li>
 <li><p class="first">Det er et forum for hjelp og et forum for &quot;Ofte stilte spørsmål&quot; på joomlacode.org
 nettsiden. Hvis du oppdager et problem som ikke er dekket i denne hjelpsiden, kan du se i
 forumet:</p>
@@ -589,7 +605,7 @@ denne utvidelsen.</p>
 </div>
 <div class="footer">
 <hr class="footer" />
-Generated on: October 11, 2010 at 19:34 UTC.
+Generated on: October 25, 2010 at 02:12 UTC.
 
 </div>
 </body>
