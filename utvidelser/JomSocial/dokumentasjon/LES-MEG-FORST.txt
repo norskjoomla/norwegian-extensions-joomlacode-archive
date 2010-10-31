@@ -14,7 +14,7 @@ SPRÅKFILER OG E-POSTMALER
 Pakken består av to ZIP-filer og dette dokumentet:
 * Norske språkfiler for JomSocial: jomsocial_nb-NO-x.x.x.zip
 * Norske e-postmaler for JomSocial: jomsocial_epostmaler_nb-NO-x.x.x.zip
-(x.x.x står for versjonsnummeret til JomSocial (eksempel: 1.8.7)
+(x.x.x står for versjonsnummeret til JomSocial (eksempel: 1.8.11)
 
 INSTALLASJON
 Først må du pakke ut den nedlastede ZIP-filen til en midlertidig mappe på din
