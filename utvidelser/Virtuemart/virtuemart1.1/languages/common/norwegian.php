@@ -919,7 +919,7 @@ Vennligst ikke svar på denne beskjeden. Den er automatisk generert, og kun til 
 	'EMAIL_FRIEND_ADDR' => 'Din venns e-postadresse:',
 	'EMAIL_YOUR_NAME' => 'Ditt navn:',
 	'EMAIL_YOUR_MAIL' => 'Din e-postadresse:',
-	'VM_CART_NOTIFY' => 'Send meg varsel!',
+	'VM_CART_NOTIFY' => 'Utsolgt! Send meg varsel.',
 	'CMN_PUBLISH' => 'Publiser',
 	'CMN_UNPUBLISH' => 'Avpubliser',
 	'CMN_PLEASESELECT_PUBLISH' => 'Vennligst velg fra listen hva som skal publiseres',
