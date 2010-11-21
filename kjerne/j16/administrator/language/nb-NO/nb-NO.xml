@@ -3,7 +3,7 @@
 <metafile version="1.6" client="administrator">
 	<name>Norsk bokmål(Norway)</name>
 	<version>1.6.0</version>
-	<creationDate>2010-11-02</creationDate>
+	<creationDate>2010-11-16</creationDate>
 	<author>Joomla! i Norge</author>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>http://www.joomlainorge.no</authorUrl>
@@ -145,6 +145,8 @@
 		<filename>nb-NO.plg_system_languagefilter.sys.ini</filename>
 		<filename>nb-NO.plg_system_log.ini</filename>
 		<filename>nb-NO.plg_system_log.sys.ini</filename>
+		<filename>nb-NO.plg_system_p3p.ini</filename>
+		<filename>nb-NO.plg_system_p3p.sys.ini</filename>
 		<filename>nb-NO.plg_system_redirect.ini</filename>
 		<filename>nb-NO.plg_system_redirect.sys.ini</filename>
 		<filename>nb-NO.plg_system_remember.ini</filename>
