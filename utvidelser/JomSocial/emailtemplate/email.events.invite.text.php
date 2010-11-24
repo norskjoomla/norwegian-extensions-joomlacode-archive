@@ -8,7 +8,7 @@ Message:
 
 To view the event, access the URL at the following location:
 
-<?php echo $url; ?>
+{url}
 
 
 Have a nice day!

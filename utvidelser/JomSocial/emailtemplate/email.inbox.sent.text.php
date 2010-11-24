@@ -16,11 +16,19 @@ Hi {target},
 
 {actor} just sent you a new message.
 
-You can read your new message here:
+<?php if( !empty( $title ) ){ ?>
+Title:
+<?php echo $title; ?>
+<?php } ?>
+
+
+Message:
+<?php echo $message; ?>
+
+
+You can also read your new message on the site here:
 
 {url}
 
 
 Have a nice day!
-
-
