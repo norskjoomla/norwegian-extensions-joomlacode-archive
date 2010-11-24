@@ -4,23 +4,13 @@
  * @subpackage 	Template 
  * @copyright (C) 2008 by Slashes & Dots Sdn Bhd - All rights reserved!
  * @license		GNU/GPL, see LICENSE.php
- * 
  */
-defined('_JEXEC') or die( 'Restricted Access' );
+defined('_JEXEC') or die();
 ?>
-Hi {target},
+Title: <?php echo $title; ?>
 
-<?php echo $user->getDisplayName(); ?> just posted a wall message. 
 
 Message:
-
 <?php echo $message; ?>
 
-You can read the message at:
-
-
-<?php echo $url; ?>
-
-
-Have a nice day!
-
+You may view the group at {url}
