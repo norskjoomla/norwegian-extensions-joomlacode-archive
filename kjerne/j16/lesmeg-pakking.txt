@@ -1,3 +1,5 @@
+<!-- $Id$ -->
+
 *** Pakking av språkpakke ***
 
 Pakking for 1.6 skiller seg litt fra 1.5 ved at det nå må opprettes to zip-filer først, en for admin og en for brukerdelen, som navngis:
