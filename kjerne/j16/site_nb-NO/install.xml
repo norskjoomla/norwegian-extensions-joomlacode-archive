@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!-- $Id$ -->
 <install version="1.6" client="site" type="language" method="upgrade">
     <name>Norsk bokmål (Norway)</name>
     <tag>nb-NO</tag>
@@ -12,7 +13,6 @@
     <description>Norwegian bokmål language pack for Joomla! 1.6</description>
     <files>
         <filename>index.html</filename>
-        <filename>install.xml</filename>
         <filename>nb-NO.com_contact.ini</filename>
         <filename>nb-NO.com_content.ini</filename>
         <filename>nb-NO.com_mailto.ini</filename>
@@ -79,5 +79,7 @@
         <filename>nb-NO.tpl_beez5.sys.ini</filename>
         <filename>nb-NO.tpl_rhuk_milkyway.ini</filename>
         <filename>nb-NO.tpl_rhuk_milkyway.sys.ini</filename>
+        <filename file="meta">nb-NO.xml</filename>
+        <filename file="meta">install.xml</filename>
       </files>
 </install>
