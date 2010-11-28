@@ -45,6 +45,7 @@ abstract class nb_NOLocalise {
 		$search_ignore[] = "og";
 		$search_ignore[] = "i";
 		$search_ignore[] = "på";
+		$search_ignore[] = "den";
 		return $search_ignore;
 	}
 	/**
