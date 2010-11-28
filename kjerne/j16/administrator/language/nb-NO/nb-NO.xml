@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Id$ -->
 <metafile version="1.6" client="administrator">
-	<name>Norsk bokmål(Norway)</name>
-	<version>1.6.0</version>
-	<creationDate>2010-11-16</creationDate>
+	<name>Norsk bokmål (Norway)</name>
+	<version>1.6</version>
+	<creationDate>2010-11-29</creationDate>
 	<author>Joomla! i Norge</author>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>http://www.joomlainorge.no</authorUrl>
-	<copyright>Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2010 Open Source Matters and Joomla! i Norge. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description/>
+	<description>Norwegian bokmål language pack for Joomla! 1.6</description>
 	<files>
 		<filename>nb-NO.com_admin.ini</filename>
 		<filename>nb-NO.com_admin.sys.ini</filename>
