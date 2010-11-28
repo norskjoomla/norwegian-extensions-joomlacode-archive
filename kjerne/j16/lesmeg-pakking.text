@@ -1,0 +1,12 @@
+Pakking av språkpakke for 1.6 skiller seg litt fra 1.5
+
+Det må nå opprettes to zip-filer først, en for admin og en for brukerdelen, som navngis:
+
+site_nb-NO.zip
+admin_nb-NO.zip
+
+Disse to pakkes i en ny zip-fil, sammen med nb-NO.install.xml:
+
+nb-NO_joomla_full_1.6.0v1.zip
+
+Alle nødvendige xml-filer ligger i mappene (snart), husk bare på å oppdatere utgivelsesdato og evt. versjon før utsjekking og pakking gjøres!
