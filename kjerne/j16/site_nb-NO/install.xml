@@ -80,10 +80,4 @@
         <filename>nb-NO.tpl_rhuk_milkyway.ini</filename>
         <filename>nb-NO.tpl_rhuk_milkyway.sys.ini</filename>
       </files>
-      <media destination="nb-NO">
-        <filename>index.html</filename>
-        <filename>js/index.html</filename>
-        <filename>js/calendar-setup.js</filename>
-        <filename>js/calendar.js</filename>
-      </media>
 </install>
