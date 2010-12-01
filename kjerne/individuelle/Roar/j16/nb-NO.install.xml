@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- $Id: nb-NO.install.xml 1428 2010-11-28 19:22:06Z rued $ -->
+<!-- $Id$ -->
 <extension type="package" version="1.6">
 <name>Norwegian Bokmål Language Pack</name>
 <packagename>nb-NO</packagename>
