@@ -74,7 +74,7 @@ DEFINE("_JC_VOTE_UP","Stem opp");
 DEFINE("_JC_VOTE_DOWN","Stem ned");
 DEFINE("_JC_REPORT","Rapporter");
 DEFINE("_JC_TPL_USERSUBSCRIBE","Abonnér via e-post (bare registrerte brukere)");
-DEFINE("_JC_TPL_BOOKMARK","Bokmerk");
+DEFINE("_JC_TPL_BOOKMARK","Del denne");
 DEFINE("_JC_TPL_MARKING_FAVORITE","Merker denne artikkelen som din favoritt, vennligst vent ...");
 DEFINE("_JC_TPL_MAILTHIS","Send på e-post");
 DEFINE("_JC_TPL_FAVORITE","Sett som favoritt");
