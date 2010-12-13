@@ -9,7 +9,7 @@ defined('_JEXEC') or die();
 ?>
 Hei {target},
 
-<?php echo $creator->getDisplayName(); ?> har nylig postet et svar på diskusjonen <?php echo $this->escape($group->name); ?> som du har deltatt i.
+{actor} har nylig postet et svar på diskusjonen <?php echo $this->escape($group->name); ?> som du har deltatt i.
 
 Emne:
 <?php echo $subject; ?>

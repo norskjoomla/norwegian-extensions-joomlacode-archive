@@ -8,7 +8,7 @@ Melding:
 
 Du kan se mer informasjon om arrangementet her:
 
-<?php echo $url; ?>
+{url}
 
 
 Ha en fin dag!

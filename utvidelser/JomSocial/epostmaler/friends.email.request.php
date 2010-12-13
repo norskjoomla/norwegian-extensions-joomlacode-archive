@@ -5,7 +5,7 @@ Hei {target},
     '.$message.'
 ';} ?>
 
-For å legge til {actor} som din venn her:
+For å legge til {actor} som din venn, følg lenken nedenfor:
 
 <?php echo $url; ?>
 
