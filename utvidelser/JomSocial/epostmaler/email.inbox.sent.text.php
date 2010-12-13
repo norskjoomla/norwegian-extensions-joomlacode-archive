@@ -16,11 +16,19 @@ Hei {target},
 
 {actor} har sendt deg en ny melding.
 
-Du kan lese meldingen her:
+<?php if( !empty( $title ) ){ ?>
+Tittel:
+<?php echo $title; ?>
+<?php } ?>
+
+
+Melding:
+<?php echo $message; ?>
+
+
+Du kan også lese meldingen på nettsiden her:
 
 {url}
 
 
 Ha en fin dag!
-
-
