@@ -168,7 +168,7 @@
 		<filename>nb-NO.tpl_hathor.sys.ini</filename>
 	</files>
 	<metadata>
-		<name>Norsk bokmål(Norwegian)</name>
+		<name>Norsk bokmål (Norwegian)</name>
 		<tag>nb-NO</tag>
 		<rtl>0</rtl>
 		<locale>no_NO.utf-8, nb_NO.utf-8, no_NO.UTF-8, nb_NO.UTF-8, nb_NO.utf8, no_NO.utf8, no, nb, nob-NO, no_NO, nb_NO, Norwegian_Bokmal, nor, norwegian, bokmal, bokmål</locale>
