@@ -3,15 +3,16 @@
 <install version="1.5" client="both" type="language" method="upgrade">
     <name>Norwegian bokmål (Norway)</name>
     <tag>nb-NO</tag>
-    <version>1.8.11</version>
-    <creationDate>31.10.2010</creationDate>
+    <version>2.0.3</version>
+    <creationDate>19.12.2010</creationDate>
     <author>Joomla! i Norge</author>
     <authorEmail>oversettelser@joomlainorge.no</authorEmail>
     <authorUrl>www.joomlainorge.no</authorUrl>
     <copyright>Copyright (C) 2009 - 2010 Joomla! i Norge. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-2.0.html</license>
-    <description>Norske språkfiler (bokmål) for JomSocial 1.8.11.</description>
+    <description>Norske språkfiler (bokmål) for JomSocial 2.0.3.</description>
     <administration>
+
       <files folder="admin">
         <filename>nb-NO.com_community.ini</filename>
         <filename>nb-NO.com_community.menu.ini</filename>
@@ -39,6 +40,7 @@
         <filename>nb-NO.plg_community_wordfilter.ini</filename>
         <filename>nb-NO.plg_editormyphotos.ini</filename>
         <filename>nb-NO.plg_eventlist.ini</filename>
+        <filename>nb-NO.plg_events.ini</filename>
         <filename>nb-NO.plg_feeds.ini</filename>
         <filename>nb-NO.plg_fireboard.ini</filename>
         <filename>nb-NO.plg_friendslocation.ini</filename>
