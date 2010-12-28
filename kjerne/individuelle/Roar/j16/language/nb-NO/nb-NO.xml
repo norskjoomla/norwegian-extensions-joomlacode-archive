@@ -21,6 +21,7 @@
 		<filename>nb-NO.com_users.ini</filename>
 		<filename>nb-NO.com_weblinks.ini</filename>
 		<filename>nb-NO.com_wrapper.ini</filename>
+		<filename>nb-NO.files_joomla.sys.ini</filename>
 		<filename>nb-NO.ini</filename>
 		<filename>nb-NO.localise.php</filename>
 		<filename>nb-NO.mod_articles_archive.ini</filename>
@@ -79,7 +80,7 @@
 		<filename>nb-NO.tpl_rhuk_milkyway.sys.ini</filename>
 	</files>
 	<metadata>
-		<name>Norsk bokmål(Norwegian)</name>
+		<name>Norsk bokmål (Norwegian)</name>
 		<tag>nb-NO</tag>
 		<rtl>0</rtl>
 		<locale>no_NO.utf-8, nb_NO.utf-8, no_NO.UTF-8, nb_NO.UTF-8, nb_NO.utf8, no_NO.utf8, no, nb, nob-NO, no_NO, nb_NO, Norwegian_Bokmal, nor, norwegian, bokmal, bokmål</locale>
