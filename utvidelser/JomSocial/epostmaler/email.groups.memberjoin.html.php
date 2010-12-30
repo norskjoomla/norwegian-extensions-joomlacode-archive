@@ -17,9 +17,10 @@ Hei {target},
 <?php
 if( $approved )
 {
-	echo JText::sprintf( 'CC NEW MEMBER JOIN EMAIL' , $user , $group , '{url}' );
+	echo JText::sprintf( 'CC NEW MEMBER JOIN EMAIL' , $user , $group , '
+<a href="{url}">{url}</a>' );
 }
 else
 {
-	echo JText::sprintf( 'CC NEW MEMBER REQUESTED TO JOIN GROUP EMAIL' , $user , $group , '{url}' );
+	echo JText::sprintf( 'CC NEW MEMBER REQUESTED TO JOIN GROUP EMAIL' , $user , $group , '<a href="{url}">{url}</a>' );
 }
