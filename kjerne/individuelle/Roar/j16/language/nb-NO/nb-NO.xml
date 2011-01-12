@@ -3,7 +3,7 @@
 <metafile version="1.6" client="site">
 	<name>Norsk bokmål (Norway)</name>
 	<version>1.6.0</version>
-	<creationDate>2010-12-15</creationDate>
+	<creationDate>2011-01-10</creationDate>
 	<author>Joomla! i Norge</author>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>http://www.joomlainorge.no</authorUrl>
@@ -76,8 +76,6 @@
 		<filename>nb-NO.tpl_beez_20.sys.ini</filename>
 		<filename>nb-NO.tpl_beez5.ini</filename>
 		<filename>nb-NO.tpl_beez5.sys.ini</filename>
-		<filename>nb-NO.tpl_rhuk_milkyway.ini</filename>
-		<filename>nb-NO.tpl_rhuk_milkyway.sys.ini</filename>
 	</files>
 	<metadata>
 		<name>Norsk bokmål (Norwegian)</name>
