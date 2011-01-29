@@ -10,6 +10,7 @@ admin_nb-NO.zip (Naviger inn i /administrator/language/nb-NO/, merk og pakk alle
 Disse to pakkes i en ny zip-fil, sammen med nb-NO.install.xml:
 
 nb-NO_joomla_lang_full_1.6.0v1.zip
+v1 = Pakkeversjon
 
 Alle nødvendige xml-filer ligger i mappene, husk bare på å oppdatere utgivelsesdato og evt. versjon før utsjekking og pakking gjøres!
 
@@ -19,6 +20,9 @@ Alle nødvendige xml-filer ligger i mappene, husk bare på å oppdatere utgivels
 Naviger inn i /media/editors/ hvor du velger å pakke alle mapper og filer i en pakke, dvs.
 tinymce, index.html og TinyMCE_nb-NO.xml
 
+Navngis som tinymce_lang_pack_nb_x.x.x.x_16v1.zip (eksempel).
+x.x.x.x = Versjonnummer for TinyMCE
+v1 = Pakkeversjon
 
 *** Pakking av komplett norsk Joomla! 1.6 ***
 
