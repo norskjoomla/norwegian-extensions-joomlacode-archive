@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-	<!-- $Id: nn-NO.xml 1539 2011-01-20 08:22:00Z rued $ -->
+	<!-- $Id$ -->
 <metafile
 	version="1.6"
 	client="installation">
-	<name>Norsk bokmål(Norway)</name>
+	<name>Norsk nynorsk (Norway)</name>
 	<version>1.6.1</version>
 	<creationDate>2011-01-30</creationDate>
 	<author>Joomla! i Norge</author>
@@ -16,7 +16,7 @@
 		<filename>nn-NO.ini</filename>
 	</files>
 	<metadata>
-		<name>Norsk bokmål (Norway)</name>
+		<name>Norsk nynorsk (Norway)</name>
 		<tag>nn-NO</tag>
 		<rtl>0</rtl>
 	</metadata>
