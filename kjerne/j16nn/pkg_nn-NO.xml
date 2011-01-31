@@ -10,6 +10,6 @@
 <description>Joomla! 1.6 Norwegian Nynorsk Language Package</description>
   <files>
         <file type="language" client="site" id="nn-NO">site_nn-NO.zip</file>
-        <file type="language" client="admin" id="nn-NO">admin_nn-NO.zip</file>
+        <file type="language" client="administrator" id="nn-NO">admin_nn-NO.zip</file>
   </files>
 </extension>
