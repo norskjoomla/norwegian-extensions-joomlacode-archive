@@ -7,7 +7,7 @@ Pakking for 1.6 skiller seg litt fra 1.5 ved at det nå må opprettes to zip-fil
 site_nn-NO.zip (Naviger inn i /language/nn-NO/, merk og pakk alle filer - flytt zip ut til passende sted)
 admin_nn-NO.zip (Naviger inn i /administrator/language/nn-NO/, merk og pakk alle filer - flytt zip ut til passende sted)
 
-Disse to pakkes i en ny zip-fil, sammen med nn-NO.install.xml:
+Disse to pakkes i en ny zip-fil, sammen med pkg_nn-NO.xml:
 
 nn-NO_joomla_lang_full_1.6.0v1.zip
 v1 = Pakkeversjon
@@ -29,7 +29,7 @@ v1 = Pakkeversjon
 Engelsk pakke lastes ned og pakkes ut lokalt.
 Norske språkfiler sjekkes ut fra JoomlaCode og kopieres inn i den komplette engelske pakken.
 - Kopier mappene administrator, installation og language
-  VIKTIG! lesmeg-pakking.txt, nn-NO.install.xml og /media/editors/TinyMCE_nn-NO.xml utelates.
+  VIKTIG! lesmeg-pakking.txt, pkg_nn-NO.xml og /media/editors/TinyMCE_nn-NO.xml utelates.
 
 VIKTIG! Kopier aldri direkte fra arbeidskopi, men gjør en eksport, for å ikke få med alle skjulte filer brukt av subversion. Det vil bare gjøre pakken unødvendig stor.
 
