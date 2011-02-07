@@ -32,7 +32,9 @@
   		<filename>/languages/store/norwegian.php</filename>
   		<filename>/languages/tax/norwegian.php</filename>
   		<filename>/languages/vendor/norwegian.php</filename>
-  		<filename>/languages/zone/norwegian.php</filename>  		
+  		<filename>/languages/zone/norwegian.php</filename>
+  		<filename>/classes/payment/paypal_api/languages/lang.norwegian.admin.php</filename>
+  		<filename>/classes/payment/paypal_api/languages/lang.norwegian.php</filename>
 		</files>
 	</administration>
 </install>
