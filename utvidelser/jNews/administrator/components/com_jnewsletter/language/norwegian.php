@@ -1,5 +1,7 @@
 <?php
-defined('_JEXEC') OR die('Access Denied!');
+defined('_JEXEC') or die('Restricted access');
+### Copyright (C) 2006-2010 Joobi Limited. All rights reserved.
+### http://www.joobi.co/index.php?option=com_jlinks&controller=redirect&link=single-license
 
 /**
 * <p>Norwegian language file.</p>
@@ -30,9 +32,9 @@ defined('_JEXEC') OR die('Access Denied!');
 
 ### General ###
  //jnewsletter Description
-define('_JNEWS_DESC_CORE', 'jNews er en epostliste, nyhetsbrev, \'auto respons\', og oppfølgingsverktøy for å kommunisere med deres brukere og kunder.  ' .
+define('_JNEWS_DESC_CORE', 'jNews er en epostliste, nyhetsbrev, \'autoutsendelse\', og oppfølgingsverktøy for å kommunisere med deres brukere og kunder.  ' .
 		'jNews, deres kommunikasjonspartner!');
-define('_JNEWS_DESC_GPL', 'jNews er en epostliste, nyhetsbrev, \'auto respons\', og oppfølgingsverktøy for å kommunisere med deres brukere og kunder.  ' .
+define('_JNEWS_DESC_GPL', 'jNews er en epostliste, nyhetsbrev, \'autoutsendelse\', og oppfølgingsverktøy for å kommunisere med deres brukere og kunder.  ' .
 		'jNews, deres kommunikasjonspartner!');
 define('_JNEWS_FEATURES', 'jNews, deres kommunikasjonspartner!');
 
@@ -52,7 +54,7 @@ define('_JNEWS_LIST', 'Liste');
 define('_JNEWS_MENU_LIST', 'Lister');
 define('_JNEWS_MENU_SUBSCRIBERS', 'Abonnenter');
 define('_JNEWS_MENU_NEWSLETTERS', 'Nyhetsbrev');
-define('_JNEWS_MENU_AUTOS', 'Autorespons');
+define('_JNEWS_MENU_AUTOS', 'Autoutsendelse');
 define('_JNEWS_MENU_COUPONS', 'Kuponger');
 define('_JNEWS_MENU_CRONS', 'Cron-jobber');
 define('_JNEWS_MENU_AUTORSS', 'Automatisk RSS');
@@ -82,7 +84,6 @@ define('_JNEWS_MENU_SEND_TEST', 'Send eposttest');
 define('_JNEWS_MENU_SEND_QUEUE', 'Behandle kø');
 define('_JNEWS_MENU_VIEW', 'Vis');
 define('_JNEWS_MENU_COPY', 'Kopier');
-define('_JNEWS_MENU_VIEW_STATS', 'Vis statistikker');
 define('_JNEWS_MENU_CRTL_PANEL', 'Kontrollpanel');
 define('_JNEWS_MENU_LIST_NEW', 'Opprett liste');
 define('_JNEWS_MENU_LIST_EDIT', 'Rediger en liste');
@@ -90,6 +91,7 @@ define('_JNEWS_MENU_BACK', 'Tilbake');
 define('_JNEWS_MENU_INSTALL', 'Installasjon');
 define('_JNEWS_MENU_TAB_SUM', 'Oppsumering');
 define('_JNEWS_STATUS', 'Status');
+define('_JNEWS_MENU_DEL_QUEUE' , 'Slett');
 
 // messages
 define('_JNEWS_ERROR', ' En feil oppstod!');
@@ -108,6 +110,7 @@ define('_JNEWS_SAVE', 'Lagre');
 define('_JNEWS_CANCEL', 'Avbryt');
 define('_JNEWS_NAME', 'Navn');
 define('_JNEWS_EMAIL', 'Epost');
+
 define('_JNEWS_SELECT', 'Velg');
 define('_JNEWS_ALL', 'Alle');
 define('_JNEWS_SEND_A', 'Send en ');
@@ -144,6 +147,7 @@ define('_JNEWS_DEFAULT_SUBSCRIBE_MESS', 'Hei [NAME],<br />' .
 		'Kun et steg igjen og du abonnerer på denne listen. Vennligst klikk på lenken for bekrefte ditt abonnement.' .
 		'<br /><br />[CONFIRM]<br /><br />Kontakt vår nettredaktør om du har noen spørsmål.');
 define('_JNEWS_DEFAULT_UNSUBSCRIBE_MESS', 'Dette er en epost for å bekrefte at du ikke lenger abonnerer på vårt nyhetsbrev. Vi beklager deres beslutning, men skulle du noen gang ønske å bli abonnent igjen kan du melde deg på via vår nettside. Kontakt vår nettredaktør om du har noen spørsmål.');
+define('_JNEWS_HELLO', 'Hei ');
 
 // jNews subscribers
 define('_JNEWS_SIGNUP_DATE', 'Startdato');
@@ -209,12 +213,12 @@ define('_JNEWS_SELECT_LIST', 'Velg en liste for å redigere denne.');
 
 // Auto Responder box
 define('_JNEWS_AUTORESP_ON', 'Listetype');
-define('_JNEWS_AUTO_RESP_OPTION', 'Valg for \'auto respons\'');
+define('_JNEWS_AUTO_RESP_OPTION', 'Valg for \'autoutsendelse\'');
 define('_JNEWS_AUTO_RESP_FREQ', 'Abonnenter kan velge hyppighet på utsendelser');
 define('_JNEWS_AUTO_DELAY', 'Forsinkelse (i dager)');
 define('_JNEWS_AUTO_DAY_MIN', 'Minimum hyppighet');
 define('_JNEWS_AUTO_DAY_MAX', 'Maksimum hyppighet');
-define('_JNEWS_FOLLOW_UP', 'Spesifiser oppfølging av \'auto respons\'');
+define('_JNEWS_FOLLOW_UP', 'Spesifiser oppfølging av \'autoutsendelse\'');
 define('_JNEWS_AUTO_RESP_TIME', 'Abonnenter kan velge tid');
 define('_JNEWS_LIST_SENDER', 'Utgiver for liste');
 
@@ -243,11 +247,11 @@ define('_JNEWS_INFO_LIST_SENDER_EMAIL', 'Fyll inn epostadressen som meldingene v
 define('_JNEWS_INFO_LIST_SENDER_BOUNCED', 'Fyll inn epostadressen som brukerne kan svare til. Det anbefales at denne er samme som avsenderadressen, hvis ikke vil søppelpostfiltre kunne gi utsendelsen en søppelrangering.');
 define('_JNEWS_INFO_LIST_AUTORESP', 'Velg utsendelsestype for denne listen.<br />' .
 		'Nyhetsbrev: normale nyhetsbrev<br />' .
-		'Autorespons: lister som sendes automatisk fra nettsiden etter bestemte intervaller.');
+		'Autoutsendelse: lister som sendes automatisk fra nettsiden etter bestemte intervaller.');
 define('_JNEWS_INFO_LIST_FREQUENCY', 'Tillat brukerne å velge hvor ofte de mottar utsendelser fra listen. Dette gir brukerne mer fleksibilitet.');
 define('_JNEWS_INFO_LIST_TIME', 'Tillat brukerne å velge dere foretrukne tid på døgnet for mottak av utsendelser.');
 define('_JNEWS_INFO_LIST_MIN_DAY', 'Definer hva som er minimum hyppighet for utsendelser som bruker kan velge å motta.');
-define('_JNEWS_INFO_LIST_DELAY', 'Spesifiser forsinkelse mellom dette \'auto respons\'et og det forrige.');
+define('_JNEWS_INFO_LIST_DELAY', 'Spesifiser forsinkelse mellom dette \'autoutsendelse\'et og det forrige.');
 define('_JNEWS_INFO_LIST_DATE', 'Spesifiser dato for publisering av listen om du vil forsinke dette. <br /> FORMAT : ÅÅÅÅ-MM-DD HH:MM:SS');
 define('_JNEWS_INFO_LIST_MAX_DAY', 'Definer hva som er maksimum hyppighet for utsendelser som bruker kan velge å motta.');
 define('_JNEWS_INFO_LIST_LAYOUT', 'Fyll inn utforming for listen her. Du kan fylle inn hvilken som helst utforming.');
@@ -313,6 +317,7 @@ define('_JNEWS_SUBJECT', 'Emne');
 define('_JNEWS_CONTENT', 'Innhold');
 define('_JNEWS_NAMEREP', '[NAME] = Denne vil bli erstattet med navnet som abonnenten la inn, du vil kunne sende mer personlige epost med dette.<br />');
 define('_JNEWS_FIRST_NAME_REP', '[FIRSTNAME] = Denne vil bli erstattet med fornavn som abonnenten la inn.<br />');
+define('_JNEWS_LOADMODINFO', '{module=id} = This will be replaced by the Joomla module where id is equal to id of the joomla module. For example {module=1}.<br /> The modules can only be loaded through the cron task. <br />');
 define('_JNEWS_NONHTML', 'Ren tekst versjon');
 define('_JNEWS_ATTACHMENTS', 'Vedlegg');
 define('_JNEWS_SELECT_MULTIPLE', 'Hold Ctrl (eller Com) nede for å velde flere vedlegg.<br />' .
@@ -331,6 +336,7 @@ define('_JNEWS_WHICH_EMAIL_TEST', 'Skriv inn epost adresse og navn for test av m
 define('_JNEWS_SEND_IN_HTML', 'Send som HTML (for html utsendelser)?');
 define('_JNEWS_VISIBLE', 'Synlig');
 define('_JNEWS_INTRO_ONLY', 'Bare innledning');
+define('_JNEWS_TEST' , 'zzzjhentest');
 
 // stats
 define('_JNEWS_GLOBALSTATS', 'Total status');
@@ -404,7 +410,6 @@ define('_JNEWS_AUTO_CONFIG', 'Cron');
 define('_JNEWS_TIME_OFFSET_URL', 'klikk her for å sette opp tidssonen i \'Konfigurasjon -> Tjener\' ');
 define('_JNEWS_TIME_OFFSET_TIPS', 'Sett opp deres servers tidsavvik slik at dato og til et rett');
 define('_JNEWS_TIME_OFFSET', 'Tidsavvik');
-define('_JNEWS_CRON_TITLE', 'Setting up cron function');
 define('_JNEWS_CRON_DESC', '<br />Ved bruke av cron-jobb funksjonen kan du sette opp automatisert oppgave for deres Joomlanettside!<br />' .
         'For å sette opp crontab må du legge til i kontrollpanelet følgende kommando:<br />' .
         '<b>' . ACA_JPATH_LIVE . '/index2.php?option=com_jnewsletter&act=cron</b> ' .
@@ -528,7 +533,6 @@ define('_JNEWS_UPGRADE2', ' til jNews i kontrolpanelet -> import.');
 define('_JNEWS_UPDATE_MESSAGE', 'En ny versjon av jNews er tilgjengelig! ');
 define('_JNEWS_UPDATE_MESSAGE_LINK', 'Klikk her for å oppdatere!');
 define('_JNEWS_CRON_SETUP', 'In order for the autoresponders to be sent you need to setup a cron task.');
-define('_JNEWS_THANKYOU', 'Takk for at du valgte jNews, din kommunikasjons partner!');
 define('_JNEWS_NO_SERVER', 'Oppdateringsserveren var ikke tilgjengelig, vennligst prøv igjen senere.');
 define('_JNEWS_MOD_PUB', 'jNews-modulen er ikke publisert.');
 define('_JNEWS_MOD_PUB_LINK', 'Klikk her for å publisere den!');
@@ -537,16 +541,16 @@ define('_JNEWS_IMPORT_EXIST', 'abonnent finnes allerede i databasen');
 
 // jNews\'s Guide
 define('_JNEWS_GUIDE', '\'s veiviser');
-define('_JNEWS_GUIDE_FIRST_JNEWS_STEP', '<p>jNews har mange flotte funksjoner og denne veiviseren vil veilede deg gjennom fire enkle trinn for å komme i gang med å sende nyhetsbrev og auto-respons!<p />');
-define('_JNEWS_GUIDE_FIRST_JNEWS_STEP_DESC', 'Først må du legge til en liste. En liste kan være to typer, enten et nyhetsbrev eller en auto-respons.' .
-		'  I en liste definerer man alle de ulike parametrene for å aktivere sending av nyhetsbrev eller auto-respons: avsenders navn, utsende, abonnentens velkomstmelding, etc...
+define('_JNEWS_GUIDE_FIRST_JNEWS_STEP', '<p>jNews har mange flotte funksjoner og denne veiviseren vil veilede deg gjennom fire enkle trinn for å komme i gang med å sende nyhetsbrev og autoutsendelse!<p />');
+define('_JNEWS_GUIDE_FIRST_JNEWS_STEP_DESC', 'Først må du legge til en liste. En liste kan være to typer, enten et nyhetsbrev eller en autoutsendelse.' .
+		'  I en liste definerer man alle de ulike parametrene for å aktivere sending av nyhetsbrev eller autoutsendelse: avsenders navn, utsende, abonnentens velkomstmelding, etc...
 <br /><br />Du kan sette opp din første liste her: <a href="index2.php?option=com_jnewsletter&act=list"> opprette en liste </ a>, og klikk Ny-knappen.');
 define('_JNEWS_GUIDE_FIRST_JNEWS_STEP_UPGRADE', 'jNews gir deg en enkel måte å importere alle data fra en tidligere nyhetsbrevs system på<br />' .
     ' Gå til oppdateringspanelet og velg din forrige nyhetsbrevssystem for å importere alle dine nyhetsbrev og abonnenter.<br /><br />' .
 		'<span style="color:#FF5E00;" >VIKTIG: Importen er uten risiko, og påvirker ikke på noen måte dataene i ditt forrige nyhetsbrevs systemet</span><br />' .
  		'Etter importen vil du kunne administrere abonnenter og utsendelser direkte fra jNews.<br /><br />');
 define('_JNEWS_GUIDE_SECOND_JNEWS_STEP', 'Fantastisk din første liste er satt opp! Nå kan du skrive din første %s. Hvis du vil opprette den gå til: ');
-define('_JNEWS_GUIDE_SECOND_JNEWS_STEP_AUTO', 'Auto-respons administrasjon');
+define('_JNEWS_GUIDE_SECOND_JNEWS_STEP_AUTO', 'Autoutsendelse administrasjon');
 define('_JNEWS_GUIDE_SECOND_JNEWS_STEP_NEWS', 'Nyhetsbrev administrasjon');
 define('_JNEWS_GUIDE_SECOND_JNEWS_STEP_FINAL', ' og velg din %s. <br /> Og så velger du %s i nedtrekksmenyen.  Lag din første forsendelse ved å trykke ny ');
 
@@ -554,7 +558,7 @@ define('_JNEWS_GUIDE_THRID_JNEWS_STEP_NEWS', 'Før du sender dit første nyhetsb
 		'Gå til <a href="index2.php?option=com_jnewsletter&act=configuration" >konfigurasjonssiden</a> for å kontrollere epostinnstillingene. <br />');
 define('_JNEWS_GUIDE_THRID2_JNEWS_STEP_NEWS', '<br />Når du er klar gå tilbake til nyhetsbrev menyen, velg din forsendelse og klikk Send');
 
-define('_JNEWS_GUIDE_THRID_JNEWS_STEP_AUTOS', 'Før din auto-respons skal bli sendt må du først sette opp en cron-oppgave på serveren din. ' .
+define('_JNEWS_GUIDE_THRID_JNEWS_STEP_AUTOS', 'Før din autoutsendelse kan bli sendt må du først sette opp en cron-oppgave på serveren din. ' .
         ' Vennligst se Cron fanen i konfigurasjon panel.' .
         ' <a href="index2.php?option=com_jnewsletter&act=configuration" >klikk her..</a> for å lære hvordan man sette opp en cron-oppgave. <br />');
 
@@ -563,11 +567,11 @@ define('_JNEWS_GUIDE_MODULE', ' <br />Kontroller også at du har publisert jNews
 define('_JNEWS_GUIDE_FOUR_JNEWS_STEP_NEWS', ' Nå kan du også sette opp en auto-responder.');
 define('_JNEWS_GUIDE_FOUR_JNEWS_STEP_AUTOS', ' Nå kan du også sette opp et nyhetsbrev.');
 
-define('_JNEWS_GUIDE_FOUR_JNEWS_STEP', '<p><br />Gratulerer! Du er nå klar til å effektivt kommunisere med besøkende og brukere. Denne veiviseren vil ende så snart du har oppgitt en annen epostadresse eller du kan slå den av i <a href="index2.php?option=com_jnewsletter&act=configuration"> konfigurasjon panelet</a>.' .
+define('_JNEWS_GUIDE_FOUR_JNEWS_STEP', '<p><br />Gratulerer! Du er nå klar til å effektivt kommunisere med besøkende og brukere. Denne veiviseren vil ende så snart du har oppgitt en annen epostadresse eller du kan slå den av i <a href="index2.php?option=com_jnewsletter&act=configuration"> konfigurasjonspanelet</a>.' .
         '<br /><br />  Hvis du har noen spørsmål mens du bruker jNews, kan disse henvises det til ' .
         '<a target="_blank" href="http://www.ijoobi.com/index.php?option=com_content&Itemid=72&view=category&layout=blog&id=29&limit=60" >dokumentasjon</a>. ' .
-        ' Du kan også finne mye informasjon om hvordan effektivt kommunisere med dine abonnenter på her <a href="http://www.ijoobi.com/" target="_blank" >www.ijoobi.com</a>.' .
-        '<p /><br /><b>Takk for at du valgte jNews. Din kommunikasjons partner!</b> ');
+        ' Du kan også finne mye informasjon om hvordan du effektivt kan kommunisere med dine abonnenter her <a href="http://www.ijoobi.com/" target="_blank" >www.ijoobi.com</a>.' .
+        '<p /><br /><b>Takk for at du valgte jNews. Din kommunikasjonspartner!</b> ');
 define('_JNEWS_GUIDE_TURNOFF', 'Veiviseren er nå slått av!');
 define('_JNEWS_STEP', 'STEG ');
 
@@ -602,7 +606,7 @@ define('_JNEWS_UPDATE_MESS' , '');
 define('_JNEWS_UPDATE_MESS1', 'Å oppdatere er anbefalt!');
 define('_JNEWS_UPDATE_MESS2', 'Patch og mindre oppdateringer.');
 define('_JNEWS_UPDATE_MESS3', 'Ny utgivelse.');
-define('_JNEWS_UPDATE_MESS5', 'Joomla 1.5 er nødvendig for å oppdatere.');
+define('_JNEWS_UPDATE_MESS5', 'Joomla 1.5 må oppdateres.');
 define('_JNEWS_UPDATE_IS_AVAIL', ' er tilgjengelig!');
 define('_JNEWS_NO_MAILING_SENT', 'Ingen forsendelse sendt!');
 define('_JNEWS_SHOW_LOGIN', 'Vis innlogging');
@@ -613,8 +617,8 @@ define('_JNEWS_SUBCRIBERS_VIEW', 'Vis abonnenter');
 
 //News since 1.0.2
 define('_JNEWS_FRONTEND_SETTINGS', 'Innstillinger for forsiden');
-define('_JNEWS_SHOW_LOGOUT', 'Vis logg ut knapp');
-define('_JNEWS_SHOW_LOGOUT_TIPS', 'Velg \'Ja\' for å vise en logg ut knapp på forsiden i jNews-modulen.');
+define('_JNEWS_SHOW_LOGOUT', 'Vis \'Logg ut\'-knapp');
+define('_JNEWS_SHOW_LOGOUT_TIPS', 'Velg \'Ja\' for å vise en \'Logg ut\'-knapp på forsiden i jNews-modulen.');
 
 //News since 1.0.3 CB integration
 define('_JNEWS_CONFIG_INTEGRATION', 'Integrasjon');
@@ -645,6 +649,7 @@ define('_JNEWS_SHOW_ARCHIVE_TIPS', 'Velg \'Ja\' for å vise arkiv-knappen på fo
 define('_JNEWS_LIST_OPT_TAG', 'Merker');
 define('_JNEWS_LIST_OPT_IMG', 'Bilde');
 define('_JNEWS_LIST_OPT_CTT', 'Innhold');
+define('_JNEWS_IP_TIPS', 'Abonnentens IP');
 define('_JNEWS_INPUT_NAME_TIPS', 'Skriv inn ditt fulle navn (fornavn først)');
 define('_JNEWS_INPUT_EMAIL_TIPS', 'Skriv inn din epostadresse (Sørg for at dette er en gyldig epostadresse hvis du ønsker å motta våre utsendelser.)');
 define('_JNEWS_RECEIVE_HTML_TIPS', 'Velg \'Ja\' hvis du vil motta HTML utsendelser - Nei for å motta bare tekst utsendelser');
@@ -725,7 +730,6 @@ define('_JNEWS_CURRENT', 'Aktuell ');
 // since 1.0.9
 define('_JNEWS_CHECK_COMP', 'Prøv en av de andre komponentene');
 define('_JNEWS_MENU_VIDEO', 'Læringsvideo');
-define('_JNEWS_AUTO_SCHEDULE', 'Schedule');
 define('_JNEWS_SCHEDULE_TITLE', 'Innstilling for automatisk tidsplan');
 define('_JNEWS_ISSUE_NB_TIPS', 'Utgave nummer genereres automatisk av systemet');
 define('_JNEWS_SEL_ALL', 'Alle utsendelser');
@@ -761,7 +765,7 @@ define( '_JNEWS_CRON_MAX_EMAIL_TIPS', 'Spesifiser maksimalt antall epost som kan
 define( '_JNEWS_CRON_MINUTES', ' minutter');
 define( '_JNEWS_SHOW_SIGNATURE', 'Vis bunntekst i epost');
 define( '_JNEWS_SHOW_SIGNATURE_TIPS', 'Om du vil reklamere for jNews eller ikke i bunnteksten på deres epost.');
-define( '_JNEWS_QUEUE_AUTO_PROCESSED', 'Autorespons ble sendt ...');
+define( '_JNEWS_QUEUE_AUTO_PROCESSED', 'Autoutsendelse ble sendt ...');
 define( '_JNEWS_QUEUE_NEWS_PROCESSED', 'Planlagt nyhetsbrev ble sendt ...');
 define( '_JNEWS_MENU_SYNC_USERS', 'Synkroniser brukere');
 define( '_JNEWS_SYNC_USERS_SUCCESS', 'Synkronisering av brukere var vellykket');
@@ -782,6 +786,16 @@ define('_JNEWS_FULL_ARTICLE_TIPS', 'Om du velger dette vil hele artikkelen bli s
 define('_JNEWS_FULL_ARTICLE', 'Full artikkel');
 define('_JNEWS_CONTENT_ITEM_SELECT_T', 'Velg innhold som skal legge sinn i meldingen.<br />Kopier og lim <b>innholdmerket</b> inn i utsendelsen. Du kan velge å bruke fulltekst, bare ingress eller bare tittel (0, 1, eller 2). ');
 define('_JNEWS_SUBSCRIBE_LIST2', 'Utsendelseliste(r)');
+
+// For sorting in content tab by date, section or category
+define('_JNEWS_CONTENT_ITEM_SORT', 'Sorter etter: ');
+define('_JNEWS_SORT_DATE' , 'Dato');
+define('_JNEWS_SORT_DATE_TIPS' , 'Om du velger denne vil innholdet bli sortert etter opprettelsesdato');
+define('_JNEWS_SORT_SECTION' , 'Seksjon');
+define('_JNEWS_SORT_SECTION_TIPS' , 'Om du velger denne vil innholdet bli sortert etter tilhørende seksjon');
+define('_JNEWS_SORT_CATEGORY' , 'Kategori');
+define('_JNEWS_SORT_CATEGORY_TIPS' , 'Om du velger dette vil innholdet bli sortert etter tilgørende kategori');
+define('_JNEWS_SORT_BUTTON' , 'Sorter');
 
 // smart-newsletter function
 define('_JNEWS_AUTONEWS', 'Smarte nyhetsbrev');
@@ -813,30 +827,38 @@ define('_JNEWS_LICENSE_SETTING', 'Lisens-innstillinger');
 define('_JNEWS_GOOD_LIC', 'Deres lisens er gyldig.');
 define('_JNEWS_NOTSO_GOOD_LIC', 'Deres lisens er ikke gyldig: ');
 define('_JNEWS_PLEASE_LIC', 'Vennligst kontakt jNewss brukerstøtte for å oppgradere deres lisens ( license@ijoobi.com ).');
-define('_JNEWS_DESC_PLUS', 'jNews Plus er den første sekvensielle \'auto respons\'-komponenten for Joomla! CMS.  ' . _JNEWS_FEATURES);
+define('_JNEWS_DESC_PLUS', 'jNews Plus er den første sekvensielle \'autoutsendelse\'-komponenten for Joomla! CMS.  ' . _JNEWS_FEATURES);
 define('_JNEWS_DESC_PRO', 'jNews PRO er det ultimate utsendelsesystemet for Joomla! CMS.  ' . _JNEWS_FEATURES);
 
 //since 1.1.4
 define('_JNEWS_ENTER_TOKEN', 'Fyll inn token');
+
 define('_JNEWS_ENTER_TOKEN_TIPS', 'Vennligst fyll inn ditt token-nummer som du mottok på epost når du kjøpte jNews. ');
+
 define('_JNEWS_ACAJOOM_SITE', 'jNews-side:');
 define('_JNEWS_MY_SITE', 'Min side:');
+
 define( '_JNEWS_LICENSE_FORM', ' ' .
  		'Klikk her for å gå til lisensskjemaet.</a>');
 define('_JNEWS_PLEASE_CLEAR_LICENSE', 'Vennligst tøm lisensfeltene og forsøk på nytt.<br />Om problemet vedvarer, ');
+
 define( '_JNEWS_LICENSE_SUPPORT', 'Om du fortsatt har spørsmål, ' . _JNEWS_PLEASE_LIC);
+
 define( '_JNEWS_LICENSE_TWO', 'kan du hente ditt lisensnummer manuelt ved å fylle inn token-nummer og sideadresse (som er uthevet i grønn på toppen av denne siden) i lisensskjemaet. '
 			. _JNEWS_LICENSE_FORM . '<br /><br/>' . _JNEWS_LICENSE_SUPPORT);
+
 define('_JNEWS_ENTER_TOKEN_PATIENCE', 'En lisens vil bli generert automatisk etter at du har lagret ditt token-nummer.' .
 		' Normalt blir token-nummeret validert innen 2 minutter. Men i enkelte tilfeller kan det likevel ta opp til 15 minutter.<br />' .
 		'<br />Sjekk dette kontrollpanelet igjen om noen få minutter.<br /><br />' .
 		'Om du ikke mottok et gyldig lisensnummer i løpet av 15 minutter, '. _JNEWS_LICENSE_TWO);
+
+
 define( '_JNEWS_ENTER_NOT_YET', 'Ditt token-nummer har ikke blitt validert ennå.');
 define( '_JNEWS_UPDATE_CLICK_HERE', 'Vennligst besøk <a href="http://www.ijoobi.com" target="_blank">www.ijoobi.com</a> for å laste ned nyeste versjon.');
 define( '_JNEWS_NOTIF_UPDATE', 'Fyll inn deres epostadresse og klikk \'Meld på\' for å motta varsler om nye oppdateringer ');
 
 define('_JNEWS_THINK_PLUS', 'Om du ønsker mer ut av deres utsendelser, tenk Plus!');
-define('_JNEWS_THINK_PLUS_1', 'Sekvensielle \'auto respons\'');
+define('_JNEWS_THINK_PLUS_1', 'Sekvensielle \'autoutsendelse\'');
 define('_JNEWS_THINK_PLUS_2', 'Planlegg levering av deres nyhetsbrev for en forhåndsdefinert dato');
 define('_JNEWS_THINK_PLUS_3', 'Ingen flere serverbegrensninger');
 define('_JNEWS_THINK_PLUS_4', 'og mye mer ...');
@@ -955,6 +977,9 @@ define('_JNEWS_DISABLETOOLTIP', 'Deaktiver verktøytips');
 define('_JNEWS_DISABLETOOLTIP_TIPS', 'Dekativer verktøytips på brukersiden');
 define('_JNEWS_MINISENDMAIL', 'Bruk \'Mini SendMail\'');
 define('_JNEWS_MINISENDMAIL_TIPS', 'Om deres server bruker \'Mini SendMail\', bruk dette valget for å ikke legge til brukerens navn i hodet på eposten.');
+define('_JNEWS_CONTENT_ORDERING' , 'Innholdsortering');
+define('_JNEWS_CONTENT_ORDERING_TIPS' , 'Dette vil sortere innholdet i ditt innholdstillegg');
+
 
 //Since 3.1.5
 define('_JNEWS_READMORE','Les mer ...');
@@ -1018,7 +1043,7 @@ define('_JNEWS_REGWARN_COLUMN5','Please enter your');
 //url
 define('_JNEWS_URL_PASS','Password');
 define('_JNEWS_URL_PASS_TIPS','Enter the password to be able to add a subscriber by entering the url. Append the catcher variable password in the URL.<br>(For Plus and PRO this code will used for captcha.)');
-define('_JNEWS_URL_MES','Please subscribe through the Subscriber Module or subscribe through the frontend.');
+define('_JNEWS_URL_MES','You are not authorized to subscribe via URL.<br>The password is not correct<br>Please subscribe through the Subscriber Module or subscribe through the frontend.');
 define('_JNEWS_URL_PASS_WARN','(In the PRO If you change this password, please update the hidden password in your external form as well.)');
 define('_JNEWS_ENABLE_CAPTCHA', 'Enable Captcha');
 define('_JNEWS_ENABLE_CAPTCHA_TIPS','Enable captcha functionality in the subscriber module and in the subscription via external form in the PRO.');
@@ -1028,12 +1053,11 @@ define('_JNEWS_SUBSCRIPTION_NOTIFY','Send Subscription Notification');
 define('_JNEWS_SUBSCRIPTION_NOTIFY_TIPS','Admin will be sent with subscription notification email after users subscribe in the jNews Subscribers Module. The notification will be sent to: ');
 define('_JNEWS_SUBSCRIPTION_NOTIFY_MSG1','A subscription notification email has been sent to the administrator.');
 define('_JNEWS_SUBSCRIPTION_NOTIFY_MSG2','No subscription notification email sent.');
-define('_JNEWS_NEW_SUB','jNews Newsletter Subscription');
 define('_JNEWS_SUBSCRIPTION_NOTIFY_ERR','Unable in sending a subscription notification to the administrator.');
 //subscription notification messages
 //for captcha
 define('_JNEWS_CAPTCHA_CAPTION','Code: ');
-define('ACA_WRONG_CAPTCHA_ENTERED','<p style=\'text-align: justify;\'><b>CAPTCHA security code is incorrect or the information you provided are invalid.</b><br>(The security code is necessary to prevent automatic registrations by bots and to verify that registrations are made by a person.)<br><br><b><font color=#ff0000>Your subscription was not processed.</font></b><br><br>Please fill in your information and the security code more carefully and click the <b>Subscribe</b> button.<br><br>Thanks for your understanding.</p><br>');
+define('JNEWS_WRONG_CAPTCHA_ENTERED','<p style=\'text-align: justify;\'><b>CAPTCHA security code is incorrect or the information you provided are invalid.</b><br>(The security code is necessary to prevent automatic registrations by bots and to verify that registrations are made by a person.)<br><br><b><font color=#ff0000>Your subscription was not processed.</font></b><br><br>Please fill in your information and the security code more carefully and click the <b>Subscribe</b> button.<br><br>Thanks for your understanding.</p><br>');
 define('_JNEWS_REGWARN_CAPTCHA','Enter the captcha code.');
 define('_JNEWS_SUB_ERR','<br>Error in subscribing.');
 
@@ -1166,7 +1190,7 @@ define('_JNEWS_SPECIFIED_DATE_END','End');
 define('_JNEWS_REPORT_LISTING','Listing');
 define('_JNEWS_REPORT_GRAPH','Graph');
 define('_JNEWS_REPORT_EXPORT','Export');
-define('-ACA_SUBSCRIBERS_ALL_USERS', 'All Users');		//subscribers
+define('-JNEWS_SUBSCRIBERS_ALL_USERS', 'All Users');		//subscribers
 define('_JNEWS_SUBSCRIBERS_REGISTERED', 'Registered');
 define('_JNEWS_SUBSCRIBERS-GUESTS','Guests');
 define('_JNEWS_REPORT_WARN_MESSAGE', 'Incomplete Date Selection in Specified Fieldset!');
@@ -1337,7 +1361,7 @@ define('_JNEWS_TAG_VIEWONLINE_DESC', 'This will be replaced by either the defaul
 //since 1.1.0
 define('_JNEWS_SHOW_CRON','Enable joobi cron');
 
-define('_JNEWS_SHOW_CRON_TIPS','Enables the cron set up upon the installation of jNews.<br>This cron was set up in http://www.ijoobi.com and will be triggered every 15 minutes');
+define('_JNEWS_SHOW_CRON_TIPS','Enables the cron set up upon the installation of jNews.<br>This cron was set up in http://www.joobi.co and will be triggered every 15 minutes');
 define('_JNEWS_CRON_FSETTINGS' , 'Cron Settings');
 
 define('_JNEWS_INSTALL_ACAUPDATEMSG' , 'Do you want to import your database from Acajoom to jNews?');
@@ -1490,7 +1514,7 @@ define('_JNEWS_SELECT_ALLLISTS','Click to select all List');
 define('_JNEWS_SELECT_ALLLAUTOR','Click to select all Auto-responder');
 define('_JNEWS_UNSUBSLINK_TIP','Select yes if you prefer to show unsubscribe link on mailings');
 define('_JNEWS_CHANGESUBSLINK_TIP','Select yes if you prefer to show subscription link on mailings for subscriber to change his subscription');
-define('ACA_AUTOMATIC_CRON', 'An automatic cron is created upon the installation of jNews.<br/>This cron was automatically set up in www.ijoobi.com. This cron has the frequency of 15 minutes.');
+define('JNEWS_AUTOMATIC_CRON', 'An automatic cron is created upon the installation of jNews.<br/>This cron was automatically set up in www.joobi.co. This cron has the frequency of 15 minutes.');
 define('_JNEWS_IMPORTSUB_TIPS','Import subscribers. The information in the file need to be to the following format: <b>Name, email, receiveHTML(1/0), <span style="color: rgb(255, 0, 0);">confirmed(1/0)</span></b>');
 define('_JNEWS_NOSMARTTAG', 'The smartnewsletter doesn\'t contain a [SMARTNEWSLETTER] tag yet. Please insert the tag in the content.');
 define('_JNEWS_DELETEBTN','Delete Queue');
@@ -1504,3 +1528,47 @@ define('_JNEWS_QUEUESTATS_TIPS','Turn On if you want the Process Queue to start 
 define('_JNEWS_MENU_STARTQ_MSG','The processing of queue has been started.');
 define('_JNEWS_MENU_STOPQ_MSG','The processing of queue has been stopped.');
 define('_JNEWS_QUEUESTATS_NOTIFY','The queue has been stopped if you want to continue proccessing it, you need to ');
+define('_JNEWS_NEW_SUB','jNews Subscription');
+
+//since
+define('_JNEWS_NEW_URL_PASS_TIPS','Enter the password to be able to add a subscriber via url. Append the catcher variable passwordA in the URL.');
+define('_JNEWS_CRON_PASSWORD', 'Cron Password');
+define('_JNEWS_USE_CRON_PASS', 'Use Password for Cron');
+
+//since 4.2.0
+define('_JNEWS_QUEUE_STATUS','Queue Status');
+define('_JNEWS_SMTPPORT','SMTP Port');
+define('_JNEWS_SMARTQUEUE','Smart Queue');
+define('_JNEWS_SMARTQ_ON','On');
+define('_JNEWS_SMARTQ_OF','Off');
+define('_JNEWS_SMARTQ_TIPS','Turn On if you want to enable the Smart processing of queue which will overcome your server limitation.');
+define('_JNEWS_SUB_INFO_FIELDS', 'Show More Subscriber Info');
+define('_JNEWS_SUB_INFO_FIELDS_TIPS', 'Show IP ,Register Date, User id and Black List fields in the subscriber form in the frontend');
+define('_JNEWS_JSUB', 'Frontend Management');
+define('_JNEWS_JSUB_TIPS', 'Choose if only the owner of the list or the super admin can only edit and create/view newsletters in the frontend. A user can own a list if he is subscribed via jSubscription');
+define('_JNEWS_BYOWNER', 'By Owner');
+define('_JNEWS_LIST_ACESS', 'By List Access');
+define('_JNEWS_CAPTCHA_WARN',   'Cannot create Captcha Image either you do not have php GD Library installed or php GD Library has not been loaded with TFF support <br>Check your phpinfo() or you can turn off the Enable Captcha option from ');
+define('_JNEWS_CAPTCHA_LINK','jNews Configuration under Subscriber Tab');
+define('_JNEWS_MORE_TEMPLATES','More Templates');
+
+//Since 5.0.0
+define('_JNEWS_TAGMENU_K2CONTENT', 'K2 Contents');
+define('_JNEWS_TAGMENU_VMPRODUCTS', 'Virtuemart Products');
+define('_JNEWS_TEMPLATE_AVLB','Availability');
+define('_JNEWS_TEMPLATE_INS','Installed');
+define('_JNEWS_TEMPLATE_DWN','Download');
+define('_JNEWS_TEMPLATE_FDWN','Free Download');
+define('_JNEWS_TEMPLATE_IMG','Image');
+define('_JNEWS_SUBS_INFO','You do not have subscription record to any mailing lists so it is not possible to unsubscribe here.');
+define ('_JNEWS_UNSUBS_STATUS','You are already unsubscribe to the list.');
+define('_JNEWS_CAPTCHAW', 'Captcha Width');
+define('_JNEWS_CAPTCHAW_TIPS', 'Define the width of the captcha in the subscriber module');
+define('_JNEWS_CAPTCHAH', 'Captcha Height');
+define('_JNEWS_CAPTCHAH_TIPS', 'Define the height of the captcha in the subscriber module');
+define('_JNEWS_CAPTCHA_MSG', 'Kindly enter the correct captcha code.');
+define('_JNEWS_MCRYPT_MESSAGE', 'The captcha has been turned on without the mcrypt library enabled.<br>Kindly enable the mcrypt extension in your php.ini.<br>You may also want to disable captcha in ');
+
+//Since 5.1.0
+define('_JNEWS_FORCED_HTML', 'Send HTML Mailing Only?');
+define('_JNEWS_FORCED_HTML_TIP','Yes if you want to force only html mailing will be sent to your subscribers.');
