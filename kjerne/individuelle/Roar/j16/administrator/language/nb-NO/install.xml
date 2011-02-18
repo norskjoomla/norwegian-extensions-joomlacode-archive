@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Id$ -->
-<install version="1.6" client="administrator" type="language" method="upgrade">
+<extension version="1.6" client="administrator" type="language" method="upgrade">
     <name>Norsk bokmål (Norway)</name>
     <tag>nb-NO</tag>
     <version>1.6.0</version>
@@ -172,4 +172,4 @@
         <filename file="meta">nb-NO.xml</filename>
         <filename file="meta">install.xml</filename>
       </files>
-</install>
+</extension>
