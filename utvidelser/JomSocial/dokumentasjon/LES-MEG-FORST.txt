@@ -1,6 +1,6 @@
 # $Id:
 # Joomla! Norwegian Bokmål Translation
-# Copyright (C) Translation 2010 - Joomla! i Norge http://www.joomlainorge.no/
+# Copyright (C) Translation 2011 - Joomla! i Norge http://www.joomlainorge.no/
 # license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
 
 # Note : All ini files need to be saved as UTF-8
@@ -14,7 +14,7 @@ SPRÅKFILER OG E-POSTMALER
 Pakken består av to ZIP-filer og dette dokumentet:
 * Norske språkfiler for JomSocial: jomsocial_nb-NO-x.x.x.zip
 * Norske e-postmaler for JomSocial: jomsocial_epostmaler_nb-NO-x.x.x.zip
-(x.x.x står for versjonsnummeret til JomSocial (eksempel: 1.8.11)
+(x.x.x står for versjonsnummeret til JomSocial (eksempel: 2.0.5)
 
 INSTALLASJON
 Først må du pakke ut den nedlastede ZIP-filen til en midlertidig mappe på din
