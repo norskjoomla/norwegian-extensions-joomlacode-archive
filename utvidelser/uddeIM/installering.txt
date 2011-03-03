@@ -1,6 +1,0 @@
-Oversettelse for uddeIM_2.1
-Kopier hele mappen administrator til roten på installasjonen din eller kopier språkfilene norwegian.php til respektive foldere.
-Det er støtte for ISO-8859-1 (joomla 1.0.x) og UTF-8 (joomla 1.5.x)
-Tegnsettingen velges i oppsettet til uddeIM.
-s
-Lykke til!
