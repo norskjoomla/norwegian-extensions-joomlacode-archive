@@ -1,1 +1,0 @@
-Kopier filen norwegian.php til: \administrator\components\com_xmap\language
