@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: install.xml 567 2009-03-24 09:45:28Z rued $ -->
+<install version="1.5" method="upgrade" client="both" type="language">
+    <name>Norwegian bokmål (Norway)</name>
+    <tag>nb-NO</tag>
+    <version>1.0</version>
+    <creationDate>17.07.2009</creationDate>
+    <author>Foreningen Joomla! i Norge - Tommy Roger Skålvik</author>
+    <authorEmail>oversettelser@joomlainorge.no</authorEmail>
+    <authorUrl>www.joomlainorge.no</authorUrl>
+    <copyright>Copyright (C) 2008 Joomla! i Norge. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description>Norwegian bokmål translation for ccBoard</description>
+    <administration>
+      <files folder="admin">
+        <filename>nb-NO.com_ccboard.ini</filename>
+        <filename>nb-NO.com_ccboard.menu.ini</filename>
+        <filename>nb-NO.plg_search_ccboard.ini</filename>
+      </files>
+  </administration>
+  <site>
+      <files folder="site">
+        <filename>nb-NO.com_ccboard.ini</filename>
+        <filename>nb-NO.mod_ccboard_latest_posts.ini</filename>
+        <filename>nb-NO.mod_ccboard_latest_topics.ini</filename>
+        <filename>nb-NO.mod_ccboard_popular_posts.ini</filename>
+    </files>
+  </site>
+  <params />
+</install>

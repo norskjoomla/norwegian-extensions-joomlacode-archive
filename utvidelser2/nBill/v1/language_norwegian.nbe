@@ -1,0 +1,76 @@
+#nbill_extension_installer_1.0
+
+# The following directive tells the installer whether or not to convert the files in this extension to UTF-8.
+# If your files are encoded as ISO-8559-1 (this is usually the default for text editors, so they probably are),
+# some CMSs (eg. Joomla 1.5, Mambo 4.6) will require them to be converted to UTF-8. Other CMSs may prefer them 
+# to be kept as ISO-8559-1, or the user might be able to choose. If the files are NOT encoded using ISO-8559-1, 
+# you must set this option to C (Don't Convert), as the conversion process will not work with any other encoding.
+# In most cases though, it is necessary to set this option to A.
+# 
+# Valid values for this directive are: 
+# A = Convert if required by CMS
+# B = Convert always
+# C = Don't Convert
+Convert_ISO-8859-1_to_UTF-8=A
+
+#Minimum version of nBill on which this extension installation will work
+nbill_version=1.2.9
+
+#If a service pack is required for the above version in order for this installation to work, specify it here
+nbill_sp=0
+
+type=language
+
+#This must match the name of the language pack in the CMS
+name=norwegian
+
+#The title is used as the default human-readable display value (although the user can change it):
+title=Norsk bokmål
+
+author=Netshine Software Limited and Joomla! i Norge
+
+date=Nov 2009
+
+copyright=(C) 2008 - 2009 Netshine Software Limited. All rights reserved. Translation by Joomla! i Norge
+
+license=See www.nbill.co.uk/eula.html
+
+author_email=oversettelser@joomlainorge.no
+
+author_url=www.nbill.co.uk
+
+version=1.0.5
+
+description=Norsk bokmål-oversettelse for nBill - Norwegian bokmal language pack for nBill.
+
+admin_file=norwegian/netinvoice_norwegian.php
+admin_file=norwegian/backup.norwegian.php
+admin_file=norwegian/carriage.norwegian.php
+admin_file=norwegian/categories.norwegian.php
+admin_file=norwegian/clients.norwegian.php
+admin_file=norwegian/configuration.norwegian.php
+admin_file=norwegian/credits.norwegian.php
+admin_file=norwegian/currency.norwegian.php
+admin_file=norwegian/discounts.norwegian.php
+admin_file=norwegian/display.norwegian.php
+admin_file=norwegian/expenditure.norwegian.php
+admin_file=norwegian/extensions.norwegian.php
+admin_file=norwegian/frontend.norwegian.php
+admin_file=norwegian/gateway.norwegian.php
+admin_file=norwegian/income.norwegian.php
+admin_file=norwegian/invoices.norwegian.php
+admin_file=norwegian/invoicetemplate.norwegian.php
+admin_file=norwegian/io.norwegian.php
+admin_file=norwegian/ledger.norwegian.php
+admin_file=norwegian/ledger_report.norwegian.php
+admin_file=norwegian/orderforms.norwegian.php
+admin_file=norwegian/orders.norwegian.php
+admin_file=norwegian/pending.norwegian.php
+admin_file=norwegian/products.norwegian.php
+admin_file=norwegian/reminders.norwegian.php
+admin_file=norwegian/suppliers.norwegian.php
+admin_file=norwegian/taxsummary.norwegian.php
+admin_file=norwegian/tx_search.norwegian.php
+admin_file=norwegian/transactions.norwegian.php
+admin_file=norwegian/vat.norwegian.php
+admin_file=norwegian/vendors.norwegian.php

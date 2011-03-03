@@ -1,0 +1,52 @@
+<?php
+/**
+* @version 1.1.x
+* @package nBill
+* @copyright (C) 2006-2007 Netshine Software Limited
+* @copyright Translation 2009 Joomla! i Norge
+* @license Commercial
+* 
+* PLEASE NOTE: This is NOT free software. You must purchase a license in order to use this component.
+* For more information, see www.nbill.co.uk
+*
+* All Rights Reserved. You may make amendments to any unencrypted files for your own use only or
+* for the use of your customers if you are a website developer. HOWEVER, you are not permitted to
+* re-distribute or re-sell this software in any form without the express permission of the copyright 
+* holder. This software is NOT open source.
+*
+* This component was developed by Netshine Software Limited (www.netshinesoftware.com). Use of this
+* software is entirely at your own risk.
+*/
+
+/** ensure this file is being included by a parent file */
+defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
+
+//Suppliers
+define("INV_SUPPLIERS_TITLE", "Leverandører");
+define("INV_SUPPLIERS_INTRO", "Vanlig informasjon fra leverandører som du foretar regelmessige betalinger til. Dette sparer deg fra å skrive inn detaljene på utgiftslisten hver gang du betaler en faktura. For engangsbetalinger trenger du ikke å opprette en leverandørpost - du kan bare skrive inn opplysninger på utgiftslisten.");
+define("INV_SUPPLIER", "Leverandør");
+define("INV_SUPPLIER_NAME", "Leverandørnavn");
+define("INV_SUPPLIER_EMAIL_ADDRESS", "E-post adresse");
+define("INV_INSTR_SUPPLIER_EMAIL_ADDRESS", "For din egen referanse - " . INV_BRANDING_NAME . " det vil ikke bli sendt e-post til denne adressen.");
+define("INV_SUPPLIER_WEBSITE", "Hjemmeside");
+define("INV_SUPPLIER_TELEPHONE", "Telefon");
+define("INV_EDIT_SUPPLIER", "Rediger leverandør");
+define("INV_SUPPLIER_NAME_REQUIRED", "Vennligst skriv inn enten et firmanavn og/eller et kontaktnavn.");
+define("INV_NEW_SUPPLIER", "Ny leverandør");
+define("INV_SUPPLIER_DETAILS", "Leverandørdetaljer");
+define("INV_SUPPLIER_COUNTRY", "Land");
+define("INV_INSTR_SUPPLIER_COUNTRY", "");
+define("INV_SUPPLIER_REFERENCE", "Referanse");
+define("INV_INSTR_SUPPLIER_REFERENCE", "Din referanse eller kundenummer hos denne leverandøren.");
+define("INV_TAX_REFERENCE", "Avgiftsreferanse");
+define("INV_INSTR_TAX_REFERENCE", "Leverandørens organisasjonsnr.");
+define("INV_SUPPLIER_CURRENCY", "Standard valuta");
+define("INV_INSTR_SUPPLIER_CURRENCY", "Valuta som vanligvis skal benyttes på denne leverandøren");
+define("INV_INSTR_SUPPLIER_ADDRESS", "Leverandørs adresse.");
+define("INV_SUPPLIER_ADDRESS_1", "Adresse 1");
+define("INV_SUPPLIER_ADDRESS_2", "Adresse 2");
+define("INV_SUPPLIER_ADDRESS_3", "Adresse 3");
+define("INV_SUPPLIER_TOWN", "Sted/by");
+define("INV_SUPPLIER_STATE", "Fylke");
+define("INV_SUPPLIER_POSTCODE", "Postnummer");
+?>

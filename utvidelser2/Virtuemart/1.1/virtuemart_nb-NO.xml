@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install version="1.5.0" type="component" method="upgrade">
+	<name>VirtueMart</name>
+	<creationDate>-</creationDate>
+	<author>The VirtueMart Development Team</author>
+	<authorEmail>team@virtuemart.net</authorEmail>
+	<authorUrl>http://www.virtuemart.net</authorUrl>
+	<copyright>Copyright (C) 2004-2010 VirtueMart Development Team. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>-</version>
+	<description>Norwegian language pack for VirtueMart</description>
+	<administration>
+		<menu img="../components/com_virtuemart/shop_image/ps_image/menu_icon.png">VirtueMart</menu>
+		<files>
+  		<filename>index.html</filename>
+  		<filename>/languages/account/norwegian.php</filename>
+  		<filename>/languages/admin/norwegian.php</filename>
+  		<filename>/languages/affiliate/norwegian.php</filename>
+  		<filename>/languages/checkout/norwegian.php</filename>
+  		<filename>/languages/common/norwegian.php</filename>
+  		<filename>/languages/coupon/norwegian.php</filename>
+  		<filename>/languages/help/norwegian.php</filename>
+  		<filename>/languages/manufacturer/norwegian.php</filename>
+  		<filename>/languages/msgs/norwegian.php</filename>
+  		<filename>/languages/order/norwegian.php</filename>
+  		<filename>/languages/product/norwegian.php</filename>
+  		<filename>/languages/reportbasic/norwegian.php</filename>
+  		<filename>/languages/shipping/norwegian.php</filename>
+  		<filename>/languages/shop/norwegian.php</filename>
+  		<filename>/languages/shopper/norwegian.php</filename>
+  		<filename>/languages/store/norwegian.php</filename>
+  		<filename>/languages/tax/norwegian.php</filename>
+  		<filename>/languages/vendor/norwegian.php</filename>
+  		<filename>/languages/zone/norwegian.php</filename>
+  		<filename>/classes/payment/paypal_api/languages/lang.norwegian.admin.php</filename>
+  		<filename>/classes/payment/paypal_api/languages/lang.norwegian.php</filename>
+		</files>
+	</administration>
+</install>

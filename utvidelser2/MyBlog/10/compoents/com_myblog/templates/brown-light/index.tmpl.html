@@ -1,0 +1,88 @@
+<?php
+	if ($entry and count($entry) != 0)
+	{
+		foreach ($entry as $e)
+		{
+			$date = strtotime($e['created']);
+			$date_display = ltrim(strftime("%d %b %Y ", $date), "0");
+			$time_display = ltrim(strftime("%I:%M %p", $date), "0");
+			$date_display = i8n_date($date_display);
+		?>
+
+<div class="entryContent">
+    <div class="entry">
+    	<table class="entryTitle"  cellspacing="0" cellpadding="0">
+			<tr>
+				
+				<td class="categoryCell">
+					<?php echo $e['categories']; ?>
+				</td>
+				<td class="my-dateCell">
+					<?php echo $date_display ; ?>
+				</td>
+				<?php
+					if ($e['avatar'] != "")
+					{
+				?>
+				<td class="my-avatarCell" rowspan="2">
+					<div class="userAvatar">
+					<?php echo $e['avatar']; ?>
+					</div>
+				</td>
+				<?php
+					}
+				?>	
+			</tr>
+			<tr>
+				<td class="my-titleCell" colspan="<?php if ($e['comments']!="") echo "1"; 
+														else echo "2";
+												?>">
+					<a href="<?php echo $e['permalink']; ?>"><?php echo $e['title']; ?></a>
+					<span style="color:#999999">av </span><a href="<?php echo $e['authorLink']; ?>"><?php echo $e['author']; ?>
+				</td>
+				<?php
+					if ($e['comments']!="") // if comments enabled
+					{
+						?>
+						<td class="commentsCell">
+							<?php echo '<a href="'.$e['permalink'].'#comments">'.$e['comments'] .'</a>'; ?>
+						</td>
+						<?php
+					}
+				?>
+				
+			</tr>
+		</table>
+		<?php
+        	if (isset($e['beforeContent']))
+			{ ?>
+			<div class="onBeforePrepareContent">
+				<?php echo $e['beforeContent'];?>
+			</div>
+			<?php
+			}
+		    ?>
+        <div class="entry-body"> 
+			<?php echo $e['text']; ?> 
+			<div class="clear"></div>
+		</div>
+        <?php if (isset($e['afterContent']))
+			{ ?>
+			<div class="onAfterPrepareContent">
+				<?php echo $e['afterContent'];?>
+			</div>
+			<?php
+			}
+		    ?>
+		<div class="entry-footer">
+			<?php if ($e['readmore']=="1")
+			{ ?>
+			<a href="<?php echo $e['permalink']; ?><?php echo $showAnchor; ?>">_MB_READ_MORE...</a>
+			<?php } ?>
+		</div>
+    </div>
+</div>
+<?php
+		}
+	}
+?>
