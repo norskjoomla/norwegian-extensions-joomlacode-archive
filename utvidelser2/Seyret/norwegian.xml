@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<seyretxml>
+	<name>Norwegian Language for Seyret</name>
+	<packageversion>5</packageversion>
+	<type>language</type>
+	<date>01.11.2008</date>
+	<author>Rune Rasmussen og Petter Sandvik</author>
+	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+	<authorUrl>http://www.joomlainorge.no</authorUrl>
+	<copyright>2008 Joomla! i Norge</copyright>
+	<description>Norwegian language file for Seyret. Initial test release...</description>
+	<targetfolder>/components/com_seyret/language</targetfolder>
+	<compatibility>0.2.8.2</compatibility>
+	<files>
+		<filename>norwegian.xml</filename>
+		<filename>norwegian.php</filename>
+	</files>
+</seyretxml>

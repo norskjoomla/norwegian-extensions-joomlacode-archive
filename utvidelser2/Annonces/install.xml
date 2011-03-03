@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+<install version="1.5" client="both" type="language" method="upgrade">
+    <name>Norwegian bokmål (Norway)</name>
+    <tag>nb-NO</tag>
+    <version>1.2.4</version>
+    <creationDate>23-10-2010</creationDate>
+    <author>Rune Rasmussen</author>
+    <authorEmail>oversettelser@syntaxerror.no</authorEmail>
+    <authorUrl>http://www.syntaxerror.no/oversettelser.html</authorUrl>
+    <copyright>Copyright Translation (C) 2010 Hell Communication and Rune Rasmussen. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description>Norwegian bokmål translation for Annonces, sponsored by HELL COMMUNICATION.</description>
+    <administration>
+      <files folder="admin">
+        <filename>nb-NO.com_annonces.ini</filename>
+        <filename>nb-NO.com_annonces.menu.ini</filename>
+        <filename>nb-NO.plg_annonces.ini</filename>
+      </files>
+    </administration>
+    <site>
+      <files folder="site">
+        <filename>nb-NO.com_annonces.ini</filename>
+        <filename>nb-NO.mod_annonces.ini</filename>
+    </files>
+  </site>
+  <params />
+</install>

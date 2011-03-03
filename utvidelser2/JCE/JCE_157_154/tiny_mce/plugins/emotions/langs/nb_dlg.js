@@ -1,0 +1,20 @@
+tinyMCE.addI18n('nb.emotions_dlg',{
+title:"Sett inn emosjon",
+desc:"Emosjoner",
+cool:"Kul",
+cry:"Gråt",
+embarassed:"Flau",
+foot_in_mouth:"Fot i kjeften",
+frown:"Rynke",
+innocent:"Uskyldig",
+kiss:"Kyss",
+laughing:"Ler",
+money_mouth:"Grisk",
+sealed:"Holder tett",
+smile:"Smiler",
+surprised:"Overrasket",
+tongue_out:"Tungen ut",
+undecided:"Ubestemmelig",
+wink:"Blunk",
+yell:"Rop"
+});

@@ -1,0 +1,65 @@
+<?php
+$date  = strtotime($entry['created']);
+$day = strftime("%d", $date);
+			$month = strftime("%b", $date);
+			$date_display = strftime("%d ", $date) . strftime("%b, ", $date) . strftime("%Y", $date) ;
+			$date_display = i8n_date($date_display);
+?>
+<br/>
+
+<div class="blogsContainer entryContent entry">
+	<div class="entryContent entry">
+	<acronym class="published" title="<?php echo $date_display; ?>"> <span class="pub-month">
+	    <?php echo $month; ?>
+	    </span> <span class="pub-date">
+	    <?php echo $day; ?>
+    </span> </acronym>
+    <!-- START TITLE -->
+    <h2><a href="<?php echo $entry['permalink']; ?>" rel="bookmark" title="Permanent Link to <?php echo $entry['title']; ?>">
+      <?php echo $entry['title']; ?>
+      </a>
+    </h2>
+    <!-- END TITLE -->
+	<!-- START DETAILS -->
+	<span style="float:right;padding-right:5px;"><?php echo $entry['avatar']; ?></span>
+	<small> Publisert i
+	<?php echo $entry['categories']; ?>
+	av
+	<strong><?php echo $entry['author']; ?></strong>
+<?php
+							if($enablePrintLink){
+                          		echo myGetPrintLink($entry['id'],myGetItemId());
+							}
+							echo '&nbsp;';
+					        if($enablePdfLink){
+       							echo myGetPDFLink($entry['id'],myGetItemId());
+						    }
+?>
+                    </small>
+	<!-- END DETAILS -->
+	<!-- START POST CONTENT -->
+	<?php 
+		if ($entry['beforeContent'])
+		{ ?>
+		<div class="onBeforePrepareContent">
+			<?php echo $entry['beforeContent'];?>
+		</div>
+		<?php
+		}
+	    ?>
+    <div class="entry-body">
+      <?php echo $entry['text']; ?>
+      <div class="clear"></div>
+    </div>
+    <?php if ($entry['afterContent'])
+		{ ?>
+		<div class="onAfterPrepareContent">
+			<?php echo $entry['afterContent'];?>
+		</div>
+		<?php
+		}
+	    ?>
+    <!-- END POST CONTENT -->
+    <?php echo $entry['comments'] ?>
+</div>
+</div>

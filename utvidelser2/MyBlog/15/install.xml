@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+<install version="1.5" client="both" type="language" method="upgrade">
+    <name>Norwegian bokmål (Norway)</name>
+    <tag>nb-NO</tag>
+    <version>3.0.332</version>
+    <creationDate>11.06.2010</creationDate>
+    <author>Rune Rasmussen</author>
+    <authorEmail>oversettelser@joomlainorge.no</authorEmail>
+    <authorUrl>www.joomlainorge.no</authorUrl>
+    <copyright>Copyright (C) 2009-2010 Joomla! i Norge. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description>Norwegian bokmål translation for MyBlog</description>
+    <administration>
+      <files>
+      </files>
+    </administration>
+    <site>
+      <files folder="site">
+        <filename>nb-NO.com_myblog.ini</filename>
+      </files>
+    </site>
+  <params />
+</install>
