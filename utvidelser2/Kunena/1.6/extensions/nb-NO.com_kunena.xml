@@ -5,24 +5,30 @@
 	<name>Kunena Forum - Norwegian</name>
 	<tag>nb-NO</tag>
 	<creationDate>06-03-2011</creationDate>
-	<version>1.6.3</version>
-	<build>4344</build>
+	<version>1.6.4</version>
+	<build>4566</build>
 	<author>Joomla! i Norge</author>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>www.joomlainorge.no</authorUrl>
 	<copyright>(C) 2008 - 2011 Kunena Team All rights reserved</copyright>
 	<license>GNU/GPL</license>
 	<description>Norwegian language files for Kunena Modules and Plugins</description>
-	<site>
-		<files folder="modules">
-			<filename>nb-NO.mod_kunenalogin.ini</filename>
-			<filename>nb-NO.mod_kunenasearch.ini</filename>
-			<filename>nb-NO.mod_kunenastats.ini</filename>
-		</files>
+	<administration>
 		<files folder="plugins">
+			<filename>nb-NO.plg_community_kunenagroups.ini</filename>
 			<filename>nb-NO.plg_community_kunenamenu.ini</filename>
 			<filename>nb-NO.plg_community_mykunena.ini</filename>
 			<filename>nb-NO.plg_content_kunenadiscuss.ini</filename>
+			<filename>nb-NO.plg_finder_jxfinder_kunena.ini</filename>
+			<filename>nb-NO.plg_search_kunenasearch.ini</filename>
+			</files>
+	</administration>
+	<site>
+		<files folder="modules">
+			<filename>nb-NO.mod_kunenalatest.ini</filename>
+			<filename>nb-NO.mod_kunenalogin.ini</filename>
+			<filename>nb-NO.mod_kunenasearch.ini</filename>
+			<filename>nb-NO.mod_kunenastats.ini</filename>
 		</files>
 	</site>
 </install>
