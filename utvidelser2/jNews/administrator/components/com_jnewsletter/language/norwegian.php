@@ -146,7 +146,7 @@ define('_JNEWS_UNSUBSCRIBE_SUBJECT_MESS', 'Bekreftelse på avmelding');
 define('_JNEWS_DEFAULT_SUBSCRIBE_MESS', 'Hei [NAME],<br />' .
 		'Kun et steg igjen og du abonnerer på denne listen. Vennligst klikk på lenken for bekrefte ditt abonnement.' .
 		'<br /><br />[CONFIRM]<br /><br />Kontakt vår nettredaktør om du har noen spørsmål.');
-define('_JNEWS_DEFAULT_UNSUBSCRIBE_MESS', 'Dette er en epost for å bekrefte at du ikke lenger abonnerer på vårt nyhetsbrev. Vi beklager deres beslutning, men skulle du noen gang ønske å bli abonnent igjen kan du melde deg på via vår nettside. Kontakt vår nettredaktør om du har noen spørsmål.');
+define('_JNEWS_DEFAULT_UNSUBSCRIBE_MESS', 'Dette er en epost for å bekrefte at du ikke lenger abonnerer på vårt nyhetsbrev. Vi takker for følget så langt, og skulle du noen gang ønske å bli abonnent igjen kan du enkelt melde deg på igjen via vår nettside. Kontakt vår nettredaktør om du har noen spørsmål.');
 define('_JNEWS_HELLO', 'Hei ');
 
 // jNews subscribers
