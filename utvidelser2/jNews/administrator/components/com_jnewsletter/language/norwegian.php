@@ -40,7 +40,7 @@ define('_JNEWS_FEATURES', 'jNews, deres kommunikasjonspartner!');
 
 // Type of lists
 define('_JNEWS_NEWSLETTER', 'Nyhetsbrev');
-define('_JNEWS_AUTORESP', 'Automatisk svar');
+define('_JNEWS_AUTORESP', 'Automatisk utsendelse');
 define('_JNEWS_AUTORSS', 'Automatisk RSS');
 define('_JNEWS_ECARD', 'E-kort');
 define('_JNEWS_POSTCARD', 'Postkort');
@@ -133,7 +133,7 @@ define('_JNEWS_BLACK_LIST', 'Svarteliste');
 define('_JNEWS_REGISTRATION_DATE', 'Registreringsdato');
 define('_JNEWS_USER_ID', 'Bruker-id');
 define('_JNEWS_DESCRIPTION', 'Beskrivelse');
-define('_JNEWS_ACCOUNT_CONFIRMED', 'deres konto har blitt aktivert.');
+define('_JNEWS_ACCOUNT_CONFIRMED', 'Deres e-post er nå bekreftet og har blitt aktivert.');
 define('_JNEWS_SUB_SUBSCRIBER', 'Abonnent');
 define('_JNEWS_SUB_PUBLISHER', 'Utgiver');
 define('_JNEWS_SUB_ADMIN', 'Administrator');
@@ -160,7 +160,7 @@ define('_JNEWS_SEL_LIST_TYPE', '- Velg listetype -');
 define('_JNEWS_SUSCRIB_LIST', 'Liste med alle abonnenter');
 define('_JNEWS_SUSCRIB_LIST_UNIQUE', 'Abonnenter av: ');
 define('_JNEWS_NO_SUSCRIBERS', 'Ingen abonnenter ble funnet i denne listen.');
-define('_JNEWS_COMFIRM_SUBSCRIPTION', 'En epostbekreftels er nå sent til deg.  Vennligst sjekk deres epost og klikk på lenken i eposten fra oss.<br />' .
+define('_JNEWS_COMFIRM_SUBSCRIPTION', 'En epostbekreftels er nå sent til deg.  Vennligst sjekk deres epost og klikk på lenken i eposten fra oss for å bekrefte påmeldingen din.<br />' .
 		'Du må bekrefte deres epostadresse før abonnementet ditt aktiveres.');
 define('_JNEWS_SUCCESS_ADD_LIST', 'Du har nå blitt lagt til i listen.');
 
@@ -258,17 +258,17 @@ define('_JNEWS_INFO_LIST_LAYOUT', 'Fyll inn utforming for listen her. Du kan fyl
 define('_JNEWS_INFO_LIST_SUB_MESS', 'Denne meldingen vil bli sent ut til nye abonnementer. Du kan selv angi teksten du ønsker her.');
 define('_JNEWS_INFO_LIST_UNSUB_MESS', 'Denne meldingen vil bli sendt til abonnenten når han eller hun avbestiller sit abonnement. Du kan selv angi teksten du ønsker her.');
 define('_JNEWS_INFO_LIST_HTML', 'Merker av hvis du ønsker å sende epost i HTML format. Abonnenter vil kunne spesifisere om de ønsker å motta epost i  HTML-format, eller bare tekst når man abonnere på en HTML-liste.');
-define('_JNEWS_INFO_LIST_HIDDEN', 'Klikk Ja for å skjule listen fra forsiden, brukere kan ikke abonnere men du har fortsatt muligheten for å sende epost.');
+define('_JNEWS_INFO_LIST_HIDDEN', 'Velg \'Ja\' for å skjule listen fra forsiden, brukere kan ikke abonnere men du har fortsatt muligheten for å sende epost.');
 define('_JNEWS_INFO_LIST_JNEWS_AUTO_SUB', 'Ønsker du å automatisk legge brukere til i abonnementslisten? <br /> <B> Nye Brukere: </ B> vil registerer alle nye brukere som registrerer seg på nettstedet. <br /> <B> Alle brukere: </ B> vil registrere alle registrerte brukere i databasen. <br /> (alle muligheten støttes av Community Builder)');
 define('_JNEWS_INFO_LIST_ACC_LEVEL', 'Velg tilgangsnivået for forsiden. Dette vil vise eller skjule epost til brukergruppene som ikke har tilgang til det, så de ikke har muligheten til å abonnere på en epostliste.');
 define('_JNEWS_INFO_LIST_ACC_USER_ID', 'Velg tilgangsnivået til brukergruppe du ønsker å tillate redigering. Denne brukergruppen og de over vil være i stand til å redigere epost og sende den ut, enten fra forsiden eller baksiden.');
-define('_JNEWS_INFO_LIST_FOLLOW_UP', 'Hvis du vil at auto-svar skal forflytte seg til en annen etter siste melding, så kan du spesifisere neste her.');
+define('_JNEWS_INFO_LIST_FOLLOW_UP', 'Om du ønsker at denne autoutsendelsen skal fortsette på en annen liste etter siste melding, kan du spesifisere den neste her.');
 define('_JNEWS_INFO_LIST_JNEWS_OWNER', 'Dette er ID for den som opprettet denne listen.');
-define('_JNEWS_INFO_LIST_WARNING', '   Dette valget er kun tilgjengelig når listen er laget.');
-define('_JNEWS_INFO_LIST_SUBJET', ' Emne for epost. Dette er emnet for meldingen abonnenten vil motta.');
+define('_JNEWS_INFO_LIST_WARNING', 'Dette valget er kun tilgjengelig når listen er laget.');
+define('_JNEWS_INFO_LIST_SUBJET', 'Emne for epost. Dette er emnet for meldingen abonnenten vil motta.');
 define('_JNEWS_INFO_MAILING_CONTENT', 'Dette er teksten i eposten du vil sende.');
 define('_JNEWS_INFO_MAILING_NOHTML', 'Angi her teksten i eposten du vil sende til abonnenter som velger ikke å motta HTML-utsendelser. <BR/> MERK: Hvis du lar den stå tom så vil jNews automatisk konvertere HTML-teksten til ren tekst.');
-define('_JNEWS_INFO_MAILING_VISIBLE', 'Klikk Ja for å vise send epost på forsiden.');
+define('_JNEWS_INFO_MAILING_VISIBLE', 'Velg \'Ja\' for å vise sendte eposter på forsiden.');
 define('_JNEWS_INSERT_CONTENT', 'Sett inn eksisterende innhold');
 
 // Coupons
@@ -290,8 +290,8 @@ define('_JNEWS_FREQ_ALL', 'Alle brukere');
 
 //Label CRON form
 define('_JNEWS_LABEL_FREQ', 'jNews Cron-jobber?');
-define('_JNEWS_LABEL_FREQ_TIPS', 'Klikk \'Ja\' hvis du vil bruke dette for en jNews Cron-jobber, ikke for noen annen Cron-jobb.<br />' .
-        'Hvis du klikker \'Ja\' behøver du ikke å spesifisere en Cron-jobbadresse, den bli lagt til automatisk.');
+define('_JNEWS_LABEL_FREQ_TIPS', 'Velg \'Ja\' hvis du vil bruke dette for en jNews Cron-jobber, ikke for noen annen Cron-jobb.<br />' .
+        'Om du velger \'Ja\' behøver du ikke å spesifisere en Cron-jobbadresse, den bli lagt til automatisk.');
 define('_JNEWS_SITE_URL', 'deres nettadressen');
 define('_JNEWS_CRON_FREQUENCY', 'Hyppighet for Cron-jobb');
 define('_JNEWS_STARTDATE_FREQ', 'Start dato');
@@ -407,7 +407,7 @@ define('_JNEWS_TIME_ZONE_TIPS', 'Velg \'Ja\' hvis du vill spørre brukeren om si
 
  // Cron Set up
 define('_JNEWS_AUTO_CONFIG', 'Cron');
-define('_JNEWS_TIME_OFFSET_URL', 'klikk her for å sette opp tidssonen i \'Konfigurasjon -> Tjener\' ');
+define('_JNEWS_TIME_OFFSET_URL', 'Klikk her for å sette opp tidssonen i \'Konfigurasjon -> Tjener\' ');
 define('_JNEWS_TIME_OFFSET_TIPS', 'Sett opp deres servers tidsavvik slik at dato og til et rett');
 define('_JNEWS_TIME_OFFSET', 'Tidsavvik');
 define('_JNEWS_CRON_DESC', '<br />Ved bruke av cron-jobb funksjonen kan du sette opp automatisert oppgave for deres Joomlanettside!<br />' .
@@ -435,7 +435,7 @@ define('_JNEWS_DIAPLAY_LOG', 'Vis logger');
 define('_JNEWS_DISPLAY_LOG_TIPS', 'Velg \'Ja\' hvis du vil se loggen under sending.');
 define('_JNEWS_SEND_PERF_DATA', 'Send ut ytelse');
 define('_JNEWS_SEND_PERF_DATA_TIPS', 'Velg \'Ja\' hvis du vil tillate jNews å sende ut ANONYME rapporter om konfigurasjonen, antall abonnenter på en liste og tiden det tok å sende post. Dette vil gi oss en ide om jNews ytelse og vil HJELP OSS å forbedre jNews i den fremtidige utviklingen.');
-define('_JNEWS_SEND_AUTO_LOG', 'Sent logg for auto-svar');
+define('_JNEWS_SEND_AUTO_LOG', 'Utsendingslogg for autoutsendelser');
 define('_JNEWS_SEND_AUTO_LOG_TIPS', 'Velg \'Ja\' hvis du ønsker å sende en epost logg hver gang køen er behandlet. VARSEL: Dette kan resultere i et stort antall eposter.');
 define('_JNEWS_SEND_LOG', 'Sendt logg');
 define('_JNEWS_SEND_LOG_TIPS', 'Hvorvidt en logg av forsendelsen bør bli sendt til epostadressen til brukeren som sendte eposten.');
@@ -459,9 +459,9 @@ define('_JNEWS_MAILING_COPY', 'Utsendelse kopiert ok!');
 
 // Miscellaneous settings
 define('_JNEWS_SHOW_GUIDE', 'Vis veiviser');
-define('_JNEWS_SHOW_GUIDE_TIPS', 'Vis veiviser ved oppstart slik at nye brukere får hjelp til å lage det første nyhetsbrevet, auto-svar og oppsett av jNews riktig.');
-define('_JNEWS_AUTOS_ON', 'Bruk Auto-svar');
-define('_JNEWS_AUTOS_ON_TIPS', 'Velg \'Nei\' hvis du ikke vil bruke Auto-svar, alle Auto-svar valg vil bli deaktivert.');
+define('_JNEWS_SHOW_GUIDE_TIPS', 'Vis veiviser ved oppstart slik at nye brukere får hjelp til å lage det første nyhetsbrevet, autoutsendelser og oppsett av jNews riktig.');
+define('_JNEWS_AUTOS_ON', 'Bruk autoutsendelser');
+define('_JNEWS_AUTOS_ON_TIPS', 'Velg \'Nei\' hvis du ikke vil bruke autoutsendelser, alle valg for autoutsendelser vil da bli deaktivert.');
 define('_JNEWS_NEWS_ON', 'Bruk nyhetsbrev');
 define('_JNEWS_NEWS_ON_TIPS', 'Velg \'Nei\' hvis du ikke vil bruke nyhetbrev, alle nyhetsbrevsvalg vil bli deaktivert.');
 define('_JNEWS_SHOW_TIPS', 'Vis tips');
@@ -544,7 +544,7 @@ define('_JNEWS_GUIDE', '\'s veiviser');
 define('_JNEWS_GUIDE_FIRST_JNEWS_STEP', '<p>jNews har mange flotte funksjoner og denne veiviseren vil veilede deg gjennom fire enkle trinn for å komme i gang med å sende nyhetsbrev og autoutsendelse!<p />');
 define('_JNEWS_GUIDE_FIRST_JNEWS_STEP_DESC', 'Først må du legge til en liste. En liste kan være to typer, enten et nyhetsbrev eller en autoutsendelse.' .
 		'  I en liste definerer man alle de ulike parametrene for å aktivere sending av nyhetsbrev eller autoutsendelse: avsenders navn, utsende, abonnentens velkomstmelding, etc...
-<br /><br />Du kan sette opp din første liste her: <a href="index2.php?option=com_jnewsletter&act=list"> opprette en liste </ a>, og klikk Ny-knappen.');
+<br /><br />Du kan sette opp din første liste her: <a href="index2.php?option=com_jnewsletter&act=list"> opprette en liste </ a>, og klikk \'Ny\'-knappen.');
 define('_JNEWS_GUIDE_FIRST_JNEWS_STEP_UPGRADE', 'jNews gir deg en enkel måte å importere alle data fra en tidligere nyhetsbrevs system på<br />' .
     ' Gå til oppdateringspanelet og velg din forrige nyhetsbrevssystem for å importere alle dine nyhetsbrev og abonnenter.<br /><br />' .
 		'<span style="color:#FF5E00;" >VIKTIG: Importen er uten risiko, og påvirker ikke på noen måte dataene i ditt forrige nyhetsbrevs systemet</span><br />' .
@@ -556,11 +556,11 @@ define('_JNEWS_GUIDE_SECOND_JNEWS_STEP_FINAL', ' og velg din %s. <br /> Og så v
 
 define('_JNEWS_GUIDE_THRID_JNEWS_STEP_NEWS', 'Før du sender dit første nyhetsbrevet kan det være lurt å sjekke epostinnstillingene først.  ' .
 		'Gå til <a href="index2.php?option=com_jnewsletter&act=configuration" >konfigurasjonssiden</a> for å kontrollere epostinnstillingene. <br />');
-define('_JNEWS_GUIDE_THRID2_JNEWS_STEP_NEWS', '<br />Når du er klar gå tilbake til nyhetsbrev menyen, velg din forsendelse og klikk Send');
+define('_JNEWS_GUIDE_THRID2_JNEWS_STEP_NEWS', '<br />Når du er klar gå tilbake til nyhetsbrev menyen, velg din forsendelse og klikk \'Send\'');
 
 define('_JNEWS_GUIDE_THRID_JNEWS_STEP_AUTOS', 'Før din autoutsendelse kan bli sendt må du først sette opp en cron-oppgave på serveren din. ' .
         ' Vennligst se Cron fanen i konfigurasjon panel.' .
-        ' <a href="index2.php?option=com_jnewsletter&act=configuration" >klikk her..</a> for å lære hvordan man sette opp en cron-oppgave. <br />');
+        ' <a href="index2.php?option=com_jnewsletter&act=configuration" >klikk her..</a> for å lære hvordan man sette opp en cron-jobb. <br />');
 
 define('_JNEWS_GUIDE_MODULE', ' <br />Kontroller også at du har publisert jNews modulen slik at folk kan melde seg på nyhetslistene.');
 
@@ -682,7 +682,7 @@ define('_JNEWS_CONTENTREP', '[SUBSCRIPTIONS] = Dette vil bli erstattet med abonn
 define('_JNEWS_NOTIFICATION', 'Melding');  // shortcut for Email notification
 define('_JNEWS_NOTIFICATIONS', 'Meldinger ');
 define('_JNEWS_USE_SEF', 'SEF i utsendelser');
-define('_JNEWS_USE_SEF_TIPS', 'Det anbefales at du velger Nei. Men hvis du vil at nettadressen i utsendelser skal bruke SEF så Velg \'Ja\'.' .
+define('_JNEWS_USE_SEF_TIPS', 'Det anbefales at du velger \'Nei\'. Men hvis du vil at nettadressen i utsendelser skal bruke SEF så Velg \'Ja\'.' .
         ' <br /><b>Lenket vil fungerer for begge alternativer. Nei vli sikre at lenkene i utsendelser vil alltid fungerer selv om du endrer SEF.</b> ');
 define('_JNEWS_ERR_NB', 'Feil #: FEIL');
 define('_JNEWS_ERR_SETTINGS', 'Feilhåndterings innstillinger');
@@ -747,7 +747,7 @@ define('_JNEWS_LICENSE', 'Lisensinformasjon');
 
 // since 1.1.1
 define('_JNEWS_NEW', 'Ny');
-define('_JNEWS_SCHEDULE_SETUP', 'For at auto-svar sendes må du konfigurere planleggeren i konfigurasjonen.');
+define('_JNEWS_SCHEDULE_SETUP', 'For at autoutsendelser sendes må du konfigurere planleggeren i konfigurasjonen.');
 define('_JNEWS_SCHEDULER', 'Planlegger');
 define('_JNEWS_ACAJOOM_CRON_DESC', 'hvis du ikke har tilgang til cron-oppgave på web området ditt, kan du registrere deg for en gratis jNews Cron konto her:');
 define('_JNEWS_CRON_DOCUMENTATION', 'Du finner mer informasjon om oppsettet av jNews planlegger på følgende web adresse:');
@@ -785,7 +785,7 @@ define('_JNEWS_TITLE_ONLY', 'Bare tittel');
 define('_JNEWS_FULL_ARTICLE_TIPS', 'Om du velger dette vil hele artikkelen bli satt inn i utsendelsen.');
 define('_JNEWS_FULL_ARTICLE', 'Full artikkel');
 define('_JNEWS_CONTENT_ITEM_SELECT_T', 'Velg innhold som skal legge sinn i meldingen.<br />Kopier og lim <b>innholdmerket</b> inn i utsendelsen. Du kan velge å bruke fulltekst, bare ingress eller bare tittel (0, 1, eller 2). ');
-define('_JNEWS_SUBSCRIBE_LIST2', 'Utsendelseliste(r)');
+define('_JNEWS_SUBSCRIBE_LIST2', 'Tilgjengelige nyhetsbrevlister');
 
 // For sorting in content tab by date, section or category
 define('_JNEWS_CONTENT_ITEM_SORT', 'Sorter etter: ');
@@ -1079,9 +1079,9 @@ define('_JNEWS_Q_PROCESS' , 'Queue Configuration');
 define('_JNEWS_MAX_Q','Maximum number of e-mails per batch');
 define('_JNEWS_SUBS_LIST_LABEL' , 'This Newsletter will be sent to the subscribers of the following selected lists:');
 define('_JNEWS_SUBS_LIST_CAMPAIGN' , 'This auto-responder will be sent to the subscribers of the following selected auto-responder:');
-define('_JNEWS_SUBS_LIST_RECEIVE', 'Receive' );
-define('_JNEWS_SUBS_LIST_TOALL', 'Select All' );
-define('_JNEWS_SUBS_LIST_TONONE', 'None' );
+define('_JNEWS_SUBS_LIST_RECEIVE', 'Motta' );
+define('_JNEWS_SUBS_LIST_TOALL', 'Velg alle' );
+define('_JNEWS_SUBS_LIST_TONONE', 'Ingen' );
 define('_JNEWS_LIST_COLOR','Color');
 define('_JNEWS_LIST_COLOR_TIP','Select the color for your list. It can be usefull for the statistics.');
 define('_JNEWS_MENU_NEW', 'New');
@@ -1502,8 +1502,8 @@ define('_JNEWS_PRIORD_SUBS','Prioritized subscription');
 define('_JNEWS_PRIORD_SUBS_TIPS', 'Prioritize either the subscription or unsubscription to a list or just do nothing to the existing subscriptions.<br/><b>Ignore Changes</b>: We do nothing to the change subscriptions of auto-responder irregardless being unsubscribed or subscribed when a change of subscription is also done to the list where the auto-responder is being attached.<br/><b>Subscription</b>: We force subscribe users to the auto-responders that is being attached to the subscribed list.<br/><b>Unsubscription</b>: We unsubscribe the user to the attached auto-responder even if the user subscribed to the list where the autoresponder is attached.');
 define('_JNEWS_REMAIN_SUBS','Ignore Changes');
 define('_JNEWS_UNSUBS','Unsubscription');
-define('_JNEWS_SUBSCRIPTION_AR','Subscription to Auto-responder');
-define('_JNEWS_SUBSCRIPTION_LIST','Subscription to List');
+define('_JNEWS_SUBSCRIPTION_AR','Abonnement på autoutsendelser');
+define('_JNEWS_SUBSCRIPTION_LIST','Abonnement på nyhetsbrev');
 define('_JNEWS_YOUR_CRON', 'Your Cron url: ');
 define('_JNEWS_LAUNCH_CRON', 'Launch Cron');
 
