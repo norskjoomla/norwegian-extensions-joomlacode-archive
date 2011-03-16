@@ -1091,50 +1091,50 @@ define('_JNEWS_MENU_CANCEL', 'Avbryt');
 define('_JNEWS_MENU_TEMPLATE', 'Maler');
 define('_JNEWS_HTML_VERSION', 'HTML-versjon');
 define('_JNEWS_NONHTML_VERSION', 'Ren tekstversjon');
-define('_JNEWS_TAG_NAME_DESC' , 'This will be replaced by the name the subscriber entered, you will be sending personalized email when using this.');
-define('_JNEWS_TAG_FNAME_DESC' , 'This will be replaced by the FIRST name of the subscriber entered.');
-define('_JNEWS_TAG_ISSUENB_DESC' , 'This will be replaced by the issue number of the newsletter.');
-define('_JNEWS_TAG_DATE_DESC' , 'This will be replaced by the sent date.');
+define('_JNEWS_TAG_NAME_DESC' , 'Dette vil bli erstattet med navnet som abonnenten har angitt. Du vil kunne sende "personlige" eposter ved å bruke dette.');
+define('_JNEWS_TAG_FNAME_DESC' , 'Dette vil bli erstattet med fornavnet som abonnenten har angitt.');
+define('_JNEWS_TAG_ISSUENB_DESC' , 'Dette vil bli erstatet med utgivelsenummer for nyhetsbrevet.');
+define('_JNEWS_TAG_DATE_DESC' , 'Dette vil bli erstattet med utsendelsedatoen.');
 define('_JNEWS_TAG_CBNAME' , '[CBTAG:{field_name}]');
-define('_JNEWS_TAG_CBNAME_DESC' , 'This will be replaced by the value taken from the Community Builder field: eg. [CBTAG:firstname] ');
-define('_JNEWS_TAG_LOADMODINFO_DESC' , 'This will be replaced by the Joomla module where id is equal to id of the joomla module. For example {module=1}.<br /> The modules can only be loaded through the cron task. <br /> ');
+define('_JNEWS_TAG_CBNAME_DESC' , 'Dette vil bli erstattet med verdi hentet fra \'Community Builder\'-feltet. F.eks. [CBTAG:firstname] ');
+define('_JNEWS_TAG_LOADMODINFO_DESC' , 'Dette vil bli erstatte med en Joomla-modulen hvor id er lik id for Joomla-modulen. F.eks. {module=1}.<br />Modulen kan bare lastes gjennom cron-jobb.<br /> ');
 define('_JNEWS_DATETIME' , 'Dato og tid');
 define('_JNEWS_TEMPLATE_COPY' , '_kopi');
-define('_JNEWS_TEMPLATE_DEFAULT_NODEL' , 'You cannot delete a default template!');
-define('_JNEWS_TEMPLATE_DEFAULT_SUCCS' , 'Successfully set to default!');
+define('_JNEWS_TEMPLATE_DEFAULT_NODEL' , 'Du kan ikke slette en standard mal!');
+define('_JNEWS_TEMPLATE_DEFAULT_SUCCS' , 'Malen ble satt som standard!');
 define('_JNEWS_TEMPLATE' , 'Mal');
 define('_JNEWS_TEMPLATES' , 'Maler');
-define('_JNEWS_AR' , 'Auto-responder');
-define('_JNEWS_SELCT_MAILINGLIST', 'Please select a list in the List tab in order to add a mailing.');
-define('_JNEWS_SELCT_MAILINGCAMPAIGN', 'Please select a campaign in the List tab in order to add a mailing.');
-define('_JNEWS_TEMPLATE_AVAIL', 'All Available Templates');
-define('_JNEWS_TEMPLATE_NAME', 'Name');
-define('_JNEWS_TEMPLATE_NAME_T', 'Enter the name of the template.');
-define('_JNEWS_TEMPLATE_NAMEKEY', 'Namekey');
-define('_JNEWS_TEMPLATE_NAMEKEY_T', 'Enter the namekey of the template.');
-define('_JNEWS_TEMPLATE_DESC', 'Description');
-define('_JNEWS_TEMPLATE_DEFAULT', 'Default');
-define('_JNEWS_TEMPLATE_DEFAULT_T', 'Select "Yes" to set as the default template.');
-define('_JNEWS_TEMPLATE_PUBLISH', 'Publish');
-define('_JNEWS_TEMPLATE_PUBLISH_T', 'Select "Yes" to publish the template.');
-define('_JNEWS_TEMPLATE_BG', 'Background Color');
-define('_JNEWS_TEMPLATE_BG_T', 'Select the template background color.');
-define('_JNEWS_TEMPLATE_UPLOAD', 'Upload Thumbnail');
-define('_JNEWS_TEMPLATE_UPLOAD_T', 'Upload an image thumbnail of the template.');
-define('_JNEWS_TEMPLATE_DESC_T', 'Enter the description of the template.');
-define('_JNEWS_TEMPLATE_STYLE_TH1', 'Title h1');
-define('_JNEWS_TEMPLATE_STYLE_TH2', 'Title h2');
-define('_JNEWS_TEMPLATE_STYLE_TH3', 'Title h3');
-define('_JNEWS_TEMPLATE_STYLE_TH4', 'Title h4');
-define('_JNEWS_TEMPLATE_STYLE_UNSUB', 'Style for the Unsubscribe Link');
-define('_JNEWS_TEMPLATE_STYLE_SUB', 'Style for the "Change Your Subscription" Link');
-define('_JNEWS_TEMPLATE_STYLE_CONTENT', 'Style for the content area');
-define('_JNEWS_TEMPLATE_STYLE_CHEAD', 'Style for the content title');
-define('_JNEWS_TEMPLATE_STYLE_CREADMORE', 'Style for the read more link');
-define('_JNEWS_TEMPLATE_STYLE_VONLINE', 'Style for the "View it online" Link');
-define('_JNEWS_TEMPLATE_STYLE_NEW', 'Add a New Style');
-define('_JNEWS_TEMPLATE_STYLE_NEWC', 'Name of the CSS Class');
-define('_JNEWS_TEMPLATE_STYLE_NEWAPPLIED', 'CSS that will be applied to the class.');
+define('_JNEWS_AR' , 'Autoutsendelse');
+define('_JNEWS_SELCT_MAILINGLIST', 'Velg en liste i \'Liste\'-fanen for å legge til en utsendelse.');
+define('_JNEWS_SELCT_MAILINGCAMPAIGN', 'Velg en kampanje i \'Liste\'-fanen for å legge til en utsendelse.');
+define('_JNEWS_TEMPLATE_AVAIL', 'Alle tilgjengelige maler');
+define('_JNEWS_TEMPLATE_NAME', 'Navn');
+define('_JNEWS_TEMPLATE_NAME_T', 'Angi navn for malen.');
+define('_JNEWS_TEMPLATE_NAMEKEY', 'Navnenøkkel');
+define('_JNEWS_TEMPLATE_NAMEKEY_T', 'Angi navnenøkkel for malen.');
+define('_JNEWS_TEMPLATE_DESC', 'Beskrivelse');
+define('_JNEWS_TEMPLATE_DEFAULT', 'Standard');
+define('_JNEWS_TEMPLATE_DEFAULT_T', 'Velg \'Ja\' for å angi som standard mal.');
+define('_JNEWS_TEMPLATE_PUBLISH', 'Publiser');
+define('_JNEWS_TEMPLATE_PUBLISH_T', 'Velg \'Ja\' for å publisere malen.');
+define('_JNEWS_TEMPLATE_BG', 'Bakgrunnfarge');
+define('_JNEWS_TEMPLATE_BG_T', 'Velg farge for bakgrunn i malen.');
+define('_JNEWS_TEMPLATE_UPLOAD', 'Last opp miniatyrbilde');
+define('_JNEWS_TEMPLATE_UPLOAD_T', 'Last opp et miniatyrbilde for malen.');
+define('_JNEWS_TEMPLATE_DESC_T', 'Fyll inn beskrivelse for malen.');
+define('_JNEWS_TEMPLATE_STYLE_TH1', 'Tittel h1');
+define('_JNEWS_TEMPLATE_STYLE_TH2', 'Tittel h2');
+define('_JNEWS_TEMPLATE_STYLE_TH3', 'Tittel h3');
+define('_JNEWS_TEMPLATE_STYLE_TH4', 'Tittel h4');
+define('_JNEWS_TEMPLATE_STYLE_UNSUB', 'Stil for avmeldingslenke');
+define('_JNEWS_TEMPLATE_STYLE_SUB', 'Stil for endringslenke');
+define('_JNEWS_TEMPLATE_STYLE_CONTENT', 'Stil for innholdsområdet');
+define('_JNEWS_TEMPLATE_STYLE_CHEAD', 'Stil for innholdstittel');
+define('_JNEWS_TEMPLATE_STYLE_CREADMORE', 'Stil for \'Les mer\'-lenke');
+define('_JNEWS_TEMPLATE_STYLE_VONLINE', 'Stil for \'Vis i nettleser\'-lenke');
+define('_JNEWS_TEMPLATE_STYLE_NEW', 'Legg til ny stil');
+define('_JNEWS_TEMPLATE_STYLE_NEWC', 'Navn på CSS-klasse');
+define('_JNEWS_TEMPLATE_STYLE_NEWAPPLIED', 'CSS som vil bli lagt til klassen.');
 
 //statistics & reports
 define('_JNEWS_REPORTS_SUBS', 'Subscribers Reports');
@@ -1154,11 +1154,11 @@ define('_JNEWS_MAILING_PENDING', 'Mail Pending');
 define('_JNEWS_MAILING_BOUNCES','Bounces');
 define('_JNEWS_MAILING_SENT', 'Total Sent');
 //Mailing Reports
-define('_JNEWS_MAIL_GRAPH', 'Graph');
-define('_JNEWS_MAIL_DETAILS', 'Details');
-define('_JNEWS_MAIL_DETAILS_READ', 'HTML Read');
-define('_JNEWS_MAIL_DETAILS_UNREAD', 'HTML Unread');
-define('_JNEWS_MAIL_DETAILS_TEXT', 'TEXT Only');
+define('_JNEWS_MAIL_GRAPH', 'Graf');
+define('_JNEWS_MAIL_DETAILS', 'Detaljer');
+define('_JNEWS_MAIL_DETAILS_READ', 'HTML-visninger');
+define('_JNEWS_MAIL_DETAILS_UNREAD', 'Ulest HTML');
+define('_JNEWS_MAIL_DETAILS_TEXT', 'Kun ren tekst');
 
 //stats filters
 define('_JNEWS_GROUP_PREDEFINED_DATE','Predefined Date');		//legend
@@ -1354,12 +1354,12 @@ define('_JNEWS_TAG_SUBSCRIPTION', '[SUBSCRIPTIONS]');
 define('_JNEWS_TAG_UNSUBSCRIBE', '[UNSUBSCRIBE]');
 define('_JNEWS_TAG_SUBSCRIPTION_DESC', 'This will be replaced by the defined constant "_JNEWS_CHANGE_EMAIL_SUBSCRIPTION" in the translation.');
 define('_JNEWS_TAG_UNSUBSCRIBE_DESC', 'This will be replaced by the defined constant "_JNEWS_UNSUBSCRIBE" in the translation.');
-define('_JNEWS_TAG_VIEWONLINETXT', '{viewonline:text here}');
-define('_JNEWS_TAG_VIEWONLINE', 'view it in your browser');
+define('_JNEWS_TAG_VIEWONLINETXT', '{viewonline:vis nyhetsbrevet i din nettleser}');
+define('_JNEWS_TAG_VIEWONLINE', 'vis nyhetsbrevet i din nettleser');
 define('_JNEWS_TAG_VIEWONLINE_DESC', 'This will be replaced by either the default text or what you put in the "text here" with a link.');
 
 //since 1.1.0
-define('_JNEWS_SHOW_CRON','Enable joobi cron');
+define('_JNEWS_SHOW_CRON','Aktiver joobi-cron');
 
 define('_JNEWS_SHOW_CRON_TIPS','Enables the cron set up upon the installation of jNews.<br>This cron was set up in http://www.joobi.co and will be triggered every 15 minutes');
 define('_JNEWS_CRON_FSETTINGS' , 'Cron Settings');
@@ -1418,7 +1418,7 @@ define('_JNEWS_MENU_LIVE_SUPPORT','Brukerstøtte - Live');
 define ('_JNEWS_SMART_TAG', 'This will be replaced by the latest created, modified and published article when you create a Smart-Newsletter type of mailing.');
 
 //Toobar Menus
-define('_JNEWS_DONEW_SUBSCRIBERB', 'Name and Email are required!');
+define('_JNEWS_DONEW_SUBSCRIBERB', 'Navn og epost er påkrevd!');
 
 //since 3.1.0
 define('_JNEWS_IP', 'IP');
@@ -1434,24 +1434,24 @@ define('_JNEWS_UNSUBSCRIBE_ADMIN_NOTIFICATION', 'This is a notification email th
 //Tagging
 define('_JNEWS_TAG_MODNAME' , 'Modulnavn');
 define('_JNEWS_TAG_MODTYPE' , 'Type');
-define('_JNEWS_TAG_MODPOSITION' , 'Position');
-define('_JNEWS_TAG_ACL' , 'Access Level');
-define('_JNEWS_TAG_SPECIAL' , 'Special');
-define('_JNEWS_TAG_PUBLIC' , 'Public');
-define('_JNEWS_TAG_ARTICLESECTION' , 'Section');
-define('_JNEWS_TAG_ARTICLECATEGORY' , 'Category');
-define('_JNEWS_TAGMENU_MODULE' , 'Joomla Module');
-define('_JNEWS_TAGMENU_AUTOCONTENT' , 'Auto Content');
-define('_JNEWS_TAGMENU_SUBSCRIPTION' , 'Subscription');
-define('_JNEWS_TAGMENU_USERS' , 'Users');
-define('_JNEWS_TAGMENU_DATETIME' , 'Date/Time');
-define('_JNEWS_TAGMENU_WEBSITE' , 'Site Links');
-define('_JNEWS_TAGMENU_CONTENT' , 'Content');
-define('_JNEWS_TAGPICKLIST_ORDERING' , 'Ordering');
+define('_JNEWS_TAG_MODPOSITION' , 'Posisjon');
+define('_JNEWS_TAG_ACL' , 'Tilgangsnivå');
+define('_JNEWS_TAG_SPECIAL' , 'Spesiell');
+define('_JNEWS_TAG_PUBLIC' , 'Offentlig');
+define('_JNEWS_TAG_ARTICLESECTION' , 'Seksjon');
+define('_JNEWS_TAG_ARTICLECATEGORY' , 'Kategori');
+define('_JNEWS_TAGMENU_MODULE' , 'Joomla-modul');
+define('_JNEWS_TAGMENU_AUTOCONTENT' , 'Autoinnhold');
+define('_JNEWS_TAGMENU_SUBSCRIPTION' , 'Abonnement');
+define('_JNEWS_TAGMENU_USERS' , 'Brukere');
+define('_JNEWS_TAGMENU_DATETIME' , 'Dato/Tid');
+define('_JNEWS_TAGMENU_WEBSITE' , 'Sidelenker');
+define('_JNEWS_TAGMENU_CONTENT' , 'Innhold');
+define('_JNEWS_TAGPICKLIST_ORDERING' , 'Sortering');
 define('_JNEWS_TAGPICKLIST_ORDERINGTIP' , 'Select the way you want your articles to be ordered.');
-define('_JNEWS_TAGPICKLIST_CREATED' , 'Created Date (Newest First)');
-define('_JNEWS_TAGPICKLIST_TITLE' , 'Title');
-define('_JNEWS_TAGPICKLIST_Order' , 'Order');
+define('_JNEWS_TAGPICKLIST_CREATED' , 'Opprettet (Nyeste først)');
+define('_JNEWS_TAGPICKLIST_TITLE' , 'Tittel');
+define('_JNEWS_TAGPICKLIST_Order' , 'Sorter');
 
 define('_JNEWS_SELECT_MAILING', 'Please select a mail to edit!');
 define('_JNEWS_DELETE_MAILING', 'Please select a mail to delete!');
@@ -1461,7 +1461,7 @@ define('_JNEWS_TEMPLATE_SAVED', 'Template successfully saved.');
 define('_JNEWS_SUBSCRIPTION_NOT_AVAIL_LIST', 'You are trying to subscribe to a listid that does not exist.');
 
 //since 4.0.0
-define('_JNEWS_MENU_TAG' , 'Tags');
+define('_JNEWS_MENU_TAG' , 'Merker');
 define('_JNEWS_TAG_EMAIL_DESC', 'This will be replaced by the email of the subscriber.');
 define('_JNEWS_TAG_FWDTOFRIEND', 'Forward to a friend.');
 define('_JNEWS_TAGTITLE_SITE', 'Site Links');
@@ -1478,7 +1478,7 @@ define('_JNEWS_FWD_MESSAGEHID' , 'This email was forwarded to you by');
 define('_JNEWS_FWD_SENDEMAIL' , 'Send Email');
 define('_JNEWS_FWD_ADDFIELD' , 'Add another friend.');
 
-define('_JNEWS_NEWSLETTER_ARCHIVE', 'Newsletter Archive');
+define('_JNEWS_NEWSLETTER_ARCHIVE', 'Nyhetsbrevarkiv');
 define('_JNEWS_FWDTOFRIEND_ALRT_UNAME', 'Please enter your name.');
 define('_JNEWS_FWDTOFRIEND_ALRT_UEMAIL', 'Please enter your valid e-mail address.');
 define('_JNEWS_FWDTOFRIEND_ALRT_FNAME', 'Please enter your friend\'s name.');
@@ -1532,34 +1532,34 @@ define('_JNEWS_NEW_SUB','jNews Subscription');
 
 //since
 define('_JNEWS_NEW_URL_PASS_TIPS','Enter the password to be able to add a subscriber via url. Append the catcher variable passwordA in the URL.');
-define('_JNEWS_CRON_PASSWORD', 'Cron Password');
+define('_JNEWS_CRON_PASSWORD', 'Cron-passord');
 define('_JNEWS_USE_CRON_PASS', 'Use Password for Cron');
 
 //since 4.2.0
-define('_JNEWS_QUEUE_STATUS','Queue Status');
-define('_JNEWS_SMTPPORT','SMTP Port');
-define('_JNEWS_SMARTQUEUE','Smart Queue');
-define('_JNEWS_SMARTQ_ON','On');
-define('_JNEWS_SMARTQ_OF','Off');
+define('_JNEWS_QUEUE_STATUS','Kø-status');
+define('_JNEWS_SMTPPORT','SMTP-port');
+define('_JNEWS_SMARTQUEUE','Smart-kø');
+define('_JNEWS_SMARTQ_ON','På');
+define('_JNEWS_SMARTQ_OF','Av');
 define('_JNEWS_SMARTQ_TIPS','Turn On if you want to enable the Smart processing of queue which will overcome your server limitation.');
 define('_JNEWS_SUB_INFO_FIELDS', 'Show More Subscriber Info');
 define('_JNEWS_SUB_INFO_FIELDS_TIPS', 'Show IP ,Register Date, User id and Black List fields in the subscriber form in the frontend');
 define('_JNEWS_JSUB', 'Frontend Management');
 define('_JNEWS_JSUB_TIPS', 'Choose if only the owner of the list or the super admin can only edit and create/view newsletters in the frontend. A user can own a list if he is subscribed via jSubscription');
-define('_JNEWS_BYOWNER', 'By Owner');
-define('_JNEWS_LIST_ACESS', 'By List Access');
-define('_JNEWS_CAPTCHA_WARN',   'Cannot create Captcha Image either you do not have php GD Library installed or php GD Library has not been loaded with TFF support <br>Check your phpinfo() or you can turn off the Enable Captcha option from ');
+define('_JNEWS_BYOWNER', 'Etter eier');
+define('_JNEWS_LIST_ACESS', 'Etter listetilgang');
+define('_JNEWS_CAPTCHA_WARN', 'Cannot create Captcha Image either you do not have php GD Library installed or php GD Library has not been loaded with TFF support <br>Check your phpinfo() or you can turn off the Enable Captcha option from ');
 define('_JNEWS_CAPTCHA_LINK','jNews Configuration under Subscriber Tab');
 define('_JNEWS_MORE_TEMPLATES','More Templates');
 
 //Since 5.0.0
-define('_JNEWS_TAGMENU_K2CONTENT', 'K2 Contents');
-define('_JNEWS_TAGMENU_VMPRODUCTS', 'Virtuemart Products');
-define('_JNEWS_TEMPLATE_AVLB','Availability');
-define('_JNEWS_TEMPLATE_INS','Installed');
-define('_JNEWS_TEMPLATE_DWN','Download');
-define('_JNEWS_TEMPLATE_FDWN','Free Download');
-define('_JNEWS_TEMPLATE_IMG','Image');
+define('_JNEWS_TAGMENU_K2CONTENT', 'K2-innhold');
+define('_JNEWS_TAGMENU_VMPRODUCTS', 'Virtuemart-produkter');
+define('_JNEWS_TEMPLATE_AVLB','Tilgjengelighet');
+define('_JNEWS_TEMPLATE_INS','Installert');
+define('_JNEWS_TEMPLATE_DWN','Last ned');
+define('_JNEWS_TEMPLATE_FDWN','Fri nedlasting');
+define('_JNEWS_TEMPLATE_IMG','Bilde');
 define('_JNEWS_SUBS_INFO','You do not have subscription record to any mailing lists so it is not possible to unsubscribe here.');
 define ('_JNEWS_UNSUBS_STATUS','You are already unsubscribe to the list.');
 define('_JNEWS_CAPTCHAW', 'Captcha Width');
@@ -1570,5 +1570,5 @@ define('_JNEWS_CAPTCHA_MSG', 'Kindly enter the correct captcha code.');
 define('_JNEWS_MCRYPT_MESSAGE', 'The captcha has been turned on without the mcrypt library enabled.<br>Kindly enable the mcrypt extension in your php.ini.<br>You may also want to disable captcha in ');
 
 //Since 5.1.0
-define('_JNEWS_FORCED_HTML', 'Send HTML Mailing Only?');
+define('_JNEWS_FORCED_HTML', 'Send kun i HTML?');
 define('_JNEWS_FORCED_HTML_TIP','Yes if you want to force only html mailing will be sent to your subscribers.');
