@@ -331,7 +331,7 @@ define('_JNEWS_SENDING_TOOK', 'Denne utsendelsen tok');
 define('_JNEWS_SECONDS', 'sekunder');
 define('_JNEWS_NO_ADDRESS_ENTERED', 'Ingen epostadresse eller abonnent');
 define('_JNEWS_CHANGE_SUBSCRIPTIONS', 'Endre');
-define('_JNEWS_CHANGE_EMAIL_SUBSCRIPTION', 'Endre ditt abonnement');
+define('_JNEWS_CHANGE_EMAIL_SUBSCRIPTION', 'Administrer ditt abonnement');
 define('_JNEWS_WHICH_EMAIL_TEST', 'Skriv inn epost adresse og navn for test av melding eller velg forhåndsvisning');
 define('_JNEWS_SEND_IN_HTML', 'Send som HTML (for html utsendelser)?');
 define('_JNEWS_VISIBLE', 'Synlig');
