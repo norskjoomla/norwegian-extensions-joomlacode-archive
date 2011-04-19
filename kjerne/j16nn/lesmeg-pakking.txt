@@ -9,7 +9,8 @@ admin_nn-NO.zip (Naviger inn i /administrator/language/nn-NO/, merk og pakk alle
 
 Disse to pakkes i en ny zip-fil, sammen med pkg_nn-NO.xml:
 
-nn-NO_joomla_lang_full_1.6.0v1.zip
+nn-NO_joomla_lang_full_1.6.Xv1.zip
+X = Underversjon
 v1 = Pakkeversjon
 
 Alle nødvendige xml-filer ligger i mappene, husk bare på å oppdatere utgivelsesdato og evt. versjon før utsjekking og pakking gjøres!
