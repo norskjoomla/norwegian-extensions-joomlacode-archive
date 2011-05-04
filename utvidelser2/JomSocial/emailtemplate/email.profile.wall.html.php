@@ -9,18 +9,5 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 ?>
-Hi {target},
 
-{actor} just posted a wall message. 
-
-Message:
-
-<?php echo $message; ?>
-
-You can read the message at:
-
-
-<a href="{url}">{url}</a>
-
-
-Have a nice day!
+<?php echo JText::sprintf('COM_COMMUNITY_EMAIL_PROFILE_WALL', $message) ?>

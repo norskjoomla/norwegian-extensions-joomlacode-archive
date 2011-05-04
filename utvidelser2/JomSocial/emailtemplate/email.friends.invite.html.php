@@ -15,4 +15,4 @@ defined('_JEXEC') or die('Restricted access');
 
 
 ---------------------------------------------------
-<?php echo JText::_('CC INVITE EMAIL MESSAGE VIEW FRINEDS');?> <a href="{url}">{url}</a>
+<?php echo JText::_('COM_COMMUNITY_INVITE_EMAIL_MESSAGE_VIEW_FRIENDS');?> <a href="{url}">{url}</a>

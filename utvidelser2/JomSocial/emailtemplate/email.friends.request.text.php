@@ -9,20 +9,4 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 ?>
-Hi {target},
-
-{actor} added you as friend. You still need to approve this request.
-
-<?php 
-	if(!empty($msg))
-	{
-		echo $msg;
-	}
-?>
-
-To add {actor} as your friend, just go to your friends request page below:
-
-{url}
-
-
-Have a nice day!
+<?php echo JText::sprintf( 'COM_COMMUNITY_EMAIL_FRIEND_REQUEST_TEXT' , $msg); ?>

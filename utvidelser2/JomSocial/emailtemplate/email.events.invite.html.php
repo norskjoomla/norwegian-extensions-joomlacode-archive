@@ -1,15 +1,11 @@
-Hi {target},
+<?php
+/**
+ * @package		JomSocial
+ * @subpackage 	Template 
+ * @copyright (C) 2008 by Slashes & Dots Sdn Bhd - All rights reserved!
+ * @license		GNU/GPL, see LICENSE.php
+ */
+defined('_JEXEC') or die();
+?>
 
-{actor} invited you to join an event (<?php echo $eventTitle;?>). Below is a message that is sent by {actor},
-
-Message:
-
-<?php echo $message; ?>
-
-To view the event, access the URL at the following location:
-
-<a href="{url}">{url}</a>
-
-
-Have a nice day!
-
+<?php echo JText::sprintf( 'COM_COMMUNITY_EMAIL_EVENT_INVITE' , $eventTitle , $message ); ?>

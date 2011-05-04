@@ -12,18 +12,13 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi there,
-
-A user would like to share a link with you.
-
-You can view the link at:
-<?php echo $uri; ?>
+<?php echo JText::sprintf( 'COM_COMMUNITY_EMAIL_BOOKMARKS_TEXT' , $uri ); ?>
 
 <?php
 if( !empty($message) )
 {
 ?>
-Message:
+<?php echo JText::_('COM_COMMUNITY_EMAIL_MESSAGE_HEADING'); ?>
 ===============================================================================
 
 <?php echo $message; ?>

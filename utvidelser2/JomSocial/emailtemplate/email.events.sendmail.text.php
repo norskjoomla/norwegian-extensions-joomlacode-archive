@@ -7,10 +7,4 @@
  */
 defined('_JEXEC') or die();
 ?>
-Title: <?php echo $title; ?>
-
-
-Message:
-<?php echo $message; ?>
-
-You may view the event at {url}
+<?php echo JText::sprintf( 'COM_COMMUNITY_EMAIL_EVENT_SENDMAIL_TEXT' , $title , $message ); ?>

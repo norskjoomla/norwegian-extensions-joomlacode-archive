@@ -1,28 +1,16 @@
 <?php
 /**
  * @package		JomSocial
- * @subpackage	Core 
+ * @subpackage 	Template 
  * @copyright (C) 2008 by Slashes & Dots Sdn Bhd - All rights reserved!
  * @license		GNU/GPL, see LICENSE.php
+ *
+ * @param	{target}	string The name of the target
+ * @param	$url		string	The URL to the specific group
+ * @param	$user		string	The name of the user
+ * @param	$group		string	The name of the group
  */
-
-// no direct access
-defined('_JEXEC') or die('Restricted access');
-?>
-Hi {target},
-
-{actor} added you as friend. You still need to approve this request. 
-
-<?php 
-	if(!empty($msg))
-	{
-		echo $msg;
-	}
+defined('_JEXEC') or die();
 ?>
 
-To add {actor} as your friend, just go to your friends request page below:
-
-<a href="{url}">{url}</a>
-
-
-Have a nice day!
+<?php echo JText::sprintf( 'COM_COMMUNITY_EMAIL_FRIEND_REQUEST' , $msg , $url ); ?>
