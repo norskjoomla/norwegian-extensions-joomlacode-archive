@@ -9,8 +9,5 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 ?>
-Hi {target},
 
-A reported item has reached its threshold and the default action has been executed. The location of the reported item may be found below,
-
-<a href="<?php echo $url; ?>"><?php echo $url; ?></a>
+<?php echo JText::sprintf('COM_COMMUNITY_EMAIL_REPORTS_THRESHOLD', $url); ?>

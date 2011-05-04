@@ -7,11 +7,5 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
 
-{actor} tagged you in a photo.  To view this photo, please click the link below:
-
-{url}
-
-
-Have a nice day!
+<?php echo JText::_('COM_COMMUNITY_EMAIL_PHOTOS_TAGGING_TEXT'); ?>

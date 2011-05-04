@@ -12,14 +12,14 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
+<?php echo JText::_('COM_COMMUNITY_GREETING');?>
 
 <?php
 if( $approved )
 {
-	echo JText::sprintf( 'CC NEW MEMBER JOIN EMAIL' , $user , $group , '{url}' );
+	echo JText::sprintf( 'COM_COMMUNITY_GROUPS_EMAIL_NEW_MEMBER_JOINED' , $user , $group , '{url}' );
 }
 else
 {
-	echo JText::sprintf( 'CC NEW MEMBER REQUESTED TO JOIN GROUP EMAIL' , $user , $group , '{url}' );
+	echo JText::sprintf( 'COM_COMMUNITY_NEW_MEMBER_REQUESTED_TO_JOIN_GROUP_EMAIL' , $user , $group , '{url}' );
 }

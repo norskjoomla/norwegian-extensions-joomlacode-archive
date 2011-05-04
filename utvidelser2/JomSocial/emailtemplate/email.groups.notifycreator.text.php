@@ -12,10 +12,4 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
-
-Your group <?php echo $groupName;?> that were created recently is now published. You can start interacting within the group by accessing the following link below.
-
-To access the group, you may access it at <a href="{url}">{url}</a>
-
-Have a nice day!
+<?php echo JText::sprintf( 'COM_COMMUNITY_EMAIL_GROUP_NOTIFY_CREATOR_TEXT' , $groupName); ?>

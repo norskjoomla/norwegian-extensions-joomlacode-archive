@@ -12,24 +12,6 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
 
-{actor} just sent you a new message.
-
-<?php if( !empty( $title ) ){ ?>
-Title:
-<?php echo $title; ?>
-<?php } ?>
-
-
-Message:
-<?php echo $message; ?>
-
-
-You can also read your new message on the site here:
-
-<a href="{url}">{url}</a>
-
-
-Have a nice day!
+<?php echo JText::sprintf('COM_COMMUNITY_EMAIL_INBOX_SENT', $title, $message); ?>
 

@@ -10,4 +10,4 @@
 defined('_JEXEC') or die('Restricted access');
 ?>
 
-<?php echo JText::sprintf( 'CC ACCOUNT DELETE CONTENT' , $username , $userid , $url ); ?>
+<?php echo JText::sprintf( 'COM_COMMUNITY_ACCOUNT_DELETE_CONTENT' , $username , $userid , $url ); ?>

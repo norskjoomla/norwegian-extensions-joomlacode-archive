@@ -7,18 +7,5 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
-
-<?php echo $this->escape($group); ?> group just posted a new bulletin.
-
-Subject: <?php echo $this->escape($subject); ?>
-
-
-You can read your new message here:
-
-
-<a href="{url}">{url}</a>
-
-
-Have a nice day!
+<?php echo JText::sprintf( 'COM_COMMUNITY_EMAIL_GROUP_BULLETIN' , $this->escape($group) , $this->escape($subject) ); ?>
 

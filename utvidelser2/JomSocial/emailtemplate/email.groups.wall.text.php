@@ -12,20 +12,4 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
-
-{actor} just posted a new wall post in the group <?php echo $this->escape($group); ?>
-
-
-Message:
-
-<?php echo $this->escape($message); ?>
-
-You can read the message at:
-
-
-{url}
-
-
-Have a nice day!
-
+<?php echo JText::sprintf( 'COM_COMMUNITY_EMAIL_GROUP_WALL_TEXT' , $this->escape($group) , $this->escape($message) ); ?>

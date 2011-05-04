@@ -12,10 +12,4 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
-
-{actor} has recently created a new group <?php echo $groupName;?>. You will need to moderate the group because group moderations are currently enabled.
-
-To access the administration area, you may access it at <a href="{url}">{url}</a>
-
-Have a nice day!
+<?php echo JText::sprintf( 'COM_COMMUNITY_EMAIL_GROUP_NOTIFY_ADMIN' , $groupName); ?>

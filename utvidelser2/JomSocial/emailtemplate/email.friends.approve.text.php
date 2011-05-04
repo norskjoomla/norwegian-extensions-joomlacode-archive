@@ -7,13 +7,4 @@
  */
 defined('_JEXEC') or die();
 ?>
-Hi {target},
-
-{actor} just approved your friend request. You are now friends with {actor}.
-
-You can view {actor}'s profile here:
-
-{url}
-
-
-Have a nice day!
+<?php echo JText::_('COM_COMMUNITY_EMAIL_FRIEND_APPROVE_TEXT'); ?>
