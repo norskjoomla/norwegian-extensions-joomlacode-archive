@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: install.xml 529 2009-01-26 09:20:13Z rued $ -->
+<!-- $Id: install.xml 10 2011-06-26 16:52:27Z stale $ -->
 <install version="1.5" client="both" type="language" method="upgrade">
     <name>Norwegian bokmål (Norway)</name>
     <tag>nb-NO</tag>
-    <version>1.5 RC2</version>
-    <creationDate>01.07.2009</creationDate>
+    <version>2.4.1</version>
+    <creationDate>2011-06-25</creationDate>
     <author>joomla! i Norge</author>
     <authorEmail>oversettelser@joomlainorge.no</authorEmail>
     <authorUrl>www.joomlainorge.no</authorUrl>
@@ -14,6 +14,10 @@
     <administration>
       <files folder="admin">
         <filename>nb-NO.com_k2.ini</filename>
+        <filename>nb-NO.mod_k2_quickicons.ini</filename>
+        <filename>nb-NO.plg_search_k2.ini</filename>
+        <filename>nb-NO.plg_system_k2.ini</filename>
+        <filename>nb-NO.plg_user_k2.ini</filename>
       </files>
   </administration>
   <site>
