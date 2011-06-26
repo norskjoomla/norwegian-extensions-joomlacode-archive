@@ -1,6 +1,0 @@
-<!-- $Id$ -->
-
-Credits / Bidragsytere
-
--> 1.5 - Knut Carlsen, Svein Wisnæs ?
-1.5 -> 2.4.1 - Ståle R Sæbøe stale@tdz.no www.tdz.no
