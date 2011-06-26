@@ -1,0 +1,20 @@
+<?php
+/**
+ * @version		$Id$
+ * @package		K2
+ * @copyright	Copyright (C) 2010 - 2011 Joomla! i Norge. All rights reserved.
+ * @license		GNU General Public License version 2 or later.
+ */
+
+// no direct access
+defined('_JEXEC') or die;
+?>
+
+-----Please save file as UTF8
+
+-------------------- K2 Norwegian Translation Credits ---------------------
+
+Knut Carlsen - www.joocom.no
+Ståle R Sæbøe - www.tdz.no - stale@tdz.no
+Svein Wisnæs
+
