@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Id$ -->
-<metafile version="1.6" client="site">
+<metafile version="1.7" client="site">
 	<name>Norsk bokmål (Norway)</name>
-	<version>1.6.3</version>
+	<version>1.7.0</version>
 	<creationDate>2011-04-19</creationDate>
 	<author>Joomla! i Norge</author>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
