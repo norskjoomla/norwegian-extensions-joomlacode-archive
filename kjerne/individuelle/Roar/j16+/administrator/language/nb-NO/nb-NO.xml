@@ -69,12 +69,12 @@
 		<filename>nb-NO.mod_feed.sys.ini</filename>
 		<filename>nb-NO.mod_latest.ini</filename>
 		<filename>nb-NO.mod_latest.sys.ini</filename>
+		<filename>nb-NO.mod_logged.ini</filename>
+		<filename>nb-NO.mod_logged.sys.ini</filename>
 		<filename>nb-NO.mod_login.ini</filename>
 		<filename>nb-NO.mod_login.sys.ini</filename>
 		<filename>nb-NO.mod_menu.ini</filename>
 		<filename>nb-NO.mod_menu.sys.ini</filename>
-		<filename>nb-NO.mod_online.ini</filename>
-		<filename>nb-NO.mod_online.sys.ini</filename>
 		<filename>nb-NO.mod_popular.ini</filename>
 		<filename>nb-NO.mod_popular.sys.ini</filename>
 		<filename>nb-NO.mod_quickicon.ini</filename>
