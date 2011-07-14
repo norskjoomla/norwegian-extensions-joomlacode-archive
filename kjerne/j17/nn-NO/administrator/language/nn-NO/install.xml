@@ -77,8 +77,6 @@
         <filename>nn-NO.mod_login.sys.ini</filename>
         <filename>nn-NO.mod_menu.ini</filename>
         <filename>nn-NO.mod_menu.sys.ini</filename>
-        <filename>nn-NO.mod_online.ini</filename>
-        <filename>nn-NO.mod_online.sys.ini</filename>
         <filename>nn-NO.mod_popular.ini</filename>
         <filename>nn-NO.mod_popular.sys.ini</filename>
         <filename>nn-NO.mod_quickicon.ini</filename>
@@ -91,8 +89,6 @@
         <filename>nn-NO.mod_title.sys.ini</filename>
         <filename>nn-NO.mod_toolbar.ini</filename>
         <filename>nn-NO.mod_toolbar.sys.ini</filename>
-        <filename>nn-NO.mod_unread.ini</filename>
-        <filename>nn-NO.mod_unread.sys.ini</filename>
         <filename>nn-NO.plg_authentication_example.ini</filename>
         <filename>nn-NO.plg_authentication_example.sys.ini</filename>
         <filename>nn-NO.plg_authentication_gmail.ini</filename>
