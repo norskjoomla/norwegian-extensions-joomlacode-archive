@@ -4,7 +4,7 @@
     <name>Norsk bokmål (Norway)</name>
     <tag>nb-NO</tag>
     <version>1.7.0</version>
-    <creationDate>2011-07-14</creationDate>
+    <creationDate>2011-07-19</creationDate>
     <author>Joomla! i Norge</author>
     <authorEmail>oversettelser@joomlainorge.no</authorEmail>
     <authorUrl>http://www.joomlainorge.no</authorUrl>
@@ -89,8 +89,6 @@
         <filename>nb-NO.mod_title.sys.ini</filename>
         <filename>nb-NO.mod_toolbar.ini</filename>
         <filename>nb-NO.mod_toolbar.sys.ini</filename>
-        <filename>nb-NO.plg_authentication_example.ini</filename>
-        <filename>nb-NO.plg_authentication_example.sys.ini</filename>
         <filename>nb-NO.plg_authentication_gmail.ini</filename>
         <filename>nb-NO.plg_authentication_gmail.sys.ini</filename>
         <filename>nb-NO.plg_authentication_joomla.ini</filename>
