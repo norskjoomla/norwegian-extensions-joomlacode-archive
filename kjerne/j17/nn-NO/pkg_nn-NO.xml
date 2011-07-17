@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- $Id: pkg_nn-NO.xml 1695 2011-04-19 06:13:54Z rued $ -->
+<!-- $Id$ -->
 <extension type="package" version="1.7">
 <name>Norwegian Nynorsk Language Pack</name>
 <packagename>nn-NO</packagename>
