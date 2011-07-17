@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- $Id: install.xml 1695 2011-04-19 06:13:54Z rued $ -->
+<!-- $Id$ -->
 <extension version="1.7" client="site" type="language" method="upgrade">
     <name>Norsk nynorsk (Norway)</name>
     <tag>nn-NO</tag>

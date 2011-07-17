@@ -1,4 +1,4 @@
-<!-- $Id: lesmeg-pakking.txt 1695 2011-04-19 06:13:54Z rued $ -->
+<!-- $Id$ -->
 
 *** Pakking av språkpakke ***
 
