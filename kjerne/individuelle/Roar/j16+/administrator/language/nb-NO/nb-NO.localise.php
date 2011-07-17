@@ -1,6 +1,6 @@
 <?php
 /**
- * @version		$Id: nb-NO.localise.php 1503 2011-01-09 20:29:38Z rued $
+ * @version		$Id: nb-NO.localise.php 1738 2011-07-17 09:44:39Z rued $
  * @copyright	Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
  */
