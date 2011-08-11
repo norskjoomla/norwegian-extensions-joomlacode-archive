@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="language" version="1.6" method="upgrade" client="administrator">
+	<name>ACL Manager - Norsk bokmål</name>
+	<tag>nb-NO</tag>
+	<author>Joomla! i Norge</author>
+	<creationDate>2011-08-11</creationDate>
+	<copyright>Copyright (C) 2011 Joomla! i Norge. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+	<authorUrl>www.joomlainorge.no</authorUrl>
+	<version>1.0.0</version>
+	<description>Norsk bokmål for ACL Manager</description>
+	<files>
+		<filename>nb-NO.com_aclmanager.ini</filename>
+		<filename>nb-NO.com_aclmanager.sys.ini</filename>
+	</files>
+</extension>
