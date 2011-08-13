@@ -1,0 +1,18 @@
+<?php
+/**
+ * @version		$Id$
+ * @package		EasyBlog
+ * @copyright	Copyright (C) 2011 Joomla! i Norge. All rights reserved.
+ * @license		GNU General Public License version 3 or later.
+ */
+
+// no direct access
+defined('_JEXEC') or die;
+?>
+
+-----Please save file as UTF8
+
+-------------------- Norwegian Translation Credits ---------------------
+
+v2.0 - Navn - URL/E-post
+
