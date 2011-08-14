@@ -12,13 +12,24 @@
   <fileset>
     <!-- administrator language -->
     <files folder="admin" target="administrator/language/nb-NO">
-      <filename>nb-NO.com_VIRTUEMART.ini</filename>
-      <filename>nb-NO.com_VIRTUEMART.sys.ini</filename>
+      <filename>nb-NO.com_virtuemart.ini</filename>
+      <filename>nb-NO.com_virtuemart.sys.ini</filename>
+      <filename>nb-NO.plg_vmpayment_paypal.ini</filename>
+      <filename>nb-NO.plg_vmpayment_standard.ini</filename>
+      <filename>nb-NO.plg_vmshipper_nbproducts_countries.ini</filename>
+      <filename>nb-NO.plg_vmshipper_orderamount_countries.ini</filename>
+      <filename>nb-NO.plg_vmshipper_weight_countries.ini</filename>
     </files>
     <!-- site language -->
     <files folder="site" target="language/nb-NO">
-      <filename>nb-NO.com_VIRTUEMART.ini</filename>
-      <filename>nb-NO.com_VIRTUEMART.sys.ini</filename>
+      <filename>nb-NO.com_virtuemart.ini</filename>
+      <filename>nb-NO.com_virtuemart.sys.ini</filename>
+      <filename>nb-NO.mod_virtuemart_cart.ini</filename>
+      <filename>nb-NO.mod_virtuemart_category.ini</filename>
+      <filename>nb-NO.mod_virtuemart_currencies.ini</filename>
+      <filename>nb-NO.mod_virtuemart_manufacturer.ini</filename>
+      <filename>nb-NO.mod_virtuemart_product.ini</filename>
+      <filename>nb-NO.mod_virtuemart_search.ini</filename>
     </files>
   </fileset>
 </extension>
