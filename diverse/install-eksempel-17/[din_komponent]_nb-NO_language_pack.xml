@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id:  $ -->
 <extension type="file" version="1.7" method="upgrade">
   <name>[din_komponent] - Norwegian Bokmål (Norway)</name>
   <author>Joomla! i Norge</author>
