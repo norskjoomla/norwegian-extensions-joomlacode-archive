@@ -1,2 +1,0 @@
-
-Sjekk visning av ordredetaljer i administrasjonen og linjen 'Herav MVA', som er noe missvisende da linjen ovenfor (produkttotal) vises eksl. mva.
