@@ -1,0 +1,12 @@
+
+Dette er en eksempelpakke for hvordan man lager språkpakker for utvidelser i Joomla! 1.6 eller nyere.
+
+Referanse: http://docs.joomla.org/Creating_language_packs_for_extensions_in_Joomla_1.6
+
+Filene CREDITS og LICENSE.txt er bare med for å oppfylle GPL-lisensen, de behøver kun ligge i pakken og blir ikke installert av Joomla!
+
+Det er viktig å merke seg at xml navngis med kun små bokstaver og at språkkoden skrives litt annerledes, dvs. nb_no og ikke nb-NO som vi er vante med.
+
+language_pack.sys.ini-filene må også ligge i standard mappestruktur for forsidespråk, for at installasjonen skal finne og lese disse - og kunne vise oversettelse av beskrivelse etter installasjon. Hvordan du velger å legge adminsitratorfilene er ikke så viktig, så lenge du bruker riktig henvisning i xml-fila.
+
+Alle forekomster av [din_komponent] i filnavn og innhold må naturligvis endres til navnet på utvidelsen du oversetter, og det er her anbefalt å bruke skrivemåten som er på utvidelsen i navnet på mappen den er installert i. Eks. 'ACL Manager' = aclmanager.
