@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id:  $ -->
 <extension type="file" version="1.7" method="upgrade">
-  <name>[din_komponent] - Norwegian Bokmål (Norway)</name>
+  <name>FILES_[din_komponent]_NB_NO_LANGUAGE_PACK</name>
   <author>Joomla! i Norge</author>
   <authorEmail>oversettelser@joomlainorge.no</authorEmail>
   <authorUrl>www.joomlainorge.no</authorUrl>
@@ -9,19 +9,23 @@
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
   <version>2.0.0</version>
   <creationDate>15.08.2011</creationDate>
-  <description>Norwegian bokmål language pack for [din_komponent]</description>
+  <description>FILES_[din_komponent]_NB_NO_LANGUAGE_PACK_DESC</description>
   <fileset>
-    <!-- administrator language -->
+    <!-- administrator language folder -->
     <files folder="admin" target="administrator/language/nb-NO">
       <filename>nb-NO.com_[din_komponent].ini</filename>
       <filename>nb-NO.com_[din_komponent].sys.ini</filename>
       <filename>nb-NO.plg_[din_komponent].ini</filename>
     </files>
-    <!-- site language -->
-    <files folder="site" target="language/nb-NO">
+    <!-- site language folder -->
+    <files folder="language/nb-NO" target="language/nb-NO">
       <filename>nb-NO.com_[din_komponent].ini</filename>
       <filename>nb-NO.com_[din_komponent].sys.ini</filename>
       <filename>nb-NO.mod_[din_komponent].ini</filename>
+      <filename>nb-NO.files_[din_komponent]_nb_no_language_pack.sys.ini</filename>
+    </files>
+    <files folder="language/en-GB" target="language/en-GB">
+      <filename>en-GB.files_[din_komponent]_nb_no_language_pack.sys.ini</filename>
     </files>
   </fileset>
 </extension>
