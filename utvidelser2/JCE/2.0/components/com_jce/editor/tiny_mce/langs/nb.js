@@ -1,168 +1,168 @@
-tinyMCE.addI18n({en:{
+tinyMCE.addI18n({nb:{
 common:{
-edit_confirm:"Do you want to use the WYSIWYG mode for this textarea?",
-apply:"Apply",
-insert:"Insert",
-update:"Update",
-cancel:"Cancel",
-close:"Close",
-browse:"Browse",
-class_name:"Class",
-not_set:"-- Not set --",
-clipboard_msg:"Copy/Cut/Paste is not available in Mozilla and Firefox.\nDo you want more information about this issue?",
-clipboard_no_support:"Currently not supported by your browser, use keyboard shortcuts instead.",
-popup_blocked:"Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool.",
-invalid_data:"{#field} is invalid",
-invalid_data_number:"{#field} must be a number",
-invalid_data_min:"{#field} must be a number greater than {#min}",
-invalid_data_size:"{#field} must be a number or percentage",
-more_colors:"More colors"
+edit_confirm:"Vil du benytte WYSIWYG-redigering for dette tekstfelt?",
+apply:"Utfør",
+insert:"Sett inn",
+update:"Oppdater",
+cancel:"Avbryt",
+close:"Steng",
+browse:"Bla",
+class_name:"Klasse",
+not_set:"-- Ikke satt --",
+clipboard_msg:"Klipp/Lim/Kopier er ikke tilgjengelig i Firefox.\nVil du ha mer informasjon om dette?",
+clipboard_no_support:"støttes for øyeblikket ikke av nettleseren din, bruk tastatursnarveier istedenfor.",
+popup_blocked:"Et vindu med viktig funksjonalitet har blitt blokkert, for å benytte deg av denne funksjonaliteten må du deaktivere blokkering av sprettoppvinduer for dette nettstedet.",
+invalid_data:"Feil: Ugyldige data ble fylt inn. Feltene med feil er markert med rødt.",
+invalid_data_number:"{#field} må være et nummer",
+invalid_data_min:"{#field} må være et nummer høyere enn {#min}",
+invalid_data_size:"{#field} må være et nummer eller en prosent",
+more_colors:"Flere farger"
 },
 colors:{
-'000000':'Black',
+'000000':'Sort',
 '993300':'Burnt orange',
-'333300':'Dark olive',
-'003300':'Dark green',
+'333300':'Mørk oliven',
+'003300':'Mørkegrønn',
 '003366':'Dark azure',
 '000080':'Navy Blue',
 '333399':'Indigo',
-'333333':'Very dark gray',
+'333333':'Veldig mørk grå',
 '800000':'Maroon',
 'FF6600':'Orange',
-'808000':'Olive',
-'008000':'Green',
+'808000':'Oliven',
+'008000':'Grønn',
 '008080':'Teal',
-'0000FF':'Blue',
-'666699':'Grayish blue',
-'808080':'Gray',
-'FF0000':'Red',
+'0000FF':'Blå',
+'666699':'Gråblå',
+'808080':'Grå',
+'FF0000':'Rød',
 'FF9900':'Amber',
-'99CC00':'Yellow green',
-'339966':'Sea green',
-'33CCCC':'Turquoise',
+'99CC00':'Gulgrønn',
+'339966':'Sjøgrønn',
+'33CCCC':'Turkis',
 '3366FF':'Royal blue',
 '800080':'Purple',
-'999999':'Medium gray',
+'999999':'Medium grå',
 'FF00FF':'Magenta',
-'FFCC00':'Gold',
-'FFFF00':'Yellow',
+'FFCC00':'Gull',
+'FFFF00':'Gul',
 '00FF00':'Lime',
 '00FFFF':'Aqua',
-'00CCFF':'Sky blue',
-'993366':'Brown',
-'C0C0C0':'Silver',
-'FF99CC':'Pink',
+'00CCFF':'Himmelblå',
+'993366':'Brun',
+'C0C0C0':'Sølv',
+'FF99CC':'Rosa',
 'FFCC99':'Peach',
-'FFFF99':'Light yellow',
+'FFFF99':'Lysegul',
 'CCFFCC':'Pale green',
 'CCFFFF':'Pale cyan',
-'99CCFF':'Light sky blue',
+'99CCFF':'Lys himmelblå',
 'CC99FF':'Plum',
-'FFFFFF':'White'
+'FFFFFF':'Hvit'
 },
 contextmenu:{
-align:"Alignment",
-left:"Left",
-center:"Center",
-right:"Right",
+align:"Plassering",
+left:"Venstre",
+center:"Senter",
+right:"Høyre",
 full:"Full"
 },
 insertdatetime:{
-date_fmt:"%Y-%m-%d",
+date_fmt:"%d-%m-%Y",
 time_fmt:"%H:%M:%S",
-insertdate_desc:"Insert date",
-inserttime_desc:"Insert time",
-months_long:"January,February,March,April,May,June,July,August,September,October,November,December",
-months_short:"Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",
-day_long:"Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday",
-day_short:"Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun"
+insertdate_desc:"Sett inn dato",
+inserttime_desc:"Sett inn tid",
+months_long:"Januar,Februar,Mars,April,Mai,Juni,Juli,August,September,Oktober,November,Desember",
+months_short:"Jan,Feb,Mar,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Des",
+day_long:"Søndag,Mandag,Tirsdag,Onsdag,Torsdag,Fredag,Lørdag,Søndag",
+day_short:"Søn,Man,Tir,Ons,Tor,Fre,Lør,Søn"
 },
 print:{
-print_desc:"Print"
+print_desc:"Skriv ut"
 },
 preview:{
-preview_desc:"Preview"
+preview_desc:"Forhåndsvisning"
 },
 directionality:{
-ltr_desc:"Direction left to right",
-rtl_desc:"Direction right to left"
+ltr_desc:"Retning fra venstre mot høyre",
+rtl_desc:"Retning fra høyre mot venstre"
 },
 layer:{
-insertlayer_desc:"Insert new layer",
-forward_desc:"Move forward",
-backward_desc:"Move backward",
-absolute_desc:"Toggle absolute positioning",
-content:"New layer..."
+insertlayer_desc:"Sett inn nytt lag",
+forward_desc:"Flytt forover",
+backward_desc:"Flytt bakover",
+absolute_desc:"Absolut posisjonering Av/På",
+content:"Nytt lag …"
 },
 save:{
-save_desc:"Save",
-cancel_desc:"Cancel all changes"
+save_desc:"Lagre",
+cancel_desc:"Avbryt alle endringer"
 },
 nonbreaking:{
-nonbreaking_desc:"Insert non-breaking space character"
+nonbreaking_desc:"Sett inn tegn som forhindrer tekstbrytning."
 },
 iespell:{
-iespell_desc:"Run spell checking",
-download:"ieSpell not detected. Do you want to install it now?"
+iespell_desc:"Kjør stavekontroll",
+download:"ieSpell ble ikke funnet. Vil du installere den nå?"
 },
 advhr:{
-advhr_desc:"Horizontal rule"
+advhr_desc:"Horisontal linje"
 },
 emotions:{
-emotions_desc:"Emotions"
+emotions_desc:"Uttryksikoner"
 },
 searchreplace:{
-search_desc:"Find",
-replace_desc:"Find/Replace"
+search_desc:"Søk",
+replace_desc:"Søk/Erstatt"
 },
 advimage:{
-image_desc:"Insert/edit image"
+image_desc:"Sett inn/Endre bilde"
 },
 advlink:{
-link_desc:"Insert/edit link"
+link_desc:"Sett inn/Endre lenke"
 },
 xhtmlxtras:{
-cite_desc:"Citation",
-abbr_desc:"Abbreviation",
-acronym_desc:"Acronym",
-del_desc:"Deletion",
-ins_desc:"Insertion",
-attribs_desc:"Insert/Edit Attributes"
+cite_desc:"Sitat",
+abbr_desc:"Forkortelse",
+acronym_desc:"Akronym",
+del_desc:"Sletting",
+ins_desc:"Innsetting",
+attribs_desc:"Sett inn/Endre attributter"
 },
 style:{
-desc:"Edit CSS Style"
+desc:"Endre CSS-stil"
 },
 paste:{
-paste_desc:"Paste",
-paste_text_desc:"Paste as Plain Text",
-paste_word_desc:"Paste from Word",
-selectall_desc:"Select All"
+paste_desc:"Lim inn",
+paste_text_desc:"Lim inn som ren tekst",
+paste_word_desc:"Lim inn fra Word",
+selectall_desc:"Velg alle"
 },
 paste_dlg:{
-text_linebreaks:"Keep linebreaks",
-title:"Use CTRL+V on your keyboard to paste text into the window."
+text_linebreaks:"Behold linjeskift"
+title:"Bruk Ctrl+V på tastaturet for å lime inn tekst i vinduet.",
 },
 table:{
-desc:"Inserts a new table",
-row_before_desc:"Insert row before",
-row_after_desc:"Insert row after",
-delete_row_desc:"Delete row",
-col_before_desc:"Insert column before",
-col_after_desc:"Insert column after",
-delete_col_desc:"Remove column",
-split_cells_desc:"Split merged table cells",
-merge_cells_desc:"Merge table cells",
-row_desc:"Table row properties",
-cell_desc:"Table cell properties",
-props_desc:"Table properties",
-paste_row_before_desc:"Paste table row before",
-paste_row_after_desc:"Paste table row after",
-cut_row_desc:"Cut table row",
-copy_row_desc:"Copy table row",
-del:"Delete table",
-row:"Row",
-col:"Column",
-cell:"Cell"
+desc:"Setter inn en ny tabell",
+row_before_desc:"Ny rad før",
+row_after_desc:"Ny rad etter",
+delete_row_desc:"Slett rad",
+col_before_desc:"Ny kolonne før",
+col_after_desc:"Ny kolonne etter",
+delete_col_desc:"Fjern kolonne",
+split_cells_desc:"Del tabellceller som er slått sammen",
+merge_cells_desc:"Slå sammen tabellceller",
+row_desc:"Attributter for rad",
+cell_desc:"Attributter for celle",
+props_desc:"Attributter for hele tabellen",
+paste_row_before_desc:"Lim inn rad før",
+paste_row_after_desc:"Lim inn rad etter",
+cut_row_desc:"Klipp ut rad",
+copy_row_desc:"Kopier rad",
+del:"Slett tabell",
+row:"Rad",
+col:"Kolonne",
+cell:"Celle"
 },
 autosave:{
 unload_msg:"The changes you made will be lost if you navigate away from this page.",
@@ -170,94 +170,94 @@ restore_content:"Restore auto-saved content.",
 warning_message:"If you restore the saved content, you will lose all the content that is currently in the editor.\n\nAre you sure you want to restore the saved content?."
 },
 fullscreen:{
-desc:"Toggle fullscreen mode"
+desc:"Fullskjermmodus Av/På"
 },
 media:{
-desc:"Insert / edit embedded media",
-edit:"Edit embedded media"
+desc:"Sett inn/Endre mediainnhold",
+edit:"Endre mediainnhold"
 },
 fullpage:{
-desc:"Document properties"
+desc:"Dokumentegenskaper"
 },
 template:{
-desc:"Insert predefined template content"
+desc:"Sett inn forhåndsdefinert malinnhold"
 },
 visualchars:{
-desc:"Visual control characters on/off."
+desc:"Visning av kontrolltegn Av/På."
 },
 spellchecker:{
-desc:"Toggle spellchecker",
-menu:"Spellchecker settings",
-ignore_word:"Ignore word",
-ignore_words:"Ignore all",
-langs:"Languages",
-wait:"Please wait...",
-sug:"Suggestions",
-no_sug:"No suggestions",
-no_mpell:"No misspellings found.",
-learn_word:"Learn word"
+desc:"Stavekontroll Av/På",
+menu:"Innstillinger for stavekontroll",
+ignore_word:"Ignorer org",
+ignore_words:"Ignorer alle",
+langs:"Språk",
+wait:"Vent litt …",
+sug:"Forslag",
+no_sug:"Ingen forslag",
+no_mpell:"Ingen stavefeil."
+learn_word:"Lær ord"
 },
 pagebreak:{
-desc:"Insert page break."
+desc:"Sett inn sideskift."
 },
 advlist:{
-types:"Types",
-def:"Default",
+types:"Typer",
+def:"Standard",
 lower_alpha:"Lower alpha",
 lower_greek:"Lower greek",
 lower_roman:"Lower roman",
 upper_alpha:"Upper alpha",
 upper_roman:"Upper roman",
-circle:"Circle",
-disc:"Disc",
-square:"Square"
+circle:"Sirkel",
+disc:"Disk",
+square:"Firkant"
 },
 aria:{
-rich_text_area:"Rich Text Area"
+rich_text_area:"Felt for rik tekst"
 },
 wordcount:{
-words: 'Words: '
+words: 'Ord: '
 },
 //JCE Common Plugins
 imgmanager: {
-desc: "Insert/Edit image",
+desc: "Sett inn/endre bilde",
 delta_width: 0,
 delta_height: 0
 },
 imgmanager_ext: {
-desc: "Insert/Edit image",
+desc: "Sett inn/endre bilde",
 delta_width: 0,
 delta_height: 0
 },
 link: {
-desc: "Insert/Edit link",
+desc: "Sett inn/endre lenke",
 delta_width: 0,
 delta_height: 0
 },
 filemanager: {
-desc: "Insert/Edit file",
+desc: "Sett inn/endre fil",
 delta_width: 0,
 delta_height: 0
 },
 mediamanager: {
-desc: "Insert/Edit Media",
+desc: "Sett inn/endre media",
 delta_width: 0,
 delta_height: 0
 },
 caption: {
-desc: "Insert/Edit Caption",
+desc: "Sett inn/endre bildetekst",
 delta_width: 0,
 delta_height: 0
 },
 templatemanager: {
-desc: "Insert predefined template content",
+desc: "Sett inn forhåndsdefinert malinnhold",
 delta_width: 0,
 delta_height: 0
 },
 article: {
-pagebreak: "Insert / Edit Pagebreak",
-readmore: "Insert Read More",
-readmore_title: "Read More",
+pagebreak: "Sett inn/endre sideskift",
+readmore: "Sett inn 'Les mer'",
+readmore_title: "Les mer",
 readmore_alert: "There is already a Read More break inserted in this article. Only one such break is permitted. Use a Pagebreak to split the page up further."
 },
 advlist : {
