@@ -1,5 +1,5 @@
-tinyMCE.addI18n('en.pagebreak_dlg',{
-desc:"Insert / Edit Pagebreak",
-title:"Page Title",
-alias:"Table of Contents Alias"
+tinyMCE.addI18n('nb.pagebreak_dlg',{
+desc:"Sett inn / Endre sideskift",
+title:"Sidetittel",
+alias:"Alias for innholdsfortegnelse"
 });

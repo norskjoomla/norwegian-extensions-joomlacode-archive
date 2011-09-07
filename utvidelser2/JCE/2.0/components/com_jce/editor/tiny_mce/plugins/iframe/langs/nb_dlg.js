@@ -1,5 +1,5 @@
-tinyMCE.addI18n('en.iframe_dlg',{
-is_external: "The URL you entered seems to be an external link, do you want to add the required http:// prefix?",
-no_src: 'Please enter a url for the iframe',
-no_dimensions : 'Please enter a width and height for the iframe'
+tinyMCE.addI18n('nb.iframe_dlg',{
+is_external: "Nettadressen du fylte inn ser ut til å være en ekstern lenke,vil du legge tilpåkrevd http:// prefiks?",
+no_src: 'Du må angi en nettadresse for den integrerte rammen',
+no_dimensions : 'Du må angi en bredde og høyde for den integrerte rammen'
 });

@@ -1,7 +1,7 @@
-tinyMCE.addI18n('en.advlink_dlg',{
-title:"Insert/edit link",
-is_email:"The URL you entered seems to be an email address, do you want to add the required mailto: prefix?",
-is_external:"The URL you entered seems to be an external link, do you want to add the required http:// prefix?",
-no_href:"A URL is required. Please select a link or enter a URL",
-no_text:"Please enter some text for the link"
+tinyMCE.addI18n('nb.link_dlg',{
+title:"Sett inn/Endre lenke",
+is_email:"Nettadressen du fylte inn ser ut til å være en e-postadresse, vil du legge til påkrevd mailto: prefiks?",
+is_external:"Nettadressen du fylte inn se rut til å være en ekstern lenke, vil du legge til påkrevd http:// prefiks?",
+no_href:"En nettadresse er påkrevd. Du må velge en lenke eller fylle inn en nettadresse",
+no_text:"Fyll inn en tekst for lenken"
 });

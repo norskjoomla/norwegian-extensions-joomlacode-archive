@@ -1,10 +1,10 @@
-// UK lang variables
-tinyMCE.addI18n('en.filemanager_dlg',{
-icon: 'Icon',
-size: 'Size',
-text: 'Text',
-date: 'Date',
-'replace_text': 'Replace file link text with file name?',
-no_src: 'Please select a file or ent a file URL',
-no_text: 'Text for the file link is required'
+// NO lang variables
+tinyMCE.addI18n('nb.filemanager_dlg',{
+icon: 'Ikon',
+size: 'Størrelse',
+text: 'Tekst',
+date: 'Dato',
+'replace_text': 'Bytt ut fillenketekst med filnavn?',
+no_src: 'Du må velge en fil eller en nettadresse',
+no_text: 'Tekst for fillenke er påkrevd'
 });
