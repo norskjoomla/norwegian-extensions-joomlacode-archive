@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<mosinstall version="1.1.0" type="jcelang" lang="nb">
+	<name>Norwegian</name>
+	<version>1.1.0 Final</version>
+		<creationDate>2007-05-26</creationDate>
+	<author>Norwegian Translation Project</author>
+	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+	<authorUrl>http://www.joomlainorge.no</authorUrl>
+	<copyright>Joomla! i Norge</copyright>
+	<license>LGPL</license>
+	<description>Norwegian language files for JCE</description>
+	<files>
+		<filename language="nb">langs/nb.js</filename>
+		<filename>libraries/langs/nb.php</filename>
+		<filename>themes/advanced/langs/nb.js</filename>
+		<filename>themes/advanced/docs/nb/index.htm</filename>
+		<filename>themes/advanced/docs/nb/about.htm</filename>
+		<filename>themes/advanced/docs/nb/common_buttons.htm</filename>
+		<filename>themes/advanced/docs/nb/insert_image_button.htm</filename>
+		<filename>themes/advanced/docs/nb/insert_link_button.htm</filename>
+		<filename>themes/advanced/docs/nb/style.css</filename>
+		<filename>themes/advanced/docs/nb/images/insert_image_window.gif</filename>
+		<filename>themes/advanced/docs/nb/images/insert_link_window.gif</filename>
+		<filename>themes/advanced/images/bold_nb.gif</filename>
+		<filename>themes/advanced/images/italic_nb.gif</filename>
+		<filename>plugins/advlink/langs/nb.js</filename>
+		<filename>plugins/advlink/langs/nb.php</filename>
+		<filename>plugins/advlink_ext/langs/nb.js</filename>
+		<filename>plugins/advlink_ext/langs/nb.php</filename>
+		<filename>plugins/attributes/langs/nb.js</filename>
+		<filename>plugins/audioplayer/langs/nb.js</filename>
+		<filename>plugins/caption/langs/nb.js</filename>
+		<filename>plugins/caption/langs/nb.php</filename>
+		<filename>plugins/directionality/langs/nb.js</filename>
+		<filename>plugins/doclink/langs/nb.js</filename>
+        <filename>plugins/doclink/langs/nb.php</filename>
+		<filename>plugins/emotions/langs/nb.js</filename>
+		<filename>plugins/filemanager/langs/nb.js</filename>
+        <filename>plugins/filemanager/langs/nb.php</filename>
+        <filename>plugins/fireboard/langs/nb.js</filename>
+        <filename>plugins/fireboard/langs/nb.php</filename>
+        <filename>plugins/fullscreen/langs/nb.js</filename>
+        <filename>plugins/iframe/langs/nb.js</filename>
+        <filename>plugins/imgmanager/langs/nb.js</filename>
+        <filename>plugins/imgmanager/langs/nb.php</filename>
+		<filename>plugins/imgmanager_ext/langs/nb.js</filename>
+        <filename>plugins/imgmanager_ext/langs/nb.php</filename>
+        <filename>plugins/joomla/langs/nb.js</filename>
+        <filename>plugins/joomlaboard/langs/nb.js</filename>
+        <filename>plugins/joomlaboard/langs/nb.php</filename>
+        <filename>plugins/layer/langs/nb.js</filename>
+		<filename>plugins/mediamanager/langs/nb.js</filename>
+        <filename>plugins/mediamanager/langs/nb.php</filename>
+        <filename>plugins/nonbreaking/langs/nb.js</filename>
+        <filename>plugins/paste/langs/nb.js</filename>
+        <filename>plugins/preview/langs/nb.js</filename>
+        <filename>plugins/print/langs/nb.js</filename>
+        <filename>plugins/searchreplace/langs/nb.js</filename>
+        <filename>plugins/spellchecker/langs/nb.js</filename>
+        <filename>plugins/style/langs/nb.js</filename>
+        <filename>plugins/table/langs/nb.js</filename>
+		<filename>plugins/templatemanager/langs/nb.js</filename>
+        <filename>plugins/templatemanager/langs/nb.php</filename>
+        <filename>plugins/visualchars/langs/nb.js</filename>
+        <filename>plugins/xhtmlxtras/langs/nb.js</filename>
+	</files>
+	<administration>
+		<files>
+			<filename>nb.php</filename>
+		</files>
+	</administration>
+</mosinstall>
