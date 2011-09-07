@@ -1,0 +1,18 @@
+<?php
+/**
+ * @version		$Id: CREDITS $
+ * @package		JCE 2.0
+ * @copyright	Copyright (C) 2010 - 2011 Joomla! i Norge. All rights reserved.
+ * @license		GNU General Public License version 2 or later.
+ */
+
+// no direct access
+defined('_JEXEC') or die;
+?>
+
+-----Please save file as UTF8
+
+-------------------- JCE 2.0 Norwegian Bokmål Translation Credits ---------------------
+
+Knut Carlsen
+Rune Rasmussen
