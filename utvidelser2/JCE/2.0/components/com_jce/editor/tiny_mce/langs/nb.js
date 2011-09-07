@@ -20,15 +20,15 @@ more_colors:"Flere farger"
 },
 colors:{
 '000000':'Sort',
-'993300':'Burnt orange',
+'993300':'Burnt oransje',
 '333300':'Mørk oliven',
 '003300':'Mørkegrønn',
-'003366':'Dark azure',
+'003366':'Dark asurblått',
 '000080':'Navy Blue',
 '333399':'Indigo',
 '333333':'Veldig mørk grå',
 '800000':'Maroon',
-'FF6600':'Orange',
+'FF6600':'Oransje',
 '808000':'Oliven',
 '008000':'Grønn',
 '008080':'Teal',
@@ -40,9 +40,9 @@ colors:{
 '99CC00':'Gulgrønn',
 '339966':'Sjøgrønn',
 '33CCCC':'Turkis',
-'3366FF':'Royal blue',
+'3366FF':'Kongeblå',
 '800080':'Purple',
-'999999':'Medium grå',
+'999999':'Middels grå',
 'FF00FF':'Magenta',
 'FFCC00':'Gull',
 'FFFF00':'Gul',
@@ -54,8 +54,8 @@ colors:{
 'FF99CC':'Rosa',
 'FFCC99':'Peach',
 'FFFF99':'Lysegul',
-'CCFFCC':'Pale green',
-'CCFFFF':'Pale cyan',
+'CCFFCC':'Pale grønn',
+'CCFFFF':'Pale blå',
 '99CCFF':'Lys himmelblå',
 'CC99FF':'Plum',
 'FFFFFF':'Hvit'
@@ -91,7 +91,7 @@ layer:{
 insertlayer_desc:"Sett inn nytt lag",
 forward_desc:"Flytt forover",
 backward_desc:"Flytt bakover",
-absolute_desc:"Absolut posisjonering Av/På",
+absolute_desc:"Absolut posisjonering av/på",
 content:"Nytt lag …"
 },
 save:{
@@ -165,12 +165,12 @@ col:"Kolonne",
 cell:"Celle"
 },
 autosave:{
-unload_msg:"The changes you made will be lost if you navigate away from this page.",
-restore_content:"Restore auto-saved content.",
-warning_message:"If you restore the saved content, you will lose all the content that is currently in the editor.\n\nAre you sure you want to restore the saved content?."
+unload_msg:"Endringene du gjorde går tapt dersom du velger å forlate denne siden!",
+restore_content:"Gjenopprett autolagret innhold.",
+warning_message:"Om du gjenoppretter lagret innhold vil du miste alt innhold som nå er i tekstbehandleren.\n\nEr du sikker på at du ønsker å gjenopprette lagret innhold?"
 },
 fullscreen:{
-desc:"Fullskjermmodus Av/På"
+desc:"Fullskjermmodus av/på"
 },
 media:{
 desc:"Sett inn/Endre mediainnhold",
@@ -183,10 +183,10 @@ template:{
 desc:"Sett inn forhåndsdefinert malinnhold"
 },
 visualchars:{
-desc:"Visning av kontrolltegn Av/På."
+desc:"Visning av kontrolltegn av/på."
 },
 spellchecker:{
-desc:"Stavekontroll Av/På",
+desc:"Stavekontroll av/på",
 menu:"Innstillinger for stavekontroll",
 ignore_word:"Ignorer org",
 ignore_words:"Ignorer alle",
@@ -203,11 +203,11 @@ desc:"Sett inn sideskift."
 advlist:{
 types:"Typer",
 def:"Standard",
-lower_alpha:"Lower alpha",
-lower_greek:"Lower greek",
-lower_roman:"Lower roman",
-upper_alpha:"Upper alpha",
-upper_roman:"Upper roman",
+lower_alpha : "Liten alfa",
+lower_greek : "Liten gresk",
+lower_roman : "Liten romersk",
+upper_alpha : "Stor alfa",
+upper_roman : "Stor romersk",
 circle:"Sirkel",
 disc:"Disk",
 square:"Firkant"
@@ -258,35 +258,35 @@ article: {
 pagebreak: "Sett inn/endre sideskift",
 readmore: "Sett inn 'Les mer'",
 readmore_title: "Les mer",
-readmore_alert: "There is already a Read More break inserted in this article. Only one such break is permitted. Use a Pagebreak to split the page up further."
+readmore_alert: "Det finnes allerede en 'Les mer'-lenke i denne artikkelen, og kun en er tillatt. Bruk sideskift for å dele opp siden videre."
 },
 advlist : {
-types : 'Types',
-def : 'Default',
-lower_alpha : "Lower alpha",
-lower_greek : "Lower greek",
-lower_roman : "Lower roman",
-upper_alpha : "Upper alpha",
-upper_roman : "Upper roman",
-circle : "Circle",
-disc : "Disc",
-square : "Square"
+types : 'Typer',
+def : 'Standard',
+lower_alpha : "Liten alfa",
+lower_greek : "Liten gresk",
+lower_roman : "Liten romersk",
+upper_alpha : "Stor alfa",
+upper_roman : "Stor romersk",
+circle : "Sirkel",
+disc : "Disk",
+square : "Firkant"
 },
 autosave:{
-unload_msg:"The changes you made will be lost if you navigate away from this page.",
-restore_content:"Restore auto-saved content.",
-warning_message:"If you restore the saved content, you will lose all the content that is currently in the editor.\n\nAre you sure you want to restore the saved content?."
+unload_msg:"Endringene du gjorde går tapt dersom du velger å forlate denne siden!",
+restore_content:"Gjenopprett autolagret innhold.",
+warning_message:"Om du gjenoppretter lagret innhold vil du miste alt innhold som nå er i tekstbehandleren.\n\nEr du sikker på at du ønsker å gjenopprette lagret innhold?"
 },
 source:{
-source_desc:"Toggle Source Code",
-wrap_desc:"Toggle Word Wrap",
-numbers_desc:"Toggle Line Numbers",
-highlight_desc:"Toggle Code Highlighting"
+source_desc:"Visning av kildekode av/på",
+wrap_desc:"Visning av ordinnpakking av/på",
+numbers_desc:"Visning av linjenummer av/på",
+highlight_desc:"Visning av kodefremheving av/på"
 },
 textcase : {
-uppercase:"Uppercase",
-lowercase:"Lowercase",
-sentencecase:"Sentence Case",
-camelcase:"Camel Case"
+uppercase:"Stor bokstav",
+lowercase:"Liten bokstav",
+sentencecase:"Stor bokstav i første ord",
+camelcase:"Stor bokstav i alle ord"
 }
 }});
