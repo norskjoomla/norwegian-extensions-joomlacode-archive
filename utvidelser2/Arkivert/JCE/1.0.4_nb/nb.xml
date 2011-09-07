@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<mosinstall version="1.0.0" type="jcelang" lang="nb">
+	<name>Norwegian</name>
+	<version>1.0</version>
+	<creationDate>2006</creationDate>
+	<author>Norwegian Translation Project</author>
+	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+	<authorUrl>http://www.joomlainorge.no</authorUrl>
+	<copyright>Joomla! i Norge</copyright>
+	<license>LGPL</license>
+	<description>Norwegian language files for JCE</description>
+	<files>
+		<filename language="nb">langs/nb.js</filename>
+		<filename>libraries/langs/nb.php</filename>
+		<filename>plugins/advlink/langs/nb.js</filename>
+		<filename>plugins/advlink/langs/nb.php</filename>
+		<filename>plugins/directionality/langs/nb.js</filename>
+		<filename>plugins/emotions/langs/nb.js</filename>
+		<filename>plugins/filemanager/docs/images/nb/fm_insert1.jpg</filename>
+		<filename>plugins/filemanager/docs/images/nb/fm_insert2.jpg</filename>
+		<filename>plugins/filemanager/docs/images/nb/fm_layout.jpg</filename>
+		<filename>plugins/filemanager/docs/images/nb/upload.jpg</filename>
+		<filename>plugins/filemanager/langs/nb.js</filename>
+		<filename>plugins/filemanager/langs/nb.php</filename>
+		<filename>plugins/fullscreen/langs/nb.js</filename>
+		<filename>plugins/htmltemplate/langs/nb.js</filename>
+		<filename>plugins/iframe/langs/nb.js</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_insert1.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_insert2.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_insert3.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_layout.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_popup1.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_popup2.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_popup3.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_popup4.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_rollover1.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/im_rollover2.jpg</filename>
+		<filename>plugins/imgmanager/docs/images/nb/upload.jpg</filename>
+		<filename>plugins/imgmanager/langs/nb.js</filename>
+		<filename>plugins/imgmanager/langs/nb.php</filename>
+		<filename>plugins/imgmanagerlite/docs/images/nb/im_insert1.jpg</filename>
+		<filename>plugins/imgmanagerlite/docs/images/nb/im_insert2.jpg</filename>
+		<filename>plugins/imgmanagerlite/docs/images/nb/im_insert3.jpg</filename>
+		<filename>plugins/imgmanagerlite/docs/images/nb/im_layout.jpg</filename>
+		<filename>plugins/imgmanagerlite/docs/images/nb/im_rollover1.jpg</filename>
+		<filename>plugins/imgmanagerlite/docs/images/nb/im_rollover2.jpg</filename>
+		<filename>plugins/imgmanagerlite/docs/images/nb/upload.jpg</filename>
+		<filename>plugins/imgmanagerlite/langs/nb.js</filename>
+		<filename>plugins/imgmanagerlite/langs/nb.php</filename>
+		<filename>plugins/joomla/langs/nb.js</filename>
+		<filename>plugins/mediamanager/docs/images/nb/mm_layout.jpg</filename>
+		<filename>plugins/mediamanager/docs/images/nb/upload.jpg</filename>
+		<filename>plugins/mediamanager/langs/nb.js</filename>
+		<filename>plugins/mediamanager/langs/nb.php</filename>
+		<filename>plugins/paste/langs/nb.js</filename>
+		<filename>plugins/preview/langs/nb.js</filename>
+		<filename>plugins/print/langs/nb.js</filename>
+		<filename>plugins/searchreplace/langs/nb.js</filename>
+		<filename>plugins/table/langs/nb.js</filename>
+		<filename>plugins/templates/docs/images/nb/fm_insert1.jpg</filename>
+		<filename>plugins/templates/docs/images/nb/fm_insert2.jpg</filename>
+		<filename>plugins/templates/docs/images/nb/fm_layout.jpg</filename>
+		<filename>plugins/templates/docs/images/nb/upload.jpg</filename>
+		<filename>plugins/templates/langs/nb.js</filename>
+		<filename>plugins/templates/langs/nb.php</filename>
+		<filename>themes/advanced/langs/nb.js</filename>
+		<filename>themes/advanced/images/bold_nb.gif</filename>
+		<filename>themes/advanced/images/italic_nb.gif</filename>
+	</files>
+	<administration>
+		<files>
+			<filename>nb.php</filename>
+		</files>
+	</administration>
+</mosinstall>
