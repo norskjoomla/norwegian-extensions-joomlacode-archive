@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Id: install.xml 1573 2011-01-30 20:56:57Z rued $ -->
+<!-- $Id$ -->
 <install version="2.0" type="language" core="1">
 	<name>Norsk bokmål (Norway)</name>
 	<tag>nb-NO</tag>
@@ -12,17 +12,14 @@
 	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
 	<description>Norsk bokmål (Norwegian) for JCE 2.0</description>
 	<site folder="language/nb-NO">
-		<file>nb-NO.com_jce.xml</file>
-		<!-- // Optional plugin language files
 		<file>nb-NO.com_jce_caption.ini</file> 
 		<file>nb-NO.com_jce_emotions.ini</file>
 		<file>nb-NO.com_jce_filemanager.ini</file>
 		<file>nb-NO.com_jce_fullpage.ini</file>
 		<file>nb-NO.com_jce_iframe.ini</file>
-		<file>nb-NO.com_jce_mediamanager.ini</file>
+		<file>nb-NO.com_jce_imgmanager_ext.ini</file>
 		<file>nb-NO.com_jce_mediamanager.ini</file>
 		<file>nb-NO.com_jce_templatemanager.ini</file>
-		// -->
 	</site>
 	<tinymce folder="components/com_jce/editor/tiny_mce">
 		<file>langs/nb.js</file>
@@ -31,9 +28,14 @@
 		<file>themes/advanced/langs/nb_dlg.js</file>
 		<file>plugins/article/langs/nb_dlg.js</file>
 		<file>plugins/browser/langs/nb_dlg.js</file>
+		<file>plugins/caption/langs/nb.js</file>
 		<file>plugins/emotions/langs/nb_dlg.js</file>
+		<file>plugins/filemanager/langs/nb_dlg.js</file>
 		<file>plugins/fullpage/langs/nb_dlg.js</file>
+		<file>plugins/iframe/langs/nb.js</file>
+		<file>plugins/iframe/langs/nb_dlg.js</file>
 		<file>plugins/imgmanager/langs/nb_dlg.js</file>
+		<file>plugins/imgmanager_ext/langs/nb_dlg.js</file>
 		<file>plugins/link/langs/nb_dlg.js</file>
 		<file>plugins/mediamanager/langs/nb_dlg.js</file>
 		<file>plugins/searchreplace/langs/nb_dlg.js</file>
@@ -42,12 +44,6 @@
 		<file>plugins/templatemanager/langs/nb.js</file>
 		<file>plugins/templatemanager/langs/nb_dlg.js</file>
 		<file>plugins/xhtmlxtras/langs/nb_dlg.js</file>
-		<!-- // Optional plugin language files
-		<file>plugins/caption/langs/nb.js</file>
-		<file>plugins/filemanager/langs/nb_dlg.js</file>
-		<file>plugins/iframe/langs/nb.js</file>
-		<file>plugins/iframe/langs/nb_dlg.js</file>
-		// -->
 	</tinymce>
 	<administration folder="administrator/language/nb-NO">
 		<file>nb-NO.com_jce.ini</file>
