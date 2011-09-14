@@ -26,6 +26,10 @@
         <filename>nn-NO.files_joomla.sys.ini</filename>
         <filename>nn-NO.ini</filename>
         <filename>nn-NO.lib_joomla.ini</filename>
+        <filename>nn-NO.lib_joomla.sys.ini</filename>
+        <filename>nn-NO.lib_phpmailer.sys.ini</filename>
+        <filename>nn-NO.lib_phputf8.sys.ini</filename>
+        <filename>nn-NO.lib_simplepie.sys.ini</filename>
         <filename>nn-NO.localise.php</filename>
         <filename>nn-NO.mod_articles_archive.ini</filename>
         <filename>nn-NO.mod_articles_archive.sys.ini</filename>
@@ -73,6 +77,7 @@
         <filename>nn-NO.mod_whosonline.sys.ini</filename>
         <filename>nn-NO.mod_wrapper.ini</filename>
         <filename>nn-NO.mod_wrapper.sys.ini</filename>
+        <filename>nn-NO.pkg_joomla.sys.ini</filename>
         <filename>nn-NO.tpl_atomic.ini</filename>
         <filename>nn-NO.tpl_atomic.sys.ini</filename>
         <filename>nn-NO.tpl_beez_20.ini</filename>
