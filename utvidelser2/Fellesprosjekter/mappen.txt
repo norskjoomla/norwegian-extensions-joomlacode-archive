@@ -1,0 +1,4 @@
+
+Denne mappen er for fellesprosjekter.
+Dvs. oversettelser som flere samarbeider om, eller som ikke har noen "eier"/"vedlikeholder".
+
