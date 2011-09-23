@@ -2,4 +2,6 @@ Denne mappen er for individuelle prosjekter/brukere.
 
 Sjekk alltid om noen andre jobber med/har registrert et prosjekt før man oppretter et eget.
 
-Om noen prosjekter tilsynelatende er 'død', eller har lav aktivitet kan man spørre om man får bidra eller overta. Ved aksept kan en administrator flytte eksisterende svn-kopi over til en individuell bruker, eller til fellesområde om det skal gjøres om til et fellesprosjekt.
+Om noen prosjekter tilsynelatende er 'død', eller har lav aktivitet kan man spørre om man får bidra eller overta. Ved aksept kan en administrator flytte eksisterende svn-kopi over til en individuell bruker, eller til fellesområde om det skal gjøres om til et fellesprosjekt hvor flere skal kunne bidra.
+
+Oversettere som slutter, eller som stopper oversettelse/oppdatering av et av sine prosjekter, bør gi beskjed om dette til administrator. E-postadressen oversettelser [at] joomlainorge.no kan eventuelt brukes for kontakt, om du har mistet oversikt eller kontaktopplysninger.
