@@ -1,0 +1,17 @@
+<?php
+/**
+ * @version		$Id: CREDITS $
+ * @package		JomSocial
+ * @copyright	Copyright (C) 2010 - 2011 Joomla! i Norge. All rights reserved.
+ * @license		GNU General Public License version 2 or later.
+ */
+
+// no direct access
+defined('_JEXEC') or die;
+?>
+
+-----Please save file as UTF8
+
+-------------------- JomSocial Norwegian Bokmål Translation Credits ---------------------
+
+v2.2.4 - Tommy Roger Skålvik - www.buskerudweb.com

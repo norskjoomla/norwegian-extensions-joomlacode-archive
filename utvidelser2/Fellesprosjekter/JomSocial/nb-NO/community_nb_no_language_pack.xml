@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id:  $ -->
+<extension type="file" version="1.7" method="upgrade">
+  <name>FILES_COMMUNITY_NB_NO_LANGUAGE_PACK</name>
+  <author>Joomla! i Norge</author>
+  <authorEmail>oversettelser@joomlainorge.no</authorEmail>
+  <authorUrl>www.joomlainorge.no</authorUrl>
+  <copyright>Copyright (C) 2011 - 2011 Joomla! i Norge. All rights reserved.</copyright>
+  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+  <version>2.2.4</version>
+  <creationDate>23.09.2011</creationDate>
+  <description>FILES_COMMUNITY_NB_NO_LANGUAGE_PACK_DESC</description>
+  <fileset>
+    <!-- administrator language folder -->
+    <files folder="admin" target="administrator/language/nb-NO">
+      <filename>nb-NO.com_community.ini</filename>
+      <filename>nb-NO.com_community.menu.ini</filename>
+      <filename>nb-NO.com_community.sys.ini</filename>
+      <filename>nb-NO.community.sys.ini</filename>
+      <filename>nb-NO.plg_community_eventlist.ini</filename>
+      <filename>nb-NO.plg_community_events.ini</filename>
+      <filename>nb-NO.plg_community_feeds.ini</filename>
+      <filename>nb-NO.plg_community_friendslocation.ini</filename>
+      <filename>nb-NO.plg_community_jomcomment.ini</filename>
+      <filename>nb-NO.plg_community_kunena.ini</filename>
+      <filename>nb-NO.plg_community_latestphoto.ini</filename>
+      <filename>nb-NO.plg_community_myarticles.ini</filename>
+      <filename>nb-NO.plg_community_myblog.ini</filename>
+      <filename>nb-NO.plg_community_mycontacts.ini</filename>
+      <filename>nb-NO.plg_community_mygoogleads.ini</filename>
+      <filename>nb-NO.plg_community_nicetalk.ini</filename>
+      <filename>nb-NO.plg_community_twitter.ini</filename>
+      <filename>nb-NO.plg_community_walls.ini</filename>
+      <filename>nb-NO.plg_community_wordfilter.ini</filename>
+      <filename>nb-NO.plg_editormyphotos.ini</filename>
+      <filename>nb-NO.plg_eventlist.ini</filename>
+      <filename>nb-NO.plg_events.ini</filename>
+      <filename>nb-NO.plg_feeds.ini</filename>
+      <filename>nb-NO.plg_friendslocation.ini</filename>
+      <filename>nb-NO.plg_jomcomment.ini</filename>
+      <filename>nb-NO.plg_kunena.ini</filename>
+      <filename>nb-NO.plg_latestphoto.ini</filename>
+      <filename>nb-NO.plg_myarticles.ini</filename>
+      <filename>nb-NO.plg_myblog.ini</filename>
+      <filename>nb-NO.plg_myblogtoolbar.ini</filename>
+      <filename>nb-NO.plg_mycontacts.ini</filename>
+      <filename>nb-NO.plg_mygoogleads.ini</filename>
+      <filename>nb-NO.plg_nicetalk.ini</filename>
+      <filename>nb-NO.plg_system_jomsocialupdate.ini</filename>
+      <filename>nb-NO.plg_twitter.ini</filename>
+      <filename>nb-NO.plg_walls.ini</filename>
+    </files>
+    <!-- site language folder -->
+    <files folder="language/nb-NO" target="language/nb-NO">
+      <filename>nb-NO.com_community.ini</filename>
+      <filename>nb-NO.mod_activegroups.ini</filename>
+      <filename>nb-NO.mod_activitystream.ini</filename>
+      <filename>nb-NO.mod_datingsearch.ini</filename>
+      <filename>nb-NO.mod_hellome.ini</filename>
+      <filename>nb-NO.mod_jomsocialconnect.ini</filename>
+      <filename>nb-NO.mod_latestdiscussion.ini</filename>
+      <filename>nb-NO.mod_latestevents.ini</filename>
+      <filename>nb-NO.mod_latestgroupwalls.ini</filename>
+      <filename>nb-NO.mod_latestmembers.ini</filename>
+      <filename>nb-NO.mod_onlineusers.ini</filename>
+      <filename>nb-NO.mod_photocomments.ini</filename>
+      <filename>nb-NO.mod_statistics.ini</filename>
+      <filename>nb-NO.mod_topmembers.ini</filename>
+      <filename>nb-NO.mod_videocomments.ini</filename>
+      <filename>nb-NO.files_community_nb_no_language_pack.sys.ini</filename>
+    </files>
+    <files folder="language/en-GB" target="language/en-GB">
+      <filename>en-GB.files_community_nb_no_language_pack.sys.ini</filename>
+    </files>
+  </fileset>
+</extension>
