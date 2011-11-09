@@ -2,7 +2,7 @@
 /**
  * @version		$Id$
  * @package		EasyBlog
- * @copyright	Copyright (C) 2011 Joomla! i Norge. All rights reserved.
+ * @copyright	Copyright (C) 2011 Joomla! i Norge and Norwegian Translation Team at Transifex. All rights reserved.
  * @license		GNU General Public License version 3 or later.
  */
 
@@ -14,5 +14,7 @@ defined('_JEXEC') or die;
 
 -------------------- Norwegian Translation Credits ---------------------
 
-v2.0 - Navn - URL/E-post
+Rune Rasmussen alias rued
+Øyvind Sønderbye alias osonder
+Uno Wahl alias UnoMo
 
