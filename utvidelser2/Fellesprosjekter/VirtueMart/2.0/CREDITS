@@ -1,7 +1,7 @@
 <?php
 /**
  * @version		$Id$
- * @package		KOMPONENTNAVN
+ * @package		VirtueMart 2
  * @copyright	Copyright (C) 2010 - 2011 Joomla! i Norge. All rights reserved.
  * @license		GNU General Public License version 2 or later.
  */
@@ -12,7 +12,8 @@ defined('_JEXEC') or die;
 
 -----Please save file as UTF8
 
--------------------- KOMPONENTNAVN Norwegian Translation Credits ---------------------
+-------------------- VirtueMart 2 Norwegian Translation Credits ---------------------
 
 Rune Rasmussen alias rued
+Steinar Asbjørnsen
 Trond Eivind Johnsen alias eivindJ
