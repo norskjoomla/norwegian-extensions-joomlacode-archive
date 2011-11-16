@@ -7,8 +7,8 @@
   <authorUrl>www.joomlainorge.no</authorUrl>
   <copyright>Copyright (C) 2011 - 2011 Joomla! i Norge. All rights reserved.</copyright>
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-  <version>2.2.4</version>
-  <creationDate>23.09.2011</creationDate>
+  <version>2.4.0</version>
+  <creationDate>17.11.2011</creationDate>
   <description>FILES_COMMUNITY_NB_NO_LANGUAGE_PACK_DESC</description>
   <fileset>
     <!-- administrator language folder -->
@@ -46,6 +46,7 @@
       <filename>nb-NO.plg_mycontacts.ini</filename>
       <filename>nb-NO.plg_mygoogleads.ini</filename>
       <filename>nb-NO.plg_nicetalk.ini</filename>
+      <filename>nb-NO.plg_system_jomsocialredirect.ini</filename>
       <filename>nb-NO.plg_system_jomsocialupdate.ini</filename>
       <filename>nb-NO.plg_twitter.ini</filename>
       <filename>nb-NO.plg_walls.ini</filename>

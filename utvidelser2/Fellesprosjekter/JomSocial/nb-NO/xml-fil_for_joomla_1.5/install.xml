@@ -3,14 +3,14 @@
 <install version="1.5" client="both" type="language" method="upgrade">
     <name>Norwegian bokmål (Norway)</name>
     <tag>nb-NO</tag>
-    <version>2.2.4</version>
-    <creationDate>23.09.2011</creationDate>
+    <version>2.4.0</version>
+    <creationDate>17.11.2011</creationDate>
     <author>Joomla! i Norge</author>
     <authorEmail>oversettelser@joomlainorge.no</authorEmail>
     <authorUrl>www.joomlainorge.no</authorUrl>
     <copyright>Copyright (C) 2009 - 2011 Joomla! i Norge. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <description>Norske språkfiler (bokmål) for JomSocial 2.2.4.</description>
+    <description>Norske språkfiler (bokmål) for JomSocial 2.4.0.</description>
 	<!-- administrator -->
     <administration>
       <files folder="admin">
@@ -47,6 +47,7 @@
         <filename>nb-NO.plg_mycontacts.ini</filename>
         <filename>nb-NO.plg_mygoogleads.ini</filename>
         <filename>nb-NO.plg_nicetalk.ini</filename>
+        <filename>nb-NO.plg_system_jomsocialredirect.ini</filename>
         <filename>nb-NO.plg_system_jomsocialupdate.ini</filename>
         <filename>nb-NO.plg_twitter.ini</filename>
         <filename>nb-NO.plg_walls.ini</filename>
