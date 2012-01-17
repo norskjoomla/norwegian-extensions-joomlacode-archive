@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Id$ -->
-<extension version="1.7" client="administrator" type="language" method="upgrade">
+<extension version="2.5" client="administrator" type="language" method="upgrade">
     <name>Norsk nynorsk (Norway)</name>
     <tag>nn-NO</tag>
-    <version>1.7.3</version>
-    <creationDate>2011-12-02</creationDate>
+    <version>2.5.0</version>
+    <creationDate>2012-01-27</creationDate>
     <author>Joomla! i Norge</author>
     <authorEmail>oversettelser@joomlainorge.no</authorEmail>
     <authorUrl>http://www.joomlainorge.no</authorUrl>
-    <copyright>Copyright (C) 2005 - 2011 Open Source Matters &amp; Joomla! i Norge. All rights reserved.</copyright>
+    <copyright>Copyright (C) 2005 - 2012 Open Source Matters &amp; Joomla! i Norge. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <description>Norwegian nynorsk administrator language for Joomla! 1.7</description>
+    <description>Norwegian nynorsk administrator language for Joomla! 2.5</description>
     <files>
         <filename>index.html</filename>
         <filename>nn-NO.com_admin.ini</filename>
@@ -31,6 +31,8 @@
         <filename>nn-NO.com_content.sys.ini</filename>
         <filename>nn-NO.com_cpanel.ini</filename>
         <filename>nn-NO.com_cpanel.sys.ini</filename>
+        <filename>nn-NO.com_finder.ini</filename>
+        <filename>nn-NO.com_finder.sys.ini</filename>
         <filename>nn-NO.com_installer.ini</filename>
         <filename>nn-NO.com_installer.sys.ini</filename>
         <filename>nn-NO.com_languages.ini</filename>
@@ -97,8 +99,12 @@
         <filename>nn-NO.plg_authentication_joomla.sys.ini</filename>
         <filename>nn-NO.plg_authentication_ldap.ini</filename>
         <filename>nn-NO.plg_authentication_ldap.sys.ini</filename>
+        <filename>nn-NO.plg_captcha_recaptcha.ini</filename>
+        <filename>nn-NO.plg_captcha_recaptcha.sys.ini</filename>
         <filename>nn-NO.plg_content_emailcloak.ini</filename>
         <filename>nn-NO.plg_content_emailcloak.sys.ini</filename>
+        <filename>nn-NO.plg_content_finder.ini</filename>
+        <filename>nn-NO.plg_content_finder.sys.ini</filename>
         <filename>nn-NO.plg_content_geshi.ini</filename>
         <filename>nn-NO.plg_content_geshi.sys.ini</filename>
         <filename>nn-NO.plg_content_joomla.ini</filename>
@@ -127,6 +133,20 @@
         <filename>nn-NO.plg_editors-xtd_readmore.sys.ini</filename>
         <filename>nn-NO.plg_extension_joomla.ini</filename>
         <filename>nn-NO.plg_extension_joomla.sys.ini</filename>
+        <filename>nn-NO.plg_finder_categories.ini</filename>
+        <filename>nn-NO.plg_finder_categories.sys.ini</filename>
+        <filename>nn-NO.plg_finder_contacts.ini</filename>
+        <filename>nn-NO.plg_finder_contacts.sys.ini</filename>
+        <filename>nn-NO.plg_finder_content.ini</filename>
+        <filename>nn-NO.plg_finder_content.sys.ini</filename>
+        <filename>nn-NO.plg_finder_newsfeeds.ini</filename>
+        <filename>nn-NO.plg_finder_newsfeeds.sys.ini</filename>
+        <filename>nn-NO.plg_finder_weblinks.ini</filename>
+        <filename>nn-NO.plg_finder_weblinks.sys.ini</filename>
+        <filename>nn-NO.plg_quickicon_extensionupdate.ini</filename>
+        <filename>nn-NO.plg_quickicon_extensionupdate.sys.ini</filename>
+        <filename>nn-NO.plg_quickicon_joomlaupdate.ini</filename>
+        <filename>nn-NO.plg_quickicon_joomlaupdate.sys.ini</filename>
         <filename>nn-NO.plg_search_categories.ini</filename>
         <filename>nn-NO.plg_search_categories.sys.ini</filename>
         <filename>nn-NO.plg_search_contacts.ini</filename>
@@ -141,6 +161,12 @@
         <filename>nn-NO.plg_system_cache.sys.ini</filename>
         <filename>nn-NO.plg_system_debug.ini</filename>
         <filename>nn-NO.plg_system_debug.sys.ini</filename>
+        <filename>nn-NO.plg_system_finder.ini</filename>
+        <filename>nn-NO.plg_system_finder.sys.ini</filename>
+        <filename>nn-NO.plg_system_highlight.ini</filename>
+        <filename>nn-NO.plg_system_highlight.sys.ini</filename>
+        <filename>nn-NO.plg_system_languagecode.ini</filename>
+        <filename>nn-NO.plg_system_languagecode.sys.ini</filename>
         <filename>nn-NO.plg_system_languagefilter.ini</filename>
         <filename>nn-NO.plg_system_languagefilter.sys.ini</filename>
         <filename>nn-NO.plg_system_log.ini</filename>
