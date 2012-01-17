@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- $Id$ -->
-<extension version="1.7" client="site" type="language" method="upgrade">
+<extension version="2.5" client="site" type="language" method="upgrade">
     <name>Norsk bokmål (Norway)</name>
     <tag>nb-NO</tag>
-    <version>1.7.3</version>
-    <creationDate>2011-11-14</creationDate>
+    <version>2.5.0</version>
+    <creationDate>2012-01-27</creationDate>
     <author>Joomla! i Norge</author>
     <authorEmail>oversettelser@joomlainorge.no</authorEmail>
     <authorUrl>http://www.joomlainorge.no</authorUrl>
-    <copyright>Copyright (C) 2005 - 2011 Open Source Matters &amp; Joomla! i Norge. All rights reserved.</copyright>
+    <copyright>Copyright (C) 2005 - 2012 Open Source Matters &amp; Joomla! i Norge. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <description>Norwegian bokmål site language for Joomla! 1.7</description>
+    <description>Norwegian bokmål site language for Joomla! 2.5</description>
     <files>
         <filename>index.html</filename>
         <filename>nb-NO.com_contact.ini</filename>
         <filename>nb-NO.com_content.ini</filename>
+        <filename>nb-NO.com_finder.ini</filename>
         <filename>nb-NO.com_mailto.ini</filename>
         <filename>nb-NO.com_media.ini</filename>
         <filename>nb-NO.com_messages.ini</filename>
@@ -24,6 +25,7 @@
         <filename>nb-NO.com_weblinks.ini</filename>
         <filename>nb-NO.com_wrapper.ini</filename>
         <filename>nb-NO.files_joomla.sys.ini</filename>
+        <filename>nb-NO.finder_cli.ini</filename>
         <filename>nb-NO.ini</filename>
         <filename>nb-NO.lib_joomla.ini</filename>
         <filename>nb-NO.lib_joomla.sys.ini</filename>
@@ -51,6 +53,8 @@
         <filename>nb-NO.mod_custom.sys.ini</filename>
         <filename>nb-NO.mod_feed.ini</filename>
         <filename>nb-NO.mod_feed.sys.ini</filename>
+        <filename>nb-NO.mod_finder.ini</filename>
+        <filename>nb-NO.mod_finder.sys.ini</filename>
         <filename>nb-NO.mod_footer.ini</filename>
         <filename>nb-NO.mod_footer.sys.ini</filename>
         <filename>nb-NO.mod_languages.ini</filename>

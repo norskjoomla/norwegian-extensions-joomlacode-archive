@@ -9,7 +9,7 @@ admin_nn-NO.zip (Naviger inn i /administrator/language/nn-NO/, merk og pakk alle
 
 Disse to pakkes i en ny zip-fil, sammen med pkg_nn-NO.xml:
 
-nn-NO_joomla_lang_full_1.7.Xv1.zip
+nn-NO_joomla_lang_full_2.5.Xv1.zip
 X = Underversjon
 v1 = Pakkeversjon
 
@@ -25,7 +25,7 @@ Navngis som tinymce_lang_pack_nn_x.x.x.x_17v1.zip (eksempel).
 x.x.x.x = Versjonnummer for TinyMCE
 v1 = Pakkeversjon
 
-*** Pakking av komplett norsk Joomla! 1.7 ***
+*** Pakking av komplett norsk Joomla! 2.5 ***
 
 Engelsk pakke lastes ned og pakkes ut lokalt.
 Norske språkfiler sjekkes ut fra JoomlaCode og kopieres inn i den komplette engelske pakken.
@@ -34,4 +34,4 @@ Norske språkfiler sjekkes ut fra JoomlaCode og kopieres inn i den komplette eng
 
 VIKTIG! Kopier aldri direkte fra arbeidskopi, men gjør en eksport, for å ikke få med alle skjulte filer brukt av subversion. Det vil bare gjøre pakken unødvendig stor.
 
-Alt pakkes på nytt og utgis med filnavn nn-NO_Joomla_1.7.x-Stable-Full-Pack.zip (x erstattes med riktig del-versjonsnummer, evt. Stable med RC f.eks om aktuelt).
+Alt pakkes på nytt og utgis med filnavn nn-NO_Joomla_2.5.x-Stable-Full-Pack.zip (x erstattes med riktig del-versjonsnummer, evt. Stable med RC f.eks om aktuelt).
