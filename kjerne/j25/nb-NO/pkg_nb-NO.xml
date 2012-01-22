@@ -4,9 +4,10 @@
 <name>Norwegian Bokmål Language Pack</name>
 <packagename>nb-NO</packagename>
 <version>2.5.0</version>
-<url></url>
-<packager></packager>
-<packagerurl></packagerurl>
+<creationDate>2012-01-24</creationDate>
+<author>Joomla! i Norge</author>
+<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+<authorUrl>http://www.joomlainorge.no</authorUrl>
 <description>Joomla! 2.5 Norwegian Bokmål Language Package</description>
   <files>
         <file type="language" client="site" id="nb-NO">site_nb-NO.zip</file>
