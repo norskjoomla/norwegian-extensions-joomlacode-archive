@@ -1,28 +1,21 @@
 <!-- $Id$ -->
 
-*** Pakking av språkpakke ***
+*** Pakking av komplett språkpakke ***
 
-Pakking for 1.6 og nyere skiller seg litt fra 1.5 ved at det nå må opprettes to zip-filer først, en for admin og en for brukerdelen, som navngis:
+Pakking for 1.6 og nyere skiller seg litt fra 1.5 ved at det nå må opprettes tre zip-filer først, en for admin, en for brukerdelen og en for TinyMCE - som navngis som følgende:
 
-site_nb-NO.zip (Naviger inn i /language/nb-NO/, merk og pakk alle filer - flytt zip ut til passende sted)
-admin_nb-NO.zip (Naviger inn i /administrator/language/nb-NO/, merk og pakk alle filer - flytt zip ut til passende sted)
+site_nb-NO.zip (Naviger inn i /language/nb-NO/, merk og pakk alle filer - flytt zip ut til passende sted.)
+admin_nb-NO.zip (Naviger inn i /administrator/language/nb-NO/, merk og pakk alle filer - flytt zip ut til passende sted.)
+tinymce_nb-NO.zip (Naviger inn i /media/editors/, merk og pakk mappen og alle filer i denne - flytt zip ut til passende sted.)
 
-Disse to pakkes i en ny zip-fil, sammen med pkg_nb-NO.xml:
+Disse tre zip-filene pakkes i en ny zip-fil, sammen med pkg_nb-NO.xml:
 
 nb-NO_joomla_lang_full_2.5.0v1.zip
-v1 = Pakkeversjon
+- 2.5.0 = Joomla-versjon
+- v1 = Pakkeversjon
 
 Alle nødvendige xml-filer ligger i mappene, husk bare på å oppdatere utgivelsesdato og evt. versjon før utsjekking og pakking gjøres!
 
-
-*** Pakking av språkpakke for TinyMCE ***
-
-Naviger inn i /media/editors/ hvor du velger å pakke alle mapper og filer i en pakke, dvs.
-tinymce, index.html og TinyMCE_nb-NO.xml
-
-Navngis som tinymce_lang_pack_nb_x.x.x.x_17v1.zip (eksempel).
-x.x.x.x = Versjonnummer for TinyMCE
-v1 = Pakkeversjon
 
 *** Pakking av komplett norsk Joomla! 2.5 ***
 
