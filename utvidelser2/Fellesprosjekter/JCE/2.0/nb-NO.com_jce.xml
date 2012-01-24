@@ -3,12 +3,12 @@
 <install version="2.0" type="language" core="1">
 	<name>Norsk bokmål (Norway)</name>
 	<tag>nb-NO</tag>
-	<version>2.0.12</version>
-	<creationDate>7 September 2011</creationDate>
+	<version>2.0.20</version>
+	<creationDate>2012-01-24</creationDate>
 	<author>Joomla! i Norge</author>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>www.joomlainorge.no</authorUrl>
-	<copyright>Copyright (C) 2006 - 2011 Joomla! i Norge. All rights reserved</copyright>
+	<copyright>Copyright (C) 2006 - 2012 Joomla! i Norge. All rights reserved</copyright>
 	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
 	<description>Norsk bokmål (Norwegian) for JCE 2.0</description>
 	<site folder="language/nb-NO">
@@ -19,6 +19,8 @@
 		<file>nb-NO.com_jce_iframe.ini</file>
 		<file>nb-NO.com_jce_imgmanager_ext.ini</file>
 		<file>nb-NO.com_jce_mediamanager.ini</file>
+		<file>nb-NO.com_jce_popups_rokbox_ext.ini</file>
+		<file>nb-NO.com_jce_popups_widgetkit.ini</file>
 		<file>nb-NO.com_jce_templatemanager.ini</file>
 	</site>
 	<tinymce folder="components/com_jce/editor/tiny_mce">
