@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="2.0" type="language" core="1">
+	<name>Norwegian Bokmål</name>
+	<tag>nb-NO</tag>
+	<version>2.0.12</version>
+	<creationDate>25 januar 2012</creationDate>
+	<author>Conexus AS</author>
+	<authorEmail>kca@conexus.no</authorEmail>
+	<authorUrl>www.conexus.no</authorUrl>
+	<copyright>(C) 2008-2009 Ryan Demmer. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Norsk oversettelse av JCE 2.0</description>
+		
+	<tinymce folder="components/com_jce/tiny_mce">
+		<file>langs/no.js</file>
+		<file>langs/no_dlg.js</file>
+		<file>themes/advanced/langs/no.js</file>
+		<file>themes/advanced/langs/no_dlg.js</file>
+		<file>plugins/article/langs/no.js</file>
+		<file>plugins/article/langs/no_dlg.js</file>
+		<file>plugins/browser/langs/no_dlg.js</file>
+		<file>plugins/imgmanager/langs/no_dlg.js</file>
+		<file>plugins/link/langs/no_dlg.js</file>
+		<file>plugins/searchreplace/langs/no_dlg.js</file>
+		<file>plugins/style/langs/no_dlg.js</file>
+		<file>plugins/table/langs/no_dlg.js</file>
+		<file>plugins/xhtmlxtras/langs/no_dlg.js</file>
+		</tinymce>
+	<administration folder="administrator/language/sv-SE">
+		<file>nb-NO.com_jce.ini</file>
+		<file>nb-NO.com_jce.menu.ini</file>
+		<file>nb-NO.com_jce.sys.ini</file>
+		<file>nb-NO.plg_editors_jce.ini</file>
+		<file>nb-NO.plg_editors_jce.sys.ini</file>
+		<file>nb-NO.plg_system_jcemediabox.ini</file>
+		<file>nb-NO.plg_system_jcemediabox.sys.ini</file>		
+	</administration>
+
+</install>
