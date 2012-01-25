@@ -26,7 +26,7 @@
 		<file>plugins/table/langs/no_dlg.js</file>
 		<file>plugins/xhtmlxtras/langs/no_dlg.js</file>
 		</tinymce>
-	<administration folder="administrator/language/sv-SE">
+	<administration folder="administrator/language/nb-NO">
 		<file>nb-NO.com_jce.ini</file>
 		<file>nb-NO.com_jce.menu.ini</file>
 		<file>nb-NO.com_jce.sys.ini</file>
