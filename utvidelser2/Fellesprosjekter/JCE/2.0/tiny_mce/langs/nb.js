@@ -139,7 +139,7 @@ paste_word_desc:"Lim inn fra Word",
 selectall_desc:"Velg alle"
 },
 paste_dlg:{
-text_linebreaks:"Behold linjeskift"
+text_linebreaks:"Behold linjeskift",
 title:"Bruk Ctrl+V på tastaturet for å lime inn tekst i vinduet.",
 },
 table:{
@@ -216,61 +216,61 @@ aria:{
 rich_text_area:"Felt for rik tekst"
 },
 wordcount:{
-words:"Ord:"
+words: 'Ord: '
 },
 //JCE Common Plugins
-imgmanager:{
-desc:"Sett inn/endre bilde",
-delta_width:0,
-delta_height:0
+imgmanager: {
+desc: "Sett inn/endre bilde",
+delta_width: 0,
+delta_height: 0
 },
-imgmanager_ext:{
-desc:"Sett inn/endre bilde",
-delta_width:0,
-delta_height:0
+imgmanager_ext: {
+desc: "Sett inn/endre bilde",
+delta_width: 0,
+delta_height: 0
 },
-link:{
-desc:"Sett inn/endre lenke",
-delta_width:0,
-delta_height:0
+link: {
+desc: "Sett inn/endre lenke",
+delta_width: 0,
+delta_height: 0
 },
-filemanager:{
-desc:"Sett inn/endre fil",
-delta_width:0,
-delta_height:0
+filemanager: {
+desc: "Sett inn/endre fil",
+delta_width: 0,
+delta_height: 0
 },
-mediamanager:{
-desc:"Sett inn/endre media",
-delta_width:0,
-delta_height:0
+mediamanager: {
+desc: "Sett inn/endre media",
+delta_width: 0,
+delta_height: 0
 },
-caption:{
-desc:"Sett inn/endre bildetekst",
-delta_width:0,
-delta_height:0
+caption: {
+desc: "Sett inn/endre bildetekst",
+delta_width: 0,
+delta_height: 0
 },
-templatemanager:{
-desc:"Sett inn forhåndsdefinert malinnhold",
-delta_width:0,
-delta_height:0
+templatemanager: {
+desc: "Sett inn forhåndsdefinert malinnhold",
+delta_width: 0,
+delta_height: 0
 },
-article:{
-pagebreak:"Sett inn/endre sideskift",
-readmore:"Sett inn 'Les mer'",
-readmore_title:"Les mer",
-readmore_alert:"Det finnes allerede en 'Les mer'-lenke i denne artikkelen, og kun en er tillatt. Bruk sideskift for å dele opp siden videre."
+article: {
+pagebreak: "Sett inn/endre sideskift",
+readmore: "Sett inn 'Les mer'",
+readmore_title: "Les mer",
+readmore_alert: "Det finnes allerede en 'Les mer'-lenke i denne artikkelen, og kun en er tillatt. Bruk sideskift for å dele opp siden videre."
 },
-advlist:{
-types:'Typer',
-def:'Standard',
-lower_alpha:"Liten alfa",
-lower_greek:"Liten gresk",
-lower_roman:"Liten romersk",
-upper_alpha:"Stor alfa",
-upper_roman:"Stor romersk",
-circle:"Sirkel",
-disc:"Disk",
-square:"Firkant"
+advlist : {
+types : 'Typer',
+def : 'Standard',
+lower_alpha : "Liten alfa",
+lower_greek : "Liten gresk",
+lower_roman : "Liten romersk",
+upper_alpha : "Stor alfa",
+upper_roman : "Stor romersk",
+circle : "Sirkel",
+disc : "Disk",
+square : "Firkant"
 },
 autosave:{
 unload_msg:"Endringene du gjorde går tapt dersom du velger å forlate denne siden!",
@@ -283,7 +283,7 @@ wrap_desc:"Visning av ordinnpakking av/på",
 numbers_desc:"Visning av linjenummer av/på",
 highlight_desc:"Visning av kodefremheving av/på"
 },
-textcase:{
+textcase : {
 uppercase:"Stor bokstav",
 lowercase:"Liten bokstav",
 sentencecase:"Stor bokstav i første ord",
