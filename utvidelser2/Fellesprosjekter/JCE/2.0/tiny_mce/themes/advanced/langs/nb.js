@@ -59,9 +59,7 @@ clipboard_msg:"Klipp og lim er ikke tilgjengelig i Mozilla og Firefox.\r\nØnske
 path:"Sti",
 newdocument:"Er du sikker på at du vil fjerne alt innhold?",
 toolbar_focus:"Hopp til verktøyknapper - Alt+Q, Hopp til tekstfelt - Alt-Z, Hopp til elementsti - Alt-X",
-more_colors:"Flere farger"
-	
-// Accessibility Strings
+more_colors:"Flere farger",
 shortcuts_desc:'Tilgjengelighetshjelp',
 help_shortcut:'. Klikk ALT+F10 for verktøylinje. Klikk ALT+0 for hjelp.',
 rich_text_area:"Felt for rik tekst",
