@@ -11,7 +11,14 @@
 	<copyright>Copyright (C) 2006 - 2012 Joomla! i Norge. All rights reserved</copyright>
 	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
 	<description>Norsk bokmål (Norwegian) for JCE 2.0</description>
-	<site folder="language/nb-NO">
+	<administration folder="admin">
+		<file>nb-NO.com_jce.ini</file>
+		<file>nb-NO.com_jce.menu.ini</file>
+		<file>nb-NO.com_jce.sys.ini</file>
+		<file>nb-NO.plg_editors_jce.ini</file>
+		<file>nb-NO.plg_editors_jce.sys.ini</file>
+	</administration>
+	<site folder="site">
 		<file>nb-NO.com_jce_caption.ini</file> 
 		<file>nb-NO.com_jce_emotions.ini</file>
 		<file>nb-NO.com_jce_filemanager.ini</file>
@@ -23,7 +30,7 @@
 		<file>nb-NO.com_jce_popups_widgetkit.ini</file>
 		<file>nb-NO.com_jce_templatemanager.ini</file>
 	</site>
-	<tinymce folder="components/com_jce/editor/tiny_mce">
+	<tinymce folder="tiny_mce">
 		<file>langs/nb.js</file>
 		<file>langs/nb_dlg.js</file>
 		<file>themes/advanced/langs/nb.js</file>
@@ -47,11 +54,4 @@
 		<file>plugins/templatemanager/langs/nb_dlg.js</file>
 		<file>plugins/xhtmlxtras/langs/nb_dlg.js</file>
 	</tinymce>
-	<administration folder="administrator/language/nb-NO">
-		<file>nb-NO.com_jce.ini</file>
-		<file>nb-NO.com_jce.menu.ini</file>
-		<file>nb-NO.com_jce.sys.ini</file>
-		<file>nb-NO.plg_editors_jce.ini</file>
-		<file>nb-NO.plg_editors_jce.sys.ini</file>
-	</administration>
 </install>
