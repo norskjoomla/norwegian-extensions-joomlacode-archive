@@ -39,21 +39,21 @@
 		<file>themes/advanced/langs/nb_dlg.js</file>
 		<file>plugins/article/langs/nb_dlg.js</file>
 		<file>plugins/browser/langs/nb_dlg.js</file>
-		<file>plugins/caption/langs/en.js</file>
-		<file>plugins/emotions/langs/en_dlg.js</file>
-		<file>plugins/filemanager/langs/en_dlg.js</file>
-		<file>plugins/fullpage/langs/en_dlg.js</file>
-		<file>plugins/iframe/langs/en.js</file>
-		<file>plugins/iframe/langs/en_dlg.js</file>
+		<file>plugins/caption/langs/nb.js</file>
+		<file>plugins/emotions/langs/nb_dlg.js</file>
+		<file>plugins/filemanager/langs/nb_dlg.js</file>
+		<file>plugins/fullpage/langs/nb_dlg.js</file>
+		<file>plugins/iframe/langs/nb.js</file>
+		<file>plugins/iframe/langs/nb_dlg.js</file>
 		<file>plugins/imgmanager/langs/nb_dlg.js</file>
 		<file>plugins/imgmanager_ext/langs/nb_dlg.js</file>
 		<file>plugins/link/langs/nb_dlg.js</file>
-		<file>plugins/mediamanager/langs/en_dlg.js</file>
+		<file>plugins/mediamanager/langs/nb_dlg.js</file>
 		<file>plugins/searchreplace/langs/nb_dlg.js</file>
 		<file>plugins/style/langs/nb_dlg.js</file>
 		<file>plugins/table/langs/nb_dlg.js</file>
-		<file>plugins/templatemanager/langs/en.js</file>
-		<file>plugins/templatemanager/langs/en_dlg.js</file>
+		<file>plugins/templatemanager/langs/nb.js</file>
+		<file>plugins/templatemanager/langs/nb_dlg.js</file>
 		<file>plugins/xhtmlxtras/langs/nb_dlg.js</file>
 	</tinymce>
 </install>
