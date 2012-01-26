@@ -60,6 +60,8 @@ path:"Sti",
 newdocument:"Er du sikker på at du vil fjerne alt innhold?",
 toolbar_focus:"Hopp til verktøyknapper - Alt+Q, Hopp til tekstfelt - Alt-Z, Hopp til elementsti - Alt-X",
 more_colors:"Flere farger",
+	
+// Accessibility Strings
 shortcuts_desc:'Tilgjengelighetshjelp',
 help_shortcut:'. Klikk ALT+F10 for verktøylinje. Klikk ALT+0 for hjelp.',
 rich_text_area:"Felt for rik tekst",

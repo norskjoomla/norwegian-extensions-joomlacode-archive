@@ -30,6 +30,8 @@ delta_height: 0,
 'no_popup_src' : 'Please enter a url for the popup image',
 'upload_resize_tip' : 'Resize::Resize the uploaded images to fit within the specified width and height whilst maintaining the aspect ratio of the original image.',
 'upload_thumbnail_tip' : 'Thumbnail::Create a thumbnail of the uploaded image using the specified dimensions, dynamically cropping the thumbnail image to fit within these dimensions if necessary.',
+'upload_thumbnail_crop':'Beskjær til å passe',
+'upload_thumbnail_crop_tip':'Crop To Fit::Crop the thumbnail to fit within the specified dimensions',
 'greyscale' : 'Gråskala',
 'sepia'	: ' Sepia',
 'invert' : 'Negativ',
@@ -38,5 +40,6 @@ delta_height: 0,
 'saturate' : 'Boost',
 'desaturate' : 'Fade',
 'threshold' : 'Svarthvit',
-'halftone' : 'Tegneserie'
+'halftone' : 'Tegneserie',
+'create_thumbnail_failed':'Kunne ikke opprette minityrbilde'
 });

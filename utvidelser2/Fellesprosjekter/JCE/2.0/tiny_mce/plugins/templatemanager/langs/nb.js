@@ -1,6 +1,6 @@
-// UK lang variables
-tinyMCE.addI18n('en.templatemanager',{
-desc:"Insert/edit template",
+// NO lang variables
+tinyMCE.addI18n('nb.templatemanager',{
+desc:"Sett inn/Endre innholdsmal",
 warning:"Warning: Updating a template with a different one may cause data loss.",
 mdate_format:"%Y-%m-%d %H:%M:%S",
 cdate_format:"%Y-%m-%d %H:%M:%S",

@@ -1,5 +1,5 @@
 tinyMCE.addI18n('nb.xhtmlxtras_dlg',{
-attribs_title:"Sett inn / endre attributter",
+attribs_title:"Sett inn/Endre attributter",
 option_rtl:"Høyre mot venstre",
 option_ltr:"Venstre mot høyre",
 insert_date:"Sett inn dato/tid",
@@ -27,6 +27,6 @@ attribute_label_datetime:"Dato/tid",
 attribute_label_cite:"Sted",
 attribute_label_style:"Stil",
 attribute_label_class:"Klasse",
-attribute_label_id:"ID",
+attribute_label_id:"Id",
 attribute_label_title:"Tittel"
 });
