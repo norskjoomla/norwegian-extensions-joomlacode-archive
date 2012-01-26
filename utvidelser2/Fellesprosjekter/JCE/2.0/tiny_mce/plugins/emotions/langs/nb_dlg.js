@@ -1,0 +1,20 @@
+tinyMCE.addI18n('nb.emotions_dlg',{
+cry:"Gråter",
+cool:"Kul",
+desc:"Uttrykksikoner",
+title:"Sett inn uttryksikon",
+yell:"Roper",
+wink:"Blunker",
+undecided:"Ubestemt",
+"tongue_out":"Rekker tunge",
+surprised:"Overrasket",
+smile:"Smiler",
+sealed:"Hemmelig",
+"money_mouth":"Penger i munnen",
+laughing:"Ler",
+kiss:"Kyss",
+innocent:"Uskyldig",
+frown:"Skuffet",
+"foot_in_mouth":"Fot i munnen",
+embarassed:"Flau"
+});
