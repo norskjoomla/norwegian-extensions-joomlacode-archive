@@ -1720,7 +1720,7 @@ INSERT INTO `#__languages` (`lang_id`, `lang_code`, `title`, `title_native`, `se
 # Dumping data for table `#__menu_types`
 #
 
-UPDATE `#__menu_types` SET `menutype` = `hovedmeny`, `title` = 'Hovedmeny', `description` = 'Hovedmenyen for siden' WHERE `id` = 1;
+UPDATE `#__menu_types` SET `menutype` = 'hovedmeny', `title` = 'Hovedmeny', `description` = 'Hovedmenyen for siden' WHERE `id` = 1;
 
 #
 # Dumping data for table `#__modules`
