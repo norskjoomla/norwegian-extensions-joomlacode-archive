@@ -33,7 +33,8 @@ admin_nb-NO   -> Innholdet kopieres over til 'administrator/language/nb-NO' (map
 images        -> Hele mappen kopieres direkte over, "overskriver" eksisterende.
 installation  -> Hele mappen kopieres direkte over, "overskriver" eksisterende.
 site_nb-NO    -> Innholdet kopieres over til '/language/nb-NO' (mappen nb-NO opprettes).
-tinymce_nb-NO -> Mappen 'tinymce' kopieres over til '/media/editors/', index.html og TinyMCE_nb-NO.xml utelates.
+tinymce_nb-NO -> Undermappen 'tinymce' kopieres over til '/media/editors/',
+                 "overskriver" eksisterende. index.html og TinyMCE_nb-NO.xml utelates.
 
 Alt pakkes på nytt og utgis med filnavn nb-NO_Joomla_2.5.x-Stable-Full-Pack.zip (x erstattes med riktig del-versjonsnummer, evt. Stable med RC f.eks om aktuelt).
 
