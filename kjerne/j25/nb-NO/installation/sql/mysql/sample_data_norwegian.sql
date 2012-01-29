@@ -362,26 +362,6 @@ INSERT IGNORE INTO `#__content_frontpage` (`content_id`, `ordering`) VALUES
 (72, 3);
 
 --
--- Dumping data for table `#__extensions`
---
-
-INSERT INTO `#__extensions` (`extension_id`, `name`, `type`, `element`, `folder`, `client_id`, `enabled`, `access`, `protected`, `manifest_cache`, `params`, `custom_data`, `system_data`, `checked_out`, `checked_out_time`, `ordering`, `state`) VALUES
-(10000, 'NorskbokmlNorway', 'language', 'nb-NO', '', 0, 1, 0, 0, '{"legacy":false,"name":"Norsk bokm\\u00e5l (Norway)","type":"language","creationDate":"2012-01-24","author":"Joomla! i Norge","copyright":"Copyright (C) 2005 - 2012 Open Source Matters & Joomla! i Norge. All rights reserved.","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"2.5.0","description":"Norwegian bokm\\u00e5l site language for Joomla! 2.5","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(10001, 'NorskbokmlNorway', 'language', 'nb-NO', '', 1, 1, 0, 0, '{"legacy":false,"name":"Norsk bokm\\u00e5l (Norway)","type":"language","creationDate":"2012-01-24","author":"Joomla! i Norge","copyright":"Copyright (C) 2005 - 2012 Open Source Matters & Joomla! i Norge. All rights reserved.","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"2.5.0","description":"Norwegian bokm\\u00e5l administrator language for Joomla! 2.5","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(10002, 'nb-NO', 'package', 'pkg_nb-NO', '', 0, 1, 1, 0, '{"legacy":false,"name":"Norwegian Bokm\\u00e5l Language Pack incl. TinyMCE","type":"package","creationDate":"2012-01-28","author":"Joomla! i Norge","copyright":"","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"2.5.0","description":"\\n    \\n      <h2>Norsk bokm\\u00e5l for Joomla ble installert, inklusive spr\\u00e5kfiler for TinyMCE.<\\/h2>\\n      Om du bruker andre spr\\u00e5k enn engelsk og norsk bokm\\u00e5l i Joomla m\\u00e5 du p\\u00e5se at du har installert alle ogs\\u00e5 for TinyMCE f\\u00f8r du aktiverer ''Automatisk spr\\u00e5kvalg'' gjennom f\\u00f8lgende steg:<br\\/>\\n      <ol>\\n      <li>Utvidelser<\\/li>\\n      <li>Programtillegg<\\/li>\\n      <li><a href=\\"index.php?option=com_plugins&view=plugins&filter_search=TinyMCE\\">TinyMCE<\\/a><\\/li>\\n      <li>Parametre - Programtillegg<\\/li>\\n      <li>Automatisk spr\\u00e5kvalg :: Ja<\\/li>\\n      <li>Funksjonalitet :: Utvidet (Valgfritt! Om du vil aktivere alle funksjoner i TinyMCE)<\\/li>\\n      <\\/ol>\\n      <p><\\/p>\\n      <p>Om du IKKE har alle installerte spr\\u00e5k ogs\\u00e5 for TinyMCE b\\u00f8r du ikke aktivere ''Automatisk spr\\u00e5kvalg'', men heller fylle inn ''Spr\\u00e5kkode''. For norsk bokm\\u00e5l er spr\\u00e5kkoden ''nb''.<\\/p>\\n      <p><\\/p>\\n      <p>Pakken for TinyMCE er bygget p\\u00e5 pakke fra <a href=\\"http:\\/\\/tinymce.moxiecode.com\\/i18n\\/index.php?ctrl=lang&act=index&pr_id=1\\" target=\\"_blank\\">tinymce.moxiecode.com<\\/a>, tilpasset for Joomla av <a http:\\/\\/filer.joomlainorge.no\\" target=\\"_blank\\" title=\\"Joomla! i Norge\\">Joomla! i Norge<\\/a><\\/p>\\n      <p><\\/p>\\n      <p>V\\u00e6r grei \\u00e5 melde eventuelle feil eller problemer med oversettelsene i det <a href=\\"http:\\/\\/forum.joomla.org\\/viewforum.php?f=210\\" target=\\"_blank\\">Norske Joomla!-forumet<\\/a><\\/p>\\n    \\n  ","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(10003, 'TinyMCE - Norsk bokmål', 'file', 'TinyMCE_nb-NO', '', 0, 1, 0, 0, '{"legacy":false,"name":"TinyMCE - Norsk bokm\\u00e5l","type":"file","creationDate":"2012-01-24","author":"Joomla! i Norge","copyright":"(C) 2011 - 2012 Joomla! i Norge","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"3.4.4","description":"\\n      <h2>Norsk bokm\\u00e5l for TinyMCE ble innstallert i Joomla!<\\/h2>\\n      Om du bruker andre spr\\u00e5k enn engelsk og norsk bokm\\u00e5l i Joomla m\\u00e5 du p\\u00e5se at du har installert alle ogs\\u00e5 for TinyMCE f\\u00f8r du aktiverer \\"Automatisk spr\\u00e5kvalg\\" gjennom f\\u00f8lgende steg:<br\\/>\\n      <ol>\\n      <li>Utvidelser<\\/li>\\n      <li>Programtillegg<\\/li>\\n      <li><a href=\\"index.php?option=com_plugins&view=plugins&filter_search=TinyMCE\\">TinyMCE<\\/a><\\/li>\\n      <li>Parametre - Programtillegg<\\/li>\\n      <li>Automatisk spr\\u00e5kvalg :: Ja<\\/li>\\n      <li>Funksjonalitet :: Utvidet (Valgfritt! Om du vil aktivere alle funksjoner i TinyMCE)<\\/li>\\n      <\\/ol>\\n      <p><\\/p>\\n      <p>V\\u00e6r grei \\u00e5 melde eventuelle feil eller problemer med oversettelsene i det <a href=\\"http:\\/\\/forum.joomla.org\\/viewforum.php?f=210\\" target=\\"_blank\\">Norske Joomla!-forumet<\\/a><\\/p>\\n      <p><\\/p>\\n      <p>Denne pakken er bygget p\\u00e5 pakke fra <a href=\\"http:\\/\\/tinymce.moxiecode.com\\/i18n\\/index.php?ctrl=lang&act=index&pr_id=1\\" target=\\"_blank\\">tinymce.moxiecode.com<\\/a>, tilpasset for Joomla av <a http:\\/\\/filer.joomlainorge.no\\" target=\\"_blank\\" title=\\"Joomla! i Norge\\">Joomla! i Norge<\\/a><\\/p>\\n      \\n   ","group":""}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0);
-
---
--- Dumping data for table `#__extensions`
---
-
-INSERT INTO `#__languages` (`lang_id`, `lang_code`, `title`, `title_native`, `sef`, `image`, `description`, `metakey`, `metadesc`, `sitename`, `published`, `ordering`) VALUES
-(2, 'nb-NO', 'Norsk bokmål', 'Norsk bokmål', 'no', 'no', '', '', '', '', 1, 0);
-
-UPDATE `#__extensions` SET `params` = '{"administrator":"nb-NO","site":"nb-NO"}' WHERE `name` = 'com_languages';
-UPDATE `#__extensions` SET `params` = REPLACE(`params`, '"lang_mode":"0","lang_code":"en"', '"lang_mode":"1","lang_code":"nb"') WHERE `name` = 'plg_editors_tinymce';
-
---
 -- Dumping data for table `#__menu` (remove existing rows first)
 --
 TRUNCATE `#__menu`;
@@ -874,18 +854,18 @@ INSERT INTO `#__usergroups` (`id`, `parent_id`, `lft`, `rgt`, `title`) VALUES
 (3, 2, 9, 16, 'Skribent'),
 (4, 3, 12, 15, 'Redaktør'),
 (5, 4, 13, 14, 'Utgiver'),
-(6, 1, 2, 5, 'Innholdsadminsitrator'),
+(6, 1, 2, 5, 'Innholdsadministrator'),
 (7, 6, 3, 4, 'Systemadministrator'),
 (8, 1, 18, 19, 'Superadministrator'),
-(12, 2, 7, 8, 'Kundegruppe'),
-(10, 3, 10, 11, 'Leverandører');
+(12, 2, 7, 8, 'Kundegruppe (Eksempel)'),
+(10, 3, 10, 11, 'Leverandører (Eksempel)');
 
 --
 -- Dumping data for table `#__viewlevels`
 --
 
 INSERT IGNORE INTO `#__viewlevels` (`id`, `title`, `ordering`, `rules`) VALUES
-(4, 'Kundenivå (Eksempel)', 3, '[6,3,12]');
+(4, 'Kundetilgang (Eksempel)', 3, '[6,3,12]');
 
 --
 -- Dumping data for table `#__weblinks`
