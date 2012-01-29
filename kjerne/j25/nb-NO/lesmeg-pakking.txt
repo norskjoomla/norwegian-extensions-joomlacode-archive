@@ -1,29 +1,39 @@
 <!-- $Id$ -->
 
-*** Pakking av komplett språkpakke ***
+*** ALLTID - VIKTIG ***
 
-Pakking for 1.6 og nyere skiller seg litt fra 1.5 ved at det nå må opprettes tre zip-filer først, en for admin, en for brukerdelen og en for TinyMCE - som navngis som følgende:
-
-site_nb-NO.zip (Naviger inn i /language/nb-NO/, merk og pakk alle filer - flytt zip ut til passende sted.)
-admin_nb-NO.zip (Naviger inn i /administrator/language/nb-NO/, merk og pakk alle filer - flytt zip ut til passende sted.)
-tinymce_nb-NO.zip (Naviger inn i /media/editors/, merk og pakk mappen og alle filer i denne - flytt zip ut til passende sted.)
-
-Disse tre zip-filene pakkes i en ny zip-fil, sammen med pkg_nb-NO.xml:
-
-nb-NO_joomla_lang_full_2.5.0v1.zip
-- 2.5.0 = Joomla-versjon
-- v1 = Pakkeversjon
+VIKTIG! Kopier aldri direkte fra arbeidskopi, men gjør en eksport, for å ikke få med alle skjulte filer brukt av subversion. Det vil bare gjøre pakken unødvendig stor.
 
 Alle nødvendige xml-filer ligger i mappene, husk bare på å oppdatere utgivelsesdato og evt. versjon før utsjekking og pakking gjøres!
 
 
-*** Pakking av komplett norsk Joomla! 2.5 ***
+*** PAKKING KOMPLETT SPRÅKPAKKE ***
 
-Engelsk pakke lastes ned og pakkes ut lokalt.
-Norske språkfiler sjekkes ut fra JoomlaCode og kopieres inn i den komplette engelske pakken.
-- Kopier mappene administrator, installation og language
-  VIKTIG! lesmeg-pakking.txt, pkg_nb-NO.xml og /media/editors/TinyMCE_nb-NO.xml utelates.
+Pakking for 1.6 og nyere skiller seg litt fra 1.5 ved at det nå må opprettes tre zip-filer først, en for admin, en for brukerdelen og en for TinyMCE - som navngis som følgende:
 
-VIKTIG! Kopier aldri direkte fra arbeidskopi, men gjør en eksport, for å ikke få med alle skjulte filer brukt av subversion. Det vil bare gjøre pakken unødvendig stor.
+admin_nb-NO.zip (Pakk mappen admin_nb-NO direkte til zip-fil.)
+site_nb-NO.zip (Pakk mappen site_nb-NO direkte til zip-fil.)
+tinymce_nb-NO.zip (Pakk mappen tinymce_nb-NO direkte til zip-fil.)
+
+Disse tre zip-filene pakkes i en ny zip-fil, sammen med pkg_nb-NO.xml:
+
+nb-NO_joomla_lang_full_2.5.0v1.zip
+
+- 2.5.0 = Joomla-versjon
+- v1 = Pakkeversjon
+
+
+*** PAKKING KOMPLETT NORSK JOOMLA! 2.5 ***
+
+Komplett engelsk pakke av Joomla lastes ned og pakkes ut lokalt.
+
+Kopier over de norske filene:
+
+admin_nb-NO   -> Innholdet kopieres over til 'administrator/language/nb-NO' (mappen nb-NO opprettes).
+images        -> Hele mappen kopieres direkte over, "overskriver" eksisterende.
+installation  -> Hele mappen kopieres direkte over, "overskriver" eksisterende.
+site_nb-NO    -> Innholdet kopieres over til '/language/nb-NO' (mappen nb-NO opprettes).
+tinymce_nb-NO -> Mappen 'tinymce' kopieres over til '/media/editors/', index.html og TinyMCE_nb-NO.xml utelates.
 
 Alt pakkes på nytt og utgis med filnavn nb-NO_Joomla_2.5.x-Stable-Full-Pack.zip (x erstattes med riktig del-versjonsnummer, evt. Stable med RC f.eks om aktuelt).
+
