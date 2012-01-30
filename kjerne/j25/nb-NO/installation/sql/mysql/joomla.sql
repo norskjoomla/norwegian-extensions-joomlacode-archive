@@ -1682,7 +1682,7 @@ INSERT INTO `#__viewlevels` (`id`, `title`, `ordering`, `rules`) VALUES
 # Dumping data for table `#__categories`
 #
 
-# TODO
+UPDATE `#__categories` SET `path` = 'ukategorisert', `title` = 'Ukategorisert', `alias` = 'ukategorisert' WHERE `title` = 'Uncategorised';
 
 #
 # Dumping data for table `#__extensions`
@@ -1714,7 +1714,7 @@ INSERT INTO `#__languages` (`lang_id`, `lang_code`, `title`, `title_native`, `se
 # Dumping data for table `#__menu`
 #
 
-# TODO
+UPDATE `#__menu` SET `menutype` = 'hovedmeny', `title` = 'Hjem', `alias` = 'Hjem' WHERE `id` = 101;
 
 #
 # Dumping data for table `#__menu_types`
@@ -1726,13 +1726,30 @@ UPDATE `#__menu_types` SET `menutype` = 'hovedmeny', `title` = 'Hovedmeny', `des
 # Dumping data for table `#__modules`
 #
 
-# TODO
+UPDATE `#__modules` SET `title` = 'Hovedmeny', `params` = REPLACE(`params`, '"menutype":"mainmenu"', '"menutype":"hovedmeny"') WHERE `id` = 1;
+UPDATE `#__modules` SET `title` = 'Innloggingsskjema' WHERE `id` = 2;
+UPDATE `#__modules` SET `title` = 'Populære artikler' WHERE `id` = 3;
+UPDATE `#__modules` SET `title` = 'Nyeste artikler' WHERE `id` = 4;
+UPDATE `#__modules` SET `title` = 'Verktøylinje' WHERE `id` = 8;
+UPDATE `#__modules` SET `title` = 'Hurtigknapper' WHERE `id` = 9;
+UPDATE `#__modules` SET `title` = 'Innloggede brukere' WHERE `id` = 10;
+UPDATE `#__modules` SET `title` = 'Administratormeny' WHERE `id` = 12;
+UPDATE `#__modules` SET `title` = 'Administrator-undermeny' WHERE `id` = 13;
+UPDATE `#__modules` SET `title` = 'Brukerstatus' WHERE `id` = 14;
+UPDATE `#__modules` SET `title` = 'Tittel' WHERE `id` = 15;
+UPDATE `#__modules` SET `title` = 'Brukerkonto' WHERE `id` = 16;
+UPDATE `#__modules` SET `title` = 'Brødsmuler' WHERE `id` = 17;
+UPDATE `#__modules` SET `title` = 'Flerspråklig status' WHERE `id` = 79;
 
 #
 # Dumping data for table `#__template_styles`
 #
 
-# TODO
+UPDATE `#__template_styles` SET `title` = 'Bluestork - Standard' WHERE `id` = 2;
+UPDATE `#__template_styles` SET `title` = 'Atomic - Standard' WHERE `id` = 3;
+UPDATE `#__template_styles` SET `title` = 'Beez2 - Standard' WHERE `id` = 4;
+UPDATE `#__template_styles` SET `title` = 'Hathor - Standard' WHERE `id` = 5;
+UPDATE `#__template_styles` SET `title` = 'Beez5 - Standard' WHERE `id` = 6;
 
 #
 # Dumping data for table `#__usergroups`
