@@ -1,6 +1,6 @@
 # $Id$
 #
-# Localise data for Full Norwegian Joomla! Pack
+# Localise data for Full Norwegian Joomla! Distro
 # Please ensure that the used ID in queries are matching those in joomla.sql
 #
 # If merged with joomla.sql/joomla_backward.sql or sample_data.sql,
@@ -38,9 +38,9 @@ UPDATE `#__extensions` SET `params` = REPLACE(`params`, '"format_date":"%Y-%m-%d
 -- Add your language packs data
 -- Note! Remember to add the Manifest files to the right Maifests folder (administrator/manifests/..)
 INSERT INTO `#__extensions` (`extension_id`, `name`, `type`, `element`, `folder`, `client_id`, `enabled`, `access`, `protected`, `manifest_cache`, `params`, `custom_data`, `system_data`, `checked_out`, `checked_out_time`, `ordering`, `state`) VALUES
-(10000, 'NorskbokmlNorway', 'language', 'nb-NO', '', 0, 1, 0, 0, '{"legacy":false,"name":"Norsk bokm\\u00e5l (Norway)","type":"language","creationDate":"2012-01-24","author":"Joomla! i Norge","copyright":"Copyright (C) 2005 - 2012 Open Source Matters & Joomla! i Norge. All rights reserved.","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"2.5.0","description":"Norwegian bokm\\u00e5l site language for Joomla! 2.5","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(10001, 'NorskbokmlNorway', 'language', 'nb-NO', '', 1, 1, 0, 0, '{"legacy":false,"name":"Norsk bokm\\u00e5l (Norway)","type":"language","creationDate":"2012-01-24","author":"Joomla! i Norge","copyright":"Copyright (C) 2005 - 2012 Open Source Matters & Joomla! i Norge. All rights reserved.","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"2.5.0","description":"Norwegian bokm\\u00e5l administrator language for Joomla! 2.5","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(10002, 'nb-NO', 'package', 'pkg_nb-NO', '', 0, 1, 1, 0, '{"legacy":false,"name":"Norwegian Bokm\\u00e5l Language Pack incl. TinyMCE","type":"package","creationDate":"2012-01-28","author":"Joomla! i Norge","copyright":"","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"2.5.0","description":"","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(10000, 'NorskbokmlNorway', 'language', 'nb-NO', '', 0, 1, 0, 0, '{"legacy":false,"name":"Norsk bokm\\u00e5l (Norway)","type":"language","creationDate":"2012-02-02","author":"Joomla! i Norge","copyright":"Copyright (C) 2005 - 2012 Open Source Matters & Joomla! i Norge. All rights reserved.","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"2.5.1","description":"Norwegian bokm\\u00e5l site language for Joomla! 2.5","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(10001, 'NorskbokmlNorway', 'language', 'nb-NO', '', 1, 1, 0, 0, '{"legacy":false,"name":"Norsk bokm\\u00e5l (Norway)","type":"language","creationDate":"2012-02-02","author":"Joomla! i Norge","copyright":"Copyright (C) 2005 - 2012 Open Source Matters & Joomla! i Norge. All rights reserved.","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"2.5.1","description":"Norwegian bokm\\u00e5l administrator language for Joomla! 2.5","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(10002, 'nb-NO', 'package', 'pkg_nb-NO', '', 0, 1, 1, 0, '{"legacy":false,"name":"Norwegian Bokm\\u00e5l Language Pack incl. TinyMCE","type":"package","creationDate":"2012-02-02","author":"Joomla! i Norge","copyright":"","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"2.5.1","description":"","group":""}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (10003, 'TinyMCE - Norsk bokmål', 'file', 'TinyMCE_nb-NO', '', 0, 1, 0, 0, '{"legacy":false,"name":"TinyMCE - Norsk bokm\\u00e5l","type":"file","creationDate":"2012-01-24","author":"Joomla! i Norge","copyright":"(C) 2011 - 2012 Joomla! i Norge","authorEmail":"oversettelser@joomlainorge.no","authorUrl":"http:\\/\\/www.joomlainorge.no","version":"3.4.4","description":"","group":""}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0);
 
 --
@@ -61,9 +61,11 @@ REPLACE INTO `#__finder_terms_common` (`term`, `language`) VALUES
 
 -- Add your Content Language - OPTIONAL
 -- Really only needed for Multilingual sites, but it does no harm to add it
--- You can also truncate the table first, and insert your content language with lang_id 1 if prefered
+-- You can truncate the table first, and insert your content language with lang_id and ordering 1
+TRUNCATE `#__languages`;
 INSERT INTO `#__languages` (`lang_id`, `lang_code`, `title`, `title_native`, `sef`, `image`, `description`, `metakey`, `metadesc`, `sitename`, `published`, `ordering`) VALUES
-(2, 'nb-NO', 'Norsk bokmål', 'Norsk bokmål', 'no', 'no', '', '', '', '', 1, 0);
+(1, 'nb-NO', 'Norsk bokmål', 'Norsk bokmål', 'no', 'no', '', '', '', '', 1, 1),
+(2, 'en-GB', 'English (UK)', 'English (UK)', 'en', 'en', '', '', '', '', 1, 0);
 
 --
 -- Localise data for table `#__menu`

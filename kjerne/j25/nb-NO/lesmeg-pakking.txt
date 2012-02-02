@@ -4,7 +4,9 @@
 
 VIKTIG! Kopier aldri direkte fra arbeidskopi, men gjør en eksport, for å ikke få med alle skjulte filer brukt av subversion. Det vil bare gjøre pakken unødvendig stor.
 
-Alle nødvendige xml-filer ligger i mappene, husk bare på å oppdatere utgivelsesdato og evt. versjon før utsjekking og pakking gjøres!
+Alle nødvendige xml-filer ligger i mappene, husk bare på å oppdatere utgivelsesdato og evt. versjon før utsjekking og pakking gjøres. Om det i noen utgivelse legges til nye språkfiler må man huske å legge disse til også i install.xml i samme mappe.
+
+Utgivelsesdato og versjon må også oppdateres i 3-4 linjer /installation/sql/mysql/localise.sql (under 'INSERT INTO `#__extensions`').
 
 
 *** PAKKING KOMPLETT SPRÅKPAKKE ***
@@ -37,5 +39,5 @@ site_nb-NO                      -> Innholdet kopieres over til '/language/nb-NO'
 tinymce_nb-NO                   -> Undermappen 'tinymce' kopieres over til '/media/editors/'.
 tinymce_nb-NO/TinyMCE_nb-NO.xml -> Kopieres over til mappen 'administrator/manifests/files'
 
-Alt pakkes på nytt og utgis med filnavn nb-NO_Joomla_2.5.x-Stable-Full-Pack.zip (x erstattes med riktig del-versjonsnummer, evt. Stable med RC f.eks om aktuelt).
+Alt pakkes på nytt og utgis med filnavn nb-NO_Joomla_2.5.x-Stable-Full-Distro.zip (x erstattes med riktig del-versjonsnummer, evt. Stable med RC f.eks om aktuelt).
 
