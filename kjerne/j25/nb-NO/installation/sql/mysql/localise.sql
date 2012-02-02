@@ -100,6 +100,7 @@ UPDATE `#__modules` SET `title` = 'Tittel' WHERE `id` = 15;
 UPDATE `#__modules` SET `title` = 'Brukerkonto' WHERE `id` = 16;
 UPDATE `#__modules` SET `title` = 'Brødsmuler', `params` = REPLACE(`params`, '"homeText":"Home"', '"homeText":"Hjem"') WHERE `id` = 17;
 UPDATE `#__modules` SET `title` = 'Flerspråklig status' WHERE `id` = 79;
+UPDATE `#__modules` SET `title` = 'Joomla-versjon' WHERE `id` = 86;
 
 --
 -- Localise data for table `#__template_styles`
