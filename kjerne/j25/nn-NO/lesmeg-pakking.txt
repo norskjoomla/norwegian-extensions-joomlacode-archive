@@ -1,29 +1,27 @@
 <!-- $Id$ -->
 
-*** Pakking av språkpakke ***
+*** ALLTID - VIKTIG ***
 
-Pakking for 1.6 og nyere skiller seg litt fra 1.5 ved at det nå må opprettes to zip-filer først, en for admin og en for brukerdelen, som navngis:
+VIKTIG! Kopier aldri direkte fra arbeidskopi, men gjør en eksport, for å ikke få med alle skjulte filer brukt av subversion. Det vil bare gjøre pakken unødvendig stor.
 
-site_nn-NO.zip (Naviger inn i /language/nn-NO/, merk og pakk alle filer - flytt zip ut til passende sted)
-admin_nn-NO.zip (Naviger inn i /administrator/language/nn-NO/, merk og pakk alle filer - flytt zip ut til passende sted)
-
-Disse to pakkes i en ny zip-fil, sammen med pkg_nn-NO.xml:
-
-nn-NO_joomla_lang_full_2.5.Xv1.zip
-X = Underversjon
-v1 = Pakkeversjon
-
-Alle nødvendige xml-filer ligger i mappene, husk bare på å oppdatere utgivelsesdato og evt. versjon før utsjekking og pakking gjøres!
+Alle nødvendige xml-filer ligger i mappene, husk bare på å oppdatere utgivelsesdato og evt. versjon før utsjekking og pakking gjøres. Om det i noen utgivelse legges til nye språkfiler må man huske å legge disse til også i install.xml i samme mappe.
 
 
-*** Pakking av språkpakke for TinyMCE ***
+*** PAKKING KOMPLETT SPRÅKPAKKE ***
 
-Naviger inn i /media/editors/ hvor du velger å pakke alle mapper og filer i en pakke, dvs.
-tinymce, index.html og TinyMCE_nn-NO.xml
+Pakking for 1.6 og nyere skiller seg litt fra 1.5 ved at det nå må opprettes tre zip-filer først, en for admin, en for brukerdelen og en for TinyMCE - som navngis som følgende:
 
-Navngis som tinymce_lang_pack_nn_x.x.x.x_17v1.zip (eksempel).
-x.x.x.x = Versjonnummer for TinyMCE
-v1 = Pakkeversjon
+admin_nn-NO.zip (Pakk mappen admin_nn-NO direkte til zip-fil.)
+site_nn-NO.zip (Pakk mappen site_nn-NO direkte til zip-fil.)
+tinymce_nn-NO.zip (Pakk mappen tinymce_nn-NO direkte til zip-fil.)
+
+Disse tre zip-filene pakkes i en ny zip-fil, sammen med pkg_nn-NO.xml:
+
+nn-NO_joomla_lang_full_2.5.0v1.zip
+
+- 2.5.0 = Joomla-versjon
+- v1 = Pakkeversjon
+
 
 *** Pakking av komplett norsk Joomla! 2.5 ***
 
