@@ -62,7 +62,7 @@ REPLACE INTO `#__finder_terms_common` (`term`, `language`) VALUES
 ('av', 'nb'),
 ('bane', 'nb'),
 ('bare', 'nb'),
-('begge', 'nb')
+('begge', 'nb'),
 ('behov', 'nb'),
 ('behøve', 'nb'),
 ('benytte', 'nb'),
@@ -75,7 +75,7 @@ REPLACE INTO `#__finder_terms_common` (`term`, `language`) VALUES
 ('brukere', 'nb'),
 ('da', 'nb'),
 ('deg', 'nb'),
-('dem', 'nb')
+('dem', 'nb'),
 ('den', 'nb'),
 ('denne', 'nb'),
 ('dens', 'nb'),
@@ -124,7 +124,7 @@ REPLACE INTO `#__finder_terms_common` (`term`, `language`) VALUES
 ('gate', 'nb'),
 ('gjennom', 'nb'),
 ('gå', 'nb'),
-('han', 'nb')
+('han', 'nb'),
 ('hos', 'nb'),
 ('hun', 'nb'),
 ('hva', 'nb'),
@@ -145,7 +145,7 @@ REPLACE INTO `#__finder_terms_common` (`term`, `language`) VALUES
 ('inntil', 'nb'),
 ('intet', 'nb'),
 ('ja', 'nb'),
-('jeg', 'nb')
+('jeg', 'nb'),
 ('jevn', 'nb'),
 ('jo', 'nb'),
 ('kvinne', 'nb'),
@@ -195,11 +195,11 @@ REPLACE INTO `#__finder_terms_common` (`term`, `language`) VALUES
 ('på', 'nb'),
 ('rett', 'nb'),
 ('riktig', 'nb'),
-('samme', 'nb')
+('samme', 'nb'),
 ('sann', 'nb'),
 ('savn', 'nb'),
-('seg', 'nb'),;
-('selv', 'nb')
+('seg', 'nb'),
+('selv', 'nb'),
 ('side', 'nb'),
 ('siden', 'nb'),
 ('sin', 'nb'),
@@ -208,7 +208,7 @@ REPLACE INTO `#__finder_terms_common` (`term`, `language`) VALUES
 ('skje', 'nb'),
 ('skulle', 'nb'),
 ('slette', 'nb'),
-('slik', 'nb')
+('slik', 'nb'),
 ('slutt', 'nb'),
 ('smal', 'nb'),
 ('som', 'nb'),
@@ -218,7 +218,7 @@ REPLACE INTO `#__finder_terms_common` (`term`, `language`) VALUES
 ('søke', 'nb'),
 ('så', 'nb'),
 ('således', 'nb'),
-('sånn', 'nb')
+('sånn', 'nb'),
 ('takk', 'nb'),
 ('takke', 'nb'),
 ('tid', 'nb'),
