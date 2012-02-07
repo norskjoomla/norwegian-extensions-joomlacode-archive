@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Id$ -->
-<extension type="file" version="1.7" method="upgrade">
-  <name>ACL Manager - Norwegian Bokmål (Norway)</name>
-  <author>Joomla! i Norge</author>
-  <authorEmail>oversettelser@joomlainorge.no</authorEmail>
-  <authorUrl>www.joomlainorge.no</authorUrl>
-  <copyright>Copyright (C) 2011 - 2011 Joomla! i Norge. All rights reserved.</copyright>
-  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-  <version>2.0.0</version>
-  <creationDate>15.08.2011</creationDate>
-  <description>Norwegian bokmål language pack for ACL Manager</description>
-  <fileset>
-    <!-- administrator language -->
-    <files target="administrator/language/nb-NO">
-		  <filename>nb-NO.com_aclmanager.ini</filename>
-		  <filename>nb-NO.com_aclmanager.sys.ini</filename>
-    </files>
-  </fileset>
+<extension type="file" version="1.6" method="upgrade">
+	<name>ACL Manager - Norwegian Bokmål (Norway)</name>
+	<author>Joomla! i Norge</author>
+	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+	<authorUrl>www.joomlainorge.no</authorUrl>
+	<copyright>Copyright (C) 2011 - 2011 Joomla! i Norge. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>1.1.3</version>
+	<creationDate>2012-01-03</creationDate>
+	<description>Norwegian bokmål language pack for ACL Manager (Sander Potjer)</description>
+	<fileset>
+		<!-- administrator language -->
+		<files target="administrator/language/nb-NO">
+			<filename>nb-NO.com_aclmanager.ini</filename>
+			<filename>nb-NO.com_aclmanager.sys.ini</filename>
+		</files>
+	</fileset>
 </extension>
