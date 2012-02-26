@@ -1,3 +1,0 @@
-Acajoom har dessverre ingen støtte for Joomla! 1.5s språksystem og må derfor installeres manuelt.
-
-Du må derfor laste opp og overskrive 'administrator'-mappen i roten av din Joomlainstallasjon, ved hjelp av ftp el.l..
