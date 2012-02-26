@@ -1,0 +1,6 @@
+Prosjektene i denne mappen er flyttet til Transifex, de blir normalt ikke oppdatert regelmessig her lengre.
+
+Besøk gjeldende prosjekt på Transifex for å se fremdrift, hvem som er er koordinator osv., 
+Ta eventuelt kontakt med koordinatoren om du ønsker å bidra.
+
+http://www.transifex.net/
