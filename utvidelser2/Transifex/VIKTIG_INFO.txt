@@ -1,6 +1,8 @@
 Prosjektene i denne mappen er flyttet til Transifex, de blir normalt ikke oppdatert regelmessig her lengre.
 
-Besøk gjeldende prosjekt på Transifex for å se fremdrift, hvem som er er koordinator osv., 
+Besøk gjeldende prosjekt på Transifex for å se fremdrift, hvem som er er koordinator osv.
 Ta eventuelt kontakt med koordinatoren om du ønsker å bidra.
+
+I noen tilfeller vil koordinator og oversettere kunne foretrekke å jobbe på "gammelmåten" fortsatt, og filene her vil da bli synkronisert mer regelmessig mot de "offisielle" på Transifex-prosjektet til utvikler - for inkludering i deres utgivelser.
 
 http://www.transifex.net/
