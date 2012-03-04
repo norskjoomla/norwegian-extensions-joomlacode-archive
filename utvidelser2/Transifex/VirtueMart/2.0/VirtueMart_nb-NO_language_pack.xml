@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
-<extension type="file" version="1.7" method="upgrade">
+<extension type="file" version="2.5" method="upgrade">
   <name>VirtueMart - Norwegian Bokmål (Norway)</name>
   <author>Joomla! i Norge</author>
   <authorEmail>oversettelser@joomlainorge.no</authorEmail>
   <authorUrl>www.joomlainorge.no</authorUrl>
   <copyright>Copyright (C) 2011 - 2012 Joomla! i Norge. All rights reserved.</copyright>
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-  <version>2.0.0</version>
-  <creationDate>08.01.2012</creationDate>
+  <version>2.0.2</version>
+  <creationDate>04.03.2012</creationDate>
   <description>Norwegian bokmål language pack for VirtueMart</description>
   <fileset>
     <!-- administrator language -->
@@ -29,10 +29,15 @@
       <filename>nb-NO.plg_vmcustom_textinput.ini</filename>
       <filename>nb-NO.plg_vmcustom_textinput.sys.ini</filename>
       <filename>nb-NO.plg_vmpayment_authorize.ini</filename>
+      <filename>nb-NO.plg_vmpayment_authorizenet.ini</filename>
+      <filename>nb-NO.plg_vmpayment_authorizenet.sys.ini</filename>
       <filename>nb-NO.plg_vmpayment_paypal.ini</filename>
       <filename>nb-NO.plg_vmpayment_paypal.sys.ini</filename>
+      <filename>nb-NO.plg_vmpayment_payzen.ini</filename>
       <filename>nb-NO.plg_vmpayment_standard.ini</filename>
+      <filename>nb-NO.plg_vmpayment_standard.sys.ini</filename>
       <filename>nb-NO.plg_vmshipment_weight_countries.ini</filename>
+      <filename>nb-NO.plg_vmshipment_weight_countries.sys.ini</filename>
       <filename>nb-NO.plg_vmshipper_weight_countries.ini</filename>
     </files>
     <!-- site language -->
