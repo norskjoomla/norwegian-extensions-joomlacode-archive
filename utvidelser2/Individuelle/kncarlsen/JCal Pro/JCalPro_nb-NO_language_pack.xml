@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="file" version="2.5" method="upgrade">
+	<name>JCal Pro - Norwegian Bokmål (Norway)</name>
+	<author>Joomla! i Norge</author>
+	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
+	<authorUrl>www.joomlainorge.no</authorUrl>
+	<copyright>Copyright (C) 2011 - 2012 Joomla! i Norge. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>3.0</version>
+	<creationDate>2012-04-04</creationDate>
+	<description>Norwegian bokmål language pack for JCal Pro</description>
+	<fileset>
+		<!-- administrator language -->
+		<files folder="admin" target="administrator/language/nb-NO">
+			<filename>nb-NO.com_jcalpro.ini</filename>
+			<filename>nb-NO.com_jcalpro.event.ini</filename>
+			<filename>nb-NO.com_jcalpro.sys.ini</filename>
+		</files>
+		<!-- frontend language -->
+		<files target="language/nb-NO">
+			<filename>nb-NO.com_jcalpro.ini</filename>
+		</files>		
+	</fileset>
+</extension>
