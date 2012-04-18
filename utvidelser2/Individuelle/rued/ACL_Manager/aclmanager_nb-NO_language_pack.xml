@@ -6,8 +6,8 @@
 	<authorUrl>www.joomlainorge.no</authorUrl>
 	<copyright>Copyright (C) 2011 - 2011 Joomla! i Norge. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
-	<version>1.1.3</version>
-	<creationDate>2012-01-03</creationDate>
+	<version>1.2.0</version>
+	<creationDate>2012-04-02</creationDate>
 	<description>Norwegian bokmål language pack for ACL Manager (Sander Potjer)</description>
 	<fileset>
 		<!-- administrator language -->
