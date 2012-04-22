@@ -584,6 +584,10 @@ Du kan nå logge deg på %s ved å benytte følgende brukernavn og passord:
 
 Brukernavn - %s
 Passord - %s
+
+Ditt passord har blitt kryptert og sikkert lagret i vår database, det vil ikke kunne leses av oss. Om du glemmer passordet vil du kunne tilbakestille det ved hjelp av e-postadressen som er tilknyttet din konto.
+
+Denne e-posten er automatisk opprettet og kan kun leses av mottaker.
 ',
 	'PEAR_LOG_CRIT' => 'Kritisk',
 	'PEAR_LOG_ERR' => 'Feil',
