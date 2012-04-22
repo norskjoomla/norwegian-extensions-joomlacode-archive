@@ -7,7 +7,7 @@
 	<copyright>Copyright (C) 2011 - 2012 Joomla! i Norge. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
 	<version>3.0</version>
-	<creationDate>2012-04-04</creationDate>
+	<creationDate>2012-04-09</creationDate>
 	<description>Norwegian bokmål language pack for JCal Pro</description>
 	<fileset>
 		<!-- administrator language -->
@@ -19,6 +19,13 @@
 		<!-- frontend language -->
 		<files target="language/nb-NO">
 			<filename>nb-NO.com_jcalpro.ini</filename>
+		</files>
+		<!-- modules language -->
+		<files folder="moduler" target="language/nb-NO">
+			<filename>nb-NO.mod_jcalpro_calendar.ini</filename>
+			<filename>nb-NO.mod_jcalpro_calendar.sys.ini</filename>
+			<filename>nb-NO.mod_jcalpro_events.ini</filename>
+			<filename>nb-NO.mod_jcalpro_events.sys.ini</filename>
 		</files>		
 	</fileset>
 </extension>
