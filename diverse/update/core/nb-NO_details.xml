@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Norwegian Bokmål for Joomla</name>
+    <description>Norwegian Bokmål Language Pack for Joomla Core, including language files for TinyMCE.</description>
+    <element>pkg_nb-NO</element>
+    <type>package</type>
+    <version>2.5.4.2</version>
+    <downloads>
+      <downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/16520/73537/nb-NO_joomla_lang_full_2.5.4.2.zip</downloadurl>
+    </downloads>
+    <tags>
+      <tag>stable</tag>
+    </tags>
+    <maintainer>Rune Rasmussen</maintainer>
+    <maintainerurl>http://www.joomlainorge.no</maintainerurl>
+    <targetplatform name="joomla" version="2.5"/>
+  </update>
+</updates>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+  <update>
+    <name>Norwegian Nynorsk for Joomla</name>
+    <description>Norwegian Nynorsk Language Pack for Joomla Core</description>
+    <element>pkg_nn-NO</element>
+    <type>package</type>
+    <version>2.5.4.2</version>
+    <downloads>
+      <downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/16405/73538/nn-NO_joomla_lang_full_2.5.4.2.zip</downloadurl>
+    </downloads>
+    <tags>
+      <tag>stable</tag>
+    </tags>
+    <maintainer>Toyni Tobekk</maintainer>
+    <maintainerurl>http://www.joomlainorge.no</maintainerurl>
+    <targetplatform name="joomla" version="2.5"/>
+  </update>
+</updates>
