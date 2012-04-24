@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extensionset name="Norwegian Language Updates" description="Norwegian language Updates for Joomla Core">
+<extensionset name="Norwegian Core Language Updates" description="Norwegian Language Updates for Joomla Core">
     <extension name="Norwegian Bokmål for Joomla" element="pkg_nb-NO" type="package" version="2.5.4.2" detailsurl="http://update.joomlainorge.no/core/nb-NO_details.xml"/>
     <extension name="Norwegian Nynorsk for Joomla" element="pkg_nn-NO" type="package" version="2.5.4.2" detailsurl="http://update.joomlainorge.no/core/nn-NO_details.xml"/>
 </extensionset>
