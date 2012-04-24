@@ -25,6 +25,11 @@ nb-NO_joomla_lang_full_2.5.0v1.zip
 - v1 = Pakkeversjon
 
 
+*** OPPDATERING AV OPPDATERINGSSERVERENS XML-FILERE ***
+
+Må skrives ...
+
+
 *** PAKKING KOMPLETT NORSK JOOMLA! 2.5 ***
 
 Komplett engelsk pakke av Joomla lastes ned og pakkes ut lokalt.
