@@ -34,6 +34,7 @@
     <file type="file" client="site" id="nb-NO">tinymce_nb-NO.zip</file>
   </files>
   <updateservers>
-    <server type="collection" priority="1" name="Norwegian Core Language Updates">http://update.joomlainorge.no/core/list.xml</server>
+    <server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist.xml</server>
+    <server type="collection" priority="2" name="Norwegian Core Language Updates">http://update.joomlainorge.no/core/list.xml</server>
   </updateservers>
 </extension>
