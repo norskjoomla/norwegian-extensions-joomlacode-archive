@@ -1,3 +1,0 @@
-Arbeidskopier for utvidelser har flyttet til ny "grunnmappe", på grunn av et gammelt loggproblem med K2
-
-Bytt ut 'utvidelser' med 'utvidelser2' i dine svn-lenker.
