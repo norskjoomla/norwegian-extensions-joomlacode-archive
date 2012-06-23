@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbinstall version="2.1.2 Build 21202 Alpha [ Shannon ]" type="plugin" group="language">
+    <name>Norwegian Nynorsk Language</name>
+    <creationDate>23.02.09</creationDate>
+    <author>NyFritid Web Dev</author>
+    <copyright>(C) 2008 - 2009 NyFritid Web Dev</copyright>
+    <authorEmail>nyfriti[at]nyfritid.no</authorEmail>
+    <authorUrl>http://nyfritid.no</authorUrl>
+    <license>http://creativecommons.org/licenses/by-nc-nd/3.0/</license>
+    <website>http://nyfritid.no/translations</website>
+    <version>211</version>
+    <description>Norwegian nynorsk language for hwdVideoShare</description>
+    <files>
+        <filename plugin="norwegian_nynorsk">index.html</filename>
+        <filename plugin="norwegian_nynorsk">norwegian_nynorsk.php</filename>
+    </files>
+    <params>    
+    </params>       
+</cbinstall>
+
+
