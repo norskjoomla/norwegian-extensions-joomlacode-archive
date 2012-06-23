@@ -1,1 +1,7 @@
-Mappen joomla_icons_no inneholder ikonene som er brukt på forum.joomla.org
+Mappen joomla_icons_no inneholder ikonene som er brukt på forum.joomla.org (utdatert)
+
+Mappen install_eksempel-15 inneholder eksempelpakke for språkpakker for Joomla 1.5 utvidelser.
+
+Mappen install_eksempel-17 inneholder eksempelpakke for språkpakker for Joomla 1.7+ utvidelser.
+
+Mappen update_server inneholder eksempelfiler for oppdateringsserver for språkpakker til Joomla 1.7+
