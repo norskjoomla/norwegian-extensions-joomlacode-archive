@@ -1,0 +1,15 @@
+arkivert - Utdaterte og ustøttede versjoner (for utdaterte Joomla-versjoner), arkiveres for referanse og evt. migrering.
+
+diverse_eksempler - filer og eksempler relatert til norsk Joomla
+
+dokumentasjon - Dokumentasjon relatert til norsk Joomla og utvidelser
+
+eksterne_prosjekter - Oversettelser som administreres eksternt og evt. synkroniseres manuelt mot svn nå og da.
+
+fellesprosjekter - Oversettelser som flere samarbeider på, under ledelse av en koordinator. Dersom et fellesprosjekt ser dødt ut kan koordinator/administrator kontaktes for å forespørre overtakelse og flytting til individuelt prosjekt.
+
+individuelle_prosjekter - Oversettelser som utføres av enkeltpersoner. Dersom et slikt prosjekt ser dødt ut kan man kontakte eier eller koordinator/administrator for å forespørre overtakelse og flytting, enten til annen individuell bruker eller fellesprosjekt.
+
+testmappe - Kan brukes til å teste ut funksjoner i svn, spesielt nyttig for nye brukere.
+
+utvidelser - Utgått. Inneholder feil og kan ikke slettes.
