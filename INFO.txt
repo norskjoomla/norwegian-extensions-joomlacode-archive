@@ -10,6 +10,4 @@ fellesprosjekter - Oversettelser som flere samarbeider på, under ledelse av en 
 
 individuelle_prosjekter - Oversettelser som utføres av enkeltpersoner. Dersom et slikt prosjekt ser dødt ut kan man kontakte eier eller koordinator/administrator for å forespørre overtakelse og flytting, enten til annen individuell bruker eller fellesprosjekt.
 
-testmappe - Kan brukes til å teste ut funksjoner i svn, spesielt nyttig for nye brukere.
-
 utvidelser - Utgått. Inneholder feil og kan ikke slettes.
