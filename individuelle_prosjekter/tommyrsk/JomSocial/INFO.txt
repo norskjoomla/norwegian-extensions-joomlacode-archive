@@ -1,0 +1,8 @@
+Denne mappen inneholder filer som mangler i JomSocial Transifex oversettelsesprosjekt.
+
+Disse filene legges sammen med språkpakken som skal distribueres.
+
+JomSocial Transifex Norsk Bokmål prosjektet finnes her: https://www.transifex.com/projects/p/jomsocial/language/nb_NO/
+
+Mappen transifex inneholder konfigurasjonsfil (og eventuell annen informasjon) som kan benyttes når man benytter transifex client.
+Mappen pakke inneholder de manglende filene som skal legges sammen med filene fra transifex.
