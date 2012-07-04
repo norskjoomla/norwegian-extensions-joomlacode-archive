@@ -49,23 +49,7 @@ file_filter = translations/language/<lang>/<lang>.mod_videocomments.ini
 source_lang = en
 
 [jomsocial.jomsocial_mod_notifyini]
-file_filter = translations/language/<lang>/<lang>._mod_notify.ini
-source_lang = en
-
-[jomsocial.jomsocial_plg_community_allvideoini]
-file_filter = translations/admin/<lang>/<lang>.plg_community_allvideo.ini
-source_lang = en
-
-[jomsocial.jomsocial_plg_community_allvideosysini]
-file_filter = translations/admin/<lang>/<lang>.plg_community_allvideo.sys.ini
-source_lang = en
-
-[jomsocial.jomsocial_plg_community_editormyphotosini]
-file_filter = translations/admin/<lang>/<lang>.plg_community_editormyphotos.ini
-source_lang = en
-
-[jomsocial.jomsocial_plg_community_editormyphotossysini]
-file_filter = translations/admin/<lang>/<lang>.plg_community_editormyphotos.sys.ini
+file_filter = translations/language/<lang>/<lang>.mod_notify.ini
 source_lang = en
 
 [jomsocial.jomsocial_plg_community_eventsini]
@@ -98,14 +82,6 @@ source_lang = en
 
 [jomsocial.jomsocial_plg_community_inputsysini]
 file_filter = translations/admin/<lang>/<lang>.plg_community_input.sys.ini
-source_lang = en
-
-[jomsocial.jomsocial_plg_community_inputlinkini]
-file_filter = translations/admin/<lang>/<lang>.plg_community_inputlink.ini
-source_lang = en
-
-[jomsocial.jomsocial_plg_community_inputlinksysini]
-file_filter = translations/admin/<lang>/<lang>.plg_community_inputlink.sys.ini
 source_lang = en
 
 [jomsocial.jomsocial_plg_community_kunenasysini]
