@@ -12,63 +12,51 @@
   <description>FILES_COMMUNITY_NB_NO_LANGUAGE_PACK_DESC</description>
   <fileset>
     <!-- administrator language folder -->
-    <files folder="admin" target="administrator/language/nb-NO">
+    <files folder="admin/nb-NO" target="administrator/language/nb-NO">
       <filename>nb-NO.com_community.ini</filename>
       <filename>nb-NO.com_community.menu.ini</filename>
       <filename>nb-NO.com_community.sys.ini</filename>
       <filename>nb-NO.community.sys.ini</filename>
-      <filename>nb-NO.plg_community_eventlist.ini</filename>
       <filename>nb-NO.plg_community_events.ini</filename>
+      <filename>nb-NO.plg_community_events.sys.ini</filename>
+      <filename>nb-NO.plg_events.ini</filename>      
       <filename>nb-NO.plg_community_feeds.ini</filename>
+      <filename>nb-NO.plg_community_feeds.sys.ini</filename>
       <filename>nb-NO.plg_community_friendslocation.ini</filename>
-      <filename>nb-NO.plg_community_jomcomment.ini</filename>
-      <filename>nb-NO.plg_community_kunena.ini</filename>
+      <filename>nb-NO.plg_community_friendslocation.sys.ini</filename>
+      <filename>nb-NO.plg_community_input.ini</filename>
+      <filename>nb-NO.plg_community_input.sys.ini</filename>
+      <filename>nb-NO.plg_community_kunena.sys.ini</filename>
       <filename>nb-NO.plg_community_latestphoto.ini</filename>
+      <filename>nb-NO.plg_community_latestphoto.sys.ini</filename>
       <filename>nb-NO.plg_community_myarticles.ini</filename>
+      <filename>nb-NO.plg_community_myarticles.sys.ini</filename>
       <filename>nb-NO.plg_community_myblog.ini</filename>
-      <filename>nb-NO.plg_community_mycontacts.ini</filename>
-      <filename>nb-NO.plg_community_mygoogleads.ini</filename>
-      <filename>nb-NO.plg_community_nicetalk.ini</filename>
+      <filename>nb-NO.plg_community_myblog.sys.ini</filename>
+      <filename>nb-NO.plg_community_myblogtoolbar.ini</filename>
+      <filename>nb-NO.plg_community_myblogtoolbar.sys.ini</filename>
       <filename>nb-NO.plg_community_twitter.ini</filename>
-      <filename>nb-NO.plg_community_walls.ini</filename>
-      <filename>nb-NO.plg_community_wordfilter.ini</filename>
-      <filename>nb-NO.plg_editormyphotos.ini</filename>
-      <filename>nb-NO.plg_eventlist.ini</filename>
-      <filename>nb-NO.plg_events.ini</filename>
-      <filename>nb-NO.plg_feeds.ini</filename>
-      <filename>nb-NO.plg_friendslocation.ini</filename>
-      <filename>nb-NO.plg_jomcomment.ini</filename>
-      <filename>nb-NO.plg_kunena.ini</filename>
-      <filename>nb-NO.plg_latestphoto.ini</filename>
-      <filename>nb-NO.plg_myarticles.ini</filename>
-      <filename>nb-NO.plg_myblog.ini</filename>
-      <filename>nb-NO.plg_myblogtoolbar.ini</filename>
-      <filename>nb-NO.plg_mycontacts.ini</filename>
-      <filename>nb-NO.plg_mygoogleads.ini</filename>
-      <filename>nb-NO.plg_nicetalk.ini</filename>
-      <filename>nb-NO.plg_system_jomsocialredirect.ini</filename>
-      <filename>nb-NO.plg_system_jomsocialupdate.ini</filename>
+      <filename>nb-NO.plg_community_twitter.sys.ini</filename>
       <filename>nb-NO.plg_twitter.ini</filename>
-      <filename>nb-NO.plg_walls.ini</filename>
+      <filename>nb-NO.plg_community_mycontacts.ini</filename>
+      <filename>nb-NO.plg_community_mycontacts.sys.ini</filename>
+      <filename>nb-NO.plg_mycontacts.ini</filename>
     </files>
     <!-- site language folder -->
     <files folder="language/nb-NO" target="language/nb-NO">
       <filename>nb-NO.com_community.ini</filename>
+      <filename>nb-NO.files_community_nb_no_language_pack.sys.ini</filename>
       <filename>nb-NO.mod_activegroups.ini</filename>
-      <filename>nb-NO.mod_activitystream.ini</filename>
       <filename>nb-NO.mod_datingsearch.ini</filename>
       <filename>nb-NO.mod_hellome.ini</filename>
-      <filename>nb-NO.mod_jomsocialconnect.ini</filename>
-      <filename>nb-NO.mod_latestdiscussion.ini</filename>
-      <filename>nb-NO.mod_latestevents.ini</filename>
-      <filename>nb-NO.mod_latestgroupwalls.ini</filename>
+      <filename>nb-NO.mod_latestgrouppost.ini</filename>
       <filename>nb-NO.mod_latestmembers.ini</filename>
+      <filename>nb-NO.mod_notify.ini</filename>
       <filename>nb-NO.mod_onlineusers.ini</filename>
       <filename>nb-NO.mod_photocomments.ini</filename>
       <filename>nb-NO.mod_statistics.ini</filename>
       <filename>nb-NO.mod_topmembers.ini</filename>
       <filename>nb-NO.mod_videocomments.ini</filename>
-      <filename>nb-NO.files_community_nb_no_language_pack.sys.ini</filename>
     </files>
     <files folder="language/en-GB" target="language/en-GB">
       <filename>en-GB.files_community_nb_no_language_pack.sys.ini</filename>
