@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension type="file" version="1.6" method="upgrade">
-	<name>ACL Manager - Norwegian Bokmål (Norway)</name>
-	<author>Joomla! i Norge</author>
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="1.6" method="upgrade" client="administrator">
+	<name>ACL Manager - Language: Norwegian Bokmål</name>
+	<author>Rune Rasmussen</author>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>www.joomlainorge.no</authorUrl>
-	<copyright>Copyright (C) 2011 - 2011 Joomla! i Norge. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2011 - 2012 Joomla! i Norge. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
 	<version>1.2.0</version>
 	<creationDate>2012-04-02</creationDate>
-	<description>Norwegian bokmål language pack for ACL Manager (Sander Potjer)</description>
+	<description>Norwegian bokmål language for ACL Manager (Sander Potjer)</description>
 	<fileset>
 		<!-- administrator language -->
 		<files target="administrator/language/nb-NO">
