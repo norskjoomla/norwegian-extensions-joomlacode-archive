@@ -48,7 +48,6 @@
   <site>
       <files folder="language/nb-NO">
         <filename>nb-NO.com_community.ini</filename>
-        <filename>nb-NO.files_community_nb_no_language_pack.sys.ini</filename>
         <filename>nb-NO.mod_activegroups.ini</filename>
         <filename>nb-NO.mod_datingsearch.ini</filename>
         <filename>nb-NO.mod_hellome.ini</filename>
