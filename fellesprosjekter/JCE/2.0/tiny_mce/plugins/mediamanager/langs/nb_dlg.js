@@ -2,8 +2,9 @@ tinyMCE.addI18n('nb.mediamanager_dlg',{
 desc:"Sett inn/Endre media",
 delta_width: 0,
 delta_height: 0,
-no_src: 'An URL is required. Please select a media item or enter an URL',
-no_width: 'A width value is required.',
-no_height: 'A height value is required.',
-is_external: "The URL you entered seems to be an external link, do you want to add the required http:// prefix?",
-add_controls_height: "Add additional height for player controls (this may have already been added in a previous edit)?"
+no_src: 'En nettadresse er nødvendig. Velg et medieelementet eller angi en nettadresse',
+no_width: 'En verdi for bredden en påkrevd.',
+no_height: 'En verdi for høyden en påkrevd.',
+is_external: "Nettadressen du fylte inn ser ut til å være en ekstern lenke, vil du legge til påkrevd http://-prefiks?",
+add_controls_height: "Legg til ekstra høyde for avspillingskontrolleren (dette kan allerede være lagt ved en tidligere redigering)?"
+});

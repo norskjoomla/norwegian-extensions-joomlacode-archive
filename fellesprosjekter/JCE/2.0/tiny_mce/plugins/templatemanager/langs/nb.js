@@ -1,13 +1,13 @@
 // NO lang variables
 tinyMCE.addI18n('nb.templatemanager',{
 desc:"Sett inn/Endre innholdsmal",
-warning:"Warning: Updating a template with a different one may cause data loss.",
-mdate_format:"%Y-%m-%d %H:%M:%S",
-cdate_format:"%Y-%m-%d %H:%M:%S",
-months_long:"January,February,March,April,May,June,July,August,September,October,November,December",
-months_short:"Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",
-day_long:"Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday",
-day_short:"Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun",
+warning:"Advarsel: Oppdatering av en mal med en annen kan føre til tap av data.",
+mdate_format:"%d-%m-%Y %H:%M:%S",
+cdate_format:"%d-%m-%Y %H:%M:%S",
+months_long:"Januar,Februar,Mars,April,Mai,Juni,Juli,August,September,Oktober,November,Desember",
+months_short:"Jan,Feb,Mar,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Des",
+day_long:"Søndag,Mandag,Tirsdag,Onsdag,Torsdag,Fredag,Lørdag,Søndag",
+day_short:"Søn,Mon,Tir,Ons,Tor,Fre,Lør,Søn",
 delta_width : 0,
 delta_height : 0
 });
