@@ -81,5 +81,5 @@ rel:"Sidens forhold til målet",
 rev:"Målets forhold til siden",
 hreflang:"Href lang",
 general_props:"Generelt",
-advanced_props:"Avasert"
+advanced_props:"Avansert"
 });

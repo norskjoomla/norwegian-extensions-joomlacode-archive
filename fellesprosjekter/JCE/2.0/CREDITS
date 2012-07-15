@@ -1,8 +1,8 @@
 <?php
 /**
  * @version		$Id$
- * @package		JCE 2.0
- * @copyright	Copyright (C) 2010 - 2011 Joomla! i Norge. All rights reserved.
+ * @package		JCE 2.2.3
+ * @copyright	Copyright (C) 2010 - 2012 Joomla! i Norge. All rights reserved.
  * @license		GNU General Public License version 2 or later.
  */
 
@@ -15,4 +15,5 @@ defined('_JEXEC') or die;
 -------------------- JCE 2.0 Norwegian Bokmål Translation Credits ---------------------
 
 Knut Carlsen - www.conexus.no
+Roar Jystad
 Rune Rasmussen - www.syntaxerror.no

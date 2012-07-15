@@ -6,10 +6,10 @@ insert:"Sett inn",
 update:"Oppdater",
 cancel:"Avbryt",
 close:"Steng",
-browse:"Bla",
+browse:"Bla gjennom",
 class_name:"Klasse",
 not_set:"-- Ikke satt --",
-clipboard_msg:"Klipp/Lim/Kopier er ikke tilgjengelig i Firefox.\nVil du ha mer informasjon om dette?",
+clipboard_msg:"Klipp ut/Lim inn/Kopier er ikke tilgjengelig i Firefox.\nVil du ha mer informasjon om dette?",
 clipboard_no_support:"støttes for øyeblikket ikke av nettleseren din, bruk tastatursnarveier istedenfor.",
 popup_blocked:"Et vindu med viktig funksjonalitet har blitt blokkert, for å benytte deg av denne funksjonaliteten må du deaktivere blokkering av sprettoppvinduer for dette nettstedet.",
 invalid_data:"{#field} er ugyldig",
@@ -23,7 +23,7 @@ colors:{
 '993300':'Burnt oransje',
 '333300':'Mørk oliven',
 '003300':'Mørkegrønn',
-'003366':'Dark asurblått',
+'003366':'Mørk asurblått',
 '000080':'Navy Blue',
 '333399':'Indigo',
 '333333':'Veldig mørk grå',
@@ -254,13 +254,13 @@ desc: "Sett inn forhåndsdefinert malinnhold",
 delta_width: 0,
 delta_height: 0
 },
-article: {
+article:{
 pagebreak: "Sett inn/endre sideskift",
 readmore: "Sett inn 'Les mer'",
 readmore_title: "Les mer",
 readmore_alert: "Det finnes allerede en 'Les mer'-lenke i denne artikkelen, og kun en er tillatt. Bruk sideskift for å dele opp siden videre."
 },
-advlist : {
+advlist:{
 types : 'Typer',
 def : 'Standard',
 lower_alpha : "Liten alfa",
@@ -279,14 +279,36 @@ warning_message:"Om du gjenoppretter lagret innhold vil du miste alt innhold som
 },
 source:{
 source_desc:"Visning av kildekode av/på",
-wrap_desc:"Visning av ordinnpakking av/på",
+wrap_desc:"Visning av tekstbryting av/på",
 numbers_desc:"Visning av linjenummer av/på",
-highlight_desc:"Visning av kodefremheving av/på"
+highlight_desc:"Visning av kodefremheving av/på",
+replace:"Erstatt",
+replace_all:"Erstatt alle",
+search:"Søk",
+search_prev:"Finn forrige",
+regex:"Vanlig uttrykk",
+format:"HTML format"
 },
-textcase : {
-uppercase:"Stor bokstav",
-lowercase:"Liten bokstav",
+textcase :{
+uppercase:"Store bokstaver",
+lowercase:"små bokstaver",
 sentencecase:"Stor bokstav i første ord",
-camelcase:"Stor bokstav i alle ord"
+camelcase:"Stor Bokstav I Alle Ord"
+},
+visualblocks:{
+desc:"Vis/skjul blokk elementer"
+},
+kitchensink:{
+desc:"Slå verktøylinjer av eller på"
+},
+anchor:{
+desc:"Sett inn/rediger anker",
+name:"Navn",
+invalid:"Angi et gyldig ankernavn eller en Id. Navnet må begynne med en bokstav.",
+exists:"Et anker med dette navnet eller Id finnes allerede"
+},
+upload:{
+'response_error':"Ugyldig opplastings respons",
+'http_error':"HTTP feil"
 }
 }});

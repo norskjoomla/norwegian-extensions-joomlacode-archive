@@ -1,5 +1,4 @@
 tinyMCE.addI18n('nb.dlg',{
-// JCE specific
 modified: 'Endret',
 file: 'Fil',
 folder: 'Mappe',
@@ -47,24 +46,18 @@ date_format : '',
 media_not_supported:'Mediatype er ikke støttet av denne nettleseren',
 one_of_many : '%o av %m',
 element_selection : 'Elementvalg',
-/**
- * Upload
- */
 uploading: 'Laster opp …',
 upload: 'Last opp',
 queue: 'Legg i kø',
 upload_drop: 'Dra og slipp filene her',
 cancel: 'Avbryt',
 ok: 'OK',
-browse: 'Bla',
+browse: 'Bla gjennom',
 file_extension_error : 'Filtype er ikke støttet',
 file_size_error : 'Filstørrelse overskrider maksimalt tillatt størrelse',
 file_invalid_error : 'Ugyldig filtype',
 upload_drop : 'Slipp filer her',
 close:'Lukk',
-/**
- * Upload Error Codes
- */
 '-600' : '%f (%s) overskrider maksimalt tillatt størrelse på %m',
 '-601' : 'Fil: %s',
 '-800' : 'Fil: %s'
