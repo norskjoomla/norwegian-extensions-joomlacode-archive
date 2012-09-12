@@ -310,5 +310,8 @@ exists:"Et anker med dette navnet eller Id finnes allerede"
 upload:{
 'response_error':"Ugyldig opplastings respons",
 'http_error':"HTTP feil"
+},
+iframe:{
+desc:'Sett inn/Rediger integrert ramme'
 }
 }});
