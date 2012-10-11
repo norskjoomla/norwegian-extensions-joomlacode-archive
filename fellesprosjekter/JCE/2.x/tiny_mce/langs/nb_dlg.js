@@ -82,5 +82,9 @@ cc:"Kopi",
 bcc:"Blindkopi",
 subject:"Emne",
 invalid_email:" er ikke en gyldig e-postadresse!"
+},
+'searchreplace_dlg':{
+notfound:"Søket er fullført. Søkestrengen ble ikke funnet.",
+allreplaced:"Alle forekomster av søkestrengen ble erstattet."
 }
 }});
