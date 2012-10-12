@@ -60,7 +60,8 @@ upload_drop:'Slipp filer her',
 close:'Lukk',
 '-600':'%f (%s) overskrider maksimalt tillatt størrelse på %m',
 '-601':'Fil: %s',
-'-800':'Fil: %s'
+'-800':'Fil: %s',
+root:'Rot'
 },
 'pagebreak_dlg':{
 desc:"Sett inn/endre sideskift",
