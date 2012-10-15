@@ -197,9 +197,6 @@ no_sug:"Ingen forslag",
 no_mpell:"Ingen stavefeil.",
 learn_word:"Lær ord"
 },
-pagebreak:{
-desc:"Sett inn sideskift."
-},
 advlist:{
 types:"Typer",
 def:"Standard",
@@ -260,23 +257,6 @@ readmore: "Sett inn 'Les mer'",
 readmore_title: "Les mer",
 readmore_alert: "Det finnes allerede en 'Les mer'-lenke i denne artikkelen, og kun en er tillatt. Bruk sideskift for å dele opp siden videre."
 },
-advlist:{
-types : 'Typer',
-def : 'Standard',
-lower_alpha : "Liten alfa",
-lower_greek : "Liten gresk",
-lower_roman : "Liten romersk",
-upper_alpha : "Stor alfa",
-upper_roman : "Stor romersk",
-circle : "Sirkel",
-disc : "Disk",
-square : "Firkant"
-},
-autosave:{
-unload_msg:"Endringene du gjorde går tapt dersom du velger å forlate denne siden!",
-restore_content:"Gjenopprett autolagret innhold.",
-warning_message:"Om du gjenoppretter lagret innhold vil du miste alt innhold som nå er i tekstbehandleren.\n\nEr du sikker på at du ønsker å gjenopprette lagret innhold?"
-},
 source:{
 source_desc:"Visning av kildekode av/på",
 wrap_desc:"Visning av tekstbryting av/på",
@@ -305,7 +285,8 @@ anchor:{
 desc:"Sett inn/rediger anker",
 name:"Navn",
 invalid:"Angi et gyldig ankernavn eller en Id. Navnet må begynne med en bokstav.",
-exists:"Et anker med dette navnet eller Id finnes allerede"
+exists:"Et anker med dette navnet eller Id finnes allerede",
+remove:"Fjern"
 },
 upload:{
 'response_error':"Ugyldig opplastings respons",
