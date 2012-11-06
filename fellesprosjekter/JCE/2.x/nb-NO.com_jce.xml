@@ -3,14 +3,14 @@
 <install version="2.0" type="language" core="1">
 	<name>Norsk bokmål (Norway)</name>
 	<tag>nb-NO</tag>
-	<version>2.2.8.4</version>
-	<creationDate>2012-10-15</creationDate>
+	<version>2.3.0.0</version>
+	<creationDate>2012-11-06</creationDate>
 	<author>Joomla! i Norge</author>
 	<authorEmail>oversettelser@joomlainorge.no</authorEmail>
 	<authorUrl>www.joomlainorge.no</authorUrl>
 	<copyright>Copyright (C) 2006 - 2012 Joomla! i Norge. All rights reserved</copyright>
 	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
-	<description>Norsk bokmål (Norwegian) for JCE 2.2</description>
+	<description>Norsk bokmål (Norwegian) for JCE 2.3</description>
 	<administration folder="admin">
 		<file>nb-NO.com_jce.ini</file>
 		<file>nb-NO.com_jce.menu.ini</file>
@@ -23,6 +23,7 @@
 		<file>nb-NO.plg_quickicon_jcefilebrowser.sys.ini</file>
 	</administration>
 	<site folder="site">
+		<file>nb-NO.com_jce.ini</file> 
 		<file>nb-NO.com_jce_caption.ini</file> 
 		<file>nb-NO.com_jce_emotions.ini</file>
 		<file>nb-NO.com_jce_filemanager.ini</file>
@@ -37,7 +38,7 @@
 	<tinymce folder="tiny_mce">
 		<file>langs/nb.js</file>
 		<file>langs/nb_dlg.js</file>
-		<file>themes/advanced/langs/nb.js</file>
+		<!-- <file>themes/advanced/langs/nb.js</file> -->
 		<!-- <file>themes/advanced/langs/nb_dlg.js</file> -->
 		<!-- <file>plugins/article/langs/nb_dlg.js</file> -->
 		<!-- <file>plugins/browser/langs/nb_dlg.js</file> -->
