@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.5" type="file" method="upgrade">
+  <name>nb-NO VirtueMart språkpakke</name>
+  <version>2.0.20-1</version>
+  <creationDate>2013-05-13 00:56</creationDate>
+  <author>Joomla! i Norge</author>
+  <email>oversettelser@joomlainorge.no</email>
+  <authorUrl>http://www.joomlainorge.no</authorUrl>
+  <copyright>Copyright (C) 2006-2013 Joomla! i Norge. All rights reserved.</copyright>
+  <license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+  <description>Norwegian Bokmål (nb-NO) VirtueMart språkpakke</description>
+  <fileset>
+    <files target="administrator/language/nb-NO" folder="administrator/language/nb-NO">
+      <file>nb-NO.com_virtuemart.ini</file>
+      <file>nb-NO.com_virtuemart.sys.ini</file>
+      <file>nb-NO.com_virtuemart_countries.ini</file>
+      <file>nb-NO.com_virtuemart_media.ini</file>
+      <file>nb-NO.com_virtuemart_menu.ini</file>
+      <file>nb-NO.plg_search_virtuemart.ini</file>
+      <file>nb-NO.plg_vmcustom_specification.ini</file>
+      <file>nb-NO.plg_vmcustom_specification.sys.ini</file>
+      <file>nb-NO.plg_vmcustom_stockable.ini</file>
+      <file>nb-NO.plg_vmcustom_stockable.sys.ini</file>
+      <file>nb-NO.plg_vmcustom_textinput.ini</file>
+      <file>nb-NO.plg_vmcustom_textinput.sys.ini</file>
+      <file>nb-NO.plg_vmpayment_standard.ini</file>
+      <file>nb-NO.plg_vmpayment_standard.sys.ini</file>
+      <file>nb-NO.plg_vmshipment_weight_countries.ini</file>
+      <file>nb-NO.plg_vmshipment_weight_countries.sys.ini</file>
+    </files>
+    <files target="language/nb-NO" folder="language/nb-NO">
+      <file>nb-NO.com_virtuemart.ini</file>
+      <file>nb-NO.com_virtuemart.sys.ini</file>
+      <file>nb-NO.com_virtuemart_sef.ini</file>
+      <file>nb-NO.mod_virtuemart_cart.ini</file>
+      <file>nb-NO.mod_virtuemart_cart.sys.ini</file>
+      <file>nb-NO.mod_virtuemart_category.ini</file>
+      <file>nb-NO.mod_virtuemart_category.sys.ini</file>
+      <file>nb-NO.mod_virtuemart_currencies.ini</file>
+      <file>nb-NO.mod_virtuemart_currencies.sys.ini</file>
+      <file>nb-NO.mod_virtuemart_manufacturer.ini</file>
+      <file>nb-NO.mod_virtuemart_manufacturer.sys.ini</file>
+      <file>nb-NO.mod_virtuemart_product.ini</file>
+      <file>nb-NO.mod_virtuemart_product.sys.ini</file>
+      <file>nb-NO.mod_virtuemart_search.ini</file>
+      <file>nb-NO.mod_virtuemart_search.sys.ini</file>
+    </files>
+  </fileset>
+  <updateservers>
+    <server type="extension" priority="1" name="nb-NO VirtueMart språkpakke">http://update.joomlainorge.no/spraakfiler/update_virtuemart_nb_no.xml</server>
+  </updateservers>
+</extension>
