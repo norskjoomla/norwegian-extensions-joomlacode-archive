@@ -9,9 +9,29 @@ file_filter = admin/<lang>.com_virtuemart.ini
 source_file = admin_en-GB/en-GB.com_virtuemart.ini
 source_lang = en_GB
 
+[virtuemart.vm-admin-com_virtuemart_menu]
+file_filter = admin/<lang>.com_virtuemart_menu.ini
+source_file = admin_en-GB/en-GB.com_virtuemart_menu.ini
+source_lang = en_GB
+
 [virtuemart.vm-admin-com_virtuemart_sys]
 file_filter = admin/<lang>.com_virtuemart.sys.ini
 source_file = admin_en-GB/en-GB.com_virtuemart.sys.ini
+source_lang = en_GB
+
+[virtuemart.vm-admin-com_virtuemart_countries]
+file_filter = admin/<lang>.com_virtuemart_countries.ini
+source_file = admin_en-GB/en-GB.com_virtuemart_countries.ini
+source_lang = en_GB
+
+[virtuemart.vm-admin-com_virtuemart_media]
+file_filter = admin/<lang>.com_virtuemart_media.ini
+source_file = admin_en-GB/en-GB.com_virtuemart_media.ini
+source_lang = en_GB
+
+[virtuemart.vm-admin-plg_search_virtuemart]
+file_filter = admin/<lang>.plg_search_virtuemart.ini
+source_file = admin_en-GB/en-GB.plg_search_virtuemart.ini
 source_lang = en_GB
 
 [virtuemart.vm-admin-plg_vmcustom_specification]
@@ -95,8 +115,8 @@ source_file = site_en-GB/en-GB.com_virtuemart.ini
 source_lang = en_GB
 
 [virtuemart.vm-site-com_virtuemart_sef]
-file_filter = site/<lang>.com_virtuemart.sef.ini
-source_file = site_en-GB/en-GB.com_virtuemart.sef.ini
+file_filter = site/<lang>.com_virtuemart_sef.ini
+source_file = site_en-GB/en-GB.com_virtuemart_sef.ini
 source_lang = en_GB
 
 [virtuemart.vm-site-com_virtuemart_sys]
