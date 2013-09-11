@@ -5,179 +5,179 @@ minimum_perc = 0
 type = INI
 
 [jomsocial.mod_activegroups]
-file_filter = language/<lang>.mod_activegroups.ini
+file_filter = language/<lang>/<lang>.mod_activegroups.ini
 source_lang = en
 
 [jomsocial.mod_datingsearchini]
-file_filter = language/<lang>.mod_datingsearchini.ini
+file_filter = language/<lang>/<lang>.mod_datingsearch.ini
 source_lang = en
 
 [jomsocial.mod_hellome]
-file_filter = language/<lang>.mod_hellome.ini
+file_filter = language/<lang>/<lang>.mod_hellome.ini
 source_lang = en
 
 [jomsocial.mod_latestdiscussionini]
-file_filter = language/<lang>.mod_latestdiscussionini.ini
+file_filter = language/<lang>/<lang>.mod_latestdiscussion.ini
 source_lang = en
 
 [jomsocial.mod_latestgrouppostini]
-file_filter = language/<lang>.mod_latestgrouppostini.ini
+file_filter = language/<lang>/<lang>.mod_latestgrouppost.ini
 source_lang = en
 
 [jomsocial.mod_latestmembersini]
-file_filter = language/<lang>.mod_latestmembersini.ini
+file_filter = language/<lang>/<lang>.mod_latestmembers.ini
 source_lang = en
 
 [jomsocial.mod_onlineusersini]
-file_filter = language/<lang>.mod_onlineusersini.ini
+file_filter = language/<lang>/<lang>.mod_onlineusers.ini
 source_lang = en
 
 [jomsocial.mod_photocommentsini]
-file_filter = language/<lang>.mod_photocommentsini.ini
+file_filter = language/<lang>/<lang>.mod_photocomments.ini
 source_lang = en
 
 [jomsocial.mod_statistics]
-file_filter = language/<lang>.mod_statistics.ini
+file_filter = language/<lang>/<lang>.mod_statistics.ini
 source_lang = en
 
 [jomsocial.mod_topmembersini]
-file_filter = language/<lang>.mod_topmembersini.ini
+file_filter = language/<lang>/<lang>.mod_topmembers.ini
 source_lang = en
 
 [jomsocial.mod_videocomments]
-file_filter = language/<lang>.mod_videocomments.ini
+file_filter = language/<lang>/<lang>.mod_videocomments.ini
 source_lang = en
 
 [jomsocial.mod_notifyini]
-file_filter = language/<lang>.mod_notifyini.ini
+file_filter = language/<lang>/<lang>.mod_notify.ini
 source_lang = en
 
 [jomsocial.plg_community_events]
-file_filter = language/<lang>.plg_community_events.ini
+file_filter = language/<lang>/<lang>.plg_community_events.ini
 source_lang = en
 
 [jomsocial.plg_community_eventssysini]
-file_filter = language/<lang>.plg_community_eventssysini.ini
+file_filter = language/<lang>/<lang>.plg_community_events.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_feeds]
-file_filter = language/<lang>.plg_community_feeds.ini
+file_filter = language/<lang>/<lang>.plg_community_feeds.ini
 source_lang = en
 
 [jomsocial.plg_community_feedssysini]
-file_filter = language/<lang>.plg_community_feedssysini.ini
+file_filter = language/<lang>/<lang>.plg_community_feeds.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_friendslocationini]
-file_filter = language/<lang>.plg_community_friendslocationini.ini
+file_filter = language/<lang>/<lang>.plg_community_friendslocation.ini
 source_lang = en
 
 [jomsocial.plg_community_friendslocationsysini]
-file_filter = language/<lang>.plg_community_friendslocationsysini.ini
+file_filter = language/<lang>/<lang>.plg_community_friendslocation.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_inputsysini]
-file_filter = language/<lang>.plg_community_inputsysini.ini
+file_filter = language/<lang>/<lang>.plg_community_input.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_inputini]
-file_filter = language/<lang>.plg_community_inputini.ini
+file_filter = language/<lang>/<lang>.plg_community_input.ini
 source_lang = en
 
 [jomsocial.mod_latestgrouppostsysini]
-file_filter = language/<lang>.mod_latestgrouppostsysini.ini
+file_filter = language/<lang>/<lang>.mod_latestgrouppost.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_kunenagroupsini]
-file_filter = language/<lang>.plg_community_kunenagroupsini.ini
+file_filter = language/<lang>/<lang>.plg_community_kunenagroups.ini
 source_lang = en
 
 [jomsocial.plg_community_kunenamenuini]
-file_filter = language/<lang>.plg_community_kunenamenuini.ini
+file_filter = language/<lang>/<lang>.plg_community_kunenamenu.ini
 source_lang = en
 
 [jomsocial.plg_community_mykunenaini]
-file_filter = language/<lang>.plg_community_mykunenaini.ini
+file_filter = language/<lang>/<lang>.plg_community_mykunena.ini
 source_lang = en
 
 [jomsocial.plg_system_jomsocialconnectini]
-file_filter = language/<lang>.plg_system_jomsocialconnectini.ini
+file_filter = language/<lang>/<lang>.plg_system_jomsocialconnect.ini
 source_lang = en
 
 [jomsocial.plg_community_kunenaini]
-file_filter = language/<lang>.plg_community_kunenaini.ini
+file_filter = language/<lang>/<lang>.plg_community_kunena.ini
 source_lang = en
 
 [jomsocial.plg_system_jomsocialconnectsysini]
-file_filter = language/<lang>.plg_system_jomsocialconnectsysini.ini
+file_filter = language/<lang>/<lang>.plg_system_jomsocialconnect.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_kunenasysini]
-file_filter = language/<lang>.plg_community_kunenasysini.ini
+file_filter = language/<lang>/<lang>.plg_community_kunena.sys.ini
 source_lang = en
 
 [jomsocial.plg_system_jomsocialredirectini]
-file_filter = language/<lang>.plg_system_jomsocialredirectini.ini
+file_filter = language/<lang>/<lang>.plg_system_jomsocialredirect.ini
 source_lang = en
 
 [jomsocial.plg_system_jomsocialupdateini]
-file_filter = language/<lang>.plg_system_jomsocialupdateini.ini
+file_filter = language/<lang>/<lang>.plg_system_jomsocialupdate.ini
 source_lang = en
 
 [jomsocial.plg_community_latestphoto]
-file_filter = language/<lang>.plg_community_latestphoto.ini
+file_filter = language/<lang>/<lang>.plg_community_latestphoto.ini
 source_lang = en
 
 [jomsocial.plg_community_latestphotosys]
-file_filter = language/<lang>.plg_community_latestphotosys.ini
+file_filter = language/<lang>/<lang>.plg_community_latestphoto.sys.ini
 source_lang = en
 
 [jomsocial.plg_system_jomsocialupdatesysini]
-file_filter = language/<lang>.plg_system_jomsocialupdatesysini.ini
+file_filter = language/<lang>/<lang>.plg_system_jomsocialupdate.sys.ini
 source_lang = en
 
 [jomsocial.plg_user_jomsocialuserini]
-file_filter = language/<lang>.plg_user_jomsocialuserini.ini
+file_filter = language/<lang>/<lang>.plg_user_jomsocialuser.ini
 source_lang = en
 
 [jomsocial.plg_community_myarticles]
-file_filter = language/<lang>.plg_community_myarticles.ini
+file_filter = language/<lang>/<lang>.plg_community_myarticles.ini
 source_lang = en
 
 [jomsocial.plg_user_jomsocialusersysini]
-file_filter = language/<lang>.plg_user_jomsocialusersysini.ini
+file_filter = language/<lang>/<lang>.plg_user_jomsocialuser.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_myarticlessys]
-file_filter = language/<lang>.plg_community_myarticlessys.ini
+file_filter = language/<lang>/<lang>.plg_community_myarticles.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_mycontactsini]
-file_filter = language/<lang>.plg_community_mycontactsini.ini
+file_filter = language/<lang>/<lang>.plg_community_mycontacts.ini
 source_lang = en
 
 [jomsocial.plg_community_mycontactssysini]
-file_filter = language/<lang>.plg_community_mycontactssysini.ini
+file_filter = language/<lang>/<lang>.plg_community_mycontacts.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_mygoogleadsini]
-file_filter = language/<lang>.plg_community_mygoogleadsini.ini
+file_filter = language/<lang>/<lang>.plg_community_mygoogleads.ini
 source_lang = en
 
 [jomsocial.plg_community_mygoogleadssysini]
-file_filter = language/<lang>.plg_community_mygoogleadssysini.ini
+file_filter = language/<lang>/<lang>.plg_community_mygoogleads.sys.ini
 source_lang = en
 
 [jomsocial.com_community]
-file_filter = language/<lang>.com_community.ini
+file_filter = language/<lang>/<lang>.com_community.ini
 source_lang = en
 
 [jomsocial.plg_community_mytaggedvideosini]
-file_filter = language/<lang>.plg_community_mytaggedvideosini.ini
+file_filter = language/<lang>/<lang>.plg_community_mytaggedvideos.ini
 source_lang = en
 
 [jomsocial.plg_community_mytaggedvideossysini]
-file_filter = language/<lang>.plg_community_mytaggedvideossysini.ini
+file_filter = language/<lang>/<lang>.plg_community_mytaggedvideos.sys.ini
 source_lang = en
 
 [jomsocial.admin_com_community]
@@ -189,42 +189,42 @@ file_filter = admin/<lang>.com_community_menu.ini
 source_lang = en
 
 [jomsocial.plg_community_myvideosini]
-file_filter = language/<lang>.plg_community_myvideosini.ini
+file_filter = language/<lang>/<lang>.plg_community_myvideos.ini
 source_lang = en
 
 [jomsocial.admin_com_community_sys]
-file_filter = admin/<lang>.com_community_sys.ini
+file_filter = admin/<lang>.com_community.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_myvideossysini]
-file_filter = language/<lang>.plg_community_myvideossysini.ini
+file_filter = language/<lang>/<lang>.plg_community_myvideos.sys.ini
 source_lang = en
 
 [jomsocial.admin_en-gbcommunitysys]
-file_filter = admin/<lang>.en-gbcommunitysys.ini
+file_filter = admin/<lang>.community.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_twitterini]
-file_filter = language/<lang>.plg_community_twitterini.ini
+file_filter = language/<lang>/<lang>.plg_community_twitter.ini
 source_lang = en
 
 [jomsocial.plg_community_twittersysini]
-file_filter = language/<lang>.plg_community_twittersysini.ini
+file_filter = language/<lang>/<lang>.plg_community_twitter.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_wallsini]
-file_filter = language/<lang>.plg_community_wallsini.ini
+file_filter = language/<lang>/<lang>.plg_community_walls.ini
 source_lang = en
 
 [jomsocial.en-gbplg_community_wallssysini]
-file_filter = language/<lang>.en-gbplg_community_wallssysini.ini
+file_filter = language/<lang>/<lang>.plg_community_walls.sys.ini
 source_lang = en
 
 [jomsocial.plg_community_wordfilterini]
-file_filter = language/<lang>.plg_community_wordfilterini.ini
+file_filter = language/<lang>/<lang>.plg_community_wordfilter.ini
 source_lang = en
 
 [jomsocial.plg_community_wordfiltersysini]
-file_filter = language/<lang>.plg_community_wordfiltersysini.ini
+file_filter = language/<lang>/<lang>.plg_community_wordfilter.sys.ini
 source_lang = en
 
