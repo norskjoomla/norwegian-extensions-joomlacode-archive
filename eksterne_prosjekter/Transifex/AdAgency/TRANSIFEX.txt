@@ -1,0 +1,3 @@
+https://www.transifex.com/projects/p/ad-agency/language/no/
+
+tx pull må gjøres med 'no' i stedenfor 'nb-NO'

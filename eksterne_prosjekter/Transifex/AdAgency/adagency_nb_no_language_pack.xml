@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id:  $ -->
+<extension type="file" version="2.5" method="upgrade">
+  <name>FILES_AGAGENCY_NB_NO_LANGUAGE_PACK</name>
+  <author>Joomla! i Norge</author>
+  <authorEmail>oversettelser@joomlainorge.no</authorEmail>
+  <authorUrl>www.joomlainorge.no</authorUrl>
+  <copyright>Copyright (C) 2011 - 2013 Joomla! i Norge. All rights reserved.</copyright>
+  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+  <version>3.1.8</version>
+  <creationDate>10.10.2013</creationDate>
+  <description>FILES_AGAGENCY_NB_NO_LANGUAGE_PACK_DESC</description>
+  <fileset>
+    <!-- administrator language folder -->
+    <files folder="admin" target="administrator/language/nb-NO">
+      <filename>nb_NO.com_adagency.ini</filename>
+      <filename>nb_NO.com_adagency.sys.ini</filename>
+    </files>
+    <!-- site language folder -->
+    <files folder="language/nb-NO" target="language/nb-NO">
+      <filename>nb_NO.com_adagency.ini</filename>
+      <filename>nb_NO.mod_ijoomla_adagency_cpanel.ini</filename>
+      <filename>nb_NO.mod_ijoomla_adagency_geo.ini</filename>
+      <filename>nb_NO.mod_ijoomla_adagency_menu.ini</filename>
+      <filename>nb_NO.mod_ijoomla_adagency_zone.ini</filename>
+      <filename>nb-NO.files_adagency_nb_no_language_pack.sys.ini</filename>
+    </files>
+    <files folder="language/en-GB" target="language/en-GB">
+      <filename>en-GB.files_adagency_nb_no_language_pack.sys.ini</filename>
+    </files>
+  </fileset>
+</extension>
