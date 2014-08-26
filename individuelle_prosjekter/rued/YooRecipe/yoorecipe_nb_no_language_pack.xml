@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id:  $ -->
+<extension type="file" version="2.5" method="upgrade">
+  <name>FILES_YOORECIPE_NB_NO_LANGUAGE_PACK</name>
+  <author>Rune Rasmussen</author>
+  <authorEmail>oversettelser@syntaxerror.no</authorEmail>
+  <authorUrl>www.syntaxerror.no</authorUrl>
+  <copyright>Copyright (C) 2014 Rune Rasmussen. All rights reserved.</copyright>
+  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+  <version>4.0.2</version>
+  <creationDate>2014.08.26</creationDate>
+  <description>FILES_YOORECIPE_NB_NO_LANGUAGE_PACK_DESC</description>
+  <fileset>
+    <!-- administrator language folder -->
+    <files folder="admin" target="administrator/language/nb-NO">
+      <filename>nb-NO.com_yoorecipe.ini</filename>
+      <filename>nb-NO.com_yoorecipe.sys.ini</filename>
+      <filename>nb-NO.plg_search_yoorecipe.ini</filename>
+      <filename>nb-NO.plg_search_yoorecipe.sys.ini</filename>
+      <filename>nb-NO.plg_xmap_com_yoorecipe.ini</filename>
+    </files>
+    <!-- site language folder -->
+    <files folder="language/nb-NO" target="language/nb-NO">
+      <filename>nb-NO.com_yoorecipe.ini</filename>
+      <filename>nb-NO.com_yoorecipe.sys.ini</filename>
+      <filename>nb-NO.mod_yoorecipe.ini</filename>
+      <filename>nb-NO.mod_yoorecipe.sys.ini</filename>
+      <filename>nb-NO.mod_yoorecipe_categories.ini</filename>
+      <filename>nb-NO.mod_yoorecipe_categories.sys.ini</filename>
+      <!--<filename>nb-NO.mod_yoorecipe_favourites.ini</filename>
+      <filename>nb-NO.mod_yoorecipe_favourites.sys.ini</filename>-->
+      <filename>nb-NO.mod_yoorecipe_gallery.ini</filename>
+      <filename>nb-NO.mod_yoorecipe_gallery.sys.ini</filename>
+      <!--<filename>nb-NO.mod_yoorecipe_single.ini</filename>
+      <filename>nb-NO.mod_yoorecipe_single.sys.ini</filename>-->
+      <filename>nb-NO.files_yoorecipe_nb_no_language_pack.sys.ini</filename>
+    </files>
+    <files folder="language/en-GB" target="language/en-GB">
+      <filename>en-GB.files_yoorecipe_nb_no_language_pack.sys.ini</filename>
+    </files>
+  </fileset>
+</extension>
