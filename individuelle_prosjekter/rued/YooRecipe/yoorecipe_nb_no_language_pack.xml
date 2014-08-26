@@ -12,7 +12,7 @@
   <description>FILES_YOORECIPE_NB_NO_LANGUAGE_PACK_DESC</description>
   <fileset>
     <!-- administrator language folder -->
-    <files folder="admin" target="administrator/language/nb-NO">
+    <files folder="administrator/language/nb-NO" target="administrator/language/nb-NO">
       <filename>nb-NO.com_yoorecipe.ini</filename>
       <filename>nb-NO.com_yoorecipe.sys.ini</filename>
       <filename>nb-NO.plg_search_yoorecipe.ini</filename>
