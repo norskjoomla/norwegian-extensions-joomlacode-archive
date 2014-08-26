@@ -22,7 +22,7 @@
     <!-- site language folder -->
     <files folder="language/nb-NO" target="language/nb-NO">
       <filename>nb-NO.com_yoorecipe.ini</filename>
-      <filename>nb-NO.com_yoorecipe.sys.ini</filename>
+      <!--<filename>nb-NO.com_yoorecipe.sys.ini</filename>-->
       <filename>nb-NO.mod_yoorecipe.ini</filename>
       <filename>nb-NO.mod_yoorecipe.sys.ini</filename>
       <filename>nb-NO.mod_yoorecipe_categories.ini</filename>
